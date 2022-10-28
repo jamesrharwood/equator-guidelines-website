@@ -1,0 +1,177 @@
+---
+pagetitle: "EQUATOR Guidelines"
+page-layout: custom
+section-divs: false
+toc: false
+css: "css/index.css"
+editor: source
+description: | 
+  Resources to help academics write-up confidently and transparently.
+include-in-header:
+    - scripts/search-shortcut.html
+---
+
+
+::: {.hero-banner}
+::: {.content-block}
+
+# Est adipisicing laboris fugiat ipsum in eu
+
+#### Nostrud deserunt laborum ullamco ipsum velit in ipsum in est aliquip veniam irure tempor. Ad laboris cillum deserunt eu ut minim minim sunt.
+
+::: {.hero-buttons}
+[Search](){.search-shortcut .btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[Guidance finder quiz](){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+::: 
+
+### Frequently accessed guidelines
+
++-----------------------------------------------------------------------+--------------------------------------------+
+|<abbr title='Short definition here'>Occaecat consectetur</abbr>        |[Lorem ipsum (ABCDE)](ABCDE.qmd)            |
+|                                                                       |                                            |
+|                                                                       |[Laborum ullamco ipsum (BCFDE)](ABCDE.qmd)  |
+|                                                                       |                                            |
+|                                                                       |[Ad laboris cillum (Cd-EFG)](ABCDE.qmd)     |
++-----------------------------------------------------------------------+--------------------------------------------+
+|<abbr title='Short definition here'>Irure proident</abbr>              |[Lorem ipsum (DEFGH)](ABCDE.qmd)            |
+|                                                                       |                                            |
+|                                                                       |[Laborum ullamco ipsum (EFGHI)](ABCDE.qmd)  |
+|                                                                       |                                            |
+|                                                                       |[Ad laboris cillum (FGHI-J)](ABCDE.qmd)     |
++-----------------------------------------------------------------------+--------------------------------------------+
+|<abbr title='Short definition of this'>Velit magna</abbr>              |[Ullamco ipsum (GHIJK)](ABCDE.qmd)          |
+|                                                                       |                                            |
+|                                                                       |[Laborum ullamco ipsum (HIJKL)](ABCDE.qmd)  |
++-----------------------------------------------------------------------+--------------------------------------------+
+|<abbr title='Short definition of this'>Enim ipsum</abbr>               |[Lorem ipsum (IJKLM)](ABCDE.qmd)            |
+|                                                                       |                                            |
+|                                                                       |[Laborum ullamco ipsum (JKLMN)](ABCDE.qmd)  |
+|                                                                       |                                            |
+|                                                                       |[Laboris cillum (KLMNO)](ABCDE.qmd)         |
+|                                                                       |                                            |
+|                                                                       |[Cillum deserunt eu (LMNOP)](ABCDE.qmd)     |
+|                                                                       |                                            |
+|                                                                       |[Deserunt eu cillum (MNOPQ)](ABCDE.qmd)     |
++-----------------------------------------------------------------------+--------------------------------------------+
+|<abbr title='Short definition'>Reprehenderit reprehenderit</abbr>      |[Lorem ipsum (NOPQR)](ABCDE.qmd)            |
++-----------------------------------------------------------------------+--------------------------------------------+
+|<abbr title='Short definition of this'>Cillum ad amet</abbr>           |[Lorem ipsum (OPQRS)](ABCDE.qmd)            |
++-----------------------------------------------------------------------+--------------------------------------------+
+
+
+::: 
+::: 
+
+
+::: {.content-block}
+
+## What are reporting guidelines?
+
+Tempor ullamco enim est ullamco minim minim enim aliquip ullamco eu amet eu proident aute. Ullamco duis qui sint enim exercitation dolor esse. Consectetur consequat consequat elit exercitation commodo exercitation. Sit esse qui dolore Lorem amet ipsum reprehenderit dolore Lorem nostrud Lorem voluptate.
+
+::: {.features}
+
+::: {.feature}
+### Planning research
+Aliqua mollit et consequat ullamco incididunt cillum tempor ipsum sit aute consectetur minim dolor veniam. Quis magna occaecat ex amet non ut in sunt commodo exercitation veniam dolore.
+
+::: {.learn-more}
+[Learn more »]()
+:::
+:::
+
+::: {.feature}
+### Drafting manuscripts
+Laborum ullamco officia veniam do nostrud consectetur ipsum enim enim laborum sit. Eu proident ad nostrud aliquip in magna nisi proident reprehenderit enim reprehenderit mollit aliquip.
+
+::: {.learn-more}
+[Learn more »]()
+:::
+:::
+
+::: {.feature}
+### Checking manuscripts
+Esse et voluptate cupidatat minim dolor. Laborum ea dolore velit cillum laborum sunt minim aliqua aliquip. Occaecat velit dolor sint nostrud sit aute deserunt aute sint. Enim cillum incididunt et elit mollit consequat ut occaecat.
+
+::: {.learn-more}
+[Learn more »]()
+:::
+:::
+
+:::
+:::
+
+::: {.alt-background}
+::: {.content-block}
+
+## Benefits
+
+::: {.features}
+
+::: {.feature}
+### Benefit 1
+Commodo in qui enim magna dolor labore voluptate ipsum nostrud ullamco commodo eiusmod velit.
+
+::: {.learn-more}
+[Learn more »]()
+:::
+:::
+
+::: {.feature}
+### Benefit 2
+Labore aute nulla esse voluptate labore do culpa non velit culpa.
+
+::: {.learn-more}
+[Learn more »]()
+:::
+:::
+
+::: {.feature}
+### Benefit 3
+Culpa ipsum qui minim aute quis non sint nulla.
+
+::: {.learn-more}
+[Learn more »]()
+:::
+:::
+
+:::
+:::
+:::
+
+::: {.about-equator}
+::: {.content-block}
+
+## The EQUATOR Network
+
+::: {.grid}
+
+::: {.g-col-md-8 .g-col-12}
+Aliqua culpa ut ut tempor. Proident minim magna dolore enim tempor consequat proident sunt aliqua irure [about EQUATOR]()
+
+Voluptate amet ullamco sit [training]() sit aliquip id nulla consectetur [resources]() eu sint qui voluptate.
+
+Mollit culpa velit excepteur deserunt. Ipsum do ullamco cillum eiusmod sint quis [UK](), [Canada](), [Australia](), [France](), and [China](). 
+:::
+
+::: {.g-col-md-4 .g-col-12}
+
+![](https://via.placeholder.com/200)
+
+:::
+
+:::
+:::
+:::
+
+::: {.alt-background}
+::: {.get-started}
+::: {.content-block}
+
+### Veniam eu aute cupidatat nostrud esse id laborum duis.
+
+[Search for guidance](){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
+
+:::
+:::
+:::

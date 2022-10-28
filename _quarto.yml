@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  image: "assets/equator_logo.png"
+  favicon: "assets/favicons/equator-network-16x16.png"
+  navbar:
+    background: light
+    logo: "assets/equator_logo.png"
+    left:
+      - href: index.qmd
+        text: Reporting Guidelines
+      - text: Aliquip proident
+        menu: 
+          - text: Commodo laboris
+            href: index.qmd
+          - text: Excepteur laborum
+            href: index.qmd
+          - text: Occaecat velit
+            href: index.qmd
+      - text: Ullamco
+        menu: 
+          - text: Minim
+            href: index.qmd
+          - text: Esse ullamco
+            href: index.qmd
+          - text: Fugiat
+            href: index.qmd
+  page-footer:
+    left: |
+      Proudly created by the
+      [UK EQUATOR Centre](https://www.equator-network.org/about-us/uk-equator-centre/)
+    center:
+      - text: "About"
+        href: about
+      - text: "License"
+        href: lisence
+      - text: "Privacy Policy"
+        href: privacy
+    right:
+      - icon: twitter
+        href: https://twitter.com/equatornetwork
+        aria-label: Quarto Twitter
+      - icon: github
+        aria-label: EQUATOR GitHub
+        href: github
+
+format:
+  html:
+    theme: cosmo
+    css: "css/styles.css"
+    toc: true
+    toc-location: left
+    toc-depth: 4
+    section-divs: true
