@@ -6,7 +6,7 @@ toc: false
 css: "css/index.css"
 editor: source
 description: | 
-  Resources to help academics write-up confidently and transparently.
+  Est aliqua et labore elit laborum.
 include-in-header:
     - scripts/search-shortcut.html
 ---

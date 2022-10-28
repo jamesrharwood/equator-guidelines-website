@@ -6,7 +6,7 @@ keywords: "CONSORT guidelines guidance writing how to write draft edit"
 license: CC BY
 pagetitle: "The ABCDE guidelines for reporting"
 title-prefix: ABCDE
-description-meta: "Description for search engines  and social media"
+description-meta: "Description for search engines and social media"
 author-meta: "Authors information for search engines and social media"
 title-block-banner: true
 smooth-scroll: true
