@@ -11,7 +11,9 @@ author-meta: "Authors information for search engines and social media"
 title-block-banner: true
 smooth-scroll: true
 lang: en-GB
-css: styles.css
+css: 
+  - styles.css
+  - index.css
 from: markdown+raw_html+markdown_in_html_blocks
 link-external-icon: true
 citation:
@@ -34,6 +36,7 @@ google-scholar: true
 ---
 
 ## Resources
+
 <button type="button" class="btn btn-primary btn-lg">Nostrud</button>
 <button type="button" class="btn btn-primary btn-lg">Laboris</button>
 <button type="button" class="btn btn-primary btn-lg">Deserunt</button>
@@ -93,23 +96,25 @@ TEMPLATE = \
 """
 #### {idx}. {title}
 
-Describe <span class="defined" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">irure sint ipsum aute eiusmod</span> irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea <abbr title='Here is a definition. Just a short sentence or two.'>exercitation elit Lorem ullamco</abbr> proident reprehenderit. Ipsum consequat nisi ullamco consectetur anim voluptate. 
+Describe <span class="defined" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample" role="button">irure sint ipsum aute eiusmod</span> irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea <abbr title='Here is a definition. Just a short sentence or two.'>exercitation elit Lorem ullamco</abbr> proident reprehenderit. Ipsum consequat nisi ullamco consectetur anim voluptate. 
 
 If you **did not** do irure sint ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.
 
 If [applicability criteria not met], describe nisi ullamco consectetur anim.
 
+**Save words:** Ex anim do quis magna nisi sit ipsum commodo minim.
+
 ::: {{.callout-note appearance="minimal" collapse=true}}
 
-## Why readers need this information
+## Read more
 
-Et fugiat velit consequat sunt officia sit veniam officia. Exercitation est nisi ex deserunt laboris reprehenderit ut sit nisi. Veniam culpa quis pariatur id consectetur labore aliquip ut exercitation duis velit. Sunt laborum anim do proident proident qui enim veniam aliquip qui occaecat occaecat. Eu cillum dolore aliquip voluptate et aliquip minim aute. Deserunt eu amet occaecat adipisicing sint cupidatat duis excepteur et aliqua excepteur. Do enim exercitation culpa enim in velit ullamco.
+Jump to:
 
-:::
+* [Examples](#sec-1-{idx})
+* [Why readers need this information](#sec-2-{idx})
+* [Design and appraisal resources](#sec-3-{idx})
 
-::: {{.callout-note appearance="minimal" icon=false collapse=true}}
-
-## Examples
+## Examples {{#sec-1-{idx}}}
 
 ✅&nbsp;&nbsp;**Good reporting**
 
@@ -125,11 +130,11 @@ This example is bad because it is missing X, Y, Z.
 
 > Eu cillum dolore ullamco.
 
-:::
+## Why readers need this information {{#sec-2-{idx}}}
 
-::: {{.callout-note appearance="minimal" icon=false collapse=true}}
+Et fugiat velit consequat sunt officia sit veniam officia. Exercitation est nisi ex deserunt laboris reprehenderit ut sit nisi. Veniam culpa quis pariatur id <span class="defined" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample" role="button">consectetur labore</span> aliquip ut exercitation duis velit. Sunt laborum anim do proident proident qui enim veniam aliquip qui occaecat occaecat. Eu cillum dolore aliquip voluptate et aliquip minim aute. Deserunt eu amet occaecat adipisicing sint cupidatat duis excepteur et aliqua excepteur. Do enim exercitation culpa enim in velit ullamco.
 
-## Design advice and extra resouces
+## Design advice and extra resouces {{#sec-3-{idx}}}
 
 Design advice:
 
