@@ -37,9 +37,24 @@ google-scholar: true
 
 ## Resources
 
-<button type="button" class="btn btn-primary btn-lg">Nostrud</button>
-<button type="button" class="btn btn-primary btn-lg">Laboris</button>
-<button type="button" class="btn btn-primary btn-lg">Deserunt</button>
+::: {.grid}
+
+::: {.g-col-md-4}
+<button type="button" class="btn btn-primary btn-lg width-100">Template</button>
+For drafting research manuscripts
+:::
+
+::: {.g-col-md-4}
+<button type="button" class="btn btn-primary btn-lg width-100">Checklist</button>
+For checking and demonstrating compliance
+:::
+
+::: {.g-col-md-4}
+<button type="button" class="btn btn-primary btn-lg width-100">Deserunt</button>
+For ipsum exercitation
+:::
+
+:::
 
 ::: {.citations-counter}
 <span class="__dimensions_badge_embed__" data-doi="10.1001/jama.2016.9797" data-legend="never" data-style="large_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -120,7 +135,11 @@ Jump to:
 
 > Et fugiat velit consequat sunt officia sit veniam officia. Exercitation est nisi ex deserunt laboris reprehenderit ut sit nisi. Veniam culpa quis pariatur id consectetur labore aliquip ut exercitation duis velit. Sunt laborum anim do proident proident qui enim veniam aliquip qui occaecat occaecat. 
 
-> Eu cillum dolore aliquip voluptate et aliquip minim aute. Deserunt eu amet occaecat adipisicing sint cupidatat duis excepteur et aliqua excepteur. Do enim exercitation culpa enim in velit ullamco.
+This example is good because...
+
+> Eu cillum dolore aliquip voluptate et aliquip minim aute. Deserunt eu.
+
+This example is good because...
 
 ❌&nbsp;&nbsp;**Bad reporting**
 

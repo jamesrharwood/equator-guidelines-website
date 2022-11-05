@@ -5,27 +5,39 @@ project:
 website:
   image: "assets/equator_logo.png"
   favicon: "assets/favicons/equator-network-16x16.png"
+  search: false
   navbar:
     background: light
     logo: "assets/equator_logo.png"
+    right:
+      - href: https://www.equator-network.org/reporting-guidelines/
+        icon: search
     left:
       - href: index.qmd
         text: Reporting Guidelines
-      - text: Aliquip proident
+      - href: https://www.equator-network.org/category/events/upcoming-events/
+        text: Training
+      - text: Other Resources
         menu: 
-          - text: Commodo laboris
+          - text: Toolkits
             href: index.qmd
-          - text: Excepteur laborum
+          - text: Library
             href: index.qmd
-          - text: Occaecat velit
+          - text: Resources for Publishers
             href: index.qmd
-      - text: Ullamco
+          - text: Resources for Guideline Developers
+            href: index.qmd
+          - text: Resources for Librarians
+            href: index.qmd
+      - text: About EQUATOR
         menu: 
-          - text: Minim
+          - text: The EQUATOR Network
             href: index.qmd
-          - text: Esse ullamco
+          - text: Blog
             href: index.qmd
-          - text: Fugiat
+          - text: News
+            href: index.qmd
+          - text: Contact
             href: index.qmd
   page-footer:
     left: |

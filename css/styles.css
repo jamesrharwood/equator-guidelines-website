@@ -29,7 +29,10 @@ abbr {
     margin-right: 0;
   }
   
-  
+.width-100 {
+  width: 100%;
+}
+
   @media (min-width: 1020px) {
   .navbar-brand-container {
     margin-right: 1em;

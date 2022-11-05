@@ -17,14 +17,14 @@ include-in-header:
 
 # Est adipisicing laboris fugiat ipsum in eu
 
-#### Nostrud deserunt laborum ullamco ipsum velit in ipsum in est aliquip veniam irure tempor. Ad laboris cillum deserunt eu ut minim minim sunt.
+#### A brief explanation of the benefits of RGs, what they are and how to use them. Could also introduce EQUATOR.
 
 ::: {.hero-buttons}
-[Search](){.search-shortcut .btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[Search](https://www.equator-network.org/reporting-guidelines/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
 [Guidance finder quiz](){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
 ::: 
 
-### Frequently accessed guidelines
+### Frequently accessed reporting guidelines
 
 +-----------------------------------------------------------------------+--------------------------------------------+
 |<abbr title='Short definition here'>Occaecat consectetur</abbr>        |[Lorem ipsum (ABCDE)](ABCDE.qmd)            |
@@ -57,6 +57,8 @@ include-in-header:
 +-----------------------------------------------------------------------+--------------------------------------------+
 |<abbr title='Short definition of this'>Cillum ad amet</abbr>           |[Lorem ipsum (OPQRS)](ABCDE.qmd)            |
 +-----------------------------------------------------------------------+--------------------------------------------+
+
+[Browse reporting guidelines by speciality](https://www.equator-network.org/library/browse-reporting-guidelines-by-specialty/)
 
 
 ::: 
