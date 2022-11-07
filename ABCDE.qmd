@@ -1,19 +1,15 @@
 ---
-title: "The ABCDE guidelines for writing-up<br>XYZ"
-subtitle: "Ea ea velit dolore exercitation reprehenderit reprehenderit aute elit eu proident voluptate commodo adipisicing."
 container-author: John Smith
-keywords: "CONSORT guidelines guidance writing how to write draft edit"
-license: CC BY
+keywords: "ABCDE guidelines guidance writing how to write draft edit"
 pagetitle: "The ABCDE guidelines for reporting"
 title-prefix: ABCDE
 description-meta: "Description for search engines and social media"
 author-meta: "Authors information for search engines and social media"
-title-block-banner: true
 smooth-scroll: true
 lang: en-GB
 css: 
-  - styles.css
-  - index.css
+  - css/index.css
+  - css/styles.css
 from: markdown+raw_html+markdown_in_html_blocks
 link-external-icon: true
 citation:
@@ -35,29 +31,20 @@ citation:
 google-scholar: true
 ---
 
-## Resources
+::: {.hero-banner}
+::: {.content-block}
 
-::: {.grid}
+# The ABCDE guidelines for writing XYZ
 
-::: {.g-col-md-4}
-<button type="button" class="btn btn-primary btn-lg width-100">Template</button>
-For drafting research manuscripts
-:::
-
-::: {.g-col-md-4}
-<button type="button" class="btn btn-primary btn-lg width-100">Checklist</button>
-For checking and demonstrating compliance
-:::
-
-::: {.g-col-md-4}
-<button type="button" class="btn btn-primary btn-lg width-100">Deserunt</button>
-For ipsum exercitation
-:::
-
-:::
+::: {.section}
+Ea ea velit dolore exercitation reprehenderit reprehenderit aute elit eu proident voluptate commodo adipisicing.
 
 ::: {.citations-counter}
 <span class="__dimensions_badge_embed__" data-doi="10.1001/jama.2016.9797" data-legend="never" data-style="large_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+:::
+:::
+
+:::
 :::
 
 ## When to use this guidance
@@ -67,6 +54,9 @@ Use this guidance for:
 
 * Est qui <abbr title='Here is a definition. Just a short sentence or two.'>exercitation</abbr> est commodo irure
 * Culpa ipsum exercitation culpa ea deserunt.
+* Use a [template](#download-resources) for drafting
+* Use a [checklist](#download-resources) to check and demonstrate compliance
+* Use a [to-do list](#download-resources) for planning a manuscript
 
 It can also be used for:
 
@@ -95,6 +85,33 @@ For **appraising** research consider:
 * [resource](https://www.google.com)
 :::
 
+## Download Resources
+
+::: {.grid}
+
+::: {.g-col-md-4 .g-col-sm-6}
+::: {.download-text}
+For drafting
+:::
+<button type="button" class="btn btn-primary btn-lg width-100">Template</button>
+:::
+
+::: {.g-col-md-4 .g-col-sm-6}
+::: {.download-text}
+For checking
+:::
+<button type="button" class="btn btn-primary btn-lg width-100">Checklist</button>
+:::
+
+::: {.g-col-md-4 .g-col-sm-6}
+::: {.download-text}
+For planning
+:::
+<button type="button" class="btn btn-primary btn-lg width-100">To-do list</button>
+:::
+
+:::
+
 ## Guidance
 
 <small>Approx. 7 min read</small>
@@ -109,15 +126,25 @@ IPSUM = "Pariatur occaecat commodo sint ea laborum voluptate ut veniam voluptate
 SECTIONS = ['Introduction', 'Methods', 'Results', 'Discussion']
 TEMPLATE = \
 """
+
+::: {{.grid}}
+::: {{.g-col-9}}
 #### {idx}. {title}
+:::
+::: {{.g-col-3}}
+::: {{.section .chat-button}}
+[<i class="bi-chat-right-text" data-bs-toggle="offcanvas" href="#offcanvasChat" aria-controls="offcanvasChat" role="button"></i>]{{.btn}}
+:::
+:::
+:::
 
 Describe <span class="defined" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample" role="button">irure sint ipsum aute eiusmod</span> irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea <abbr title='Here is a definition. Just a short sentence or two.'>exercitation elit Lorem ullamco</abbr> proident reprehenderit. Ipsum consequat nisi ullamco consectetur anim voluptate. 
 
-If you **did not** do irure sint ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.
+**If you did not do irure sint** ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.
 
-If [applicability criteria not met], describe nisi ullamco consectetur anim.
+**If [applicability criteria not met]**, describe nisi ullamco consectetur anim.
 
-**Save words:** Ex anim do quis magna nisi sit ipsum commodo minim.
+You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs. discoverability].
 
 ::: {{.callout-note appearance="minimal" collapse=true}}
 
@@ -165,7 +192,10 @@ How to do this item:
 * [resource]()
 * [resource]()
 
-Training: [Link to training]()
+Training: 
+
+* [Link to relevant EQUATOR training]()
+* [Link to other relevant training](https://www.google.com)
 
 :::
 
@@ -185,6 +215,10 @@ for sec_idx, section in enumerate(SECTIONS):
 
 Excepteur deserunt mollit enim fugiat reprehenderit. Fugiat veniam sunt nulla ullamco. Nisi nulla quis cillum occaecat reprehenderit amet exercitation proident. Et et et proident magna fugiat velit do occaecat in nulla. Deserunt adipisicing veniam id ex anim enim mollit proident ad duis magna. Ipsum officia laborum ad eiusmod culpa ullamco. Fugiat incididunt incididunt ex quis labore consectetur velit officia cupidatat aute quis ex incididunt.
 
+### Publications related to this guidance
+
+View all related publications in the [EQUATOR database]().
+
 ### Pariatur proident minim
 
 Incididunt voluptate fugiat aliqua esse. Esse ex voluptate anim aliqua voluptate consectetur minim. Nostrud nisi culpa magna quis Lorem do pariatur esse do ipsum amet velit. Excepteur cillum pariatur Lorem consequat et reprehenderit esse magna fugiat enim. Laboris magna et deserunt pariatur cupidatat culpa eu elit. Cillum consequat non nisi eu. Occaecat proident incididunt proident ea voluptate. Ex velit qui eu cillum.
@@ -193,23 +227,16 @@ Incididunt voluptate fugiat aliqua esse. Esse ex voluptate anim aliqua voluptate
 
 Id quis irure eu officia qui. Qui occaecat anim enim nisi ullamco in do veniam incididunt culpa deserunt fugiat. Ut excepteur consectetur fugiat occaecat sit. Qui irure adipisicing sint nisi minim consectetur commodo. Mollit ad ad ipsum quis exercitation anim anim. Commodo aliquip irure ad consectetur.
 
+## Training and Support
 
+Esse aute consectetur mollit non pariatur deserunt occaecat elit officia. Deserunt amet est eu id qui in aliquip sunt commodo minim dolor. Dolor adipisicing ea sunt sit eiusmod mollit. Quis consequat occaecat nisi enim labore pariatur eu. Ipsum aliqua cillum dolore ipsum consequat. Dolor in ad sit commodo ipsum laboris Lorem qui exercitation amet do nulla. Eu in excepteur ad deserunt.
 
+* [Aute pariatur excepteur](https://www.google.com)
+* [Tempor cupidatat](https://www.google.com) 
+* Elit ea [adipisicing dolore](https://www.google.com).
 
+## Citation
 
-<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-<div class="offcanvas-header">
-<h5 class="offcanvas-title" id="offcanvasExampleLabel">Irure sint ipsum aute eiusmod</h5>
-<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-</div>
-<div class="offcanvas-body">
-<div>
-Qui duis consequat nisi anim ullamco officia dolore ut sunt. Consequat ad elit ex fugiat in eiusmod incididunt elit id ullamco. Quis ut minim et elit adipisicing ad cupidatat. Cupidatat dolore voluptate do qui consectetur adipisicing nulla. Ad pariatur nostrud culpa culpa nulla ex dolore elit ullamco exercitation occaecat occaecat ipsum. Lorem tempor elit ullamco amet id irure mollit ullamco eiusmod et nisi consequat qui pariatur. Enim qui adipisicing cupidatat consectetur amet deserunt proident duis occaecat esse fugiat enim.
+Excepteur excepteur nulla excepteur Lorem incididunt ex velit quis excepteur et enim. Ad excepteur cillum non ipsum ad est ea cillum et dolore commodo elit laborum do. Lorem magna occaecat laboris nulla sint esse excepteur.
 
-[Learn more](https:www.google.com)
-</div>
-</div>
-</div>
-
-
-
+{{< include offcanvas.html >}}

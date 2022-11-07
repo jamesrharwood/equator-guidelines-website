@@ -33,6 +33,10 @@ abbr {
   width: 100%;
 }
 
+.hero-banner p {
+  font-size: 1.1rem;
+}
+
   @media (min-width: 1020px) {
   .navbar-brand-container {
     margin-right: 1em;
@@ -330,4 +334,15 @@ abbr {
   .download-text {
     font-size: 1.1em;
     font-weight: 500;  
+    margin-bottom: 0.5rem;
+  }
+
+  .chat-button {
+    margin-top: 1.5rem;
+    margin-bottom: 0,5rem;
+    text-align: right;
+  }
+
+  .chat-button p {
+    margin-bottom: 0rem;
   }
