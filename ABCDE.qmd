@@ -89,21 +89,21 @@ For **appraising** research consider:
 
 ::: {.grid}
 
-::: {.g-col-md-4 .g-col-sm-6}
+::: {.g-col-md-4 .g-col-12}
 ::: {.download-text}
 For drafting
 :::
 <button type="button" class="btn btn-primary btn-lg width-100">Template</button>
 :::
 
-::: {.g-col-md-4 .g-col-sm-6}
+::: {.g-col-md-4 .g-col-12}
 ::: {.download-text}
 For checking
 :::
 <button type="button" class="btn btn-primary btn-lg width-100">Checklist</button>
 :::
 
-::: {.g-col-md-4 .g-col-sm-6}
+::: {.g-col-md-4 .g-col-12}
 ::: {.download-text}
 For planning
 :::
@@ -127,7 +127,7 @@ SECTIONS = ['Introduction', 'Methods', 'Results', 'Discussion']
 TEMPLATE = \
 """
 
-::: {{.grid}}
+::: {{.grid id="{idx}"}}
 ::: {{.g-col-9}}
 #### {idx}. {title}
 :::
@@ -148,13 +148,15 @@ You can report this [options e.g., in the body, a table, a figure, supplement] w
 
 ::: {{.callout-note appearance="minimal" collapse=true}}
 
-## Read more
+## Read more 
 
 Jump to:
 
 * [Examples](#sec-1-{idx})
 * [Why readers need this information](#sec-2-{idx})
-* [Design and appraisal resources](#sec-3-{idx})
+* [Design & appraisal resources](#sec-3-{idx})
+* [How to do _this item_](#sec-4-{idx})
+* [Training](#sec-5-{idx})
 
 ## Examples {{#sec-1-{idx}}}
 
@@ -180,23 +182,24 @@ This example is bad because it is missing X, Y, Z.
 
 Et fugiat velit consequat sunt officia sit veniam officia. Exercitation est nisi ex deserunt laboris reprehenderit ut sit nisi. Veniam culpa quis pariatur id <span class="defined" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample" role="button">consectetur labore</span> aliquip ut exercitation duis velit. Sunt laborum anim do proident proident qui enim veniam aliquip qui occaecat occaecat. Eu cillum dolore aliquip voluptate et aliquip minim aute. Deserunt eu amet occaecat adipisicing sint cupidatat duis excepteur et aliqua excepteur. Do enim exercitation culpa enim in velit ullamco.
 
-## Design advice and extra resouces {{#sec-3-{idx}}}
+## Design and appraisal resouces {{#sec-3-{idx}}}
 
-Design advice:
+* [resource]()
+* [resource]()
+* [resource]()
+* [resource]()
+
+## How to do [something] {{#sec-4-{idx}}}
 
 * [resource]()
 * [resource]()
 
-How to do this item: 
-
-* [resource]()
-* [resource]()
-
-Training: 
+## Training {{#sec-5-{idx}}} 
 
 * [Link to relevant EQUATOR training]()
 * [Link to other relevant training](https://www.google.com)
 
+[Back to top](#{idx})
 :::
 
 """
