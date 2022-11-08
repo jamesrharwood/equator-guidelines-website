@@ -8,8 +8,8 @@ author-meta: "Authors information for search engines and social media"
 smooth-scroll: true
 lang: en-GB
 css: 
-  - css/index.css
   - css/styles.css
+  - css/index.css
 from: markdown+raw_html+markdown_in_html_blocks
 link-external-icon: true
 citation:
@@ -46,6 +46,10 @@ Ea ea velit dolore exercitation reprehenderit reprehenderit aute elit eu proiden
 
 :::
 :::
+
+## Translations
+
+This guidance is available in [language](), [language](), and [language]()
 
 ## When to use this guidance
 
@@ -89,21 +93,21 @@ For **appraising** research consider:
 
 ::: {.grid}
 
-::: {.g-col-md-4 .g-col-12}
+::: { .g-col-12 .g-col-md-4}
 ::: {.download-text}
 For drafting
 :::
 <button type="button" class="btn btn-primary btn-lg width-100">Template</button>
 :::
 
-::: {.g-col-md-4 .g-col-12}
+::: { .g-col-12 .g-col-md-4}
 ::: {.download-text}
 For checking
 :::
 <button type="button" class="btn btn-primary btn-lg width-100">Checklist</button>
 :::
 
-::: {.g-col-md-4 .g-col-12}
+::: { .g-col-12 .g-col-md-4}
 ::: {.download-text}
 For planning
 :::

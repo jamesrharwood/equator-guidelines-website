@@ -21,7 +21,7 @@ include-in-header:
 
 ::: {.hero-buttons}
 [Search](https://www.equator-network.org/reporting-guidelines/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
-[Guidance finder quiz](){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+[Guidance finder wizard](){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
 ::: 
 
 ### Frequently accessed reporting guidelines
