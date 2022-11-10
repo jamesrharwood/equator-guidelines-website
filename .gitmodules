@@ -1,0 +1,3 @@
+[submodule "guidelines/srqr"]
+	path = guidelines/srqr
+	url = https://github.com/jamesrharwood/srqr
