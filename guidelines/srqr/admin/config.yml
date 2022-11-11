@@ -1,7 +1,6 @@
 backend:
   name: github
   repo: jamesrharwood/srqr
-  api_root: https://api.github.com
   site_domain: location.hostname
   base_url: https://api.netlify.com
   auth_endpoint: auth
@@ -21,3 +20,6 @@ collections:
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Read More", name: "read_more", widget: "markdown"}
+
+    
+  
