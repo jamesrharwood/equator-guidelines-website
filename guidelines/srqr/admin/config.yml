@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: jamesrharwood/srqr
-  site_domain: jamesrharwood.github.io
+  site_domain: jamesrharwood.github.io # NB this issue https://github.com/netlify/netlify-cms/issues/770#issuecomment-482293908
   base_url: https://api.netlify.com
   auth_endpoint: auth
   cms_label_prefix: netlify-cms/
@@ -19,6 +19,4 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-
-    
-  
+      - {label: "Read More", name: "read_more", widget: "markdown"}
