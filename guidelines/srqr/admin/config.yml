@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: jamesrharwood/srqr
   site_domain: jamesrharwood.github.io # NB this issue https://github.com/netlify/netlify-cms/issues/770#issuecomment-482293908
   base_url: https://api.netlify.com
