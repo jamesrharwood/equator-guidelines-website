@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: jamesrharwood/srqr
   site_domain: jamesrharwood.github.io # NB this issue https://github.com/netlify/netlify-cms/issues/770#issuecomment-482293908
   base_url: https://api.netlify.com
@@ -11,7 +11,7 @@ media_folder: "uploads" # Media files will be stored in the repo under /uploads
 collections:
   - name: "item" # Used in routes, e.g., /admin/collections/blog
     label: "Reporting Item" # Used in the UI
-    folder: "_items" # The path to the folder where the documents are stored
+    folder: "_items/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{id}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
