@@ -1,12 +1,12 @@
 backend:
   name: github
   repo: jamesrharwood/srqr
-  site_domain: jocular-wisp-5ec8a7.netlify.app
+  site_domain: jamesrharwood.github.io
   base_url: https://api.netlify.com
   auth_endpoint: auth
   cms_label_prefix: netlify-cms/
   branch: master # Branch to update (optional; defaults to master)
-site_url: https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr
+site_url: jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr
 media_folder: "uploads" # Media files will be stored in the repo under /uploads
 collections:
   - name: "item" # Used in routes, e.g., /admin/collections/blog
