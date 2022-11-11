@@ -21,8 +21,8 @@ collections:
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Read More", name: "read_more", widget: "markdown"}
-  - name: "Md Pages"
-    label: "Markdown pages"
+  - name: "MdPages"
+    label: "MarkdownPages"
     files:
       - label: "readme"
         name: "readme"
