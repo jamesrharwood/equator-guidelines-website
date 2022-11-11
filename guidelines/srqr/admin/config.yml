@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: jamesrharwood/srqr
-  site_domain: jocular-wisp-5ec8a7.netlify.app
+  site_domain: location.hostname
   base_url: https://api.netlify.com
   auth_endpoint: auth
   cms_label_prefix: netlify-cms/
