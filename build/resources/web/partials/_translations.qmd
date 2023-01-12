@@ -1,0 +1,3 @@
+## Translations
+
+This guidance is available in [language](), [language](), and [language]()

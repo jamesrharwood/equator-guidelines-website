@@ -1,0 +1,3 @@
+::: {.callout-warning icon=false appearance="simple"}
+{{< include _not_use_for.qmd >>}}
+:::

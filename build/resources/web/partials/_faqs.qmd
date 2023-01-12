@@ -1,0 +1,3 @@
+## FAQs
+
+{{< include _faqs.qmd >}}

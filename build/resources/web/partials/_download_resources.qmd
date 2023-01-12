@@ -1,0 +1,26 @@
+## Download Resources
+
+::: {.grid}
+
+::: { .g-col-12 .g-col-md-4}
+::: {.download-text}
+For drafting
+:::
+<button type="button" class="btn btn-primary btn-lg width-100">Template</button>
+:::
+
+::: { .g-col-12 .g-col-md-4}
+::: {.download-text}
+For checking
+:::
+<button type="button" class="btn btn-primary btn-lg width-100">Checklist</button>
+:::
+
+::: { .g-col-12 .g-col-md-4}
+::: {.download-text}
+For planning
+:::
+<button type="button" class="btn btn-primary btn-lg width-100">To-do list</button>
+:::
+
+:::

@@ -1,0 +1,3 @@
+## Training and Support
+
+{{< include _training_and_support.qmd >}}
