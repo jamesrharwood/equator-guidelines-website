@@ -9,15 +9,16 @@ description: |
   Est aliqua et labore elit laborum.
 include-in-header:
     - scripts/search-shortcut.html
+title-block-banner: assets/pencils.jpeg
 ---
 
-
-::: {.hero-banner}
+::: {.quarto-title-block}
+::: {.quarto-title-banner .hero-banner}
 ::: {.content-block}
 
-# Est adipisicing laboris fugiat ipsum in eu
+# Research articles made simple
 
-#### A brief explanation of the benefits of RGs, what they are and how to use them. Could also introduce EQUATOR.
+## Write and review with confidence using reporting guidelines.  These recommendations, created by the research community, describe what information readers need.
 
 ::: {.hero-buttons}
 [Search](https://www.equator-network.org/reporting-guidelines/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
@@ -63,6 +64,7 @@ include-in-header:
 
 ::: 
 ::: 
+:::
 
 
 ::: {.content-block}
