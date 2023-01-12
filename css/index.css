@@ -28,6 +28,23 @@ td p {
 }
 }
 
+.quarto-title-block {
+  padding-top: 0px;
+}
+
+
+.quarto-title-block .quarto-title-banner {
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.9)),
+    url('../assets/pink-green.jpeg');
+  background-size: cover;
+}
+
+
+#quarto-content>* {
+  padding-top: 0px;
+}
+
 .hero-banner {
   position: relative;
   background-color: rgb(237,243,249);
@@ -40,46 +57,11 @@ td p {
   font-size: 2.5rem;
 }
 
-
 .hero-banner .hero-image {
   position: absolute;
   display: none;
   height: auto;
 }
-
-@media (min-width: 1000px) {
-.hero-banner .hero-image {
-  display: initial;
-  width: 270px;
-}
-}
-
-@media (min-width: 1200px) {
-.hero-banner .hero-image {
-  width: 340px;
-}
-}
-
-@media (min-width: 1400px) {
-.hero-banner .hero-image {
-  width: 440px;
-}
-}
-
-.hero-banner .hero-image p {
-  margin-bottom: 0;
-}
-
-.hero-banner .hero-image-left {
-  left: 0;
-  bottom: 0;
-}
-
-.hero-banner .hero-image-right {
-  right: 0;
-  bottom: 0;
-}
-
 
 .hero-banner .content-block {
   max-width: 600px;
@@ -105,14 +87,10 @@ td p {
   margin-bottom: 1.6rem;
 }
 
-
 .hero-banner #btn-guide {
   background-color: #959595 !important;
   border: none;
 }
-
-
-
 
 .hero-banner ul {
   padding-inline-start: 21px;
