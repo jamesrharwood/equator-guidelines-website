@@ -2,6 +2,8 @@ project:
   type: website
   output-dir: _site
   resources: "guidelines/srqr/admin/*"
+  render:
+    - "*.qmd"
 
 website:
   image: "assets/equator_logo.png"
@@ -48,7 +50,7 @@ website:
       - text: "About"
         href: about
       - text: "License"
-        href: lisence
+        href: license
       - text: "Privacy Policy"
         href: privacy
     right:

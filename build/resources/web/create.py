@@ -3,6 +3,11 @@ import os
 partials_dir = 'temp'
 
 def create(guideline):
+    qmd = create_qmd(guideline)
+    with open(guideline.destination_paths.index, 'w') as file_:
+        file_.write(qmd)
+
+def create_qmd(guideline):
     includes = get_includes(guideline)
     qmd = '\n\n'.join(includes)
     return qmd

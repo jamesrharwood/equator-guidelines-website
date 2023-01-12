@@ -1,16 +1,17 @@
 import os
 from pathlib import Path
 
-dir_path = os.path.dirname(os.path.realpath(__file__))
-dir_path = Path(dir_path).parent.parent.absolute()
-dir_path = os.path.join(dir_path, 'guidelines')
+root_path = os.path.dirname(os.path.realpath(__file__))
+root_path = Path(root_path).parent.parent.absolute()
 
 def join(*args):
     return os.path.join(*args)
 
-class Paths:
+class RepoPaths:
+    dir_path = os.path.join(root_path, 'guideline_repos')
+
     def __init__(self, dirname):
-        self.dir = join(dir_path, dirname)
+        self.dir = join(self.dir_path, dirname)
         self.config = join(self.dir, 'config.yml')
         self.items_dir = join(self.dir, 'items')
         self.use_for = join(self.dir, 'use_for.md')
@@ -21,3 +22,10 @@ class Paths:
     
     def item(self, filename):
         return join(self.items_dir, filename)
+    
+class DestinationPaths(RepoPaths):
+    dir_path = os.path.join(root_path, 'guidelines')
+
+    def __init__(self, dirname):
+        self.index = join(self.dir_path, 'index.qmd')
+        super().__init__(dirname)
