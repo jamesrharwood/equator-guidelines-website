@@ -1,6 +1,6 @@
 from unittest import TestCase 
 
-from guidelines.make.item.item import Item
+from build.guideline.item.item import Item
 
 text_simple = (
     "Here is the body\n\n"

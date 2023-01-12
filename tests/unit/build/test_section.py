@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from guidelines.make.item.sections import Section, text_to_texts, text_to_section, HEADING_REGEX
+from build.guideline.item.sections import Section, text_to_texts, text_to_section, HEADING_REGEX
 
 class TestSection(TestCase):
     def test_section(self):
