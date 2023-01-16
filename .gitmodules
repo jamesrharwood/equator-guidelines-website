@@ -1,3 +1,3 @@
-[submodule "guidelines/srqr"]
-	path = guidelines/srqr
+[submodule "guideline_repos/SRQR"]
+	path = guideline_repos/SRQR
 	url = https://github.com/jamesrharwood/srqr

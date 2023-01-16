@@ -1,8 +1,0 @@
-web:
-    - title.md
-    - abstract.md
-    - Introduction:
-        - problem.md
-        - purpose.md
-    - Methods:
-        - approach.md
