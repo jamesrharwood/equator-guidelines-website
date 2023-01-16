@@ -6,21 +6,21 @@
 ::: {.download-text}
 For drafting
 :::
-<button type="button" class="btn btn-primary btn-lg width-100">Template</button>
+<a href="./ID_template.docx"><button type="button" class="btn btn-primary btn-lg width-100">Template</button></a>
 :::
 
 ::: { .g-col-12 .g-col-md-4}
 ::: {.download-text}
 For checking
 :::
-<button type="button" class="btn btn-primary btn-lg width-100">Checklist</button>
+<a href="./ID_checklist.docx"><button type="button" class="btn btn-primary btn-lg width-100">Checklist</button></a>
 :::
 
 ::: { .g-col-12 .g-col-md-4}
 ::: {.download-text}
 For planning
 :::
-<button type="button" class="btn btn-primary btn-lg width-100">To-do list</button>
+<a href="./ID_todo_list.docx"><button type="button" class="btn btn-primary btn-lg width-100">To-do list</button></a>
 :::
 
 :::

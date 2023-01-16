@@ -1,1 +1,1 @@
-from .guideline import create
+from .guideline import Guideline

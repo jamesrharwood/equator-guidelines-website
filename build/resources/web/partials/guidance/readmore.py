@@ -20,7 +20,7 @@ def create_collapsible_with_toc(sections: list[Section]):
     )
 
 def _collapsible(toc: str, body: str, back_to_top: str) -> str:
-    return f"""::: {{{{.callout-note appearance="minimal" collapse=true}}}}
+    return f"""::: {{.callout-note appearance="minimal" collapse=true}}
 
 ## Read more 
 

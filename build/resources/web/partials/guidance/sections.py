@@ -23,7 +23,7 @@ class Section:
 
     @property
     def body_heading(self) -> str:
-        return f"## {self.heading}{{{{{self.id}}}}}"
+        return f"## {self.heading}{{{self.id}}}"
     
     @property
     def md(self) -> str:

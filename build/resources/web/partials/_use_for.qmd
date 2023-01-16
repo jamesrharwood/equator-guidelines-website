@@ -1,5 +1,5 @@
 ## When to use this guidance
 
 ::: {.callout-tip icon=false appearance="simple"}
-{{< include _use_for.qmd >>}}
+{{< include partials/_use_for.md >}}
 :::

@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from build.guideline.item.sections import Section, text_to_texts, text_to_section, HEADING_REGEX
+from build.resources.web.partials.guidance.sections import Section, text_to_texts, text_to_section, HEADING_REGEX
 
 class TestSection(TestCase):
     def test_section(self):
@@ -13,11 +13,11 @@ class TestSection(TestCase):
         id = "#sec-9-1"
         self.assertEqual(section.id, id)
         self.assertEqual(section.toc_md, f"[Heading]({id})")
-        self.assertEqual(section.body_heading, "## Heading{{"+id+"}}")
+        self.assertEqual(section.body_heading, "## Heading{"+id+"}")
         self.assertEqual(
             section.md,
             (
-                "## Heading{{"+id+"}}\n\n"
+                "## Heading{"+id+"}\n\n"
                 "Paragraph.\n\nAnother paragraph."
             )
         )

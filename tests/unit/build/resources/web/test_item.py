@@ -1,6 +1,7 @@
 from unittest import TestCase 
 
 from build.guideline.item.item import Item
+from build.resources.web.partials.guidance.item import Item as WebItem
 
 text_simple = (
     "Here is the body\n\n"
@@ -14,25 +15,27 @@ class TestItem(TestCase):
         item = Item(
             id = 'id',
             title = 'Title',
-            index = 1,
-            text = text_simple
+            text = text_simple,
+            filename='item.md',
         )
-        md = item.md
+        item = WebItem(item, 1)
+        md = item.create_web()
         self.assertFalse('Back to top' in md)
         self.assertTrue('#### 1. Title' in md)
         self.assertTrue('.grid id="id"' in md)
-        self.assertTrue('sec-1-1' in md)
-        self.assertFalse('sec-1-2' in md)
+        self.assertTrue('sec-id-1' in md)
+        self.assertFalse('sec-id-2' in md)
     
     def test_item(self):
         item = Item(
             id='id',
             title='Title',
-            index=1,
-            text=text
+            text=text,
+            filename='test.md',
         )
+        item = WebItem(item, 1)
         md = item.md
         self.assertTrue('Back to top' in md)
         self.assertTrue('#### 1. Title' in md)
-        self.assertTrue('sec-1-1' in md, md)
-        self.assertTrue('sec-1-2' in md)
+        self.assertTrue('sec-id-1' in md, md)
+        self.assertTrue('sec-id-2' in md)

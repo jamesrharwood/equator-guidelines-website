@@ -1,7 +1,7 @@
 from unittest import TestCase 
 from copy import copy
 
-from build.guideline.item import readmore
+from build.resources.web.partials.guidance import readmore
 
 class TestReadmore(TestCase):
     section = readmore.Section(heading='Heading', body='text', index=0, item_index=9)
