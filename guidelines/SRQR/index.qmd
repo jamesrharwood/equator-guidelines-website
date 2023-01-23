@@ -9,15 +9,15 @@ This guidance is also available in [French](https://www.google.com) and [German]
 ## When to use this guidance
 
 ::: {.callout-tip icon=false appearance="simple"}
-{{< include partials/_use_for.md >}}
+{{< include partials/use_for.md >}}
 :::
 
 ::: {.callout-warning icon=false appearance="simple"}
-{{< include partials/_not_use_for.md >}}
+{{< include partials/not_use_for.md >}}
 :::
 
 ::: {.callout-note icon=false appearance="simple"}
-{{< include partials/_related_resources.md >}}
+{{< include partials/related_resources.md >}}
 :::
 
 ## Download Resources

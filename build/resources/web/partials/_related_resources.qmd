@@ -1,3 +1,3 @@
 ::: {.callout-note icon=false appearance="simple"}
-{{< include partials/_related_resources.md >}}
+{{< include partials/related_resources.md >}}
 :::
