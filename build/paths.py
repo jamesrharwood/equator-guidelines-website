@@ -23,6 +23,7 @@ class RepoPaths:
         self.guidance = join(self.partials_dir, 'guidance.md')
         self.glossary = join(self.dir, 'glossary.yml')
         self.glossary_offcanvas = join(self.partials_dir, 'glossary_offcanvas.html')
+        self.metadata = join(self.dir, '_metadata.yml')
     
     def item(self, filename):
         return join(self.items_dir, filename)

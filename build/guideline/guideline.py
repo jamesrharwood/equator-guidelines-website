@@ -32,6 +32,7 @@ class Guideline:
     def create_folder(self):
         if not os.path.exists(self.destination_paths.dir): # type: ignore
             os.makedirs(self.destination_paths.dir) # type: ignore
+            os.makedirs(self.destination_paths.partials_dir)
     
     def __post_init__(self):
         self.repo_paths = RepoPaths(self.dirname)

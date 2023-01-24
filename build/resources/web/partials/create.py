@@ -1,4 +1,4 @@
-from . import doi, translations, use_for, not_use_for, related_resources, download_resources,\
+from . import metadata, doi, translations, use_for, not_use_for, related_resources, download_resources,\
     guidance, glossary_offcanvas
 
 class Partial:
@@ -15,6 +15,7 @@ class Partial:
         return self.module.create_web(guideline)
 
 PARTIALS = [
+    Partial(metadata, None),
     Partial(doi, None),
     Partial(translations, 'has_translations'),
     Partial(use_for, None),
