@@ -9,6 +9,7 @@ from build.paths import RepoPaths, DestinationPaths, RelativeDestinationPaths
 from build.resources import create_resources
 
 # This could be better as a normal class, not dataclass
+
 @dataclass
 class Guideline:
     dirname: str
