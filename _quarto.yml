@@ -4,7 +4,7 @@ project:
   resources: "guidelines/srqr/admin/*"
   render:
     - "*.qmd"
-
+smooth-scroll: true
 website:
   image: "assets/equator_logo.png"
   favicon: "assets/favicons/equator-network-16x16.png"
@@ -67,6 +67,6 @@ format:
     css: "css/styles.css"
     toc: true
     toc-location: left
-    toc-depth: 4
+    toc-depth: 3
     section-divs: true
 
