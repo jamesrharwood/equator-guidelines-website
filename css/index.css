@@ -103,7 +103,7 @@ td p {
 
 
 .alt-background {
-  background-color: rgb(247,249,251);
+  background-color: rgb(247, 251, 250);
   border-top: 1px solid #dee2e6;
   border-bottom: 1px solid #dee2e6;
 }
@@ -210,4 +210,16 @@ nav.page-navigation {
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
   background-color: #ff7518;
+}
+
+.quote {
+  text-align: center;
+  border:solid;
+  border-radius: 1em;
+  border-color: rgb(222, 226, 230);
+  border-width: 1px;
+  font-style: italic;
+  padding: 1em;
+  margin-top: 3em;
+  background-color: rgba(255, 255, 255, 0.3);
 }

@@ -18,11 +18,12 @@ title-block-banner: assets/pencils.jpeg
 
 # Research articles made simple
 
-## Write and review with confidence using reporting guidelines.  These recommendations, created by the research community, describe what information readers need.
+## Write with confidence using reporting guidelines.  These recommendations, created by the research community, describe what information readers need.
+
+<!-- don't love this. The second sentence is about benefits to others. Could we switch it to be more like what i've written about impact? -->
 
 ::: {.hero-buttons}
-[Search](https://www.equator-network.org/reporting-guidelines/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
-[Guidance finder wizard](){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+[Search for guidance](https://www.equator-network.org/reporting-guidelines/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
 ::: 
 
 ### Frequently accessed reporting guidelines
@@ -62,31 +63,30 @@ title-block-banner: assets/pencils.jpeg
 [Browse reporting guidelines by speciality](https://www.equator-network.org/library/browse-reporting-guidelines-by-specialty/)
 
 
+:::{.quote .lead}
+"Reporting guidelines make writing so much easier and help me develop as a researcher. I use one for every article I write!."
+
+[Alex Hamley, Edinburgh University]{.attribution .small}
+:::
+
 ::: 
 ::: 
 :::
-
+<!--/title-block-->
 
 ::: {.content-block}
 
-## What are reporting guidelines?
+## Recommendations to help describe your work clearly
 
-Tempor ullamco enim est ullamco minim minim enim aliquip ullamco eu amet eu proident aute. Ullamco duis qui sint enim exercitation dolor esse. Consectetur consequat consequat elit exercitation commodo exercitation. Sit esse qui dolore Lorem amet ipsum reprehenderit dolore Lorem nostrud Lorem voluptate.
-
+:::{.lead}
+Reporting guidelines don't advise how to _do_ research, but rather how to describe it transparently so it can be used by everyone.
+::: 
+<!--end lead-->
 ::: {.features}
 
 ::: {.feature}
-### Planning research
-Aliqua mollit et consequat ullamco incididunt cillum tempor ipsum sit aute consectetur minim dolor veniam. Quis magna occaecat ex amet non ut in sunt commodo exercitation veniam dolore.
-
-::: {.learn-more}
-[Learn more »]()
-:::
-:::
-
-::: {.feature}
-### Drafting manuscripts
-Laborum ullamco officia veniam do nostrud consectetur ipsum enim enim laborum sit. Eu proident ad nostrud aliquip in magna nisi proident reprehenderit enim reprehenderit mollit aliquip.
+### Writing manuscripts
+Write quickly, confidently, and avoid the blank page by using a template.
 
 ::: {.learn-more}
 [Learn more »]()
@@ -95,26 +95,42 @@ Laborum ullamco officia veniam do nostrud consectetur ipsum enim enim laborum si
 
 ::: {.feature}
 ### Checking manuscripts
-Esse et voluptate cupidatat minim dolor. Laborum ea dolore velit cillum laborum sunt minim aliqua aliquip. Occaecat velit dolor sint nostrud sit aute deserunt aute sint. Enim cillum incididunt et elit mollit consequat ut occaecat.
+Double-check your writing and demonstrate to journals that your work is described thoroughly.
 
 ::: {.learn-more}
 [Learn more »]()
 :::
 :::
 
+::: {.feature}
+### Planning research
+Considering what you'll need to write can help you plan a study. But reporting guidelines won't make decisions for you!
+<!--#ASK seems strange to include this when I've just said they dont tell you what to do!-->
+
+::: {.learn-more}
+[Learn more »]()
 :::
 :::
+
+
+:::
+:::
+<!--/content-block-->
 
 ::: {.alt-background}
 ::: {.content-block}
 
-## Benefits
+## Reporting guidelines help authors _and_ readers
+
+:::{.lead}
+Transparent research leads to better patient outcomes, and guidelines make writing research easier.
+:::
 
 ::: {.features}
 
 ::: {.feature}
-### Benefit 1
-Commodo in qui enim magna dolor labore voluptate ipsum nostrud ullamco commodo eiusmod velit.
+### Easier writing
+Giving the blank page a skeleton makes writing easier and quicker. 
 
 ::: {.learn-more}
 [Learn more »]()
@@ -122,8 +138,8 @@ Commodo in qui enim magna dolor labore voluptate ipsum nostrud ullamco commodo e
 :::
 
 ::: {.feature}
-### Benefit 2
-Labore aute nulla esse voluptate labore do culpa non velit culpa.
+### Smoother publishing
+Many journals require completed reporting checklists at submission.
 
 ::: {.learn-more}
 [Learn more »]()
@@ -131,17 +147,21 @@ Labore aute nulla esse voluptate labore do culpa non velit culpa.
 :::
 
 ::: {.feature}
-### Benefit 3
-Culpa ipsum qui minim aute quis non sint nulla.
+### Maximal impact
+From nobel prizes to null results, articles have more impact when everyone can use them.
 
 ::: {.learn-more}
 [Learn more »]()
 :::
 :::
 
+::: 
+<!--/features -->
+
 :::
+<!-- /content-block -->
 :::
-:::
+<!-- /alt-background -->
 
 ::: {.about-equator}
 ::: {.content-block}
@@ -151,11 +171,13 @@ Culpa ipsum qui minim aute quis non sint nulla.
 ::: {.grid}
 
 ::: {.g-col-md-8 .g-col-12}
-Aliqua culpa ut ut tempor. Proident minim magna dolore enim tempor consequat proident sunt aliqua irure [about EQUATOR]()
+EQUATOR stands for Enhancing the QUAlity and Transparency Of health Research. 
 
-Voluptate amet ullamco sit [training]() sit aliquip id nulla consectetur [resources]() eu sint qui voluptate.
+Our mission is to improve the reliability and value of published health research literature by promoting transparent and accurate reporting and wider use of robust reporting guidelines. We are the first coordinated attempt to tackle the problems of inadequate reporting systematically and on a global scale.
 
-Mollit culpa velit excepteur deserunt. Ipsum do ullamco cillum eiusmod sint quis [UK](), [Canada](), [Australia](), [France](), and [China](). 
+We advance the work done by individual guideline development groups. We maintain a database of reporting guidelines, run [training courses](https://www.equator-network.org/category/events/upcoming-events/) on how to write research articles, have resources for [publishers](https://www.equator-network.org/toolkits/using-guidelines-in-journals/), [peer reviewers](https://www.equator-network.org/toolkits/peer-reviewing-research/), and reporting guideline [developers](https://www.equator-network.org/toolkits/developing-a-reporting-guideline/).  
+
+We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-centre/) (our head office), [Canada](https://www.equator-network.org/about-us/canadian-equator-centre/), [Australia](https://www.equator-network.org/about-us/australasian-equator-centre/), [France](https://www.equator-network.org/about-us/french-equator-centre/), and [China](http://www.equator-chinese.org/pages/en/index/index.html). 
 :::
 
 ::: {.g-col-md-4 .g-col-12}
@@ -165,6 +187,14 @@ Mollit culpa velit excepteur deserunt. Ipsum do ullamco cillum eiusmod sint quis
 :::
 
 :::
+<!-- /grid -->
+
+:::{.quote .lead}
+"We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines."
+
+[Robin Lavery - Editor, International Journal of World Medicine]{.attribution .small}
+:::
+<!-- /quote -->
 :::
 :::
 
@@ -172,9 +202,9 @@ Mollit culpa velit excepteur deserunt. Ipsum do ullamco cillum eiusmod sint quis
 ::: {.get-started}
 ::: {.content-block}
 
-### Veniam eu aute cupidatat nostrud esse id laborum duis.
+### Ready to use a reporting guideline?
 
-[Search for guidance](){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
+[Search for guidance](){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
 
 :::
 :::

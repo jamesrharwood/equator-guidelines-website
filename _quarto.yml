@@ -8,13 +8,13 @@ smooth-scroll: true
 website:
   image: "assets/equator_logo.png"
   favicon: "assets/favicons/equator-network-16x16.png"
-  search: false
+  search: true
   navbar:
     background: light
     logo: "assets/equator_logo.png"
-    right:
-      - href: https://www.equator-network.org/reporting-guidelines/
-        icon: search
+    # right:
+    #   - href: https://www.equator-network.org/reporting-guidelines/
+    #     icon: search
     left:
       - href: index.qmd
         text: Reporting Guidelines
