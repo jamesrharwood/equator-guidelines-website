@@ -1,0 +1,3 @@
+## How to use this guideline
+
+{{< include partials/how_to_use.md >}}

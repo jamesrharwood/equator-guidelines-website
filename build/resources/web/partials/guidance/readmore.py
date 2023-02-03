@@ -22,7 +22,7 @@ def create_collapsible_with_toc(sections: list[Section]):
 def _collapsible(toc: str, body: str, back_to_top: str) -> str:
     return f"""::: {{.callout-note appearance="minimal" collapse=true}}
 
-## Read more 
+## Read more
 
 {toc}
 
@@ -33,7 +33,7 @@ def _collapsible(toc: str, body: str, back_to_top: str) -> str:
 
 """
 def create_back_to_top(item_index):
-    return f'[Back to top](#{item_index})"'
+    return f'[Back to top](#{item_index})'
 
 def create_toc(sections: list[Section]) -> str:
     toc = "Jump to:\n\n"

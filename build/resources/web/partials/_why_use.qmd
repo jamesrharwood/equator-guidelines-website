@@ -1,0 +1,3 @@
+## Why use this guideline
+
+{{< include partials/why_use.md >}}
