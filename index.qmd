@@ -9,6 +9,7 @@ description: |
   Est aliqua et labore elit laborum.
 include-in-header:
     - scripts/search-shortcut.html
+    - scripts/volley.html
 title-block-banner: assets/pencils.jpeg
 ---
 
@@ -28,43 +29,45 @@ title-block-banner: assets/pencils.jpeg
 
 ### Frequently accessed reporting guidelines
 
-+-----------------------------------------------------------------------+--------------------------------------------+
-|<abbr title='Short definition here'>Occaecat consectetur</abbr>        |[Lorem ipsum (ABCDE)](ABCDE.qmd)            |
-|                                                                       |                                            |
-|                                                                       |[Laborum ullamco ipsum (BCFDE)](ABCDE.qmd)  |
-|                                                                       |                                            |
-|                                                                       |[Ad laboris cillum (Cd-EFG)](ABCDE.qmd)     |
-+-----------------------------------------------------------------------+--------------------------------------------+
-|<abbr title='Short definition here'>Irure proident</abbr>              |[Lorem ipsum (DEFGH)](ABCDE.qmd)            |
-|                                                                       |                                            |
-|                                                                       |[Laborum ullamco ipsum (EFGHI)](ABCDE.qmd)  |
-|                                                                       |                                            |
-|                                                                       |[Ad laboris cillum (FGHI-J)](ABCDE.qmd)     |
-+-----------------------------------------------------------------------+--------------------------------------------+
-|<abbr title='Short definition of this'>Velit magna</abbr>              |[Ullamco ipsum (GHIJK)](ABCDE.qmd)          |
-|                                                                       |                                            |
-|                                                                       |[Laborum ullamco ipsum (HIJKL)](ABCDE.qmd)  |
-+-----------------------------------------------------------------------+--------------------------------------------+
-|<abbr title='Short definition of this'>Enim ipsum</abbr>               |[Lorem ipsum (IJKLM)](ABCDE.qmd)            |
-|                                                                       |                                            |
-|                                                                       |[Laborum ullamco ipsum (JKLMN)](ABCDE.qmd)  |
-|                                                                       |                                            |
-|                                                                       |[Laboris cillum (KLMNO)](ABCDE.qmd)         |
-|                                                                       |                                            |
-|                                                                       |[Cillum deserunt eu (LMNOP)](ABCDE.qmd)     |
-|                                                                       |                                            |
-|                                                                       |[Deserunt eu cillum (MNOPQ)](ABCDE.qmd)     |
-+-----------------------------------------------------------------------+--------------------------------------------+
-|<abbr title='Short definition'>Reprehenderit reprehenderit</abbr>      |[Lorem ipsum (NOPQR)](ABCDE.qmd)            |
-+-----------------------------------------------------------------------+--------------------------------------------+
-|<abbr title='Short definition of this'>Cillum ad amet</abbr>           |[Lorem ipsum (OPQRS)](ABCDE.qmd)            |
-+-----------------------------------------------------------------------+--------------------------------------------+
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|<abbr title='Short definition here'>Observational Epidemiology</abbr>  |[STROBE Cohort (Cohort studies)](guidelines/strobe-cohort)                              |
+|                                                                       |                                                                                        |
+|                                                                       |[STROBE Case-control (Case-control studies)](guidelines/strobe-case-control)            |
+|                                                                       |                                                                                        |
+|                                                                       |[Cross-sectional studies (STROBE Cross-section)](guidelines/strobe-cross-sectional)     |
+|                                                                       |                                                                                        |
+|                                                                       |[Genetic association studies (STREGA)](guidelines/strega)                               |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|<abbr title='Short definition here'>Reviews</abbr>                     |[Systematic review of trials (PRISMA)](guidelines/prisma)                               |
+|                                                                       |                                                                                        |
+|                                                                       |[Protocol for a systematic review of trials (PRISMA-P)](guidelines/prisma-p)            |
+|                                                                       |                                                                                        |
+|                                                                       |[Meta-analysis of Observational studies (MOOSE)](guidelines/moose)                      |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|<abbr title='Short definition of this'>Randomised Trials</abbr>        |[Randomised trial (CONSORT)](guidelines/consort)                                        |
+|                                                                       |                                                                                        |
+|                                                                       |[Protocol for a randomised trial (SPIRIT)](guidelines/spirit)                           |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|<abbr title='Short definition of this'>Qualitative Research</abbr>     |[Qualitative research (SRQR)](guidelines/srqr)                                          |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|<abbr title='Short definition of this'>Case Reports</abbr>             |[Case Reports (CARE)](guidelines/care)                                                  |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|<abbr title='Short definition'>Diagnostic Test Accuracy</abbr>         |[Diagnostic test accuracy studies (STARD)](guideline/stard)                             |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|<abbr title='Short definition'>Prediction Models</abbr>                |[Development / Validation (TRIPOD)](guideline/tripod)                                   |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|<abbr title='Short definition'>Animal Research</abbr>                  |[ARRIVE](guideline/arrive)                                                              |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|<abbr title='Short definition'>Quality Improvement in Healthcare</abbr>|[SQUIRE](guideline/squire)                                                              |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|<abbr title='Short definition of this'>Economic Evaluations</abbr>     |[Of health interventions (CHEERS)](guidelines/cheers)                                   |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
 
 [Browse reporting guidelines by speciality](https://www.equator-network.org/library/browse-reporting-guidelines-by-specialty/)
 
 
 :::{.quote .lead}
-"Reporting guidelines make writing so much easier and help me develop as a researcher. I use one for every article I write!."
+"Reporting guidelines make writing so much easier and help me develop as a researcher. I use one for every article I write!"
 
 [Alex Hamley, Edinburgh University]{.attribution .small}
 :::
