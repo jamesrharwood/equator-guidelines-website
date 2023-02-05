@@ -7,9 +7,6 @@ css: "css/index.css"
 editor: source
 description: | 
   Est aliqua et labore elit laborum.
-include-in-header:
-    - scripts/search-shortcut.html
-    - scripts/volley.html
 title-block-banner: assets/pencils.jpeg
 ---
 

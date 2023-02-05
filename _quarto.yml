@@ -69,4 +69,7 @@ format:
     toc-location: left
     toc-depth: 3
     section-divs: true
+    include-in-header:
+        - scripts/search-shortcut.html
+        - scripts/volley.html
 
