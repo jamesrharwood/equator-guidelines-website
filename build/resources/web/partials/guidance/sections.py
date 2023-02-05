@@ -34,6 +34,9 @@ def text_to_texts(text:str) -> Iterator[str]:
     lines = text.splitlines()
     lines = [line.strip() for line in lines]
     lines = [line for line in lines if line]
+    if not lines:
+        print(text)
+        return ''
     snippet = lines[0]
     for line in lines[1:]:
         line = line.strip()

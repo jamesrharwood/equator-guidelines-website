@@ -3,6 +3,8 @@ import re
 from typing import Callable
 
 def add_glossary_to_string(string: str, glossary_dict: dict, wrapper_fn: Callable) -> str:
+    if not glossary_dict:
+        return string
     matches = find_matches(string, glossary_dict)
     matches.reverse()
     for match in matches:

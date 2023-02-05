@@ -1,4 +1,5 @@
 import frontmatter
+import logging
 
 from pathlib import Path
 
@@ -13,7 +14,11 @@ class Item:
 
     @classmethod
     def from_filepath(cls, filepath):
-        md = frontmatter.load(filepath)
+        try:
+            md = frontmatter.load(filepath)
+        except Exception as e:
+            logging.warning(f'Error loading markdown from file: {filepath}')
+            raise e
         meta = md.metadata
         filename = Path(filepath).name
         return cls(

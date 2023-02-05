@@ -1,7 +1,12 @@
+import re
+import logging
+
 from .sections import Section, text_to_sections
 from .readmore import create_collapsible
 
 from build.guideline.glossary import add_glossary_to_string, wrap_string_with_span
+
+INDEX_REGEX = re.compile(r'^\d+[a-z]?\b')
 
 class Item:
     def __init__(self, item, index, guideline):
@@ -9,10 +14,16 @@ class Item:
         self.title = item.title
         self.text = item.text
         self.index = index
+        index_at_start = INDEX_REGEX.search(self.title)
+        if index_at_start:
+            self.index = index_at_start.group() #FIXME code smell?
+            self.title = INDEX_REGEX.sub('', self.title).strip('. ')
         self.guideline = guideline
         sections = list(text_to_sections(self.text, self.id))
         for section in sections:
             section.body = self.add_definitions(section.body)
+        if not sections:
+            logging.warn(f'Item has no body: {guideline.id}, {item.id}')
         body_section = sections[0]
         readmore_sections = sections[1:]
         self.body = self.create_body(body_section)

@@ -57,7 +57,7 @@ class Guideline:
         paths = RepoPaths(dirname)
         config = load_yaml(paths.config)
         resource_definitions = load_yaml(paths.resource_definitions)
-        glossary_dict = load_yaml(paths.glossary)
+        glossary_dict = load_yaml(paths.glossary) or {}
         return cls(dirname, config, resource_definitions, glossary_dict)
 
 def has_translations(config: dict) -> bool:
