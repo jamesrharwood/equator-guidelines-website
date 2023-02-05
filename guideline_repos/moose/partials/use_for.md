@@ -1,0 +1,1 @@
+This guideline is relevant to studies reporting meta-analyses of observational studies

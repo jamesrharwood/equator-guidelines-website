@@ -1,0 +1,46 @@
+checklist: &id001
+- Title:
+  - 1_.md
+- Abstract:
+  - 2_.md
+- Introduction:
+  - 3a_.md
+  - 3b_.md
+- Methods:
+  - 4a_source_of_data.md
+  - 4b_source_of_data.md
+  - 5a_participants.md
+  - 5b_participants.md
+  - 5c_participants.md
+  - 6a_outcome.md
+  - 6b_outcome.md
+  - 7a_predictors.md
+  - 7b_predictors.md
+  - 8_sample_size.md
+  - 9_missing_data.md
+  - 10a_statistical_analysis_methods.md
+  - 10b_statistical_analysis_methods.md
+  - 10c_statistical_analysis_methods.md
+  - 10d_statistical_analysis_methods.md
+  - 10e_statistical_analysis_methods.md
+  - 11_risk_groups.md
+  - 12_development_vs_validation.md
+- Results:
+  - 13a_participants.md
+  - 13b_participants.md
+  - 13c_participants.md
+  - 14a_model_development_.md
+  - 14b_model_development_.md
+  - 15a_model_specification.md
+  - 15b_model_specification.md
+  - 16_model_performance.md
+  - 17_modelupdating.md
+- Discussion:
+  - 18_limitations.md
+  - 19a_interpretation.md
+  - 19b_interpretation.md
+  - 20_implications.md
+- Other information:
+  - 21_supplementary_information.md
+  - 22_funding.md
+web: *id001

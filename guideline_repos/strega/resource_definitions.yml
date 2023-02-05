@@ -1,0 +1,69 @@
+checklist: &id001
+- Title and abstract:
+  - 1a_title.md
+  - 1b_abstract.md
+- Background/rationale:
+  - 2_.md
+- Objectives:
+  - 3_.md
+- Study design:
+  - 4_.md
+- Setting:
+  - 5_.md
+- Eligibility criteria:
+  - 6a_.md
+  - 6b_.md
+- Variables:
+  - 7a_.md
+  - 7b_.md
+- Data sources/measurement:
+  - 8a_.md
+  - 8b_.md
+- Bias:
+  - 9a_.md
+  - 9b_.md
+- Study size:
+  - 10_.md
+- Quantitative variables:
+  - 11_.md
+- Statistical methods:
+  - 12a_.md
+  - 12b_.md
+  - 12c_.md
+  - 12d_.md
+  - 12e_.md
+  - 12f_.md
+  - 12g_.md
+  - 12h_.md
+  - 12i_.md
+  - 12j_.md
+- Participants:
+  - 13a_.md
+  - 13b_.md
+  - 13c_.md
+- Descriptive data:
+  - 14a_.md
+  - 14b_.md
+  - 14c_.md
+- Outcome data:
+  - 15_.md
+- Main results:
+  - 16a_.md
+  - 16b_.md
+  - 16c_.md
+  - 16d_.md
+- Other analyses:
+  - 17a_.md
+  - 17b_.md
+  - 17c_.md
+- Key results:
+  - 18_.md
+- Limitations:
+  - 19_.md
+- Interpretation:
+  - 20_.md
+- Generalisability:
+  - 21_.md
+- Funding:
+  - 22_.md
+web: *id001

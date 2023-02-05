@@ -1,0 +1,49 @@
+checklist: &id001
+- Title:
+  - 1_.md
+- Abstract:
+  - 02a_.md
+  - 02b_.md
+- Introduction:
+  - 3_problem_description.md
+  - 4_available_knowledge.md
+  - 5_rationale.md
+  - 6_specific_aims.md
+- Methods:
+  - 7_context.md
+  - 08a_interventions.md
+  - 08b_interventions.md
+  - 09a_study_of_the_interventions.md
+  - 09b_study_of_the_interventions.md
+  - 10a_measures.md
+  - 10b_measures.md
+  - 10c_measures.md
+  - 11a_analysis.md
+  - 11b_analysis.md
+  - 12_ethical_considerations.md
+- Results:
+  - 13a_.md
+  - 13b_.md
+  - 13c_.md
+  - 13d_.md
+  - 13e_.md
+  - 13f_.md
+- Discussion:
+  - 14a_summary.md
+  - 14b_summary.md
+  - 15a_interpretation.md
+  - 15b_interpretation.md
+  - 15c_interpretation.md
+  - 15d_interpretation.md
+  - 15e_interpretation.md
+  - 16a_limitations.md
+  - 16b_limitations.md
+  - 16c_limitations.md
+  - 17a_conclusion.md
+  - 17b_conclusion.md
+  - 17c_conclusion.md
+  - 17d_conclusion.md
+  - 17e_conclusion.md
+- Other information:
+  - 18_funding.md
+web: *id001

@@ -1,0 +1,1 @@
+This advice is relevant to studies where the investigators observe exposures (e.g. smoking status) and outcomes (e.g. cancer) in study participants but do not influence what happens. Observational studies include cohort, case-control, and cross-sectional studies.

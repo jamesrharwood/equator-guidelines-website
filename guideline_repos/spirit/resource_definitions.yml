@@ -1,0 +1,61 @@
+checklist: &id001
+- Administrative information:
+  - 1_title.md
+  - 2a_trial_registration.md
+  - 2b_trial_registration_data_set.md
+  - 3_protocol_version.md
+  - 4_funding.md
+  - 5a_roles_and_responsibilities_contributorship.md
+  - 5b_roles_and_responsibilities_sponsor_contact_information.md
+  - 5c_roles_and_responsibilities_sponsor_and_funder.md
+  - 5d_roles_and_responsibilities_committees.md
+- Introduction:
+  - 6a_background_and_rationale.md
+  - 6b_background_and_rationale_choice_of_comparators.md
+  - 7_objectives.md
+  - 8_trial_design.md
+- 'Methods: Participants, interventions, and outcomes':
+  - 9_study_setting.md
+  - 10_eligibility_criteria.md
+  - 11a_interventions_description.md
+  - 11b_interventions_modifications.md
+  - 11c_interventions_adherance.md
+  - 11d_interventions_concomitant_care.md
+  - 12_outcomes.md
+  - 13_participant_timeline.md
+  - 14_sample_size.md
+  - 15_recruitment.md
+- 'Methods: Assignment of interventions (for controlled trials)':
+  - 16a_allocation_sequence_generation.md
+  - 16b_allocation_concealment_mechanism.md
+  - 16c_allocation_implementation.md
+  - 17a_blinding_masking.md
+  - 17b_blinding_masking_emergency_unblinding.md
+- 'Methods: Data collection, management, and analysis':
+  - 18a_data_collection_plan.md
+  - 18b_data_collection_plan_retention.md
+  - 19_data_management.md
+  - 20a_statistics_outcomes.md
+  - 20b_statistics_additional_analyses.md
+  - 20c_statistics_analysis_population_and_missing_data.md
+- 'Methods: Monitoring':
+  - 21a_data_monitoring_formal_committee.md
+  - 21b_data_monitoring_interim_analysis.md
+  - 22_harms.md
+  - 23_auditing.md
+- Ethics and dissemination:
+  - 24_research_ethics_approval.md
+  - 25_protocol_amendments.md
+  - 26a_consent_or_assent.md
+  - 26b_consent_or_assent_ancillary_studies.md
+  - 27_confidentiality.md
+  - 28_declaration_of_interests.md
+  - 29_data_access.md
+  - 30_ancillary_and_post_trial_care.md
+  - 31a_dissemination_policy_trial_results.md
+  - 31b_dissemination_policy_authorship.md
+  - 31c_dissemination_policy_reproducible_research.md
+- Appendices:
+  - 32_informed_consent_materials.md
+  - 33_biological_specimens.md
+web: *id001

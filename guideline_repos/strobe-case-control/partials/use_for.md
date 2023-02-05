@@ -1,0 +1,1 @@
+This guideline is relevant to studies reporting case-control studies

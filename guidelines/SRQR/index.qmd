@@ -8,6 +8,10 @@
 
 This guidance is also available in [French](https://www.google.com) and [German](https://www.google.com).
 
+## Why use this guideline
+
+{{< include partials/why_use.md >}}
+
 ## When to use this guidance
 
 ::: {.callout-tip icon=false appearance="simple"}
@@ -21,6 +25,10 @@ This guidance is also available in [French](https://www.google.com) and [German]
 ::: {.callout-note icon=false appearance="simple"}
 {{< include partials/related_resources.md >}}
 :::
+
+## How to use this guideline
+
+{{< include partials/how_to_use.md >}}
 
 ## Download Resources
 

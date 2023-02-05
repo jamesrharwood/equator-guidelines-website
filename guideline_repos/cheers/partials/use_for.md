@@ -1,0 +1,1 @@
+This guideline is relevant to economic evaluations of health interventions

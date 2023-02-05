@@ -1,0 +1,1 @@
+This guideline is relevant to protocols of systematic reviews

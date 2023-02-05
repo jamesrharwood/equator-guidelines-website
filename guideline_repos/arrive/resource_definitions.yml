@@ -1,0 +1,36 @@
+checklist: &id001
+- Title:
+  - 1_.md
+- Abstract:
+  - 2_.md
+- Introduction:
+  - 3a_background.md
+  - 3b_background.md
+  - 4_objectives.md
+- Methods:
+  - 5_ethical_statement.md
+  - 6a_study_design.md
+  - 6b_study_design.md
+  - 6c_study_design.md
+  - 7_experimental_procedures.md
+  - 8a_experimental_animals.md
+  - 8b_experimental_animals.md
+  - 9a_housing_and_husbandry.md
+  - 9b_housing_and_husbandry.md
+  - 9c_housing_and_husbandry.md
+  - 10_sample_size.md
+  - 11_allocating_animals_to_experimental_groups.md
+  - 12_experimental_outcomes.md
+  - 13_statistical_methods.md
+- Results:
+  - 14_baseline_data.md
+  - 15_numbers_analysed.md
+  - 16_outcomes_and_estimation.md
+  - 17_adverse_events.md
+- Discussion:
+  - 18a_interpretation__scientific_implications.md
+  - 18b_interpretation__scientific_implications.md
+  - 18c_interpretation__scientific_implications.md
+  - 19_generalisability__translation.md
+  - 20_funding.md
+web: *id001

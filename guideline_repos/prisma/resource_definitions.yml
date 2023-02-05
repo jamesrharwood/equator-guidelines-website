@@ -1,0 +1,36 @@
+checklist: &id001
+- Title:
+  - 1_.md
+- Abstract:
+  - 2_structured_summary.md
+- Introduction:
+  - 3_rationale.md
+  - 4_objectives.md
+- Methods:
+  - 5_protocol_and_registration.md
+  - 6_eligibility_criteria.md
+  - 7_information_sources.md
+  - 8_search.md
+  - 9_study_selection.md
+  - 10_data_collection_process.md
+  - 11_data_items.md
+  - 12_risk_of_bias_in_individual_studies.md
+  - 13_summary_measures.md
+  - 14_planned_methods_of_analyis.md
+  - 15_risk_of_bias_across_studies.md
+  - 16_additional_analyses.md
+- Results:
+  - 17_study_selection.md
+  - 18_study_characteristics.md
+  - 19_risk_of_bias_within_studies.md
+  - 20_results_of_individual_studies.md
+  - 21_synthesis_of_results.md
+  - 22_risk_of_bias_across_studies.md
+  - 23_additional_analysis.md
+- Discussion:
+  - 24_summary_of_evidence.md
+  - 25_limitations.md
+  - 26_conclusions.md
+- Funding:
+  - 27_funding.md
+web: *id001

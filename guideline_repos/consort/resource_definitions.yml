@@ -1,0 +1,45 @@
+checklist: &id001
+- Title and Abstract:
+  - 1a_title.md
+  - 1b_abstract.md
+- Introduction:
+  - 2a_background_and_objectives.md
+  - 2b_background_and_objectives.md
+- Methods:
+  - 3a_trial_design.md
+  - 3b_trial_design.md
+  - 4a_participants_.md
+  - 4b_participants_.md
+  - 5_interventions.md
+  - 6a_outcomes.md
+  - 6b_outcomes.md
+  - 7a_sample_size.md
+  - 7b_sample_size.md
+  - 8a_randomization__sequence_generation.md
+  - 8b_randomization__sequence_generation.md
+  - 9_randomization__allocation_concealment_mechanism.md
+  - 10_randomization__implementation.md
+  - 11a_blinding.md
+  - 11b_blinding.md
+  - 12a_statistical_methods.md
+  - 12b_statistical_methods.md
+- Results:
+  - 13a_participant_flow_diagram_strongly_recommended.md
+  - 13b_participant_flow.md
+  - 14a_recruitment.md
+  - 14b_recruitment.md
+  - 15_baseline_data.md
+  - 16_numbers_analysed.md
+  - 17a_outcomes_and_estimation.md
+  - 17b_outcomes_and_estimation.md
+  - 18_ancillary_analyses.md
+  - 19_harms.md
+- Discussion:
+  - 20_limitations.md
+  - 21_generalisability.md
+  - 22_interpretation.md
+  - 23_registration.md
+- Other Information:
+  - 24_protocol.md
+  - 25_funding.md
+web: *id001

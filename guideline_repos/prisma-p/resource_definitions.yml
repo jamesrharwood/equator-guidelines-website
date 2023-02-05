@@ -1,0 +1,35 @@
+checklist: &id001
+- Title:
+  - 1a_identification.md
+  - 1b_update.md
+- Registration:
+  - 2_.md
+- Authors:
+  - 3a_contact.md
+  - 3b_contribution.md
+- Amendments:
+  - 4_.md
+- Support:
+  - 5a_sources.md
+  - 5b_sponsor.md
+  - 5c_role_of_sponsor_or_funder.md
+- Introduction:
+  - 6_rationale.md
+  - 7_objectives.md
+- Methods:
+  - 8_eligibility_criteria.md
+  - 9_information_sources.md
+  - 10_search_strategy.md
+  - 11a_study_records__data_management.md
+  - 11b_study_records__selection_process.md
+  - 11c_study_records__data_collection_process.md
+  - 12_data_items.md
+  - 13_outcomes_and_prioritization.md
+  - 14_risk_of_bias_in_individual_studies.md
+  - 15a_data_synthesis.md
+  - 15b_data_synthesis.md
+  - 15c_data_synthesis.md
+  - 15d_data_synthesis.md
+  - 16_metabiases.md
+  - 17_confidence_in_cumulative_evidence.md
+web: *id001

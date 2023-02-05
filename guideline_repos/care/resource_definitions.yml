@@ -1,0 +1,45 @@
+checklist: &id001
+- Title:
+  - 1_.md
+- Keywords:
+  - 2_.md
+- Abstract:
+  - 3a_introduction.md
+  - 3b_.md
+  - 3c_.md
+  - 3d_conclusion.md
+- Introduction:
+  - 4_.md
+- Patient information:
+  - 5a_.md
+  - 5b_.md
+  - 5c_.md
+  - 5d_.md
+- Clinical findings:
+  - 6_.md
+- Timeline:
+  - 7_.md
+- Diagnostic assessment:
+  - 8a_.md
+  - 8b_.md
+  - 8c_.md
+  - 8d_.md
+- Therapeutic Intervention:
+  - 9a_.md
+  - 9b_.md
+  - 9c_.md
+- Follow up and outcomes:
+  - 10a_.md
+  - 10b_.md
+  - 10c_.md
+  - 10d_.md
+- Discussion:
+  - 11a_.md
+  - 11b_.md
+  - 11c_.md
+  - 11d_.md
+- Patient perspective:
+  - 12_.md
+- Informed consent:
+  - 13_.md
+web: *id001

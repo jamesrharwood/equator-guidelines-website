@@ -1,0 +1,13 @@
+---
+id: 16a_main_results
+title: "16a. Main results"
+---
+Give unadjusted estimates and, if applicable, confounder-adjusted estimates and their precision (eg, 95% confidence interval). Make clear which confounders were adjusted for and why they were included
+
+## Read More
+
+{readmore}
+
+## Examples
+
+{examples}
