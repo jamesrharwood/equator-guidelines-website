@@ -1,0 +1,15 @@
+<script>
+    const links = document.querySelectorAll('.link-to-collapsible')
+
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            const section = document.getElementById(link.dataset.target)
+            console.log(link.dataset.target)
+            console.log(section)
+            const header = section.querySelector('.callout-header')
+            header.classList.toggle('collapsed')
+            const body = section.querySelector('.callout-collapse')
+            body.classList.toggle('show')
+            })
+    })
+</script>

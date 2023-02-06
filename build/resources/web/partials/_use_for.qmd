@@ -1,5 +1,5 @@
-## When to use this guidance
+## About this guidance
 
-::: {.callout-tip icon=false appearance="simple"}
+::: {.large}
 {{< include partials/use_for.md >}}
 :::

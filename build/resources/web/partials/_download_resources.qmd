@@ -1,5 +1,10 @@
 ## Download Resources
 
+Reporting guidelines are best used early:
+
+* Use a template to write quickly and avoid the blank page
+* Use a checklist to double-check and reassure others that your work is described transparently
+
 ::: {.grid}
 
 ::: { .g-col-12 .g-col-md-4}

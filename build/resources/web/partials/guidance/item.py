@@ -1,4 +1,5 @@
 import re
+import os
 import logging
 
 from .sections import Section, text_to_sections
@@ -7,10 +8,13 @@ from .readmore import create_collapsible
 from build.guideline.glossary import add_glossary_to_string, wrap_string_with_span
 
 INDEX_REGEX = re.compile(r'^\d+[a-z]?\b')
+SELF_LINK_REGEX = re.compile(r'\[(?P<text>.+)\]\(\.?\)')
 
 class Item:
     def __init__(self, item, index, guideline):
         self.id = item.id
+        self.readmore_id = self.id + "-collapsible"
+        self.giscus_rel_path = item.giscus_rel_path
         self.title = item.title
         self.text = item.text
         self.index = index
@@ -24,17 +28,27 @@ class Item:
             section.body = self.add_definitions(section.body)
         if not sections:
             logging.warn(f'Item has no body: {guideline.id}, {item.id}')
+        self.sections = sections
         body_section = sections[0]
         readmore_sections = sections[1:]
         self.body = self.create_body(body_section)
-        self.readmore = create_collapsible(readmore_sections)
-        self.md = TEMPLATE.format(
-            id=self.id, 
-            index=self.index,
-            title=self.title,
-            body=self.body,
-            readmore=self.readmore
-        ).strip()
+        self.body = self.replace_readmore_links(self.body)
+        self.readmore = create_collapsible(readmore_sections, self)
+        self.md = TEMPLATE.format(item=self).strip()
+    
+    def replace_readmore_links(self, body: str) -> str:
+        links = SELF_LINK_REGEX.finditer(body)
+        links = list(links)
+        links = reversed(links)
+        for link in links:
+            text = link.groupdict()['text']
+            section = next((section for section in self.sections if section.heading==text), None)
+            if not section:
+                logging.warn(f'Item Read More section missing: {self.guideline.id}, {self.id}, {text}')
+                continue
+            new_link = f"[{text}](./{section.id}){{.link-to-collapsible data-target={self.readmore_id}}}"
+            body = body[:link.start()] + new_link + body[link.end():]
+        return body
 
     def create_body(self, section: Section) -> str:
         texts = [section.heading, section.body]
@@ -50,20 +64,20 @@ class Item:
     
 
 TEMPLATE = \
-"""::: {{.grid id="{id}"}}
+"""::: {{.grid id="{item.id}"}}
 ::: {{.g-col-9}}
-#### {index}. {title}
+#### {item.index}. {item.title}
 :::
 ::: {{.g-col-3}}
 ::: {{.section .chat-button}}
-[<i class="bi-chat-right-text" data-bs-toggle="offcanvas" href="#offcanvasChat" aria-controls="offcanvasChat" role="button"></i>]{{.btn}}
+[<i class="bi-chat-right-text" href="{item.giscus_rel_path}" role="button"></i>]{{.btn}}
 :::
 :::
 :::
 
-{body}
+{item.body}
 
-{readmore}"""
+{item.readmore}"""
 
 
 class ItemGroupHeading:

@@ -1,4 +1,4 @@
-from . import metadata, doi, translations, use_for, not_use_for, related_resources, download_resources,\
+from . import giscus, metadata, doi, translations, use_for, not_use_for, related_resources, download_resources,\
     guidance, glossary_offcanvas, how_to_use, why_use
 
 class Partial:
@@ -18,12 +18,13 @@ PARTIALS = [
     Partial(metadata, None),
     Partial(doi, None),
     Partial(translations, 'has_translations'),
-    Partial(why_use, 'has_why_use'),
     Partial(use_for, None),
     Partial(not_use_for, 'has_not_use_for'),
     Partial(related_resources, 'has_related_resources'),
-    Partial(how_to_use, 'has_how_to_use'),
     Partial(download_resources, None),
+    Partial(how_to_use, 'has_how_to_use'),
+    Partial(why_use, 'has_why_use'),
     Partial(guidance, None),
+    Partial(giscus, 'has_data_repo'),
     Partial(glossary_offcanvas, 'glossary_dict')
 ]  

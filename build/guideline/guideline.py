@@ -26,15 +26,22 @@ class Guideline:
     id: str = field(init=False)
     doi: str = field(init=False)
     translations: list[dict] = field(init=False)
+    data_repo: str = field(init=False)
+    has_data_repo: bool = field(init=False)
 
     def create_resources(self):
         self.create_folder()
         create_resources(self)
     
     def create_folder(self):
-        if not os.path.exists(self.destination_paths.dir): # type: ignore
-            os.makedirs(self.destination_paths.dir) # type: ignore
-            os.makedirs(self.destination_paths.partials_dir)
+        paths = [
+            self.destination_paths.dir,
+            self.destination_paths.partials_dir,
+            self.destination_paths.giscus_dir
+        ]
+        for path in paths:
+            if not os.path.exists(path): # type: ignore
+                os.makedirs(path) # type: ignore
     
     def __post_init__(self):
         self.repo_paths = RepoPaths(self.dirname)
@@ -49,12 +56,14 @@ class Guideline:
         self.items = list(self.load_items())
         self.has_how_to_use=has_text(self.repo_paths.how_to_use)
         self.has_why_use=has_text(self.repo_paths.why_use)
+        self.data_repo = self.config.get('data-repo', None)
+        self.has_data_repo = bool(self.data_repo)
     
     def load_items(self):
         item_dir = self.repo_paths.items_dir
         for filename in os.listdir(item_dir):
             path = os.path.join(item_dir, filename)
-            yield Item.from_filepath(path)
+            yield Item.from_filepath(path, self)
 
     @classmethod
     def create(cls, dirname: str):

@@ -32,10 +32,13 @@ class RepoPaths:
     
 class DestinationPaths(RepoPaths):
     parent_dir = os.path.join(root_path, 'guidelines')
+    giscus_dirname = 'discussion'
 
     def __init__(self, dirname):
         super().__init__(dirname)
         self.index = join(self.dir, 'index.qmd')
+        self.giscus_dir = join(self.dir, self.giscus_dirname)
+        self.giscus_rel_dir = self.giscus_dir.replace(str(root_path), '')
 
 class RelativeDestinationPaths(DestinationPaths):
     parent_dir = ''
