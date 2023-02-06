@@ -21,6 +21,8 @@ class Guideline:
     has_translations: bool = field(init=False)
     has_not_use_for: bool = field(init=False)
     has_related_resources: bool = field(init=False)
+    has_why_use: bool = field(init=False)
+    has_how_to_use: bool = field(init=False)
     id: str = field(init=False)
     doi: str = field(init=False)
     translations: list[dict] = field(init=False)
@@ -45,6 +47,8 @@ class Guideline:
         self.has_not_use_for = has_text(self.repo_paths.not_use_for)
         self.has_related_resources=has_text(self.repo_paths.related_resources)
         self.items = list(self.load_items())
+        self.has_how_to_use=has_text(self.repo_paths.how_to_use)
+        self.has_why_use=has_text(self.repo_paths.why_use)
     
     def load_items(self):
         item_dir = self.repo_paths.items_dir

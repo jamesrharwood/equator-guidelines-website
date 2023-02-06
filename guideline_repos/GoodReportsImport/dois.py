@@ -1,1 +1,19 @@
-DOIS = {}
+DOIS = {
+    'arrive': 'https://doi.org/10.1371/journal.pbio.1000412',
+    'care': 'https://doi.org/10.1136/bcr-2013-201554',
+    'cheers': 'https://doi.org/10.1186/1741-7015-11-80',
+    'consort': 'https://doi.org/10.1136/bmj.c332',
+    'coreq': 'https://doi.org/10.1093/intqhc/mzm042',
+    'moose': 'https://doi.org/10.1001/jama.283.15.2008',
+    'prisma': 'https://doi.org/10.1136/bmj.n71',
+    'prisma-p': 'https://doi.org/10.1186/2046-4053-4-1',
+    'spirit': 'https://doi.org/10.7326/0003-4819-158-3-201302050-00583',
+    'squire': 'https://doi.org/10.1136/bmjqs-2015-004411',
+    'stard': 'https://doi.org/10.1136/bmj.h5527',
+    'strega': 'https://doi.org/10.1371/journal.pmed.1000022',
+    'strobe': 'https://doi.org/10.1136/bmj.39335.541782.ad',
+    'strobe-case-control': 'https://doi.org/10.1136/bmj.39335.541782.ad',
+    'strobe-cohort': 'https://doi.org/10.1136/bmj.39335.541782.ad',
+    'strobe-cross-sectional': 'https://doi.org/10.1136/bmj.39335.541782.ad',
+    'tripod': 'https://doi.org/10.1186/s12916-014-0241-z',
+}

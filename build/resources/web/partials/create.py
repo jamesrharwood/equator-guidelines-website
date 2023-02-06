@@ -18,11 +18,11 @@ PARTIALS = [
     Partial(metadata, None),
     Partial(doi, None),
     Partial(translations, 'has_translations'),
-    Partial(why_use, None),
+    Partial(why_use, 'has_why_use'),
     Partial(use_for, None),
     Partial(not_use_for, 'has_not_use_for'),
     Partial(related_resources, 'has_related_resources'),
-    Partial(how_to_use, None),
+    Partial(how_to_use, 'has_how_to_use'),
     Partial(download_resources, None),
     Partial(guidance, None),
     Partial(glossary_offcanvas, 'glossary_dict')
