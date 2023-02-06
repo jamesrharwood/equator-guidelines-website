@@ -6,9 +6,9 @@
 
 ## Translations
 
-This guidance is also available in [French](https://www.google.com) and [German](https://www.google.com).
+This guideline is also available in [French](https://www.google.com) and [German](https://www.google.com).
 
-## About this guidance
+## About this guideline
 
 ::: {.large}
 {{< include partials/use_for.md >}}

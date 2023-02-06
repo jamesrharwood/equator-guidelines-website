@@ -1,3 +1,3 @@
 ## Translations
 
-This guidance is also available in {links}.
+This guideline is also available in {links}.
