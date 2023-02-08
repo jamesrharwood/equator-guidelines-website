@@ -71,7 +71,6 @@ format:
     section-divs: true
     include-in-header:
         - scripts/search-shortcut.html
-        - scripts/volley.html
     include-after-body:
         - scripts/toggle_collapsible.html
 
