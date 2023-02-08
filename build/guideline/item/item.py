@@ -14,8 +14,8 @@ class Item:
         self.text = text
         self.filename = filename
         self.guideline=guideline
-        self.giscus_path = os.path.join(guideline.destination_paths.giscus_dir, self.id+'.qmd')
-        self.giscus_rel_path = os.path.join(guideline.destination_paths.giscus_rel_dir, self.id+'.qmd')
+        self.giscus_path = os.path.join(guideline.destination_paths.giscus_dir, f'{self.id}.qmd')
+        self.giscus_rel_path = os.path.join(guideline.destination_paths.giscus_rel_dir, f'{self.id}.qmd')
 
     @classmethod
     def from_filepath(cls, filepath, guideline):

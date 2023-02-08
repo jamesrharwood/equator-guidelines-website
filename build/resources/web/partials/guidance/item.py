@@ -13,7 +13,7 @@ SELF_LINK_REGEX = re.compile(r'\[(?P<text>.+)\]\(\.?\)')
 class Item:
     def __init__(self, item, index, guideline):
         self.id = item.id
-        self.readmore_id = self.id + "-collapsible"
+        self.readmore_id = f"{self.id}-collapsible"
         self.giscus_rel_path = item.giscus_rel_path
         self.title = item.title
         self.text = item.text
