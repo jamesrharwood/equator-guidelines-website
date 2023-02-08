@@ -16,48 +16,46 @@ title-block-banner: assets/pencils.jpeg
 
 # Research articles made simple
 
-## Write with confidence using reporting guidelines.  These recommendations, created by the research community, describe what information readers need.
+## Write with confidence using reporting guidelines. These recommendations, created by the research community, describe what information readers need.
 
-<!-- don't love this. The second sentence is about benefits to others. Could we switch it to be more like what i've written about impact? -->
+<!-- don't love this. The second half is about benefits to others. Could we switch it to be more like what i've written about impact? -->
 
 ::: {.hero-buttons}
-[Search for guidance](https://www.equator-network.org/reporting-guidelines/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
+[Search guidelines](){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
 ::: 
 
 ### Frequently accessed reporting guidelines
 
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|<abbr title='Short definition here'>Observational Epidemiology</abbr>  |[STROBE Cohort (Cohort studies)](guidelines/strobe-cohort)                              |
+|Observational Epidemiology                                             |[STROBE Cohort](guidelines/strobe-cohort) - Cohort studies                              |
 |                                                                       |                                                                                        |
-|                                                                       |[STROBE Case-control (Case-control studies)](guidelines/strobe-case-control)            |
+|                                                                       |[STROBE Case-control](guidelines/strobe-case-control) - Case-control studies            |
 |                                                                       |                                                                                        |
-|                                                                       |[Cross-sectional studies (STROBE Cross-section)](guidelines/strobe-cross-sectional)     |
+|                                                                       |[STROBE Cross-sectional](guidelines/strobe-cross-sectional) - Cross-sectional studies   |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|Reviews                                                                |[PRISMA](guidelines/prisma) - Systematic reviews of trials                              |
 |                                                                       |                                                                                        |
-|                                                                       |[Genetic association studies (STREGA)](guidelines/strega)                               |
-+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|<abbr title='Short definition here'>Reviews</abbr>                     |[Systematic review of trials (PRISMA)](guidelines/prisma)                               |
+|                                                                       |[PRISMA-P](guidelines/prisma-p) - Systematic review protocols                           |
 |                                                                       |                                                                                        |
-|                                                                       |[Protocol for a systematic review of trials (PRISMA-P)](guidelines/prisma-p)            |
+|                                                                       |[MOOSE](guidelines/moose) - Meta-analyses of Observational studies                      |
++-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+|Randomised Trials                                                      |[CONSORT](guidelines/consort) - Randomised trials                                       |
 |                                                                       |                                                                                        |
-|                                                                       |[Meta-analysis of Observational studies (MOOSE)](guidelines/moose)                      |
+|                                                                       |[SPIRIT](guidelines/spirit) - Randomised trial protocols                                |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|<abbr title='Short definition of this'>Randomised Trials</abbr>        |[Randomised trial (CONSORT)](guidelines/consort)                                        |
-|                                                                       |                                                                                        |
-|                                                                       |[Protocol for a randomised trial (SPIRIT)](guidelines/spirit)                           |
+|Qualitative Research                                                   |[SRQR](guidelines/srqr)                                                                 |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|<abbr title='Short definition of this'>Qualitative Research</abbr>     |[Qualitative research (SRQR)](guidelines/srqr)                                          |
+|Case Reports                                                           |[CARE](guidelines/care)                                                                 |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|<abbr title='Short definition of this'>Case Reports</abbr>             |[Case Reports (CARE)](guidelines/care)                                                  |
+|Diagnostic Test Accuracy Studies                                       |[STARD](guideline/stard)                                                                |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|<abbr title='Short definition'>Diagnostic Test Accuracy</abbr>         |[Diagnostic test accuracy studies (STARD)](guideline/stard)                             |
+|Prediction Models                                                      |[TRIPOD](guideline/tripod)                                                              |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|<abbr title='Short definition'>Prediction Models</abbr>                |[Development / Validation (TRIPOD)](guideline/tripod)                                   |
+|Animal Research                                                        |[ARRIVE](guideline/arrive)                                                              |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|<abbr title='Short definition'>Animal Research</abbr>                  |[ARRIVE](guideline/arrive)                                                              |
+|Quality Improvement in Healthcare                                      |[SQUIRE](guideline/squire)                                                              |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|<abbr title='Short definition'>Quality Improvement in Healthcare</abbr>|[SQUIRE](guideline/squire)                                                              |
-+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|<abbr title='Short definition of this'>Economic Evaluations</abbr>     |[Of health interventions (CHEERS)](guidelines/cheers)                                   |
+|Economic Evaluations                                                   |[CHEERS](guidelines/cheers)                                                             |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
 
 [Browse reporting guidelines by speciality](https://www.equator-network.org/library/browse-reporting-guidelines-by-specialty/)

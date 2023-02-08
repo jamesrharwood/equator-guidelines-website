@@ -14,14 +14,14 @@ title-block-banner: assets/pencils.jpeg
 ::: {.quarto-title-banner .hero-banner}
 ::: {.content-block}
 
-# Write-ups, done right
+# Research articles made simple
 
-## Confidently write impactful research articles using community-created reccommendations.
+## Write with confidence using guidelines, created by the research community, that describe the information readers need.
 
 <!-- don't love this. The second half is about benefits to others. Could we switch it to be more like what i've written about impact? -->
 
 ::: {.hero-buttons}
-[Search for guidance](https://www.equator-network.org/reporting-guidelines/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
+[Search guidelines](){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
 ::: 
 
 ### Frequently accessed reporting guidelines
@@ -33,7 +33,7 @@ title-block-banner: assets/pencils.jpeg
 |                                                                       |                                                                                        |
 |                                                                       |[STROBE Cross-sectional](guidelines/strobe-cross-sectional) - Cross-sectional studies   |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|Reviews                                                                |[PRISMA](guidelines/prisma) - Systematic review of trials                               |
+|Reviews                                                                |[PRISMA](guidelines/prisma) - Systematic reviews of trials                              |
 |                                                                       |                                                                                        |
 |                                                                       |[PRISMA-P](guidelines/prisma-p) - Systematic review protocols                           |
 |                                                                       |                                                                                        |
