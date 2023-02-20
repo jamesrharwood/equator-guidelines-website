@@ -10,4 +10,4 @@ Readers should be able to easily identify the design that was used from the titl
 
 ## Examples
 
-> Leukaemia incidence among workers in the shoe and boot manufacturing industry: a case-control study
+> Leukaemia incidence among workers in the shoe and boot manufacturing industry: a cohort study

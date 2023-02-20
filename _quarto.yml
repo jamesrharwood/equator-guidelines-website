@@ -44,7 +44,7 @@ website:
             href: index.qmd
   page-footer:
     left: |
-      Proudly created by the
+      Created by the
       [UK EQUATOR Centre](https://www.equator-network.org/about-us/uk-equator-centre/)
     center:
       - text: "About"

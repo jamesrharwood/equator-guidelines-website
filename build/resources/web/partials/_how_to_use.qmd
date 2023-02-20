@@ -1,3 +1,36 @@
-## How to use this guideline
+## How to use this guideline 
+
+Reporting guidelines are best used early. Read the full guideline [below](#guidance) or use a tool when working:
+
+* Use a template to draft manuscripts and avoid the blank page
+<!-- #ASK: Caroline's comment. Use a template to get your writing off to a flying start". Colloquialism?-->
+* Use a log book to plan and record information whilst conducting research
+* Use a checklist to double-check and reassure others that your article describes all the important details of your work
+
+::: {.grid #downloads}
+
+::: { .g-col-12 .g-col-md-4}
+::: {.download-text}
+For drafting
+:::
+<a href="./ID_template.docx"><button type="button" class="btn btn-primary btn-lg width-100">Template</button></a>
+:::
+
+::: { .g-col-12 .g-col-md-4}
+::: {.download-text}
+For planning
+:::
+<a href="./ID_todo_list.docx"><button type="button" class="btn btn-primary btn-lg width-100">Log book</button></a>
+:::
+
+::: { .g-col-12 .g-col-md-4}
+::: {.download-text}
+For checking
+:::
+<a href="./ID_checklist.docx"><button type="button" class="btn btn-primary btn-lg width-100">Checklist</button></a>
+:::
+
+
+:::
 
 {{< include partials/how_to_use.md >}}

@@ -3,3 +3,26 @@ pagetitle: The SRQR guidelines for writing qualitative research articles
 css: 
   - ../../css/styles.css
   - ../../css/index.css
+appendix-style: default
+citation: 
+  type: article
+  issued: 2023/02/20
+  doi: 10.1234/equator/1010101
+  version: "1.1"
+  language: en
+  author: 
+    - name: Bridget O'Brien
+    - name: Ilene Harris
+    - name: Thomas Beckman 
+    - name: Darcy Reed
+    - name: David Cook
+  container-title: The EQUATOR Network guideline dissemination platform
+  container-author: 
+    - name: James Harwood
+    - name: Charlotte Albury
+    - name: Jennifer de Beyer
+    - name: Shona Kirtley
+    - name: Patricia Logullo
+    - name: Michael Schlüssel
+    - name: Caroline Struthers 
+    - name: Gary Collins

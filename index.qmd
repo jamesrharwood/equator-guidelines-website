@@ -16,9 +16,9 @@ title-block-banner: assets/pencils.jpeg
 
 # Research articles made simple
 
-## Write with confidence using guidelines, created by the research community, that describe the information readers need.
+## Write confidently using guidelines created by the research community
 
-<!-- don't love this. The second half is about benefits to others. Could we switch it to be more like what i've written about impact? -->
+<!-- #ASK: Pastel comments ended up with: Write complete articles with confidence using reporting guidelines created by the research community. I don't love this. Articles is repeated unecessarily. Don't love word complete. Why would ever write half an article? -->
 
 ::: {.hero-buttons}
 [Search guidelines](){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
@@ -27,7 +27,7 @@ title-block-banner: assets/pencils.jpeg
 ### Frequently accessed reporting guidelines
 
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|Observational Epidemiology                                             |[STROBE Cohort](guidelines/strobe-cohort) - Cohort studies                              |
+|Observational                                                          |[STROBE Cohort](guidelines/strobe-cohort) - Cohort studies                              |
 |                                                                       |                                                                                        |
 |                                                                       |[STROBE Case-control](guidelines/strobe-case-control) - Case-control studies            |
 |                                                                       |                                                                                        |
@@ -77,7 +77,7 @@ title-block-banner: assets/pencils.jpeg
 ## Recommendations to help describe your work clearly
 
 :::{.lead}
-Reporting guidelines don't advise how to _do_ research, but rather how to describe it transparently so it can be used by everyone.
+Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone.
 ::: 
 <!--end lead-->
 ::: {.features}
@@ -122,6 +122,7 @@ Considering what you'll need to write can help you plan a study. But reporting g
 
 :::{.lead}
 Transparent research leads to better patient outcomes, and guidelines make writing research easier.
+<!-- #ASK: It is not just about patient outcomes. Should we also mention more usable research results? -->
 :::
 
 ::: {.features}
@@ -145,7 +146,7 @@ Many journals require completed reporting checklists at submission.
 :::
 
 ::: {.feature}
-### Maximal impact
+### Maximum impact
 From nobel prizes to null results, articles have more impact when everyone can use them.
 
 ::: {.learn-more}
@@ -181,7 +182,7 @@ We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-
 ::: {.g-col-md-4 .g-col-12}
 
 ![](assets/EQUATOR-first-international-working-meeting-Oxford-May-2006)
-
+<!-- Replace with something modern that will make people think EQUATOR is current-->
 :::
 
 :::
@@ -202,7 +203,7 @@ We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-
 
 ### Ready to use a reporting guideline?
 
-[Search for guidance](){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
+[Search for guidelines](){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
 
 :::
 :::

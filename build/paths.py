@@ -17,6 +17,7 @@ class RepoPaths:
         self.items_dir = join(self.dir, 'items')
         self.partials_dir = join(self.dir, self.partials_dirname)
         self.use_for = join(self.partials_dir, 'use_for.md')
+        self.faqs = join(self.partials_dir, 'faqs.md')
         self.not_use_for = join(self.partials_dir, 'not_use_for.md')
         self.related_resources = join(self.partials_dir, 'related_resources.md')
         self.resource_definitions = join(self.dir, 'resource_definitions.yml')
