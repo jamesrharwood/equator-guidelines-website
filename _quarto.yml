@@ -73,4 +73,5 @@ format:
         - scripts/search-shortcut.html
     include-after-body:
         - scripts/toggle_collapsible.html
+        - scripts/hypothesis.html
 

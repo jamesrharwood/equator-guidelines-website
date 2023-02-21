@@ -8,6 +8,8 @@ editor: source
 description: | 
   Reporting guidelines: research write-ups, done right.
 title-block-banner: assets/pencils.jpeg
+include-after-body:
+  - scripts/hypothesis.html
 ---
 
 ::: {.quarto-title-block}
@@ -121,7 +123,7 @@ Considering what you'll need to write can help you plan a study. But reporting g
 ## Reporting guidelines help authors _and_ readers
 
 :::{.lead}
-Transparent research leads to better patient outcomes, and guidelines make writing research easier.
+Guidelines make writing research easier, and transparent research leads to better patient outcomes. 
 <!-- #ASK: It is not just about patient outcomes. Should we also mention more usable research results? -->
 :::
 
