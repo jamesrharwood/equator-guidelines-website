@@ -1,5 +1,5 @@
-from . import giscus, metadata, doi, translations, use_for, not_use_for, related_resources, download_resources,\
-    guidance, glossary_offcanvas, how_to_use, why_use, ready_to_start, faqs, citation
+from . import giscus, how_to_cite, metadata, doi, translations, use_for, not_use_for, related_resources, download_resources,\
+    guidance, glossary_offcanvas, how_to_use, why_use, ready_to_start, faqs
 
 class Partial:
     def __init__(self, module, required_if: str|None):
@@ -26,8 +26,8 @@ PARTIALS = [
     Partial(why_use, 'has_why_use'),
     Partial(guidance, None),
     Partial(ready_to_start, None),
+    Partial(how_to_cite, None),
+    Partial(faqs, None),
     Partial(giscus, 'has_data_repo'),
     Partial(glossary_offcanvas, 'glossary_dict'),
-    Partial(faqs, None),
-    Partial(citation, None),
 ]  

@@ -1,4 +1,6 @@
-## When to use this guideline
+## About this guideline
+
+### When to use this guideline
 
 ::: {.large}
 {{< include partials/use_for.md >}}

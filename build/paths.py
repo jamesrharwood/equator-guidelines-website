@@ -27,6 +27,7 @@ class RepoPaths:
         self.metadata = join(self.dir, '_metadata.yml')
         self.why_use = join(self.partials_dir, 'why_use.md')
         self.how_to_use = join(self.partials_dir, 'how_to_use.md')
+        self.how_to_cite = join(self.partials_dir, 'how_to_cite.md')
     
     def item(self, filename):
         return join(self.items_dir, filename)

@@ -1,6 +1,6 @@
-## How to use this guideline 
+### How to use this guideline 
 
-Reporting guidelines are best used early. Read the full guideline [below](#guidance) or use a tool when working:
+Reporting guidelines are best used early. Read the [full guideline below](#guidance) or use a tool when working:
 
 * Use a template to draft manuscripts and avoid the blank page
 <!-- #ASK: Caroline's comment. Use a template to get your writing off to a flying start". Colloquialism?-->
