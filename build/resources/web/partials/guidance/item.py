@@ -70,7 +70,7 @@ TEMPLATE = \
 :::
 ::: {{.g-col-3}}
 ::: {{.section .chat-button}}
-<button class="btn btn-outline-secondary" title="Discuss this item" href="{item.giscus_rel_path}" target="_blank"><i class="bi-chat-right-text"></i></button>
+<a class="btn btn-outline-secondary" title="Discuss this item" href="{item.giscus_rel_path}" target="_blank"><i class="bi-chat-right-text"></i></a>
 :::
 :::
 :::
