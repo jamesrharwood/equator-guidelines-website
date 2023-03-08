@@ -1,6 +1,11 @@
 TEXT = """\
 :::{.text-muted}
-Version: 1.1   
+Full Title: {{< meta full-title >}}
+
+Authors: {{< meta rg-authors >}}
+
+Version: 1.1
+
 DOI: 10.1234/equator/1010101
 :::
 
