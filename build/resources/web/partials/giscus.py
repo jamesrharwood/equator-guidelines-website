@@ -24,6 +24,7 @@ def _make_html(item, web_item):
     return f"""\
 ---
 title: "Discussion for {item.guideline.config['title-prefix']} item: [{item.title}](..)"
+citation: false
 ---
 {web_item.md}
 
