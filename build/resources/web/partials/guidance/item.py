@@ -29,10 +29,18 @@ class Item:
         if not sections:
             logging.warn(f'Item has no body: {guideline.id}, {item.id}')
         self.sections = sections
-        body_section = sections[0]
-        readmore_sections = sections[1:]
+        body_section = sections.pop(0)
         self.body = self.create_body(body_section)
         self.body = self.replace_readmore_links(self.body)
+        readmore_sections = sections
+        if readmore_sections:
+            self.has_readmore = True
+            title_section = readmore_sections.pop(0)
+            assert not(title_section.body), item.id
+            assert title_section.heading
+            self.readmore_title = title_section.heading
+        else:
+            self.has_readmore = False
         self.readmore = create_collapsible(readmore_sections, self)
         self.md = TEMPLATE.format(item=self).strip()
     

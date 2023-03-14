@@ -1,13 +1,13 @@
 
 
 :::{.text-muted}
-Version: 1.1
-
-DOI: 10.1234/equator/1010101
-
 Full Title: {{< meta full-title >}}
 
 Authors: {{< meta rg-authors >}}
+
+Version: 1.1
+
+DOI: 10.1234/equator/1010101
 :::
 
 ::: {.citations-counter}
@@ -36,7 +36,7 @@ This guideline is also available in [French](https://doi.org/10.1016/j.kine.2022
 :::
 
 ### How to use this guideline 
-[_"Reporting guidelines help me structure my drafts and develop as a researcher. I use them when teaching and hope that my students continue to use them."<br><br>_ Manuel Silva - Researcher]{.aside}
+["Reporting guidelines help me structure my drafts and develop as a researcher. I use them when teaching and hope that my students continue to use them."[Manuel Silva - Researcher]{.attribution}]{.aside}
 
 Reporting guidelines are best used early. Read the [full guideline below](#guidance) or use a tool when working:
 

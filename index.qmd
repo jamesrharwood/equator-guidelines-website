@@ -8,8 +8,6 @@ editor: source
 description: | 
   Reporting guidelines: research write-ups, done right.
 title-block-banner: assets/pencils.jpeg
-include-after-body:
-  - scripts/hypothesis.html
 ---
 
 ::: {.quarto-title-block}

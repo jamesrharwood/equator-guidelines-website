@@ -346,3 +346,13 @@ abbr {
 .chat-button .btn {
   border-style: none; 
 }
+
+.aside {
+  font-style: italic;
+}
+
+.aside .attribution {
+  display: block;
+  padding-top: 1rem;
+  font-style: normal
+}
