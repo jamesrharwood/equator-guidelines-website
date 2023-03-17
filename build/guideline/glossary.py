@@ -8,11 +8,12 @@ def add_glossary_to_string(string: str, glossary_dict: dict, wrapper_fn: Callabl
     matches = find_matches(string, glossary_dict)
     matches.reverse()
     for match in matches:
-        start = match.start()
-        end = match.end()
-        id_ = get_match_id(match)
-        tagged_string = wrapper_fn(string[start:end], id_)
-        string = string[:start] + tagged_string + string[end:]
+        if match_should_be_wrapped(match):
+            start = match.start()
+            end = match.end()
+            id_ = get_match_id(match)
+            tagged_string = wrapper_fn(string[start:end], id_)
+            string = string[:start] + tagged_string + string[end:]
     return string
 
 def find_matches(string, glossary_dict):
@@ -47,3 +48,19 @@ def id_from_index(index: int):
 
 SPAN = """\
 <span class="defined" data-bs-toggle="offcanvas" href="#{id_}" aria-controls="offcanvasExample" role="button">{string}</span>"""
+
+def match_should_be_wrapped(match):
+    if is_a_link(match):
+        return False
+    if is_an_aside(match):
+        return False
+    return True
+
+LINK_START = re.compile(r'\]\([^\)]*$')
+ASIDE_START = re.compile(r'\[[^\[]*$')
+
+def is_a_link(match):
+    return LINK_START.search(match.string[:match.start()])
+
+def is_an_aside(match):
+    return ASIDE_START.search(match.string[:match.start()])

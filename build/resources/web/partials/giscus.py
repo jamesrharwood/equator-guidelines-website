@@ -3,6 +3,7 @@ import os
 from build import file
 from build.resources.web.partials.guidance.item import Item
 
+
 def create_web(guideline):
     create_html(guideline.items)
     return ''
@@ -26,7 +27,7 @@ def _make_html(item, web_item):
 title: "Discussion for {item.guideline.config['title-prefix']} item: [{item.title}](..)"
 citation: false
 ---
-{web_item.md}
+{TEMPLATE.format(item=web_item).strip()}
 
 <script src="https://giscus.app/client.js"
 data-repo="{item.guideline.data_repo}"
@@ -45,3 +46,16 @@ crossorigin="anonymous"
 async>
 </script>
 """
+
+TEMPLATE = \
+"""::: {{.grid id="{item.id}"}}
+::: {{.g-col-9}}
+#### {item.title}
+:::
+::: {{.g-col-3}}
+:::
+:::
+
+{item.body}
+
+{item.readmore}"""
