@@ -6,7 +6,7 @@ toc: false
 css: "css/index.css"
 editor: source
 description: | 
-  Reporting guidelines: research write-ups, done right.
+  Reporting guidelines: writing research, made simple.
 title-block-banner: assets/pencils.jpeg
 ---
 
@@ -14,7 +14,7 @@ title-block-banner: assets/pencils.jpeg
 ::: {.quarto-title-banner .hero-banner}
 ::: {.content-block}
 
-# Research articles made simple
+# Writing research, made simple
 
 ## Write confidently using guidelines created by the research community
 
