@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Reporting guidelines: writing research, made simple.">
+
+<title>EQUATOR Guidelines</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+q { quotes: "“" "”" "‘" "’"; }
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./assets/favicons/equator-network-16x16.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script>
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+        console.log('in function!')
+        var searchShortcuts = document.getElementsByClassName("search-shortcut");
+        var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
+        for (let i = 0; i < searchShortcuts.length; i++) {
+            searchShortcuts[i].addEventListener('click', function() {
+                searchElement.click()
+                return false;
+            })
+            searchShortcuts[i].removeAttribute('href')
+        }
+    })
+</script>
+
+
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/index3.css">
+</head>
+
+<body class="floating nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/equator_logo.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Reporting Guidelines</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/">Training</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Other Resources</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">Toolkits</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">Library</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">Resources for Publishers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">Resources for Guideline Developers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">Resources for Librarians</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false">About EQUATOR</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">The EQUATOR Network</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">Blog</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">News</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">Contact</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    
+</nav>
+<!-- margin-sidebar -->
+<!-- main -->
+
+
+
+<div class="quarto-title-block">
+<div class="quarto-title-banner-normal-margin">
+<div class="content-block">
+<div class="hero-title-block">
+<div class="grid">
+<section id="writing-research-made-simple" class="g-col-lg-7 g-col-md-6 g-col-12 hero-content-left">
+<h1><span class="font-written">Writing research, <span class="green">made simple</span></span></h1>
+<h2 id="write-confidently-using-guidelines-created-by-the-research-community">Write confidently using guidelines created by the research community</h2>
+<!-- #ASK: Pastel comments ended up with: Write complete articles with confidence using reporting guidelines created by the research community. I don't love this. Articles is repeated unecessarily. Don't love word complete. Why would ever write half an article? -->
+<div class="hero-buttons">
+<p><a href="" class="btn-action-primary btn-action btn btn-lg margin-right-1 search-shortcut" role="button">Search guidelines</a> <a href="#sec-what-are-rgs" class="btn-action-secondary btn-action btn btn-lg" role="button">What are reporting guidelines?</a></p>
+</div>
+<!-- hero-buttons -->
+</section>
+<!-- /g-col -->
+<div class="g-col-lg-5 g-col-md-6 g-col-12">
+<div class="hero-image-side">
+<p><img src="assets/images/hero2.png" class="img-fluid"></p>
+</div>
+<!-- hero-image -->
+</div>
+<!-- g-col -->
+</div>
+<!-- grid -->
+</div>
+<!-- / hero-title-block -->
+</div>
+</div>
+</div>
+<div class="alt-background hero-banner table-block">
+<div class="content-block">
+<section id="frequently-accessed-reporting-guidelines" class="card">
+<h3>Frequently accessed reporting guidelines</h3>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Observational</td>
+<td><p><a href="guidelines/strobe-cohort">STROBE Cohort</a> - Cohort studies</p>
+<p><a href="guidelines/strobe-case-control">STROBE Case-control</a> - Case-control studies</p>
+<p><a href="guidelines/strobe-cross-sectional">STROBE Cross-sectional</a> - Cross-sectional studies</p></td>
+</tr>
+<tr class="even">
+<td>Reviews</td>
+<td><p><a href="guidelines/prisma">PRISMA</a> - Systematic reviews of trials</p>
+<p><a href="guidelines/prisma-p">PRISMA-P</a> - Systematic review protocols</p>
+<p><a href="guidelines/moose">MOOSE</a> - Meta-analyses of Observational studies</p></td>
+</tr>
+<tr class="odd">
+<td>Randomised Trials</td>
+<td><p><a href="guidelines/consort">CONSORT</a> - Randomised trials</p>
+<p><a href="guidelines/spirit">SPIRIT</a> - Randomised trial protocols</p></td>
+</tr>
+<tr class="even">
+<td>Qualitative Research</td>
+<td><a href="guidelines/srqr">SRQR</a></td>
+</tr>
+<tr class="odd">
+<td>Case Reports</td>
+<td><a href="guidelines/care">CARE</a></td>
+</tr>
+<tr class="even">
+<td>Diagnostic Test Accuracy Studies</td>
+<td><a href="guideline/stard">STARD</a></td>
+</tr>
+<tr class="odd">
+<td>Prediction Models</td>
+<td><a href="guideline/tripod">TRIPOD</a></td>
+</tr>
+<tr class="even">
+<td>Animal Research</td>
+<td><a href="guideline/arrive">ARRIVE</a></td>
+</tr>
+<tr class="odd">
+<td>Quality Improvement in Healthcare</td>
+<td><a href="guideline/squire">SQUIRE</a></td>
+</tr>
+<tr class="even">
+<td>Economic Evaluations</td>
+<td><a href="guidelines/cheers">CHEERS</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<!-- card -->
+</div>
+<!-- content block -->
+</div>
+<!-- alt background -->
+<div class="quarto-title-block hero-banner logos">
+<div class="content-block logos">
+<p><span class="small">Endorsed by leading publishers including:</span></p>
+<p><img src="assets/logos/nature.png" class="img-fluid"> <img src="assets/logos/wiley.png" class="img-fluid"> <img src="assets/logos/elsevier.png" class="img-fluid"> <img src="assets/logos/bmj.png" class="img-fluid"> <img src="assets/logos/bmc.svg" class="img-fluid"></p>
+</div>
+<!--/content-block-->
+</div>
+<!-- title block -->
+<section id="sec-what-are-rgs" class="content-block center">
+<h2><span class="highlighter">Recommendations to help describe your work clearly</span></h2>
+<div class="lead">
+<p>Reporting guidelines don’t advise how to <em>do</em> research, but how to describe it completely so it can be used by everyone. They can be used throughout your research journey:</p>
+</div>
+<!--end lead-->
+<div class="features">
+<div class="feature">
+<p><img src="assets/images/drafting.png" class="feature-icon img-fluid"></p>
+<h3 id="writing-manuscripts">Writing manuscripts</h3>
+<p>Write quickly, confidently, and avoid the blank page by using a template.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+<div class="feature">
+<p><img src="assets/images/checking.png" class="feature-icon img-fluid"></p>
+<h3 id="checking-manuscripts">Checking manuscripts</h3>
+<p>Double-check your writing and demonstrate to journals that your work is described thoroughly.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+<div class="feature">
+<p><img src="assets/images/clipboard.png" class="feature-icon img-fluid"></p>
+<h3 id="planning-research">Planning research</h3>
+<p>Considering what you’ll need to write can help you plan a study. But reporting guidelines won’t make decisions for you! <!--#ASK seems strange to include this when I've just said they dont tell you what to do!--></p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+<div class="quote lead">
+<div class="quote-text">
+<p><q>Reporting guidelines make writing so much easier and help me develop as a researcher. I use one for every article I write!</q></p>
+</div>
+<p><span class="attribution small">Alex Hamley, Edinburgh University</span></p>
+</div>
+<!-- /quote -->
+</div>
+</section>
+<!--/content-block-->
+<div class="alt-background">
+<section id="reporting-guidelines-help-authors-and-readers" class="content-block center">
+<h2>Reporting guidelines <span class="highlighter">help authors <em>and</em> readers</span></h2>
+<div class="lead">
+<p>Why use a reporting guideline? They make writing research easier, and transparent research leads to better patient outcomes. <!-- #ASK: It is not just about patient outcomes. Should we also mention more usable research results? --></p>
+</div>
+<div class="grid">
+<div class="g-col-md-4 g-col-12">
+<p><img src="assets/images/timer.png" class="feature-icon img-fluid"></p>
+<h3 id="easier-writing">Easier writing</h3>
+<p>Giving the blank page a skeleton makes writing easier and quicker.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+<div class="g-col-md-4 g-col-12">
+<p><img src="assets/images/publication.png" class="feature-icon img-fluid"></p>
+<h3 id="smoother-publishing">Smoother publishing</h3>
+<p>Many journals require completed reporting checklists at submission.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+<div class="g-col-md-4 g-col-12">
+<p><img src="assets/images/impact.png" class="feature-icon img-fluid"></p>
+<h3 id="maximum-impact">Maximum impact</h3>
+<p>From nobel prizes to null results, articles have more impact when everyone can use them.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+</div>
+<div class="quote">
+<div class="quote-text">
+<p><q>We like publishing transparent research because we think it’s more likely to be used and cited. That’s why we ask authors to use reporting guidelines.</q></p>
+</div>
+<p><span class="attribution small">Robin Lavery - Editor, International Journal of World Medicine</span></p>
+</div>
+<!-- quote -->
+<!--/features -->
+</section>
+<!-- /content-block -->
+</div>
+<!-- /alt-background -->
+<div class="about-equator">
+<section id="the-equator-network" class="content-block">
+<h2>The EQUATOR Network</h2>
+<div class="grid">
+<div class="g-col-md-8 g-col-12">
+<p>EQUATOR stands for Enhancing the QUAlity and Transparency Of health Research.</p>
+<p>Our mission is to improve the reliability and value of published health research literature by promoting transparent and accurate reporting and wider use of robust reporting guidelines. We are the first coordinated attempt to tackle the problems of inadequate reporting systematically and on a global scale.</p>
+<p>We advance the work done by individual guideline development groups. We maintain a database of reporting guidelines, run <a href="https://www.equator-network.org/category/events/upcoming-events/">training courses</a> on how to write research articles, have resources for <a href="https://www.equator-network.org/toolkits/using-guidelines-in-journals/">publishers</a>, <a href="https://www.equator-network.org/toolkits/peer-reviewing-research/">peer reviewers</a>, and reporting guideline <a href="https://www.equator-network.org/toolkits/developing-a-reporting-guideline/">developers</a>.</p>
+<p>We have centers in the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK</a> (our head office), <a href="https://www.equator-network.org/about-us/canadian-equator-centre/">Canada</a>, <a href="https://www.equator-network.org/about-us/australasian-equator-centre/">Australia</a>, <a href="https://www.equator-network.org/about-us/french-equator-centre/">France</a>, and <a href="http://www.equator-chinese.org/pages/en/index/index.html">China</a>.</p>
+</div>
+<div class="g-col-md-4 g-col-12">
+<p><img src="assets/EQUATOR-first-international-working-meeting-Oxford-May-2006.png" class="img-fluid"> <!-- Replace with something modern that will make people think EQUATOR is current--></p>
+</div>
+</div>
+<!-- /grid -->
+</section>
+</div>
+<div class="alt-background">
+<div class="get-started">
+<section id="ready-to-use-a-reporting-guideline" class="content-block">
+<h3>Ready to use a reporting guideline?</h3>
+<p><a href="" class="btn-action-primary btn-action btn btn-success btn-lg search-shortcut" role="button">Search for guidelines</a></p>
+</section>
+</div>
+</div>
+
+
+
+
+<script>
+    const links = document.querySelectorAll('.link-to-collapsible')
+
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            const section = document.getElementById(link.dataset.target)
+            console.log(link.dataset.target)
+            console.log(section)
+            const header = section.querySelector('.callout-header')
+            header.classList.toggle('collapsed')
+            const body = section.querySelector('.callout-collapse')
+            body.classList.toggle('show')
+            })
+    })
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></div>   
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./about">About</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./license">License</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./privacy">Privacy Policy</a>
+  </li>  
+</ul>
+      </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/equatornetwork">
+      <i class="bi bi-twitter" role="img" aria-label="Quarto Twitter">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="./github">
+      <i class="bi bi-github" role="img" aria-label="EQUATOR GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
