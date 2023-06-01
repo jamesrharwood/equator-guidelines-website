@@ -89,6 +89,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="citation_publication_date" content="2022-10-01">
 <meta name="citation_cover_date" content="2022-10-01">
 <meta name="citation_year" content="2022">
+<meta name="citation_fulltext_html_url" content="https://jamesrharwood.github.io/equator-guidelines-website//ABCDE.html">
 <meta name="citation_issue" content="2">
 <meta name="citation_doi" content="10.1145/3514174">
 <meta name="citation_isbn" content="978-3-8474-1017-1">
@@ -2103,6 +2104,7 @@ Discussion for [item name]
   volume = {21},
   number = {2},
   date = {2022-10-01},
+  url = {https://jamesrharwood.github.io/equator-guidelines-website//ABCDE.html},
   doi = {10.1145/3514174},
   isbn = {978-3-8474-1017-1},
   issn = {1539-9087},
@@ -2225,7 +2227,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp(/https:\/\/jamesrharwood\.github\.io\/equator-guidelines-website\//);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
