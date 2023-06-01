@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>The ARRIVE guidelines for writing a study using laboratory animals.</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/favicons/equator-network-16x16.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script>
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+        console.log('in function!')
+        var searchShortcuts = document.getElementsByClassName("search-shortcut");
+        var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
+        for (let i = 0; i < searchShortcuts.length; i++) {
+            searchShortcuts[i].addEventListener('click', function() {
+                searchElement.click()
+                return false;
+            })
+            searchShortcuts[i].removeAttribute('href')
+        }
+    })
+</script>
+
+
+<link rel="stylesheet" href="../../css/styles.css">
+<link rel="stylesheet" href="../../css/index.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/equator_logo.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">Reporting Guidelines</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/">Training</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Other Resources</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Toolkits</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Library</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Resources for Publishers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Resources for Guideline Developers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Resources for Librarians</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false">About EQUATOR</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">The EQUATOR Network</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Blog</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">News</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Contact</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#about-this-guideline" id="toc-about-this-guideline" class="nav-link active" data-scroll-target="#about-this-guideline">About this guideline</a></li>
+  <li><a href="#download-resources" id="toc-download-resources" class="nav-link" data-scroll-target="#download-resources">Download Resources</a></li>
+  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance">Guidance</a>
+  <ul class="collapse">
+  <li><a href="#title" id="toc-title" class="nav-link" data-scroll-target="#title">Title</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The ARRIVE guideline for writing a study using laboratory animals.</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<div class="citations-counter">
+<span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pbio.1000412" data-legend="never" data-style="large_rectangle"></span>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+</div>
+<section id="about-this-guideline" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-guideline">About this guideline</h2>
+<div class="large">
+<p>This guideline is relevant to research performed on animals in a laboratory setting,</p>
+</div>
+</section>
+<section id="download-resources" class="level2">
+<h2 class="anchored" data-anchor-id="download-resources">Download Resources</h2>
+<p>Reporting guidelines are best used early:</p>
+<ul>
+<li>Use a template to write quickly and avoid the blank page</li>
+<li>Use a checklist to double-check and reassure others that your work is described transparently</li>
+</ul>
+<div class="grid">
+<div class="g-col-12 g-col-md-4">
+<div class="download-text">
+<p>For drafting</p>
+</div>
+<p><a href="./arrive_template.docx"><button type="button" class="btn btn-primary btn-lg width-100">Template</button></a></p>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="download-text">
+<p>For checking</p>
+</div>
+<p><a href="./arrive_checklist.docx"><button type="button" class="btn btn-primary btn-lg width-100">Checklist</button></a></p>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="download-text">
+<p>For planning</p>
+</div>
+<p><a href="./arrive_todo_list.docx"><button type="button" class="btn btn-primary btn-lg width-100">To-do list</button></a></p>
+</div>
+</div>
+</section>
+<section id="guidance" class="level2">
+<h2 class="anchored" data-anchor-id="guidance">Guidance</h2>
+<p><small>Approx. 4 min read</small></p>
+<section id="title" class="level3">
+<h3 class="anchored" data-anchor-id="title">Title</h3>
+<div id="1" class="grid">
+<section id="title-1" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="title-1">1. Title</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/1.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Provide as accurate and concise a description of the content of the article as possible.</p>
+</section>
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
+<div id="2" class="grid">
+<section id="abstract-1" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="abstract-1">2. Abstract</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/2.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Provide an accurate summary of the background, research objectives, including details of the species or strain of animal used, key methods, principal findings and conclusions of the study.</p>
+</section>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<div id="3a_background" class="grid">
+<section id="a.-background" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-background">3a. Background</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/3a_background.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Include sufficient scientific background (including relevant references to previous work) to understand the motivation and context for the study, and explain the experimental approach and rationale.</p>
+<div id="3b_background" class="grid">
+<section id="b.-background" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-background">3b. Background</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/3b_background.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Explain how and why the animal species and model being used can address the scientific objectives and, where appropriate, the study’s relevance to human biology</p>
+<div id="4_objectives" class="grid">
+<section id="objectives" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="objectives">4. Objectives</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/4_objectives.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Clearly describe the primary and any secondary objectives of the study, or specific hypotheses being tested.</p>
+</section>
+<section id="methods" class="level3">
+<h3 class="anchored" data-anchor-id="methods">Methods</h3>
+<div id="5_ethical_statement" class="grid">
+<section id="ethical-statement" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="ethical-statement">5. Ethical statement</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/5_ethical_statement.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Indicate the nature of the ethical review permissions, relevant licences (e.g.&nbsp;Animal [Scientific Procedures] Act 1986), and national or institutional guidelines for the care and use of animals, that cover the research.</p>
+<div id="6a_study_design" class="grid">
+<section id="a.-study-design" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-study-design">6a. Study design</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/6a_study_design.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>For each experiment, give brief details of the study design including the number of experimental and control groups. A time-line diagram or flow chart can be useful to illustrate how complex study designs were carried out.</p>
+<div id="6b_study_design" class="grid">
+<section id="b.-study-design" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-study-design">6b. Study design</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/6b_study_design.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Report any steps taken to minimise the effects of subjective bias when allocating animals to treatment (e.g.&nbsp;randomisation procedure) and when assessing results (e.g.&nbsp;if done, describe who was blinded and when).</p>
+<div id="6c_study_design" class="grid">
+<section id="c.-study-design" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="c.-study-design">6c. Study design</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/6c_study_design.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Describe the experimental unit (e.g.&nbsp;a single animal, group or cage of animals). A time-line diagram or flow chart can be useful to illustrate how complex study designs were carried out.</p>
+<div id="7_experimental_procedures" class="grid">
+<section id="experimental-procedures" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="experimental-procedures">7. Experimental procedures</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/7_experimental_procedures.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>For each experiment and each experimental group, including controls, provide precise details of all procedures carried out. For example:</p>
+<ol type="a">
+<li><p>How (e.g.&nbsp;drug formulation and dose, site and route of administration, anaesthesia and analgesia used [including monitoring], surgical procedure, method of euthanasia). Provide details of any specialist equipment used, including supplier(s).</p></li>
+<li><p>When (e.g.&nbsp;time of day).</p></li>
+<li><p>Where (e.g.&nbsp;home cage, laboratory, water maze).</p></li>
+<li><p>Why (e.g.&nbsp;rationale for choice of specific anaesthetic, route of administration, drug dose used)</p></li>
+</ol>
+<div id="8a_experimental_animals" class="grid">
+<section id="a.-experimental-animals" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-experimental-animals">8a. Experimental animals</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/8a_experimental_animals.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Provide details of the animals used, including species, strain, sex, developmental stage (e.g.&nbsp;mean or median age plus age range) and weight (e.g.&nbsp;mean or median weight plus weight range).</p>
+<div id="8b_experimental_animals" class="grid">
+<section id="b.-experimental-animals" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-experimental-animals">8b. Experimental animals</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/8b_experimental_animals.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Provide further relevant information such as the source of animals, international strain nomenclature, genetic modification status (e.g.&nbsp;knock-out or transgenic), genotype, health / immune status, drug or test naïve, previous procedures, etc</p>
+<div id="9a_housing_and_husbandry" class="grid">
+<section id="a.-housing-and-husbandry" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-housing-and-husbandry">9a. Housing and husbandry</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/9a_housing_and_husbandry.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Provide details of housing (type of facility e.g.&nbsp;specific pathogen free [SPF]; type of cage or housing; bedding material; number of cage companions; tank shape and material etc. for fish).</p>
+<div id="9b_housing_and_husbandry" class="grid">
+<section id="b.-housing-and-husbandry" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-housing-and-husbandry">9b. Housing and husbandry</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/9b_housing_and_husbandry.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Report husbandry conditions (e.g.&nbsp;breeding programme, light / dark cycle, temperature, quality of water etc for fish, type of food, access to food and water, environmental enrichment).</p>
+<div id="9c_housing_and_husbandry" class="grid">
+<section id="c.-housing-and-husbandry" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="c.-housing-and-husbandry">9c. Housing and husbandry</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/9c_housing_and_husbandry.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Describe welfare-related assessments and interventions that were carried out prior to, during, or after the experiment</p>
+<div id="10_sample_size" class="grid">
+<section id="sample-size" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="sample-size">10. Sample size</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/10_sample_size.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<ol type="a">
+<li><p>Specify the total number of animals used in each experiment, and the number of animals in each experimental group.</p></li>
+<li><p>Explain how the number of animals was arrived at. Provide details of any sample</p></li>
+</ol>
+<p>size calculation used.</p>
+<ol start="3" type="a">
+<li>Indicate the number of independent replications of each experiment, if relevant.</li>
+</ol>
+<div id="11_allocating_animals_to_experimental_groups" class="grid">
+<section id="allocating-animals-to-experimental-groups" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="allocating-animals-to-experimental-groups">11. Allocating animals to experimental groups</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/11_allocating_animals_to_experimental_groups.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<ol type="a">
+<li><p>Give full details of how animals were allocated to experimental groups, including randomisation or matching if done.</p></li>
+<li><p>Describe the order in which the animals in the different experimental groups were treated and assessed.</p></li>
+</ol>
+<div id="12_experimental_outcomes" class="grid">
+<section id="experimental-outcomes" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="experimental-outcomes">12. Experimental outcomes</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/12_experimental_outcomes.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Clearly define the primary and secondary experimental outcomes assessed (e.g.&nbsp;cell death, molecular markers, behavioural changes).</p>
+<div id="13_statistical_methods" class="grid">
+<section id="statistical-methods" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="statistical-methods">13. Statistical methods</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/13_statistical_methods.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<ol type="a">
+<li><p>Provide details of the statistical methods used for each analysis.</p></li>
+<li><p>Specify the unit of analysis for each dataset (e.g.&nbsp;single animal, group of animals,</p></li>
+</ol>
+<p>single neuron).</p>
+<ol start="3" type="a">
+<li>Describe any methods used to assess whether the data met the assumptions</li>
+</ol>
+<p>of the statistical approach</p>
+</section>
+<section id="results" class="level3">
+<h3 class="anchored" data-anchor-id="results">Results</h3>
+<div id="14_baseline_data" class="grid">
+<section id="baseline-data" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="baseline-data">14. Baseline data</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/14_baseline_data.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>For each experimental group, report relevant characteristics and health status of animals (e.g.&nbsp;weight, microbiological status, and drug or test naïve) prior to treatment or testing (this information can often be tabulated).</p>
+<div id="15_numbers_analysed" class="grid">
+<section id="numbers-analysed" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="numbers-analysed">15. Numbers analysed</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/15_numbers_analysed.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<ol type="a">
+<li><p>Report the number of animals in each group included in each analysis. Report absolute numbers (e.g.&nbsp;10 / 20, not 50%2).</p></li>
+<li><p>If any animals or data were not included in the analysis, explain why.</p></li>
+</ol>
+<div id="16_outcomes_and_estimation" class="grid">
+<section id="outcomes-and-estimation" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="outcomes-and-estimation">16. Outcomes and estimation</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/16_outcomes_and_estimation.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Report the results for each analysis carried out, with a measure of precision (e.g.&nbsp;standard error or confidence interval).</p>
+<div id="17_adverse_events" class="grid">
+<section id="adverse-events" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="adverse-events">17. Adverse events</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/17_adverse_events.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<ol type="a">
+<li><p>Give details of all important adverse events in each experimental group.</p></li>
+<li><p>Describe any modifications to the experimental protocols made to reduce adverse events.</p></li>
+</ol>
+</section>
+<section id="discussion" class="level3">
+<h3 class="anchored" data-anchor-id="discussion">Discussion</h3>
+<div id="18a_interpretation__scientific_implications" class="grid">
+<section id="a.-interpretation-scientific-implications" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-interpretation-scientific-implications">18a. Interpretation / scientific implications</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/18a_interpretation__scientific_implications.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Interpret the results, taking into account the study objectives and hypotheses, current theory and other relevant studies in the literature.</p>
+<div id="18b_interpretation__scientific_implications" class="grid">
+<section id="b.-interpretation-scientific-implications" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-interpretation-scientific-implications">18b. Interpretation / scientific implications</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/18b_interpretation__scientific_implications.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Comment on the study limitations including any potential sources of bias, any limitations of the animal model, and the imprecision associated with the results</p>
+<div id="18c_interpretation__scientific_implications" class="grid">
+<section id="c.-interpretation-scientific-implications" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="c.-interpretation-scientific-implications">18c. Interpretation / scientific implications</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/18c_interpretation__scientific_implications.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Describe any implications of your experimental methods or findings for the</p>
+<p>replacement, refinement or reduction (the 3Rs) of the use of animals in research.</p>
+<div id="19_generalisability__translation" class="grid">
+<section id="generalisability-translation" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="generalisability-translation">19. Generalisability / translation</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/19_generalisability__translation.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>Comment on whether, and how, the findings of this study are likely to translate to other species or systems, including any relevance to human biology.</p>
+<div id="20_funding" class="grid">
+<section id="funding" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="funding">20. Funding</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<button class="btn btn-outline-secondary" title="Discuss this item" href="/guidelines/arrive/discussion/20_funding.qmd" target="_blank">
+<i class="bi-chat-right-text"></i>
+</button>
+</section>
+</div>
+</div>
+<p>List all funding sources (including grant number) and the role of the funder(s) in the study.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+    const links = document.querySelectorAll('.link-to-collapsible')
+
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            const section = document.getElementById(link.dataset.target)
+            console.log(link.dataset.target)
+            console.log(section)
+            const header = section.querySelector('.callout-header')
+            header.classList.toggle('collapsed')
+            const body = section.querySelector('.callout-collapse')
+            body.classList.toggle('show')
+            })
+    })
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></div>   
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../about">About</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../license">License</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../privacy">Privacy Policy</a>
+  </li>  
+</ul>
+      </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/equatornetwork">
+      <i class="bi bi-twitter" role="img" aria-label="Quarto Twitter">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../github">
+      <i class="bi bi-github" role="img" aria-label="EQUATOR GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
