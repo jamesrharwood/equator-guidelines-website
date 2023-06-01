@@ -22,7 +22,6 @@ description: |
 
 ::: {.hero-buttons}
 [Search guidelines](){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
-[Browse by speciality](https://www.equator-network.org/library/browse-reporting-guidelines-by-specialty/){.btn-action .btn .btn-info .btn-lg role="button"}
 ::: 
 
 :::
@@ -62,6 +61,7 @@ description: |
 |Economic Evaluations                                                   |[CHEERS](guidelines/cheers)                                                             |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
 
+[Browse reporting guidelines by speciality](https://www.equator-network.org/library/browse-reporting-guidelines-by-specialty/)
 
 
 :::{.quote .lead}

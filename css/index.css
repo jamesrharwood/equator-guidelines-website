@@ -99,6 +99,11 @@ td p {
   border: none;
 }
 
+.btn-info {
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+
 .hero-banner ul {
   padding-inline-start: 21px;
   font-size: 1.1rem;
