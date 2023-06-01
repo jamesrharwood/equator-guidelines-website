@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>The TRIPOD guidelines for writing a Prediction model development and validation study.</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/favicons/equator-network-16x16.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script>
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+        console.log('in function!')
+        var searchShortcuts = document.getElementsByClassName("search-shortcut");
+        var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
+        for (let i = 0; i < searchShortcuts.length; i++) {
+            searchShortcuts[i].addEventListener('click', function() {
+                searchElement.click()
+                return false;
+            })
+            searchShortcuts[i].removeAttribute('href')
+        }
+    })
+</script>
+
+
+<link rel="stylesheet" href="../../css/styles.css">
+<link rel="stylesheet" href="../../css/index.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/equator_logo.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">Reporting Guidelines</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/">Training</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Other Resources</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Toolkits</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Library</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Resources for Publishers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Resources for Guideline Developers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Resources for Librarians</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false">About EQUATOR</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">The EQUATOR Network</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Blog</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">News</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../index.html">
+ <span class="dropdown-text">Contact</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#about-this-guideline" id="toc-about-this-guideline" class="nav-link active" data-scroll-target="#about-this-guideline">About this guideline</a></li>
+  <li><a href="#download-resources" id="toc-download-resources" class="nav-link" data-scroll-target="#download-resources">Download Resources</a></li>
+  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance">Guidance</a>
+  <ul class="collapse">
+  <li><a href="#title" id="toc-title" class="nav-link" data-scroll-target="#title">Title</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  <li><a href="#other-information" id="toc-other-information" class="nav-link" data-scroll-target="#other-information">Other information</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The TRIPOD guideline for writing a Prediction model development and validation study.</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<div class="citations-counter">
+<span class="__dimensions_badge_embed__" data-doi="10.1186/s12916-014-0241-z" data-legend="never" data-style="large_rectangle"></span>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+</div>
+<section id="about-this-guideline" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-guideline">About this guideline</h2>
+<div class="large">
+<p>This guideline is relevant to studies reporting prediction models (both diagnostic and prognostic)</p>
+</div>
+</section>
+<section id="download-resources" class="level2">
+<h2 class="anchored" data-anchor-id="download-resources">Download Resources</h2>
+<p>Reporting guidelines are best used early:</p>
+<ul>
+<li>Use a template to write quickly and avoid the blank page</li>
+<li>Use a checklist to double-check and reassure others that your work is described transparently</li>
+</ul>
+<div class="grid">
+<div class="g-col-12 g-col-md-4">
+<div class="download-text">
+<p>For drafting</p>
+</div>
+<p><a href="./tripod_template.docx"><button type="button" class="btn btn-primary btn-lg width-100">Template</button></a></p>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="download-text">
+<p>For checking</p>
+</div>
+<p><a href="./tripod_checklist.docx"><button type="button" class="btn btn-primary btn-lg width-100">Checklist</button></a></p>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="download-text">
+<p>For planning</p>
+</div>
+<p><a href="./tripod_todo_list.docx"><button type="button" class="btn btn-primary btn-lg width-100">To-do list</button></a></p>
+</div>
+</div>
+</section>
+<section id="guidance" class="level2">
+<h2 class="anchored" data-anchor-id="guidance">Guidance</h2>
+<p><small>Approx. 3 min read</small></p>
+<section id="title" class="level3">
+<h3 class="anchored" data-anchor-id="title">Title</h3>
+<div id="1" class="grid">
+<section id="title-1" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="title-1">1. Title</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/1.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Identify the study as developing and / or validating a multivariable prediction model, the target population, and the outcome to be predicted.</p>
+</section>
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
+<div id="2" class="grid">
+<section id="abstract-1" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="abstract-1">2. Abstract</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/2.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Provide a summary of objectives, study design, setting, participants, sample size, predictors, outcome, statistical analysis, results, and conclusions.</p>
+</section>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<div id="3a_" class="grid">
+<section id="a.-introduction" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-introduction">3a. Introduction</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/3a_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Explain the medical context (including whether diagnostic or prognostic) and rationale for developing or validating the multivariable prediction model, including references to existing models.</p>
+<div id="3b_" class="grid">
+<section id="b.-introduction" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-introduction">3b. Introduction</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/3b_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Specify the objectives, including whether the study describes the development or validation of the model or both.</p>
+</section>
+<section id="methods" class="level3">
+<h3 class="anchored" data-anchor-id="methods">Methods</h3>
+<div id="4a_source_of_data" class="grid">
+<section id="a.-source-of-data" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-source-of-data">4a. Source of data</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/4a_source_of_data.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Describe the study design or source of data (e.g., randomized trial, cohort, or registry data), separately for the development and validation data sets, if applicable.</p>
+<div id="4b_source_of_data" class="grid">
+<section id="b.-source-of-data" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-source-of-data">4b. Source of data</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/4b_source_of_data.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Specify the key study dates, including start of accrual; end of accrual; and, if applicable, end of follow-up.</p>
+<div id="5a_participants" class="grid">
+<section id="a.-participants" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-participants">5a. Participants</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/5a_participants.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Specify key elements of the study setting (e.g., primary care, secondary care, general population) including number and location of centres.</p>
+<div id="5b_participants" class="grid">
+<section id="b.-participants" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-participants">5b. Participants</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/5b_participants.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Describe eligibility criteria for participants.</p>
+<div id="5c_participants" class="grid">
+<section id="c.-participants" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="c.-participants">5c. Participants</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/5c_participants.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Give details of treatments received, if relevant</p>
+<div id="6a_outcome" class="grid">
+<section id="a.-outcome" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-outcome">6a. Outcome</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/6a_outcome.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Clearly define the outcome that is predicted by the prediction model, including how and when assessed.</p>
+<div id="6b_outcome" class="grid">
+<section id="b.-outcome" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-outcome">6b. Outcome</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/6b_outcome.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Report any actions to blind assessment of the outcome to be predicted.</p>
+<div id="7a_predictors" class="grid">
+<section id="a.-predictors" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-predictors">7a. Predictors</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/7a_predictors.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Clearly define all predictors used in developing or validating the multivariable prediction model, including how and when they were measured</p>
+<div id="7b_predictors" class="grid">
+<section id="b.-predictors" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-predictors">7b. Predictors</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/7b_predictors.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Report any actions to blind assessment of predictors for the outcome and other predictors.</p>
+<div id="8_sample_size" class="grid">
+<section id="sample-size" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="sample-size">8. Sample size</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/8_sample_size.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Explain how the study size was arrived at.</p>
+<div id="9_missing_data" class="grid">
+<section id="missing-data" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="missing-data">9. Missing data</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/9_missing_data.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Describe how missing data were handled (e.g., complete-case analysis, single imputation, multiple imputation) with details of any imputation method.</p>
+<div id="10a_statistical_analysis_methods" class="grid">
+<section id="a.-statistical-analysis-methods" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-statistical-analysis-methods">10a. Statistical analysis methods</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/10a_statistical_analysis_methods.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>If you are developing a prediction model describe how predictors were handled in the analyses.</p>
+<div id="10b_statistical_analysis_methods" class="grid">
+<section id="b.-statistical-analysis-methods" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-statistical-analysis-methods">10b. Statistical analysis methods</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/10b_statistical_analysis_methods.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>If you are developing a prediction model, specify type of model, all model-building procedures (including any predictor selection), and method for internal validation.</p>
+<div id="10c_statistical_analysis_methods" class="grid">
+<section id="c.-statistical-analysis-methods" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="c.-statistical-analysis-methods">10c. Statistical analysis methods</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/10c_statistical_analysis_methods.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>If you are validating a prediction model, describe how the predictions were calculated.</p>
+<div id="10d_statistical_analysis_methods" class="grid">
+<section id="d.-statistical-analysis-methods" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="d.-statistical-analysis-methods">10d. Statistical analysis methods</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/10d_statistical_analysis_methods.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Specify all measures used to assess model performance and, if relevant, to compare multiple models.</p>
+<div id="10e_statistical_analysis_methods" class="grid">
+<section id="e.-statistical-analysis-methods" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="e.-statistical-analysis-methods">10e. Statistical analysis methods</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/10e_statistical_analysis_methods.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>If you are validating a prediction model, describe any model updating (e.g., recalibration) arising from the validation, if done</p>
+<div id="11_risk_groups" class="grid">
+<section id="risk-groups" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="risk-groups">11. Risk groups</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/11_risk_groups.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Provide details on how risk groups were created, if done.</p>
+<div id="12_development_vs_validation" class="grid">
+<section id="development-vs.-validation" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="development-vs.-validation">12. Development vs.&nbsp;validation</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/12_development_vs_validation.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>For validation, identify any differences from the development data in setting, eligibility criteria, outcome, and predictors.</p>
+</section>
+<section id="results" class="level3">
+<h3 class="anchored" data-anchor-id="results">Results</h3>
+<div id="13a_participants" class="grid">
+<section id="a.-participants-1" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-participants-1">13a. Participants</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/13a_participants.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Describe the flow of participants through the study, including the number of participants with and without the outcome and, if applicable, a summary of the follow-up time. A diagram may be helpful.</p>
+<div id="13b_participants" class="grid">
+<section id="b.-participants-1" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-participants-1">13b. Participants</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/13b_participants.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Describe the characteristics of the participants (basic demographics, clinical features, available predictors), including the number of participants with missing data for predictors and outcome.</p>
+<div id="13c_participants" class="grid">
+<section id="c.-participants-1" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="c.-participants-1">13c. Participants</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/13c_participants.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>For validation, show a comparison with the development data of the distribution of important variables (demographics, predictors and outcome).</p>
+<div id="14a_model_development_" class="grid">
+<section id="a.-model-development" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-model-development">14a. Model development</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/14a_model_development_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>If developing a model, specify the number of participants and outcome events in each analysis.</p>
+<div id="14b_model_development_" class="grid">
+<section id="b.-model-development" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-model-development">14b. Model development</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/14b_model_development_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>If developing a model, report the unadjusted association, if calculated between each candidate predictor and outcome.</p>
+<div id="15a_model_specification" class="grid">
+<section id="a.-model-specification" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-model-specification">15a. Model specification</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/15a_model_specification.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>If developing a model, present the full prediction model to allow predictions for individuals (i.e., all regression coefficients, and model intercept or baseline survival at a given time point).</p>
+<div id="15b_model_specification" class="grid">
+<section id="b.-model-specification" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-model-specification">15b. Model specification</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/15b_model_specification.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>If developing a prediction model, explain how to the use it.</p>
+<div id="16_model_performance" class="grid">
+<section id="model-performance" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="model-performance">16. Model performance</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/16_model_performance.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Report performance measures (with CIs) for the prediction model.</p>
+<div id="17_modelupdating" class="grid">
+<section id="model-updating" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="model-updating">17. Model-updating</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/17_modelupdating.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>If validating a model, report the results from any model updating, if done (i.e., model specification, model performance).</p>
+</section>
+<section id="discussion" class="level3">
+<h3 class="anchored" data-anchor-id="discussion">Discussion</h3>
+<div id="18_limitations" class="grid">
+<section id="limitations" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="limitations">18. Limitations</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/18_limitations.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Discuss any limitations of the study (such as nonrepresentative sample, few events per predictor, missing data).</p>
+<div id="19a_interpretation" class="grid">
+<section id="a.-interpretation" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="a.-interpretation">19a. Interpretation</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/19a_interpretation.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>For validation, discuss the results with reference to performance in the development data, and any other validation data</p>
+<div id="19b_interpretation" class="grid">
+<section id="b.-interpretation" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="b.-interpretation">19b. Interpretation</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/19b_interpretation.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Give an overall interpretation of the results, considering objectives, limitations, results from similar studies, and other relevant evidence.</p>
+<div id="20_implications" class="grid">
+<section id="implications" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="implications">20. Implications</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/20_implications.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Discuss the potential clinical use of the model and implications for future research</p>
+</section>
+<section id="other-information" class="level3">
+<h3 class="anchored" data-anchor-id="other-information">Other information</h3>
+<div id="21_supplementary_information" class="grid">
+<section id="supplementary-information" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="supplementary-information">21. Supplementary information</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/21_supplementary_information.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Provide information about the availability of supplementary resources, such as study protocol, Web calculator, and data sets.</p>
+<div id="22_funding" class="grid">
+<section id="funding" class="level4 g-col-9">
+<h4 class="anchored" data-anchor-id="funding">22. Funding</h4>
+</section>
+<div class="g-col-3">
+<section class="chat-button">
+<p><a href="../../guidelines/tripod/discussion/22_funding.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
+</section>
+</div>
+</div>
+<p>Give the source of funding and the role of the funders for the present study.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+    const links = document.querySelectorAll('.link-to-collapsible')
+
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            const section = document.getElementById(link.dataset.target)
+            console.log(link.dataset.target)
+            console.log(section)
+            const header = section.querySelector('.callout-header')
+            header.classList.toggle('collapsed')
+            const body = section.querySelector('.callout-collapse')
+            body.classList.toggle('show')
+            })
+    })
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Proudly created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></div>   
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../about">About</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../license">License</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../privacy">Privacy Policy</a>
+  </li>  
+</ul>
+      </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/equatornetwork">
+      <i class="bi bi-twitter" role="img" aria-label="Quarto Twitter">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../github">
+      <i class="bi bi-github" role="img" aria-label="EQUATOR GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

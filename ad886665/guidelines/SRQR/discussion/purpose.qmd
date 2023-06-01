@@ -1,0 +1,58 @@
+---
+title: "Discussion for SRQR item: [Purpose or research question](..)"
+citation: false
+---
+::: {.grid id="purpose"}
+::: {.g-col-9}
+#### Purpose or research question
+:::
+::: {.g-col-3}
+:::
+:::
+
+["A clear purpose frames the article." [Rahilah Zayn - Researcher]{.attribution}]{.aside}
+
+Include a statement of study intent. This can be framed as one or more research questions, purposes, goals, or objectives.^[Qualitative studies often explore “how” and “why” questions related to a social or human problems or phenomenon, and they are designed to enhance readers’ understanding of a problem or phenomenon.]
+
+::: {#purpose-collapsible .callout-note appearance="minimal" collapse=true}
+
+## Justification, Example, and Resources
+
+Jump to:
+
+* [Why readers need this information](#sec-purpose-2)
+* [Example](#sec-purpose-3)
+* [Training and Resources](#sec-purpose-4)
+
+
+## Why readers need this information{#sec-purpose-2}
+
+By clearly stating the purpose of the study, authors set readers’ expectations for the methods, findings and discussion sections of the manuscript.
+
+## Example{#sec-purpose-3}
+
+> The purposes of this study were to investigate how medical students recognize, respond to and utilise feedback, and to determine whether there are maturational differences in understandings of the role of feedback across academic years in medical school.
+
+## Training and Resources{#sec-purpose-4}
+
+See [this article](https://doi.org/10.1097/acm.0000000000001438) for advice on writing qualitative research questions.
+
+[Back to top](#purpose)
+:::
+
+<script src="https://giscus.app/client.js"
+data-repo="jamesrharwood/srqr"
+data-repo-id="R_kgDOIaTtVw"
+data-category="Announcements"
+data-category-id="DIC_kwDOIaTtV84CSe8S"
+data-mapping="specific"
+data-term="Purpose or research question"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-theme="preferred_color_scheme"
+data-theme="light"
+data-lang="en"
+crossorigin="anonymous"
+async>
+</script>

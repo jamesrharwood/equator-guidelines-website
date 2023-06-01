@@ -1,0 +1,66 @@
+---
+title: "Discussion for SRQR item: [Title](..)"
+citation: false
+---
+::: {.grid id="title"}
+::: {.g-col-9}
+#### Title
+:::
+::: {.g-col-3}
+:::
+:::
+
+Describe the nature and topic of the study.
+
+Identify the study as qualitative or indicate the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span> or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">data collection methods</span>.
+
+::: {#title-collapsible .callout-note appearance="minimal" collapse=true}
+
+## Justification, Examples, and Resources
+
+Jump to:
+
+* [Why readers need this information](#sec-title-2)
+* [Examples](#sec-title-3)
+* [Training and Resources](#sec-title-4)
+
+
+## Why readers need this information{#sec-title-2}
+
+This allows readers to quickly identify the type of study. [Your title will be indexed by search tools so descriptive words will make it easier for others to discover]{.added}.
+
+## Examples{#sec-title-3}
+
+> Residents learning from a narrative experience with dying patients: a qualitative study.
+
+> Medical students' perceptions of the factors influencing their academic performance: an exploratory interview study with high-achieving and re-sitting medical students.
+
+> Undergraduate rural medical education program development: focus group consultation with the NRHA Rural Medical Educators Group.
+
+<!-- #TODO: examples of titles that could be improved -->
+
+## Training and Resources{#sec-title-4}
+
+See [this article](https://doi.org/10.1007/s40037-016-0267-3) for advice on writing titles that are interesting and descriptive.
+
+The EQUATOR Network provides training for writing effective manuscript titles as part of their [publication school](https://www.equator-network.org/2023/01/24/uk-equator-centre-publication-school-april-2023/).
+
+[Back to top](#title)
+:::
+
+<script src="https://giscus.app/client.js"
+data-repo="jamesrharwood/srqr"
+data-repo-id="R_kgDOIaTtVw"
+data-category="Announcements"
+data-category-id="DIC_kwDOIaTtV84CSe8S"
+data-mapping="specific"
+data-term="Title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-theme="preferred_color_scheme"
+data-theme="light"
+data-lang="en"
+crossorigin="anonymous"
+async>
+</script>

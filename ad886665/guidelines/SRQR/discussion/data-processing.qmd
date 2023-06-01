@@ -1,0 +1,63 @@
+---
+title: "Discussion for SRQR item: [Data processing](..)"
+citation: false
+---
+::: {.grid id="data-processing"}
+::: {.g-col-9}
+#### Data processing
+:::
+::: {.g-col-3}
+:::
+:::
+
+Describe the ways in which data are prepared for analysis and managed throughout the analysis process. These activities might include transcription, coding, data entry, and organization of data. (See footnote for audio or visual recordings^[Details might include indication of verbatim transcription of dialogue, additional notes to capture non- verbal information (especially for group interviews or focus groups), and annotations to indicate vocal inflections and utterances, as appropriate for the analytic approach.]).
+
+Describe the processes used to organize, compile, and categorize data (e.g., field notes, transcripts, documents, photographs, artifacts) for analysis.
+
+If you used transcripts, describe procedures used to check accuracy.
+
+Describe procedures used to maintain data security and protect the privacy of participants, as specified in the human subjects protocols (see footnote on anonymisation^[If data are anonymized, the authors should explain how and at what point in the process this occurred. Authors may choose to use anonymous labels or identifiers to represent quotes or excerpts from unique participants, documents or events, in order to reflect the variety of sources from which such data were derived.] as an example).
+
+::: {#data-processing-collapsible .callout-note appearance="minimal" collapse=true}
+
+## Justification and Examples
+
+Jump to:
+
+* [Why readers need this information](#sec-data-processing-2)
+* [Examples](#sec-data-processing-3)
+
+
+## Why readers need this information{#sec-data-processing-2}
+
+This information helps readers know what decisions the researchers made and why so the reader can 1) consider the relevance to their context and the resonance with their own experience or observations (or lack of resonance and why that might be) and 2) evaluate or critically appraise the manuscript.
+
+<!-- #ASK: default justification doesn't seem to fit -->
+
+## Examples{#sec-data-processing-3}
+
+> Interviews were anonymised and each participant was given a code number.
+
+> The interviewers and another member of the research team (H.B.) reviewed transcripts for accuracy.
+
+> We collected data throughout the admission process through direct observation, audio- recording, and chart extraction. We audio-recorded, transcribed, and anonymized both the overnight and morning case review discussions. We also observed the morning case review discussions in person and collected field notes. For each case review discussion, we copied the admission notes from the patient’s record and de-identified all data.
+
+[Back to top](#data-processing)
+:::
+
+<script src="https://giscus.app/client.js"
+data-repo="jamesrharwood/srqr"
+data-repo-id="R_kgDOIaTtVw"
+data-category="Announcements"
+data-category-id="DIC_kwDOIaTtV84CSe8S"
+data-mapping="specific"
+data-term="Data processing"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-theme="preferred_color_scheme"
+data-theme="light"
+data-lang="en"
+crossorigin="anonymous"
+async>
+</script>

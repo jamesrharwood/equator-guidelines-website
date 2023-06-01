@@ -1,0 +1,65 @@
+---
+title: "Discussion for SRQR item: [Qualitative approach and research paradigm](..)"
+citation: false
+---
+::: {.grid id="qualitative-approach"}
+::: {.g-col-9}
+#### Qualitative approach and research paradigm
+:::
+::: {.g-col-3}
+:::
+:::
+
+Describe your qualitative <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>, your guiding theory (if appropriate), and identify the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem0" aria-controls="offcanvasExample" role="button">research paradigm</span>.^[Qualitative research includes an array of approaches and methodologies, both general (e.g., qualitative content analysis, general inductive approach) and specific (e.g., ethnography, grounded theory, phenomenography).] ["I like it when authors describe terms in their own words as well as using the proper terms."[Rahilah Zayn - Researcher]{.attribution}]{.aside}
+
+Explain why the selected approach is appropriate for the research question.
+
+Provide references to theories or traditions that guide the use of the approach as needed.
+
+["I hadn't heard the term 'approach' before writing-up my study. I realise now that I did have an approach and that it might be different to other researcher's approaches, so I need to describe things that I felt were obvious."[Tim Westland - Researcher]{.attribution}]{.aside}
+
+<!-- #ASK Charlotte null case, resources -->
+
+If you don't know what your approach or paradigm was, or you don't think you had one, it's OK to reflect on this _after_ collecting data and you should still report it. Read [this list](.) to see what best describes your work.
+
+::: {#qualitative-approach-collapsible .callout-note appearance="minimal" collapse=true}
+
+## Justification and Examples
+
+Jump to:
+
+* [Why readers need this information](#sec-qualitative-approach-2)
+* [Examples](#sec-qualitative-approach-3)
+
+
+## Why readers need this information{#sec-qualitative-approach-2}
+
+Identifying the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem0" aria-controls="offcanvasExample" role="button">research paradigm</span> helps readers understand whether the researcher assumes that there is a single, objective reality (positivist or post-positivist) and has thus designed the study to describe this reality or whether the researcher assumes multiple, subjective realities and designed the study to describe these multiple realities, with no attempt to merge or reconcile these realities (constructivist/interpretivist). The paradigm has implications for the study design, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>, methods, and techniques to ensure rigour and trustworthiness.
+
+Since the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem0" aria-controls="offcanvasExample" role="button">research paradigm</span> does not necessarily dictate particular approaches or methods, the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span> should also be clearly defined. Stating the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span> provides readers the opportunity to evaluate the fidelity of the research <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span> to the research question(s) and consider the rationale for modifications and deviations from the selected <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>. Qualitative research also includes an array of methods that can be used across paradigms and approaches. (See also Item 10).
+
+## Examples{#sec-qualitative-approach-3}
+
+> The study was performed from a constructivist point of view using an interpretative phenomenological epistemology. Based on the notion that social phenomena are constructed by the communal making of meaning about the underlying phenomena, we aimed to construct insightful accounts of lead consultants’ approaches to educational change, rather than to identify the ‘true’ nature of these approaches. Because the management of change by lead consultants is an under-researched area, we conducted an exploratory qualitative study...
+
+> Given the relative dearth of explanatory theories about factors affecting medical students’ emotional reactions, we chose to develop one by applying methods associated with <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem9" aria-controls="offcanvasExample" role="button">grounded theory</span>, specifically constant comparative analysis, to qualitative data obtained from learning logs and interviews. Our <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span> was constructivist, deliberately using researchers’ own experiences and acquired knowledge to enhance theoretical sensitivity and enrich theory development.
+
+[Back to top](#qualitative-approach)
+:::
+
+<script src="https://giscus.app/client.js"
+data-repo="jamesrharwood/srqr"
+data-repo-id="R_kgDOIaTtVw"
+data-category="Announcements"
+data-category-id="DIC_kwDOIaTtV84CSe8S"
+data-mapping="specific"
+data-term="Qualitative approach and research paradigm"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-theme="preferred_color_scheme"
+data-theme="light"
+data-lang="en"
+crossorigin="anonymous"
+async>
+</script>
