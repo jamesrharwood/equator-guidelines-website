@@ -44,6 +44,10 @@ td p {
   padding-left: 0px;
 }
 
+.hero-title-block {
+  min-height: 60vh;
+}
+
 #quarto-content>* {
   padding-top: 0px;
 }
@@ -104,61 +108,10 @@ td p {
   padding-bottom: 0.4rem;
 }
 
-
 .alt-background {
   background-color: rgb(247, 251, 250);
   border-top: 1px solid #dee2e6;
   border-bottom: 1px solid #dee2e6;
-}
-
-.hello-quarto {
-  padding-bottom: 1rem;
-}
-
-@media (min-width: 600px) {
-.hello-quarto-banner {
-  display: inline-flex;
-  align-content: center;
-  justify-content: center;
-}
-
-.hello-quarto-banner h1 {
-  margin-right: 40px;
-}
-}
-
-.hello-quarto-banner .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  border: none;
-  border-bottom: 2px solid #39729E !important;
-  color: #39729E;
-  background-color: transparent;
-  
-}
-
-.hello-quarto-banner .nav-pills button {
-  width: 125px;
-}
-
-.hello-quarto .tab-content {
-  border: none;
-  padding: 0;
-  color: rgb(84, 85, 85);
-}
-
-.hello-quarto .tab-content p {
-  font-size: 1.1em;
-  margin-bottom: 1.5em;
-}
-
-.hello-quarto div.sourceCode {
-  background-color: white;
-  border: 1px solid #dee2e6;
-}
-
-.hello-output {
-  background-color: white;
-  border: 1px solid #dee2e6;
-  max-height: 660px;
 }
 
 .features {

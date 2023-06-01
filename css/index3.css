@@ -1,0 +1,132 @@
+:root {
+  --greenl: rgb(11, 167, 87);
+  --green: #066836;
+  --greenvl: #adf1ce;
+  --greenvvl: #e9fff3;
+
+}
+
+@font-face {
+  font-family: Caveat;
+  src: url(assets/fonts/Caveat-VariableFont_wght.ttf);
+}
+.quarto-title-block .quarto-title-banner {
+  background-image: none;
+  background-size: cover;
+  background-color: white;
+}
+.hero-image-side {
+  margin-top: 50px;
+  margin-left: 0px;
+}
+.hero-image-side img {
+  max-height: 50vh;
+}
+.font-written {
+  font-family: Caveat;
+}
+.green {
+  color: var(--greenl);
+}
+h1 .font-written {
+  font-size: calc(2.245rem + 1.14vw)
+}
+h1 {
+  font-weight: 10px;
+  font-weight: bold;
+}
+.hero-content-left {
+  margin-right: 30px;
+}
+h2 {
+  border-bottom: none;
+}
+.btn-action-primary {
+  background-color: var(--greenl) !important;
+}
+.btn-action-secondary {
+  background-color: white !important;
+  color: var(--greenl);
+}
+.margin-right-1 {
+  margin-right: 1rem;
+}
+.hero-buttons .btn {
+  margin-top: 1rem;
+}
+.alt-background {
+  background-color: var(--greenvvl);
+}
+.alt-background.table-block {
+  background-image: linear-gradient(white , var(--greenvl), var(--greenvl), white);
+  border-top: none;
+  border-bottom: none;
+}
+.card {
+  padding: 2rem;
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.quote-text {
+  /* background-color: var(--greenvl); */
+  transform: rotate(-3deg);
+  border-radius: 0.5rem;
+}
+.quote-text p {
+  transform: rotate(3deg);
+}
+.logos img {
+  max-width: 5rem;
+}
+.logos img+img {
+  margin-left: 1rem;
+}
+.quote {
+  border: none;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 3rem;
+}
+.quote-text p {
+  font-family: Caveat;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 1.5rem;
+}
+.highlighter {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(173, 241, 206, 0.1),
+    rgba(173, 241, 206, 0.7) 4%,
+    rgba(173, 241, 206, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.hero-banner.logos {
+  background-color: white;
+  text-align: center;
+}
+.content-block.logos {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.logos p {
+  margin-bottom: 0;
+}
+.feature-icon {
+  max-width: 66%;
+  max-height: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-block.center {
+  text-align: center;
+}
+

@@ -3,30 +3,54 @@ pagetitle: "EQUATOR Guidelines"
 page-layout: custom
 section-divs: false
 toc: false
-css: "css/index.css"
+css:
+  - "css/index.css"
+  - "css/index3.css"
 editor: source
 description: | 
   Reporting guidelines: writing research, made simple.
 ---
 
 ::: {.quarto-title-block}
-::: {.quarto-title-banner .hero-banner}
+::: {.quarto-title-banner-normal-margin}
 ::: {.content-block}
 
 ::: {.hero-title-block}
-# Writing research, made simple
+::: {.grid}
+::: {.g-col-lg-7 .g-col-md-6 .g-col-12 .hero-content-left}
+# [Writing research, [made simple]{.green}]{.font-written}
 
 ## Write confidently using guidelines created by the research community
 
 <!-- #ASK: Pastel comments ended up with: Write complete articles with confidence using reporting guidelines created by the research community. I don't love this. Articles is repeated unecessarily. Don't love word complete. Why would ever write half an article? -->
 
 ::: {.hero-buttons}
-[Search guidelines](){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
-[Browse by speciality](https://www.equator-network.org/library/browse-reporting-guidelines-by-specialty/){.btn-action .btn .btn-info .btn-lg role="button"}
-::: 
+[Search guidelines](){.btn-action-primary .btn-action .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
+[What are reporting guidelines?](#sec-what-are-rgs){.btn-action-secondary .btn-action .btn .btn-lg role="button"} 
+:::
+<!-- hero-buttons -->
+:::
+<!-- /g-col -->
 
+::: {.g-col-lg-5 .g-col-md-6 .g-col-12}
+::: {.hero-image-side}
+![](assets/images/hero2.png)
+:::
+<!-- hero-image -->
+:::
+<!-- g-col -->
+:::
+<!-- grid -->
 :::
 <!-- / hero-title-block -->
+:::
+:::
+:::
+
+::: {.alt-background .hero-banner .table-block}
+::: {.content-block}
+
+::: {.card}
 
 ### Frequently accessed reporting guidelines
 
@@ -62,30 +86,42 @@ description: |
 |Economic Evaluations                                                   |[CHEERS](guidelines/cheers)                                                             |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
 
-
-
-:::{.quote .lead}
-"Reporting guidelines make writing so much easier and help me develop as a researcher. I use one for every article I write!"
-
-[Alex Hamley, Edinburgh University]{.attribution .small}
 :::
+<!-- card -->
 
-::: 
-::: 
 :::
-<!--/title-block-->
+<!-- content block -->
+:::
+<!-- alt background -->
 
-::: {.content-block}
+::: {.quarto-title-block .hero-banner .logos}
+::: {.content-block .logos}
 
-## Recommendations to help describe your work clearly
+[Endorsed by leading publishers including:]{.small}
+
+![](assets/logos/nature.png)
+![](assets/logos/wiley.png)
+![](assets/logos/elsevier.png)
+![](assets/logos/bmj.png)
+![](assets/logos/bmc.svg)
+::: 
+<!--/content-block-->
+:::
+<!-- title block -->
+
+::: {.content-block .center}
+
+## [Recommendations to help describe your work clearly]{.highlighter}{#sec-what-are-rgs}
 
 :::{.lead}
-Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone.
+Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone. They can be used throughout your research journey:
 ::: 
 <!--end lead-->
 ::: {.features}
 
 ::: {.feature}
+![](assets/images/drafting.png){.feature-icon}
+
 ### Writing manuscripts
 Write quickly, confidently, and avoid the blank page by using a template.
 
@@ -95,6 +131,8 @@ Write quickly, confidently, and avoid the blank page by using a template.
 :::
 
 ::: {.feature}
+![](assets/images/checking.png){.feature-icon}
+
 ### Checking manuscripts
 Double-check your writing and demonstrate to journals that your work is described thoroughly.
 
@@ -104,6 +142,8 @@ Double-check your writing and demonstrate to journals that your work is describe
 :::
 
 ::: {.feature}
+![](assets/images/clipboard.png){.feature-icon}
+
 ### Planning research
 Considering what you'll need to write can help you plan a study. But reporting guidelines won't make decisions for you!
 <!--#ASK seems strange to include this when I've just said they dont tell you what to do!-->
@@ -113,24 +153,34 @@ Considering what you'll need to write can help you plan a study. But reporting g
 :::
 :::
 
+:::{.quote .lead}
+::: {.quote-text}
+"Reporting guidelines make writing so much easier and help me develop as a researcher. I use one for every article I write!"
+:::
+
+[Alex Hamley, Edinburgh University]{.attribution .small}
+:::
+<!-- /quote -->
 
 :::
 :::
 <!--/content-block-->
 
 ::: {.alt-background}
-::: {.content-block}
+::: {.content-block .center}
 
-## Reporting guidelines help authors _and_ readers
+## Reporting guidelines [help authors _and_ readers]{.highlighter}
 
 :::{.lead}
-Guidelines make writing research easier, and transparent research leads to better patient outcomes. 
+Why use a reporting guideline? They make writing research easier, and transparent research leads to better patient outcomes.
 <!-- #ASK: It is not just about patient outcomes. Should we also mention more usable research results? -->
 :::
 
 ::: {.grid}
 
-::: {.g-col-md-8 .g-col-12}
+::: {.g-col-md-4 .g-col-12}
+![](assets/images/timer.png){.feature-icon}
+
 ### Easier writing
 Giving the blank page a skeleton makes writing easier and quicker. 
 
@@ -139,7 +189,9 @@ Giving the blank page a skeleton makes writing easier and quicker.
 :::
 :::
 
-::: {.g-col-md-8 .g-col-12}
+::: {.g-col-md-4 .g-col-12}
+![](assets/images/publication.png){.feature-icon}
+
 ### Smoother publishing
 Many journals require completed reporting checklists at submission.
 
@@ -148,8 +200,11 @@ Many journals require completed reporting checklists at submission.
 :::
 :::
 
-::: {.g-col-md-8 .g-col-12}
+::: {.g-col-md-4 .g-col-12}
+![](assets/images/impact.png){.feature-icon}
+
 ### Maximum impact
+
 From nobel prizes to null results, articles have more impact when everyone can use them.
 
 ::: {.learn-more}
@@ -158,13 +213,16 @@ From nobel prizes to null results, articles have more impact when everyone can u
 :::
 
 ::: 
-<!--/features -->
-:::{.quote .lead}
-"We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines."
 
+:::{.quote}
+:::{.quote-text}
+"We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines."
+:::
 [Robin Lavery - Editor, International Journal of World Medicine]{.attribution .small}
 :::
-<!-- /quote -->
+<!-- quote -->
+<!--/features -->
+
 :::
 <!-- /content-block -->
 :::
