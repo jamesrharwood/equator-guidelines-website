@@ -2,122 +2,206 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/ABCDE.html</loc>
-    <lastmod>2023-06-01T21:17:36.294Z</lastmod>
+    <lastmod>2023-06-05T15:47:17.027Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/about.html</loc>
-    <lastmod>2023-06-01T21:17:36.762Z</lastmod>
+    <lastmod>2023-06-05T15:47:17.376Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/SRQR-1/index.html</loc>
-    <lastmod>2023-06-01T21:17:38.016Z</lastmod>
+    <lastmod>2023-06-05T15:47:18.702Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/SRQR-slim/index.html</loc>
-    <lastmod>2023-06-01T21:17:39.279Z</lastmod>
+    <lastmod>2023-06-05T15:47:19.914Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/arrive/index.html</loc>
-    <lastmod>2023-06-01T21:17:39.728Z</lastmod>
+    <lastmod>2023-06-05T15:47:20.411Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/care/index.html</loc>
-    <lastmod>2023-06-01T21:17:40.265Z</lastmod>
+    <lastmod>2023-06-05T15:47:20.811Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/cheers/index.html</loc>
-    <lastmod>2023-06-01T21:17:40.754Z</lastmod>
+    <lastmod>2023-06-05T15:47:21.225Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/consort/index.html</loc>
-    <lastmod>2023-06-01T21:17:42.550Z</lastmod>
+    <lastmod>2023-06-05T15:47:23.447Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/coreq/index.html</loc>
-    <lastmod>2023-06-01T21:17:43.132Z</lastmod>
+    <lastmod>2023-06-05T15:47:23.935Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/moose/index.html</loc>
-    <lastmod>2023-06-01T21:17:43.805Z</lastmod>
+    <lastmod>2023-06-05T15:47:24.386Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/prisma-p/index.html</loc>
-    <lastmod>2023-06-01T21:17:44.393Z</lastmod>
+    <lastmod>2023-06-05T15:47:24.818Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/prisma/index.html</loc>
-    <lastmod>2023-06-01T21:17:46.115Z</lastmod>
+    <lastmod>2023-06-05T15:47:26.789Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/spirit/index.html</loc>
-    <lastmod>2023-06-01T21:17:49.317Z</lastmod>
+    <lastmod>2023-06-05T15:47:30.949Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/squire/index.html</loc>
-    <lastmod>2023-06-01T21:17:49.923Z</lastmod>
+    <lastmod>2023-06-05T15:47:31.515Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/abstract.html</loc>
+    <lastmod>2023-06-05T15:47:31.963Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/conflicts-of-interest.html</loc>
+    <lastmod>2023-06-05T15:47:32.407Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/context.html</loc>
+    <lastmod>2023-06-05T15:47:32.806Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/data-analysis.html</loc>
+    <lastmod>2023-06-05T15:47:33.185Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/data-collection-instruments.html</loc>
+    <lastmod>2023-06-05T15:47:33.536Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/data-collection-methods.html</loc>
+    <lastmod>2023-06-05T15:47:33.874Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/data-processing.html</loc>
+    <lastmod>2023-06-05T15:47:34.365Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/ethics.html</loc>
+    <lastmod>2023-06-05T15:47:34.807Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/funding.html</loc>
+    <lastmod>2023-06-05T15:47:35.191Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/integration-with-prior-work.html</loc>
+    <lastmod>2023-06-05T15:47:35.657Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/limitations.html</loc>
+    <lastmod>2023-06-05T15:47:36.138Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/links-to-empirical-data.html</loc>
+    <lastmod>2023-06-05T15:47:36.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/problem-formulation.html</loc>
+    <lastmod>2023-06-05T15:47:37.058Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/purpose.html</loc>
+    <lastmod>2023-06-05T15:47:37.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/qualitative-approach.html</loc>
+    <lastmod>2023-06-05T15:47:37.886Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/researcher-characteristics-and-reflexivity.html</loc>
+    <lastmod>2023-06-05T15:47:38.399Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/sampling-strategy.html</loc>
+    <lastmod>2023-06-05T15:47:38.849Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/synthesis-and-interpretation.html</loc>
+    <lastmod>2023-06-05T15:47:39.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/title.html</loc>
+    <lastmod>2023-06-05T15:47:39.724Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/trustworthiness.html</loc>
+    <lastmod>2023-06-05T15:47:40.264Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/discussion/units-of-study.html</loc>
+    <lastmod>2023-06-05T15:47:40.660Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/index.html</loc>
-    <lastmod>2023-06-01T21:17:51.990Z</lastmod>
+    <lastmod>2023-06-05T15:47:42.753Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/qsca.html</loc>
-    <lastmod>2023-06-01T21:17:54.009Z</lastmod>
+    <lastmod>2023-06-05T15:47:44.641Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/qscb.html</loc>
-    <lastmod>2023-06-01T21:17:56.007Z</lastmod>
+    <lastmod>2023-06-05T15:47:46.631Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/qscc.html</loc>
-    <lastmod>2023-06-01T21:17:57.921Z</lastmod>
+    <lastmod>2023-06-05T15:47:48.503Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/qscd.html</loc>
-    <lastmod>2023-06-01T21:17:59.844Z</lastmod>
+    <lastmod>2023-06-05T15:47:50.484Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/qsce.html</loc>
-    <lastmod>2023-06-01T21:18:01.981Z</lastmod>
+    <lastmod>2023-06-05T15:47:52.352Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/stard/index.html</loc>
-    <lastmod>2023-06-01T21:18:02.468Z</lastmod>
+    <lastmod>2023-06-05T15:47:52.879Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/strega/index.html</loc>
-    <lastmod>2023-06-01T21:18:03.851Z</lastmod>
+    <lastmod>2023-06-05T15:47:54.181Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/strobe-case-control/index.html</loc>
-    <lastmod>2023-06-01T21:18:05.370Z</lastmod>
+    <lastmod>2023-06-05T15:47:55.687Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/strobe-cohort/index.html</loc>
-    <lastmod>2023-06-01T21:18:07.127Z</lastmod>
+    <lastmod>2023-06-05T15:47:57.329Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/strobe-cross-sectional/index.html</loc>
-    <lastmod>2023-06-01T21:18:08.643Z</lastmod>
+    <lastmod>2023-06-05T15:47:58.890Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/strobe/index.html</loc>
-    <lastmod>2023-06-01T21:18:10.436Z</lastmod>
+    <lastmod>2023-06-05T15:48:00.629Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/guidelines/tripod/index.html</loc>
-    <lastmod>2023-06-01T21:18:11.090Z</lastmod>
+    <lastmod>2023-06-05T15:48:01.140Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/index.html</loc>
-    <lastmod>2023-06-01T21:18:11.545Z</lastmod>
+    <lastmod>2023-06-05T15:48:01.616Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/index2.html</loc>
-    <lastmod>2023-06-01T21:18:11.968Z</lastmod>
+    <lastmod>2023-06-05T15:48:02.049Z</lastmod>
   </url>
   <url>
     <loc>https://jamesrharwood.github.io/equator-guidelines-website/index3.html</loc>
-    <lastmod>2023-06-01T21:18:12.378Z</lastmod>
+    <lastmod>2023-06-05T15:48:02.473Z</lastmod>
   </url>
 </urlset>
