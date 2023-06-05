@@ -8,7 +8,8 @@ def create_web(guideline):
     create_html(guideline.items)
     return ''
 
-def create_html(items):  
+def create_html(items):
+    print('creating html for giscus') 
     skipped = 0      
     for idx, item in enumerate(items):
         if not os.path.exists(item.giscus_path):
