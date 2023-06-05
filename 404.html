@@ -77,9 +77,9 @@ ul.task-list li input[type="checkbox"] {
 <script>
     window.onload = () => {
         currentURL = window.location.href;
-        lowerCaseURL = currentURL.toLowerCase();
-        if (currentURL != lowerCaseURL) {
-            location.replace(lowerCaseURL);
+        upperCaseURL = currentURL.toUpperCase();
+        if (currentURL != upperCaseURL) {
+            location.replace(upperCaseURL);
         }
     };
 </script>
