@@ -1,7 +1,5 @@
-## About this guideline
+## Is this the right guideline for you?
 
-### When to use this guideline
-
-::: {.large}
+::: {.callout-tip icon=false appearance="simple"}
 {{< include partials/use_for.md >}}
 :::

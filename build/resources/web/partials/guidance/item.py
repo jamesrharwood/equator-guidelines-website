@@ -48,13 +48,13 @@ class Item:
         links = SELF_LINK_REGEX.finditer(body)
         links = list(links)
         links = reversed(links)
-        for link in links:
+        for idx, link in enumerate(links):
             text = link.groupdict()['text']
             section = next((section for section in self.sections if section.heading==text), None)
             if not section:
                 logging.warn(f'Item Read More section missing: {self.guideline.id}, {self.id}, {text}')
                 continue
-            new_link = f"[{text}](./{section.id}){{.link-to-collapsible data-target={self.readmore_id}}}"
+            new_link = f"{text} (see [note](./{section.id}){{.footnote-ref .link-to-collapsible data-target={self.readmore_id} id='note-{self.index}-{idx}' role='doc-noteref' aria-expanded='false'}})"
             body = body[:link.start()] + new_link + body[link.end():]
         return body
 
@@ -78,7 +78,7 @@ TEMPLATE = \
 :::
 ::: {{.g-col-3}}
 ::: {{.section .chat-button}}
-<a class="btn btn-outline-secondary" title="Discuss this item" href="{item.giscus_rel_path}" target="_blank"><i class="bi-chat-right-text"></i></a>
+<a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="{item.giscus_rel_path}" target="_blank"><i class="bi-chat-quote"></i></a>
 :::
 :::
 :::
