@@ -18,9 +18,9 @@ description: |
 ::: {.hero-title-block}
 ::: {.grid}
 ::: {.g-col-lg-7 .g-col-md-6 .g-col-12 .hero-content-left}
-# Academic writing is hard.
+# Writing-up research is hard.
 
-#### Reporting guidelines help you describe research quickly and confidently.
+#### Reporting guidelines help you describe research quickly, confidently, and completely.
 
 <!-- #ASK: Pastel comments ended up with: Write complete articles with confidence using reporting guidelines created by the research community. I don't love this. Articles is repeated unecessarily. Don't love word complete. Why would ever write half an article? -->
 
