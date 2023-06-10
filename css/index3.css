@@ -43,10 +43,10 @@ h2 {
   border-bottom: none;
 }
 .btn-action-primary {
-  background-color: var(--greenl) !important;
+  background-color: var(--greenl);
 }
 .btn-action-secondary {
-  background-color: white !important;
+  background-color: white;
   color: var(--greenl);
 }
 .margin-right-1 {
