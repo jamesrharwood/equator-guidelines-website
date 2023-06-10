@@ -40,14 +40,7 @@
     font-weight: 400;
     margin-top: 0.5rem;
 }
-.btn-primary {
-    background-color: var(--green-primary);
-    border-color: var(--green-primary);
-}
-.btn-primary:focus, .btn-primary:hover{
-    background-color: var(--green);
-    border-color: var(--green);    
-}
+
 h4 {
     color: var(--green);
     font-weight: 600;

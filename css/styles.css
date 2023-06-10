@@ -233,7 +233,7 @@ abbr {
   
   .btn-action-primary {
     color: white;
-    background-color: #447099 !important;
+    background-color: rgb(11, 167, 87);
   }
   
   .btn-action-primary:hover {
@@ -346,4 +346,21 @@ abbr {
 
 .btn-action {
   border-radius: 15px;
+}
+.btn-primary {
+  background-color: var(--green-primary);
+  border-color: var(--green-primary);
+}
+.btn-primary:focus, .btn-primary:hover{
+  background-color: var(--green);
+  border-color: var(--green);    
+}
+.btn-secondary {
+  background-color: white;
+  border-color: var(--green-primary);
+  border-style: solid;
+}
+.btn-secondary:focus, .btn-secondary:hover{
+  background-color: var(--green);
+  border-color: var(--green);    
 }

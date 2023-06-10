@@ -25,8 +25,8 @@ description: |
 <!-- #ASK: Pastel comments ended up with: Write complete articles with confidence using reporting guidelines created by the research community. I don't love this. Articles is repeated unecessarily. Don't love word complete. Why would ever write half an article? -->
 
 ::: {.hero-buttons}
-[Search guidelines](){.btn-action-primary .btn-action .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
-[What are reporting guidelines?](#sec-what-are-rgs){.btn-action-secondary .btn-action .btn .btn-lg role="button"} 
+[Search guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
+[What are reporting guidelines?](#sec-what-are-rgs){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"}
 ::: 
 <!-- hero-buttons -->
 :::
