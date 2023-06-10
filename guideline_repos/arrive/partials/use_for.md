@@ -1,1 +1,0 @@
-This guideline is relevant to research performed on animals in a laboratory setting,

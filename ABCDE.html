@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,7 +20,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -59,7 +59,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -86,10 +87,9 @@ ul.task-list li input[type="checkbox"] {
 <meta name="citation_author" content="Author One">
 <meta name="citation_author" content="Author Two">
 <meta name="citation_author" content="Author Three">
-<meta name="citation_publication_date" content="2022-10-01">
-<meta name="citation_cover_date" content="2022-10-01">
+<meta name="citation_publication_date" content="2022-10">
+<meta name="citation_cover_date" content="2022-10">
 <meta name="citation_year" content="2022">
-<meta name="citation_fulltext_html_url" content="https://jamesrharwood.github.io/equator-guidelines-website//ABCDE.html">
 <meta name="citation_issue" content="2">
 <meta name="citation_doi" content="10.1145/3514174">
 <meta name="citation_isbn" content="978-3-8474-1017-1">
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="citation_journal_title" content="EQUATOR website guidelines something">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -110,74 +110,106 @@ ul.task-list li input[type="checkbox"] {
     <img src="./assets/equator_logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Reporting Guidelines</a>
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Reporting Guidelines</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/">Training</a>
+    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/" rel="" target="">
+ <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Other Resources</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Other Resources</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="./index.html" rel="" target="">
  <span class="dropdown-text">Toolkits</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="./index.html" rel="" target="">
  <span class="dropdown-text">Library</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="./index.html" rel="" target="">
  <span class="dropdown-text">Resources for Publishers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="./index.html" rel="" target="">
  <span class="dropdown-text">Resources for Guideline Developers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="./index.html" rel="" target="">
  <span class="dropdown-text">Resources for Librarians</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false">About EQUATOR</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">About EQUATOR</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="./index.html" rel="" target="">
  <span class="dropdown-text">The EQUATOR Network</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="./index.html" rel="" target="">
  <span class="dropdown-text">Blog</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="./index.html" rel="" target="">
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="./index.html" rel="" target="">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">The ABCDE guidelines for writing XYZ</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="././checklist.docx" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Test from _quarto.yml</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -202,18 +234,29 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
-</nav>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The ABCDE guidelines for writing XYZ</h1>
+</div>
 
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
 
 <div class="hero-banner">
-<section id="the-abcde-guidelines-for-writing-xyz" class="level1 content-block">
-<h1>The ABCDE guidelines for writing XYZ</h1>
+<div class="content-block">
 <section>
 <p>Ea ea velit dolore exercitation reprehenderit reprehenderit aute elit eu proident voluptate commodo adipisicing.</p>
 <div class="citations-counter">
@@ -221,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 </div>
 </section>
-</section>
+</div>
 </div>
 <section id="translations" class="level2">
 <h2 class="anchored" data-anchor-id="translations">Translations</h2>
@@ -229,7 +272,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="when-to-use-this-guidance" class="level2">
 <h2 class="anchored" data-anchor-id="when-to-use-this-guidance">When to use this guidance</h2>
-<div class="callout-tip callout callout-style-simple no-icon">
+<div class="callout callout-style-simple callout-tip no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
@@ -251,7 +294,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<div class="callout-warning callout callout-style-simple no-icon">
+<div class="callout callout-style-simple callout-warning no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
@@ -267,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<div class="callout-note callout callout-style-simple no-icon">
+<div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
@@ -335,12 +378,12 @@ To-do list
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -420,12 +463,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -505,12 +548,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -590,12 +633,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -675,12 +718,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -763,12 +806,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -848,12 +891,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -933,12 +976,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1018,12 +1061,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1103,12 +1146,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1191,12 +1234,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1276,12 +1319,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1361,12 +1404,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1446,12 +1489,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1531,12 +1574,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1619,12 +1662,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1704,12 +1747,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1789,12 +1832,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1874,12 +1917,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1959,12 +2002,12 @@ Read more
 <p><strong>If you did not do irure sint</strong> ipsum aute eiusmod irure laborum sunt minim. Irure aliquip do dolor do ea ipsum nostrud ea.</p>
 <p><strong>If [applicability criteria not met]</strong>, describe nisi ullamco consectetur anim.</p>
 <p>You can report this [options e.g., in the body, a table, a figure, supplement] with pros and cons for each [e.g., word count vs.&nbsp;discoverability].</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -2098,22 +2141,20 @@ Discussion for [item name]
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{one2022,
-  author = {Author One and Author Two and Author Three},
-  editor = {},
+  author = {One, Author and Two, Author and Three, Author},
   title = {The {ABCDE} Guidelines for Reporting {XYZ} - Version 1.0},
   volume = {21},
   number = {2},
-  date = {2022-10-01},
-  url = {https://jamesrharwood.github.io/equator-guidelines-website//ABCDE.html},
+  date = {2022-10},
   doi = {10.1145/3514174},
   isbn = {978-3-8474-1017-1},
   issn = {1539-9087},
   langid = {en-GB}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-one2022" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Author One, Author Two, and Author Three. 2022. <span>“The ABCDE
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-one2022" class="csl-entry quarto-appendix-citeas" role="listitem">
+One, Author, Author Two, and Author Three. 2022. <span>“The ABCDE
 Guidelines for Reporting XYZ - Version 1.0.”</span> EQUATOR Website
-Guidelines Something. October 1, 2022. <a href="https://doi.org/10.1145/3514174">https://doi.org/10.1145/3514174</a>.
+Guidelines Something. October 2022. <a href="https://doi.org/10.1145/3514174">https://doi.org/10.1145/3514174</a>.
 </div></div></section></div></main> <!-- /main -->
 <script>
     const links = document.querySelectorAll('.link-to-collapsible')
@@ -2157,9 +2198,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -2171,7 +2226,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -2207,32 +2279,136 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/jamesrharwood\.github\.io\/equator-guidelines-website\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -2246,8 +2422,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></div>   
-      <div class="nav-footer-center">
-        <ul class="footer-items list-unstyled">
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="./about">About</a>
   </li>  
@@ -2258,7 +2434,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="./privacy">Privacy Policy</a>
   </li>  
 </ul>
-      </div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

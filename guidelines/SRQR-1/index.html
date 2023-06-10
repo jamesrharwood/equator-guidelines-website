@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -56,7 +56,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -80,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../css/index.css">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -91,65 +92,73 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../assets/equator_logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">Reporting Guidelines</a>
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Reporting Guidelines</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/">Training</a>
+    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/" rel="" target="">
+ <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Other Resources</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Other Resources</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Toolkits</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Library</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Resources for Publishers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Resources for Guideline Developers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Resources for Librarians</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false">About EQUATOR</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">About EQUATOR</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">The EQUATOR Network</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Blog</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -157,8 +166,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -175,9 +185,6 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   </ul>
 </nav>
-</nav>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -193,6 +200,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -209,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="when-to-use-this-guidance" class="level2">
 <h2 class="anchored" data-anchor-id="when-to-use-this-guidance">When to use this guidance</h2>
-<div class="callout-tip callout callout-style-simple no-icon">
+<div class="callout callout-style-simple callout-tip no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
@@ -264,12 +272,12 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p><strong>Concise description of the nature and topic of the study. Identifying the study as qualitative or indicating the approach (e.g., <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem0" aria-controls="offcanvasExample" role="button">ethnography</span>, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem1" aria-controls="offcanvasExample" role="button">grounded theory</span>) or data collection methods (e.g., <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem2" aria-controls="offcanvasExample" role="button">interview</span>, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem3" aria-controls="offcanvasExample" role="button">focus group</span>) is recommended.</strong></p>
 <p>The authors should provide a title that clearly conveys the topic of the study. We suggest that the title indicate that the study is qualitative or include a commonly used term that identifies the approach (e.g., ethnographic study, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem1" aria-controls="offcanvasExample" role="button">grounded theory</span>) or data collection methods (e.g., interviews, focus groups, observations). This allows readers and reviewers to quickly identify the type of study.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -310,12 +318,12 @@ Read more
 <li><p>Study implications</p></li>
 </ul>
 <p>In some cases the journal’s structured abstract format aligns more with <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem10" aria-controls="offcanvasExample" role="button">positivist</span> paradigms and quantitative approaches than with qualitative traditions, so translation may be necessary. For example, what might be labelled “findings” in many qualitative research traditions could be reported as “results” in the abstract.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -344,12 +352,12 @@ Read more
 </div>
 <p><strong>Description and significance of the problem/phenomenon studied; review of relevant theory and empirical work; problem statement.</strong></p>
 <p>The problem formulation typically appears in the introduction and describes the theoretical and/or practical issues or concerns that make the study necessary. It should provide an overview of what is known about the problem, highlight gaps in current knowledge (the problem statement), and define the scope of the research problem or phenomena addressed in the study (what will and will not be included). It should include a review of theoretical and/or empirical work directly relevant to the problem or phenomena studied. The problem formulation should be described in a way that suggests the need for a qualitative approach (e.g., to elucidate poorly defined or previously unexplored <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem12" aria-controls="offcanvasExample" role="button">constructs</span>, to generate theories or to develop causal explanations connecting processes and outcomes, to understand phenomena as they naturally occur and the role of <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">context</span>, to explore problems involving high complexity, to gain insight into participants’ perspectives when such insight is lacking).</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -375,12 +383,12 @@ Read more
 </div>
 <p><strong>Purpose of the study and specific objectives or questions</strong></p>
 <p>In qualitative research, as in all types of research, the authors should include a statement of study intent. This statement can be framed as one or more research questions, purposes, goals, or objectives. Qualitative studies often explore “how” and “why” questions related to a social or human problems or phenomenon, and they are designed to enhance readers’ understanding of a problem or phenomenon. By clearly stating the purpose of the study, authors set readers’ expectations for the methods, findings and discussion sections of the manuscript.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -410,12 +418,12 @@ Read more
 <p><strong>Qualitative approach (e.g., <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem0" aria-controls="offcanvasExample" role="button">ethnography</span>, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem1" aria-controls="offcanvasExample" role="button">grounded theory</span>, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem13" aria-controls="offcanvasExample" role="button">case study</span>, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem14" aria-controls="offcanvasExample" role="button">phenomenology</span>, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem15" aria-controls="offcanvasExample" role="button">narrative research</span>) and guiding theory if appropriate; identifying the research paradigm (e.g., <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem11" aria-controls="offcanvasExample" role="button">post-positivist</span>, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem16" aria-controls="offcanvasExample" role="button">constructivist</span>/<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem17" aria-controls="offcanvasExample" role="button">interpretivist</span>) is also recommended; rationale.</strong></p>
 <p>The research paradigm is the set of beliefs and assumptions that guide the research process. These commonly include <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem10" aria-controls="offcanvasExample" role="button">positivist</span>, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem11" aria-controls="offcanvasExample" role="button">post-positivist</span>, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem16" aria-controls="offcanvasExample" role="button">constructivist</span> or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem17" aria-controls="offcanvasExample" role="button">interpretivist</span>, and critical theory. Qualitative research generally draws from a <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem11" aria-controls="offcanvasExample" role="button">post-positivist</span> or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem16" aria-controls="offcanvasExample" role="button">constructivist</span>/<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem17" aria-controls="offcanvasExample" role="button">interpretivist</span> paradigm. We recommend identifying the research paradigm so that readers understand whether the researcher assumes that there is a single, objective reality (<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem10" aria-controls="offcanvasExample" role="button">positivist</span> or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem11" aria-controls="offcanvasExample" role="button">post-positivist</span>) and has thus designed the study to describe this reality or whether the researcher assumes multiple, subjective realities and designed the study to describe these multiple realities, with no attempt to merge or reconcile these realities (<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem16" aria-controls="offcanvasExample" role="button">constructivist</span>/<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem17" aria-controls="offcanvasExample" role="button">interpretivist</span>). The paradigm has implications for the study design, approach, methods, and techniques to ensure rigor and trustworthiness.</p>
 <p>Qualitative research includes an array of approaches and methodologies, both general (e.g., qualitative content analysis, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">general inductive</span> approach) and specific (e.g., <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem0" aria-controls="offcanvasExample" role="button">ethnography</span>, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem1" aria-controls="offcanvasExample" role="button">grounded theory</span>, phenomenography). Since the research paradigm does not necessarily dictate particular approaches or methods, the approach should also be clearly defined. Stating the approach provides readers the opportunity to evaluate the fidelity of the research approach to the research question(s) and consider the rationale for modifications and deviations from the selected approach. Qualitative research also includes an array of methods that can be used across paradigms and approaches. (See also Item 10) The researcher should explain why the selected approach is appropriate for the research question, and provide references to theories or traditions that guide the use of the approach as needed.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -447,12 +455,12 @@ Read more
 <p>To demonstrate reflexivity, authors should describe important personal characteristics and perspectives of members of the research team that may influence design, data collection, and data analysis. Relevant personal characteristics might include cultural background, occupation, experience, training, position/ power dynamics, gender, race/ethnicity, and sponsoring institution. Authors should also describe the perspectives, assumptions, prior knowledge, preliminary hypotheses, and/or motives (the “stance”) of the members of the research team.</p>
 <p>Authors also should describe the researchers’ relationships to participants in the study and what decisions were made in light of these relationships. For example, were any members of the research team part of the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem7" aria-controls="offcanvasExample" role="button">sample</span> of potential participants in the study? Do any members of the team teach, supervise, or have any authority over participants in the study? If so, how do these characteristics influence choices about their roles in data collection and analysis? For observational research (e.g., <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem0" aria-controls="offcanvasExample" role="button">ethnography</span>), it is also important to identify the role of the researcher along a spectrum from passive observer (no involvement in the activity studied) to participant-observer (ranging from some limited involvement in the activity to full involvement).</p>
 <p>There is no expectation that the study could be precisely replicated; these characteristics and perspectives of the researcher should not be mentioned in the limitation section. (See also Item 14.)</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -481,12 +489,12 @@ Read more
 </div>
 <p><strong><span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem6" aria-controls="offcanvasExample" role="button">Setting</span>/site and salient contextual factors; rationale.</strong></p>
 <p>The authors should describe the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem6" aria-controls="offcanvasExample" role="button">setting</span>/site(s) in which the study was conducted, the reason(s) why the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem6" aria-controls="offcanvasExample" role="button">setting</span>/site(s) was selected, and the salient cultural, political, historical, economic and/or other external factors that influence the study. This information helps readers interpret the meaning and significance of the study findings by situating them in social, cultural, temporal and other relevant contexts. Additional <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">context</span> may be reported with findings (i.e., the Results section) to add evidence for interpretations and to enhance discussion of transferability.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -514,12 +522,12 @@ Read more
 <p>The authors should describe how and why research participants, documents, and/or events were selected for inclusion in (and, if appropriate, exclusion from) the study, along with a justification for this strategy. We recommend that authors describe the sampling strategy rather than simply labeling the strategy (e.g., “purposive” or “snowball”), since such labels do not have a universally accepted definition and, more importantly, since procedures tend to be study- specific. Several sampling strategies are commonly used in qualitative research, although most fall under the umbrella of purposeful (or purposive) sampling. Purposeful sampling means that participants, documents, or events are selected for their relevance to the research question, based on guiding theory or experiences and assumptions of the researchers. Over the course of the research process, researchers may determine that additional or different participants, documents, or events should be included to address the research question. Other sampling techniques, such as theoretical sampling (seeking examples of theoretical <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem12" aria-controls="offcanvasExample" role="button">constructs</span>), snowball sampling (using study participants to identify additional participants who meet study criteria), and convenience sampling (including any volunteers with no or minimal criteria for inclusion) may be appropriate depending on the question and approach, so long as the authors provide explanation and justification.</p>
 <p>Although investigators often do not determine <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem7" aria-controls="offcanvasExample" role="button">sample</span> size a priori in qualitative research, they should nonetheless describe how they established the final <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem7" aria-controls="offcanvasExample" role="button">sample</span> size. When appropriate (e.g., when a flexible sampling strategy was used), they should explain the criteria used to decide when no further sampling was necessary. If data collection ends at the point when the researchers determine that “saturation” has been reached, then the specific criteria used to define saturation should be described.</p>
 <p>Procedures used to recruit participants should also be described, including who was involved in recruitment, what their relationship was to participants, how and when recruitment occurred, and why these procedures were selected. (See also Item 6)</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -551,12 +559,12 @@ Read more
 </div>
 <p><strong>Documentation of approval by an appropriate ethics review board and participant consent, or explanation for lack thereof; other confidentiality and data security issues.</strong></p>
 <p>Qualitative research often involves interaction between researchers and research participants. Correspondingly, researchers should ensure that participants are fully aware of their participation in a research study, the risks and benefits associated with the study, the steps and precautions the researchers will take to minimize risks, such as loss of privacy and confidentiality, and how the researchers plan to use the data. Authors should report approval for the study from an appropriate institutional review board for research associated with human subjects. They should describe procedures used to protect participants, including data collection (e.g., recruitment and informed consent) analysis (e.g., data security and integrity) and reporting of findings (e.g., anonymization of excerpts). If researchers provided compensation or offered incentives to facilitate participation, this should be reported.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -585,12 +593,12 @@ Read more
 <p>Qualitative research often occurs as an iterative process, meaning that researchers begin data analysis before they complete data collection. The data collection and analysis process may occur in phases or stages, and thus authors must clearly describe the iterative process of data collection and analysis. As part of an iterative collection-analysis process, researchers will often alter their data collection methods to explore their preliminary impressions in greater depth and/or actively pursue confirming and disconfirming perspectives. If such changes occur during the research process, authors should describe how and why study procedures changed in response to evolving study findings.</p>
 <p>The study period (start and end dates for data collection and analysis) should be identified so that readers can place the study in temporal <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">context</span> and identify factors not mentioned by the authors that might affect findings, interpretation, and implications. (See Item 8 for ending data collection.)</p>
 <p>Authors should describe important characteristics of the individuals conducting interviews, observations or focus groups, and methods used to train these individuals. This information clarifies the relationship between the individuals involved in data collection and the participants in the research and also explains what efforts were made to ensure consistency in the data collection process (See Items 6 and 15.)</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -623,12 +631,12 @@ Read more
 <p><strong>Description of instruments (e.g., <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem2" aria-controls="offcanvasExample" role="button">interview</span> guides, questionnaires) and devices (e.g., audio recorders) used for data collection; if/how the instrument(s) changed over the course of the study.</strong></p>
 <p>Data collection for qualitative research draws upon a variety of instruments or tools, including (but not limited to) <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem2" aria-controls="offcanvasExample" role="button">interview</span> or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem3" aria-controls="offcanvasExample" role="button">focus group</span> guides, observational protocols and prompts for field notes, and data extraction or coding protocols for selection and analysis of documents, photographs, videos, or other artifacts. The authors should describe all such instruments, guides, and protocols, including their development and cite relevant literatures, theories or conceptual frameworks as appropriate. It is often helpful for authors to provide access to the data collection instrument(s) or a detailed description of them.</p>
 <p>The authors should also describe the use of equipment for audio or video recording, reproduction of paper documents or computer files, or other processes in data collection. This is relevant so readers understand the full <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">context</span> in which data collection occurred and how this <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">context</span> might have affected data collection (e.g., the influence of recording devices on participants’ behaviors; the nature of <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem9" aria-controls="offcanvasExample" role="button">inferences</span> drawn from live vs.&nbsp;recorded events).</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -659,12 +667,12 @@ Read more
 <p>Authors should describe the participants, documents, or events included in the study (the units of study). The sampling item (Item 8) describes the target or ideal participants, documents, or events selected for the study. By contrast, Item 12 focuses on description of the actual participants, documents or events included in the study. Authors should describe how the actual participants, documents, or events differ from the targeted <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem7" aria-controls="offcanvasExample" role="button">sample</span>, why these differences may have occurred, and how this might affect the findings.</p>
 <p>Authors should describe characteristics of the participants, documents or events that are relevant to the study purpose and research question(s).1 For participants, this might include age, gender, profession, institution, year of training, or relationship to the researcher and/or other participants in the study. For documents, this might include the source, intended audience, date, or type of document. For events, this might include the location, date(s), length, characteristics of attendees or participants in the event, or mood or emotional climate. If the degree of participation varied among individuals (e.g., multiple occasions; interviews and observations), the authors should describe different levels of participation. For example, if some participants were observed and interviewed and others only interviewed, or if some participants completed multiple interviews and others completed a single <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem2" aria-controls="offcanvasExample" role="button">interview</span>, these variations should be explained. Authors should also explain the reasons for these differences (i.e., the researchers’ choice or the participants’ preferences) and how these different levels of participation were taken into account in the analysis. Authors should also include the dates or timeframe for participation.</p>
 <p>This information about participants could appear in the Methods section as part of the description of the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem7" aria-controls="offcanvasExample" role="button">sample</span>, or at the beginning of the Results section to provide <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">context</span> for the findings presented.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -698,12 +706,12 @@ Read more
 <p>Authors should describe the ways in which data are prepared for analysis and managed throughout the analysis process. These activities might include transcription, coding, data entry, and organization of data. When processing audio or video recordings, relevant details might include indication of verbatim transcription of dialogue, additional notes to capture non- verbal information (especially for group interviews or focus groups), and annotations to indicate vocal inflections and utterances, as appropriate for the analytic approach. Authors should also describe procedures used to check transcripts for accuracy.</p>
 <p>Authors should describe the processes used to organize, compile, and categorize data (e.g., field notes, transcripts, documents, photographs, artifacts) for analysis.</p>
 <p>Authors should describe procedures used to maintain data security and protect the privacy of participants, as specified in the human subjects protocols. For example, if data are anonymized, the authors should explain how and at what point in the process this occurred. Authors may choose to use anonymous labels or identifiers to represent quotes or excerpts from unique participants, documents or events, in order to reflect the variety of sources from which such data were derived.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -739,12 +747,12 @@ Read more
 <p>Authors should explain the rationale underlying different decisions made throughout the data analysis process to provide as much transparency as possible. In some approaches researchers use memoing or bracketing to make their reflections, interpretations, and links among passages explicit and more transparent to others. In some types of analysis, participants’ perspectives or observations that contrast or deviate from the concepts or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem8" aria-controls="offcanvasExample" role="button">themes</span> identified by the researchers are an important part of the analysis. In such cases, the authors must describe how these discrepancies were handled during the analysis.</p>
 <p>During the analysis process, researchers may draw upon a theoretical perspective or framework, which may have been identified early in the conception of the study or may be identified by the researchers after reviewing some or all of their data. Either way, the authors should describe theoretical or other influences on their analysis scheme or categories if they exist. Sometimes these are referred to as “sensitizing concepts” to acknowledge that the approach is inductive, but with influence from relevant theory, models, or organizational schemes. Alternatively, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem8" aria-controls="offcanvasExample" role="button">themes</span> may be developed from the data with no external influences.</p>
 <p>Authors should describe which members of the research team are involved in data analysis and what perspective(s) they bring to the analysis. Authors should also indicate if any software was used to assist with data analysis and how it was used (e.g., used to apply codes after the final coding scheme was developed; to extract coded passages for further synthesis and identification of <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem8" aria-controls="offcanvasExample" role="button">themes</span>; or to identify passages with key words). Simply stating that software was used is insufficient.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -783,12 +791,12 @@ Read more
 <p><strong>Techniques to enhance trustworthiness and credibility of data analysis,(e.g., member checking, triangulation, audit trail); rationale.</strong></p>
 <p>Authors should describe methods used to ensure trustworthiness and credibility throughout the data collection and analysis process. Such methods will depend on the paradigm, approach, and/or methods used. Correspondingly, the authors should explain their choice of techniques and why these are appropriate for the particular study.</p>
 <p>Commonly used techniques to enhance trustworthiness include: member checking; triangulation of data sources, methods, and/or researchers; creation of an explicit audit trail; and immersion in the site of data collection for an extended period of time (especially for research in which an observer’s presence is likely to disrupt the phenomenon under investigation). Member checking involves sharing findings, such as descriptions of key phenomena, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem8" aria-controls="offcanvasExample" role="button">themes</span>, or an explanatory model, with participants and asking them to verify the accuracy or resonance with their perspectives. Triangulation involves using more than one data source, method, or researcher to add diverse perspectives on the findings of the study and, in some approaches, to test the transferability or generalizability of a model. An audit trail involves careful documentation of all decisions made throughout the study, from initial conceptualization to study design, sampling, analysis, and reporting, to provide transparency and to enable an external researcher to review all the steps involved in the study.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -835,12 +843,12 @@ Read more
 <p>Authors should identify the main analytic findings (e.g., interpretations, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem9" aria-controls="offcanvasExample" role="button">inferences</span>, narratives, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem8" aria-controls="offcanvasExample" role="button">themes</span>, models). The nature of these findings and how they are reported will depend on the approach and methodology selected and thus should be in alignment with the approach and methods.</p>
 <p>In most cases, the authors should report a synthesis of their data along with specific quotes, examples, or illustrations derived from their data. Authors might also report frequency, variety, representativeness, counter-examples, concrete details, contextualization, conditions, and qualifications related to their findings. Frequency counts (e.g., the frequency of specific <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem8" aria-controls="offcanvasExample" role="button">themes</span> or codes) play a limited role in qualitative research, and need not be reported unless they play a meaningful role in interpretation of the data.</p>
 <p>Findings might also include integration with prior literature or theory and/or the development of a theory, model or meta-narrative. Judicious use of tables and figures can help communicate such findings.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -872,12 +880,12 @@ Read more
 </div>
 <p><strong>Evidence (e.g., quotes, field notes, text excerpts, photographs) to substantiate analytic findings.</strong></p>
 <p>The authors should provide evidence (e.g., quotes, field notes, text excerpts, photographs) to substantiate the more general and abstract concepts or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem9" aria-controls="offcanvasExample" role="button">inferences</span> they present as findings. Such evidence is typically de-identified to protect the privacy of study participants, settings, and/or institutions. The evidence may be presented in a variety of ways such as in a table or figure, incorporated into a narrative description of findings, as a stand-alone narrative, or in text blocks embedded in the manuscript text. If word limits or media limitations (e.g.. video) limit the authors’ ability to provide sufficient representation of supporting data, an appendix, supplemental material, or web-based repository could be used to provide access to additional data.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -908,12 +916,12 @@ Read more
 <p><strong>Short summary of main findings, explanation of how findings and conclusions connect to, support, elaborate on, or challenge conclusions of earlier scholarship; discussion of scope of application/generalizability; identification of unique contribution(s) to scholarship in a discipline or field.</strong></p>
 <p>The authors should begin the Discussion with a short summary of the main findings. The short summary reminds readers of the main findings and may help them assess whether the subsequent interpretation and implications formulated by the authors are supported by the findings.</p>
 <p>The authors’ description of their findings or results should include some interpretation of the data in the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">context</span> of previous findings, experiences, theory, or a guiding paradigm or approach. The discussion provides authors an opportunity to elaborate on their findings in relation to their research question(s) and study purpose(s); connect their findings to prior empirical work, theories, and/or frameworks; and discuss implications. The authors should explicitly describe how their findings contribute to or advance the field. Implications may include transferability, or specifying the appropriate scope for generalization of the findings beyond the study (e.g., to other settings, populations, time periods, circumstances).</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -945,12 +953,12 @@ Read more
 <p><strong>Trustworthiness and limitations of findings</strong></p>
 <p>Authors should describe techniques used to ensure trustworthiness in the Methods section of the manuscript. In the Discussion, authors should identify problems or gaps in their efforts to ensure trustworthiness and the potential implications. For example, if researchers intended to <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem2" aria-controls="offcanvasExample" role="button">interview</span> individuals with certain characteristics, or who might offer different perspectives, but were unsuccessful in recruiting any willing participants, they should explain this issue and describe possible consequences for transferability. (See also Item 18.)</p>
 <p>All research paradigms and approaches have strengths and weaknesses, and authors should explicitly discuss how the paradigm, approach, and methods they used will influence the situations to which their findings may reasonably apply. (See also Item 18.) In addition, they should explain how specific decisions or events in the conduct of the study strengthen or weaken the rigor of their findings.</p>
-<div class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -1293,9 +1301,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1307,7 +1329,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -1343,24 +1382,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
@@ -1368,8 +1511,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></div>   
-      <div class="nav-footer-center">
-        <ul class="footer-items list-unstyled">
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="../../about">About</a>
   </li>  
@@ -1380,7 +1523,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="../../privacy">Privacy Policy</a>
   </li>  
 </ul>
-      </div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

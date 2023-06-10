@@ -1,1 +1,0 @@
-This guideline is relevant to randomized trials of medical interventions

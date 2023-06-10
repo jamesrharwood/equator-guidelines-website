@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -56,7 +56,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -75,6 +76,7 @@ ul.task-list li input[type="checkbox"] {
     })
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../css/styles.css">
@@ -92,65 +94,73 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../assets/equator_logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">Reporting Guidelines</a>
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Reporting Guidelines</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/">Training</a>
+    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/" rel="" target="">
+ <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Other Resources</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Other Resources</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Toolkits</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Library</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Resources for Publishers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Resources for Guideline Developers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Resources for Librarians</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false">About EQUATOR</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">About EQUATOR</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">The EQUATOR Network</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Blog</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -158,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
@@ -178,6 +188,7 @@ ul.task-list li input[type="checkbox"] {
   </ul>
 </nav>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
@@ -194,6 +205,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -254,18 +266,18 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>Identify the report as a systematic review, meta-analysis, or both.</p>
-<div id="1-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="1-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div id="1-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-1-1">Read More</a></li>
@@ -304,18 +316,18 @@ Read more
 </div>
 </div>
 <p>Provide a structured summary including, as applicable: background; objectives; data sources; study eligibility criteria, participants, and interventions; study appraisal and synthesis methods; results; limitations; conclusions and implications of key findings; systematic review registration number</p>
-<div id="2_structured_summary-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="2_structured_summary-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div id="2_structured_summary-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-2_structured_summary-1">Read More</a></li>
@@ -359,18 +371,18 @@ Read more
 </div>
 </div>
 <p>Describe the rationale for the review in the context of what is already known.</p>
-<div id="3_rationale-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="3_rationale-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div id="3_rationale-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-3_rationale-1">Read More</a></li>
@@ -417,18 +429,18 @@ Read more
 </div>
 </div>
 <p>Provide an explicit statement of questions being addressed with reference to participants, interventions, comparisons, outcomes, and study design (PICOS).</p>
-<div id="4_objectives-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="4_objectives-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div id="4_objectives-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-4_objectives-1">Read More</a></li>
@@ -463,18 +475,18 @@ Read more
 </div>
 </div>
 <p>Indicate if a review protocol exists, if and where it can be accessed (e.g., Web address) and, if available, provide registration information including the registration number.</p>
-<div id="5_protocol_and_registration-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="5_protocol_and_registration-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div id="5_protocol_and_registration-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-5_protocol_and_registration-1">Read More</a></li>
@@ -508,18 +520,18 @@ Read more
 </div>
 </div>
 <p>Specify study characteristics (e.g., PICOS, length of follow-up) and report characteristics (e.g., years considered, language, publication status) used as criteria for eligibility, giving rational</p>
-<div id="6_eligibility_criteria-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="6_eligibility_criteria-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div id="6_eligibility_criteria-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-6_eligibility_criteria-1">Read More</a></li>
@@ -561,18 +573,18 @@ Read more
 </div>
 </div>
 <p>Describe all information sources in the search (e.g., databases with dates of coverage, contact with study authors to identify additional studies) and date last searched.</p>
-<div id="7_information_sources-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="7_information_sources-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
-<div id="7_information_sources-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-7_information_sources-1">Read More</a></li>
@@ -605,18 +617,18 @@ Read more
 </div>
 </div>
 <p>Present full electronic search strategy for at least one database, including any limits used, such that it could be repeated.</p>
-<div id="8_search-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="8_search-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
-<div id="8_search-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-8_search-1">Read More</a></li>
@@ -692,18 +704,18 @@ Read more
 </div>
 </div>
 <p>State the process for selecting studies (i.e., for screening, for determining eligibility, for inclusion in the systematic review, and, if applicable, for inclusion in the meta-analysis).</p>
-<div id="9_study_selection-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="9_study_selection-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
-<div id="9_study_selection-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-9_study_selection-1">Read More</a></li>
@@ -735,18 +747,18 @@ Read more
 </div>
 </div>
 <p>Describe the method of data extraction from reports (e.g., piloted forms, independently by two reviewers) and any processes for obtaining and confirming data from investigators.</p>
-<div id="10_data_collection_process-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="10_data_collection_process-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse">
-<div id="10_data_collection_process-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-10_data_collection_process-1">Read More</a></li>
@@ -780,18 +792,18 @@ Read more
 </div>
 </div>
 <p>List and define all variables for which data were sought (e.g., PICOS, funding sources), and any assumptions and simplifications made.</p>
-<div id="11_data_items-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="11_data_items-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-11" class="callout-11-contents callout-collapse collapse">
-<div id="11_data_items-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-11_data_items-1">Read More</a></li>
@@ -824,18 +836,18 @@ Read more
 </div>
 </div>
 <p>Describe methods used for assessing risk of bias in individual studies (including specification of whether this was done at the study or outcome level, or both), and how this information is to be used in any data synthesis.</p>
-<div id="12_risk_of_bias_in_individual_studies-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="12_risk_of_bias_in_individual_studies-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-12" class="callout-12-contents callout-collapse collapse">
-<div id="12_risk_of_bias_in_individual_studies-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-12_risk_of_bias_in_individual_studies-1">Read More</a></li>
@@ -871,18 +883,18 @@ Read more
 </div>
 </div>
 <p>State the principal summary measures (e.g., risk ratio, difference in means).</p>
-<div id="13_summary_measures-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="13_summary_measures-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-13" class="callout-13-contents callout-collapse collapse">
-<div id="13_summary_measures-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-13_summary_measures-1">Read More</a></li>
@@ -922,18 +934,18 @@ Read more
 </div>
 </div>
 <p>Describe the methods of handling data and combining results of studies, if done, including measures of consistency (e.g., I2) for each meta-analysis.</p>
-<div id="14_planned_methods_of_analyis-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="14_planned_methods_of_analyis-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-14" class="callout-14-contents callout-collapse collapse">
-<div id="14_planned_methods_of_analyis-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-14_planned_methods_of_analyis-1">Read More</a></li>
@@ -969,18 +981,18 @@ Read more
 </div>
 </div>
 <p>Specify any assessment of risk of bias that may affect the cumulative evidence (e.g., publication bias, selective reporting within studies).</p>
-<div id="15_risk_of_bias_across_studies-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="15_risk_of_bias_across_studies-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-15" class="callout-15-contents callout-collapse collapse">
-<div id="15_risk_of_bias_across_studies-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-15_risk_of_bias_across_studies-1">Read More</a></li>
@@ -1016,18 +1028,18 @@ Read more
 </div>
 </div>
 <p>Describe methods of additional analyses (e.g., sensitivity or subgroup analyses, meta-regression), if done, indicating which were pre-specified.</p>
-<div id="16_additional_analyses-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="16_additional_analyses-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-16" class="callout-16-contents callout-collapse collapse">
-<div id="16_additional_analyses-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-16_additional_analyses-1">Read More</a></li>
@@ -1063,18 +1075,18 @@ Read more
 </div>
 </div>
 <p>Give numbers of studies screened, assessed for eligibility, and included in the review, with reasons for exclusions at each stage, ideally with a flow diagram.</p>
-<div id="17_study_selection-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="17_study_selection-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-17" class="callout-17-contents callout-collapse collapse">
-<div id="17_study_selection-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-17_study_selection-1">Read More</a></li>
@@ -1112,18 +1124,18 @@ Read more
 </div>
 </div>
 <p>For each study, present characteristics for which data were extracted (e.g., study size, PICOS, follow-up period) and provide the citation.</p>
-<div id="18_study_characteristics-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="18_study_characteristics-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-18" class="callout-18-contents callout-collapse collapse">
-<div id="18_study_characteristics-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-18_study_characteristics-1">Read More</a></li>
@@ -1174,18 +1186,18 @@ Read more
 </div>
 </div>
 <p>Present data on risk of bias of each study and, if available, any outcome-level assessment (see Item 12).</p>
-<div id="19_risk_of_bias_within_studies-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="19_risk_of_bias_within_studies-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-19" class="callout-19-contents callout-collapse collapse">
-<div id="19_risk_of_bias_within_studies-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-19_risk_of_bias_within_studies-1">Read More</a></li>
@@ -1219,18 +1231,18 @@ Read more
 </div>
 </div>
 <p>For all outcomes considered (benefits and harms), present, for each study: (a) simple summary data for each intervention group and (b) effect estimates and confidence intervals, ideally with a forest plot.</p>
-<div id="20_results_of_individual_studies-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="20_results_of_individual_studies-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-20" class="callout-20-contents callout-collapse collapse">
-<div id="20_results_of_individual_studies-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-20_results_of_individual_studies-1">Read More</a></li>
@@ -1271,18 +1283,18 @@ Read more
 </div>
 </div>
 <p>Present the main results of the review. If meta-analyses are done, include for each, confidence intervals and measures of consistency.</p>
-<div id="21_synthesis_of_results-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="21_synthesis_of_results-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-21" class="callout-21-contents callout-collapse collapse">
-<div id="21_synthesis_of_results-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-21_synthesis_of_results-1">Read More</a></li>
@@ -1323,18 +1335,18 @@ Read more
 </div>
 </div>
 <p>Present results of any assessment of risk of bias across studies (see Item 15).</p>
-<div id="22_risk_of_bias_across_studies-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="22_risk_of_bias_across_studies-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-22" class="callout-22-contents callout-collapse collapse">
-<div id="22_risk_of_bias_across_studies-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-22_risk_of_bias_across_studies-1">Read More</a></li>
@@ -1369,18 +1381,18 @@ Read more
 </div>
 </div>
 <p>Give results of additional analyses, if done (e.g., sensitivity or subgroup analyses, meta-regression [see Item 16]).</p>
-<div id="23_additional_analysis-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="23_additional_analysis-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-23" class="callout-23-contents callout-collapse collapse">
-<div id="23_additional_analysis-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-23_additional_analysis-1">Read More</a></li>
@@ -1418,18 +1430,18 @@ Read more
 </div>
 </div>
 <p>Summarize the main findings, including the strength of evidence for each main outcome; consider their relevance to key groups (e.g., health care providers, users, and policy makers</p>
-<div id="24_summary_of_evidence-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="24_summary_of_evidence-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-24" class="callout-24-contents callout-collapse collapse">
-<div id="24_summary_of_evidence-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-24_summary_of_evidence-1">Read More</a></li>
@@ -1464,18 +1476,18 @@ Read more
 </div>
 </div>
 <p>Discuss limitations at study and outcome level (e.g., risk of bias), and at review level (e.g., incomplete retrieval of identified research, reporting bias).</p>
-<div id="25_limitations-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="25_limitations-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-25" class="callout-25-contents callout-collapse collapse">
-<div id="25_limitations-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-25_limitations-1">Read More</a></li>
@@ -1515,18 +1527,18 @@ Read more
 </div>
 </div>
 <p>Provide a general interpretation of the results in the context of other evidence, and implications for future research.</p>
-<div id="26_conclusions-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="26_conclusions-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-26-contents" aria-controls="callout-26" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-26" class="callout-26-contents callout-collapse collapse">
-<div id="26_conclusions-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-26_conclusions-1">Read More</a></li>
@@ -1568,18 +1580,18 @@ Read more
 </div>
 </div>
 <p>Describe sources of funding or other support (e.g., supply of data) for the systematic review; role of funders for the systematic review.</p>
-<div id="27_funding-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="27_funding-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-27-contents" aria-controls="callout-27" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Read more
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-27" class="callout-27-contents callout-collapse collapse">
-<div id="27_funding-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-27_funding-1">Read More</a></li>
@@ -1655,9 +1667,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1669,7 +1695,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -1705,24 +1748,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
@@ -1730,8 +1877,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></div>   
-      <div class="nav-footer-center">
-        <ul class="footer-items list-unstyled">
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="../../about">About</a>
   </li>  
@@ -1742,7 +1889,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="../../privacy">Privacy Policy</a>
   </li>  
 </ul>
-      </div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

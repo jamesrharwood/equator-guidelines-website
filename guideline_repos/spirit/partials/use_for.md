@@ -1,1 +1,0 @@
-This guideline is relevant to protocols of clinical trials,

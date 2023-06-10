@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,9 +17,10 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -46,43 +47,13 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
   {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -119,7 +90,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -141,22 +113,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <link rel="stylesheet" href="../../css/styles.css">
 <link rel="stylesheet" href="../../css/index.css">
-<meta name="citation_title" content="The SRQR guidelines for writing qualitative research articles version 1.1">
-<meta name="citation_author" content="Bridget O&amp;amp;#039;Brien">
-<meta name="citation_author" content="Ilene Harris">
-<meta name="citation_author" content="Thomas Beckman">
-<meta name="citation_author" content="Darcy Reed">
-<meta name="citation_author" content="David Cook">
-<meta name="citation_publication_date" content="2023-02-20">
-<meta name="citation_cover_date" content="2023-02-20">
-<meta name="citation_year" content="2023">
-<meta name="citation_fulltext_html_url" content="https://jamesrharwood.github.io/equator-guidelines-website//guidelines/srqr/qscd.html">
+<link rel="stylesheet" href="../../css/guidelines.css">
+<meta name="citation_title" content="The SRQR guidelines for writing qualitative research articles - UPDATING">
 <meta name="citation_doi" content="10.1234/equator/1111114">
 <meta name="citation_language" content="en">
-<meta name="citation_journal_title" content="The EQUATOR Network guideline dissemination platform">
 </head>
 
-<body class="floating nav-fixed slimcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -167,65 +130,73 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <img src="../../assets/equator_logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">Reporting Guidelines</a>
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Reporting Guidelines</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/">Training</a>
+    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/" rel="" target="">
+ <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Other Resources</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Other Resources</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Toolkits</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Library</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Resources for Publishers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Resources for Guideline Developers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Resources for Librarians</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false">About EQUATOR</a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">About EQUATOR</span>
+    </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">The EQUATOR Network</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Blog</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html">
+    <a class="dropdown-item" href="../../index.html" rel="" target="">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -233,8 +204,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -244,9 +216,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#when-to-use-this-guideline" id="toc-when-to-use-this-guideline" class="nav-link" data-scroll-target="#when-to-use-this-guideline">When to use this guideline</a></li>
   <li><a href="#how-to-use-this-guideline" id="toc-how-to-use-this-guideline" class="nav-link" data-scroll-target="#how-to-use-this-guideline">How to use this guideline</a></li>
   <li><a href="#why-use-this-guideline" id="toc-why-use-this-guideline" class="nav-link" data-scroll-target="#why-use-this-guideline">Why use this guideline</a></li>
-  </ul></li>
-  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance">Guidance</a>
-  <ul class="collapse">
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
@@ -258,21 +227,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <ul class="collapse">
   <li><a href="#who-made-this-guideline" id="toc-who-made-this-guideline" class="nav-link" data-scroll-target="#who-made-this-guideline">Who made this guideline?</a></li>
   <li><a href="#how-was-this-guideline-made" id="toc-how-was-this-guideline-made" class="nav-link" data-scroll-target="#how-was-this-guideline-made">How was this guideline made?</a></li>
+  <li><a href="#does-srqr-prescribe-structure" id="toc-does-srqr-prescribe-structure" class="nav-link" data-scroll-target="#does-srqr-prescribe-structure">Does SRQR prescribe structure?</a></li>
   <li><a href="#what-to-do-if-asked-to-remove-guideline-related-content" id="toc-what-to-do-if-asked-to-remove-guideline-related-content" class="nav-link" data-scroll-target="#what-to-do-if-asked-to-remove-guideline-related-content">What to do if asked to remove guideline related content</a></li>
   <li><a href="#where-can-i-get-general-writing-training" id="toc-where-can-i-get-general-writing-training" class="nav-link" data-scroll-target="#where-can-i-get-general-writing-training">Where can I get general writing training?</a></li>
   </ul></li>
   </ul>
 </nav>
-</nav>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The SRQR guidelines for writing qualitative research articles</h1>
+<h1 class="title">The SRQR guidelines for writing qualitative research articles - UPDATING</h1>
 </div>
 
 
@@ -280,6 +247,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -305,7 +273,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="when-to-use-this-guideline" class="level3">
 <h3 class="anchored" data-anchor-id="when-to-use-this-guideline">When to use this guideline</h3>
 <div class="large">
-<p>Use this guideline for writing qualitative research articles. You can use it when describing all kinds of qualitative approaches, methods, and designs.</p>
+<p><strong>Use this guideline for writing qualitative research articles</strong>. You can use it when describing all kinds of qualitative approaches, methods, and designs.</p>
 <!-- [#TODO: All ontologies and epistemologies?]{.todo} -->
 <!-- All disciplines? -->
 <p>You can also use this guideline for:</p>
@@ -317,7 +285,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 The purpose of qualitative research is to understand the perspectives/experiences of individuals or groups and the contexts in which these perspectives or experiences are situated
 -->
 </div>
-<div class="callout-warning callout callout-style-simple no-icon">
+<div class="callout callout-style-simple callout-warning no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
@@ -331,7 +299,7 @@ The purpose of qualitative research is to understand the perspectives/experience
 </div>
 </div>
 </div>
-<div class="callout-note callout callout-style-simple no-icon">
+<div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
@@ -355,7 +323,7 @@ The purpose of qualitative research is to understand the perspectives/experience
 </section>
 <section id="how-to-use-this-guideline" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="how-to-use-this-guideline">How to use this guideline</h3>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside"><em>“Reporting guidelines help me structure my drafts and develop as a researcher. I use them when teaching and hope that my students continue to use them.”<br><br></em> Manuel Silva - Researcher</span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><em>“Reporting guidelines help me structure my drafts and develop as a researcher. I use them when teaching and hope that my students continue to use them.”<br><br></em> Manuel Silva - Researcher</span></div></div>
 <p>Reporting guidelines are best used early. Read the <a href="#guidance">full guideline below</a> or use a tool when working:</p>
 <ul>
 <li>Use a template to draft manuscripts and avoid the blank page <!-- #ASK: Caroline's comment. Use a template to get your writing off to a flying start". Colloquialism?--></li>
@@ -382,14 +350,12 @@ The purpose of qualitative research is to understand the perspectives/experience
 <p><a href="./ID_checklist.docx"><button type="button" class="btn btn-primary btn-lg width-100">Checklist</button></a></p>
 </div>
 </div>
-<p>This reporting guideline does not prescribe a rigid format or standardized content. Consider each item and prioritize elements that are most relevant to your study, findings, context, and readers.</p>
-<p>You may prefer to report an item in a different order, section, or in a table or figure. If you feel confident that an item is less important to your study, you could report it in an appendix or supplement. If you think an item is not applicable, state why. You don’t need to write your article in the order the items are presented.</p>
-<p>In your methods section, state that you used the SRQR guideline when writing your article and cite it (see <a href="#citation">How to cite</a>).</p>
+<p>This guideline <a href="#does-this-guideline-prescribe-structure">does not prescribe structure</a> and not all items have to go in the article body. Prioritize elements that are most relevant.</p>
 </section>
 <section id="why-use-this-guideline" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="why-use-this-guideline">Why use this guideline</h3>
-<div class="page-columns page-full"><p>Following this guideline will make it easier for other researchers to find, use, and synthesise your work. It won’t tell you how to <em>do</em> qualitative research, but it will help you explain your choices so others can understand what you did, why you did it, and what you found. </p><div class="no-row-height column-margin column-container"><span class="aside">“At our journal, we ensure all qualitative articles follow SRQR as this makes them easier for readers to understand and faster to publish.”<span class="attribution">Fiona Ludlow - Editor in Chief</span></span></div></div>
-<p>It was written by experts from the qualitative research community, using a thorough <a href=".">development process</a>. SRQR is endorsed by hundreds of journals, so using this guideline (and its <a href=".">checklist</a>) will help you meet editors’ expectations.</p>
+<h3 class="anchored">Why use this guideline</h3>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“At our journal, we ensure all qualitative articles follow SRQR as this makes them easier for readers to understand and faster to publish.”<span class="attribution">Fiona Ludlow - Editor in Chief</span></span></div></div>
+<p>Use SRQR to confidently describe qualitative research. Developed by experienced researchers using a thorough <a href="#how-was-this-guideline-made">process</a>, SRQR is endorsed by hundreds of journals. SRQR doesn’t tell you how to <em>do</em> research, but it will help you explain your work clearly so that others can find and use it.</p>
 <!--
 Although there is much debate about standards for methodological rigor in qualitative research,13,14,18–20 there is widespread agreement about the need for clear and complete reporting.14,21,22 Optimal reporting would enable editors, reviewers, other researchers, and practitioners to critically appraise qualitative studies and apply and synthesize the results. One important step in improving the quality of reporting is to formulate and define clear reporting standards. * Could use this as a before / after quote?
 
@@ -399,35 +365,30 @@ Although there is much debate about standards for methodological rigor in qualit
 
 After: 
 -->
-</section>
-</section>
-<section id="guidance" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="guidance">Guidance</h2>
-<p><small>Approx. 17 min read</small></p>
 <div id="title" class="grid">
 <section id="title" class="level4 g-col-9">
 <h4 class="anchored" data-anchor-id="title">1. Title</h4>
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/title.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/title.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
 <p>Describe the nature and topic of the study.</p>
 <p>Identify the study as qualitative or indicate the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span> or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">data collection methods</span>.</p>
-<div id="title-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="title-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification, Examples, and Resources
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div id="title-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-title-2">Why readers need this information</a></li>
@@ -466,11 +427,11 @@ Justification, Examples, and Resources
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/abstract.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/abstract.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside">“Informative key words in the title and abstract make manuscripts easier to find.”<span class="attribution">Lorna Ellis - Evidence Synthesiser</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“Informative key words in the title and abstract make manuscripts easier to find.”<span class="attribution">Lorna Ellis - Evidence Synthesiser</span></span></div></div>
 <p>Summarise key elements of the study including:</p>
 <ul>
 <li><p>background about the problem or phenomenon of interest</p></li>
@@ -487,24 +448,25 @@ Is approach the same as qualitative approach?
 
 Are data collection strategies the same as data collection methods? -->
 <p>Information presented in the abstract should be consistent with the information presented in the full text.</p>
-<p>Use the format of your intended journal. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<div id="abstract-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<p>Use the format of your intended journal (see <a href="./#sec-abstract-4" id="note-2-0" class="footnote-ref link-to-collapsible" data-target="abstract-collapsible" role="doc-noteref" aria-expanded="false">note</a>).</p>
+<div id="abstract-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
-Justification, Example, and Resources
+<div class="callout-title-container flex-fill">
+Justification, Example, Notes, and Resources
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div id="abstract-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-abstract-2">Why readers need this information</a></li>
 <li><a href="#sec-abstract-3">Example</a></li>
-<li><a href="#sec-abstract-4">Training and Resources</a></li>
+<li><a href="#sec-abstract-4">Use the format of your intended journal</a></li>
+<li><a href="#sec-abstract-5">Training and Resources</a></li>
 </ul>
 <section id="sec-abstract-2" class="level2">
 <h2 class="anchored" data-anchor-id="sec-abstract-2">Why readers need this information</h2>
@@ -520,7 +482,11 @@ Justification, Example, and Resources
 <!-- #TODO: bad examples -->
 </section>
 <section id="sec-abstract-4" class="level2">
-<h2 class="anchored" data-anchor-id="sec-abstract-4">Training and Resources</h2>
+<h2 class="anchored" data-anchor-id="sec-abstract-4">Use the format of your intended journal</h2>
+<p>Some journals require abstracts to have subheadings, others don’t. In some cases the journal’s structured abstract format aligns more with positivist paradigms and quantitative approaches than with qualitative traditions, so translation may be necessary. For example, what might be labelled “Findings” in many qualitative research traditions could be reported as “Results” in the abstract. Similarly, “Design” might be labelled as “<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">Approach</span>” or “Methodology” for a qualitative study.</p>
+</section>
+<section id="sec-abstract-5" class="level2">
+<h2 class="anchored" data-anchor-id="sec-abstract-5">Training and Resources</h2>
 <p>The EQUATOR Network provides training for writing effective manuscript abstracts as part of their <a href="https://www.equator-network.org/2023/01/24/uk-equator-centre-publication-school-april-2023/">publication school</a>.</p>
 <p>See this article from the <a href="https://blogs.lse.ac.uk/impactofsocialsciences/2011/06/20/essential-guide-writing-good-abstracts/">London School of Economics</a> for general abstract writing tips.</p>
 <p><a href="#abstract">Back to top</a></p>
@@ -528,6 +494,7 @@ Justification, Example, and Resources
 </div>
 </div>
 </div>
+</section>
 <section id="introduction" class="level3 page-columns page-full">
 <h3 class="anchored">Introduction</h3>
 <div id="problem-formulation" class="grid">
@@ -536,31 +503,31 @@ Justification, Example, and Resources
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/problem-formulation.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/problem-formulation.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside">“When the problem is described clearly I find it much easier to understand why a study was done, even if its from a different subject area, country, or decade.”<span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“When the problem is described clearly I find it much easier to understand why a study was done, even if its from a different subject area, country, or decade.”<span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
 <p>Describe the theoretical and/or practical issues or concerns that make the study necessary, including:</p>
 <ul>
 <li><p>an overview of what is known about the problem</p></li>
 <li><p>gaps in current knowledge (the problem statement)</p></li>
 <li><p>the scope of the research problem or phenomena addressed in the study (what will and will not be included)</p></li>
 <li><p>theoretical and/or empirical work directly relevant to the problem or phenomena studied</p></li>
-<li><p>the need for a qualitative approach.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p></li>
+<li><p>the need for a qualitative approach.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></li>
 </ul>
-<div id="problem-formulation-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="problem-formulation-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div id="problem-formulation-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-problem-formulation-2">Why readers need this information</a></li>
@@ -588,24 +555,24 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/purpose.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/purpose.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside">“A clear purpose frames the article.” <span class="attribution">Rahilah Zayn - Researcher</span></span></div></div>
-<p>Include a statement of study intent. This can be framed as one or more research questions, purposes, goals, or objectives.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
-<div id="purpose-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“A clear purpose frames the article.” <span class="attribution">Rahilah Zayn - Researcher</span></span></div></div>
+<p>Include a statement of study intent. This can be framed as one or more research questions, purposes, goals, or objectives.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<div id="purpose-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification, Example, and Resources
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div id="purpose-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-purpose-2">Why readers need this information</a></li>
@@ -639,28 +606,28 @@ Justification, Example, and Resources
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/qualitative-approach.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/qualitative-approach.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p>Describe your qualitative <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>, your guiding theory (if appropriate), and identify the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem0" aria-controls="offcanvasExample" role="button">research paradigm</span>.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> </p><div class="no-row-height column-margin column-container"><span class="aside">“I like it when authors describe terms in their own words as well as using the proper terms.”<span class="attribution">Rahilah Zayn - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p>Describe your qualitative <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>, your guiding theory (if appropriate), and identify the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem0" aria-controls="offcanvasExample" role="button">research paradigm</span>.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> </p><div class="no-row-height column-margin column-container"><span class="">“I like it when authors describe terms in their own words as well as using the proper terms.”<span class="attribution">Rahilah Zayn - Researcher</span></span></div></div>
 <p>Explain why the selected approach is appropriate for the research question.</p>
 <p>Provide references to theories or traditions that guide the use of the approach as needed.</p>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside">“I hadn’t heard the term ‘approach’ before writing-up my study. I realise now that I did have an approach and that it might be different to other researcher’s approaches, so I need to describe things that I felt were obvious.”<span class="attribution">Tim Westland - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“I hadn’t heard the term ‘approach’ before writing-up my study. I realise now that I did have an approach and that it might be different to other researcher’s approaches, so I need to describe things that I felt were obvious.”<span class="attribution">Tim Westland - Researcher</span></span></div></div>
 <!-- #ASK Charlotte null case, resources -->
 <p>If you don’t know what your approach or paradigm was, or you don’t think you had one, it’s OK to reflect on this <em>after</em> collecting data and you should still report it. Read <a href=".">this list</a> to see what best describes your work.</p>
-<div id="qualitative-approach-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="qualitative-approach-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div id="qualitative-approach-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-qualitative-approach-2">Why readers need this information</a></li>
@@ -690,28 +657,28 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/researcher-characteristics-and-reflexivity.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/researcher-characteristics-and-reflexivity.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<p>Describe how roles and identities of research team members influence choice of research <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>, data collection, and data analysis.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside">“Coming from quantitative research it felt strange to include such personal descriptions of the team. But I came to realise why it was useful to others, and that peer reviewers would expect it.” <span class="attribution">Tim Westland - Researcher</span></span></div></div>
+<p>Describe how roles and identities of research team members influence choice of research <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>, data collection, and data analysis.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“Coming from quantitative research it felt strange to include such personal descriptions of the team. But I came to realise why it was useful to others, and that peer reviewers would expect it.” <span class="attribution">Tim Westland - Researcher</span></span></div></div>
 <p>Describe the perspectives, assumptions, prior knowledge, preliminary hypotheses, and/or motives (the “stance”) of the members of the research team.</p>
-<p>Describe the researchers’ relationships to participants in the study and what decisions were made in light of these relationships.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<p>Describe the researchers’ relationships to participants in the study and what decisions were made in light of these relationships.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
 <p>If your research was observational (e.g., ethnography), describe the role of the researcher along a spectrum from passive observer (no involvement in the activity studied) to participant-observer (ranging from some limited involvement in the activity to full involvement).</p>
 <p>There is no expectation that the study could be precisely replicated; these characteristics and perspectives of the researcher should not be mentioned in the limitation section. (See also <a href="#data-analysis">Item 14: Data Analysis</a>)</p>
-<div id="researcher-characteristics-and-reflexivity-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="researcher-characteristics-and-reflexivity-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div id="researcher-characteristics-and-reflexivity-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-researcher-characteristics-and-reflexivity-2">Why readers need this information</a></li>
@@ -740,25 +707,25 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/context.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/context.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
 <p>Describe the setting/site(s) in which the study was conducted, the reason(s) why the setting/site(s) was selected, and the salient cultural, political, historical, economic and/or other external factors that influence the study.</p>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside">“When synthesising evidence, context helps me work out how and why different studies and findings fit together (or don’t)”<span class="attribution">Lorna Ellis - Evidence Synthesiser</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“When synthesising evidence, context helps me work out how and why different studies and findings fit together (or don’t)”<span class="attribution">Lorna Ellis - Evidence Synthesiser</span></span></div></div>
 <p>Additional context may be reported with findings (i.e., the Results section) to add evidence for interpretations and to enhance discussion of transferability.</p>
-<div id="context-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="context-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Example
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
-<div id="context-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-context-2">Why readers need this information</a></li>
@@ -784,7 +751,7 @@ Justification and Example
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/sampling-strategy.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/sampling-strategy.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
@@ -805,18 +772,18 @@ Justification and Example
 <li><p>how and when recruitment occurred</p></li>
 <li><p>why these procedures were selected. (See also <a href="./#researcher-characteristics-and-reflexivity">Item 6: Researcher characteristics and reflexivity</a>)</p></li>
 </ul>
-<div id="sampling-strategy-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="sampling-strategy-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
-<div id="sampling-strategy-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-sampling-strategy-2">Why readers need this information</a></li>
@@ -848,7 +815,7 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/ethics.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/ethics.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
@@ -861,18 +828,18 @@ Justification and Examples
 <li><p>and reporting of findings (e.g., anonymization of excerpts).</p></li>
 </ul>
 <p>If you provided compensation or offered incentives to facilitate participation, describe this too.</p>
-<div id="ethics-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="ethics-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
-<div id="ethics-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-ethics-2">Why readers need this information</a></li>
@@ -900,11 +867,11 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/data-collection-methods.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/data-collection-methods.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<p>Describe <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">data collection methods</span> and design in detail, and justify them in relation to the research question(s), paradigm, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>, and other methods.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>Describe <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">data collection methods</span> and design in detail, and justify them in relation to the research question(s), paradigm, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>, and other methods.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
 <!-- #TODO is triangulation a requirement, or part of definition of data collection methods? Isn't it in item 11 again? -->
 <p>If data collection and analysis was iterative:</p>
 <ul>
@@ -913,18 +880,18 @@ Justification and Examples
 </ul>
 <p>Identify the study period.</p>
 <p>Describe important characteristics of the individuals conducting interviews, observations or focus groups, and methods used to train these individuals.</p>
-<div id="data-collection-methods-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="data-collection-methods-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse">
-<div id="data-collection-methods-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-data-collection-methods-2">Why readers need this information</a></li>
@@ -960,24 +927,24 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/data-collection-instruments.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/data-collection-instruments.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p>Describe all data collection <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem1" aria-controls="offcanvasExample" role="button">instruments</span>, including their development, and <span class="added">if/how they changed over the course of the study</span>. Cite relevant literatures, theories or conceptual frameworks as appropriate. Consider sharing the data collection instrument(s) or a detailed description of them <span class="added">in the article body, supplementary material, or published elsewhere</span>. </p><div class="no-row-height column-margin column-container"><span class="aside">“I publish my materials on the <a href="www.osf.io">OSF</a> and then describe and cite them in my articles.”<span class="attribution">Tim Westland - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p>Describe all data collection <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem1" aria-controls="offcanvasExample" role="button">instruments</span>, including their development, and <span class="added">if/how they changed over the course of the study</span>. Cite relevant literatures, theories or conceptual frameworks as appropriate. Consider sharing the data collection instrument(s) or a detailed description of them <span class="added">in the article body, supplementary material, or published elsewhere</span>. </p><div class="no-row-height column-margin column-container"><span class="">“I publish my materials on the <a href="www.osf.io">OSF</a> and then describe and cite them in my articles.”<span class="attribution">Tim Westland - Researcher</span></span></div></div>
 <p>Describe the use of equipment for audio or video recording, reproduction of paper documents or computer files, or other processes in data collection.</p>
-<div id="data-collection-instruments-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="data-collection-instruments-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-11" class="callout-11-contents callout-collapse collapse">
-<div id="data-collection-instruments-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-data-collection-instruments-2">Why readers need this information</a></li>
@@ -1006,12 +973,12 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/units-of-study.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/units-of-study.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
 <p>Describe the number of participants, documents, or events included in the study (the units of study).</p>
-<p>Describe characteristics of the participants, documents or events that are relevant to the study purpose and research question(s).<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<p>Describe characteristics of the participants, documents or events that are relevant to the study purpose and research question(s).<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
 <p>Include the dates or timeframe for participation.</p>
 <p>If the <em>actual</em> sample differs from the target sample, describe:</p>
 <ul>
@@ -1026,18 +993,18 @@ Justification and Examples
 <li><p>and how these different levels of participation were taken into account in the analysis.</p></li>
 </ul>
 <p>This information could appear in the Methods section as part of the description of the sample, or at the beginning of the Results section to provide context for the findings presented.</p>
-<div id="units-of-study-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="units-of-study-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 More Information, Justification, and Example
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-12" class="callout-12-contents callout-collapse collapse">
-<div id="units-of-study-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-units-of-study-2">How does this item differ to Sampling (Item 8)?</a></li>
@@ -1075,26 +1042,26 @@ More Information, Justification, and Example
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/data-processing.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/data-processing.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<p>Describe the ways in which data are prepared for analysis and managed throughout the analysis process. These activities might include transcription, coding, data entry, and organization of data. (See footnote for audio or visual recordings<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>).</p>
+<p>Describe the ways in which data are prepared for analysis and managed throughout the analysis process. These activities might include transcription, coding, data entry, and organization of data. (See footnote for audio or visual recordings<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>).</p>
 <p>Describe the processes used to organize, compile, and categorize data (e.g., field notes, transcripts, documents, photographs, artifacts) for analysis.</p>
 <p>If you used transcripts, describe procedures used to check accuracy.</p>
-<p>Describe procedures used to maintain data security and protect the privacy of participants, as specified in the human subjects protocols (see footnote on anonymisation<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> as an example).</p>
-<div id="data-processing-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<p>Describe procedures used to maintain data security and protect the privacy of participants, as specified in the human subjects protocols (see footnote on anonymisation<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> as an example).</p>
+<div id="data-processing-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-13" class="callout-13-contents callout-collapse collapse">
-<div id="data-processing-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-data-processing-2">Why readers need this information</a></li>
@@ -1127,35 +1094,35 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/data-analysis.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/data-analysis.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<p>Describe your analytic process as transparently as possible.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
+<p>Describe your analytic process as transparently as possible.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></p>
 <p>If you used an approach that has a well-defined process for data analysis (e.g., grounded theory, discourse analysis, phenomenography):</p>
 <ul>
 <li><p>cite the guiding literature</p></li>
 <li><p>describe your processes in sufficient detail so readers can judge the extent to which your processes align with the guiding approach.</p></li>
 <li><p>If you modified or deviated from the guiding approach, explain and justify these modifications.</p></li>
 </ul>
-<p>Specify the unit of analysis.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
-<p>Explain the rationale underlying different decisions made throughout the data analysis process to provide as much transparency as possible.<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a></p>
+<p>Specify the unit of analysis.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
+<p>Explain the rationale underlying different decisions made throughout the data analysis process to provide as much transparency as possible.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
 <p>If observations that contrast or deviate from identified concepts or themes were important to your analysis, describe how these discrepancies were handled during the analysis.</p>
 <p>If you drew upon a theoretical perspective or framework during analysis, describe theoretical or other influences on your analysis scheme or categories if they exist. If you identified a theoretical perspective or framework early in the conception of the study or after reviewing some or all of their data, consider referring to these as “sensitizing concepts” to acknowledge that the approach is inductive, but with influence from relevant theory, models, or organizational schemes. Alternatively, explain that themes were developed from the data with no external influences.</p>
 <p>Describe which members of the research team are involved in data analysis and what perspective(s) they bring to the analysis.</p>
-<p>If software was used to assist with data analysis<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>, describe how it was used. Simply stating that software was used is insufficient.</p>
-<div id="data-analysis-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<p>If software was used to assist with data analysis<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>, describe how it was used. Simply stating that software was used is insufficient.</p>
+<div id="data-analysis-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-14" class="callout-14-contents callout-collapse collapse">
-<div id="data-analysis-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-data-analysis-2">Why readers need this information</a></li>
@@ -1193,24 +1160,24 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/trustworthiness.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/trustworthiness.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<p>Describe methods used to ensure trustworthiness and credibility throughout the data collection and analysis process. (See footnote on commonly used techniques<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a>).</p>
+<p>Describe methods used to ensure trustworthiness and credibility throughout the data collection and analysis process. (See footnote on commonly used techniques<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>).</p>
 <p>Explain your choice of techniques and why these are appropriate for the particular study.</p>
-<div id="trustworthiness-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="trustworthiness-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification, Examples, and Resources
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-15" class="callout-15-contents callout-collapse collapse">
-<div id="trustworthiness-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-trustworthiness-2">Why readers need this information</a></li>
@@ -1260,30 +1227,30 @@ Justification, Examples, and Resources
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/synthesis-and-interpretation.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/synthesis-and-interpretation.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<p>Describe the main <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem15" aria-controls="offcanvasExample" role="button">analytic findings</span>.<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a></p>
+<p>Describe the main <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem15" aria-controls="offcanvasExample" role="button">analytic findings</span>.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></p>
 <p>In most cases, report a synthesis of the data along with specific quotes, examples, or illustrations derived from the data.</p>
 <!-- #ASK: is this same as links to empirical data? -->
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside">“I like when authors use words like ‘many’, ‘few’, or ‘all’ to describe frequency.”<span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“I like when authors use words like ‘many’, ‘few’, or ‘all’ to describe frequency.”<span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
 <p>Consider describing frequency, variety, representativeness, counter-examples, concrete details, contextualization, conditions, and qualifications related to the findings.</p>
 <p>Frequency counts play a limited role in qualitative research, and need not be reported unless they play a meaningful role in interpretation of the data.</p>
 <p>If your findings include integration with prior literature or theory and/or the development of a theory, model or meta-narrative, consider using tables and figures to communicate these findings.</p>
-<p>Items 16 and 18 can be reported in Results or Discussion sections.<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a></p>
-<div id="synthesis-and-interpretation-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<p>Items 16 and 18 can be reported in Results or Discussion sections.<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a></p>
+<div id="synthesis-and-interpretation-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-16" class="callout-16-contents callout-collapse collapse">
-<div id="synthesis-and-interpretation-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-synthesis-and-interpretation-2">Why readers need this information</a></li>
@@ -1316,24 +1283,24 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/links-to-empirical-data.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/links-to-empirical-data.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p>Provide evidence (e.g., quotes, field notes, text excerpts, photographs) to substantiate the more general and abstract concepts or inferences they present as findings.<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a> </p><div class="no-row-height column-margin column-container"><span class="aside">“I love seeing evidence like this because it really brings results to life.” <span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p>Provide evidence (e.g., quotes, field notes, text excerpts, photographs) to substantiate the more general and abstract concepts or inferences they present as findings.<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> </p><div class="no-row-height column-margin column-container"><span class="">“I love seeing evidence like this because it really brings results to life.” <span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
 <p>You could report this evidence in a table or figure, incorporated into a narrative description of findings, as a stand-alone narrative, or in text blocks embedded in the manuscript text. If you are constrained by word limits or media limitations (e.g.. video), consider sharing data via an appendix, supplemental material, or web-based repository.</p>
-<div id="links-to-empirical-data-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="links-to-empirical-data-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-17" class="callout-17-contents callout-collapse collapse">
-<div id="links-to-empirical-data-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-links-to-empirical-data-2">Why readers need this information</a></li>
@@ -1364,26 +1331,26 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/integration-with-prior-work.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/integration-with-prior-work.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<p>Describe how the findings and conclusions connect to, support, elaborate on, or challenge previous findings, experiences, theory, or a guiding paradigm or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a></p>
+<p>Describe how the findings and conclusions connect to, support, elaborate on, or challenge previous findings, experiences, theory, or a guiding paradigm or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>.<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a></p>
 <p>Describe how the findings contribute to or advance the field.</p>
 <p>Describe any implications of the work, such transferability or generalizability.</p>
 <!-- #ASK transferability vs generalizability? -->
-<div id="integration-with-prior-work-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="integration-with-prior-work-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Examples
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-18" class="callout-18-contents callout-collapse collapse">
-<div id="integration-with-prior-work-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-integration-with-prior-work-2">Why readers need this information</a></li>
@@ -1414,25 +1381,25 @@ Justification and Examples
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/limitations.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/limitations.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p>Describe problems or gaps in their efforts to ensure trustworthiness and the potential implications.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a> </p><div class="no-row-height column-margin column-container"><span class="aside">“Authors should never feel nervous to report limitations. In fact, thoughtful discussion of limitations is a hallmark of good research!”<span class="attribution">Charles Ruggle - Editor</span></span></div></div>
-<p>Describe how the chosen paradigm, approach, and methods will influence the situations to which the findings may reasonably apply.<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a> (See also <a href="./#integration-with-prior-work-implications-transferability-and-contributions-to-the-field">Item 18</a>.)</p>
+<div class="page-columns page-full"><p>Describe problems or gaps in their efforts to ensure trustworthiness and the potential implications.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a> </p><div class="no-row-height column-margin column-container"><span class="">“Authors should never feel nervous to report limitations. In fact, thoughtful discussion of limitations is a hallmark of good research!”<span class="attribution">Charles Ruggle - Editor</span></span></div></div>
+<p>Describe how the chosen paradigm, approach, and methods will influence the situations to which the findings may reasonably apply.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a> (See also <a href="./#integration-with-prior-work-implications-transferability-and-contributions-to-the-field">Item 18</a>.)</p>
 <p>Describe how specific decisions or events in the conduct of the study strengthen or weaken the rigor of the findings.</p>
-<div id="limitations-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="limitations-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification and Example
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-19" class="callout-19-contents callout-collapse collapse">
-<div id="limitations-collapsible" class="callout-body-container callout-body">
+<div class="callout-body-container callout-body">
 <p>Jump to:</p>
 <ul>
 <li><a href="#sec-limitations-2">Why readers need this information</a></li>
@@ -1461,11 +1428,11 @@ Justification and Example
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/conflicts-of-interest.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/conflicts-of-interest.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="aside">“Authors shouldn’t feel nervous reporting conflicts of interest. They are very common and rarely influence our decision to publish.”<span class="attribution">Charles Ruggle - Editor</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“Authors shouldn’t feel nervous reporting conflicts of interest. They are very common and rarely influence our decision to publish.”<span class="attribution">Charles Ruggle - Editor</span></span></div></div>
 <p>Describe any real or potential conflicts of interest that might have influenced or could appear to have influenced the research.</p>
 <p>Describe:</p>
 <ul>
@@ -1473,24 +1440,22 @@ Justification and Example
 <li><p>the potential impact on study findings and/or conclusions.</p></li>
 </ul>
 <p>Some aspects may be mentioned as part of reflexivity (see <a href="./#researcher-characteristics-and-reflexivity">Item 6</a>).</p>
-<div id="conflicts-of-interest-collapsible" class="callout-note callout callout-style-simple no-icon callout-captioned">
+<div id="conflicts-of-interest-collapsible" class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Justification
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-20" class="callout-20-contents callout-collapse collapse">
-<div id="conflicts-of-interest-collapsible" class="callout-body-container callout-body">
-<section id="sec-conflicts-of-interest-2" class="level2">
+<section id="sec-conflicts-of-interest-2" class="level2 callout-body-container callout-body">
 <h2 class="anchored" data-anchor-id="sec-conflicts-of-interest-2">Why readers need this information</h2>
 <p><span class="added">“Many factors, including professional and personal relationships and activities, can influence the design, conduct, and reporting of the clinical science that informs health care decision. The potential for conflict of interest exists when these relationships and activities may bias judgment (1). Many stakeholders— editors, peer reviewers, clinicians, educators, policymakers, patients, and the public—rely on the disclosure of authors’ relationships and activities to inform their assessments. Trust in the transparency, consistency, and completeness of these disclosures is essential.” - <a href="https://www.icmje.org/news-and-editorials/proposed-disclosure-form-editorial.pdf">ICMJE</a></span></p>
 <!-- #TODO: EQ examples and resources  -->
 </section>
-</div>
 </div>
 </div>
 <div id="funding" class="grid">
@@ -1499,7 +1464,7 @@ Justification
 </section>
 <div class="g-col-3">
 <section class="chat-button">
-<p><a class="btn btn-outline-secondary" title="Discuss this item" href="../../guidelines/srqr/discussion/funding.html" target="_blank"><i class="bi-chat-right-text"></i></a></p>
+<p><a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="../../guidelines/srqr/discussion/funding.html" target="_blank"><i class="bi-chat-quote"></i></a></p>
 </section>
 </div>
 </div>
@@ -1531,6 +1496,11 @@ Justification
 <section id="how-was-this-guideline-made" class="level3">
 <h3 class="anchored" data-anchor-id="how-was-this-guideline-made">How was this guideline made?</h3>
 <p>The developers synthesised 40 sets of recommendations previously proposed by experts in qualitative methods. You can read about their development process <a href="doi.org/10.1097/ACM.0000000000000388">here</a>.</p>
+</section>
+<section id="does-srqr-prescribe-structure" class="level3">
+<h3 class="anchored" data-anchor-id="does-srqr-prescribe-structure">Does SRQR prescribe structure?</h3>
+<p>No.&nbsp;This reporting guideline does not prescribe a rigid format or standardized content. Consider each item and prioritize elements that are most relevant to your study, findings, context, and readers.</p>
+<p>You may prefer to report an item in a different order, section, or in a table or figure. If you feel confident that an item is less important to your study, you could report it in an appendix or supplement. If you think an item is not applicable, state why. You don’t need to write your article in the order the items are presented.</p>
 </section>
 <section id="what-to-do-if-asked-to-remove-guideline-related-content" class="level3">
 <h3 class="anchored" data-anchor-id="what-to-do-if-asked-to-remove-guideline-related-content">What to do if asked to remove guideline related content</h3>
@@ -1791,42 +1761,40 @@ Frequency counts
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>Some journals require abstracts to have subheadings, others don’t. In some cases the journal’s structured abstract format aligns more with positivist paradigms and quantitative approaches than with qualitative traditions, so translation may be necessary. For example, what might be labelled “Findings” in many qualitative research traditions could be reported as “Results” in the abstract. Similarly, “Design” might be labelled as “Approach” or “Methodology” for a qualitative study.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Justifications for a qualitative approach include to elucidate poorly defined or previously unexplored constructs, to generate theories or to develop causal explanations connecting processes and outcomes, to understand phenomena as they naturally occur and the role of context, to explore problems involving high complexity, to gain insight into participants’ perspectives when such insight is lacking)<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Qualitative studies often explore “how” and “why” questions related to a social or human problems or phenomenon, and they are designed to enhance readers’ understanding of a problem or phenomenon.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Qualitative research includes an array of approaches and methodologies, both general (e.g., qualitative content analysis, general inductive approach) and specific (e.g., ethnography, grounded theory, phenomenography).<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Relevant personal characteristics might include cultural background, occupation, experience, training, position/ power dynamics, gender, race/ethnicity, and sponsoring institution.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>For example, were any members of the research team part of the sample of potential participants in the study? Do any members of the team teach, supervise, or have any authority over participants in the study? If so, how do these characteristics influence choices about their roles in data collection and analysis?<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p>Researchers may choose to use information from multiple sources, contexts, and/or time points depending on their approach and research question(s). (See <a href="./#data-collection-instruments-and-technologies">Item 11</a> for triangulation.)<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn8"><p>For participants, characteristics might include age, race, ethnicity, gender, profession, institution, year of training, or relationship to the researcher and/or other participants in the study. For documents, this might include the source, intended audience, date, or type of document. For events, this might include the location, date(s), length, characteristics of attendees or participants in the event, or mood or emotional climate.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn9"><p>Details might include indication of verbatim transcription of dialogue, additional notes to capture non- verbal information (especially for group interviews or focus groups), and annotations to indicate vocal inflections and utterances, as appropriate for the analytic approach.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn10"><p>If data are anonymized, the authors should explain how and at what point in the process this occurred. Authors may choose to use anonymous labels or identifiers to represent quotes or excerpts from unique participants, documents or events, in order to reflect the variety of sources from which such data were derived.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn11"><p>E.g., characterize the processes and decisions made for initial classification or segmentation of data, pattern identification and description, and/or development of in-depth interpretations.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn12"><p>In qualitative research, the unit of analysis is not necessarily the same as the unit of sampling (e.g., individual participants or events). Instead, some approaches use specific events as the unit of analysis, such as mentions of a particular topic or experience, or observations of a particular behavior or phenomenon, while others use groups rather than individual group participants. This specification has implications for how the data are organized and analyzed as well as the inferences drawn from the data.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn13"><p>In some approaches researchers use memoing or bracketing to make their reflections, interpretations, and links among passages explicit and more transparent to others.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn14"><p>e.g., used to apply codes after the final coding scheme was developed; to extract coded passages for further synthesis and identification of themes; or to identify passages with key words<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn15"><p>Techniques to enhance trustworthiness will depend on the paradigm, approach, and/or methods used. Commonly used techniques include: member checking; triangulation of data sources, methods, and/or researchers; creation of an explicit audit trail; and immersion in the site of data collection for an extended period of time (especially for research in which an observer’s presence is likely to disrupt the phenomenon under investigation). Member checking involves sharing findings, such as descriptions of key phenomena, themes, or an explanatory model, with participants and asking them to verify the accuracy or resonance with their perspectives. Triangulation involves using more than one data source, method, or researcher to add diverse perspectives on the findings of the study and, in some approaches, to test the transferability or generalizability of a model. An audit trail involves careful documentation of all decisions made throughout the study, from initial conceptualization to study design, sampling, analysis, and reporting, to provide transparency and to enable an external researcher to review all the steps involved in the study.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn16"><p>The nature of these findings and how they are reported will depend on the approach and methodology selected and thus should be in alignment with the approach and methods.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn17"><p>In qualitative research the distinction between results and discussion tends to blur because analysis often involves interpretation, inference, and synthesis. Although most journals require separate sections for Results and Discussion, many elements of Items 16 and 18 could reasonably be reported in either section. As such, we defer to authors and editors to determine where to report these essential elements.<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn18"><p>Evidence is typically de-identified to protect the privacy of study participants, settings, and/or institutions.<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn19"><p>The discussion provides authors an opportunity to elaborate on their findings in relation to their research question(s) and study purpose(s); connect their findings to prior empirical work, theories, and/or frameworks; and discuss implications.<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn20"><p>Whereas you should describe techniques used to ensure trustworthiness in the Methods section of the manuscript, this section is about the gaps that you didn’t or couldn’t cover. For example, if you intended to interview individuals with certain characteristics, or who might offer different perspectives, but were unsuccessful in recruiting any willing participants, explain this issue and describe possible consequences for transferability. (See also Item 18.)<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn21"><p>All research paradigms and approaches have strengths and weaknesses.<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Justifications for a qualitative approach include to elucidate poorly defined or previously unexplored constructs, to generate theories or to develop causal explanations connecting processes and outcomes, to understand phenomena as they naturally occur and the role of context, to explore problems involving high complexity, to gain insight into participants’ perspectives when such insight is lacking)<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Qualitative studies often explore “how” and “why” questions related to a social or human problems or phenomenon, and they are designed to enhance readers’ understanding of a problem or phenomenon.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Qualitative research includes an array of approaches and methodologies, both general (e.g., qualitative content analysis, general inductive approach) and specific (e.g., ethnography, grounded theory, phenomenography).<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Relevant personal characteristics might include cultural background, occupation, experience, training, position/ power dynamics, gender, race/ethnicity, and sponsoring institution.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>For example, were any members of the research team part of the sample of potential participants in the study? Do any members of the team teach, supervise, or have any authority over participants in the study? If so, how do these characteristics influence choices about their roles in data collection and analysis?<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Researchers may choose to use information from multiple sources, contexts, and/or time points depending on their approach and research question(s). (See <a href="./#data-collection-instruments-and-technologies">Item 11</a> for triangulation.)<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>For participants, characteristics might include age, race, ethnicity, gender, profession, institution, year of training, or relationship to the researcher and/or other participants in the study. For documents, this might include the source, intended audience, date, or type of document. For events, this might include the location, date(s), length, characteristics of attendees or participants in the event, or mood or emotional climate.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Details might include indication of verbatim transcription of dialogue, additional notes to capture non- verbal information (especially for group interviews or focus groups), and annotations to indicate vocal inflections and utterances, as appropriate for the analytic approach.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>If data are anonymized, the authors should explain how and at what point in the process this occurred. Authors may choose to use anonymous labels or identifiers to represent quotes or excerpts from unique participants, documents or events, in order to reflect the variety of sources from which such data were derived.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>E.g., characterize the processes and decisions made for initial classification or segmentation of data, pattern identification and description, and/or development of in-depth interpretations.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>In qualitative research, the unit of analysis is not necessarily the same as the unit of sampling (e.g., individual participants or events). Instead, some approaches use specific events as the unit of analysis, such as mentions of a particular topic or experience, or observations of a particular behavior or phenomenon, while others use groups rather than individual group participants. This specification has implications for how the data are organized and analyzed as well as the inferences drawn from the data.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>In some approaches researchers use memoing or bracketing to make their reflections, interpretations, and links among passages explicit and more transparent to others.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>e.g., used to apply codes after the final coding scheme was developed; to extract coded passages for further synthesis and identification of themes; or to identify passages with key words<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Techniques to enhance trustworthiness will depend on the paradigm, approach, and/or methods used. Commonly used techniques include: member checking; triangulation of data sources, methods, and/or researchers; creation of an explicit audit trail; and immersion in the site of data collection for an extended period of time (especially for research in which an observer’s presence is likely to disrupt the phenomenon under investigation). Member checking involves sharing findings, such as descriptions of key phenomena, themes, or an explanatory model, with participants and asking them to verify the accuracy or resonance with their perspectives. Triangulation involves using more than one data source, method, or researcher to add diverse perspectives on the findings of the study and, in some approaches, to test the transferability or generalizability of a model. An audit trail involves careful documentation of all decisions made throughout the study, from initial conceptualization to study design, sampling, analysis, and reporting, to provide transparency and to enable an external researcher to review all the steps involved in the study.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>The nature of these findings and how they are reported will depend on the approach and methodology selected and thus should be in alignment with the approach and methods.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>In qualitative research the distinction between results and discussion tends to blur because analysis often involves interpretation, inference, and synthesis. Although most journals require separate sections for Results and Discussion, many elements of Items 16 and 18 could reasonably be reported in either section. As such, we defer to authors and editors to determine where to report these essential elements.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>Evidence is typically de-identified to protect the privacy of study participants, settings, and/or institutions.<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>The discussion provides authors an opportunity to elaborate on their findings in relation to their research question(s) and study purpose(s); connect their findings to prior empirical work, theories, and/or frameworks; and discuss implications.<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>Whereas you should describe techniques used to ensure trustworthiness in the Methods section of the manuscript, this section is about the gaps that you didn’t or couldn’t cover. For example, if you intended to interview individuals with certain characteristics, or who might offer different perspectives, but were unsuccessful in recruiting any willing participants, explain this issue and describe possible consequences for transferability. (See also Item 18.)<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>All research paradigms and approaches have strengths and weaknesses.<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{o'brien2023,
-  author = {Bridget O’Brien and Ilene Harris and Thomas Beckman and
-    Darcy Reed and David Cook},
-  editor = {},
+  author = {O’Brien, Bridget and Harris, Ilene and Beckman, Thomas and
+    Reed, Darcy and Cook, David},
   title = {The {SRQR} Guidelines for Writing Qualitative Research
     Articles Version 1.1},
-  date = {2023-02-20},
-  url = {https://jamesrharwood.github.io/equator-guidelines-website//guidelines/srqr/qscd.html},
+  version = {1.1},
+  date = {},
   doi = {10.1234/equator/1111114},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-o'brien2023" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-Bridget O’Brien, Ilene Harris, Thomas Beckman, Darcy Reed, and David
-Cook. 2023. <span>“The SRQR Guidelines for Writing Qualitative Research
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-o'brien2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+O’Brien, Bridget, Ilene Harris, Thomas Beckman, Darcy Reed, and David
+Cook. n.d. <span>“The SRQR Guidelines for Writing Qualitative Research
 Articles Version 1.1.”</span> <em>The EQUATOR Network Guideline
 Dissemination Platform</em>. <a href="https://doi.org/10.1234/equator/1111114">https://doi.org/10.1234/equator/1111114</a>.
 </div></div></section></div></main> <!-- /main -->
@@ -1878,9 +1846,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1892,7 +1874,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -1928,24 +1927,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
@@ -1953,8 +2056,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></div>   
-      <div class="nav-footer-center">
-        <ul class="footer-items list-unstyled">
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="../../about">About</a>
   </li>  
@@ -1965,7 +2068,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="../../privacy">Privacy Policy</a>
   </li>  
 </ul>
-      </div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

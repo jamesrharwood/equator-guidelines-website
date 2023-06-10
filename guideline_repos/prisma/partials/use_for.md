@@ -1,1 +1,0 @@
-This guideline is based on the PRISMA statement; an evidence-based minimum set of items for reporting systematic reviews and meta-analyses. Although the guideline focuses on the reporting of reviews evaluating randomized trials, it can also be used for reporting systematic reviews of other types of research, particularly evaluations of interventions.

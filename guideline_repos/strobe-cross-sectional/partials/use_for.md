@@ -1,1 +1,0 @@
-This guideline is relevant to studies reporting cross-sectional studies

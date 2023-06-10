@@ -1,9 +1,0 @@
-*.code-workspace
-*.pyc
-/.quarto/
-/_site/
-.DS_Store
-*ignored/
-venv/*
-*/_SRQR/*
-guidelines/*

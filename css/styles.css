@@ -4,19 +4,6 @@ section {
     padding-top: 20px;
 }
 
-.defined {
-    color: rgb(55, 58, 60);
-    text-decoration-color: rgb(35, 104, 241);
-    text-decoration-line: underline;
-    text-decoration-skip-ink: none;
-    text-decoration-style: dotted; 
-    text-underline-position: under;
-}
-
-.citations-counter {
-    padding-top: 20px;
-}
-
 abbr {
     text-underline-position: under;
 }
@@ -355,4 +342,8 @@ abbr {
   display: block;
   padding-top: 1rem;
   font-style: normal
+}
+
+.btn-action {
+  border-radius: 15px;
 }

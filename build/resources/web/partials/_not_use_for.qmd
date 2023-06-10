@@ -1,3 +1,0 @@
-::: {.callout-warning icon=false appearance="simple"}
-{{< include partials/not_use_for.md >}}
-:::

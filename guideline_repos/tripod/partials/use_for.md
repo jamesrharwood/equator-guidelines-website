@@ -1,1 +1,0 @@
-This guideline is relevant to studies reporting prediction models (both diagnostic and prognostic)
