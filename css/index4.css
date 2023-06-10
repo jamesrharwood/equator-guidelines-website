@@ -1,0 +1,79 @@
+h1 {
+    font-size: 60px;
+    font-weight: normal;
+}
+.radial1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.6;
+}
+.radial2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: .6;
+}
+.radial3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+}
+.radial4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: .6;
+}
+.radial-background {
+    position: relative;
+    background-color: rgba(226 232 240 0.2);
+    background-color: rgba(54, 113, 62, 0.2);
+}
+.logos {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.logos p {
+    margin-bottom: 0;
+}
+.content-block {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.quote {
+    text-align: left;
+    font-style: normal;
+}
+.quote p {
+    margin-bottom: 0px;
+}
+.quote img {
+    max-height: 3rem;
+    float: left;
+}
+.quote .name {
+    float: left;
+    margin-left: 1rem;
+}
+.quote-who {
+    margin-top: 1rem;
+}
+.text-small {
+    font-size: 0.875rem;
+}
+.hero-image-side img {
+    max-height: 100%;
+}
+.card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19)
+}
+.quote {
+    padding: 1rem;
+}
+.bold {
+    font-weight: bold;
+}

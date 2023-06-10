@@ -78,7 +78,7 @@ TEMPLATE = \
 :::
 ::: {{.g-col-3}}
 ::: {{.section .chat-button}}
-<a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="{item.giscus_rel_path}" target="_blank"><i class="bi-chat-quote"></i></a>
+<a class="btn btn-outline-secondary" title="Discuss or give feedback on this item" href="{item.giscus_rel_path}" target="_blank"><i class="bi-chat-quote chat-icon"></i></a>
 :::
 :::
 :::

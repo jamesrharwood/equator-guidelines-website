@@ -73,3 +73,6 @@ format:
         - scripts/search-shortcut.html
     include-after-body:
         - scripts/toggle_collapsible.html
+
+metadata-files: 
+  -  _sidebars.yml

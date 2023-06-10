@@ -1,9 +1,10 @@
 :root {
   --greenl: rgb(11, 167, 87);
-  --green: #066836;
-  --greenvl: #adf1ce;
-  --greenvvl: #e9fff3;
-
+  --green-primary: rgb(11, 167, 87);
+  --green: rgb(54, 113, 62);
+  --greenvl: #c0edd6;
+  /* --greenvvl: #e9fff3; */
+  --greenvvl: #e8f7ef;
 }
 
 @font-face {

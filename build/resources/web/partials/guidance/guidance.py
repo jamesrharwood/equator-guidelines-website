@@ -14,9 +14,8 @@ class Guidance:
         self.index = None
     
     def create_web(self):
-        reading_time = self.get_reading_time('web')
         guidance = '\n\n'.join(list(self.create_web_texts()))
-        return WEB_TEMPLATE.format(reading_time=reading_time, guidance=guidance)
+        return guidance
 
     def create_web_texts(self) -> Iterable[str]:
         items = self.items_for_resource('web')
@@ -74,10 +73,3 @@ class Guidance:
             words += len(item.body.split())
         reading_time = int(words/183) # apparently we read 183 words per minute
         return reading_time
-
-WEB_TEMPLATE = """\
-## Guidance
-
-<small>Approx. {reading_time} min read</small>
-
-{guidance}"""

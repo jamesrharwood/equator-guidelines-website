@@ -23,7 +23,7 @@ def create_collapsible_with_toc(sections: list[Section], item) -> str:
 def _collapsible(toc: str, body: str, back_to_top: str, item) -> str:
     if not item.has_readmore:
         return ""
-    return f"""::: {{#{item.readmore_id} .callout-note appearance="minimal" collapse=true}}
+    return f"""::: {{#{item.readmore_id} .callout-tip appearance="minimal" collapse=true}}
 
 ## {item.readmore_title}
 

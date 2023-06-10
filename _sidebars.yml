@@ -1,0 +1,10 @@
+website:
+  sidebar:
+    - id: guideline
+      contents:
+        - text: "Download Checklist"
+          href: "#checklist" 
+    - id: abcde
+      contents:
+        - text: "Test from _quarto.yml"
+          href: ./checklist.docx
