@@ -18,7 +18,7 @@ description: |
 ::: {.hero-title-block}
 ::: {.grid}
 ::: {.g-col-lg-7 .g-col-md-6 .g-col-12 .hero-content-left}
-# Writing-up research is hard.
+# Writing up research is hard.
 
 #### Reporting guidelines help you describe research quickly, confidently, and completely.
 
