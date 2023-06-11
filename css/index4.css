@@ -82,7 +82,7 @@ h1 {
     margin-top: 0rem;
     margin-bottom: 0rem;
 }
-.hero-banner .card p {
+.hero-banner .card > p {
     text-align: center;
     margin-top: 1rem;
 }

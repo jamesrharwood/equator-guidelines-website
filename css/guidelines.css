@@ -66,3 +66,20 @@ h4 {
         display: none;
     }
 }
+.feature-callout img {
+    float: left;
+}
+.feature-callout img {
+    max-height: 3rem;
+    float: left;
+}
+.feature-callout .feature-icon {
+    float: left;
+    margin-right: 1rem;
+}
+.feature-callout {
+    margin-bottom: 1rem;
+}
+.feature-callout p {
+    margin-bottom: 0px;
+}
