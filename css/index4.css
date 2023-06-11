@@ -77,3 +77,12 @@ h1 {
 .bold {
     font-weight: bold;
 }
+.hero-banner .card a[role="button"] {
+    margin-right: 0px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.hero-banner .card p {
+    text-align: center;
+    margin-top: 1rem;
+}

@@ -89,6 +89,7 @@ description: |
 |Economic Evaluations                                                   |[CHEERS](guidelines/cheers)                                                             |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
 
+[Search all 500+ reporting guidelines](.){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"} 
 :::
 <!-- card -->
 
@@ -113,7 +114,8 @@ description: |
 ## Recommendations to help describe your work clearly{#sec-what-are-rgs}
 
 :::{.lead}
-Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone. They can be used throughout your research journey:
+Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines list the information you should describe so that _everyone_ can understand, replicate, and synthesise your work.
+<!-- Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone. They can be used throughout your research journey: -->
 ::: 
 <!--end lead--> 
 ::: {.features}
@@ -122,7 +124,7 @@ Reporting guidelines don't advise how to _do_ research, but how to describe it c
 ![](assets/images/bubblecons/bubblecons_work_from_home_workspace-40-icon-line-colour.svg){.feature-icon}
 
 ### Writing manuscripts
-Write quickly, confidently, and avoid the blank page by using a template.
+Write quickly and confidently by using a template.
 
 ::: {.learn-more}
 [Learn more »]()
@@ -133,7 +135,7 @@ Write quickly, confidently, and avoid the blank page by using a template.
 ![](assets/images/bubblecons/bubblecons_notes_clip-task-2-icon-line-colour.svg){.feature-icon}
 
 ### Checking manuscripts
-Double-check your writing and demonstrate to journals that your work is described thoroughly.
+Use a checklist to check and demonstrate that your work is described thoroughly.
 
 ::: {.learn-more}
 [Learn more »]()
@@ -144,7 +146,7 @@ Double-check your writing and demonstrate to journals that your work is describe
 ![](assets/images/bubblecons/bubblecons_notes_pencil-24-icon-line-colour.svg){.feature-icon}
 
 ### Planning research
-Considering what you'll need to write can help you plan a study. But reporting guidelines won't make decisions for you!
+Considering what you'll need to write can help you plan a study. But reporting guidelines won't make design decisions for you!
 <!--#ASK seems strange to include this when I've just said they dont tell you what to do!-->
 
 ::: {.learn-more}
@@ -281,7 +283,7 @@ We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-
 
 ### Ready to use a reporting guideline?
 
-[Search for guidelines](){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
+[Search guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
 
 :::
 :::
