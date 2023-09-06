@@ -6,28 +6,31 @@ toc: false
 css: "css/index.css"
 editor: source
 description: | 
-  Est aliqua et labore elit laborum.
-title-block-banner: assets/pencils.jpeg
+  Reporting guidelines: writing research, made simple.
 ---
 
 ::: {.quarto-title-block}
 ::: {.quarto-title-banner .hero-banner}
 ::: {.content-block}
 
-# Research articles made simple
+::: {.hero-title-block}
+# Writing research, made simple
 
-## Write with confidence using reporting guidelines. These recommendations, created by the research community, describe what information readers need.
+## Write confidently using guidelines created by the research community
 
-<!-- don't love this. The second half is about benefits to others. Could we switch it to be more like what i've written about impact? -->
+<!-- #ASK: Pastel comments ended up with: Write complete articles with confidence using reporting guidelines created by the research community. I don't love this. Articles is repeated unecessarily. Don't love word complete. Why would ever write half an article? -->
 
 ::: {.hero-buttons}
 [Search guidelines](){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
 ::: 
 
+:::
+<!-- / hero-title-block -->
+
 ### Frequently accessed reporting guidelines
 
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|Observational Epidemiology                                             |[STROBE Cohort](guidelines/strobe-cohort) - Cohort studies                              |
+|Observational                                                          |[STROBE Cohort](guidelines/strobe-cohort) - Cohort studies                              |
 |                                                                       |                                                                                        |
 |                                                                       |[STROBE Case-control](guidelines/strobe-case-control) - Case-control studies            |
 |                                                                       |                                                                                        |
@@ -77,7 +80,7 @@ title-block-banner: assets/pencils.jpeg
 ## Recommendations to help describe your work clearly
 
 :::{.lead}
-Reporting guidelines don't advise how to _do_ research, but rather how to describe it transparently so it can be used by everyone.
+Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone.
 ::: 
 <!--end lead-->
 ::: {.features}
@@ -121,12 +124,13 @@ Considering what you'll need to write can help you plan a study. But reporting g
 ## Reporting guidelines help authors _and_ readers
 
 :::{.lead}
-Transparent research leads to better patient outcomes, and guidelines make writing research easier.
+Guidelines make writing research easier, and transparent research leads to better patient outcomes. 
+<!-- #ASK: It is not just about patient outcomes. Should we also mention more usable research results? -->
 :::
 
-::: {.features}
+::: {.grid}
 
-::: {.feature}
+::: {.g-col-md-8 .g-col-12}
 ### Easier writing
 Giving the blank page a skeleton makes writing easier and quicker. 
 
@@ -135,7 +139,7 @@ Giving the blank page a skeleton makes writing easier and quicker.
 :::
 :::
 
-::: {.feature}
+::: {.g-col-md-8 .g-col-12}
 ### Smoother publishing
 Many journals require completed reporting checklists at submission.
 
@@ -144,8 +148,8 @@ Many journals require completed reporting checklists at submission.
 :::
 :::
 
-::: {.feature}
-### Maximal impact
+::: {.g-col-md-8 .g-col-12}
+### Maximum impact
 From nobel prizes to null results, articles have more impact when everyone can use them.
 
 ::: {.learn-more}
@@ -155,7 +159,12 @@ From nobel prizes to null results, articles have more impact when everyone can u
 
 ::: 
 <!--/features -->
+:::{.quote .lead}
+"We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines."
 
+[Robin Lavery - Editor, International Journal of World Medicine]{.attribution .small}
+:::
+<!-- /quote -->
 :::
 <!-- /content-block -->
 :::
@@ -180,19 +189,13 @@ We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-
 
 ::: {.g-col-md-4 .g-col-12}
 
-![](https://via.placeholder.com/200)
-
+![](assets/EQUATOR-first-international-working-meeting-Oxford-May-2006)
+<!-- Replace with something modern that will make people think EQUATOR is current-->
 :::
 
 :::
 <!-- /grid -->
 
-:::{.quote .lead}
-"We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines."
-
-[Robin Lavery - Editor, International Journal of World Medicine]{.attribution .small}
-:::
-<!-- /quote -->
 :::
 :::
 
@@ -202,7 +205,7 @@ We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-
 
 ### Ready to use a reporting guideline?
 
-[Search for guidance](){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
+[Search for guidelines](){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
 
 :::
 :::

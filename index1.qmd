@@ -3,62 +3,31 @@ pagetitle: "EQUATOR Guidelines"
 page-layout: custom
 section-divs: false
 toc: false
-css:
-  - "css/index.css"
-  - "css/index3.css"
-  - "css/index4.css"
+css: "css/index.css"
+editor: source
 description: | 
-  Reporting guidelines: writing research, made simple.
+  Est aliqua et labore elit laborum.
+title-block-banner: assets/pencils.jpeg
 ---
 
 ::: {.quarto-title-block}
-::: {.quarto-title-banner-normal-margin}
+::: {.quarto-title-banner .hero-banner}
 ::: {.content-block}
 
-::: {.hero-title-block}
-::: {.grid}
-::: {.g-col-lg-7 .g-col-md-6 .g-col-12 .hero-content-left}
-# Writing up research is hard.
+# Research articles made simple
 
-#### Reporting guidelines help you describe research quickly, confidently, and completely.
+## Write with confidence using reporting guidelines. These recommendations, created by the research community, describe what information readers need.
 
-<!-- #ASK: Pastel comments ended up with: Write complete articles with confidence using reporting guidelines created by the research community. I don't love this. Articles is repeated unecessarily. Don't love word complete. Why would ever write half an article? -->
+<!-- don't love this. The second half is about benefits to others. Could we switch it to be more like what i've written about impact? -->
 
 ::: {.hero-buttons}
-[Search guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
-[What are reporting guidelines?](#sec-what-are-rgs){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"}
+[Search guidelines](){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
 ::: 
-<!-- hero-buttons -->
-:::
-<!-- /g-col -->
-
-::: {.g-col-lg-5 .g-col-md-6 .g-col-12}
-::: {.hero-image-side} 
-![](assets/images/documents2.png)
-:::
-<!-- hero-image -->
-:::
-<!-- g-col -->
-:::
-<!-- grid -->
-:::
-<!-- / hero-title-block -->
-:::
-:::
-:::
-
-::: {.radial-background .hero-banner .table-block}
-<img src="assets/images/radial1.svg" class="radial1 img-fluid">
-<img src="assets/images/radial2.svg" class="radial2 img-fluid">
-
-::: {.content-block}
-
-::: {.card}
 
 ### Frequently accessed reporting guidelines
 
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-|Observational                                                          |[STROBE Cohort](guidelines/strobe-cohort) - Cohort studies                              |
+|Observational Epidemiology                                             |[STROBE Cohort](guidelines/strobe-cohort) - Cohort studies                              |
 |                                                                       |                                                                                        |
 |                                                                       |[STROBE Case-control](guidelines/strobe-case-control) - Case-control studies            |
 |                                                                       |                                                                                        |
@@ -89,42 +58,33 @@ description: |
 |Economic Evaluations                                                   |[CHEERS](guidelines/cheers)                                                             |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
 
-[Search all 500+ reporting guidelines](.){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"} 
+[Browse reporting guidelines by speciality](https://www.equator-network.org/library/browse-reporting-guidelines-by-specialty/)
+
+
+:::{.quote .lead}
+"Reporting guidelines make writing so much easier and help me develop as a researcher. I use one for every article I write!"
+
+[Alex Hamley, Edinburgh University]{.attribution .small}
 :::
-<!-- card -->
 
-::: {.logos}
-
-[Endorsed by leading publishers including:]{.small}
-
-![](assets/logos/nature.png)
-![](assets/logos/wiley.png)
-![](assets/logos/elsevier.png)
-![](assets/logos/bmj.png)
-![](assets/logos/bmc.svg)
 ::: 
-<!--/content-block-->
+::: 
 :::
-<!-- content block -->
-:::
-<!-- alt background -->
+<!--/title-block-->
 
-::: {.content-block .center}
+::: {.content-block}
 
-## Recommendations to help describe your work clearly{#sec-what-are-rgs}
+## Recommendations to help describe your work clearly
 
 :::{.lead}
-Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines are community-created recommendations for describing research so that _everyone_ can understand, repeat, apply, and synthesise your work.
-<!-- Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone. They can be used throughout your research journey: -->
+Reporting guidelines don't advise how to _do_ research, but rather how to describe it transparently so it can be used by everyone.
 ::: 
-<!--end lead--> 
+<!--end lead-->
 ::: {.features}
 
 ::: {.feature}
-![](assets/images/bubblecons/bubblecons_work_from_home_workspace-40-icon-line-colour.svg){.feature-icon}
-
 ### Writing manuscripts
-Write quickly and confidently by using a template.
+Write quickly, confidently, and avoid the blank page by using a template.
 
 ::: {.learn-more}
 [Learn more »]()
@@ -132,21 +92,17 @@ Write quickly and confidently by using a template.
 :::
 
 ::: {.feature}
-![](assets/images/bubblecons/bubblecons_notes_clip-task-2-icon-line-colour.svg){.feature-icon}
-
 ### Checking manuscripts
-Use a checklist to check and demonstrate that your work is described thoroughly.
+Double-check your writing and demonstrate to journals that your work is described thoroughly.
 
-::: {.learn-more} 
+::: {.learn-more}
 [Learn more »]()
 :::
 :::
 
 ::: {.feature}
-![](assets/images/bubblecons/bubblecons_notes_pencil-24-icon-line-colour.svg){.feature-icon}
-
 ### Planning research
-Considering what you'll need to write can help you plan a study. But reporting guidelines won't make design decisions for you!
+Considering what you'll need to write can help you plan a study. But reporting guidelines won't make decisions for you!
 <!--#ASK seems strange to include this when I've just said they dont tell you what to do!-->
 
 ::: {.learn-more}
@@ -154,55 +110,32 @@ Considering what you'll need to write can help you plan a study. But reporting g
 :::
 :::
 
-:::{.quote .card}
-::: {.quote-text-normal}
-Reporting guidelines make writing so much easier and help me develop as a researcher. I use one for every article I write!
-:::
-::: {.quote-who}
-<img src="assets/images/testimonial-1.webp">
-
-::: {.name} 
-[Alex Hamley]{.text-small .bold} 
-
-[Edinburgh University]{.attribution-organisation .text-small .text-muted} 
-:::
-:::
-::: 
-<!-- /quote -->
 
 :::
 :::
 <!--/content-block-->
 
-::: {.radial-background}
-<img src="assets/images/radial1.svg" class="radial1">
-<img src="assets/images/radial2.svg" class="radial2"> 
+::: {.alt-background}
+::: {.content-block}
 
-::: {.content-block .center}
-
-## Helping authors _and_ readers
+## Reporting guidelines help authors _and_ readers
 
 :::{.lead}
-Reporting guidelines make writing research easier, and transparent research leads to better patient outcomes.
-<!-- #ASK: It is not just about patient outcomes. Should we also mention more usable research results? -->
+Transparent research leads to better patient outcomes, and guidelines make writing research easier.
 :::
 
-::: {.grid}
+::: {.features}
 
-::: {.g-col-md-4 .g-col-12 .card}
-![](assets/images/bubblecons/bubblecons_files_folders_page-90-icon-line-colour.svg){.feature-icon}
-
+::: {.feature}
 ### Easier writing
-Using a template makes writing easier and quicker. 
+Giving the blank page a skeleton makes writing easier and quicker. 
 
 ::: {.learn-more}
 [Learn more »]()
 :::
 :::
 
-::: {.g-col-md-4 .g-col-12 .card}
-![](assets/images/bubblecons/bubblecons_files_folders_favourite-74-icon-line-colour.svg){.feature-icon}
-
+::: {.feature}
 ### Smoother publishing
 Many journals require completed reporting checklists at submission.
 
@@ -211,11 +144,8 @@ Many journals require completed reporting checklists at submission.
 :::
 :::
 
-::: {.g-col-md-4 .g-col-12 .card}
-![](assets/images/bubblecons/bubblecons_awards_3_awrad-6-icon-line-colour.svg){.feature-icon}
-
-### Maximum impact
-
+::: {.feature}
+### Maximal impact
 From nobel prizes to null results, articles have more impact when everyone can use them.
 
 ::: {.learn-more}
@@ -224,23 +154,6 @@ From nobel prizes to null results, articles have more impact when everyone can u
 :::
 
 ::: 
-
-:::{.quote .card}
-:::{.quote-text-normal}
-We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines.
-:::
-
-::: {.quote-who}
-<img src="assets/images/testimonial_2.webp">
-
-::: {.name}
-[Robin Lavery]{.text-small .bold}
-
-[Editor, International Journal of World Medicine]{.text-small}
-:::
-:::
-:::
-<!-- quote -->
 <!--/features -->
 
 :::
@@ -267,13 +180,19 @@ We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-
 
 ::: {.g-col-md-4 .g-col-12}
 
-![](assets/EQUATOR-first-international-working-meeting-Oxford-May-2006)
-<!-- Replace with something modern that will make people think EQUATOR is current-->
+![](https://via.placeholder.com/200)
+
 :::
 
 :::
 <!-- /grid -->
 
+:::{.quote .lead}
+"We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines."
+
+[Robin Lavery - Editor, International Journal of World Medicine]{.attribution .small}
+:::
+<!-- /quote -->
 :::
 :::
 
@@ -283,7 +202,7 @@ We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-
 
 ### Ready to use a reporting guideline?
 
-[Search guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
+[Search for guidance](){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
 
 :::
 :::

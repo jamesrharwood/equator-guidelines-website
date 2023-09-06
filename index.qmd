@@ -3,29 +3,57 @@ pagetitle: "EQUATOR Guidelines"
 page-layout: custom
 section-divs: false
 toc: false
-css: "css/index.css"
-editor: source
+css:
+  - "css/index.css"
+  - "css/index3.css"
+  - "css/index4.css"
 description: | 
   Reporting guidelines: writing research, made simple.
 ---
 
 ::: {.quarto-title-block}
-::: {.quarto-title-banner .hero-banner}
+::: {.quarto-title-banner-normal-margin}
 ::: {.content-block}
 
 ::: {.hero-title-block}
-# Writing research, made simple
+::: {.grid}
+::: {.g-col-lg-7 .g-col-md-6 .g-col-12 .hero-content-left}
+# Want help writing up research?
 
-## Write confidently using guidelines created by the research community
+#### Reporting guidelines help you describe research quickly, confidently, and completely.
 
 <!-- #ASK: Pastel comments ended up with: Write complete articles with confidence using reporting guidelines created by the research community. I don't love this. Articles is repeated unecessarily. Don't love word complete. Why would ever write half an article? -->
 
 ::: {.hero-buttons}
-[Search guidelines](){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
+[Search guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
+[What are reporting guidelines?](#sec-what-are-rgs){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"}
 ::: 
+<!-- hero-buttons -->
+:::
+<!-- /g-col -->
 
+::: {.g-col-lg-5 .g-col-md-6 .g-col-12}
+::: {.hero-image-side} 
+![](assets/images/documents2.png)
+:::
+<!-- hero-image -->
+:::
+<!-- g-col -->
+:::
+<!-- grid -->
 :::
 <!-- / hero-title-block -->
+:::
+:::
+:::
+
+::: {.radial-background .hero-banner .table-block}
+<img src="assets/images/radial1.svg" class="radial1 img-fluid">
+<img src="assets/images/radial2.svg" class="radial2 img-fluid">
+
+::: {.content-block}
+
+::: {.card}
 
 ### Frequently accessed reporting guidelines
 
@@ -61,33 +89,42 @@ description: |
 |Economic Evaluations                                                   |[CHEERS](guidelines/cheers)                                                             |
 +-----------------------------------------------------------------------+----------------------------------------------------------------------------------------+
 
-[Browse reporting guidelines by speciality](https://www.equator-network.org/library/browse-reporting-guidelines-by-specialty/)
-
-
-:::{.quote .lead}
-"Reporting guidelines make writing so much easier and help me develop as a researcher. I use one for every article I write!"
-
-[Alex Hamley, Edinburgh University]{.attribution .small}
+[Search all 500+ reporting guidelines](.){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"} 
 :::
+<!-- card -->
 
+::: {.logos}
+
+[Endorsed by leading publishers including:]{.small}
+
+![](assets/logos/nature.png)
+![](assets/logos/wiley.png)
+![](assets/logos/elsevier.png)
+![](assets/logos/bmj.png)
+![](assets/logos/bmc.svg)
 ::: 
-::: 
+<!--/content-block-->
 :::
-<!--/title-block-->
+<!-- content block -->
+:::
+<!-- alt background -->
 
-::: {.content-block}
+::: {.content-block .center}
 
-## Recommendations to help describe your work clearly
+## Recommendations to help describe your work clearly{#sec-what-are-rgs}
 
 :::{.lead}
-Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone.
+Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines are community-created recommendations for describing research so that _everyone_ can understand, repeat, apply, and synthesise your work.
+<!-- Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone. They can be used throughout your research journey: -->
 ::: 
-<!--end lead-->
+<!--end lead--> 
 ::: {.features}
 
 ::: {.feature}
+![](assets/images/bubblecons/bubblecons_work_from_home_workspace-40-icon-line-colour.svg){.feature-icon}
+
 ### Writing manuscripts
-Write quickly, confidently, and avoid the blank page by using a template.
+Write quickly and confidently by using a template.
 
 ::: {.learn-more}
 [Learn more »]()
@@ -95,17 +132,21 @@ Write quickly, confidently, and avoid the blank page by using a template.
 :::
 
 ::: {.feature}
+![](assets/images/bubblecons/bubblecons_notes_clip-task-2-icon-line-colour.svg){.feature-icon}
+
 ### Checking manuscripts
-Double-check your writing and demonstrate to journals that your work is described thoroughly.
+Use a checklist to check and demonstrate that your work is described thoroughly.
 
-::: {.learn-more}
+::: {.learn-more} 
 [Learn more »]()
 :::
 :::
 
 ::: {.feature}
+![](assets/images/bubblecons/bubblecons_notes_pencil-24-icon-line-colour.svg){.feature-icon}
+
 ### Planning research
-Considering what you'll need to write can help you plan a study. But reporting guidelines won't make decisions for you!
+Considering what you'll need to write can help you plan a study. But reporting guidelines won't make design decisions for you!
 <!--#ASK seems strange to include this when I've just said they dont tell you what to do!-->
 
 ::: {.learn-more}
@@ -113,33 +154,55 @@ Considering what you'll need to write can help you plan a study. But reporting g
 :::
 :::
 
+:::{.quote .card}
+::: {.quote-text-normal}
+Reporting guidelines make writing so much easier and help me develop as a researcher. I use one for every article I write!
+:::
+::: {.quote-who}
+<img src="assets/images/testimonial-1.webp">
+
+::: {.name} 
+[Alex Hamley]{.text-small .bold} 
+
+[Edinburgh University]{.attribution-organisation .text-small .text-muted} 
+:::
+:::
+::: 
+<!-- /quote -->
 
 :::
 :::
 <!--/content-block-->
 
-::: {.alt-background}
-::: {.content-block}
+::: {.radial-background}
+<img src="assets/images/radial1.svg" class="radial1">
+<img src="assets/images/radial2.svg" class="radial2"> 
 
-## Reporting guidelines help authors _and_ readers
+::: {.content-block .center}
+
+## Helping authors _and_ readers
 
 :::{.lead}
-Guidelines make writing research easier, and transparent research leads to better patient outcomes. 
+Reporting guidelines make writing research easier, and transparent research leads to better patient outcomes.
 <!-- #ASK: It is not just about patient outcomes. Should we also mention more usable research results? -->
 :::
 
 ::: {.grid}
 
-::: {.g-col-md-8 .g-col-12}
+::: {.g-col-md-4 .g-col-12 .card}
+![](assets/images/bubblecons/bubblecons_files_folders_page-90-icon-line-colour.svg){.feature-icon}
+
 ### Easier writing
-Giving the blank page a skeleton makes writing easier and quicker. 
+Using a template makes writing easier and quicker. 
 
 ::: {.learn-more}
 [Learn more »]()
 :::
 :::
 
-::: {.g-col-md-8 .g-col-12}
+::: {.g-col-md-4 .g-col-12 .card}
+![](assets/images/bubblecons/bubblecons_files_folders_favourite-74-icon-line-colour.svg){.feature-icon}
+
 ### Smoother publishing
 Many journals require completed reporting checklists at submission.
 
@@ -148,9 +211,12 @@ Many journals require completed reporting checklists at submission.
 :::
 :::
 
-::: {.g-col-md-8 .g-col-12}
+::: {.g-col-md-4 .g-col-12 .card}
+![](assets/images/bubblecons/bubblecons_awards_3_awrad-6-icon-line-colour.svg){.feature-icon}
+
 ### Maximum impact
-From nobel prizes to null results, articles have more impact when everyone can use them.
+
+From Nobel prizes to null results, articles have more impact when everyone can use them.
 
 ::: {.learn-more}
 [Learn more »]()
@@ -158,13 +224,25 @@ From nobel prizes to null results, articles have more impact when everyone can u
 :::
 
 ::: 
-<!--/features -->
-:::{.quote .lead}
-"We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines."
 
-[Robin Lavery - Editor, International Journal of World Medicine]{.attribution .small}
+:::{.quote .card}
+:::{.quote-text-normal}
+We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines.
 :::
-<!-- /quote -->
+
+::: {.quote-who}
+<img src="assets/images/testimonial_2.webp">
+
+::: {.name}
+[Robin Lavery]{.text-small .bold}
+
+[Editor, International Journal of World Medicine]{.text-small}
+:::
+:::
+:::
+<!-- quote -->
+<!--/features -->
+
 :::
 <!-- /content-block -->
 :::
@@ -205,7 +283,7 @@ We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-
 
 ### Ready to use a reporting guideline?
 
-[Search for guidelines](){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button" .search-shortcut}
+[Search guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
 
 :::
 :::
