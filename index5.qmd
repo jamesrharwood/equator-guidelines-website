@@ -7,125 +7,53 @@ css:
   - "css/index.css"
   - "css/index3.css"
   - "css/index4.css"
-  - "css/index5.css"
 description: | 
   Reporting guidelines: writing research, made simple.
-include-after-body:
-  - scripts/typewriter.html
-include-before-body: 
-  - scripts/jquery.html
 ---
 
-::: {.quarto-title-block .radial-background}
-<img src="assets/images/radial1.svg" class="radial1">
-<img src="assets/images/radial2.svg" class="radial2"> 
-
+::: {.quarto-title-block}
 ::: {.quarto-title-banner-normal-margin}
-
 ::: {.content-block}
 
 ::: {.hero-title-block}
-::: {.grid .no-gutters}
-::: {.g-col-lg-2 .g-col-md-2 .d-none .d-md-block .hero-content-left}
-[<img src="assets/images/ArticlesImage.png" class="img-fluid">]{.hero-img-wrapper}
-:::
-<!-- image col -->
-
-::: {.g-col-lg-6 .g-col-md-7 .g-col-12 .hero-content-center}
-
-::: {.hero-content-box .card .invisible-on-mobile}
+::: {.grid}
+::: {.g-col-lg-7 .g-col-md-6 .g-col-12 .hero-content-left}
 # Want help writing up research?
 
-Your research will be read by [researchers]{id=typewriter-words .emphasise}. 
+#### Reporting guidelines help you describe research quickly, confidently, and completely.
 
-Write [quickly and confidently]{.emphasise} using reporting guidelines: community-created recommendations that ensure [everyone]{.emphasise} can understand and use your work. 
+<!-- #ASK: Pastel comments ended up with: Write complete articles with confidence using reporting guidelines created by the research community. I don't love this. Articles is repeated unecessarily. Don't love word complete. Why would ever write half an article? -->
 
 ::: {.hero-buttons}
-[Search reporting guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
+[Search guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
 [What are reporting guidelines?](#sec-what-are-rgs){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"}
 ::: 
-
-<!-- hero buttons -->
-
+<!-- hero-buttons -->
 :::
-<!-- hero-content-box-->
+<!-- /g-col -->
 
+::: {.g-col-lg-5 .g-col-md-6 .g-col-12}
+::: {.hero-image-side} 
+![](assets/images/documents2.png)
 :::
-<!-- hero-content-left -->
-
-
-::: {.g-col-lg-4 .g-col-md-3 .g-col-12 .hero-content-right}
-### About EQUATOR
-
-We are the leading global academic network dedicated to improving research reporting quality.
-
-Learn more about 
-
-* [who we are](#about-equator) 
-* [what we do]()
-
-<!-- and how we support 
-
-* [authors]()
-* [publishers]()
-* [guideline developers]() -->
-
-::: {.logos}
-<!-- ![](assets/equator_logo.png) -->
-![](assets/logos/oxford.svg){.logo-bigger}
-<!-- ![](assets/logos/paris.jpeg)
-![](assets/logos/ottawa.png){.logo-bigger}
-![](assets/logos/bond.svg)
-![](assets/logos/hongkongbaptistuniversity.svg){.logo-bigger} -->
-::: 
-
+<!-- hero-image -->
 :::
-<!-- content-right -->
-
+<!-- g-col -->
 :::
 <!-- grid -->
-
 :::
 <!-- / hero-title-block -->
-
 :::
-<!-- .content-block -->
-
 :::
-<!-- .quarto-title-banner-normal-margin -->
-
 :::
-<!-- quarto-title-block -->
 
-::: {.publisher-logos}
+::: {.radial-background .hero-banner .table-block}
+<img src="assets/images/radial1.svg" class="radial1 img-fluid">
+<img src="assets/images/radial2.svg" class="radial2 img-fluid">
 
 ::: {.content-block}
 
-::: {.logos}
-
-[Endorsed by leading publishers including]{.small}
-
-![](assets/logos/nature.png)
-![](assets/logos/wiley.png)
-![](assets/logos/elsevier.png)
-![](assets/logos/bmj.png){.logo-smaller}
-![](assets/logos/bmc.svg)
-
-::: 
-<!--/logos-->
-
-:::
-<!-- content-block -->
-
-::: 
-<!-- publisher-logos -->
-
-
-::: {.gradient-background-1 .hero-banner .table-block}
-
-::: {.content-block}
-
-::: {.card .invisible-on-mobile}
+::: {.card}
 
 ### Frequently accessed reporting guidelines
 
@@ -165,8 +93,17 @@ Learn more about
 :::
 <!-- card -->
 
+::: {.logos}
 
+[Endorsed by leading publishers including:]{.small}
 
+![](assets/logos/nature.png)
+![](assets/logos/wiley.png)
+![](assets/logos/elsevier.png)
+![](assets/logos/bmj.png)
+![](assets/logos/bmc.svg)
+::: 
+<!--/content-block-->
 :::
 <!-- content block -->
 :::
@@ -174,11 +111,10 @@ Learn more about
 
 ::: {.content-block .center}
 
-## Recommendations to help write up research clearly{#sec-what-are-rgs}
+## Recommendations to help describe your work clearly{#sec-what-are-rgs}
 
 :::{.lead}
-Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines are community-created recommendations for describing what you did and what you found so that _everyone_ can understand, repeat, apply, and synthesise your work. Reporting guidelines make writing up research easier, and transparent research leads to better patient outcomes.
-
+Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines are community-created recommendations for describing research so that _everyone_ can understand, repeat, apply, and synthesise your work.
 <!-- Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone. They can be used throughout your research journey: -->
 ::: 
 <!--end lead--> 
@@ -188,7 +124,7 @@ Your research will be used by people from different disciplines and backgrounds 
 ![](assets/images/bubblecons/bubblecons_work_from_home_workspace-40-icon-line-colour.svg){.feature-icon}
 
 ### Writing manuscripts
-Write confidently using a reporting template to quickly turn a blank page into a thorough and impactful manuscript. 
+Write quickly and confidently by using a template.
 
 ::: {.learn-more}
 [Learn more »]()
@@ -199,8 +135,7 @@ Write confidently using a reporting template to quickly turn a blank page into a
 ![](assets/images/bubblecons/bubblecons_notes_clip-task-2-icon-line-colour.svg){.feature-icon}
 
 ### Checking manuscripts
-Use a reporting checklist to ensure you have included everything. Many journals require completed checklists at submission.
-
+Use a checklist to check and demonstrate that your work is described thoroughly.
 
 ::: {.learn-more} 
 [Learn more »]()
@@ -210,14 +145,30 @@ Use a reporting checklist to ensure you have included everything. Many journals 
 ::: {.feature}
 ![](assets/images/bubblecons/bubblecons_notes_pencil-24-icon-line-colour.svg){.feature-icon}
 
-### Writing applications
-Reporting guidelines can help you write funding applications, ethics applications, and protocols, but they won't make design decisions for you!
+### Planning research
+Considering what you'll need to write can help you plan a study. But reporting guidelines won't make design decisions for you!
 <!--#ASK seems strange to include this when I've just said they dont tell you what to do!-->
 
 ::: {.learn-more}
 [Learn more »]()
 :::
 :::
+
+:::{.quote .card}
+::: {.quote-text-normal}
+Reporting guidelines make writing so much easier and help me develop as a researcher. I use one for every article I write!
+:::
+::: {.quote-who}
+<img src="assets/images/testimonial-1.webp">
+
+::: {.name} 
+[Alex Hamley]{.text-small .bold} 
+
+[Edinburgh University]{.attribution-organisation .text-small .text-muted} 
+:::
+:::
+::: 
+<!-- /quote -->
 
 :::
 :::
@@ -229,31 +180,20 @@ Reporting guidelines can help you write funding applications, ethics application
 
 ::: {.content-block .center}
 
-## Learn how and why people use reporting guidelines
+## Helping authors _and_ readers
 
 :::{.lead}
-People around the world use reporting guidelines in many ways and for many reasons.
+Reporting guidelines make writing research easier, and transparent research leads to better patient outcomes.
+<!-- #ASK: It is not just about patient outcomes. Should we also mention more usable research results? -->
 :::
 
 ::: {.grid}
 
 ::: {.g-col-md-4 .g-col-12 .card}
-![](assets/images/supervision.webp){.feature-photo}
+![](assets/images/bubblecons/bubblecons_files_folders_page-90-icon-line-colour.svg){.feature-icon}
 
-### Researchers
-
-Sally is an experienced academic with hundreds of publications. James is a PhD student. Both use reporting guidelines to write, learn, and teach. 
-
-::: {.learn-more}
-[Learn more »]()
-:::
-:::
-
-::: {.g-col-md-4 .g-col-12 .card}
-![](assets/images/editors.jpg){.feature-photo}
-
-### Editors
-Read why editors from leading medical journals ask authors to use reporting guidelines and how they check adherence.
+### Easier writing
+Using a template makes writing easier and quicker. 
 
 ::: {.learn-more}
 [Learn more »]()
@@ -261,11 +201,22 @@ Read why editors from leading medical journals ask authors to use reporting guid
 :::
 
 ::: {.g-col-md-4 .g-col-12 .card}
-![](assets/images/reviewer.jpeg){.feature-photo}
+![](assets/images/bubblecons/bubblecons_files_folders_favourite-74-icon-line-colour.svg){.feature-icon}
 
-### Reviewers
+### Smoother publishing
+Many journals require completed reporting checklists at submission.
 
-Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesising evidence for policy recommendations.
+::: {.learn-more}
+[Learn more »]()
+:::
+:::
+
+::: {.g-col-md-4 .g-col-12 .card}
+![](assets/images/bubblecons/bubblecons_awards_3_awrad-6-icon-line-colour.svg){.feature-icon}
+
+### Maximum impact
+
+From Nobel prizes to null results, articles have more impact when everyone can use them.
 
 ::: {.learn-more}
 [Learn more »]()
@@ -273,6 +224,23 @@ Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesi
 :::
 
 ::: 
+
+:::{.quote .card}
+:::{.quote-text-normal}
+We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines.
+:::
+
+::: {.quote-who}
+<img src="assets/images/testimonial_2.webp">
+
+::: {.name}
+[Robin Lavery]{.text-small .bold}
+
+[Editor, International Journal of World Medicine]{.text-small}
+:::
+:::
+:::
+<!-- quote -->
 <!--/features -->
 
 :::
@@ -280,7 +248,7 @@ Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesi
 :::
 <!-- /alt-background -->
 
-::: {.about-equator id=about-equator}
+::: {.about-equator}
 ::: {.content-block}
 
 ## The EQUATOR Network
@@ -295,7 +263,6 @@ Our mission is to improve the reliability and value of published health research
 We advance the work done by individual guideline development groups. We maintain a database of reporting guidelines, run [training courses](https://www.equator-network.org/category/events/upcoming-events/) on how to write research articles, have resources for [publishers](https://www.equator-network.org/toolkits/using-guidelines-in-journals/), [peer reviewers](https://www.equator-network.org/toolkits/peer-reviewing-research/), and reporting guideline [developers](https://www.equator-network.org/toolkits/developing-a-reporting-guideline/).  
 
 We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-centre/) (our head office), [Canada](https://www.equator-network.org/about-us/canadian-equator-centre/), [Australia](https://www.equator-network.org/about-us/australasian-equator-centre/), [France](https://www.equator-network.org/about-us/french-equator-centre/), and [China](http://www.equator-chinese.org/pages/en/index/index.html). 
-
 :::
 
 ::: {.g-col-md-4 .g-col-12}
@@ -304,19 +271,8 @@ We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-
 <!-- Replace with something modern that will make people think EQUATOR is current-->
 :::
 
-<!--/logos-->
-
 :::
 <!-- /grid -->
-
-::: {.logos}
-
-![](assets/logos/oxford.svg)
-![](assets/logos/paris.jpeg)
-![](assets/logos/ottawa.png){.logo-bigger}
-![](assets/logos/bond.svg)
-![](assets/logos/hongkongbaptistuniversity.svg){.logo-bigger}
-::: 
 
 :::
 :::
@@ -327,7 +283,7 @@ We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-
 
 ### Ready to use a reporting guideline?
 
-[Search reporting guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
+[Search guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
 
 :::
 :::
