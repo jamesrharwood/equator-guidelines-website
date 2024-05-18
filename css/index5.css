@@ -1,0 +1,142 @@
+@import "./index3.css";
+
+small, .small {
+    font-size: 0.8rem;
+}
+.about-equator .logos {
+    text-align: left;
+}
+
+.logos img {
+    max-width: 6rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+.hero-content-box {
+    /* background-color: var(--greenvvl); */
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.hero-content-right h2{
+    font-size: 50px;
+}
+
+.hero-content-right .logos p {
+    padding-bottom: 1.75rem;
+}
+
+img.logo-bigger {
+    max-width: 10rem;
+}
+
+img.logo-smaller {
+    max-width: 3rem;
+}
+
+.quarto-title-block p, li{
+    font-size: 1.25rem;
+}
+
+.hero-title-block {
+    min-height: 65vh;
+}
+
+.logos img+img {
+    margin-left: 0rem;
+}
+
+.logos img {
+    margin-right: 1rem;
+}
+
+.radial-background {
+    background-color: var(--greenvvl)
+}
+
+#typewriter-wrapper {
+    min-width: 4rem;
+    display: inline-block;
+}
+
+.emphasise {
+    font-weight: 800;
+    color: var(--green-primary);
+}
+
+.hero-content-left {
+    margin-right: 0rem;
+}
+
+.hero-content-left > p {
+    margin: 0px;
+}
+
+.hero-content-center {
+    padding-right: 0rem;
+}
+
+.hero-content-left img {
+    position: absolute;
+    max-height:80%;
+}
+
+.hero-img-wrapper p {
+    margin: 0px;
+}
+
+.hero-content-right .logos {
+    text-align: left;
+}
+
+.feature-photo {
+    border-radius: 0.75rem;
+}
+
+h2 {
+    padding-bottom: 2rem;
+}
+
+.lead {
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+}
+
+.btn-action-primary {
+    border-style: solid;
+    border-color: var(--green-primary);
+}
+
+.quarto-title-block > p {
+    margin-bottom: 0;
+}
+
+.gradient-background-1 {
+    /*
+    * Created with https://www.css-gradient.com
+    * Gradient link: https://www.css-gradient.com/?c1=0ba758&c2=e8f7ef80&gt=r&gd=dtl
+    */
+    background: var(--greenvvl);
+    background: radial-gradient(at right top, rgb(234, 238, 255), var(--greenvvl));
+}
+
+.no-gutters {
+    grid-gutter-width: 0rem;
+}
+
+@media all and (max-width: 1024px) {
+    .card.invisible-on-mobile {
+        background-color: transparent;
+        box-shadow: none;
+        border-style: none;
+        margin-left: none;
+        padding-right: 0rem;
+        padding-left: 0rem;
+
+    }
+    /* put your css styles in here */
+  }
