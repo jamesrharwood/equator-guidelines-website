@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.557">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -22,7 +22,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -33,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -80,7 +80,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -89,6 +95,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -128,13 +135,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="citation_journal_title" content="The EQUATOR Network guideline dissemination platform">
 </head>
 
-<body class="floating nav-fixed slimcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../assets/equator_logo.png" alt="" class="navbar-logo">
     </a>
@@ -146,75 +153,76 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Reporting Guidelines</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Reporting Guidelines</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/" rel="" target="">
- <span class="menu-text">Training</span></a>
+    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/"> 
+<span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Other Resources</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Toolkits</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Library</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Resources for Publishers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Resources for Guideline Developers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Resources for Librarians</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About EQUATOR</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">The EQUATOR Network</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Blog</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -240,10 +248,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   </ul>
 </nav>
-</nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
@@ -263,9 +267,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
   
 
+
 </header>
 
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“At our journal, we ensure all authors follow reporting guidelines as this makes articles easier for readers to understand and faster to publish.” <span class="attribution">Fiona Ludlow - Editor in Chief</span></span></div></div>
+
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">“At our journal, we ensure all authors follow reporting guidelines as this makes articles easier for readers to understand and faster to publish.” <span class="attribution">Fiona Ludlow - Editor in Chief</span></span></div></div>
 <div class="hero-banner">
 <div class="content-block">
 <section>
@@ -343,7 +349,7 @@ What are reporting guidelines and why should you use them?
 <li>Cite this guideline in your manuscript.</li>
 <li>Complete a checklist and include it with your journal submission.</li>
 </ol>
-<div class="no-row-height column-margin column-container"><span class="">“Reporting guidelines help me draft manuscripts and develop as a researcher. I use them when teaching and hope that my students continue to use them.” <span class="attribution">Manuel Silva - Researcher</span></span></div><p>Reporting guidelines do not prescribe order nor structure. You should include items in the article body whenever possible but some items can be reported in tables, figures, or supplementary materials if necessary (see <a href="#does-srqr-prescribe-structure">FAQs</a>).</p>
+<div class="no-row-height column-margin column-container"><span class="margin-aside">“Reporting guidelines help me draft manuscripts and develop as a researcher. I use them when teaching and hope that my students continue to use them.” <span class="attribution">Manuel Silva - Researcher</span></span></div><p>Reporting guidelines do not prescribe order nor structure. You should include items in the article body whenever possible but some items can be reported in tables, figures, or supplementary materials if necessary (see <a href="#does-srqr-prescribe-structure">FAQs</a>).</p>
 <section id="additional-resources" class="level4">
 <h4 class="anchored" data-anchor-id="additional-resources">Additional resources:</h4>
 <div id="downloads" class="grid">
@@ -497,7 +503,7 @@ Justification, Examples, and Resources
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“Informative key words in the title and abstract make manuscripts easier to find.”<span class="attribution">Lorna Ellis - Evidence Synthesiser</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">“Informative key words in the title and abstract make manuscripts easier to find.”<span class="attribution">Lorna Ellis - Evidence Synthesiser</span></span></div></div>
 <p>Summarise key elements of the study including:</p>
 <ul>
 <li><p>background about the problem or phenomenon of interest</p></li>
@@ -573,7 +579,7 @@ Justification, Example, Notes, and Resources
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“When the problem is described clearly I find it much easier to understand why a study was done, even if its from a different subject area, country, or decade.”<span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">“When the problem is described clearly I find it much easier to understand why a study was done, even if its from a different subject area, country, or decade.”<span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
 <p>Describe the theoretical and/or practical issues or concerns that make the study necessary, including:</p>
 <ul>
 <li><p>an overview of what is known about the problem</p></li>
@@ -625,7 +631,7 @@ Justification and Examples
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“A clear purpose frames the article.” <span class="attribution">Rahilah Zayn - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">“A clear purpose frames the article.” <span class="attribution">Rahilah Zayn - Researcher</span></span></div></div>
 <p>Include a statement of study intent. This can be framed as one or more research questions, purposes, goals, or objectives.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
 <div id="purpose-collapsible" class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
@@ -676,10 +682,10 @@ Justification, Example, and Resources
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p>Describe your qualitative <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>, your guiding theory (if appropriate), and identify the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem0" aria-controls="offcanvasExample" role="button">research paradigm</span>.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> </p><div class="no-row-height column-margin column-container"><span class="">“I like it when authors describe terms in their own words as well as using the proper terms.”<span class="attribution">Rahilah Zayn - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p>Describe your qualitative <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>, your guiding theory (if appropriate), and identify the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem0" aria-controls="offcanvasExample" role="button">research paradigm</span>.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> </p><div class="no-row-height column-margin column-container"><span class="margin-aside">“I like it when authors describe terms in their own words as well as using the proper terms.”<span class="attribution">Rahilah Zayn - Researcher</span></span></div></div>
 <p>Explain why the selected approach is appropriate for the research question.</p>
 <p>Provide references to theories or traditions that guide the use of the approach as needed.</p>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“I hadn’t heard the term ‘approach’ before writing-up my study. I realise now that I did have an approach and that it might be different to other researcher’s approaches, so I need to describe things that I felt were obvious.”<span class="attribution">Tim Westland - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">“I hadn’t heard the term ‘approach’ before writing-up my study. I realise now that I did have an approach and that it might be different to other researcher’s approaches, so I need to describe things that I felt were obvious.”<span class="attribution">Tim Westland - Researcher</span></span></div></div>
 <!-- #ASK Charlotte null case, resources -->
 <p>If you don’t know what your approach or paradigm was, or you don’t think you had one, it’s OK to reflect on this <em>after</em> collecting data and you should still report it. Read <a href=".">this list</a> to see what best describes your work.</p>
 <div id="qualitative-approach-collapsible" class="callout callout-style-simple callout-tip no-icon callout-titled">
@@ -728,7 +734,7 @@ Justification and Examples
 </div>
 </div>
 <p>Describe how roles and identities of research team members influence choice of research <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem4" aria-controls="offcanvasExample" role="button">approach</span>, data collection, and data analysis.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“Coming from quantitative research it felt strange to include such personal descriptions of the team. But I came to realise why it was useful to others, and that peer reviewers would expect it.” <span class="attribution">Tim Westland - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">“Coming from quantitative research it felt strange to include such personal descriptions of the team. But I came to realise why it was useful to others, and that peer reviewers would expect it.” <span class="attribution">Tim Westland - Researcher</span></span></div></div>
 <p>Describe the perspectives, assumptions, prior knowledge, preliminary hypotheses, and/or motives (the “stance”) of the members of the research team.</p>
 <p>Describe the researchers’ relationships to participants in the study and what decisions were made in light of these relationships.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
 <p>If your research was observational (e.g., ethnography), describe the role of the researcher along a spectrum from passive observer (no involvement in the activity studied) to participant-observer (ranging from some limited involvement in the activity to full involvement).</p>
@@ -778,7 +784,7 @@ Justification and Examples
 </div>
 </div>
 <p>Describe the setting/site(s) in which the study was conducted, the reason(s) why the setting/site(s) was selected, and the salient cultural, political, historical, economic and/or other external factors that influence the study.</p>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“When synthesising evidence, context helps me work out how and why different studies and findings fit together (or don’t)”<span class="attribution">Lorna Ellis - Evidence Synthesiser</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">“When synthesising evidence, context helps me work out how and why different studies and findings fit together (or don’t)”<span class="attribution">Lorna Ellis - Evidence Synthesiser</span></span></div></div>
 <p>Additional context may be reported with findings (i.e., the Results section) to add evidence for interpretations and to enhance discussion of transferability.</p>
 <div id="context-collapsible" class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
@@ -997,7 +1003,7 @@ Justification and Examples
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p>Describe all data collection <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem1" aria-controls="offcanvasExample" role="button">instruments</span>, including their development, and <span class="added">if/how they changed over the course of the study</span>. Cite relevant literatures, theories or conceptual frameworks as appropriate. Consider sharing the data collection instrument(s) or a detailed description of them <span class="added">in the article body, supplementary material, or published elsewhere</span>. </p><div class="no-row-height column-margin column-container"><span class="">“I publish my materials on the <a href="www.osf.io">OSF</a> and then describe and cite them in my articles.”<span class="attribution">Tim Westland - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p>Describe all data collection <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem1" aria-controls="offcanvasExample" role="button">instruments</span>, including their development, and <span class="added">if/how they changed over the course of the study</span>. Cite relevant literatures, theories or conceptual frameworks as appropriate. Consider sharing the data collection instrument(s) or a detailed description of them <span class="added">in the article body, supplementary material, or published elsewhere</span>. </p><div class="no-row-height column-margin column-container"><span class="margin-aside">“I publish my materials on the <a href="www.osf.io">OSF</a> and then describe and cite them in my articles.”<span class="attribution">Tim Westland - Researcher</span></span></div></div>
 <p>Describe the use of equipment for audio or video recording, reproduction of paper documents or computer files, or other processes in data collection.</p>
 <div id="data-collection-instruments-collapsible" class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
@@ -1300,7 +1306,7 @@ Justification, Examples, and Resources
 <p>Describe the main <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem15" aria-controls="offcanvasExample" role="button">analytic findings</span>.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></p>
 <p>In most cases, report a synthesis of the data along with specific quotes, examples, or illustrations derived from the data.</p>
 <!-- #ASK: is this same as links to empirical data? -->
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“I like when authors use words like ‘many’, ‘few’, or ‘all’ to describe frequency.”<span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">“I like when authors use words like ‘many’, ‘few’, or ‘all’ to describe frequency.”<span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
 <p>Consider describing frequency, variety, representativeness, counter-examples, concrete details, contextualization, conditions, and qualifications related to the findings.</p>
 <p>Frequency counts play a limited role in qualitative research, and need not be reported unless they play a meaningful role in interpretation of the data.</p>
 <p>If your findings include integration with prior literature or theory and/or the development of a theory, model or meta-narrative, consider using tables and figures to communicate these findings.</p>
@@ -1353,7 +1359,7 @@ Justification and Examples
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p>Provide evidence (e.g., quotes, field notes, text excerpts, photographs) to substantiate the more general and abstract concepts or inferences they present as findings.<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> </p><div class="no-row-height column-margin column-container"><span class="">“I love seeing evidence like this because it really brings results to life.” <span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
+<div class="page-columns page-full"><p>Provide evidence (e.g., quotes, field notes, text excerpts, photographs) to substantiate the more general and abstract concepts or inferences they present as findings.<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> </p><div class="no-row-height column-margin column-container"><span class="margin-aside">“I love seeing evidence like this because it really brings results to life.” <span class="attribution">Nkinda Akaro - Researcher</span></span></div></div>
 <p>You could report this evidence in a table or figure, incorporated into a narrative description of findings, as a stand-alone narrative, or in text blocks embedded in the manuscript text. If you are constrained by word limits or media limitations (e.g.. video), consider sharing data via an appendix, supplemental material, or web-based repository.</p>
 <div id="links-to-empirical-data-collapsible" class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
@@ -1451,7 +1457,7 @@ Justification and Examples
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p>Describe problems or gaps in their efforts to ensure trustworthiness and the potential implications.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a> </p><div class="no-row-height column-margin column-container"><span class="">“Authors should never feel nervous to report limitations. In fact, thoughtful discussion of limitations is a hallmark of good research!”<span class="attribution">Charles Ruggle - Editor</span></span></div></div>
+<div class="page-columns page-full"><p>Describe problems or gaps in their efforts to ensure trustworthiness and the potential implications.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a> </p><div class="no-row-height column-margin column-container"><span class="margin-aside">“Authors should never feel nervous to report limitations. In fact, thoughtful discussion of limitations is a hallmark of good research!”<span class="attribution">Charles Ruggle - Editor</span></span></div></div>
 <p>Describe how the chosen paradigm, approach, and methods will influence the situations to which the findings may reasonably apply.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a> (See also <a href="./#integration-with-prior-work-implications-transferability-and-contributions-to-the-field">Item 18</a>.)</p>
 <p>Describe how specific decisions or events in the conduct of the study strengthen or weaken the rigor of the findings.</p>
 <div id="limitations-collapsible" class="callout callout-style-simple callout-tip no-icon callout-titled">
@@ -1498,7 +1504,7 @@ Justification and Example
 </section>
 </div>
 </div>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">“Authors shouldn’t feel nervous reporting conflicts of interest. They are very common and rarely influence our decision to publish.”<span class="attribution">Charles Ruggle - Editor</span></span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">“Authors shouldn’t feel nervous reporting conflicts of interest. They are very common and rarely influence our decision to publish.”<span class="attribution">Charles Ruggle - Editor</span></span></div></div>
 <p>Describe any real or potential conflicts of interest that might have influenced or could appear to have influenced the research.</p>
 <p>Describe:</p>
 <ul>
@@ -1848,7 +1854,7 @@ Frequency counts
 <li id="fn19"><p>Whereas you should describe techniques used to ensure trustworthiness in the Methods section of the manuscript, this section is about the gaps that you didn’t or couldn’t cover. For example, if you intended to interview individuals with certain characteristics, or who might offer different perspectives, but were unsuccessful in recruiting any willing participants, explain this issue and describe possible consequences for transferability. (See also Item 18.)<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn20"><p>All research paradigms and approaches have strengths and weaknesses.<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{o'brien2023,
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{o'brien2023,
   author = {O’Brien, Bridget and Harris, Ilene and Beckman, Thomas and
     Reed, Darcy and Cook, David},
   title = {The {SRQR} Guidelines for Writing Qualitative Research
@@ -1958,10 +1964,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1971,8 +1994,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1984,7 +2016,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -2028,6 +2183,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -2053,6 +2209,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -2115,17 +2297,25 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></div>   
+    <div class="nav-footer-left">
+<p>Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></p>
+</div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../about">About</a>
+    <a class="nav-link" href="../../about">
+<p>About</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../license">License</a>
+    <a class="nav-link" href="../../license">
+<p>License</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../privacy">Privacy Policy</a>
+    <a class="nav-link" href="../../privacy">
+<p>Privacy Policy</p>
+</a>
   </li>  
 </ul>
     </div>
@@ -2147,6 +2337,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 
