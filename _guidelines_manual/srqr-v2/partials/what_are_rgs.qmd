@@ -1,0 +1,52 @@
+::: {.callout-tip appearance="minimal" collapse=true}
+
+## What are reporting guidelines and why should you use them?
+
+### Recommendations to help describe your work clearly
+
+Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines list the information you should describe so that _everyone_ can understand, replicate, and synthesise your work. 
+
+Reporting guidelines make writing research easier, and transparent research leads to better patient outcomes.
+<!-- #ASK: It is not just about patient outcomes. Should we also mention more usable research results? -->
+
+::: {.feature-callout}
+
+![](../../assets/images/bubblecons/bubblecons_files_folders_page-90-icon-line-colour.svg){.feature-icon} 
+
+**Easier writing**
+
+Following guidance makes writing easier and quicker. 
+
+::: {.learn-more}
+[Learn more »]()
+:::
+:::
+
+::: {.feature-callout}
+
+![](../../assets/images/bubblecons/bubblecons_files_folders_favourite-74-icon-line-colour.svg){.feature-icon}
+
+**Smoother publishing**
+
+Many journals require completed reporting checklists at submission. 
+
+::: {.learn-more}
+[Learn more »]()
+:::
+:::
+
+::: {.feature-callout}
+
+![](../../assets/images/bubblecons/bubblecons_awards_3_awrad-6-icon-line-colour.svg){.feature-icon}
+
+**Maximum impact**
+
+From nobel prizes to null results, articles have more impact when everyone can use them.
+
+::: {.learn-more}
+[Learn more »]()
+:::
+:::
+
+:::
+<!--- end callout -->

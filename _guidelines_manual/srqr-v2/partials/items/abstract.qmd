@@ -1,0 +1,88 @@
+---
+id: abstract 
+title: 2. Abstract
+bibliography: ../../references.bibtex
+csl: ../../../../vancouver.csl
+reference-location: margin
+---
+## What to write
+
+Summarise key elements of the study including:
+
+* background about the problem or phenomenon of interest
+* description of the study purpose or research question
+* methods, including the approach or perspective (e.g., general inductive, grounded theory), context (setting, time period), sample (number and key characteristics of participants, events, documents), data collection strategies (e g., observation, interview, focus group) and data analysis techniques
+* description of main findings (e.g., themes or inferences) related to the study purpose and/or research question
+* study implications
+
+<!-- #ASK
+What is the difference between approach and perspective?
+Is approach the same as qualitative approach?
+Are data collection strategies the same as data collection methods? -->
+
+Information presented in the abstract should be consistent with the information presented in the full text.
+
+Use the format of your intended journal ([see below](#journal-format)).
+
+## Why readers need this information
+
+["Informative key words in the title and abstract make manuscripts easier to find."[Lorna Ellis - Evidence Synthesiser]{.attribution}]{.aside}
+
+A reader should be able to read the abstract independent of the manuscript and get a sense of the background, purpose, methods, main results and implications that will be described in greater detail in the manuscript.
+
+[Your abstract will be indexed by search tools so descriptive words will make it easier for others to discover]{.added}.
+<!-- #TODO: abstracts are indexed by search tools -->
+
+## Use the format of your intended journal {#journal-format}
+
+Some journals require abstracts to have subheadings, others don't. In some cases the journal's structured abstract format aligns more with positivist paradigms and quantitative approaches than with qualitative traditions, so translation may be necessary. For example, what might be labelled "Findings" in many qualitative research traditions could be reported as "Results" in the abstract. Similarly, "Design" might be labelled as "Approach" or "Methodology" for a qualitative study.
+
+## Training and Resources
+
+The EQUATOR Network provides training for writing effective manuscript abstracts as part of their [publication school](https://www.equator-network.org/2023/01/24/uk-equator-centre-publication-school-april-2023/).
+
+See this article from the [London School of Economics](https://blogs.lse.ac.uk/impactofsocialsciences/2011/06/20/essential-guide-writing-good-abstracts/) for general abstract writing tips.
+
+## Discuss this item
+
+Visit the [discussion board](../../discussion/abstract.qmd){target="_blank"} to ask questions, get help, give feedback, and see what other researchers think about this item.
+
+
+## Examples
+
+Here is some text about why the example blow is good. Aute velit incididunt aute proident enim nisi aute veniam. Culpa anim et anim nostrud dolor ipsum minim fugiat nostrud qui ut eiusmod et. Laborum dolor sunt anim est culpa officia non reprehenderit.
+
+::: {.good-example}
+
+> **Purpose**: Although academic centers rely on assessments from medical trainees regarding the effectiveness of their faculty as teachers, little is known about how trainees conceptualize and [approach their role as assessors of their clinical supervisors]{.highlight}^[Here is some annotation text that can be a few sentences long. Anim minim nulla incididunt ut proident proident mollit sint pariatur cupidatat.]<br>**Method**: In 2010, using a constructivist grounded theory approach, five focus group interviews were conducted with 19 residents from an internal medicine residency program. A constant comparative analysis of emergent themes was conducted.<br>**Results**: Residents viewed clinical teaching assessment (CTA) as a time-consuming task with little reward. They reported struggling throughout the academic year to meet their CTA obligations and described several shortcut strategies [they used to reduce their burden. Rather than conceptualizing their assessments as a conduit for both formative and summative feedback, residents perceived CTA as useful for the surveillance]{.highlight-good}^[Est tempor officia et eu est aliqua quis. Aute sit quis ut minim. Proident deserunt mollit magna laborum velit. Pariatur fugiat non velit incididunt magna qui ullamco fugiat nulla.] of clinical supervisors at the extremes of the spectrum of teaching effectiveness. They put the most effort, including the crafting of written comments, into the CTAs of these outliers. Trainees desired greater transparency in the CTA process and were sceptical regarding the anonymity and perceived validity of their faculty appraisals.<br>**Conclusions**: Individual and system-based factors conspire to influence postgraduate medical trainees’ motivation for generating high-quality appraisals of clinical teaching. Academic centers need to address these factors if they want to maximize the usefulness of these assessments. @knuth1984
+
+:::
+
+---
+
+Aute velit incididunt aute proident enim nisi aute veniam. Culpa anim et anim nostrud dolor ipsum minim fugiat nostrud qui ut eiusmod et. Laborum dolor sunt anim est culpa officia non reprehenderit. Est sunt qui pariatur sit do nisi deserunt aliquip ut veniam laborum pariatur deserunt. Mollit amet ipsum qui proident aute est. Ad aliqua ipsum ut est. Dolor ullamco laboris velit ex. Anim ullamco aliquip nostrud deserunt esse dolor officia aliquip laborum Lorem excepteur dolore aliqua velit.
+
+::: {.good-example}
+
+> Lorem consequat elit quis officia commodo ullamco irure excepteur ullamco. Ea excepteur in aliquip consectetur do. Nisi ipsum amet ex mollit Lorem ut et. Non veniam ex cupidatat pariatur mollit nulla sit esse anim. In consectetur adipisicing quis ipsum consectetur veniam in magna quis eu aliquip anim. Minim enim non excepteur aute aute anim aliquip. Aliquip ullamco ex et veniam in exercitation. Anim quis sunt dolor Lorem occaecat. Tempor non laboris enim do excepteur commodo ullamco occaecat irure commodo. Nostrud voluptate anim ad id cupidatat minim ut occaecat nulla in qui duis. Magna cupidatat aliquip laborum ut. Ad velit cillum nostrud veniam nostrud exercitation ea ea laborum. Non nostrud ipsum laboris ullamco consectetur. Fugiat deserunt amet consectetur exercitation pariatur irure pariatur nulla in proident nostrud voluptate laboris adipisicing. Ipsum aute commodo voluptate proident. Quis elit laborum dolore qui ex reprehenderit veniam mollit ad sint do. (This example has been written for illustrative purposes)
+
+:::
+
+---
+
+Deserunt do in pariatur ea. Do laboris laborum do elit. Velit deserunt ullamco quis eiusmod mollit ipsum laborum sit amet cupidatat nisi non Lorem sit. Eiusmod quis id do ea occaecat exercitation fugiat aliqua culpa ullamco nulla sit.
+
+::: {.bad-example}
+
+> Et nisi ad consequat sint ipsum enim nisi eu sint eiusmod ad exercitation nisi nulla. Ad anim cupidatat sunt occaecat. Aliquip dolor exercitation ullamco minim nulla proident aliquip est reprehenderit. Voluptate aute non labore exercitation sint do cillum. Sint irure pariatur eu nisi sit consectetur commodo id nulla proident pariatur aliqua nostrud. Nostrud et dolor consectetur minim nisi excepteur. Minim culpa mollit velit sunt consectetur consectetur aliquip fugiat. Sit est cillum consectetur elit cillum est nisi incididunt. [Culpa culpa amet occaecat aute eu occaecat non ea tempor dolore ut nisi sit deserunt. Est ex duis laboris aliquip culpa exercitation fugiat anim mollit elit qui velit cupidatat voluptate. Aute laboris est voluptate ad. Fugiat ad minim in Lorem. Irure adipisicing Lorem excepteur consectetur proident. Voluptate et duis exercitation amet culpa deserunt id ullamco proident proident nostrud adipisicing. Qui excepteur deserunt sit deserunt aute labore. Consectetur voluptate reprehenderit occaecat anim amet.]{.highlight-bad}^[Sunt fugiat ut do excepteur ex cupidatat nostrud.] Est anim exercitation sunt sit irure. Voluptate nisi voluptate reprehenderit reprehenderit aliquip mollit. Aliqua elit Lorem eu pariatur adipisicing amet in excepteur. Do et sunt laborum officia Lorem sint sit sint anim. Cillum et id qui laboris elit duis ipsum deserunt. Mollit culpa culpa id in nulla magna sint anim ullamco nulla elit dolore ullamco occaecat. Ipsum culpa incididunt reprehenderit cupidatat velit minim culpa enim enim. Irure sit ut est est ipsum incididunt. Sint proident commodo pariatur consectetur est mollit incididunt ut exercitation pariatur culpa ad qui fugiat. Amet aliquip veniam quis velit incididuntis cupidatat commodo fugiat sit do aliquim. @knuth1984
+
+:::
+
+---
+
+<!-- #TODO: bad examples -->
+
+## References 
+
+:::{.refs}
+:::

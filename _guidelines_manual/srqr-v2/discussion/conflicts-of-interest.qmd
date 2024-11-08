@@ -1,0 +1,55 @@
+---
+title: "Discussion for SRQR item: [Conflicts of interest](..)"
+citation: false
+---
+::: {.grid id="conflicts-of-interest"}
+::: {.g-col-9}
+#### Conflicts of interest
+:::
+::: {.g-col-3}
+:::
+:::
+
+["Authors shouldn't feel nervous reporting conflicts of interest. They are very common and rarely influence our decision to publish."[Charles Ruggle - Editor]{.attribution}]{.aside}
+
+Describe any real or potential conflicts of interest that might have influenced or could appear to have influenced the research.
+
+Describe:
+
+* how these conflicts were managed in the conduct of the study,
+
+* the potential impact on study findings and/or conclusions.
+
+Some aspects may be mentioned as part of reflexivity (see [Item 6](./#researcher-characteristics-and-reflexivity)).
+
+::: {#conflicts-of-interest-collapsible .callout-note appearance="minimal" collapse=true}
+
+## Justification
+
+
+
+## Why readers need this information{#sec-conflicts-of-interest-2}
+
+["Many factors, including professional and personal relationships and activities, can influence the design, conduct, and reporting of the clinical science that informs health care decision. The potential for conflict of interest exists when these relationships and activities may bias judgment (1). Many stakeholders— editors, peer reviewers, clinicians, educators, policymakers, patients, and the public—rely on the disclosure of authors' relationships and activities to inform their assessments. Trust in the transparency, consistency, and completeness of these disclosures is essential." - [ICMJE](https://www.icmje.org/news-and-editorials/proposed-disclosure-form-editorial.pdf)]{.added}
+
+<!-- #TODO: EQ examples and resources  -->
+
+
+:::
+
+<script src="https://giscus.app/client.js"
+data-repo="jamesrharwood/srqr"
+data-repo-id="R_kgDOIaTtVw"
+data-category="Announcements"
+data-category-id="DIC_kwDOIaTtV84CSe8S"
+data-mapping="specific"
+data-term="Conflicts of interest"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-theme="preferred_color_scheme"
+data-theme="light"
+data-lang="en"
+crossorigin="anonymous"
+async>
+</script>

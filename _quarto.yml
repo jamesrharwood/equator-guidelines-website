@@ -60,19 +60,25 @@ website:
       - icon: github
         aria-label: EQUATOR GitHub
         href: github
+  bread-crumbs: true
+  page-navigation: true
 
 format:
   html:
     theme: cosmo
     css: "css/styles.css"
     toc: true
-    toc-location: left
+    toc-location: right
     toc-depth: 3
     section-divs: true
     include-in-header:
         - scripts/search-shortcut.html
     include-after-body:
         - scripts/toggle_collapsible.html
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
 
 metadata-files: 
   -  _sidebars.yml
