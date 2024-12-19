@@ -11,3 +11,7 @@ def file_to_str(filename):
 def path_to_str(path):
     with open(path, 'r') as file_:
         return file_.read()
+
+def replace_ID(string, guideline):
+    string = string.replace('ID', guideline.id)
+    return string

@@ -1,1 +1,1 @@
-from .create import PARTIALS
+from .create import create_pages

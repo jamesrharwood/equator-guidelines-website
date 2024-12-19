@@ -29,11 +29,11 @@ SRQR: Standards for Reporting Qualitative Research
 
 You can use <span class="defined" data-bs-toggle="offcanvas" href="#reportingGuidelines" aria-controls="offcanvasExample" role="button">reporting guidelines</span> throughout your research process. 
 
-* When writing: Consider using a [template](#) to draft your manuscript or protocol.
-* After writing: Complete a [checklist](#) and include it with your journal submission.
+* When writing: Consider using a [writing guide](#downloads) to draft your manuscript or protocol.
+* After writing: Complete a [checklist](#downloads) and include it with your journal submission.
 * To learn: Consult the [guidance](#summary) whenever you need it.
 
-However you use SRQR, please [cite](#how-to-cite) it.
+Please [cite](#how-to-cite) SRQR, however you use it.
 
 ::: {.grid #downloads}
 
@@ -42,7 +42,7 @@ However you use SRQR, please [cite](#how-to-cite) it.
 :::
 
 ::: { .g-col-12 .g-col-md-4}
-<a href="./ID_template.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Writing Guide</button></a>
+<a href="./srqr_writing_guide.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Writing Guide</button></a>
 :::
 
 ::: { .g-col-12 .g-col-md-4}

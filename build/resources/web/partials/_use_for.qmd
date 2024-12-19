@@ -1,4 +1,4 @@
-### Is this the right guideline for you?
+## Applicability criteria
 
 ::: {.callout-tip icon=false appearance="simple"}
 {{< include partials/use_for.md >}}

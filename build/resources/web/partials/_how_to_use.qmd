@@ -1,88 +1,24 @@
-::: {.callout-tip appearance="minimal" collapse=true}
+## How to use this reporting guideline {#how-to-use}
 
-## What are reporting guidelines and why should you use them?
+You can use <span class="defined" data-bs-toggle="offcanvas" href="#reportingGuidelines" aria-controls="offcanvasExample" role="button">reporting guidelines</span> throughout your research process. 
 
-### Recommendations to help describe your work clearly
+* When writing: Consider using a [writing guide](#downloads) to draft your manuscript or protocol.
+* After writing: Complete a [checklist](#downloads) and include it with your journal submission.
+* To learn: Consult the [guidance](#summary) whenever you need it.
 
-Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines list the information you should describe so that _everyone_ can understand, replicate, and synthesise your work. 
-
-Reporting guidelines make writing research easier, and transparent research leads to better patient outcomes.
-<!-- #ASK: It is not just about patient outcomes. Should we also mention more usable research results? -->
-
-::: {.feature-callout}
-
-![](../../assets/images/bubblecons/bubblecons_files_folders_page-90-icon-line-colour.svg){.feature-icon} 
-
-**Easier writing**
-
-Following guidance makes writing easier and quicker. 
-
-::: {.learn-more}
-[Learn more »]()
-:::
-:::
-
-::: {.feature-callout}
-
-![](../../assets/images/bubblecons/bubblecons_files_folders_favourite-74-icon-line-colour.svg){.feature-icon}
-
-**Smoother publishing**
-
-Many journals require completed reporting checklists at submission. 
-
-::: {.learn-more}
-[Learn more »]()
-:::
-:::
-
-::: {.feature-callout}
-
-![](../../assets/images/bubblecons/bubblecons_awards_3_awrad-6-icon-line-colour.svg){.feature-icon}
-
-**Maximum impact**
-
-From nobel prizes to null results, articles have more impact when everyone can use them.
-
-::: {.learn-more}
-[Learn more »]()
-:::
-:::
-
-:::
-<!--- end callout -->
-
-### How to use this guideline 
-
-1. Read the full guidance below. ["Reporting guidelines help me draft manuscripts and develop as a researcher. I use them when teaching and hope that my students continue to use them." [Manuel Silva - Researcher]{.attribution}]{.aside}
-2. Write your manuscript. Use a template if you like.
-3. Cite this guideline in your manuscript.
-4. Complete a checklist and include it with your journal submission.
-
-{{< include partials/how_to_use.md >}}
-
-#### Additional resources:
+Please [cite](#citation) SRQR, however you use it.
 
 ::: {.grid #downloads}
-
 ::: { .g-col-12 .g-col-md-4}
-<!-- ::: {.download-text}
-For drafting
-::: -->
-<a href="./ID_template.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Template</button></a>
+<a href="#summary"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Full Guidance</button></a>
 :::
 
 ::: { .g-col-12 .g-col-md-4}
-<!-- ::: {.download-text}
-For checking
-::: -->
+<a href="./ID_writing_guide.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Writing Guide</button></a>
+:::
+
+::: { .g-col-12 .g-col-md-4}
 <a href="./ID_checklist.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Checklist</button></a>
-:::
-
-::: { .g-col-12 .g-col-md-4}
-<!-- ::: {.download-text}
-For note-keeping
-::: -->
-<a href="./ID_logbook.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Log book</button></a>
 :::
 :::
 

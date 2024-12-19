@@ -1,19 +1,25 @@
-title: The SRQR guidelines for writing qualitative research articles
-full-title: Standards for Reporting  Qualitative Research
-pagetitle: The SRQR guidelines for writing qualitative research articles version 1.1
+title: The SRQR reporting guideline for writing qualitative research articles
+full-title: Standards for Reporting Qualitative Research
+pagetitle: The SRQR reporting guideline for writing qualitative research articles
+acronym: SRQR
 translations: "Translations: 🇫🇷 [French](https://doi.org/10.1016/j.kine.2022.05.004)"
-rg-authors: Bridget O'Brien, Ilene Harris, Thomas Beckman, Darcy Reed, David Cook
+# rg-authors: Bridget O'Brien, Ilene Harris, Thomas Beckman, Darcy Reed, David Cook
+journal-endorsement-count: 500+
 css: 
   - ../../css/styles.css
   - ../../css/index.css
   - ../../css/guidelines.css
+  - ../../css/styles2.css
 appendix-style: default
-# sidebar: guideline
 search: false
 footer: none
-
+articles:
+  development: 
+    - https://doi.org/10.1097/ACM.0000000000000388
+  eande: 
+    - https://cdn-links.lww.com/permalink/acadmed/a/acadmed_89_9_2014_05_22_obrien_1301196_sdc1.pdf
 citation: 
-  title: The SRQR guidelines for writing qualitative research articles version 1.1
+  title: The SRQR guidelines for writing qualitative research articles
   type: standard
   issued: 2023/02/20
   doi: 10.1234/equator/1010101
@@ -35,4 +41,6 @@ citation:
     - name: Michael Schlüssel
     - name: Caroline Struthers 
     - name: Gary Collins
+appendix-cite-as: false
 google-scholar: true
+sidebar: srqr

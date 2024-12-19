@@ -1,3 +1,0 @@
-::: {{.text-muted}}
-Translations: This guideline is also available in {links}.
-:::

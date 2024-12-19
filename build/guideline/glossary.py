@@ -64,3 +64,4 @@ def is_a_link(match):
 
 def is_an_aside(match):
     return ASIDE_START.search(match.string[:match.start()])
+

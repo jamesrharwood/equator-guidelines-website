@@ -1,98 +1,76 @@
 website:
+  bread-crumbs: false
   sidebar:
-    - title: "Side bar"
-      subtitle: "Side bar subtitle"
-      id: srqr
-      search: true
-      style: "floating"
-      foreground: secondary
-      # background: "light"
-      collapse-level: 1
-      contents:
-        - section: SRQR reporting guideline
-          contents:
-            - text: "Overview"
-              href: guidelines/srqr-v2/index.qmd
-            - section: "Title & Abstract"
-              contents:
-                - text: "1. Title"
-                  href: guidelines/srqr-v2/partials/items/title.qmd
-                - text: "2. Abstract"
-                  href: guidelines/srqr-v2/partials/items/abstract.qmd
-            - section: "Introduction"
-              contents:
-                - text: "3. Problem Formulation" 
-                  href: guidelines/srqr-v2/partials/items/problem.qmd
-                - text: "4. Purpose or research question" 
-                  href: guidelines/srqr-v2/partials/items/purpose.qmd
-            - section: "Methods"
-              contents:
-                # - text: "Qualitative approach and research paradigm"
-                - text: "5. Approach and paradigm"
-                  href: guidelines/srqr-v2/partials/items/approach.qmd
-                # - text: "Researcher characteristics and reflexivity"
-                - text: "6. Reflexivity"
-                  href: guidelines/srqr-v2/partials/items/reflexivity.qmd
-                - text: "7. Context"
-                - href: guidelines/srqr-v2/partials/items/context.qmd
-                - text: "8. Sampling strategy"
-                  href: guidelines/srqr-v2/partials/items/sample.qmd
-                # - text: "Ethical issues pertaining to human subjects"
-                - text: "9. Ethics"
-                  href: guidelines/srqr-v2/partials/items/ethics.qmd
-                - text: "10. Data Collection Methods"
-                  href: guidelines/srqr-v2/partials/items/data_collection_methods.qmd
-                # - text: "Data collection instruments and technologies"
-                - text: "11. Data collection instruments"
-                  href: guidelines/srqr-v2/partials/items/data_collection_instruments.qmd
-                - text: "12. Units of study"
-                  href: guidelines/srqr-v2/partials/items/units_of_study.qmd
-                - text: "13. Data processing"
-                  href: guidelines/srqr-v2/partials/items/data_processing.qmd
-                - text: "14. Data analysis"
-                  href: guidelines/srqr-v2/partials/items/data_analysis.qmd
-                # - text: "Techniques to enhance trustworthiness"
-                - text: "15. Trustworthiness"
-                  href: guidelines/srqr-v2/partials/items/trustworthiness.qmd
-            - section: "Results"
-              contents:
-                - text: "16. Synthesis and interpretation"
-                  href: guidelines/srqr-v2/partials/items/synthesis_and_interpretation.qmd
-                - text: "17. Links to empirical data"
-                  href: guidelines/srqr-v2/partials/items/links_to_empirical_data.qmd
-            - section: "Discussion"
-              contents:
-                # - text: "Integration with prior work, implications, transferability, and contribution(s) to the field"
-                - text: "18. Integration, implications, transferability, contributions"
-                  href: guidelines/srqr-v2/partials/items/integration_with_prior_work.qmd
-                - text: "19. Limitations"
-                  href: guidelines/srqr-v2/partials/items/limitations.qmd
-            - section: "Other"
-              contents:
-                - text: "20. Conflicts of interest"
-                  href: guidelines/srqr-v2/partials/items/conflicts_of_interest.qmd
-                - text: "21. Funding" 
-                  href: guidelines/srqr-v2/partials/items/funding.qmd
-        - text: "Template"
-          href: "#"
-        - text: "Checklist"
-          href: "#"
-        - section: "FAQs"
-          collapse: true
-          contents:
-            - text: "How should I cite SRQR?"
-              href: ""
-            - text: How was SRQR made?
-              href: ""
-            - text: "Does SRQR prescribe structure?"
-              href: ""
-            - text: "Does SRQR prescribe design?"
-              href: ""
-            - text: "What journals endorse SRQR?"
-              href: ""
-            - text: "How can I keep my writing concise?"
-              href: ""
-            - text: "What should I write if I cannot adhere to an item?"
-              href: ""
-
-                        
+  - collapse-level: 2
+    contents:
+    - href: guidelines/srqr/index.qmd
+      text: About SRQR
+    - href: guidelines/srqr/summary.qmd
+      text: '**Summary of guidance**'
+    - contents:
+      - contents:
+        - href: guidelines/srqr/title.qmd
+          text: Title
+        - href: guidelines/srqr/abstract.qmd
+          text: Abstract
+        section: Title & Abstract
+      - contents:
+        - href: guidelines/srqr/problem-formulation.qmd
+          text: Problem Formulation
+        - href: guidelines/srqr/purpose.qmd
+          text: Purpose or research question
+        section: Introduction
+      - contents:
+        - href: guidelines/srqr/qualitative-approach.qmd
+          text: Qualitative approach and research paradigm
+        - href: guidelines/srqr/researcher-characteristics-and-reflexivity.qmd
+          text: Researcher characteristics and reflexivity
+        - href: guidelines/srqr/context.qmd
+          text: Context
+        - href: guidelines/srqr/sampling-strategy.qmd
+          text: Sampling strategy
+        - href: guidelines/srqr/ethics.qmd
+          text: Ethical issues pertaining to human subjects
+        - href: guidelines/srqr/data-collection-methods.qmd
+          text: Data collection methods
+        - href: guidelines/srqr/data-collection-instruments.qmd
+          text: Data collection instruments and technologies
+        - href: guidelines/srqr/units-of-study.qmd
+          text: Units of study
+        - href: guidelines/srqr/data-processing.qmd
+          text: Data processing
+        - href: guidelines/srqr/data-analysis.qmd
+          text: Data analysis
+        - href: guidelines/srqr/trustworthiness.qmd
+          text: Techniques to enhance trustworthiness
+        section: Methods
+      - contents:
+        - href: guidelines/srqr/synthesis-and-interpretation.qmd
+          text: Synthesis and interpretation
+        - href: guidelines/srqr/links-to-empirical-data.qmd
+          text: Links to empirical data
+        section: Results
+      - contents:
+        - href: guidelines/srqr/integration-with-prior-work.qmd
+          text: Integration with prior work, implications, transferability, and contribution(s)
+            to the field
+        - href: guidelines/srqr/limitations.qmd
+          text: Limitations
+        section: Discussion
+      - contents:
+        - href: guidelines/srqr/conflicts-of-interest.qmd
+          text: Conflicts of interest
+        - href: guidelines/srqr/funding.qmd
+          text: Funding
+        section: Other
+      section: '**Full guidance**'
+    - href: guidelines/srqr/srqr_writing_guide.docx
+      text: Writing guide
+    - href: guidelines/srqr/srqr_checklist.docx
+      text: Checklist
+    - href: guidelines/srqr/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: srqr
+    search: true
+    style: docked

@@ -1,7 +1,5 @@
 
 
-["At our journal, we ensure all authors follow reporting guidelines as this makes articles easier for readers to understand and faster to publish." [Fiona Ludlow - Editor in Chief]{.attribution}]{.aside}
-
 ::: {.hero-banner}
 ::: {.content-block}
 ::: {.section}
@@ -11,120 +9,48 @@
 ::: {.citations-counter}
 <span class="__dimensions_badge_embed__ badge-inline" data-doi=10.1097/ACM.0000000000000388 data-legend="never" data-style="large_rectangle"></span>
 <span type="button" class="badge-inline btn btn-sm journal-endorsement">Journal endorsements</span>
-<span class="journal-endorsement journal-endorsement-count">500+</span>
+<span class="journal-endorsement journal-endorsement-count">{{< meta journal-endorsement-count >}}</span>
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 :::
 :::{.text-small}
-Full Title: {{< meta full-title >}}
-
-Authors: {{< meta rg-authors >}}
-
-DOI: {{< meta citation.doi >}}&nbsp;&nbsp;&nbsp;&nbsp;Version: 1.1
+{{< meta acronym >}}: {{< meta full-title >}}
 
 {{< meta translations >}}
+
+Version: This is the latest version
 :::
 :::
 :::
 :::
 
 
+## How to use this reporting guideline {#how-to-use}
 
+You can use <span class="defined" data-bs-toggle="offcanvas" href="#reportingGuidelines" aria-controls="offcanvasExample" role="button">reporting guidelines</span> throughout your research process. 
 
-::: {.callout-tip appearance="minimal" collapse=true}
+* When writing: Consider using a [writing guide](#downloads) to draft your manuscript or protocol.
+* After writing: Complete a [checklist](#downloads) and include it with your journal submission.
+* To learn: Consult the [guidance](#summary) whenever you need it.
 
-## What are reporting guidelines and why should you use them?
-
-### Recommendations to help describe your work clearly
-
-Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines list the information you should describe so that _everyone_ can understand, replicate, and synthesise your work. 
-
-Reporting guidelines make writing research easier, and transparent research leads to better patient outcomes.
-<!-- #ASK: It is not just about patient outcomes. Should we also mention more usable research results? -->
-
-::: {.feature-callout}
-
-![](../../assets/images/bubblecons/bubblecons_files_folders_page-90-icon-line-colour.svg){.feature-icon} 
-
-**Easier writing**
-
-Following guidance makes writing easier and quicker. 
-
-::: {.learn-more}
-[Learn more »]()
-:::
-:::
-
-::: {.feature-callout}
-
-![](../../assets/images/bubblecons/bubblecons_files_folders_favourite-74-icon-line-colour.svg){.feature-icon}
-
-**Smoother publishing**
-
-Many journals require completed reporting checklists at submission. 
-
-::: {.learn-more}
-[Learn more »]()
-:::
-:::
-
-::: {.feature-callout}
-
-![](../../assets/images/bubblecons/bubblecons_awards_3_awrad-6-icon-line-colour.svg){.feature-icon}
-
-**Maximum impact**
-
-From nobel prizes to null results, articles have more impact when everyone can use them.
-
-::: {.learn-more}
-[Learn more »]()
-:::
-:::
-
-:::
-<!--- end callout -->
-
-### How to use this guideline 
-
-1. Read the full guidance below. ["Reporting guidelines help me draft manuscripts and develop as a researcher. I use them when teaching and hope that my students continue to use them." [Manuel Silva - Researcher]{.attribution}]{.aside}
-2. Write your manuscript. Use a template if you like.
-3. Cite this guideline in your manuscript.
-4. Complete a checklist and include it with your journal submission.
-
-{{< include partials/how_to_use.md >}}
-
-#### Additional resources:
+Please [cite](#citation) SRQR, however you use it.
 
 ::: {.grid #downloads}
-
 ::: { .g-col-12 .g-col-md-4}
-<!-- ::: {.download-text}
-For drafting
-::: -->
-<a href="./ID_template.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Template</button></a>
+<a href="#summary"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Full Guidance</button></a>
 :::
 
 ::: { .g-col-12 .g-col-md-4}
-<!-- ::: {.download-text}
-For checking
-::: -->
-<a href="./ID_checklist.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Checklist</button></a>
+<a href="./srqr_writing_guide.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Writing Guide</button></a>
 :::
 
 ::: { .g-col-12 .g-col-md-4}
-<!-- ::: {.download-text}
-For note-keeping
-::: -->
-<a href="./ID_logbook.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Log book</button></a>
+<a href="./srqr_checklist.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Checklist</button></a>
 :::
 :::
 
 
 
-## Guidance
-
-<small>Approx. 16 min read</small>
-
-### Is this the right guideline for you?
+## Applicability criteria
 
 ::: {.callout-tip icon=false appearance="simple"}
 {{< include partials/use_for.md >}}
@@ -139,20 +65,36 @@ For note-keeping
 {{< include partials/related_resources.md >}}
 :::
 
-{{< include partials/guidance.md >}}
+{{< include partials/item_order.md >}}
 
-## Ready to get started? {.unnumbered .unlisted}
 
-<a href="#downloads"><button type="button" class="btn btn-primary btn-lg width-100">Download resources</button></a>
+## How {{< meta acronym >}} was made
 
-## How to cite
+{{< meta acronym >}} was made through a rigorous, evidence based process and originally published as an [academic article]({{< meta articles.development >}}). The UK EQUATOR Centre then worked with SRQR's developers to make it easier to use by clarifying language, adding definitions, examples, extra information and resources. Although worded differently, the guidance on this website is conceptually the same as the original publication and can be used interchangeably. Read more about [SRQR's development](./faq#development) in the FAQ.
+
 
 {{< include partials/how_to_cite.md >}}
 
-## FAQs
+:::{.quote .card}
+:::{.quote-text-normal}
+We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines.
+:::
 
-{{< include partials/faqs.md >}}
+::: {.quote-who}
+<img src="/assets/images/editor.png">
 
+::: {.name}
+[Robin Lavery]{.text-small .bold}
+
+[Editor, International Journal of World Medicine]{.text-small}
+:::
+:::
+:::
+<!-- quote -->
+
+## Ready to get started? {.unnumbered .unlisted}
+
+<a href="#how-to-use"><button type="button" class="btn btn-primary btn-lg width-100">Download resources</button></a>
 
 
 {{< include partials/glossary_offcanvas.html >}}

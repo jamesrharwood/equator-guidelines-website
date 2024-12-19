@@ -5,8 +5,9 @@ from dataclasses import dataclass, field
 import yaml
 
 from .item import Item
-from build.paths import RepoPaths, DestinationPaths, RelativeDestinationPaths
+from build.paths import RepoPaths, DestinationPaths, RelativeDestinationPaths, WebPaths
 from build.resources import create_resources
+from build.ids import validate_id
 
 # This could be better as a normal class, not dataclass
 
@@ -15,6 +16,7 @@ class Guideline:
     dirname: str
     config: dict
     resource_definitions: dict
+    resource_definitions_flat: dict = field(init=False)
     glossary_dict: dict
     repo_paths: RepoPaths = field(init=False)
     destination_paths: DestinationPaths = field(init=False)
@@ -28,6 +30,7 @@ class Guideline:
     translations: list[dict] = field(init=False)
     data_repo: str = field(init=False)
     has_data_repo: bool = field(init=False)
+    has_open_e_and_e: bool = field(init=False)
 
     def create_resources(self):
         self.create_folder()
@@ -47,9 +50,12 @@ class Guideline:
         self.repo_paths = RepoPaths(self.dirname)
         self.destination_paths = DestinationPaths(self.dirname)
         self.relative_destination_paths = RelativeDestinationPaths('')
+        self.web_paths = WebPaths(self.dirname)
         self.doi = self.config['doi']
         self.translations = self.config.get('translations', [])
-        self.id = self.config['id']
+        id = self.config['id']
+        validate_id(id)
+        self.id = id
         self.has_translations = has_translations(self.config)
         self.has_not_use_for = has_text(self.repo_paths.not_use_for)
         self.has_related_resources=has_text(self.repo_paths.related_resources)
@@ -58,12 +64,25 @@ class Guideline:
         self.has_why_use=has_text(self.repo_paths.why_use)
         self.data_repo = self.config.get('data-repo', None)
         self.has_data_repo = bool(self.data_repo)
+        self.resource_definitions_flat = self.flatten_resource_definitions()
+        self.has_open_e_and_e = self.config['open-e-and-e']
+        self.short_name = self.config.get('acronym', 'this guideline')
     
     def load_items(self):
         item_dir = self.repo_paths.items_dir
         for filename in os.listdir(item_dir):
             path = os.path.join(item_dir, filename)
             yield Item.from_filepath(path, self)
+
+    def flatten_resource_definitions(self):
+        flat_definitions = {}
+        for resource_name, definition in self.resource_definitions.items():
+            filenames = []
+            for dict_ in definition:
+                for list_ in dict_.values():
+                    filenames.extend(list_)
+            flat_definitions[resource_name] = filenames
+        return flat_definitions
 
     @classmethod
     def create(cls, dirname: str):

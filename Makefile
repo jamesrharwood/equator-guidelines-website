@@ -4,7 +4,6 @@ test:
 	python -m unittest discover
 create:
 	python -m build.create_resources $(guideline)
-	cp -a _guidelines_manual/. guidelines/
 preview:
 	cp -a _guidelines_manual/. guidelines/
 	quarto preview
