@@ -1,6 +1,6 @@
-from .read import file_to_str 
-from build.file import copy
+from ..utils import copy_file_adding_glossary
+from .read import file_to_str
 
 def create_web(guideline):
-    copy(guideline.repo_paths.related_resources, guideline.destination_paths.related_resources)
+    copy_file_adding_glossary(guideline, 'related_resources')
     return file_to_str('_related_resources.qmd')

@@ -58,9 +58,9 @@ class WebPaths(DestinationPaths):
         super().__init__(dirname)
         self.index = join(self.dir, 'index.qmd')
         self.summary = join(self.dir, 'summary.qmd')
-        self.items_dir = self.dir
+        self.items_dir = self.items_dir
         self.faqs = join(self.dir, 'faqs.qmd')
-        self.faqs_partial = join(self.partials_dir, 'faqs.qmd')
+        self.faqs_partial = join(self.partials_dir, 'faqs.md')
         self.checklist = join(self.dir, f'{dirname}_checklist.docx')
         self.writing_guide = join(self.dir, f'{dirname}_writing_guide.docx')
 

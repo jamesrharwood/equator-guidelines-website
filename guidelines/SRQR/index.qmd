@@ -8,7 +8,7 @@
 
 ::: {.citations-counter}
 <span class="__dimensions_badge_embed__ badge-inline" data-doi=10.1097/ACM.0000000000000388 data-legend="never" data-style="large_rectangle"></span>
-<span type="button" class="badge-inline btn btn-sm journal-endorsement">Journal endorsements</span>
+<span type="button" class="badge-inline btn btn-sm journal-endorsement">Journals endorsing {{< meta acronym >}}</span>
 <span class="journal-endorsement journal-endorsement-count">{{< meta journal-endorsement-count >}}</span>
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 :::
@@ -26,13 +26,13 @@ Version: This is the latest version
 
 ## How to use this reporting guideline {#how-to-use}
 
-You can use <span class="defined" data-bs-toggle="offcanvas" href="#reportingGuidelines" aria-controls="offcanvasExample" role="button">reporting guidelines</span> throughout your research process. 
+You can use <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemreporting_guideline" aria-controls="offcanvasExample" role="button">reporting guidelines</span> throughout your research process. 
 
 * When writing: Consider using a [writing guide](#downloads) to draft your manuscript or protocol.
 * After writing: Complete a [checklist](#downloads) and include it with your journal submission.
 * To learn: Consult the [guidance](#summary) whenever you need it.
 
-Please [cite](#citation) SRQR, however you use it.
+However you use {{< meta acronym >}}, please [cite it](faqs.qmd#citation).
 
 ::: {.grid #downloads}
 ::: { .g-col-12 .g-col-md-4}
@@ -65,15 +65,41 @@ Please [cite](#citation) SRQR, however you use it.
 {{< include partials/related_resources.md >}}
 :::
 
-{{< include partials/item_order.md >}}
+## Summary of guidance {#summary}
 
+Although you should describe all items below, you can decide how to [order](faqs.qmd#item-order) and [prioritize items](faqs.qmd#concise-writing) most relevant to your study, findings, context, and readership whilst [keeping your writing concise](faqs.qmd#concise-writing). You can read how {{< meta acronym >}} was developed in the [FAQs](faqs.qmd#development).
 
-## How {{< meta acronym >}} was made
+|
+----|------------
+**Title & Abstract**|
+[1. Title](items/title.qmd)|Describe the nature and topic of the study. Identify the study as qualitative or indicate the <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemapproach" aria-controls="offcanvasExample" role="button">approach</span> or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">data collection methods</span>.
+[2. Abstract](items/abstract.qmd)|Summarise the key elements of the study using the abstract format of the intended publication.
+**Introduction**|
+[3. Problem Formulation](items/problem-formulation.qmd)|Describe the problem/phenomenon studied, its significance,relevant theory and empirical work, and gaps in current knowledge.
+[4. Purpose or research question](items/purpose.qmd)|Describe the purpose of the study and specific objectives or questions.
+**Methods**|
+[5. Qualitative approach and research paradigm](items/qualitative-approach.qmd)|Describe your qualitative <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemapproach" aria-controls="offcanvasExample" role="button">approach</span>, your guiding theory (if appropriate), and <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemresearch_paradigm" aria-controls="offcanvasExample" role="button">research paradigm</span>, and reasons for your choices.
+[6. Researcher characteristics and reflexivity](items/researcher-characteristics-and-reflexivity.qmd)|Describe how researchers’ characteristics may influence the research, including personal attributes, qualifications/experience, relationship with participants, assumptions, and/or presuppositions; potential or actual interaction between researchers’ characteristics and the research questions, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemapproach" aria-controls="offcanvasExample" role="button">approach</span>, methods, results and/or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem13" aria-controls="offcanvasExample" role="button">transferability</span>.
+[7. Context](items/context.qmd)|Describe the setting/site(s) in which the study was conducted, why it was selected, and any other salient contextual factors that may influence the study.
+[8. Sampling strategy](items/sampling-strategy.qmd)|Describe how and why research participants, documents, or events were selected; criteria for deciding when no further sampling was necessary, and the rationale for those criteria.
+[9. Ethical issues pertaining to human subjects](items/ethics.qmd)|Describe any approval by an appropriate ethics review board and participant consent, or explain any lack thereof. Describe any other confidentiality and data security issues.
+[10. Data collection methods](items/data-collection-methods.qmd)|Describe the types of data collected; details of data collection procedures including (as appropriate) start and stop dates of data collection and analysis, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem6" aria-controls="offcanvasExample" role="button">iterative</span> process, triangulation of sources/methods, and modification of procedures in response to evolving study findings. Describe your rationale for these choices.
+[11. Data collection instruments and technologies](items/data-collection-instruments.qmd)|Describe any <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem1" aria-controls="offcanvasExample" role="button">instruments</span> (e.g., interview guides, questionnaires) and devices (e.g., audio recorders) used for data collection; describe if/how the instrument(s) changed over the course of the study.
+[12. Units of study](items/units-of-study.qmd)|Describe the number and relevant characteristics of participants, documents, or events included in the study. Describe the level of participation.
+[13. Data processing](items/data-processing.qmd)|Describe the number and relevant characteristics of participants, documents, or events included in the study. Describe the level of participation.
+[14. Data analysis](items/data-analysis.qmd)|Describe the process by which inferences, themes, etc. were identified and developed, including the researchers involved in data analysis; usually references a specific <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemresearch_paradigm" aria-controls="offcanvasExample" role="button">paradigm</span> or <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemapproach" aria-controls="offcanvasExample" role="button">approach</span>. Describe why you chose this process.
+[15. Techniques to enhance trustworthiness](items/trustworthiness.qmd)|Describe any techniques to enhance trustworthiness and credibility of data analysis,(e.g., member checking, triangulation, audit trail). Describe why you chose these techniques.
+**Results**|
+[16. Synthesis and interpretation](items/synthesis-and-interpretation.qmd)|Describe the main findings (e.g., interpretations, inferences, and themes); might include development of a theory or model, or integration with prior research or theory.
+[17. Links to empirical data](items/links-to-empirical-data.qmd)|Provide evidence (e.g., quotes, field notes, text excerpts, photographs) to substantiate <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem15" aria-controls="offcanvasExample" role="button">analytic findings</span>.
+**Discussion**|
+[18. Integration with prior work, implications, transferability, and contribution(s) to the field](items/integration-with-prior-work.qmd)|Summarize the main findings, explain how findings and conclusions connect to, support, elaborate on, or challenge conclusions of earlier scholarship; discuss the scope of application/<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem14" aria-controls="offcanvasExample" role="button">generalizability</span>; identify unique contribution(s) to scholarship in a discipline or field.
+[19. Limitations](items/limitations.qmd)|Discuss the trustworthiness and limitations of findings
+**Other**|
+[20. Conflicts of interest](items/conflicts-of-interest.qmd)|Describe any potential sources of influence or perceived influence on study conduct and conclusions. Describe how these were managed.
+[21. Funding](items/funding.qmd)|Describe sources of funding and other support. Describe the role of funders in data collection, interpretation, and reporting.
 
-{{< meta acronym >}} was made through a rigorous, evidence based process and originally published as an [academic article]({{< meta articles.development >}}). The UK EQUATOR Centre then worked with SRQR's developers to make it easier to use by clarifying language, adding definitions, examples, extra information and resources. Although worded differently, the guidance on this website is conceptually the same as the original publication and can be used interchangeably. Read more about [SRQR's development](./faq#development) in the FAQ.
-
-
-{{< include partials/how_to_cite.md >}}
+: {tbl-colwidths="[25,75]"}
 
 :::{.quote .card}
 :::{.quote-text-normal}

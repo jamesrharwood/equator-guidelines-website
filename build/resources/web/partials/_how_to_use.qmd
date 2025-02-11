@@ -1,12 +1,12 @@
 ## How to use this reporting guideline {#how-to-use}
 
-You can use <span class="defined" data-bs-toggle="offcanvas" href="#reportingGuidelines" aria-controls="offcanvasExample" role="button">reporting guidelines</span> throughout your research process. 
+You can use reporting guidelines throughout your research process. 
 
 * When writing: Consider using a [writing guide](#downloads) to draft your manuscript or protocol.
 * After writing: Complete a [checklist](#downloads) and include it with your journal submission.
 * To learn: Consult the [guidance](#summary) whenever you need it.
 
-Please [cite](#citation) SRQR, however you use it.
+However you use {{< meta acronym >}}, please [cite it](faqs.qmd#citation).
 
 ::: {.grid #downloads}
 ::: { .g-col-12 .g-col-md-4}

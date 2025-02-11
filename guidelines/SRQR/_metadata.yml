@@ -44,3 +44,6 @@ citation:
 appendix-cite-as: false
 google-scholar: true
 sidebar: srqr
+format:
+  html:
+    include-after-body: partials/glossary_offcanvas.html	

@@ -15,9 +15,9 @@ class Item:
         self.id = item.id
         self.readmore_id = f"{self.id}-collapsible"
         self.giscus_rel_path = item.giscus_rel_path
-        self.title = item.title
         self.text = item.text
         self.index = index
+        self.title = item.title
         index_at_start = INDEX_REGEX.search(self.title)
         if index_at_start:
             self.index = index_at_start.group() #FIXME code smell?
@@ -27,7 +27,7 @@ class Item:
         for section in sections:
             section.body = self.add_definitions(section.body)
         if not sections:
-            logging.warn(f'Item has no body: {guideline.id}, {item.id}')
+            logging.warning(f'Item has no body: {guideline.id}, {item.id}')
         self.sections = sections
         body_section = sections.pop(0)
         self.body = self.create_body(body_section)
@@ -52,7 +52,7 @@ class Item:
             text = link.groupdict()['text']
             section = next((section for section in self.sections if section.heading==text), None)
             if not section:
-                logging.warn(f'Item Read More section missing: {self.guideline.id}, {self.id}, {text}')
+                logging.warning(f'Item Read More section missing: {self.guideline.id}, {self.id}, {text}')
                 continue
             new_link = f"{text} (see [note](./{section.id}){{.footnote-ref .link-to-collapsible data-target={self.readmore_id} id='note-{self.index}-{idx}' role='doc-noteref' aria-expanded='false'}})"
             body = body[:link.start()] + new_link + body[link.end():]

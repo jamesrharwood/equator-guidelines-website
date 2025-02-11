@@ -8,6 +8,15 @@ abbr {
     text-underline-position: under;
 }
 
+.defined {
+  color: rgb(55, 58, 60);
+  text-decoration-color: rgb(39, 128, 227);
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+  text-decoration-style: dotted; 
+  text-underline-position: under;
+}
+
 #quarto-sidebar {
     padding-top: 0px;
 }

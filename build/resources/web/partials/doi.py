@@ -7,7 +7,7 @@ TEXT = """\
 
 ::: {.citations-counter}
 <span class="__dimensions_badge_embed__ badge-inline" data-doi=DATA_DOI data-legend="never" data-style="large_rectangle"></span>
-<span type="button" class="badge-inline btn btn-sm journal-endorsement">Journal endorsements</span>
+<span type="button" class="badge-inline btn btn-sm journal-endorsement">Journals endorsing {{< meta acronym >}}</span>
 <span class="journal-endorsement journal-endorsement-count">{{< meta journal-endorsement-count >}}</span>
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 :::

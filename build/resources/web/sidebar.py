@@ -26,9 +26,9 @@ class Sidebar:
    def contents(self):
       return [
          # self.item('How to use', self.guideline.web_paths.index),
-         self.item(f'About {self.guideline.short_name}', self.guideline.web_paths.index),
-         self.item('**Summary of guidance**', self.guideline.web_paths.summary),
-         self.section('**Full guidance**', self.guidance_contents()),
+         self.item(f'Overview of {self.guideline.short_name}', self.guideline.web_paths.index),
+         # self.item('**Summary of guidance**', self.guideline.web_paths.summary),
+         self.section('Full guidance', self.guidance_contents()),
          self.item('Writing guide', self.guideline.web_paths.writing_guide),
          self.item('Checklist', self.guideline.web_paths.checklist),
          self.item('FAQs', self.guideline.web_paths.faqs)

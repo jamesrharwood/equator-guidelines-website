@@ -1,8 +1,8 @@
 from typing import List
 
 from build.file import save_string
-from . import giscus, how_to_cite, metadata, doi, use_for, not_use_for, related_resources,\
-    glossary_offcanvas, glossary_offcanvas_include, how_to_use, why_use, ready_to_start, faqs, item_order, summary, development, item_pages
+from . import giscus, metadata, doi, use_for, not_use_for, related_resources,\
+    glossary_offcanvas, glossary_offcanvas_include, how_to_use, why_use, ready_to_start, faqs, summary, item_pages
 from build.guideline.glossary import add_glossary_to_string, wrap_string_with_span
 
 class Partial:
@@ -64,7 +64,6 @@ def create_pages(guideline):
     pages.append(copied_files)
     pages.append(create_index_page(guideline))
     pages.append(Page(guideline, guideline.web_paths.faqs, [Partial(faqs, None)]))
-    pages.append(Page(guideline, guideline.web_paths.summary, [Partial(summary, None)]))
     for item in guideline.items:
         pages.append(create_item_page(item))
         pages.append(create_giscus_page(item))
@@ -78,10 +77,10 @@ def create_index_page(guideline):
         Partial(use_for, None),
         Partial(not_use_for, 'has_not_use_for'),
         Partial(related_resources, 'has_related_resources'),
-        # Partial(summary, None),
-        Partial(item_order, None),
-        Partial(development, None),
-        Partial(how_to_cite, None),
+        Partial(summary, None),
+        # Partial(item_order, None),
+        # Partial(development, None),
+        # Partial(how_to_cite, None),
         Partial(ready_to_start, None),
         Partial(glossary_offcanvas_include, None),
         # Partial(item_pages, 'has_open_e_and_e'),
