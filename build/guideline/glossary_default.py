@@ -1,3 +1,5 @@
+from markdown import Markdown
+
 RG_BODY = """
 <p>Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines list the information you should describe so that <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemresearch_consumers" aria-controls="offcanvasExample" role="button"><em>everyone</em></span> can understand, replicate, and synthesise your work.</p>
 <p>Reporting guidelines do not prescribe how research should be designed or conducted. Rather, they help authors transparently describe what they did, why they did it, and what they found.</p>
@@ -30,15 +32,24 @@ RG_BODY = """
 
 EVERYONE = """
 You work will be read by different people, for different reasons, around the world, and for decades to come. Reporting guidelines help you consider all of your potential audiences. For example, your research may be read by researchers from different fields, by clinicians, patients, evidence synthesisers, peer reviewers, or editors. Your readers will need information to understand, to replicate, apply, appraise, synthesise, and use your work. """
-CASE_CONTROL_STUDIES = """
-In case-control studies, investigators compare exposures between people with a particular disease outcome (cases) and people without that outcome (controls). Investigators aim to collect cases and controls that are representative of an underlying cohort or a cross-section of a population. That population can be defined geographically, but also more loosely as the catchment area of health care facilities. The case sample may be 100% or a large fraction of available cases, while the control sample usually is only a small fraction of the people who do not have the pertinent outcome. Controls represent the cohort or population of people from which the cases arose. Investigators calculate the ratio of the odds of exposures to putative causes of the disease among cases and controls. Depending on the sampling strategy for cases and controls and the nature of the population studied, the odds ratio obtained in a case-control study is interpreted as the risk ratio, rate ratio or (prevalence) odds ratio.
+CASE_CONTROL_STUDIES = """A study that compares two groups of people: those with the disease or condition under study (cases) and a very similar group of people who do not have the disease or condition (controls). Researchers study the medical and lifestyle histories of the people in each group to learn what factors may be associated with the disease or condition. For example, one group may have been exposed to a particular substance that the other was not. Also called retrospective study. ([source](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/case-control-study))."""
 
-A classic case-control study is [Smoking and Carcinoma of the Lung](https://pmc.ncbi.nlm.nih.gov/articles/PMC2038856/) by Richard Doll and A Bradford Hill which suggested a link between smoking and lung cancer."""
-COHORT_STUDIES = """
-In cohort studies, In a cohort study, one or more groups are closely monitored and outcomes measured over time. Researchers collect information about people and their exposures to factors which might affect their health at baseline, let time pass, and then measure the occurrence of pre-specified outcomes. Researchers commonly make contrasts between individuals who are exposed and not exposed to these factors, or among groups of individuals with different levels of exposure. Investigators may assess several different outcomes, and examine exposure and outcome variables at multiple points during follow-up. Some cohorts are closed - for example birth cohorts. They enrol a defined number of participants at the beginning of the study and follow them from that time forward, often at set intervals up to a fixed end date. Some are open cohorts - for example inhabitants of a town. This means people enter and leave the population at different points in time . Open cohorts change due to deaths, births, and migration, but the composition of the population with regard to variables such as age and gender may remain approximately constant, especially over a short period of time. In a closed cohort cumulative incidences (risks) and incidence rates can be estimated; when exposed and unexposed groups are compared, this leads to risk ratio or rate ratio estimates. Open cohorts estimate incidence rates and rate ratios.
+COHORT_STUDIES = """A research study that compares a particular outcome (such as lung cancer) in groups of individuals who are alike in many ways but differ by a certain characteristic (for example, female nurses who smoke compared with those who do not smoke). ([source](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cohort-study)).
+"""
 
-A classic cohort study is [The British Doctors' Cohort](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2362092/#bib9) by Richard Doll and A Bradford Hill which confirmed the link between smoking and lung cancer."""
+CROSS_SECTIONAL = """A type of research study in which a group of people is observed, or certain information is collected, at a single point in time or over a short period of time. For example, a survey may be done to collect information about the total number of people in a group who have or had a certain disease (such as cancer) or risk factor (such as smoking or obesity). In this example, the survey may be able to provide some information about whether there is an association between the smoking (risk factor) and the cancer (disease) but does not prove that they are linked. Results from a cross-sectional study may be used to plan other research studies. A cross-sectional study is a type of observational (epidemiologic) study. ([source](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cross-sectional-study))"""
 
+CASE_REPORT = """
+Case reports are detailed reports of the diagnosis, treatment, and follow-up of an individual patient. Case reports also contain some demographic information about the patient (for example, age, gender, ethnic origin) ([source](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/case-report)).
+
+Case series are group or series of case reports involving patients who were given similar treatment. Reports of case series usually contain detailed information about the individual patients. This includes demographic information (for example, age, gender, ethnic origin) and information on diagnosis, treatment, response to treatment, and follow-up after treatment ([source](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/case-series)).
+"""
+
+TRIPOD = """Prediction models are developed to aid health care providers in estimating the probability or risk that a specific disease or condition is present (diagnostic models) or that a specific event will occur in the future (prognostic models), to inform their decision making."""
+
+STARD = """Diagnostic accuracy studies focus on estimating the ability of the test(s) to correctly identify subjects with a predefined target condition, or the condition of interest (sensitivity) as well as to clearly identify those without the condition (specificity)."""
+
+QUALITATIVE_RESEARCH = """Research that aims to gather and analyse non-numerical (descriptive) data in order to gain an understanding of individuals' social reality, including understanding their attitudes, beliefs, and motivation. This type of research typically involves in-depth interviews, focus groups, or field observations in order to collect data that is rich in detail and context. Qualitative research is often used to explore complex phenomena or to gain insight into people's experiences and perspectives on a particular topic. It is particularly useful when researchers want to understand the meaning that people attach to their experiences or when they want to uncover the underlying reasons for people's behavior. Qualitative methods include ethnography, grounded theory, discourse analysis, and interpretative phenomenological analysis. ([source](https://en.wikipedia.org/wiki/Qualitative_research))"""
 
 glossary_default = {
     'reporting_guidelines': {
@@ -61,13 +72,13 @@ glossary_default = {
     },
     'case_control_studies': {
         'title': 'Case-control studies',
-        'text': 'Ipsum Lorem',
+        'text': CASE_CONTROL_STUDIES,
         'id': 'case_control_studies',
         'pattern': 'case-control studies',
     },
     'cross-sectional_studies': {
         'title': 'Cross-sectional studies',
-        'text': 'Ipsum Lorem',
+        'text': CROSS_SECTIONAL,
         'id': 'cross_sectional_studies',
         'pattern': 'cross-sectional studies',
     },
@@ -103,7 +114,7 @@ glossary_default = {
     },
     'qualitative_research': {
         'title': 'Qualitative research',
-        'text': 'Ipsum Lorem',
+        'text': QUALITATIVE_RESEARCH,
         'id': 'qualitative_research',
         'pattern': 'qualitative research',
     },
@@ -115,13 +126,13 @@ glossary_default = {
     },
     'diagnostic_test_accuracy_studies': {
         'title': 'Diagnostic Test Accuracy Studies',
-        'text': 'Ipsum Lorem',
+        'text': STARD,
         'id': 'diagnostic_test_accuracy_studies',
         'pattern': 'diagnostic test accuracy studies',
     },
     'prediction_models': {
         'title': 'Prediction Models',
-        'text': 'Ipsum Lorem',
+        'text':  TRIPOD,
         'id': 'prediction_models',
         'pattern': 'prediction models',
     },
@@ -144,3 +155,7 @@ glossary_default = {
         'pattern': 'economic evaluations',
     },
 }
+
+md = Markdown()
+for k, v in glossary_default.items():
+    v.update({'text': md.convert(v['text'])})
