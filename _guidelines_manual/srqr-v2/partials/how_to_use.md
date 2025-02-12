@@ -1,1 +1,0 @@
-Reporting guidelines do not prescribe order nor structure. You should include items in the article body whenever possible but some items can be reported in tables, figures, or supplementary materials if necessary (see [FAQs](#does-srqr-prescribe-structure)).
