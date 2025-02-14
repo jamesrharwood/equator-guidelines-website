@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>19. Limitations</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../guidelines/strobe-cohort/items/20_interpretation.html" rel="next">
+<link href="../../../guidelines/strobe-cohort/items/18_key_results.html" rel="prev">
+<link href="../../../assets/favicons/equator-network-16x16.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-a399256dfab7e52281ee9593702f5c48.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script>
+    console.log('In search func!')
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+        var searchShortcuts = document.getElementsByClassName("search-shortcut");
+        var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
+        for (let i = 0; i < searchShortcuts.length; i++) {
+            searchShortcuts[i].addEventListener('click', function() {
+                searchElement.click()
+                return false;
+            })
+            searchShortcuts[i].removeAttribute('href')
+        }
+    })
+</script>
+
+
+<link rel="stylesheet" href="../../../css/styles.css">
+<link rel="stylesheet" href="../../../css/index.css">
+<link rel="stylesheet" href="../../../css/guidelines.css">
+<link rel="stylesheet" href="../../../css/styles2.css">
+<meta name="citation_title" content="The STROBE reporting guideline for writing cohort study articles">
+<meta name="citation_author" content="Erik Elm">
+<meta name="citation_author" content="Douglas G. Altman">
+<meta name="citation_author" content="Matthias Egger">
+<meta name="citation_author" content="Stuart J. Pocock">
+<meta name="citation_author" content="Peter C. Gøtzsche">
+<meta name="citation_author" content="Jan P. Vandenbroucke">
+<meta name="citation_doi" content="10.7326/0003-4819-147-8-200710160-00010">
+<meta name="citation_language" content="en">
+<meta name="citation_journal_title" content="The EQUATOR Network guideline dissemination platform">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../assets/equator_logo.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Reporting Guidelines</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/"> 
+<span class="menu-text">Training</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Other Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
+        <li>
+    <a class="dropdown-item" href="../../../index.html">
+ <span class="dropdown-text">Toolkits</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../index.html">
+ <span class="dropdown-text">Library</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../index.html">
+ <span class="dropdown-text">Resources for Publishers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../index.html">
+ <span class="dropdown-text">Resources for Guideline Developers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../index.html">
+ <span class="dropdown-text">Resources for Librarians</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About EQUATOR</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
+        <li>
+    <a class="dropdown-item" href="../../../index.html">
+ <span class="dropdown-text">The EQUATOR Network</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../index.html">
+ <span class="dropdown-text">Blog</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../index.html">
+ <span class="dropdown-text">News</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../index.html">
+ <span class="dropdown-text">Contact</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">19. Limitations</h1>
+        </a>     
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview of STROBE Cohort</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Full guidance</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Title and abstract</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/1a_title.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1a. Title</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/1b_abstract.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1b. Abstract</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Introduction</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/2_background__rationale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2. Background / rationale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/3_objectives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3. Objectives</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Methods</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/4_study_design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4. Study design</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/5_setting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5. Setting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Eligibility Criteria</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/6a_eligibility_criteria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6a. Eligibility criteria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/6b_eligibility_criteria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6b. Eligibility criteria: matched studies</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/7_variables.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7. Variables</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/8_data_sources__measurement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8. Data sources / measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/9_bias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9. Bias</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/10_study_size.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10. Study size</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/11_quantitative_variables.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11. Quantitative variables</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Statistical Methods</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/12a_statistical_methods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12a. Statistical methods</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/12b_statistical_methods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12b. Statistical methods: subgroups and interactions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/12c_statistical_methods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12c. Statistical method: missing data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/12d_statistical_methods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12d. Statistical methods: loss to follow-up</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/12e_statistical_methods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12e. Statistical methods: sensitivity analyses</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Results</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">Participants</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/13a_participants.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">13a. Participants</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/13b_participants.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">13b. Participants: non-participation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/13c_participants.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">13c. Participants: flow diagram</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+ <span class="menu-text">Descriptive Data</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/14a_descriptive_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">14a. Descriptive data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/14b_descriptive_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">14b. Descriptive data: missing data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/14c_descriptive_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">14c. Descriptive data</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/15_outcome_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">15. Outcome data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+ <span class="menu-text">Main results</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/16a_main_results.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">16a. Main results</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/16b_main_results.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">16b. Main results: category boundaries</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/16c_main_results.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">16c. Main results: risk</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/17_other_analyses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">17. Other analyses</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true">
+ <span class="menu-text">Discussion</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/18_key_results.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">18. Key results</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/19_limitations.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">19. Limitations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/20_interpretation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">20. Interpretation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/21_generalisability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">21. Generalisability</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Other Information</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/items/22_funding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">22. Funding</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/strobe-cohort_writing_guide.docx" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Writing guide</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/strobe-cohort_checklist.docx" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Checklist</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines/strobe-cohort/faqs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAQs</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#read-more" id="toc-read-more" class="nav-link active" data-scroll-target="#read-more">Read More</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#discuss-this-item" id="toc-discuss-this-item" class="nav-link" data-scroll-target="#discuss-this-item">Discuss this item</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">19. Limitations</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Discuss limitations of the study, taking into account sources of potential bias or imprecision. Discuss both direction and magnitude of any potential bias.</p>
+<section id="read-more" class="level2">
+<h2 class="anchored" data-anchor-id="read-more">Read More</h2>
+<p>The identification and discussion of the limitations of a study are an essential part of scientific reporting. It is important not only to identify the sources of bias and confounding that could have affected results, but also to discuss the relative importance of different biases, including the likely direction and magnitude of any potential bias (see also item 9 and Box 3).</p>
+<p>Authors should also discuss any imprecision of the results. Imprecision may arise in connection with several aspects of a study, including the study size (item 10) and the measurement of exposures, confounders and outcomes (item 8). The inability to precisely measure true values of an exposure tends to result in bias towards unity: the less precisely a risk factor is measured, the greater the bias. This effect has been described as ‘attenuation’ [201,202], or more recently as ‘regression dilution bias’ [203]. However, when correlated risk factors are measured with different degrees of imprecision, the adjusted relative risk associated with them can be biased towards or away from unity [204–206].</p>
+<p>When discussing limitations, authors may compare the study being presented with other studies in the literature in terms of validity, generalisability and precision. In this approach, each study can be viewed as contribution to the literature, not as a stand-alone basis for inference and action [207]. Surprisingly, the discussion of important limitations of a study is sometimes omitted from published reports. A survey of authors who had published original research articles in The Lancet found that important weaknesses of the study were reported by the investigators in the survey questionnaires, but not in the published article</p>
+</section>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<blockquote class="blockquote">
+<p>Since the prevalence of counseling increases with increasing levels of obesity, our estimates may overestimate the true prevalence. Telephone surveys also may overestimate the true prevalence of counseling. Although persons without telephones have similar levels of overweight as persons with telephones, persons without telephones tend to be less educated, a factor associated with lower levels of counseling in our study. Also, of concern is the potential bias caused by those who refused to participate as well as those who refused to respond to questions about weight. Furthermore, because data were collected cross-sectionally, we cannot infer that counseling preceded a patient’s attempt to lose weight</p>
+</blockquote>
+</section>
+<section id="discuss-this-item" class="level2">
+<h2 class="anchored" data-anchor-id="discuss-this-item">Discuss this item</h2>
+<p>Visit this items’ <a href="../../../guidelines/strobe-cohort/discussion/19_limitations.html">discussion page</a> to ask questions and give feedback.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script>
+    const links = document.querySelectorAll('.link-to-collapsible')
+
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            const section = document.getElementById(link.dataset.target)
+            console.log(link.dataset.target)
+            console.log(section)
+            const header = section.querySelector('.callout-header')
+            header.classList.toggle('collapsed')
+            const body = section.querySelector('.callout-collapse')
+            body.classList.toggle('show')
+            })
+    })
+</script>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemreporting_guideline" aria-labelledby="glossaryItemreporting_guidelineLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemreporting_guidelineLabel">Reporting Guidelines are recommendations to help describe your work clearly</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines list the information you should describe so that <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemresearch_consumers" aria-controls="offcanvasExample" role="button"><em>everyone</em></span> can understand, replicate, and synthesise your work.</p>
+<p>Reporting guidelines do not prescribe how research should be designed or conducted. Rather, they help authors transparently describe what they did, why they did it, and what they found.</p>
+<p>Reporting guidelines make writing research easier, and transparent research leads to better patient outcomes.</p>
+<div class="feature-callout">
+<p><img src="../../../assets/images/bubblecons/bubblecons_files_folders_page-90-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<p><strong>Easier writing</strong></p>
+<p>Following guidance makes writing easier and quicker.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+<div class="feature-callout">
+<p><img src="../../../assets/images/bubblecons/bubblecons_files_folders_favourite-74-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<p><strong>Smoother publishing</strong></p>
+<p>Many journals require completed reporting checklists at submission.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+<div class="feature-callout">
+<p><img src="../../../assets/images/bubblecons/bubblecons_awards_3_awrad-6-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<p><strong>Maximum impact</strong></p>
+<p>From nobel prizes to null results, articles have more impact when everyone can use them.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemresearch_consumers" aria-labelledby="glossaryItemresearch_consumersLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemresearch_consumersLabel">Who reads research?</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>You work will be read by different people, for different reasons, around the world, and for decades to come. Reporting guidelines help you consider all of your potential audiences. For example, your research may be read by researchers from different fields, by clinicians, patients, evidence synthesisers, peer reviewers, or editors. Your readers will need information to understand, to replicate, apply, appraise, synthesise, and use your work. </p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcohort_studies" aria-labelledby="glossaryItemcohort_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcohort_studiesLabel">Cohort studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A cohort study is an observational study in which a group of people with a particular exposure (e.g. a putative risk factor or protective factor) and a group of people without this exposure are followed over time. The outcomes of the people in the exposed group are compared to the outcomes of the people in the unexposed group to see if the exposure is associated with particular outcomes (e.g. getting cancer or length of life).</p>
+<p>(Source)[https://casp-uk.net/what-is-a-cohort-study/].</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcase_control_studies" aria-labelledby="glossaryItemcase_control_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcase_control_studiesLabel">Case-control studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A study that compares two groups of people: those with the disease or condition under study (cases) and a very similar group of people who do not have the disease or condition (controls). Researchers study the medical and lifestyle histories of the people in each group to learn what factors may be associated with the disease or condition. For example, one group may have been exposed to a particular substance that the other was not. Also called retrospective study. (<a href="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/case-control-study">source</a>).</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcross_sectional_studies" aria-labelledby="glossaryItemcross_sectional_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcross_sectional_studiesLabel">Cross-sectional studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A type of research study in which a group of people is observed, or certain information is collected, at a single point in time or over a short period of time. For example, a survey may be done to collect information about the total number of people in a group who have or had a certain disease (such as cancer) or risk factor (such as smoking or obesity). In this example, the survey may be able to provide some information about whether there is an association between the smoking (risk factor) and the cancer (disease) but does not prove that they are linked. Results from a cross-sectional study may be used to plan other research studies. A cross-sectional study is a type of observational (epidemiologic) study. (<a href="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cross-sectional-study">source</a>)</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemsystematic_reviews" aria-labelledby="glossaryItemsystematic_reviewsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemsystematic_reviewsLabel">Systematic reviews</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemsystematic_review_protocols" aria-labelledby="glossaryItemsystematic_review_protocolsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemsystematic_review_protocolsLabel">Systematic review protocols</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemmeta_analyses" aria-labelledby="glossaryItemmeta_analysesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemmeta_analysesLabel">Meta analyses of Observational Studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemrandomised_trials" aria-labelledby="glossaryItemrandomised_trialsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemrandomised_trialsLabel">Randomised Trials</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemrandomised_trial_protocols" aria-labelledby="glossaryItemrandomised_trial_protocolsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemrandomised_trial_protocolsLabel">Randomised Trial Protocols</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemqualitative_research" aria-labelledby="glossaryItemqualitative_researchLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemqualitative_researchLabel">Qualitative research</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Research that aims to gather and analyse non-numerical (descriptive) data in order to gain an understanding of individuals' social reality, including understanding their attitudes, beliefs, and motivation. This type of research typically involves in-depth interviews, focus groups, or field observations in order to collect data that is rich in detail and context. Qualitative research is often used to explore complex phenomena or to gain insight into people's experiences and perspectives on a particular topic. It is particularly useful when researchers want to understand the meaning that people attach to their experiences or when they want to uncover the underlying reasons for people's behavior. Qualitative methods include ethnography, grounded theory, discourse analysis, and interpretative phenomenological analysis. (<a href="https://en.wikipedia.org/wiki/Qualitative_research">source</a>)</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcase_reports" aria-labelledby="glossaryItemcase_reportsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcase_reportsLabel">Case Reports</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemdiagnostic_test_accuracy_studies" aria-labelledby="glossaryItemdiagnostic_test_accuracy_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemdiagnostic_test_accuracy_studiesLabel">Diagnostic Test Accuracy Studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Diagnostic accuracy studies focus on estimating the ability of the test(s) to correctly identify subjects with a predefined target condition, or the condition of interest (sensitivity) as well as to clearly identify those without the condition (specificity).</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemprediction_models" aria-labelledby="glossaryItemprediction_modelsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemprediction_modelsLabel">Prediction Models</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Prediction models are developed to aid health care providers in estimating the probability or risk that a specific disease or condition is present (diagnostic models) or that a specific event will occur in the future (prognostic models), to inform their decision making.</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemanimal_research" aria-labelledby="glossaryItemanimal_researchLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemanimal_researchLabel">Animal Research</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemqi" aria-labelledby="glossaryItemqiLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemqiLabel">Quality Improvement in Healthcare</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemeconomic_evaluations" aria-labelledby="glossaryItemeconomic_evaluationsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemeconomic_evaluationsLabel">Economic Evaluations in Healthcare</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../../guidelines/strobe-cohort/items/18_key_results.html" class="pagination-link" aria-label="18. Key results">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">18. Key results</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../../guidelines/strobe-cohort/items/20_interpretation.html" class="pagination-link" aria-label="20. Interpretation">
+        <span class="nav-page-text">20. Interpretation</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../../about">
+<p>About</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../../license">
+<p>License</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../../privacy">
+<p>Privacy Policy</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/equatornetwork">
+      <i class="bi bi-twitter" role="img" aria-label="Quarto Twitter">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../../github">
+      <i class="bi bi-github" role="img" aria-label="EQUATOR GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
