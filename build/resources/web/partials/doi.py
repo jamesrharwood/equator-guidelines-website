@@ -12,7 +12,7 @@ TEXT = """\
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 :::
 :::{.text-small}
-{{< meta acronym >}}: {{< meta full-title >}}
+{{< meta acronym >}}: {{< meta acronym-definition >}}
 
 {{< meta translations >}}
 
@@ -24,4 +24,4 @@ Version: This is the latest version
 """
 
 def create_web(guideline):
-    return TEXT.replace('DATA_DOI', guideline.doi)
+    return TEXT.replace('DATA_DOI', guideline.config['doi-for-citation-count'])

@@ -2,7 +2,8 @@ from typing import List
 
 from build.file import save_string
 from . import giscus, metadata, doi, use_for, not_use_for, related_resources,\
-    glossary_offcanvas, glossary_offcanvas_include, how_to_use, why_use, ready_to_start, faqs, summary, item_pages
+    glossary_offcanvas, glossary_offcanvas_include, how_to_use, why_use, \
+    ready_to_start, faqs, summary, item_pages, author_bios, development
 from build.guideline.glossary import add_glossary_to_string, wrap_string_with_span
 
 class Partial:
@@ -57,7 +58,9 @@ class CopyFiles(Page):
 def create_pages(guideline):
     partials_to_copy = [
         Partial(metadata, None),
-        Partial(glossary_offcanvas, 'glossary_dict'),
+        Partial(glossary_offcanvas, None),
+        Partial(author_bios, None),
+        Partial(development, None),
     ]
     copied_files = CopyFiles(guideline, None, partials_to_copy)
     pages = []
@@ -102,16 +105,4 @@ def create_giscus_page(item):
     item_module = giscus.Giscus(item)
     partial = Partial(item_module, 'has_open_e_and_e')
     page = Page(item.guideline, item.giscus_path, [partial])
-    return page    
-
-# PARTIALS = [
-#     Partial(metadata, None),
-#     #Partial(translations, 'has_translations'),
-#     Partial(why_use, 'has_why_use'),
-
-#     Partial(guidance, None),
-#     Partial(how_to_cite, None),
-#     Partial(faqs, None),
-#     Partial(giscus, 'has_data_repo'),
-#     Partial(glossary_offcanvas, 'glossary_dict'),
-# ]  
+    return page

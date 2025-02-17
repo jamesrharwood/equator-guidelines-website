@@ -1,3 +1,148 @@
-doi: 10.1136/bmj.n71
+doi-for-citation-count: 10.1371/journal.pmed.1003583
+doi: 10.1234/equator/1010101
 id: prisma
 translations: []
+title: The PRISMA reporting guideline for writing a systematic review and meta-analysis
+acronym: PRISMA
+acronym-definition: The Preferred Reporting Items for Systematic reviews and Meta-Analyses
+open-e-and-e: true
+journal-endorsement-count: 1000+
+version: '1.1'
+articles:
+  development:   
+    id: pagePRISMA2020Statement2021a
+    abstract: >-
+      Matthew Page and co-authors describe PRISMA 2020, an updated reporting
+      guideline for systematic reviews and meta-analyses.
+    accessed:
+      - year: 2025
+        month: 2
+        day: 14
+    author:
+      - family: Page
+        given: Matthew J.
+      - family: McKenzie
+        given: Joanne E.
+      - family: Bossuyt
+        given: Patrick M.
+      - family: Boutron
+        given: Isabelle
+      - family: Hoffmann
+        given: Tammy C.
+      - family: Mulrow
+        given: Cynthia D.
+      - family: Shamseer
+        given: Larissa
+      - family: Tetzlaff
+        given: Jennifer M.
+      - family: Akl
+        given: Elie A.
+      - family: Brennan
+        given: Sue E.
+      - family: Chou
+        given: Roger
+      - family: Glanville
+        given: Julie
+      - family: Grimshaw
+        given: Jeremy M.
+      - family: Hróbjartsson
+        given: Asbjørn
+      - family: Lalu
+        given: Manoj M.
+      - family: Li
+        given: Tianjing
+      - family: Loder
+        given: Elizabeth W.
+      - family: Mayo-Wilson
+        given: Evan
+      - family: McDonald
+        given: Steve
+      - family: McGuinness
+        given: Luke A.
+      - family: Stewart
+        given: Lesley A.
+      - family: Thomas
+        given: James
+      - family: Tricco
+        given: Andrea C.
+      - family: Welch
+        given: Vivian A.
+      - family: Whiting
+        given: Penny
+      - family: Moher
+        given: David
+    citation-key: pagePRISMA2020Statement2021a
+    container-title: PLOS Medicine
+    container-title-short: PLOS Medicine
+    DOI: 10.1371/journal.pmed.1003583
+    ISSN: 1549-1676
+    issue: '3'
+    issued:
+      - year: 2021
+        month: 3
+        day: 29
+    language: en
+    page: e1003583
+    publisher: Public Library of Science
+    source: PLoS Journals
+    title: >-
+      The PRISMA 2020 statement: An updated guideline for reporting systematic
+      reviews
+    title-short: The PRISMA 2020 statement
+    type: article-journal
+    URL: >-
+      https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003583
+    volume: '18'
+authors:
+  - family: Page
+    given: Matthew J.
+  - family: McKenzie
+    given: Joanne E.
+  - family: Bossuyt
+    given: Patrick M.
+  - family: Boutron
+    given: Isabelle
+  - family: Hoffmann
+    given: Tammy C.
+  - family: Mulrow
+    given: Cynthia D.
+  - family: Shamseer
+    given: Larissa
+  - family: Tetzlaff
+    given: Jennifer M.
+  - family: Akl
+    given: Elie A.
+  - family: Brennan
+    given: Sue E.
+  - family: Chou
+    given: Roger
+  - family: Glanville
+    given: Julie
+  - family: Grimshaw
+    given: Jeremy M.
+  - family: Hróbjartsson
+    given: Asbjørn
+  - family: Lalu
+    given: Manoj M.
+  - family: Li
+    given: Tianjing
+  - family: Loder
+    given: Elizabeth W.
+  - family: Mayo-Wilson
+    given: Evan
+  - family: McDonald
+    given: Steve
+  - family: McGuinness
+    given: Luke A.
+  - family: Stewart
+    given: Lesley A.
+  - family: Thomas
+    given: James
+  - family: Tricco
+    given: Andrea C.
+  - family: Welch
+    given: Vivian A.
+  - family: Whiting
+    given: Penny
+  - family: Moher
+    given: David

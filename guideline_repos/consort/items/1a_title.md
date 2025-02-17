@@ -1,5 +1,5 @@
 ---
-id: 1a_title
+id: title
 title: "1a. Title"
 ---
 

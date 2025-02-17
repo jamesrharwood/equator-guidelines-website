@@ -1,0 +1,3 @@
+You can read how {{< meta acronym >}} was developed [here]({{< meta articles.development.DOI >}}). The abstract says:
+
+> We convened a 2-day workshop in September 2004, with methodologists, researchers, and journal editors, to draft a checklist of items. This list was subsequently revised during several meetings of the coordinating group and in e-mail discussions with the larger group of STROBE contributors, taking into account empirical evidence and methodological considerations.

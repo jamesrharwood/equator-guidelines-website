@@ -6,8 +6,9 @@ checklist: &id001
   - 2a_background_and_objectives.md
   - 2b_background_and_objectives.md
 - Methods:
-  - 3a_trial_design.md
-  - 3b_trial_design.md
+  - Trial Design:
+    - 3a_trial_design.md
+    - 3b_trial_design.md
   - 4a_participants_.md
   - 4b_participants_.md
   - 5_interventions.md

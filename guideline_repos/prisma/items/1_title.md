@@ -1,5 +1,5 @@
 ---
-id: 1_
+id: 1_title
 title: "1. Title"
 ---
 Identify the report as a systematic review, meta-analysis, or both.

@@ -1,0 +1,1 @@
+The {{< meta acronym >}} reporting guideline helps authors write systematic reviews that can be understood and used by everyone. This page summarises {{< meta acronym >}} and how it can be used. Each guideline item links to more information, examples, and relevant training.

@@ -1,3 +1,64 @@
-doi: 10.1136/bmj.39335.541782.ad
+doi-for-citation-count: 10.7326/0003-4819-147-8-200710160-00010
+doi: 10.1234/equator/1010101
 id: strobe-case-control
 translations: []
+title: The STROBE Case-Control reporting guideline for writing up observational research investigating disease risk factors
+acronym: STROBE Case-Control
+acronym-definition: Strengthening the Reporting of Observational Studies in Epidemiology - Case-Control Studies
+open-e-and-e: true
+journal-endorsement-count: 1000+
+version: '1.1'
+articles:
+  development:   
+    author:
+      - family: Elm
+        given: Erik
+        non-dropping-particle: von
+      - family: Altman
+        given: Douglas G.
+      - family: Egger
+        given: Matthias
+      - family: Pocock
+        given: Stuart J.
+      - family: Gøtzsche
+        given: Peter C.
+      - family: Vandenbroucke
+        given: Jan P.
+      - literal: for the STROBE Initiative
+    citation-key: vonelmStrengtheningReportingObservational2007a
+    container-title: Annals of Internal Medicine
+    container-title-short: Ann Intern Med
+    DOI: 10.7326/0003-4819-147-8-200710160-00010
+    ISSN: 0003-4819
+    issue: '8'
+    issued:
+      - year: 2007
+        month: 10
+        day: 16
+    page: 573-577
+    publisher: American College of Physicians
+    source: acpjournals.org (Atypon)
+    title: >-
+      The Strengthening the Reporting of Observational Studies in Epidemiology
+      (STROBE) Statement: Guidelines for Reporting Observational Studies
+    title-short: >-
+      The Strengthening the Reporting of Observational Studies in Epidemiology
+      (STROBE) Statement
+    type: article-journal
+    URL: https://www.acpjournals.org/doi/10.7326/0003-4819-147-8-200710160-00010
+    volume: '147'
+authors:
+  - family: Elm
+    given: Erik
+    non-dropping-particle: von
+  - family: Altman
+    given: Douglas G.
+  - family: Egger
+    given: Matthias
+  - family: Pocock
+    given: Stuart J.
+  - family: Gøtzsche
+    given: Peter C.
+  - family: Vandenbroucke
+    given: Jan P.
+  - literal: for the STROBE Initiative

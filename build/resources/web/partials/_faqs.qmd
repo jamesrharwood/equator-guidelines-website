@@ -1,6 +1,57 @@
 ---
 id: faqs
 title: Frequently Asked Questions
+appendix-cite-as: true
 ---
 
+# Frequently Asked Questions
+
+## How to cite {{< meta acronym >}} {#how-to-cite}
+
+In your methods section, state which guideline resources you used to write your article, refer readers to the supplementary materials to view your completed checklist, and cite this reporting guideline. For example:
+
+> We used the {{< meta acronym >}} writing guide when drafting this article, and the {{< meta acronym >}} checklist (see supplementary materials A) to demonstrate adherence to the {{< meta acronym >}} reporting guideline. [1].
+
+You can use your reference manager to save citation information for this webpage, or copy the [BibTeX below](#citation).
+
+## Who made {{< meta acronym >}}? {#developers}
+
+{{< include partials/author_bios.md >}}
+
+## How was {{< meta acronym >}} made? {#development}
+
+{{< include partials/development.md >}}
+
+The UK EQUATOR Centre then worked with {{< meta acronym >}}'s authors to make {{< meta acronym >}} easier to use by clarifying language, adding definitions, examples, extra information and resources. Although worded differently, the guidance on this website is conceptually the same as the original publication and can be used interchangeably.
+
+## Does {{< meta acronym >}} prescribe structure? {#item-order}
+
+No. {{< meta acronym >}} does not prescribe a rigid format or standardized content. Consider each item and prioritize elements that are most relevant to your study, findings, context, and readers.
+
+You may prefer to report an item in a different order, section, or in a table or figure. For example, some authors may prefer to include some methods items in their Results section. Others may call their Results section Findings, or have a completely different manuscript structure.
+
+## How to prioritize items and keep writing concise {#concise-writing}
+
+Although all items should be reported, you should prioritize items most relevant to your study, findings, context, and readership.
+
+You should include information in the article body when possible so it's easy for readers to find. However, if you are worried about word counts or brevity, consider placing information in tables.
+
+If you feel confident that an item is less important to your study, you could report it in an appendix or supplement. Be aware that supplementary materials may not be peer reviewed, are not indexed by search engines, and can be difficult for readers to find. Therefore, they are best only used for details you feel are less important, and you should point readers to them from the article body. For example, "For more details, see the supplementary materials A".
+
+The UK EQUATOR centre runs [training]{#training} on how to write concisely.
+
+## What to write if you feel an item is not applicable
+
+If you think an item is not applicable, state why. You could state this in the text or in the reporting checklist. Remember to publish your completed reporting checklist as a supplement, and to refer authors to it from your methods section.
+
+## What to do if asked to remove guideline related content {#asked-to-remove}
+
+If a colleague or reviewer asks you to remove content that is related to this guideline, you can direct them to this guideline and the explanation for why that item is important. If they insist, consider moving the item to a supplement, table or figure.
+
 {{< include partials/faqs.md >}}
+
+## Where can I get general writing training? {#training}
+
+The EQUATOR Network provides in-person [training for writing research articles](https://www.equator-network.org/2023/01/24/uk-equator-centre-publication-school-april-2023/).
+
+AuthorAID have [resources](https://www.authoraid.info/en/resources/), an [online course](https://www.authoraid.info/en/e-learning/), and [mentoring](https://www.authoraid.info/en/mentoring/) to help authors.

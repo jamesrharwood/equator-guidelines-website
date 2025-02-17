@@ -28,9 +28,14 @@ class Item:
         return self.idx(resource) + 1
 
     def checklist_text(self):
-        return self.meta.get('checklist', None) or \
-        self.text.strip().split('\n')[0].strip() + '...' or \
-        'Summary'
+        text = self.meta.get('checklist', None)
+        text = text or self.text.strip().split('\n')[0].strip()
+        if len(text) > 300:
+            text = text[:300] + '...'
+        text = text or ''
+        if text and not text.endswith('.'):
+            text += '.'
+        return text
     
     @classmethod
     def from_filepath(cls, filepath, guideline):

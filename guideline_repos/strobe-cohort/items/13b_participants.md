@@ -1,6 +1,6 @@
 ---
 id: 13b_participants
-title: "13b. Participants"
+title: "13b. Participants: non-participation"
 ---
 Give reasons for non-participation at each stage
 

@@ -1,3 +1,11 @@
-doi: 10.1136/bmj.c332
+title: "CONSORT reporting guideline for writing clinical trial research articles"
+acronym: CONSORT
+acronym-definition: ''
+journal-endorsement-count: 500+
 id: consort
-translations: []
+doi-for-citation-count: 10.1186/1741-7015-8-18
+# data-repo: jamesrharwood/consort
+open-e-and-e: true
+version: '1.1'
+
+

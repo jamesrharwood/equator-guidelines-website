@@ -1,6 +1,6 @@
 ---
 id: 6b_eligibility_criteria
-title: "6b. Eligibility criteria"
+title: "6b. Eligibility criteria: matched studies"
 ---
 For matched studies, give matching criteria and number of exposed and unexposed
 

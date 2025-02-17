@@ -1,49 +1,169 @@
-title: The SRQR reporting guideline for writing qualitative research articles
-full-title: Standards for Reporting Qualitative Research
-pagetitle: The SRQR reporting guideline for writing qualitative research articles
 acronym: SRQR
-translations: "Translations: 🇫🇷 [French](https://doi.org/10.1016/j.kine.2022.05.004)"
-# rg-authors: Bridget O'Brien, Ilene Harris, Thomas Beckman, Darcy Reed, David Cook
-journal-endorsement-count: 500+
-css: 
-  - ../../css/styles.css
-  - ../../css/index.css
-  - ../../css/guidelines.css
-  - ../../css/styles2.css
-appendix-style: default
-search: false
-footer: none
-articles:
-  development: 
-    - https://doi.org/10.1097/ACM.0000000000000388
-  eande: 
-    - https://cdn-links.lww.com/permalink/acadmed/a/acadmed_89_9_2014_05_22_obrien_1301196_sdc1.pdf
-citation: 
-  title: The SRQR guidelines for writing qualitative research articles
-  type: standard
-  issued: 2023/02/20
-  doi: 10.1234/equator/1010101
-  version: "1.1"
-  language: en
-  author: 
-    - name: Bridget O'Brien
-    - name: Ilene Harris
-    - name: Thomas Beckman 
-    - name: Darcy Reed
-    - name: David Cook
-  container-title: The EQUATOR Network guideline dissemination platform
-  container-author: 
-    - name: James Harwood
-    - name: Charlotte Albury
-    - name: Jennifer de Beyer
-    - name: Shona Kirtley
-    - name: Patricia Logullo
-    - name: Michael Schlüssel
-    - name: Caroline Struthers 
-    - name: Gary Collins
+acronym-definition: Standards for Reporting Qualitative Research
 appendix-cite-as: false
-google-scholar: true
-sidebar: srqr
+appendix-style: default
+articles:
+  development:
+    DOI: 10.1097/ACM.0000000000000388
+    ISSN: 1040-2446
+    URL: https://journals.lww.com/academicmedicine/fulltext/2014/09000/Standards_for_Reporting_Qualitative_Research__A.21.aspx
+    abstract: "Purpose\_\n        Standards for reporting exist for many types of\
+      \ quantitative research, but currently none exist for the broad spectrum of\
+      \ qualitative research. The purpose of the present study was to formulate and\
+      \ define standards for reporting qualitative research while preserving the requisite\
+      \ flexibility to accommodate various paradigms, approaches, and methods.\n \
+      \       Method\_\n        The authors identified guidelines, reporting standards,\
+      \ and critical appraisal criteria for qualitative research by searching PubMed,\
+      \ Web of Science, and Google through July 2013; reviewing the reference lists\
+      \ of retrieved sources; and contacting experts. Specifically, two authors reviewed\
+      \ a sample of sources to generate an initial set of items that were potentially\
+      \ important in reporting qualitative research. Through an iterative process\
+      \ of reviewing sources, modifying the set of items, and coding all sources for\
+      \ items, the authors prepared a near-final list of items and descriptions and\
+      \ sent this list to five external reviewers for feedback. The final items and\
+      \ descriptions included in the reporting standards reflect this feedback.\n\
+      \        Results\_\n        The Standards for Reporting Qualitative Research\
+      \ (SRQR) consists of 21 items. The authors define and explain key elements of\
+      \ each item and provide examples from recently published articles to illustrate\
+      \ ways in which the standards can be met.\n        Conclusions\_\n        The\
+      \ SRQR aims to improve the transparency of all aspects of qualitative research\
+      \ by providing clear standards for reporting qualitative research. These standards\
+      \ will assist authors during manuscript preparation, editors and reviewers in\
+      \ evaluating a manuscript for potential publication, and readers when critically\
+      \ appraising, applying, and synthesizing study findings."
+    accessed:
+    - day: 7
+      month: 10
+      year: 2022
+    author:
+    - family: "O\u2019Brien"
+      given: Bridget C.
+    - family: Harris
+      given: Ilene B.
+    - family: Beckman
+      given: Thomas J.
+    - family: Reed
+      given: Darcy A.
+    - family: Cook
+      given: David A.
+    citation-key: obrienStandardsReportingQualitative2014
+    container-title: Academic Medicine
+    id: obrienStandardsReportingQualitative2014
+    issue: '9'
+    issued:
+    - month: 9
+      year: 2014
+    language: en-US
+    page: "1245\u20131251"
+    source: journals.lww.com
+    title: 'Standards for Reporting Qualitative Research: A Synthesis of Recommendations'
+    title-short: Standards for Reporting Qualitative Research
+    type: article-journal
+    volume: '89'
+citation:
+  author:
+  - family: O&amp
+    given: Bridget
+  - family: '#039'
+    given: ''
+  - family: Brien
+    given: ''
+  - family: Harris
+    given: Ilene
+  - family: Beckman
+    given: Thomas
+  - family: Reed
+    given: Darcy
+  - family: Cook
+  container-author:
+  - name: James Harwood
+  - name: Charlotte Albury
+  - name: Jennifer de Beyer
+  - name: "Michael Schl\xFCssel"
+  - name: Caroline Struthers
+  - name: Gary Collins
+  container-title: The EQUATOR Network guideline dissemination platform
+  doi: 10.1234/equator/1010101
+  title: SRQR reporting guideline for writing qualitative research articles
+  type: webpage
+  version: '1.1'
+css:
+- ../../css/styles.css
+- ../../css/index.css
+- ../../css/guidelines.css
+- ../../css/styles2.css
+footer: none
 format:
   html:
-    include-after-body: partials/glossary_offcanvas.html	
+    include-after-body: partials/glossary_offcanvas.html
+google-scholar: true
+id: srqr
+items:
+  abstract:
+    title: Abstract
+    web_path: /guidelines/srqr/items/abstract.qmd
+  conflicts-of-interest:
+    title: Conflicts of interest
+    web_path: /guidelines/srqr/items/conflicts-of-interest.qmd
+  context:
+    title: Context
+    web_path: /guidelines/srqr/items/context.qmd
+  data-analysis:
+    title: Data analysis
+    web_path: /guidelines/srqr/items/data-analysis.qmd
+  data-collection-instruments:
+    title: Data collection instruments and technologies
+    web_path: /guidelines/srqr/items/data-collection-instruments.qmd
+  data-collection-methods:
+    title: Data collection methods
+    web_path: /guidelines/srqr/items/data-collection-methods.qmd
+  data-processing:
+    title: Data processing
+    web_path: /guidelines/srqr/items/data-processing.qmd
+  ethics:
+    title: Ethical issues pertaining to human subjects
+    web_path: /guidelines/srqr/items/ethics.qmd
+  funding:
+    title: Funding
+    web_path: /guidelines/srqr/items/funding.qmd
+  integration-with-prior-work:
+    title: Integration with prior work, implications, transferability, and contribution(s)
+      to the field
+    web_path: /guidelines/srqr/items/integration-with-prior-work.qmd
+  limitations:
+    title: Limitations
+    web_path: /guidelines/srqr/items/limitations.qmd
+  links-to-empirical-data:
+    title: Links to empirical data
+    web_path: /guidelines/srqr/items/links-to-empirical-data.qmd
+  problem-formulation:
+    title: Problem Formulation
+    web_path: /guidelines/srqr/items/problem-formulation.qmd
+  purpose:
+    title: Purpose or research question
+    web_path: /guidelines/srqr/items/purpose.qmd
+  qualitative-approach:
+    title: Qualitative approach and research paradigm
+    web_path: /guidelines/srqr/items/qualitative-approach.qmd
+  researcher-characteristics-and-reflexivity:
+    title: Researcher characteristics and reflexivity
+    web_path: /guidelines/srqr/items/researcher-characteristics-and-reflexivity.qmd
+  sampling-strategy:
+    title: Sampling strategy
+    web_path: /guidelines/srqr/items/sampling-strategy.qmd
+  synthesis-and-interpretation:
+    title: Synthesis and interpretation
+    web_path: /guidelines/srqr/items/synthesis-and-interpretation.qmd
+  title:
+    title: Title
+    web_path: /guidelines/srqr/items/title.qmd
+  trustworthiness:
+    title: Techniques to enhance trustworthiness
+    web_path: /guidelines/srqr/items/trustworthiness.qmd
+  units-of-study:
+    title: Units of study
+    web_path: /guidelines/srqr/items/units-of-study.qmd
+journal-endorsement-count: 500+
+search: false
+title: SRQR reporting guideline for writing qualitative research articles
+translations: "[\U0001F1EB\U0001F1F7 French](https://doi.org/10.1016/j.kine.2022.05.004)"

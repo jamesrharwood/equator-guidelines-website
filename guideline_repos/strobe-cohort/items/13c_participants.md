@@ -1,6 +1,6 @@
 ---
 id: 13c_participants
-title: "13c. Participants"
+title: "13c. Participants: flow diagram"
 ---
 Consider use of a flow diagram
 

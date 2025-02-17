@@ -30,6 +30,8 @@ class RepoPaths:
         self.how_to_use = join(self.partials_dir, 'how_to_use.md')
         self.how_to_cite = join(self.partials_dir, 'how_to_cite.md')
         self.item_order = join(self.partials_dir, 'item_order.md')
+        self.author_bios = join(self.partials_dir, 'author_bios.md')
+        self.development = join(self.partials_dir, 'development.md')
     
     def item(self, filename):
         return join(self.items_dir, filename)

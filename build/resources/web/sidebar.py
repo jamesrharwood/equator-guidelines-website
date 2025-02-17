@@ -1,5 +1,5 @@
 import os
-import yaml
+from build.file import get_yml, save_yml
 
 from build.paths import root_path
 sidebars_path = os.path.join(root_path, '_sidebars.yml')
@@ -39,7 +39,16 @@ class Sidebar:
       contents = []
       for dict_ in self.guideline.resource_definitions['web']:
          for title in dict_.keys():
-            items = [self.guideline_item(file_) for file_ in dict_[title]]
+            items = []
+            for entry in dict_[title]:
+               if type(entry) is str:
+                  items.append(self.guideline_item(entry))
+               elif type(entry is dict):
+                  keys = list(entry.keys())
+                  assert len(keys)==1
+                  key = keys[0]
+                  values = entry[key]
+                  items.append(self.section(key, [self.guideline_item(v) for v in values]))
             contents.append(self.section(title, items))
       return contents
 
@@ -60,17 +69,9 @@ class Sidebar:
          href = item.web_path
       )
    
-   def get_yml(self):
-      with open(sidebars_path, 'r') as file_:
-         yml = yaml.safe_load(file_)
-      return yml
-   
-   def save_yml(self, yml):
-      with open(sidebars_path, 'w') as file_:
-         yaml.safe_dump(yml, file_)
 
    def update_yml(self):
-      yml = self.get_yml()
+      yml = get_yml(sidebars_path)
       sidebars = yml['website']['sidebar']
       existing = next((sidebar for sidebar in sidebars if sidebar['id']==self.id), None)
       if existing:
@@ -81,6 +82,6 @@ class Sidebar:
    
    def save(self):
       yml = self.update_yml()
-      self.save_yml(yml)
+      save_yml(sidebars_path, yml)
 
 

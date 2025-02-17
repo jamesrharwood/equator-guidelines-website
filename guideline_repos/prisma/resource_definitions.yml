@@ -1,6 +1,6 @@
 checklist: &id001
 - Title:
-  - 1_.md
+  - 1_title.md
 - Abstract:
   - 2_structured_summary.md
 - Introduction:

@@ -10,7 +10,7 @@ checklist: &id001
   - 5_setting.md
   - 6a_eligibility_criteria.md
   - 6b_eligibility_criteria.md
-  - 7_.md
+  - 7_variables.md
   - 8_data_sources__measurement.md
   - 9_bias.md
   - 10_study_size.md

@@ -1,7 +1,9 @@
 project:
   type: website
   output-dir: _site
-  resources: "guidelines/srqr/admin/*"
+  resources: 
+    - "guidelines/srqr/admin/*"
+    - "admin/*"
   render:
     - "*.qmd"
 smooth-scroll: true

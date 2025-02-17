@@ -1,6 +1,6 @@
 ---
 id: 16b_main_results
-title: "16b. Main results"
+title: "16b. Main results: category boundaries"
 ---
 Report category boundaries when continuous variables were categorized
 
