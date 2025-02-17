@@ -13,7 +13,6 @@ description: |
 include-after-body:
   - scripts/typewriter.html
 include-before-body: 
-  - scripts/decap-identity.html
   - scripts/jquery.html
 ---
 
