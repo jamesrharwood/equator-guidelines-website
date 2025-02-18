@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The PRISMA-P guidelines for writing a protocol of a systematic review.</title>
+<title>The PRISMA-P reporting guideline for writing a protocol for a systematic review</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,23 +30,30 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../guidelines/prisma-p/items/1a_identification.html" rel="next">
 <link href="../../assets/favicons/equator-network-16x16.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-a399256dfab7e52281ee9593702f5c48.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -62,8 +70,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 <script>
+    console.log('In search func!')
     window.document.addEventListener("DOMContentLoaded", function (_event) {
-        console.log('in function!')
         var searchShortcuts = document.getElementsByClassName("search-shortcut");
         var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
         for (let i = 0; i < searchShortcuts.length; i++) {
@@ -79,123 +87,418 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../css/styles.css">
 <link rel="stylesheet" href="../../css/index.css">
+<link rel="stylesheet" href="../../css/guidelines.css">
+<link rel="stylesheet" href="../../css/styles2.css">
+<meta name="citation_title" content="The PRISMA-P reporting guideline for writing a protocol for a systematic review">
+<meta name="citation_author" content="David Moher">
+<meta name="citation_author" content="Larissa Shamseer">
+<meta name="citation_author" content="Mike Clarke">
+<meta name="citation_author" content="Davina Ghersi">
+<meta name="citation_author" content="Alessandro Liberati">
+<meta name="citation_author" content="Mark Petticrew">
+<meta name="citation_author" content="Paul Shekelle">
+<meta name="citation_author" content="Lesley A. Stewart">
+<meta name="citation_doi" content="10.1234/equator/1010101">
+<meta name="citation_language" content="en">
+<meta name="citation_journal_title" content="The EQUATOR Network guideline dissemination platform">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../assets/equator_logo.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Reporting Guidelines</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Reporting Guidelines</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/" rel="" target="">
- <span class="menu-text">Training</span></a>
+    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/"> 
+<span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Other Resources</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Toolkits</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Library</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Resources for Publishers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Resources for Guideline Developers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Resources for Librarians</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About EQUATOR</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">The EQUATOR Network</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Blog</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">The PRISMA-P reporting guideline for writing a protocol for a systematic review</h1>
+        </a>     
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Overview of PRISMA-P</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Full guidance</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Title</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/1a_identification.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1a. Identification</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/1b_update.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1b. Update</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Registration</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2. Registration</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Authors</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/3a_contact.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3a. Contact</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/3b_contribution.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3b. Contribution</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Amendments</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4. Amendments</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Support</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/5a_sources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5a. Sources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/5b_sponsor.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5b. Sponsor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/5c_role_of_sponsor_or_funder.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5c. Role of sponsor or funder</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Introduction</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/6_rationale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6. Rationale</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/7_objectives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7. Objectives</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">Methods</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/8_eligibility_criteria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8. Eligibility criteria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/9_information_sources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9. Information sources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/10_search_strategy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10. Search strategy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/11a_study_records__data_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11a. Study records - data management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/11b_study_records__selection_process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11b. Study records - selection process</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/11c_study_records__data_collection_process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11c. Study records - data collection process</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/12_data_items.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12. Data items</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/13_outcomes_and_prioritization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">13. Outcomes and prioritization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/14_risk_of_bias_in_individual_studies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">14. Risk of bias in individual studies</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/15a_data_synthesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">15a. Data synthesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/15b_data_synthesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">15b. Data synthesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/15c_data_synthesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">15c. Data synthesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/15d_data_synthesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">15d. Data synthesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/16_metabiases.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">16. Meta-bias(es)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/items/17_confidence_in_cumulative_evidence.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">17. Confidence in cumulative evidence</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/prisma-p_writing_guide.docx" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Writing guide</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/prisma-p_checklist.docx" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Checklist</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/prisma-p/faqs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAQs</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-this-guideline" id="toc-about-this-guideline" class="nav-link active" data-scroll-target="#about-this-guideline">About this guideline</a></li>
-  <li><a href="#download-resources" id="toc-download-resources" class="nav-link" data-scroll-target="#download-resources">Download Resources</a></li>
-  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance">Guidance</a>
-  <ul class="collapse">
-  <li><a href="#title" id="toc-title" class="nav-link" data-scroll-target="#title">Title</a></li>
-  <li><a href="#registration" id="toc-registration" class="nav-link" data-scroll-target="#registration">Registration</a></li>
-  <li><a href="#authors" id="toc-authors" class="nav-link" data-scroll-target="#authors">Authors</a></li>
-  <li><a href="#amendments" id="toc-amendments" class="nav-link" data-scroll-target="#amendments">Amendments</a></li>
-  <li><a href="#support" id="toc-support" class="nav-link" data-scroll-target="#support">Support</a></li>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
-  </ul></li>
+  <li><a href="#how-to-use" id="toc-how-to-use" class="nav-link active" data-scroll-target="#how-to-use">How to use this reporting guideline</a></li>
+  <li><a href="#applicability-criteria" id="toc-applicability-criteria" class="nav-link" data-scroll-target="#applicability-criteria">Applicability criteria</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary of guidance</a></li>
   </ul>
 </nav>
-</nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The PRISMA-P guideline for writing a protocol of a systematic review.</h1>
+<h1 class="title d-none d-lg-block">The PRISMA-P reporting guideline for writing a protocol for a systematic review</h1>
 </div>
 
 
@@ -208,358 +511,221 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
+
+<div class="hero-banner">
+<div class="content-block">
+<section>
+<p>The PRISMA-P <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemreporting_guideline" aria-controls="offcanvasExample" role="button">reporting guideline</span> helps authors write protocols for <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemsystematic_reviews" aria-controls="offcanvasExample" role="button">systematic reviews</span> that can be understood and used <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemresearch_consumers" aria-controls="offcanvasExample" role="button">by everyone</span>. This page summarises PRISMA-P and how it can be used. Each guideline item links to more information, examples, and relevant training.</p>
 <div class="citations-counter">
-<span class="__dimensions_badge_embed__" data-doi="10.1186/2046-4053-4-1" data-legend="never" data-style="large_rectangle"></span>
+<span class="__dimensions_badge_embed__ badge-inline" data-doi="10.1186/2046-4053-4-1" data-legend="never" data-style="large_rectangle"></span> <span class="badge-inline btn btn-sm journal-endorsement" type="button">Journals endorsing PRISMA-P</span> <span class="journal-endorsement journal-endorsement-count">1000+</span>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 </div>
-<section id="about-this-guideline" class="level2">
-<h2 class="anchored" data-anchor-id="about-this-guideline">About this guideline</h2>
-<div class="large">
-<p>This guideline is relevant to protocols of systematic reviews</p>
+<div class="text-small">
+<p>PRISMA-P: The Preferred Reporting Items for Systematic review and Meta-Analysis Protocols</p>
+<p>Version: PRISMA-P 2015 v1.1. This is the latest version ✅</p>
 </div>
 </section>
-<section id="download-resources" class="level2">
-<h2 class="anchored" data-anchor-id="download-resources">Download Resources</h2>
-<p>Reporting guidelines are best used early:</p>
+</div>
+</div>
+<section id="how-to-use" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use">How to use this reporting guideline</h2>
+<p>You can use <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemreporting_guideline" aria-controls="offcanvasExample" role="button">reporting guidelines</span> throughout your research process.</p>
 <ul>
-<li>Use a template to write quickly and avoid the blank page</li>
-<li>Use a checklist to double-check and reassure others that your work is described transparently</li>
+<li>When writing: Consider using a <a href="#downloads">writing guide</a> to draft your manuscript or protocol.</li>
+<li>After writing: Complete a <a href="#downloads">checklist</a> and include it with your journal submission.</li>
+<li>To learn: Consult the <a href="#summary">guidance</a> whenever you need it.</li>
 </ul>
-<div class="grid">
+<p>However you use PRISMA-P, please <a href="../../guidelines/prisma-p/faqs.html#citation">cite it</a>.</p>
+<div id="downloads" class="grid">
 <div class="g-col-12 g-col-md-4">
-<div class="download-text">
-<p>For drafting</p>
-</div>
-<p><a href="./prisma-p_template.docx"><button type="button" class="btn btn-primary btn-lg width-100">Template</button></a></p>
+<p><a href="#summary"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Full Guidance</button></a></p>
 </div>
 <div class="g-col-12 g-col-md-4">
-<div class="download-text">
-<p>For checking</p>
-</div>
-<p><a href="./prisma-p_checklist.docx"><button type="button" class="btn btn-primary btn-lg width-100">Checklist</button></a></p>
+<p><a href="./prisma-p_writing_guide.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Writing Guide</button></a></p>
 </div>
 <div class="g-col-12 g-col-md-4">
-<div class="download-text">
-<p>For planning</p>
-</div>
-<p><a href="./prisma-p_todo_list.docx"><button type="button" class="btn btn-primary btn-lg width-100">To-do list</button></a></p>
+<p><a href="./prisma-p_checklist.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Checklist</button></a></p>
 </div>
 </div>
 </section>
-<section id="guidance" class="level2">
-<h2 class="anchored" data-anchor-id="guidance">Guidance</h2>
-<p><small>Approx. 2 min read</small></p>
-<section id="title" class="level3">
-<h3 class="anchored" data-anchor-id="title">Title</h3>
-<div id="1a_identification" class="grid">
-<section id="a.-identification" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="a.-identification">1a. Identification</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/1a_identification.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
+<section id="applicability-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="applicability-criteria">Applicability criteria</h2>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>This guideline is relevant to protocols of <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemsystematic_reviews" aria-controls="offcanvasExample" role="button">systematic reviews</span></p>
 </div>
 </div>
-<p>Identify the report as a protocol of a systematic review</p>
-<div id="1b_update" class="grid">
-<section id="b.-update" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="b.-update">1b. Update</h4>
+</div>
 </section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/1b_update.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary of guidance</h2>
+<p>Although you should describe all items below, you can decide how to <a href="../../guidelines/prisma-p/faqs.html#item-order">order</a> and <a href="../../guidelines/prisma-p/faqs.html#concise-writing">prioritize items</a> most relevant to your study, findings, context, and readership whilst <a href="../../guidelines/prisma-p/faqs.html#concise-writing">keeping your writing concise</a>. You can read how PRISMA-P was developed in the <a href="../../guidelines/prisma-p/faqs.html#development">FAQs</a>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Title</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/1a_identification.html">1a. Identification</a></td>
+<td>Identify the report as a protocol of a systematic review.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/1b_update.html">1b. Update</a></td>
+<td>If the protocol is for an update of a previous systematic review, identify as such.</td>
+</tr>
+<tr class="even">
+<td><strong>Registration</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/2.html">2. Registration</a></td>
+<td>If registered, provide the name of the registry (such as PROSPERO) and registration number.</td>
+</tr>
+<tr class="even">
+<td><strong>Authors</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/3a_contact.html">3a. Contact</a></td>
+<td>Provide name, institutional affiliation, e-mail address of all protocol authors; provide physical mailing address of corresponding author.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/3b_contribution.html">3b. Contribution</a></td>
+<td>Describe contributions of protocol authors and identify the guarantor of the review.</td>
+</tr>
+<tr class="odd">
+<td><strong>Amendments</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/4.html">4. Amendments</a></td>
+<td>If the protocol represents an amendment of a previously completed or published protocol, identify as such and list changes; otherwise, state plan for documenting important protocol amendments.</td>
+</tr>
+<tr class="odd">
+<td><strong>Support</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/5a_sources.html">5a. Sources</a></td>
+<td>Indicate sources of financial or other support for the review.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/5b_sponsor.html">5b. Sponsor</a></td>
+<td>Provide name for the review funder and / or sponsor.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/5c_role_of_sponsor_or_funder.html">5c. Role of sponsor or funder</a></td>
+<td>Describe roles of funder(s), sponsor(s), and / or institution(s), if any, in developing the protocol.</td>
+</tr>
+<tr class="odd">
+<td><strong>Introduction</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/6_rationale.html">6. Rationale</a></td>
+<td>Describe the rationale for the review in the context of what is already known.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/7_objectives.html">7. Objectives</a></td>
+<td>Provide an explicit statement of the question(s) the review will address with reference to participants, interventions, comparators, and outcomes (PICO).</td>
+</tr>
+<tr class="even">
+<td><strong>Methods</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/8_eligibility_criteria.html">8. Eligibility criteria</a></td>
+<td>Specify the study characteristics (such as PICO, study design, setting, time frame) and report characteristics (such as years considered, language, publication status) to be used as criteria for eligibility for the review.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/9_information_sources.html">9. Information sources</a></td>
+<td>Describe all intended information sources (such as electronic databases, contact with study authors, trial registers or other grey literature sources) with planned dates of coverage.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/10_search_strategy.html">10. Search strategy</a></td>
+<td>Present draft of search strategy to be used for at least one electronic database, including planned limits, such that it could be repeated.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/11a_study_records__data_management.html">11a. Study records - data management</a></td>
+<td>Describe the mechanism(s) that will be used to manage records and data throughout the review.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/11b_study_records__selection_process.html">11b. Study records - selection process</a></td>
+<td>State the process that will be used for selecting studies (such as two independent reviewers) through each phase of the review (that is, screening, eligibility and inclusion in meta-analysis).</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/11c_study_records__data_collection_process.html">11c. Study records - data collection process</a></td>
+<td>Describe planned method of extracting data from reports (such as piloting forms, done independently, in duplicate), any processes for obtaining and confirming data from investigators.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/12_data_items.html">12. Data items</a></td>
+<td>List and define all variables for which data will be sought (such as PICO items, funding sources), any pre-planned data assumptions and simplifications.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/13_outcomes_and_prioritization.html">13. Outcomes and prioritization</a></td>
+<td>List and define all outcomes for which data will be sought, including prioritization of main and additional outcomes, with rationale.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/14_risk_of_bias_in_individual_studies.html">14. Risk of bias in individual studies</a></td>
+<td>Describe anticipated methods for assessing risk of bias of individual studies, including whether this will be done at the outcome or study level, or both; state how this information will be used in data synthesis.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/15a_data_synthesis.html">15a. Data synthesis</a></td>
+<td>Describe criteria under which study data will be quantitatively synthesised.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/15b_data_synthesis.html">15b. Data synthesis</a></td>
+<td>If data are appropriate for quantitative synthesis, describe planned summary measures, methods of handling data and methods of combining data from studies, including any planned exploration of consistency (such as I2, Kendall’s τ).</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/15c_data_synthesis.html">15c. Data synthesis</a></td>
+<td>Describe any proposed additional analyses (such as sensitivity or subgroup analyses, meta-regression).</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/15d_data_synthesis.html">15d. Data synthesis</a></td>
+<td>If quantitative synthesis is not appropriate, describe the type of summary planned.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/prisma-p/items/16_metabiases.html">16. Meta-bias(es)</a></td>
+<td>Specify any planned assessment of meta-bias(es) (such as publication bias across studies, selective reporting within studies).</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/prisma-p/items/17_confidence_in_cumulative_evidence.html">17. Confidence in cumulative evidence</a></td>
+<td>Describe how the strength of the body of evidence will be assessed (such as GRADE).</td>
+</tr>
+</tbody>
+</table>
+<div class="quote card">
+<div class="quote-text-normal">
+<p>We like publishing transparent research because we think it’s more likely to be used and cited. That’s why we ask authors to use reporting guidelines.</p>
+</div>
+<div class="quote-who">
+<p><img src="../../assets/images/editor.png"></p>
+<div class="name">
+<p><span class="text-small bold">Robin Lavery</span></p>
+<p><span class="text-small">Editor, International Journal of World Medicine</span></p>
 </div>
 </div>
-<p>If the protocol is for an update of a previous systematic review, identify as such</p>
-</section>
-<section id="registration" class="level3">
-<h3 class="anchored" data-anchor-id="registration">Registration</h3>
-<div id="2" class="grid">
-<section id="registration-1" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="registration-1">2. Registration</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/2.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
 </div>
-</div>
-<p>If registered, provide the name of the registry (such as PROSPERO) and registration number</p>
+<!-- quote -->
 </section>
-<section id="authors" class="level3">
-<h3 class="anchored" data-anchor-id="authors">Authors</h3>
-<div id="3a_contact" class="grid">
-<section id="a.-contact" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="a.-contact">3a. Contact</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/3a_contact.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Provide name, institutional affiliation, e-mail address of all protocol authors; provide physical mailing address of corresponding author</p>
-<div id="3b_contribution" class="grid">
-<section id="b.-contribution" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="b.-contribution">3b. Contribution</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/3b_contribution.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Describe contributions of protocol authors and identify the guarantor of the review</p>
-</section>
-<section id="amendments" class="level3">
-<h3 class="anchored" data-anchor-id="amendments">Amendments</h3>
-<div id="4" class="grid">
-<section id="amendments-1" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="amendments-1">4. Amendments</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/4.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>If the protocol represents an amendment of a previously completed or published protocol, identify as such and list changes; otherwise, state plan for documenting important protocol amendments</p>
-</section>
-<section id="support" class="level3">
-<h3 class="anchored" data-anchor-id="support">Support</h3>
-<div id="5a_sources" class="grid">
-<section id="a.-sources" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="a.-sources">5a. Sources</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/5a_sources.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Indicate sources of financial or other support for the review</p>
-<div id="5b_sponsor" class="grid">
-<section id="b.-sponsor" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="b.-sponsor">5b. Sponsor</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/5b_sponsor.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Provide name for the review funder and / or sponsor</p>
-<div id="5c_role_of_sponsor_or_funder" class="grid">
-<section id="c.-role-of-sponsor-or-funder" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="c.-role-of-sponsor-or-funder">5c. Role of sponsor or funder</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/5c_role_of_sponsor_or_funder.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Describe roles of funder(s), sponsor(s), and / or institution(s), if any, in developing the protocol</p>
-</section>
-<section id="introduction" class="level3">
-<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<div id="6_rationale" class="grid">
-<section id="rationale" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="rationale">6. Rationale</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/6_rationale.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Describe the rationale for the review in the context of what is already known</p>
-<div id="7_objectives" class="grid">
-<section id="objectives" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="objectives">7. Objectives</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/7_objectives.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Provide an explicit statement of the question(s) the review will address with reference to participants, interventions, comparators, and outcomes (PICO)</p>
-</section>
-<section id="methods" class="level3">
-<h3 class="anchored" data-anchor-id="methods">Methods</h3>
-<div id="8_eligibility_criteria" class="grid">
-<section id="eligibility-criteria" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="eligibility-criteria">8. Eligibility criteria</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/8_eligibility_criteria.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Specify the study characteristics (such as PICO, study design, setting, time frame) and report characteristics (such as years considered, language, publication status) to be used as criteria for eligibility for the review</p>
-<div id="9_information_sources" class="grid">
-<section id="information-sources" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="information-sources">9. Information sources</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/9_information_sources.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Describe all intended information sources (such as electronic databases, contact with study authors, trial registers or other grey literature sources) with planned dates of coverage</p>
-<div id="10_search_strategy" class="grid">
-<section id="search-strategy" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="search-strategy">10. Search strategy</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/10_search_strategy.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Present draft of search strategy to be used for at least one electronic database, including planned limits, such that it could be repeated</p>
-<div id="11a_study_records__data_management" class="grid">
-<section id="a.-study-records---data-management" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="a.-study-records---data-management">11a. Study records - data management</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/11a_study_records__data_management.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Describe the mechanism(s) that will be used to manage records and data throughout the review</p>
-<div id="11b_study_records__selection_process" class="grid">
-<section id="b.-study-records---selection-process" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="b.-study-records---selection-process">11b. Study records - selection process</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/11b_study_records__selection_process.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>State the process that will be used for selecting studies (such as two independent reviewers) through each phase of the review (that is, screening, eligibility and inclusion in meta-analysis)</p>
-<div id="11c_study_records__data_collection_process" class="grid">
-<section id="c.-study-records---data-collection-process" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="c.-study-records---data-collection-process">11c. Study records - data collection process</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/11c_study_records__data_collection_process.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Describe planned method of extracting data from reports (such as piloting forms, done independently, in duplicate), any processes for obtaining and confirming data from investigators</p>
-<div id="12_data_items" class="grid">
-<section id="data-items" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="data-items">12. Data items</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/12_data_items.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>List and define all variables for which data will be sought (such as PICO items, funding sources), any pre-planned data assumptions and simplifications</p>
-<div id="13_outcomes_and_prioritization" class="grid">
-<section id="outcomes-and-prioritization" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="outcomes-and-prioritization">13. Outcomes and prioritization</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/13_outcomes_and_prioritization.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>List and define all outcomes for which data will be sought, including prioritization of main and additional outcomes, with rationale</p>
-<div id="14_risk_of_bias_in_individual_studies" class="grid">
-<section id="risk-of-bias-in-individual-studies" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="risk-of-bias-in-individual-studies">14. Risk of bias in individual studies</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/14_risk_of_bias_in_individual_studies.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Describe anticipated methods for assessing risk of bias of individual studies, including whether this will be done at the outcome or study level, or both; state how this information will be used in data synthesis</p>
-<div id="15a_data_synthesis" class="grid">
-<section id="a.-data-synthesis" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="a.-data-synthesis">15a. Data synthesis</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/15a_data_synthesis.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Describe criteria under which study data will be quantitatively synthesised</p>
-<div id="15b_data_synthesis" class="grid">
-<section id="b.-data-synthesis" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="b.-data-synthesis">15b. Data synthesis</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/15b_data_synthesis.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>If data are appropriate for quantitative synthesis, describe planned summary measures, methods of handling data and methods of combining data from studies, including any planned exploration of consistency (such as I2, Kendall’s τ)</p>
-<div id="15c_data_synthesis" class="grid">
-<section id="c.-data-synthesis" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="c.-data-synthesis">15c. Data synthesis</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/15c_data_synthesis.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Describe any proposed additional analyses (such as sensitivity or subgroup analyses, meta-regression)</p>
-<div id="15d_data_synthesis" class="grid">
-<section id="d.-data-synthesis" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="d.-data-synthesis">15d. Data synthesis</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/15d_data_synthesis.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>If quantitative synthesis is not appropriate, describe the type of summary planned</p>
-<div id="16_metabiases" class="grid">
-<section id="meta-biases" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="meta-biases">16. Meta-bias(es)</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/16_metabiases.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Specify any planned assessment of meta-bias(es) (such as publication bias across studies, selective reporting within studies)</p>
-<div id="17_confidence_in_cumulative_evidence" class="grid">
-<section id="confidence-in-cumulative-evidence" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="confidence-in-cumulative-evidence">17. Confidence in cumulative evidence</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/prisma-p/discussion/17_confidence_in_cumulative_evidence.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Describe how the strength of the body of evidence will be assessed (such as GRADE)</p>
+<section id="ready-to-get-started" class="level2 unnumbered unlisted">
+<h2 class="unnumbered unlisted anchored" data-anchor-id="ready-to-get-started">Ready to get started?</h2>
+<p><a href="#how-to-use"><button type="button" class="btn btn-primary btn-lg width-100">Download resources</button></a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -578,6 +744,205 @@ ul.task-list li input[type="checkbox"] {
             })
     })
 </script>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemreporting_guideline" aria-labelledby="glossaryItemreporting_guidelineLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemreporting_guidelineLabel">Reporting Guidelines are recommendations to help describe your work clearly</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines list the information you should describe so that <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemresearch_consumers" aria-controls="offcanvasExample" role="button"><em>everyone</em></span> can understand, replicate, and synthesise your work.</p>
+<p>Reporting guidelines do not prescribe how research should be designed or conducted. Rather, they help authors transparently describe what they did, why they did it, and what they found.</p>
+<p>Reporting guidelines make writing research easier, and transparent research leads to better patient outcomes.</p>
+<div class="feature-callout">
+<p><img src="../../assets/images/bubblecons/bubblecons_files_folders_page-90-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<p><strong>Easier writing</strong></p>
+<p>Following guidance makes writing easier and quicker.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+<div class="feature-callout">
+<p><img src="../../assets/images/bubblecons/bubblecons_files_folders_favourite-74-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<p><strong>Smoother publishing</strong></p>
+<p>Many journals require completed reporting checklists at submission.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+<div class="feature-callout">
+<p><img src="../../assets/images/bubblecons/bubblecons_awards_3_awrad-6-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<p><strong>Maximum impact</strong></p>
+<p>From nobel prizes to null results, articles have more impact when everyone can use them.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemresearch_consumers" aria-labelledby="glossaryItemresearch_consumersLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemresearch_consumersLabel">Who reads research?</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>You work will be read by different people, for different reasons, around the world, and for decades to come. Reporting guidelines help you consider all of your potential audiences. For example, your research may be read by researchers from different fields, by clinicians, patients, evidence synthesisers, peer reviewers, or editors. Your readers will need information to understand, to replicate, apply, appraise, synthesise, and use your work. </p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcohort_studies" aria-labelledby="glossaryItemcohort_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcohort_studiesLabel">Cohort studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A cohort study is an observational study in which a group of people with a particular exposure (e.g. a putative risk factor or protective factor) and a group of people without this exposure are followed over time. The outcomes of the people in the exposed group are compared to the outcomes of the people in the unexposed group to see if the exposure is associated with particular outcomes (e.g. getting cancer or length of life).</p>
+<p>(Source)[https://casp-uk.net/what-is-a-cohort-study/].</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcase_control_studies" aria-labelledby="glossaryItemcase_control_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcase_control_studiesLabel">Case-control studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A case-control study is a research method used in healthcare to investigate potential risk factors for a specific disease. It involves comparing individuals who have been diagnosed with the disease (cases) to those who have not (controls). By analysing the differences between the two groups, researchers can identify factors that may contribute to the development of the disease. </p>
+<p>An example would be when researchers conducted a case-control study examining whether exposure to diesel exhaust particles increases the risk of respiratory disease in underground miners. Cases included miners diagnosed with respiratory disease, while controls were miners without respiratory disease. Participants' past occupational exposures to diesel exhaust particles were evaluated to compare exposure rates between cases and controls.</p>
+<p><a href="https://casp-uk.net/news/what-is-a-case-control-study">Source</a>.</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcross_sectional_studies" aria-labelledby="glossaryItemcross_sectional_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcross_sectional_studiesLabel">Cross-sectional studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A cross-sectional study (also sometimes called a "cross-sectional survey") serves as an observational tool, where researchers capture data from a cohort of participants at a singular point. This approach provides a 'snapshot'— a brief glimpse into the characteristics or outcomes prevalent within a designated population at that precise point in time. The primary aim here is not to track changes or developments over an extended period but to assess and quantify the current situation regarding specific variables or conditions. Such a methodology is instrumental in identifying patterns or correlations among various factors within the population, providing a basis for further, more detailed investigation.</p>
+<p><a href="https://casp-uk.net/news/what-is-a-cross-sectional-study">Source</a></p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemsystematic_reviews" aria-labelledby="glossaryItemsystematic_reviewsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemsystematic_reviewsLabel">Systematic reviews</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A systematic review is a comprehensive approach designed to identify, evaluate, and synthesise all available evidence relevant to a specific research question. In essence, it collects all possible studies related to a given topic and design, and reviews and analyses their results.</p>
+<p>The process involves a highly sensitive search strategy to ensure that as much pertinent information as possible is gathered. Once collected, this evidence is often critically appraised to assess its quality and relevance, ensuring that conclusions drawn are based on robust data. Systematic reviews often involve defining inclusion and exclusion criteria, which help to focus the analysis on the most relevant studies, ultimately synthesising the findings into a coherent narrative or statistical synthesis. Some systematic reviews will include a meta-analysis.</p>
+<p><a href="https://casp-uk.net/news/systematic-review-vs-meta-analysis/">Source</a></p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemsystematic_review_protocols" aria-labelledby="glossaryItemsystematic_review_protocolsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemsystematic_review_protocolsLabel">Systematic review protocols</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemmeta_analyses_of_observational_studies" aria-labelledby="glossaryItemmeta_analyses_of_observational_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemmeta_analyses_of_observational_studiesLabel">Meta analyses of Observational Studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemrandomised_trials" aria-labelledby="glossaryItemrandomised_trialsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemrandomised_trialsLabel">Randomised Trials</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemrandomised_trial_protocols" aria-labelledby="glossaryItemrandomised_trial_protocolsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemrandomised_trial_protocolsLabel">Randomised Trial Protocols</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemqualitative_research" aria-labelledby="glossaryItemqualitative_researchLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemqualitative_researchLabel">Qualitative research</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Research that aims to gather and analyse non-numerical (descriptive) data in order to gain an understanding of individuals' social reality, including understanding their attitudes, beliefs, and motivation. This type of research typically involves in-depth interviews, focus groups, or field observations in order to collect data that is rich in detail and context. Qualitative research is often used to explore complex phenomena or to gain insight into people's experiences and perspectives on a particular topic. It is particularly useful when researchers want to understand the meaning that people attach to their experiences or when they want to uncover the underlying reasons for people's behavior. Qualitative methods include ethnography, grounded theory, discourse analysis, and interpretative phenomenological analysis. (<a href="https://en.wikipedia.org/wiki/Qualitative_research">source</a>)</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcase_reports" aria-labelledby="glossaryItemcase_reportsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcase_reportsLabel">Case Reports</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemdiagnostic_test_accuracy_studies" aria-labelledby="glossaryItemdiagnostic_test_accuracy_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemdiagnostic_test_accuracy_studiesLabel">Diagnostic Test Accuracy Studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Diagnostic accuracy studies focus on estimating the ability of the test(s) to correctly identify subjects with a predefined target condition, or the condition of interest (sensitivity) as well as to clearly identify those without the condition (specificity).</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemprediction_models" aria-labelledby="glossaryItemprediction_modelsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemprediction_modelsLabel">Prediction Models</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Prediction models are developed to aid health care providers in estimating the probability or risk that a specific disease or condition is present (diagnostic models) or that a specific event will occur in the future (prognostic models), to inform their decision making.</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemanimal_research" aria-labelledby="glossaryItemanimal_researchLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemanimal_researchLabel">Animal Research</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemqi" aria-labelledby="glossaryItemqiLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemqiLabel">Quality Improvement in Healthcare</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemeconomic_evaluations" aria-labelledby="glossaryItemeconomic_evaluationsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemeconomic_evaluationsLabel">Economic Evaluations in Healthcare</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemmeta_analyses" aria-labelledby="glossaryItemmeta_analysesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemmeta_analysesLabel">Meta Analyses</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A meta-analysis is a statistical technique that amalgamates data from multiple studies to yield a single estimate of the effect size. This approach enhances precision and offers a more comprehensive understanding by integrating quantitative findings. Central to a meta-analysis is the evaluation of heterogeneity, which examines variations in study outcomes to ensure that differences in populations, interventions, or methodologies do not skew results. Techniques such as meta-regression or subgroup analysis are frequently employed to explore how various factors might influence the outcomes. This method is particularly effective when aiming to quantify the effect size, odds ratio, or risk ratio, providing a clearer numerical estimate that can significantly inform clinical or policy decisions.</p>
+<h2>How Meta-analyses and Systematic Reviews Work Together</h2>
+<p>Systematic reviews and meta-analyses function together, each complementing the other to provide a more robust understanding of research evidence. A systematic review meticulously gathers and evaluates all pertinent studies, establishing a solid foundation of qualitative and quantitative data. Within this framework, if the collected data exhibit sufficient homogeneity, a meta-analysis can be performed. This statistical synthesis allows for the integration of quantitative results from individual studies, producing a unified estimate of effect size. Techniques such as meta-regression or subgroup analysis may further refine these findings, elucidating how different variables impact the overall outcome. By combining these methodologies, researchers can achieve both a comprehensive narrative synthesis and a precise quantitative measure, enhancing the reliability and applicability of their conclusions. This integrated approach ensures that the findings are not only well-rounded but also statistically robust, providing greater confidence in the evidence base.</p>
+<h2>Why Don't All Systematic Reviews Use a Meta-Analysis?</h2>
+<p>Systematic reviews do not always have meta-analyses, due to variations in the data. For a meta-analysis to be viable, the data from different studies must be sufficiently similar, or homogeneous, in terms of design, population, and interventions. When the data shows significant heterogeneity, meaning there are considerable differences among the studies, combining them could lead to skewed or misleading conclusions. Furthermore, the quality of the included studies is critical; if the studies are of low methodological quality, merging their results could obscure true effects rather than explain them.</p></div>
+</div>
+</div>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -613,18 +978,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -656,11 +1010,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -670,8 +1061,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -683,7 +1083,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -727,6 +1249,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -752,6 +1275,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -811,20 +1360,37 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../guidelines/prisma-p/items/1a_identification.html" class="pagination-link" aria-label="1a. Identification">
+        <span class="nav-page-text">1a. Identification</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></div>   
+    <div class="nav-footer-left">
+<p>Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></p>
+</div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../about">About</a>
+    <a class="nav-link" href="../../about">
+<p>About</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../license">License</a>
+    <a class="nav-link" href="../../license">
+<p>License</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../privacy">Privacy Policy</a>
+    <a class="nav-link" href="../../privacy">
+<p>Privacy Policy</p>
+</a>
   </li>  
 </ul>
     </div>
@@ -846,6 +1412,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

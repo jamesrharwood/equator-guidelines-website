@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The CARE guidelines for writing a case report or case series.</title>
+<title>The CARE reporting guideline for writing clinical case report articles</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,23 +30,30 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../guidelines/care/items/1.html" rel="next">
 <link href="../../assets/favicons/equator-network-16x16.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-a399256dfab7e52281ee9593702f5c48.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -62,8 +70,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 <script>
+    console.log('In search func!')
     window.document.addEventListener("DOMContentLoaded", function (_event) {
-        console.log('in function!')
         var searchShortcuts = document.getElementsByClassName("search-shortcut");
         var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
         for (let i = 0; i < searchShortcuts.length; i++) {
@@ -79,129 +87,507 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../css/styles.css">
 <link rel="stylesheet" href="../../css/index.css">
+<link rel="stylesheet" href="../../css/guidelines.css">
+<link rel="stylesheet" href="../../css/styles2.css">
+<meta name="citation_title" content="The CARE reporting guideline for writing clinical case report articles">
+<meta name="citation_author" content="Joel J. Gagnier">
+<meta name="citation_author" content="Gunver Kienle">
+<meta name="citation_author" content="Douglas G. Altman">
+<meta name="citation_author" content="David Moher">
+<meta name="citation_author" content="Harold Sox">
+<meta name="citation_author" content="David Riley">
+<meta name="citation_author" content="the CARE Group">
+<meta name="citation_doi" content="10.1234/equator/1010101">
+<meta name="citation_language" content="en">
+<meta name="citation_journal_title" content="The EQUATOR Network guideline dissemination platform">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../assets/equator_logo.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Reporting Guidelines</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Reporting Guidelines</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/" rel="" target="">
- <span class="menu-text">Training</span></a>
+    <a class="nav-link" href="https://www.equator-network.org/category/events/upcoming-events/"> 
+<span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Other Resources</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Toolkits</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Library</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Resources for Publishers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Resources for Guideline Developers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Resources for Librarians</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About EQUATOR</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">The EQUATOR Network</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Blog</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../index.html" rel="" target="">
+    <a class="dropdown-item" href="../../index.html">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">The CARE reporting guideline for writing clinical case report articles</h1>
+        </a>     
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Overview of CARE</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Full guidance</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Title</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1. Title</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Keywords</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2. Keywords</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Abstract</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/3a_introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3a. Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/3b_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3b. Abstract</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/3c_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3c. Abstract</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/3d_conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3d. Conclusion</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Introduction</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4. Introduction</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Patient information</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/5a_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5a. Patient information</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/5b_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5b. Patient information</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/5c_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5c. Patient information</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/5d_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5d. Patient information</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Clinical findings</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6. Clinical findings</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">Timeline</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7. Timeline</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+ <span class="menu-text">Diagnostic assessment</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/8a_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8a. Diagnostic assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/8b_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8b. Diagnostic assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/8c_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8c. Diagnostic assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/8d_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8d. Diagnostic assessment</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+ <span class="menu-text">Therapeutic Intervention</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/9a_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9a. Therapeutic Intervention</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/9b_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9b. Therapeutic Intervention</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/9c_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9c. Therapeutic Intervention</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
+ <span class="menu-text">Follow up and outcomes</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/10a_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10a. Follow up and outcomes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/10b_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10b. Follow up and outcomes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/10c_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10c. Follow up and outcomes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/10d_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10d. Follow up and outcomes</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Discussion</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/11a_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11a. Discussion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/11b_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11b. Discussion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/11c_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11c. Discussion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/11d_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11d. Discussion</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+ <span class="menu-text">Patient perspective</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12. Patient perspective</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false">
+ <span class="menu-text">Informed consent</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/items/13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">13. Informed consent</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/care_writing_guide.docx" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Writing guide</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/care_checklist.docx" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Checklist</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guidelines/care/faqs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAQs</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-this-guideline" id="toc-about-this-guideline" class="nav-link active" data-scroll-target="#about-this-guideline">About this guideline</a></li>
-  <li><a href="#download-resources" id="toc-download-resources" class="nav-link" data-scroll-target="#download-resources">Download Resources</a></li>
-  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance">Guidance</a>
-  <ul class="collapse">
-  <li><a href="#title" id="toc-title" class="nav-link" data-scroll-target="#title">Title</a></li>
-  <li><a href="#keywords" id="toc-keywords" class="nav-link" data-scroll-target="#keywords">Keywords</a></li>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#patient-information" id="toc-patient-information" class="nav-link" data-scroll-target="#patient-information">Patient information</a></li>
-  <li><a href="#clinical-findings" id="toc-clinical-findings" class="nav-link" data-scroll-target="#clinical-findings">Clinical findings</a></li>
-  <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">Timeline</a></li>
-  <li><a href="#diagnostic-assessment" id="toc-diagnostic-assessment" class="nav-link" data-scroll-target="#diagnostic-assessment">Diagnostic assessment</a></li>
-  <li><a href="#therapeutic-intervention" id="toc-therapeutic-intervention" class="nav-link" data-scroll-target="#therapeutic-intervention">Therapeutic Intervention</a></li>
-  <li><a href="#follow-up-and-outcomes" id="toc-follow-up-and-outcomes" class="nav-link" data-scroll-target="#follow-up-and-outcomes">Follow up and outcomes</a></li>
-  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
-  <li><a href="#patient-perspective" id="toc-patient-perspective" class="nav-link" data-scroll-target="#patient-perspective">Patient perspective</a></li>
-  <li><a href="#informed-consent" id="toc-informed-consent" class="nav-link" data-scroll-target="#informed-consent">Informed consent</a></li>
-  </ul></li>
+  <li><a href="#how-to-use" id="toc-how-to-use" class="nav-link active" data-scroll-target="#how-to-use">How to use this reporting guideline</a></li>
+  <li><a href="#applicability-criteria" id="toc-applicability-criteria" class="nav-link" data-scroll-target="#applicability-criteria">Applicability criteria</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary of guidance</a></li>
   </ul>
 </nav>
-</nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The CARE guideline for writing a case report or case series.</h1>
+<h1 class="title d-none d-lg-block">The CARE reporting guideline for writing clinical case report articles</h1>
 </div>
 
 
@@ -214,420 +600,261 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
+
+<div class="hero-banner">
+<div class="content-block">
+<section>
+<p>The CARE <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemreporting_guideline" aria-controls="offcanvasExample" role="button">reporting guideline</span> helps authors write clinical case report articles that can be understood and used <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemresearch_consumers" aria-controls="offcanvasExample" role="button">by everyone</span>. This page summarises CARE and how it will help you write. Each guideline item links to more information, examples, and relevant training.</p>
 <div class="citations-counter">
-<span class="__dimensions_badge_embed__" data-doi="10.1136/bcr-2013-201554" data-legend="never" data-style="large_rectangle"></span>
+<span class="__dimensions_badge_embed__ badge-inline" data-doi="10.1136/bcr-2013-201554" data-legend="never" data-style="large_rectangle"></span> <span class="badge-inline btn btn-sm journal-endorsement" type="button">Journals endorsing CARE</span> <span class="journal-endorsement journal-endorsement-count">1000+</span>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 </div>
-<section id="about-this-guideline" class="level2">
-<h2 class="anchored" data-anchor-id="about-this-guideline">About this guideline</h2>
-<div class="large">
-<p>This guideline is relevant to case reports and case series,</p>
+<div class="text-small">
+<p>CARE: CAse REport</p>
+<p>Version: CARE 2013 v1.1. This is the latest version ✅</p>
 </div>
 </section>
-<section id="download-resources" class="level2">
-<h2 class="anchored" data-anchor-id="download-resources">Download Resources</h2>
-<p>Reporting guidelines are best used early:</p>
+</div>
+</div>
+<section id="how-to-use" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use">How to use this reporting guideline</h2>
+<p>You can use <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemreporting_guideline" aria-controls="offcanvasExample" role="button">reporting guidelines</span> throughout your research process.</p>
 <ul>
-<li>Use a template to write quickly and avoid the blank page</li>
-<li>Use a checklist to double-check and reassure others that your work is described transparently</li>
+<li>When writing: Consider using a <a href="#downloads">writing guide</a> to draft your manuscript or protocol.</li>
+<li>After writing: Complete a <a href="#downloads">checklist</a> and include it with your journal submission.</li>
+<li>To learn: Consult the <a href="#summary">guidance</a> whenever you need it.</li>
 </ul>
-<div class="grid">
+<p>However you use CARE, please <a href="../../guidelines/care/faqs.html#citation">cite it</a>.</p>
+<div id="downloads" class="grid">
 <div class="g-col-12 g-col-md-4">
-<div class="download-text">
-<p>For drafting</p>
-</div>
-<p><a href="./care_template.docx"><button type="button" class="btn btn-primary btn-lg width-100">Template</button></a></p>
+<p><a href="#summary"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Full Guidance</button></a></p>
 </div>
 <div class="g-col-12 g-col-md-4">
-<div class="download-text">
-<p>For checking</p>
-</div>
-<p><a href="./care_checklist.docx"><button type="button" class="btn btn-primary btn-lg width-100">Checklist</button></a></p>
+<p><a href="./care_writing_guide.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Writing Guide</button></a></p>
 </div>
 <div class="g-col-12 g-col-md-4">
-<div class="download-text">
-<p>For planning</p>
-</div>
-<p><a href="./care_todo_list.docx"><button type="button" class="btn btn-primary btn-lg width-100">To-do list</button></a></p>
+<p><a href="./care_checklist.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Checklist</button></a></p>
 </div>
 </div>
 </section>
-<section id="guidance" class="level2">
-<h2 class="anchored" data-anchor-id="guidance">Guidance</h2>
-<p><small>Approx. 1 min read</small></p>
-<section id="title" class="level3">
-<h3 class="anchored" data-anchor-id="title">Title</h3>
-<div id="1" class="grid">
-<section id="title-1" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="title-1">1. Title</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/1.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
+<section id="applicability-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="applicability-criteria">Applicability criteria</h2>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>This guideline is relevant to <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemcase_reports" aria-controls="offcanvasExample" role="button">case reports</span> and case series,</p>
 </div>
 </div>
-<p>The area of focus and “case report” should appear in the title</p>
+</div>
 </section>
-<section id="keywords" class="level3">
-<h3 class="anchored" data-anchor-id="keywords">Keywords</h3>
-<div id="2" class="grid">
-<section id="keywords-1" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="keywords-1">2. Keywords</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/2.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary of guidance</h2>
+<p>Although you should describe all items below, you can decide how to <a href="../../guidelines/care/faqs.html#item-order">order</a> and <a href="../../guidelines/care/faqs.html#concise-writing">prioritize items</a> most relevant to your study, findings, context, and readership whilst <a href="../../guidelines/care/faqs.html#concise-writing">keeping your writing concise</a>. You can read how CARE was developed in the <a href="../../guidelines/care/faqs.html#development">FAQs</a>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Title</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/1.html">1. Title</a></td>
+<td>The area of focus and “case report” should appear in the title.</td>
+</tr>
+<tr class="odd">
+<td><strong>Keywords</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/2.html">2. Keywords</a></td>
+<td>Two to five key words that identify topics in this case report.</td>
+</tr>
+<tr class="odd">
+<td><strong>Abstract</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/3a_introduction.html">3a. Introduction</a></td>
+<td>What is unique and why is it important?.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/3b_.html">3b. Abstract</a></td>
+<td>The patient’s main concerns and important clinical findings.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/3c_.html">3c. Abstract</a></td>
+<td>The main diagnoses, interventions, and outcomes.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/3d_conclusion.html">3d. Conclusion</a></td>
+<td>What are one or more “take-away” lessons?.</td>
+</tr>
+<tr class="even">
+<td><strong>Introduction</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/4.html">4. Introduction</a></td>
+<td>Briefly summarize why this case is unique with medical literature references.</td>
+</tr>
+<tr class="even">
+<td><strong>Patient information</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/5a_.html">5a. Patient information</a></td>
+<td>De-identified demographic and other patient information.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/5b_.html">5b. Patient information</a></td>
+<td>Main concerns and symptoms of the patient.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/5c_.html">5c. Patient information</a></td>
+<td>Medical, family, and psychosocial history including genetic information.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/5d_.html">5d. Patient information</a></td>
+<td>Relevant past interventions and their outcomes.</td>
+</tr>
+<tr class="odd">
+<td><strong>Clinical findings</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/6.html">6. Clinical findings</a></td>
+<td>Relevant physical examination (PE) and other clinical findings.</td>
+</tr>
+<tr class="odd">
+<td><strong>Timeline</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/7.html">7. Timeline</a></td>
+<td>Relevant data from this episode of care organized as a timeline (figure or table).</td>
+</tr>
+<tr class="odd">
+<td><strong>Diagnostic assessment</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/8a_.html">8a. Diagnostic assessment</a></td>
+<td>Diagnostic methods (PE, laboratory testing, imaging, surveys).</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/8b_.html">8b. Diagnostic assessment</a></td>
+<td>Diagnostic challenges.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/8c_.html">8c. Diagnostic assessment</a></td>
+<td>Diagnostic reasoning including differential diagnosis.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/8d_.html">8d. Diagnostic assessment</a></td>
+<td>Prognostic characteristics when applicable.</td>
+</tr>
+<tr class="even">
+<td><strong>Therapeutic Intervention</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/9a_.html">9a. Therapeutic Intervention</a></td>
+<td>Types of intervention (pharmacologic, surgical, preventive).</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/9b_.html">9b. Therapeutic Intervention</a></td>
+<td>Administration of intervention (dosage, strength, duration).</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/9c_.html">9c. Therapeutic Intervention</a></td>
+<td>Changes in the interventions with explanations.</td>
+</tr>
+<tr class="even">
+<td><strong>Follow up and outcomes</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/10a_.html">10a. Follow up and outcomes</a></td>
+<td>Clinician and patient-assessed outcomes when appropriate.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/10b_.html">10b. Follow up and outcomes</a></td>
+<td>Important follow-up diagnostic and other test results.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/10c_.html">10c. Follow up and outcomes</a></td>
+<td>Intervention adherence and tolerability (how was this assessed)?.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/10d_.html">10d. Follow up and outcomes</a></td>
+<td>Adverse and unanticipated events.</td>
+</tr>
+<tr class="odd">
+<td><strong>Discussion</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/11a_.html">11a. Discussion</a></td>
+<td>Strengths and limitations in your approach to this case.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/11b_.html">11b. Discussion</a></td>
+<td>Discussion of the relevant medical literature.</td>
+</tr>
+<tr class="even">
+<td><a href="../../guidelines/care/items/11c_.html">11c. Discussion</a></td>
+<td>The rationale for your conclusions.</td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/11d_.html">11d. Discussion</a></td>
+<td>The primary “take-away” lessons from this case report.</td>
+</tr>
+<tr class="even">
+<td><strong>Patient perspective</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/12.html">12. Patient perspective</a></td>
+<td>The patient can share their perspective on their case.</td>
+</tr>
+<tr class="even">
+<td><strong>Informed consent</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="../../guidelines/care/items/13.html">13. Informed consent</a></td>
+<td>The patient should give informed consent.</td>
+</tr>
+</tbody>
+</table>
+<div class="quote card">
+<div class="quote-text-normal">
+<p>We like publishing transparent research because we think it’s more likely to be used and cited. That’s why we ask authors to use reporting guidelines.</p>
+</div>
+<div class="quote-who">
+<p><img src="../../assets/images/editor.png"></p>
+<div class="name">
+<p><span class="text-small bold">Robin Lavery</span></p>
+<p><span class="text-small">Editor, International Journal of World Medicine</span></p>
 </div>
 </div>
-<p>Two to five key words that identify topics in this case report</p>
-</section>
-<section id="abstract" class="level3">
-<h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
-<div id="3a_introduction" class="grid">
-<section id="a.-introduction" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="a.-introduction">3a. Introduction</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/3a_introduction.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
 </div>
-</div>
-<p>What is unique and why is it important?</p>
-<div id="3b_" class="grid">
-<section id="b.-abstract" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="b.-abstract">3b. Abstract</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/3b_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>The patient’s main concerns and important clinical findings.</p>
-<div id="3c_" class="grid">
-<section id="c.-abstract" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="c.-abstract">3c. Abstract</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/3c_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>The main diagnoses, interventions, and outcomes.</p>
-<div id="3d_conclusion" class="grid">
-<section id="d.-conclusion" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="d.-conclusion">3d. Conclusion</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/3d_conclusion.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>What are one or more “take-away” lessons?</p>
-</section>
-<section id="introduction" class="level3">
-<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<div id="4" class="grid">
-<section id="introduction-1" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="introduction-1">4. Introduction</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/4.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Briefly summarize why this case is unique with medical literature references.</p>
-</section>
-<section id="patient-information" class="level3">
-<h3 class="anchored" data-anchor-id="patient-information">Patient information</h3>
-<div id="5a_" class="grid">
-<section id="a.-patient-information" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="a.-patient-information">5a. Patient information</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/5a_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>De-identified demographic and other patient information.</p>
-<div id="5b_" class="grid">
-<section id="b.-patient-information" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="b.-patient-information">5b. Patient information</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/5b_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Main concerns and symptoms of the patient.</p>
-<div id="5c_" class="grid">
-<section id="c.-patient-information" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="c.-patient-information">5c. Patient information</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/5c_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Medical, family, and psychosocial history including genetic information.</p>
-<div id="5d_" class="grid">
-<section id="d.-patient-information" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="d.-patient-information">5d. Patient information</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/5d_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Relevant past interventions and their outcomes.</p>
-</section>
-<section id="clinical-findings" class="level3">
-<h3 class="anchored" data-anchor-id="clinical-findings">Clinical findings</h3>
-<div id="6" class="grid">
-<section id="clinical-findings-1" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="clinical-findings-1">6. Clinical findings</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/6.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Relevant physical examination (PE) and other clinical findings.</p>
-</section>
-<section id="timeline" class="level3">
-<h3 class="anchored" data-anchor-id="timeline">Timeline</h3>
-<div id="7" class="grid">
-<section id="timeline-1" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="timeline-1">7. Timeline</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/7.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Relevant data from this episode of care organized as a timeline (figure or table).</p>
-</section>
-<section id="diagnostic-assessment" class="level3">
-<h3 class="anchored" data-anchor-id="diagnostic-assessment">Diagnostic assessment</h3>
-<div id="8a_" class="grid">
-<section id="a.-diagnostic-assessment" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="a.-diagnostic-assessment">8a. Diagnostic assessment</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/8a_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Diagnostic methods (PE, laboratory testing, imaging, surveys).</p>
-<div id="8b_" class="grid">
-<section id="b.-diagnostic-assessment" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="b.-diagnostic-assessment">8b. Diagnostic assessment</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/8b_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Diagnostic challenges.</p>
-<div id="8c_" class="grid">
-<section id="c.-diagnostic-assessment" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="c.-diagnostic-assessment">8c. Diagnostic assessment</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/8c_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Diagnostic reasoning including differential diagnosis</p>
-<div id="8d_" class="grid">
-<section id="d.-diagnostic-assessment" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="d.-diagnostic-assessment">8d. Diagnostic assessment</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/8d_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Prognostic characteristics when applicable</p>
-</section>
-<section id="therapeutic-intervention" class="level3">
-<h3 class="anchored" data-anchor-id="therapeutic-intervention">Therapeutic Intervention</h3>
-<div id="9a_" class="grid">
-<section id="a.-therapeutic-intervention" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="a.-therapeutic-intervention">9a. Therapeutic Intervention</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/9a_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Types of intervention (pharmacologic, surgical, preventive).</p>
-<div id="9b_" class="grid">
-<section id="b.-therapeutic-intervention" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="b.-therapeutic-intervention">9b. Therapeutic Intervention</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/9b_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Administration of intervention (dosage, strength, duration)</p>
-<div id="9c_" class="grid">
-<section id="c.-therapeutic-intervention" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="c.-therapeutic-intervention">9c. Therapeutic Intervention</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/9c_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Changes in the interventions with explanations.</p>
-</section>
-<section id="follow-up-and-outcomes" class="level3">
-<h3 class="anchored" data-anchor-id="follow-up-and-outcomes">Follow up and outcomes</h3>
-<div id="10a_" class="grid">
-<section id="a.-follow-up-and-outcomes" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="a.-follow-up-and-outcomes">10a. Follow up and outcomes</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/10a_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Clinician and patient-assessed outcomes when appropriate</p>
-<div id="10b_" class="grid">
-<section id="b.-follow-up-and-outcomes" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="b.-follow-up-and-outcomes">10b. Follow up and outcomes</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/10b_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Important follow-up diagnostic and other test results.</p>
-<div id="10c_" class="grid">
-<section id="c.-follow-up-and-outcomes" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="c.-follow-up-and-outcomes">10c. Follow up and outcomes</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/10c_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Intervention adherence and tolerability (how was this assessed)?</p>
-<div id="10d_" class="grid">
-<section id="d.-follow-up-and-outcomes" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="d.-follow-up-and-outcomes">10d. Follow up and outcomes</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/10d_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Adverse and unanticipated events.</p>
-</section>
-<section id="discussion" class="level3">
-<h3 class="anchored" data-anchor-id="discussion">Discussion</h3>
-<div id="11a_" class="grid">
-<section id="a.-discussion" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="a.-discussion">11a. Discussion</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/11a_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Strengths and limitations in your approach to this case.</p>
-<div id="11b_" class="grid">
-<section id="b.-discussion" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="b.-discussion">11b. Discussion</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/11b_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>Discussion of the relevant medical literature.</p>
-<div id="11c_" class="grid">
-<section id="c.-discussion" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="c.-discussion">11c. Discussion</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/11c_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>The rationale for your conclusions.</p>
-<div id="11d_" class="grid">
-<section id="d.-discussion" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="d.-discussion">11d. Discussion</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/11d_.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>The primary “take-away” lessons from this case report.</p>
-</section>
-<section id="patient-perspective" class="level3">
-<h3 class="anchored" data-anchor-id="patient-perspective">Patient perspective</h3>
-<div id="12" class="grid">
-<section id="patient-perspective-1" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="patient-perspective-1">12. Patient perspective</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/12.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>The patient can share their perspective on their case</p>
-</section>
-<section id="informed-consent" class="level3">
-<h3 class="anchored" data-anchor-id="informed-consent">Informed consent</h3>
-<div id="13" class="grid">
-<section id="informed-consent-1" class="level4 g-col-9">
-<h4 class="anchored" data-anchor-id="informed-consent-1">13. Informed consent</h4>
-</section>
-<div class="g-col-3">
-<section class="chat-button">
-<p><a href="../../guidelines/care/discussion/13.qmd" target="_blank"><i class="bi-chat-right-text" role="button" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Discuss this item"></i></a></p>
-</section>
-</div>
-</div>
-<p>The patient should give informed consent.</p>
+<!-- quote -->
+</section>
+<section id="ready-to-get-started" class="level2 unnumbered unlisted">
+<h2 class="unnumbered unlisted anchored" data-anchor-id="ready-to-get-started">Ready to get started?</h2>
+<p><a href="#how-to-use"><button type="button" class="btn btn-primary btn-lg width-100">Download resources</button></a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -646,6 +873,205 @@ ul.task-list li input[type="checkbox"] {
             })
     })
 </script>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemreporting_guideline" aria-labelledby="glossaryItemreporting_guidelineLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemreporting_guidelineLabel">Reporting Guidelines are recommendations to help describe your work clearly</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines list the information you should describe so that <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemresearch_consumers" aria-controls="offcanvasExample" role="button"><em>everyone</em></span> can understand, replicate, and synthesise your work.</p>
+<p>Reporting guidelines do not prescribe how research should be designed or conducted. Rather, they help authors transparently describe what they did, why they did it, and what they found.</p>
+<p>Reporting guidelines make writing research easier, and transparent research leads to better patient outcomes.</p>
+<div class="feature-callout">
+<p><img src="../../assets/images/bubblecons/bubblecons_files_folders_page-90-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<p><strong>Easier writing</strong></p>
+<p>Following guidance makes writing easier and quicker.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+<div class="feature-callout">
+<p><img src="../../assets/images/bubblecons/bubblecons_files_folders_favourite-74-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<p><strong>Smoother publishing</strong></p>
+<p>Many journals require completed reporting checklists at submission.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div>
+<div class="feature-callout">
+<p><img src="../../assets/images/bubblecons/bubblecons_awards_3_awrad-6-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<p><strong>Maximum impact</strong></p>
+<p>From nobel prizes to null results, articles have more impact when everyone can use them.</p>
+<div class="learn-more">
+<p><a href="">Learn more »</a></p>
+</div>
+</div></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemresearch_consumers" aria-labelledby="glossaryItemresearch_consumersLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemresearch_consumersLabel">Who reads research?</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>You work will be read by different people, for different reasons, around the world, and for decades to come. Reporting guidelines help you consider all of your potential audiences. For example, your research may be read by researchers from different fields, by clinicians, patients, evidence synthesisers, peer reviewers, or editors. Your readers will need information to understand, to replicate, apply, appraise, synthesise, and use your work. </p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcohort_studies" aria-labelledby="glossaryItemcohort_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcohort_studiesLabel">Cohort studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A cohort study is an observational study in which a group of people with a particular exposure (e.g. a putative risk factor or protective factor) and a group of people without this exposure are followed over time. The outcomes of the people in the exposed group are compared to the outcomes of the people in the unexposed group to see if the exposure is associated with particular outcomes (e.g. getting cancer or length of life).</p>
+<p>(Source)[https://casp-uk.net/what-is-a-cohort-study/].</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcase_control_studies" aria-labelledby="glossaryItemcase_control_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcase_control_studiesLabel">Case-control studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A case-control study is a research method used in healthcare to investigate potential risk factors for a specific disease. It involves comparing individuals who have been diagnosed with the disease (cases) to those who have not (controls). By analysing the differences between the two groups, researchers can identify factors that may contribute to the development of the disease. </p>
+<p>An example would be when researchers conducted a case-control study examining whether exposure to diesel exhaust particles increases the risk of respiratory disease in underground miners. Cases included miners diagnosed with respiratory disease, while controls were miners without respiratory disease. Participants' past occupational exposures to diesel exhaust particles were evaluated to compare exposure rates between cases and controls.</p>
+<p><a href="https://casp-uk.net/news/what-is-a-case-control-study">Source</a>.</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcross_sectional_studies" aria-labelledby="glossaryItemcross_sectional_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcross_sectional_studiesLabel">Cross-sectional studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A cross-sectional study (also sometimes called a "cross-sectional survey") serves as an observational tool, where researchers capture data from a cohort of participants at a singular point. This approach provides a 'snapshot'— a brief glimpse into the characteristics or outcomes prevalent within a designated population at that precise point in time. The primary aim here is not to track changes or developments over an extended period but to assess and quantify the current situation regarding specific variables or conditions. Such a methodology is instrumental in identifying patterns or correlations among various factors within the population, providing a basis for further, more detailed investigation.</p>
+<p><a href="https://casp-uk.net/news/what-is-a-cross-sectional-study">Source</a></p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemsystematic_reviews" aria-labelledby="glossaryItemsystematic_reviewsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemsystematic_reviewsLabel">Systematic reviews</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A systematic review is a comprehensive approach designed to identify, evaluate, and synthesise all available evidence relevant to a specific research question. In essence, it collects all possible studies related to a given topic and design, and reviews and analyses their results.</p>
+<p>The process involves a highly sensitive search strategy to ensure that as much pertinent information as possible is gathered. Once collected, this evidence is often critically appraised to assess its quality and relevance, ensuring that conclusions drawn are based on robust data. Systematic reviews often involve defining inclusion and exclusion criteria, which help to focus the analysis on the most relevant studies, ultimately synthesising the findings into a coherent narrative or statistical synthesis. Some systematic reviews will include a meta-analysis.</p>
+<p><a href="https://casp-uk.net/news/systematic-review-vs-meta-analysis/">Source</a></p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemsystematic_review_protocols" aria-labelledby="glossaryItemsystematic_review_protocolsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemsystematic_review_protocolsLabel">Systematic review protocols</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemmeta_analyses_of_observational_studies" aria-labelledby="glossaryItemmeta_analyses_of_observational_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemmeta_analyses_of_observational_studiesLabel">Meta analyses of Observational Studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemrandomised_trials" aria-labelledby="glossaryItemrandomised_trialsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemrandomised_trialsLabel">Randomised Trials</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemrandomised_trial_protocols" aria-labelledby="glossaryItemrandomised_trial_protocolsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemrandomised_trial_protocolsLabel">Randomised Trial Protocols</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemqualitative_research" aria-labelledby="glossaryItemqualitative_researchLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemqualitative_researchLabel">Qualitative research</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Research that aims to gather and analyse non-numerical (descriptive) data in order to gain an understanding of individuals' social reality, including understanding their attitudes, beliefs, and motivation. This type of research typically involves in-depth interviews, focus groups, or field observations in order to collect data that is rich in detail and context. Qualitative research is often used to explore complex phenomena or to gain insight into people's experiences and perspectives on a particular topic. It is particularly useful when researchers want to understand the meaning that people attach to their experiences or when they want to uncover the underlying reasons for people's behavior. Qualitative methods include ethnography, grounded theory, discourse analysis, and interpretative phenomenological analysis. (<a href="https://en.wikipedia.org/wiki/Qualitative_research">source</a>)</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemcase_reports" aria-labelledby="glossaryItemcase_reportsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemcase_reportsLabel">Case Reports</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemdiagnostic_test_accuracy_studies" aria-labelledby="glossaryItemdiagnostic_test_accuracy_studiesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemdiagnostic_test_accuracy_studiesLabel">Diagnostic Test Accuracy Studies</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Diagnostic accuracy studies focus on estimating the ability of the test(s) to correctly identify subjects with a predefined target condition, or the condition of interest (sensitivity) as well as to clearly identify those without the condition (specificity).</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemprediction_models" aria-labelledby="glossaryItemprediction_modelsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemprediction_modelsLabel">Prediction Models</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Prediction models are developed to aid health care providers in estimating the probability or risk that a specific disease or condition is present (diagnostic models) or that a specific event will occur in the future (prognostic models), to inform their decision making.</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemanimal_research" aria-labelledby="glossaryItemanimal_researchLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemanimal_researchLabel">Animal Research</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemqi" aria-labelledby="glossaryItemqiLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemqiLabel">Quality Improvement in Healthcare</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemeconomic_evaluations" aria-labelledby="glossaryItemeconomic_evaluationsLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemeconomic_evaluationsLabel">Economic Evaluations in Healthcare</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>Ipsum Lorem</p></div>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItemmeta_analyses" aria-labelledby="glossaryItemmeta_analysesLabel">
+<div class="offcanvas-header">
+<h3 class="offcanvas-title" id="glossaryItemmeta_analysesLabel">Meta Analyses</h3>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<div><p>A meta-analysis is a statistical technique that amalgamates data from multiple studies to yield a single estimate of the effect size. This approach enhances precision and offers a more comprehensive understanding by integrating quantitative findings. Central to a meta-analysis is the evaluation of heterogeneity, which examines variations in study outcomes to ensure that differences in populations, interventions, or methodologies do not skew results. Techniques such as meta-regression or subgroup analysis are frequently employed to explore how various factors might influence the outcomes. This method is particularly effective when aiming to quantify the effect size, odds ratio, or risk ratio, providing a clearer numerical estimate that can significantly inform clinical or policy decisions.</p>
+<h2>How Meta-analyses and Systematic Reviews Work Together</h2>
+<p>Systematic reviews and meta-analyses function together, each complementing the other to provide a more robust understanding of research evidence. A systematic review meticulously gathers and evaluates all pertinent studies, establishing a solid foundation of qualitative and quantitative data. Within this framework, if the collected data exhibit sufficient homogeneity, a meta-analysis can be performed. This statistical synthesis allows for the integration of quantitative results from individual studies, producing a unified estimate of effect size. Techniques such as meta-regression or subgroup analysis may further refine these findings, elucidating how different variables impact the overall outcome. By combining these methodologies, researchers can achieve both a comprehensive narrative synthesis and a precise quantitative measure, enhancing the reliability and applicability of their conclusions. This integrated approach ensures that the findings are not only well-rounded but also statistically robust, providing greater confidence in the evidence base.</p>
+<h2>Why Don't All Systematic Reviews Use a Meta-Analysis?</h2>
+<p>Systematic reviews do not always have meta-analyses, due to variations in the data. For a meta-analysis to be viable, the data from different studies must be sufficiently similar, or homogeneous, in terms of design, population, and interventions. When the data shows significant heterogeneity, meaning there are considerable differences among the studies, combining them could lead to skewed or misleading conclusions. Furthermore, the quality of the included studies is critical; if the studies are of low methodological quality, merging their results could obscure true effects rather than explain them.</p></div>
+</div>
+</div>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -681,18 +1107,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -724,11 +1139,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -738,8 +1190,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -751,7 +1212,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -795,6 +1378,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -820,6 +1404,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -879,20 +1489,37 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../guidelines/care/items/1.html" class="pagination-link" aria-label="1. Title">
+        <span class="nav-page-text">1. Title</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></div>   
+    <div class="nav-footer-left">
+<p>Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></p>
+</div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../about">About</a>
+    <a class="nav-link" href="../../about">
+<p>About</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../license">License</a>
+    <a class="nav-link" href="../../license">
+<p>License</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../privacy">Privacy Policy</a>
+    <a class="nav-link" href="../../privacy">
+<p>Privacy Policy</p>
+</a>
   </li>  
 </ul>
     </div>
@@ -914,6 +1541,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 
