@@ -6,8 +6,6 @@ Give numbers of studies screened, assessed for eligibility, and included in the 
 
 ## Read More
 
-Hello world!
-
 Authors should report, ideally with a flow diagram, the total number of records identified from electronic bibliographic sources (including specialized database or registry searches), hand searches of various sources, reference lists, citation indices, and experts. It is useful if authors delineate for readers the number of selected articles that were identified from the different sources so that they can see, for example, whether most articles were identified through electronic bibliographic sources or from references or experts. Literature identified primarily from references or experts may be prone to citation or publication bias [131],[132].
 
 The flow diagram and text should describe clearly the process of report selection throughout the review. Authors should report: unique records identified in searches; records excluded after preliminary screening (e.g., screening of titles and abstracts); reports retrieved for detailed evaluation; potentially eligible reports that were not retrievable; retrieved reports that did not meet inclusion criteria and the primary reasons for exclusion; and the studies included in the review. Indeed, the most appropriate layout may vary for different reviews.
