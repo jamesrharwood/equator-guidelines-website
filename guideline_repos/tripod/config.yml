@@ -1,3 +1,205 @@
-doi: 10.1186/s12916-014-0241-z
+doi-for-citation-count: 10.1136/bmj-2023-078378 
+doi: 10.1234/equator/1010101
 id: tripod
 translations: []
+title: The TRIPOD + AI reporting guideline for writing prognostic or diagnostic prediction model study articles
+acronym: TRIPOD + AI
+acronym-definition: Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis
+open-e-and-e: true
+journal-endorsement-count: 1000+
+version: 'TRIPOD + AI 2024 v1.1'
+articles:
+  development:
+    id: collinsTRIPOD+AIStatementUpdated2024
+    abstract: >-
+      <p>The TRIPOD (Transparent Reporting of a multivariable prediction model for
+      Individual Prognosis Or Diagnosis) statement was published in 2015 to
+      provide the minimum reporting recommendations for studies developing or
+      evaluating the performance of a prediction model. Methodological advances in
+      the field of prediction have since included the widespread use of artificial
+      intelligence (AI) powered by machine learning methods to develop prediction
+      models. An update to the TRIPOD statement is thus needed. TRIPOD+AI provides
+      harmonised guidance for reporting prediction model studies, irrespective of
+      whether regression modelling or machine learning methods have been used. The
+      new checklist supersedes the TRIPOD 2015 checklist, which should no longer
+      be used. This article describes the development of TRIPOD+AI and presents
+      the expanded 27 item checklist with more detailed explanation of each
+      reporting recommendation, and the TRIPOD+AI for Abstracts checklist.
+      TRIPOD+AI aims to promote the complete, accurate, and transparent reporting
+      of studies that develop a prediction model or evaluate its performance.
+      Complete reporting will facilitate study appraisal, model evaluation, and
+      model implementation.</p>
+    accessed:
+      - year: 2025
+        month: 2
+        day: 18
+    author:
+      - family: Collins
+        given: Gary S.
+      - family: Moons
+        given: Karel G. M.
+      - family: Dhiman
+        given: Paula
+      - family: Riley
+        given: Richard D.
+      - family: Beam
+        given: Andrew L.
+      - family: Calster
+        given: Ben Van
+      - family: Ghassemi
+        given: Marzyeh
+      - family: Liu
+        given: Xiaoxuan
+      - family: Reitsma
+        given: Johannes B.
+      - family: Smeden
+        given: Maarten
+        dropping-particle: van
+      - family: Boulesteix
+        given: Anne-Laure
+      - family: Camaradou
+        given: Jennifer Catherine
+      - family: Celi
+        given: Leo Anthony
+      - family: Denaxas
+        given: Spiros
+      - family: Denniston
+        given: Alastair K.
+      - family: Glocker
+        given: Ben
+      - family: Golub
+        given: Robert M.
+      - family: Harvey
+        given: Hugh
+      - family: Heinze
+        given: Georg
+      - family: Hoffman
+        given: Michael M.
+      - family: Kengne
+        given: André Pascal
+      - family: Lam
+        given: Emily
+      - family: Lee
+        given: Naomi
+      - family: Loder
+        given: Elizabeth W.
+      - family: Maier-Hein
+        given: Lena
+      - family: Mateen
+        given: Bilal A.
+      - family: McCradden
+        given: Melissa D.
+      - family: Oakden-Rayner
+        given: Lauren
+      - family: Ordish
+        given: Johan
+      - family: Parnell
+        given: Richard
+      - family: Rose
+        given: Sherri
+      - family: Singh
+        given: Karandeep
+      - family: Wynants
+        given: Laure
+      - family: Logullo
+        given: Patricia
+    citation-key: collinsTRIPOD+AIStatementUpdated2024
+    container-title: BMJ
+    container-title-short: BMJ
+    DOI: 10.1136/bmj-2023-078378
+    ISSN: 1756-1833
+    issued:
+      - year: 2024
+        month: 4
+        day: 16
+    language: en
+    license: >-
+      © Author(s) (or their employer(s)) 2019. Re-use permitted under CC BY. No
+      commercial re-use. See rights and permissions. Published by BMJ..
+      http://creativecommons.org/licenses/by/4.0/This is an Open Access article
+      distributed in accordance with the terms of the Creative Commons Attribution
+      (CC BY 4.0) license, which permits others to distribute, remix, adapt and
+      build upon this work, for commercial use, provided the original work is
+      properly cited. See: http://creativecommons.org/licenses/by/4.0/.
+    page: e078378
+    PMID: '38626948'
+    publisher: British Medical Journal Publishing Group
+    section: Research Methods &amp; Reporting
+    source: www-bmj-com.ezproxy-prd.bodleian.ox.ac.uk
+    title: >-
+      TRIPOD+AI statement: updated guidance for reporting clinical prediction
+      models that use regression or machine learning methods
+    title-short: TRIPOD+AI statement
+    type: article-journal
+    URL: https://www.bmj.com/content/385/bmj-2023-078378
+    volume: '385'
+authors:
+  - family: Collins
+    given: Gary S.
+  - family: Moons
+    given: Karel G. M.
+  - family: Dhiman
+    given: Paula
+  - family: Riley
+    given: Richard D.
+  - family: Beam
+    given: Andrew L.
+  - family: Calster
+    given: Ben Van
+  - family: Ghassemi
+    given: Marzyeh
+  - family: Liu
+    given: Xiaoxuan
+  - family: Reitsma
+    given: Johannes B.
+  - family: Smeden
+    given: Maarten
+    dropping-particle: van
+  - family: Boulesteix
+    given: Anne-Laure
+  - family: Camaradou
+    given: Jennifer Catherine
+  - family: Celi
+    given: Leo Anthony
+  - family: Denaxas
+    given: Spiros
+  - family: Denniston
+    given: Alastair K.
+  - family: Glocker
+    given: Ben
+  - family: Golub
+    given: Robert M.
+  - family: Harvey
+    given: Hugh
+  - family: Heinze
+    given: Georg
+  - family: Hoffman
+    given: Michael M.
+  - family: Kengne
+    given: André Pascal
+  - family: Lam
+    given: Emily
+  - family: Lee
+    given: Naomi
+  - family: Loder
+    given: Elizabeth W.
+  - family: Maier-Hein
+    given: Lena
+  - family: Mateen
+    given: Bilal A.
+  - family: McCradden
+    given: Melissa D.
+  - family: Oakden-Rayner
+    given: Lauren
+  - family: Ordish
+    given: Johan
+  - family: Parnell
+    given: Richard
+  - family: Rose
+    given: Sherri
+  - family: Singh
+    given: Karandeep
+  - family: Wynants
+    given: Laure
+  - family: Logullo
+    given: Patricia

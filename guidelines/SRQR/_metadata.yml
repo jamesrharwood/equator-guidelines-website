@@ -60,21 +60,20 @@ articles:
     title-short: Standards for Reporting Qualitative Research
     type: article-journal
     volume: '89'
+author_list: "Bridget C. O\u2019Brien,\nIlene B. Harris,\nThomas J. Beckman,\nDarcy\
+  \ A. Reed,\nDavid A. Cook"
 citation:
   author:
-  - family: O&amp
-    given: Bridget
-  - family: '#039'
-    given: ''
-  - family: Brien
-    given: ''
+  - family: "O\u2019Brien"
+    given: Bridget C.
   - family: Harris
-    given: Ilene
+    given: Ilene B.
   - family: Beckman
-    given: Thomas
+    given: Thomas J.
   - family: Reed
-    given: Darcy
+    given: Darcy A.
   - family: Cook
+    given: David A.
   container-author:
   - name: James Harwood
   - name: Charlotte Albury
@@ -167,3 +166,4 @@ journal-endorsement-count: 500+
 search: false
 title: SRQR reporting guideline for writing qualitative research articles
 translations: "[\U0001F1EB\U0001F1F7 French](https://doi.org/10.1016/j.kine.2022.05.004)"
+version: '1.1'

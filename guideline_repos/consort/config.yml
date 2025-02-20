@@ -1,11 +1,61 @@
 title: "CONSORT reporting guideline for writing clinical trial research articles"
 acronym: CONSORT
-acronym-definition: ''
-journal-endorsement-count: 500+
+acronym-definition: 'Consolidated Standards of Reporting Trials'
+journal-endorsement-count: 1000+
 id: consort
-doi-for-citation-count: 10.1186/1741-7015-8-18
+doi-for-citation-count: 10.7326/0003-4819-152-11-201006010-0023
+doi: 10.1234/equator/1010101
 # data-repo: jamesrharwood/consort
 open-e-and-e: true
-version: '1.1'
+version: 'CONSORT 2010 v1.1'
+articles:
+  development:
+    id: schulzCONSORT2010Statement2010b
+    abstract: >-
+      The CONSORT (Consolidated Standards of Reporting Trials) statement is used
+      worldwide to improve the reporting of randomized, controlled trials. Schulz
+      and colleagues describe the latest version, CONSORT 2010, which updates the
+      reporting guideline based on new methodological evidence and accumulating
+      experience.
+    accessed:
+      - year: 2025
+        month: 2
+        day: 18
+    author:
+      - family: Schulz
+        given: Kenneth F.
+      - family: Altman
+        given: Douglas G.
+      - family: Moher
+        given: David
+      - literal: for the CONSORT Group
+    citation-key: schulzCONSORT2010Statement2010b
+    container-title: Annals of Internal Medicine
+    container-title-short: Ann Intern Med
+    DOI: 10.7326/0003-4819-152-11-201006010-00232
+    ISSN: 0003-4819
+    issue: '11'
+    issued:
+      - year: 2010
+        month: 6
+    page: 726-732
+    publisher: American College of Physicians
+    source: acpjournals.org (Atypon)
+    title: >-
+      CONSORT 2010 Statement: Updated Guidelines for Reporting Parallel Group
+      Randomized Trials
+    title-short: CONSORT 2010 Statement
+    type: article-journal
+    URL: >-
+      https://www.acpjournals.org/doi/full/10.7326/0003-4819-152-11-201006010-00232
+    volume: '152'
+authors:
+  - family: Schulz
+    given: Kenneth F.
+  - family: Altman
+    given: Douglas G.
+  - family: Moher
+    given: David
+  - literal: for the CONSORT Group
 
 

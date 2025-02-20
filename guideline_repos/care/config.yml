@@ -1,3 +1,97 @@
-doi: 10.1136/bcr-2013-201554
+doi-for-citation-count: 10.1136/bcr-2013-201554
+doi: 10.1234/equator/1010101
 id: care
 translations: []
+title: The CARE reporting guideline for writing clinical case report articles
+acronym: CARE
+acronym-definition: CAse REport
+open-e-and-e: true
+journal-endorsement-count: 1000+
+version: 'CARE 2013 v1.1'
+articles:
+  development:  
+    id: gagnierCAREGuidelinesConsensusbased2013a
+    abstract: >-
+      A case report is a narrative that describes, for medical, scientific or
+      educational purposes, a medical problem experienced by one or more patients.
+      Case reports written without guidance from reporting standards are
+      insufficiently rigorous to guide clinical practice or to inform clinical
+      study design. Develop, disseminate and implement systematic reporting
+      guidelines for case reports. We used a three-phase consensus process
+      consisting of (1) premeeting literature review and interviews to generate
+      items for the reporting guidelines, (2) a face-to-face consensus meeting to
+      draft the reporting guidelines and (3) postmeeting feedback, review and
+      pilot testing, followed by finalisation of the case report guidelines. This
+      consensus process involved 27 participants and resulted in a 13-item
+      checklist—a reporting guideline for case reports. The primary items of the
+      checklist are title, key words, abstract, introduction, patient information,
+      clinical findings, timeline, diagnostic assessment, therapeutic
+      interventions, follow-up and outcomes, discussion, patient perspective and
+      informed consent. We believe the implementation of the CARE (CAse REport)
+      guidelines by medical journals will improve the completeness and
+      transparency of published case reports and that the systematic aggregation
+      of information from case reports will inform clinical study design, provide
+      early signals of effectiveness and harms, and improve healthcare delivery.
+    accessed:
+      - year: 2025
+        month: 2
+        day: 18
+    author:
+      - family: Gagnier
+        given: Joel J.
+      - family: Kienle
+        given: Gunver
+      - family: Altman
+        given: Douglas G.
+      - family: Moher
+        given: David
+      - family: Sox
+        given: Harold
+      - family: Riley
+        given: David
+      - family: Group
+        given: the CARE
+    citation-key: gagnierCAREGuidelinesConsensusbased2013a
+    container-title: Case Reports
+    DOI: 10.1136/bcr-2013-201554
+    ISSN: 1757-790X
+    issued:
+      - year: 2013
+        month: 10
+        day: 23
+    language: en
+    license: >-
+      2013 BMJ Publishing Group Ltd. This is an Open Access article distributed in
+      accordance with the Creative Commons Attribution Non Commercial (CC BY-NC
+      3.0) license, which permits others to distribute, remix, adapt, build upon
+      this work non-commercially, and license their derivative works on different
+      terms, provided the original work is properly cited and the use is
+      non-commercial. See: http://creativecommons.org/licenses/by-nc/3.0/
+    page: bcr2013201554
+    PMID: '24155002'
+    publisher: BMJ Publishing Group
+    section: Editorial
+    source: casereports.bmj.com
+    title: >-
+      The CARE guidelines: consensus-based clinical case reporting guideline
+      development
+    title-short: The CARE guidelines
+    type: article-journal
+    URL: https://casereports.bmj.com/content/2013/bcr-2013-201554
+    volume: '2013'
+authors:
+  - family: Gagnier
+    given: Joel J.
+  - family: Kienle
+    given: Gunver
+  - family: Altman
+    given: Douglas G.
+  - family: Moher
+    given: David
+  - family: Sox
+    given: Harold
+  - family: Riley
+    given: David
+  - family: Group
+    given: the CARE
+

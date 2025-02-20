@@ -1,0 +1,2 @@
+* [STARD for abstracts](https://www.equator-network.org/reporting-guidelines/stard-abstracts/)
+* [STARDdem](https://www.equator-network.org/reporting-guidelines/starddem/) for reporting diagnostic accuracy studies in dementia

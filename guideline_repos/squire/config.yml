@@ -1,3 +1,93 @@
-doi: 10.1136/bmjqs-2015-004411
+doi-for-citation-count: 10.1136/bmjqs-2015-004411
+doi: 10.1234/equator/1010101
 id: squire
 translations: []
+title: The SQUIRE reporting guideline for writing health services quality improvement research articles
+acronym: SQUIRE
+acronym-definition: Standards for QUality Improvement Reporting Excellence
+open-e-and-e: true
+journal-endorsement-count: 1000+
+version: 'SQUIRE 2.0 2016 v1.1'
+articles:
+  development:
+    id: ogrincSQUIREStandardsQUality2016
+    abstract: >-
+      Since the publication of Standards for QUality Improvement Reporting
+      Excellence (SQUIRE 1.0) guidelines in 2008, the science of the field has
+      advanced considerably. In this manuscript, we describe the development of
+      SQUIRE 2.0 and its key components. We undertook the revision between 2012
+      and 2015 using (1) semistructured interviews and focus groups to evaluate
+      SQUIRE 1.0 plus feedback from an international steering group, (2) two
+      face-to-face consensus meetings to develop interim drafts and (3) pilot
+      testing with authors and a public comment period. SQUIRE 2.0 emphasises the
+      reporting of three key components of systematic efforts to improve the
+      quality, value and safety of healthcare: the use of formal and informal
+      theory in planning, implementing and evaluating improvement work; the
+      context in which the work is done and the study of the intervention(s).
+      SQUIRE 2.0 is intended for reporting the range of methods used to improve
+      healthcare, recognising that they can be complex and multidimensional. It
+      provides common ground to share these discoveries in the scholarly
+      literature (http://www.squire-statement.org).
+    accessed:
+      - year: 2020
+        month: 11
+        day: 5
+    author:
+      - family: Ogrinc
+        given: Greg
+      - family: Davies
+        given: Louise
+      - family: Goodman
+        given: Daisy
+      - family: Batalden
+        given: Paul
+      - family: Davidoff
+        given: Frank
+      - family: Stevens
+        given: David
+    citation-key: ogrincSQUIREStandardsQUality2016
+    container-title: BMJ Quality & Safety
+    container-title-short: BMJ Qual Saf
+    DOI: 10.1136/bmjqs-2015-004411
+    ISSN: 2044-5415, 2044-5423
+    issue: '12'
+    issued:
+      - year: 2016
+        month: 12
+        day: 1
+    language: en
+    license: >-
+      Published by the BMJ Publishing Group Limited. For permission to use (where
+      not already granted under a licence) please go to
+      http://www.bmj.com/company/products-services/rights-and-licensing/. This is
+      an Open Access article distributed in accordance with the Creative Commons
+      Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to
+      distribute, remix, adapt, build upon this work non-commercially, and license
+      their derivative works on different terms, provided the original work is
+      properly cited and the use is non-commercial. See:
+      http://creativecommons.org/licenses/by-nc/4.0/
+    page: 986-992
+    PMID: '26369893'
+    publisher: BMJ Publishing Group Ltd
+    section: Research and reporting methodology
+    source: qualitysafety.bmj.com
+    title: >-
+      SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised
+      publication guidelines from a detailed consensus process
+    title-short: SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence)
+    type: article-journal
+    URL: https://qualitysafety.bmj.com/content/25/12/986
+    volume: '25'
+authors:
+  - family: Ogrinc
+    given: Greg
+  - family: Davies
+    given: Louise
+  - family: Goodman
+    given: Daisy
+  - family: Batalden
+    given: Paul
+  - family: Davidoff
+    given: Frank
+  - family: Stevens
+    given: David

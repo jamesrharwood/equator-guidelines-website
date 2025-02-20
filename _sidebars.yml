@@ -3,110 +3,6 @@ website:
   sidebar:
   - collapse-level: 2
     contents:
-    - href: guidelines/consort/index.qmd
-      text: Overview of CONSORT
-    - contents:
-      - contents:
-        - href: guidelines/consort/items/title.qmd
-          text: 1a. Title
-        - href: guidelines/consort/items/1b_abstract.qmd
-          text: 1b. Abstract
-        section: Title and Abstract
-      - contents:
-        - href: guidelines/consort/items/2a_background_and_objectives.qmd
-          text: 2a. Background and objectives
-        - href: guidelines/consort/items/2b_background_and_objectives.qmd
-          text: 2b. Background and objectives
-        section: Introduction
-      - contents:
-        - contents:
-          - href: guidelines/consort/items/3a_trial_design.qmd
-            text: 3a. Trial design
-          - href: guidelines/consort/items/3b_trial_design.qmd
-            text: 3b. Trial design
-          section: Trial Design
-        - href: guidelines/consort/items/4a_participants_.qmd
-          text: '4a. Participants '
-        - href: guidelines/consort/items/4b_participants_.qmd
-          text: '4b. Participants '
-        - href: guidelines/consort/items/5_interventions.qmd
-          text: 5. Interventions
-        - href: guidelines/consort/items/6a_outcomes.qmd
-          text: 6a. Outcomes
-        - href: guidelines/consort/items/6b_outcomes.qmd
-          text: 6b. Outcomes
-        - href: guidelines/consort/items/7a_sample_size.qmd
-          text: 7a. Sample size
-        - href: guidelines/consort/items/7b_sample_size.qmd
-          text: 7b. Sample size
-        - href: guidelines/consort/items/8a_randomization__sequence_generation.qmd
-          text: 8a. Randomization - Sequence generation
-        - href: guidelines/consort/items/8b_randomization__sequence_generation.qmd
-          text: 8b. Randomization - Sequence generation
-        - href: guidelines/consort/items/9_randomization__allocation_concealment_mechanism.qmd
-          text: 9. Randomization - Allocation concealment mechanism
-        - href: guidelines/consort/items/10_randomization__implementation.qmd
-          text: 10. Randomization - Implementation
-        - href: guidelines/consort/items/11a_blinding.qmd
-          text: 11a. Blinding
-        - href: guidelines/consort/items/11b_blinding.qmd
-          text: 11b. Blinding
-        - href: guidelines/consort/items/12a_statistical_methods.qmd
-          text: 12a. Statistical methods
-        - href: guidelines/consort/items/12b_statistical_methods.qmd
-          text: 12b. Statistical methods
-        section: Methods
-      - contents:
-        - href: guidelines/consort/items/13a_participant_flow_diagram_strongly_recommended.qmd
-          text: 13a. Participant flow diagram (strongly recommended)
-        - href: guidelines/consort/items/13b_participant_flow.qmd
-          text: 13b. Participant flow
-        - href: guidelines/consort/items/14a_recruitment.qmd
-          text: 14a. Recruitment
-        - href: guidelines/consort/items/14b_recruitment.qmd
-          text: 14b. Recruitment
-        - href: guidelines/consort/items/15_baseline_data.qmd
-          text: 15. Baseline data
-        - href: guidelines/consort/items/16_numbers_analysed.qmd
-          text: 16. Numbers analysed
-        - href: guidelines/consort/items/17a_outcomes_and_estimation.qmd
-          text: 17a. Outcomes and estimation
-        - href: guidelines/consort/items/17b_outcomes_and_estimation.qmd
-          text: 17b. Outcomes and estimation
-        - href: guidelines/consort/items/18_ancillary_analyses.qmd
-          text: 18. Ancillary analyses
-        - href: guidelines/consort/items/19_harms.qmd
-          text: 19. Harms
-        section: Results
-      - contents:
-        - href: guidelines/consort/items/20_limitations.qmd
-          text: 20. Limitations
-        - href: guidelines/consort/items/21_generalisability.qmd
-          text: 21. Generalisability
-        - href: guidelines/consort/items/22_interpretation.qmd
-          text: 22. Interpretation
-        - href: guidelines/consort/items/23_registration.qmd
-          text: 23. Registration
-        section: Discussion
-      - contents:
-        - href: guidelines/consort/items/24_protocol.qmd
-          text: 24. Protocol
-        - href: guidelines/consort/items/25_funding.qmd
-          text: 25. Funding
-        section: Other Information
-      section: Full guidance
-    - href: guidelines/consort/consort_writing_guide.docx
-      text: Writing guide
-    - href: guidelines/consort/consort_checklist.docx
-      text: Checklist
-    - href: guidelines/consort/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: consort
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/prisma/index.qmd
       text: Overview of PRISMA
     - contents:
@@ -550,5 +446,833 @@ website:
       text: FAQs
     foreground: secondary
     id: srqr
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/care/index.qmd
+      text: Overview of CARE
+    - contents:
+      - contents:
+        - href: guidelines/care/items/1.qmd
+          text: 1. Title
+        section: Title
+      - contents:
+        - href: guidelines/care/items/2.qmd
+          text: 2. Keywords
+        section: Keywords
+      - contents:
+        - href: guidelines/care/items/3a_introduction.qmd
+          text: 3a. Introduction
+        - href: guidelines/care/items/3b_.qmd
+          text: 3b. Abstract
+        - href: guidelines/care/items/3c_.qmd
+          text: 3c. Abstract
+        - href: guidelines/care/items/3d_conclusion.qmd
+          text: 3d. Conclusion
+        section: Abstract
+      - contents:
+        - href: guidelines/care/items/4.qmd
+          text: 4. Introduction
+        section: Introduction
+      - contents:
+        - href: guidelines/care/items/5a_.qmd
+          text: 5a. Patient information
+        - href: guidelines/care/items/5b_.qmd
+          text: 5b. Patient information
+        - href: guidelines/care/items/5c_.qmd
+          text: 5c. Patient information
+        - href: guidelines/care/items/5d_.qmd
+          text: 5d. Patient information
+        section: Patient information
+      - contents:
+        - href: guidelines/care/items/6.qmd
+          text: 6. Clinical findings
+        section: Clinical findings
+      - contents:
+        - href: guidelines/care/items/7.qmd
+          text: 7. Timeline
+        section: Timeline
+      - contents:
+        - href: guidelines/care/items/8a_.qmd
+          text: 8a. Diagnostic assessment
+        - href: guidelines/care/items/8b_.qmd
+          text: 8b. Diagnostic assessment
+        - href: guidelines/care/items/8c_.qmd
+          text: 8c. Diagnostic assessment
+        - href: guidelines/care/items/8d_.qmd
+          text: 8d. Diagnostic assessment
+        section: Diagnostic assessment
+      - contents:
+        - href: guidelines/care/items/9a_.qmd
+          text: 9a. Therapeutic Intervention
+        - href: guidelines/care/items/9b_.qmd
+          text: 9b. Therapeutic Intervention
+        - href: guidelines/care/items/9c_.qmd
+          text: 9c. Therapeutic Intervention
+        section: Therapeutic Intervention
+      - contents:
+        - href: guidelines/care/items/10a_.qmd
+          text: 10a. Follow up and outcomes
+        - href: guidelines/care/items/10b_.qmd
+          text: 10b. Follow up and outcomes
+        - href: guidelines/care/items/10c_.qmd
+          text: 10c. Follow up and outcomes
+        - href: guidelines/care/items/10d_.qmd
+          text: 10d. Follow up and outcomes
+        section: Follow up and outcomes
+      - contents:
+        - href: guidelines/care/items/11a_.qmd
+          text: 11a. Discussion
+        - href: guidelines/care/items/11b_.qmd
+          text: 11b. Discussion
+        - href: guidelines/care/items/11c_.qmd
+          text: 11c. Discussion
+        - href: guidelines/care/items/11d_.qmd
+          text: 11d. Discussion
+        section: Discussion
+      - contents:
+        - href: guidelines/care/items/12.qmd
+          text: 12. Patient perspective
+        section: Patient perspective
+      - contents:
+        - href: guidelines/care/items/13.qmd
+          text: 13. Informed consent
+        section: Informed consent
+      section: Full guidance
+    - href: guidelines/care/care_writing_guide.docx
+      text: Writing guide
+    - href: guidelines/care/care_checklist.docx
+      text: Checklist
+    - href: guidelines/care/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: care
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/prisma-p/index.qmd
+      text: Overview of PRISMA-P
+    - contents:
+      - contents:
+        - href: guidelines/prisma-p/items/1a_identification.qmd
+          text: 1a. Identification
+        - href: guidelines/prisma-p/items/1b_update.qmd
+          text: 1b. Update
+        section: Title
+      - contents:
+        - href: guidelines/prisma-p/items/2.qmd
+          text: 2. Registration
+        section: Registration
+      - contents:
+        - href: guidelines/prisma-p/items/3a_contact.qmd
+          text: 3a. Contact
+        - href: guidelines/prisma-p/items/3b_contribution.qmd
+          text: 3b. Contribution
+        section: Authors
+      - contents:
+        - href: guidelines/prisma-p/items/4.qmd
+          text: 4. Amendments
+        section: Amendments
+      - contents:
+        - href: guidelines/prisma-p/items/5a_sources.qmd
+          text: 5a. Sources
+        - href: guidelines/prisma-p/items/5b_sponsor.qmd
+          text: 5b. Sponsor
+        - href: guidelines/prisma-p/items/5c_role_of_sponsor_or_funder.qmd
+          text: 5c. Role of sponsor or funder
+        section: Support
+      - contents:
+        - href: guidelines/prisma-p/items/6_rationale.qmd
+          text: 6. Rationale
+        - href: guidelines/prisma-p/items/7_objectives.qmd
+          text: 7. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/prisma-p/items/8_eligibility_criteria.qmd
+          text: 8. Eligibility criteria
+        - href: guidelines/prisma-p/items/9_information_sources.qmd
+          text: 9. Information sources
+        - href: guidelines/prisma-p/items/10_search_strategy.qmd
+          text: 10. Search strategy
+        - href: guidelines/prisma-p/items/11a_study_records__data_management.qmd
+          text: 11a. Study records - data management
+        - href: guidelines/prisma-p/items/11b_study_records__selection_process.qmd
+          text: 11b. Study records - selection process
+        - href: guidelines/prisma-p/items/11c_study_records__data_collection_process.qmd
+          text: 11c. Study records - data collection process
+        - href: guidelines/prisma-p/items/12_data_items.qmd
+          text: 12. Data items
+        - href: guidelines/prisma-p/items/13_outcomes_and_prioritization.qmd
+          text: 13. Outcomes and prioritization
+        - href: guidelines/prisma-p/items/14_risk_of_bias_in_individual_studies.qmd
+          text: 14. Risk of bias in individual studies
+        - href: guidelines/prisma-p/items/15a_data_synthesis.qmd
+          text: 15a. Data synthesis
+        - href: guidelines/prisma-p/items/15b_data_synthesis.qmd
+          text: 15b. Data synthesis
+        - href: guidelines/prisma-p/items/15c_data_synthesis.qmd
+          text: 15c. Data synthesis
+        - href: guidelines/prisma-p/items/15d_data_synthesis.qmd
+          text: 15d. Data synthesis
+        - href: guidelines/prisma-p/items/16_metabiases.qmd
+          text: 16. Meta-bias(es)
+        - href: guidelines/prisma-p/items/17_confidence_in_cumulative_evidence.qmd
+          text: 17. Confidence in cumulative evidence
+        section: Methods
+      section: Full guidance
+    - href: guidelines/prisma-p/prisma-p_writing_guide.docx
+      text: Writing guide
+    - href: guidelines/prisma-p/prisma-p_checklist.docx
+      text: Checklist
+    - href: guidelines/prisma-p/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: prisma-p
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/consort/index.qmd
+      text: Overview of CONSORT
+    - contents:
+      - contents:
+        - href: guidelines/consort/items/title.qmd
+          text: 1a. Title
+        - href: guidelines/consort/items/1b_abstract.qmd
+          text: 1b. Abstract
+        section: Title and Abstract
+      - contents:
+        - href: guidelines/consort/items/2a_background_and_objectives.qmd
+          text: 2a. Background and objectives
+        - href: guidelines/consort/items/2b_background_and_objectives.qmd
+          text: 2b. Background and objectives
+        section: Introduction
+      - contents:
+        - contents:
+          - href: guidelines/consort/items/3a_trial_design.qmd
+            text: 3a. Trial design
+          - href: guidelines/consort/items/3b_trial_design.qmd
+            text: 3b. Trial design
+          section: Trial Design
+        - href: guidelines/consort/items/4a_participants_.qmd
+          text: '4a. Participants '
+        - href: guidelines/consort/items/4b_participants_.qmd
+          text: '4b. Participants '
+        - href: guidelines/consort/items/5_interventions.qmd
+          text: 5. Interventions
+        - href: guidelines/consort/items/6a_outcomes.qmd
+          text: 6a. Outcomes
+        - href: guidelines/consort/items/6b_outcomes.qmd
+          text: 6b. Outcomes
+        - href: guidelines/consort/items/7a_sample_size.qmd
+          text: 7a. Sample size
+        - href: guidelines/consort/items/7b_sample_size.qmd
+          text: 7b. Sample size
+        - href: guidelines/consort/items/8a_randomization__sequence_generation.qmd
+          text: 8a. Randomization - Sequence generation
+        - href: guidelines/consort/items/8b_randomization__sequence_generation.qmd
+          text: 8b. Randomization - Sequence generation
+        - href: guidelines/consort/items/9_randomization__allocation_concealment_mechanism.qmd
+          text: 9. Randomization - Allocation concealment mechanism
+        - href: guidelines/consort/items/10_randomization__implementation.qmd
+          text: 10. Randomization - Implementation
+        - href: guidelines/consort/items/11a_blinding.qmd
+          text: 11a. Blinding
+        - href: guidelines/consort/items/11b_blinding.qmd
+          text: 11b. Blinding
+        - href: guidelines/consort/items/12a_statistical_methods.qmd
+          text: 12a. Statistical methods
+        - href: guidelines/consort/items/12b_statistical_methods.qmd
+          text: 12b. Statistical methods
+        section: Methods
+      - contents:
+        - href: guidelines/consort/items/13a_participant_flow_diagram_strongly_recommended.qmd
+          text: 13a. Participant flow diagram (strongly recommended)
+        - href: guidelines/consort/items/13b_participant_flow.qmd
+          text: 13b. Participant flow
+        - href: guidelines/consort/items/14a_recruitment.qmd
+          text: 14a. Recruitment
+        - href: guidelines/consort/items/14b_recruitment.qmd
+          text: 14b. Recruitment
+        - href: guidelines/consort/items/15_baseline_data.qmd
+          text: 15. Baseline data
+        - href: guidelines/consort/items/16_numbers_analysed.qmd
+          text: 16. Numbers analysed
+        - href: guidelines/consort/items/17a_outcomes_and_estimation.qmd
+          text: 17a. Outcomes and estimation
+        - href: guidelines/consort/items/17b_outcomes_and_estimation.qmd
+          text: 17b. Outcomes and estimation
+        - href: guidelines/consort/items/18_ancillary_analyses.qmd
+          text: 18. Ancillary analyses
+        - href: guidelines/consort/items/19_harms.qmd
+          text: 19. Harms
+        section: Results
+      - contents:
+        - href: guidelines/consort/items/20_limitations.qmd
+          text: 20. Limitations
+        - href: guidelines/consort/items/21_generalisability.qmd
+          text: 21. Generalisability
+        - href: guidelines/consort/items/22_interpretation.qmd
+          text: 22. Interpretation
+        - href: guidelines/consort/items/23_registration.qmd
+          text: 23. Registration
+        section: Discussion
+      - contents:
+        - href: guidelines/consort/items/24_protocol.qmd
+          text: 24. Protocol
+        - href: guidelines/consort/items/25_funding.qmd
+          text: 25. Funding
+        section: Other Information
+      section: Full guidance
+    - href: guidelines/consort/consort_writing_guide.docx
+      text: Writing guide
+    - href: guidelines/consort/consort_checklist.docx
+      text: Checklist
+    - href: guidelines/consort/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: consort
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/spirit/index.qmd
+      text: Overview of SPIRIT
+    - contents:
+      - contents:
+        - href: guidelines/spirit/items/1_title.qmd
+          text: 1. Title
+        - href: guidelines/spirit/items/2a_trial_registration.qmd
+          text: 2a. Trial registration
+        - href: guidelines/spirit/items/2b_trial_registration_data_set.qmd
+          text: '2b. Trial registration: data set'
+        - href: guidelines/spirit/items/3_protocol_version.qmd
+          text: 3. Protocol version
+        - href: guidelines/spirit/items/4_funding.qmd
+          text: 4. Funding
+        - href: guidelines/spirit/items/5a_roles_and_responsibilities_contributorship.qmd
+          text: '5a. Roles and responsibilities: contributorship'
+        - href: guidelines/spirit/items/5b_roles_and_responsibilities_sponsor_contact_information.qmd
+          text: '5b. Roles and responsibilities: sponsor contact information'
+        - href: guidelines/spirit/items/5c_roles_and_responsibilities_sponsor_and_funder.qmd
+          text: '5c. Roles and responsibilities: sponsor and funder'
+        - href: guidelines/spirit/items/5d_roles_and_responsibilities_committees.qmd
+          text: '5d. Roles and responsibilities: committees'
+        section: Administrative information
+      - contents:
+        - href: guidelines/spirit/items/6a_background_and_rationale.qmd
+          text: 6a. Background and rationale
+        - href: guidelines/spirit/items/6b_background_and_rationale_choice_of_comparators.qmd
+          text: '6b. Background and rationale: choice of comparators'
+        - href: guidelines/spirit/items/7_objectives.qmd
+          text: 7. Objectives
+        - href: guidelines/spirit/items/8_trial_design.qmd
+          text: 8. Trial design
+        section: Introduction
+      - contents:
+        - href: guidelines/spirit/items/9_study_setting.qmd
+          text: 9. Study setting
+        - href: guidelines/spirit/items/10_eligibility_criteria.qmd
+          text: 10. Eligibility criteria
+        - href: guidelines/spirit/items/11a_interventions_description.qmd
+          text: '11a. Interventions: description'
+        - href: guidelines/spirit/items/11b_interventions_modifications.qmd
+          text: '11b. Interventions: modifications'
+        - href: guidelines/spirit/items/11c_interventions_adherance.qmd
+          text: '11c. Interventions: adherance'
+        - href: guidelines/spirit/items/11d_interventions_concomitant_care.qmd
+          text: '11d. Interventions: concomitant care'
+        - href: guidelines/spirit/items/12_outcomes.qmd
+          text: 12. Outcomes
+        - href: guidelines/spirit/items/13_participant_timeline.qmd
+          text: 13. Participant timeline
+        - href: guidelines/spirit/items/14_sample_size.qmd
+          text: 14. Sample size
+        - href: guidelines/spirit/items/15_recruitment.qmd
+          text: 15. Recruitment
+        section: 'Methods: Participants, interventions, and outcomes'
+      - contents:
+        - href: guidelines/spirit/items/16a_allocation_sequence_generation.qmd
+          text: '16a. Allocation: sequence generation'
+        - href: guidelines/spirit/items/16b_allocation_concealment_mechanism.qmd
+          text: 16b. Allocation concealment mechanism
+        - href: guidelines/spirit/items/16c_allocation_implementation.qmd
+          text: '16c. Allocation: implementation'
+        - href: guidelines/spirit/items/17a_blinding_masking.qmd
+          text: 17a. Blinding (masking)
+        - href: guidelines/spirit/items/17b_blinding_masking_emergency_unblinding.qmd
+          text: '17b. Blinding (masking): emergency unblinding'
+        section: 'Methods: Assignment of interventions (for controlled trials)'
+      - contents:
+        - href: guidelines/spirit/items/18a_data_collection_plan.qmd
+          text: 18a. Data collection plan
+        - href: guidelines/spirit/items/18b_data_collection_plan_retention.qmd
+          text: '18b. Data collection plan: retention'
+        - href: guidelines/spirit/items/19_data_management.qmd
+          text: 19. Data management
+        - href: guidelines/spirit/items/20a_statistics_outcomes.qmd
+          text: '20a. Statistics: outcomes'
+        - href: guidelines/spirit/items/20b_statistics_additional_analyses.qmd
+          text: '20b. Statistics: additional analyses'
+        - href: guidelines/spirit/items/20c_statistics_analysis_population_and_missing_data.qmd
+          text: '20c. Statistics: analysis population and missing data'
+        section: 'Methods: Data collection, management, and analysis'
+      - contents:
+        - href: guidelines/spirit/items/21a_data_monitoring_formal_committee.qmd
+          text: '21a. Data monitoring: formal committee'
+        - href: guidelines/spirit/items/21b_data_monitoring_interim_analysis.qmd
+          text: '21b. Data monitoring: interim analysis'
+        - href: guidelines/spirit/items/22_harms.qmd
+          text: 22. Harms
+        - href: guidelines/spirit/items/23_auditing.qmd
+          text: 23. Auditing
+        section: 'Methods: Monitoring'
+      - contents:
+        - href: guidelines/spirit/items/24_research_ethics_approval.qmd
+          text: 24. Research ethics approval
+        - href: guidelines/spirit/items/25_protocol_amendments.qmd
+          text: 25. Protocol amendments
+        - href: guidelines/spirit/items/26a_consent_or_assent.qmd
+          text: 26a. Consent or assent
+        - href: guidelines/spirit/items/26b_consent_or_assent_ancillary_studies.qmd
+          text: '26b. Consent or assent: ancillary studies'
+        - href: guidelines/spirit/items/27_confidentiality.qmd
+          text: 27. Confidentiality
+        - href: guidelines/spirit/items/28_declaration_of_interests.qmd
+          text: 28. Declaration of interests
+        - href: guidelines/spirit/items/29_data_access.qmd
+          text: 29. Data access
+        - href: guidelines/spirit/items/30_ancillary_and_post_trial_care.qmd
+          text: 30. Ancillary and post trial care
+        - href: guidelines/spirit/items/31a_dissemination_policy_trial_results.qmd
+          text: '31a. Dissemination policy: trial results'
+        - href: guidelines/spirit/items/31b_dissemination_policy_authorship.qmd
+          text: '31b. Dissemination policy: authorship'
+        - href: guidelines/spirit/items/31c_dissemination_policy_reproducible_research.qmd
+          text: '31c. Dissemination policy: reproducible research'
+        section: Ethics and dissemination
+      - contents:
+        - href: guidelines/spirit/items/32_informed_consent_materials.qmd
+          text: 32. Informed consent materials
+        - href: guidelines/spirit/items/33_biological_specimens.qmd
+          text: 33. Biological specimens
+        section: Appendices
+      section: Full guidance
+    - href: guidelines/spirit/spirit_writing_guide.docx
+      text: Writing guide
+    - href: guidelines/spirit/spirit_checklist.docx
+      text: Checklist
+    - href: guidelines/spirit/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: spirit
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/stard/index.qmd
+      text: Overview of STARD
+    - contents:
+      - contents:
+        - href: guidelines/stard/items/1_identification.qmd
+          text: 1. Identification as a study of diagnostic accuracy
+        section: Title or abstract
+      - contents:
+        - href: guidelines/stard/items/2_abstract.qmd
+          text: 2. Abstract
+        section: Abstract
+      - contents:
+        - href: guidelines/stard/items/3_background.qmd
+          text: 3. Background
+        - href: guidelines/stard/items/4_objectives.qmd
+          text: 4. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/stard/items/5_study_design.qmd
+          text: 5. Study design
+        - contents:
+          - href: guidelines/stard/items/6_participants.qmd
+            text: 6. Participants
+          - href: guidelines/stard/items/7_participants.qmd
+            text: 7. Participants
+          - href: guidelines/stard/items/8_participants.qmd
+            text: 8. Participants
+          - href: guidelines/stard/items/9_participants.qmd
+            text: 9. Participants
+          section: Participants
+        - contents:
+          - href: guidelines/stard/items/10a_test_methods.qmd
+            text: 10a. Test methods
+          - href: guidelines/stard/items/10b_test_methods.qmd
+            text: 10b. Test methods
+          - href: guidelines/stard/items/11_test_methods.qmd
+            text: 11. Test methods
+          - href: guidelines/stard/items/12a_test_methods.qmd
+            text: 12a. Test methods
+          - href: guidelines/stard/items/12b_test_methods.qmd
+            text: 12b. Test methods
+          - href: guidelines/stard/items/13a_test_methods.qmd
+            text: 13a. Test methods
+          - href: guidelines/stard/items/13b_test_methods.qmd
+            text: 13b. Test methods
+          section: Test Methods
+        - contents:
+          - href: guidelines/stard/items/14_analysis.qmd
+            text: 14. Analysis
+          - href: guidelines/stard/items/15_analysis.qmd
+            text: 15. Analysis
+          - href: guidelines/stard/items/16_analysis.qmd
+            text: 16. Analysis
+          - href: guidelines/stard/items/17_analysis.qmd
+            text: 17. Analysis
+          - href: guidelines/stard/items/18_analysis.qmd
+            text: 18. Analysis
+          section: Analysis
+        section: Methods
+      - contents:
+        - contents:
+          - href: guidelines/stard/items/19_participants.qmd
+            text: 19. Participants
+          - href: guidelines/stard/items/20_participants.qmd
+            text: 20. Participants
+          - href: guidelines/stard/items/21a_participants.qmd
+            text: 21a. Participants
+          - href: guidelines/stard/items/21b_participants.qmd
+            text: 21b. Participants
+          - href: guidelines/stard/items/22_participants.qmd
+            text: 22. Participants
+          section: Participants
+        - contents:
+          - href: guidelines/stard/items/23_test_results.qmd
+            text: 23. Test results
+          - href: guidelines/stard/items/24_test_results.qmd
+            text: 24. Test results
+          - href: guidelines/stard/items/25_test_results.qmd
+            text: 25. Test results
+          section: Test Results
+        section: Results
+      - contents:
+        - href: guidelines/stard/items/26.qmd
+          text: 26. Discussion
+        - href: guidelines/stard/items/27.qmd
+          text: 27. Discussion
+        section: Discussion
+      - contents:
+        - href: guidelines/stard/items/28.qmd
+          text: 28. Other information
+        - href: guidelines/stard/items/29.qmd
+          text: 29. Other information
+        - href: guidelines/stard/items/30.qmd
+          text: 30. Other information
+        section: Other information
+      section: Full guidance
+    - href: guidelines/stard/stard_writing_guide.docx
+      text: Writing guide
+    - href: guidelines/stard/stard_checklist.docx
+      text: Checklist
+    - href: guidelines/stard/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: stard
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/tripod/index.qmd
+      text: Overview of TRIPOD + AI
+    - contents:
+      - contents:
+        - href: guidelines/tripod/items/1.qmd
+          text: 1. Title
+        section: Title
+      - contents:
+        - href: guidelines/tripod/items/2.qmd
+          text: 2. Abstract
+        section: Abstract
+      - contents:
+        - href: guidelines/tripod/items/3a_.qmd
+          text: 3a. Introduction
+        - href: guidelines/tripod/items/3b_.qmd
+          text: 3b. Introduction
+        section: Introduction
+      - contents:
+        - href: guidelines/tripod/items/4a_source_of_data.qmd
+          text: 4a. Source of data
+        - href: guidelines/tripod/items/4b_source_of_data.qmd
+          text: 4b. Source of data
+        - href: guidelines/tripod/items/5a_participants.qmd
+          text: 5a. Participants
+        - href: guidelines/tripod/items/5b_participants.qmd
+          text: 5b. Participants
+        - href: guidelines/tripod/items/5c_participants.qmd
+          text: 5c. Participants
+        - href: guidelines/tripod/items/6a_outcome.qmd
+          text: 6a. Outcome
+        - href: guidelines/tripod/items/6b_outcome.qmd
+          text: 6b. Outcome
+        - href: guidelines/tripod/items/7a_predictors.qmd
+          text: 7a. Predictors
+        - href: guidelines/tripod/items/7b_predictors.qmd
+          text: 7b. Predictors
+        - href: guidelines/tripod/items/8_sample_size.qmd
+          text: 8. Sample size
+        - href: guidelines/tripod/items/9_missing_data.qmd
+          text: 9. Missing data
+        - href: guidelines/tripod/items/10a_statistical_analysis_methods.qmd
+          text: 10a. Statistical analysis methods
+        - href: guidelines/tripod/items/10b_statistical_analysis_methods.qmd
+          text: 10b. Statistical analysis methods
+        - href: guidelines/tripod/items/10c_statistical_analysis_methods.qmd
+          text: 10c. Statistical analysis methods
+        - href: guidelines/tripod/items/10d_statistical_analysis_methods.qmd
+          text: 10d. Statistical analysis methods
+        - href: guidelines/tripod/items/10e_statistical_analysis_methods.qmd
+          text: 10e. Statistical analysis methods
+        - href: guidelines/tripod/items/11_risk_groups.qmd
+          text: 11. Risk groups
+        - href: guidelines/tripod/items/12_development_vs_validation.qmd
+          text: 12. Development vs. validation
+        section: Methods
+      - contents:
+        - href: guidelines/tripod/items/13a_participants.qmd
+          text: 13a. Participants
+        - href: guidelines/tripod/items/13b_participants.qmd
+          text: 13b. Participants
+        - href: guidelines/tripod/items/13c_participants.qmd
+          text: 13c. Participants
+        - href: guidelines/tripod/items/14a_model_development_.qmd
+          text: '14a. Model development '
+        - href: guidelines/tripod/items/14b_model_development_.qmd
+          text: '14b. Model development '
+        - href: guidelines/tripod/items/15a_model_specification.qmd
+          text: 15a. Model specification
+        - href: guidelines/tripod/items/15b_model_specification.qmd
+          text: 15b. Model specification
+        - href: guidelines/tripod/items/16_model_performance.qmd
+          text: 16. Model performance
+        - href: guidelines/tripod/items/17_modelupdating.qmd
+          text: 17. Model-updating
+        section: Results
+      - contents:
+        - href: guidelines/tripod/items/18_limitations.qmd
+          text: 18. Limitations
+        - href: guidelines/tripod/items/19a_interpretation.qmd
+          text: 19a. Interpretation
+        - href: guidelines/tripod/items/19b_interpretation.qmd
+          text: 19b. Interpretation
+        - href: guidelines/tripod/items/20_implications.qmd
+          text: 20. Implications
+        section: Discussion
+      - contents:
+        - href: guidelines/tripod/items/21_supplementary_information.qmd
+          text: 21. Supplementary information
+        - href: guidelines/tripod/items/22_funding.qmd
+          text: 22. Funding
+        section: Other information
+      section: Full guidance
+    - href: guidelines/tripod/tripod_writing_guide.docx
+      text: Writing guide
+    - href: guidelines/tripod/tripod_checklist.docx
+      text: Checklist
+    - href: guidelines/tripod/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: tripod
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/arrive/index.qmd
+      text: Overview of ARRIVE
+    - contents:
+      - contents:
+        - href: guidelines/arrive/items/title.qmd
+          text: Title
+        section: Title
+      - contents:
+        - href: guidelines/arrive/items/abstract.qmd
+          text: Abstract
+        section: Abstract
+      - contents:
+        - href: guidelines/arrive/items/3a_background.qmd
+          text: 3a. Background
+        - href: guidelines/arrive/items/3b_background.qmd
+          text: 3b. Background
+        - href: guidelines/arrive/items/4_objectives.qmd
+          text: 4. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/arrive/items/5_ethical_statement.qmd
+          text: 5. Ethical statement
+        - href: guidelines/arrive/items/6a_study_design.qmd
+          text: 6a. Study design
+        - href: guidelines/arrive/items/6b_study_design.qmd
+          text: 6b. Study design
+        - href: guidelines/arrive/items/6c_study_design.qmd
+          text: 6c. Study design
+        - href: guidelines/arrive/items/7_experimental_procedures.qmd
+          text: 7. Experimental procedures
+        - href: guidelines/arrive/items/8a_experimental_animals.qmd
+          text: 8a. Experimental animals
+        - href: guidelines/arrive/items/8b_experimental_animals.qmd
+          text: 8b. Experimental animals
+        - href: guidelines/arrive/items/9a_housing_and_husbandry.qmd
+          text: 9a. Housing and husbandry
+        - href: guidelines/arrive/items/9b_housing_and_husbandry.qmd
+          text: 9b. Housing and husbandry
+        - href: guidelines/arrive/items/9c_housing_and_husbandry.qmd
+          text: 9c. Housing and husbandry
+        - href: guidelines/arrive/items/10_sample_size.qmd
+          text: 10. Sample size
+        - href: guidelines/arrive/items/11_allocating_animals_to_experimental_groups.qmd
+          text: 11. Allocating animals to experimental groups
+        - href: guidelines/arrive/items/12_experimental_outcomes.qmd
+          text: 12. Experimental outcomes
+        - href: guidelines/arrive/items/13_statistical_methods.qmd
+          text: 13. Statistical methods
+        section: Methods
+      - contents:
+        - href: guidelines/arrive/items/14_baseline_data.qmd
+          text: 14. Baseline data
+        - href: guidelines/arrive/items/15_numbers_analysed.qmd
+          text: 15. Numbers analysed
+        - href: guidelines/arrive/items/16_outcomes_and_estimation.qmd
+          text: 16. Outcomes and estimation
+        - href: guidelines/arrive/items/17_adverse_events.qmd
+          text: 17. Adverse events
+        section: Results
+      - contents:
+        - href: guidelines/arrive/items/18a_interpretation__scientific_implications.qmd
+          text: 18a. Interpretation / scientific implications
+        - href: guidelines/arrive/items/18b_interpretation__scientific_implications.qmd
+          text: 18b. Interpretation / scientific implications
+        - href: guidelines/arrive/items/18c_interpretation__scientific_implications.qmd
+          text: 18c. Interpretation / scientific implications
+        - href: guidelines/arrive/items/19_generalisability__translation.qmd
+          text: 19. Generalisability / translation
+        - href: guidelines/arrive/items/20_funding.qmd
+          text: 20. Funding
+        section: Discussion
+      section: Full guidance
+    - href: guidelines/arrive/arrive_writing_guide.docx
+      text: Writing guide
+    - href: guidelines/arrive/arrive_checklist.docx
+      text: Checklist
+    - href: guidelines/arrive/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: arrive
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/squire/index.qmd
+      text: Overview of SQUIRE
+    - contents:
+      - contents:
+        - href: guidelines/squire/items/1.qmd
+          text: 1. Title
+        section: Title
+      - contents:
+        - href: guidelines/squire/items/02a_.qmd
+          text: 02a. Abstract
+        - href: guidelines/squire/items/02b_.qmd
+          text: 02b. Abstract
+        section: Abstract
+      - contents:
+        - href: guidelines/squire/items/3_problem_description.qmd
+          text: 3. Problem description
+        - href: guidelines/squire/items/4_available_knowledge.qmd
+          text: 4. Available knowledge
+        - href: guidelines/squire/items/5_rationale.qmd
+          text: 5. Rationale
+        - href: guidelines/squire/items/6_specific_aims.qmd
+          text: 6. Specific aims
+        section: Introduction
+      - contents:
+        - href: guidelines/squire/items/7_context.qmd
+          text: 7. Context
+        - href: guidelines/squire/items/08a_interventions.qmd
+          text: 08a. Intervention(s)
+        - href: guidelines/squire/items/08b_interventions.qmd
+          text: 08b. Intervention(s)
+        - href: guidelines/squire/items/09a_study_of_the_interventions.qmd
+          text: 09a. Study of the Intervention(s)
+        - href: guidelines/squire/items/09b_study_of_the_interventions.qmd
+          text: 09b. Study of the Intervention(s)
+        - href: guidelines/squire/items/10a_measures.qmd
+          text: 10a. Measures
+        - href: guidelines/squire/items/10b_measures.qmd
+          text: 10b. Measures
+        - href: guidelines/squire/items/10c_measures.qmd
+          text: 10c. Measures
+        - href: guidelines/squire/items/11a_analysis.qmd
+          text: 11a. Analysis
+        - href: guidelines/squire/items/11b_analysis.qmd
+          text: 11b. Analysis
+        - href: guidelines/squire/items/12_ethical_considerations.qmd
+          text: 12. Ethical considerations
+        section: Methods
+      - contents:
+        - href: guidelines/squire/items/13a_.qmd
+          text: 13a. Results
+        - href: guidelines/squire/items/13b_.qmd
+          text: 13b. Results
+        - href: guidelines/squire/items/13c_.qmd
+          text: 13c. Results
+        - href: guidelines/squire/items/13d_.qmd
+          text: 13d. Results
+        - href: guidelines/squire/items/13e_.qmd
+          text: 13e. Results
+        - href: guidelines/squire/items/13f_.qmd
+          text: 13f. Results
+        section: Results
+      - contents:
+        - href: guidelines/squire/items/14a_summary.qmd
+          text: 14a. Summary
+        - href: guidelines/squire/items/14b_summary.qmd
+          text: 14b. Summary
+        - href: guidelines/squire/items/15a_interpretation.qmd
+          text: 15a. Interpretation
+        - href: guidelines/squire/items/15b_interpretation.qmd
+          text: 15b. Interpretation
+        - href: guidelines/squire/items/15c_interpretation.qmd
+          text: 15c. Interpretation
+        - href: guidelines/squire/items/15d_interpretation.qmd
+          text: 15d. Interpretation
+        - href: guidelines/squire/items/15e_interpretation.qmd
+          text: 15e. Interpretation
+        - href: guidelines/squire/items/16a_limitations.qmd
+          text: 16a. Limitations
+        - href: guidelines/squire/items/16b_limitations.qmd
+          text: 16b. Limitations
+        - href: guidelines/squire/items/16c_limitations.qmd
+          text: 16c. Limitations
+        - href: guidelines/squire/items/17a_conclusion.qmd
+          text: 17a. Conclusion
+        - href: guidelines/squire/items/17b_conclusion.qmd
+          text: 17b. Conclusion
+        - href: guidelines/squire/items/17c_conclusion.qmd
+          text: 17c. Conclusion
+        - href: guidelines/squire/items/17d_conclusion.qmd
+          text: 17d. Conclusion
+        - href: guidelines/squire/items/17e_conclusion.qmd
+          text: 17e. Conclusion
+        section: Discussion
+      - contents:
+        - href: guidelines/squire/items/18_funding.qmd
+          text: 18. Funding
+        section: Other information
+      section: Full guidance
+    - href: guidelines/squire/squire_writing_guide.docx
+      text: Writing guide
+    - href: guidelines/squire/squire_checklist.docx
+      text: Checklist
+    - href: guidelines/squire/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: squire
     search: true
     style: docked

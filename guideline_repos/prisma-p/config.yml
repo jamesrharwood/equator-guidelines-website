@@ -1,3 +1,84 @@
-doi: 10.1186/2046-4053-4-1
+doi-for-citation-count: 10.1186/2046-4053-4-1
+doi: 10.1234/equator/1010101
 id: prisma-p
 translations: []
+title: The PRISMA-P reporting guideline for writing a protocol for a systematic review
+acronym: PRISMA-P
+acronym-definition: The Preferred Reporting Items for Systematic review and Meta-Analysis Protocols
+open-e-and-e: true
+journal-endorsement-count: 1000+
+version: PRISMA-P 2015 v1.1
+articles:
+  development:  
+    abstract: >-
+      Systematic reviews should build on a protocol that describes the rationale,
+      hypothesis, and planned methods of the review; few reviews report whether a
+      protocol exists. Detailed, well-described protocols can facilitate the
+      understanding and appraisal of the review methods, as well as the detection
+      of modifications to methods and selective reporting in completed reviews. We
+      describe the development of a reporting guideline, the Preferred Reporting
+      Items for Systematic reviews and Meta-Analyses for Protocols 2015 (PRISMA-P
+      2015). PRISMA-P consists of a 17-item checklist intended to facilitate the
+      preparation and reporting of a robust protocol for the systematic review.
+      Funders and those commissioning reviews might consider mandating the use of
+      the checklist to facilitate the submission of relevant protocol information
+      in funding applications. Similarly, peer reviewers and editors can use the
+      guidance to gauge the completeness and transparency of a systematic review
+      protocol submitted for publication in a journal or other medium.
+    accessed:
+      - year: 2025
+        month: 2
+        day: 18
+    author:
+      - family: Moher
+        given: David
+      - family: Shamseer
+        given: Larissa
+      - family: Clarke
+        given: Mike
+      - family: Ghersi
+        given: Davina
+      - family: Liberati
+        given: Alessandro
+      - family: Petticrew
+        given: Mark
+      - family: Shekelle
+        given: Paul
+      - family: Stewart
+        given: Lesley A.
+      - literal: PRISMA-P Group
+    citation-key: moherPreferredReportingItems2015a
+    container-title: Systematic Reviews
+    container-title-short: Systematic Reviews
+    DOI: 10.1186/2046-4053-4-1
+    ISSN: 2046-4053
+    issue: '1'
+    issued:
+      - year: 2015
+        month: 1
+        day: 1
+    page: '1'
+    source: BioMed Central
+    title: >-
+      Preferred reporting items for systematic review and meta-analysis protocols
+      (PRISMA-P) 2015 statement
+    type: article-journal
+    URL: https://doi.org/10.1186/2046-4053-4-1
+authors:
+  - family: Moher
+    given: David
+  - family: Shamseer
+    given: Larissa
+  - family: Clarke
+    given: Mike
+  - family: Ghersi
+    given: Davina
+  - family: Liberati
+    given: Alessandro
+  - family: Petticrew
+    given: Mark
+  - family: Shekelle
+    given: Paul
+  - family: Stewart
+    given: Lesley A.
+  - literal: PRISMA-P Group

@@ -1,0 +1,1 @@
+**Do not** use {{< meta acronym >}} for appraising the quality of a diagnostic accuracy study. Use an appraisal tool like [CASP Diagnostic Study Checklist](https://casp-uk.net/casp-tools-checklists/diagnostic-study-checklist/) or [QUADAS2](https://www.acpjournals.org/doi/full/10.7326/0003-4819-155-8-201110180-00009) instead.

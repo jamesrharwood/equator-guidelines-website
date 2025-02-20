@@ -46,13 +46,32 @@ Case reports are detailed reports of the diagnosis, treatment, and follow-up of 
 Case series are group or series of case reports involving patients who were given similar treatment. Reports of case series usually contain detailed information about the individual patients. This includes demographic information (for example, age, gender, ethnic origin) and information on diagnosis, treatment, response to treatment, and follow-up after treatment ([source](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/case-series)).
 """
 
-TRIPOD = """Prediction models are developed to aid health care providers in estimating the probability or risk that a specific disease or condition is present (diagnostic models) or that a specific event will occur in the future (prognostic models), to inform their decision making."""
+TRIPOD = """Prediction model research is used to test the accurarcy of a model or test in estimating an outcome value or risk. Most models estimate the probability of the presence of a particular health condition (diagnostic) or whether a particular outcome will occur in the future (prognostic).  Prediction models are used to support clinical decision making, such as whether to refer patients for further testing, monitor disease deterioration or treatment effects, or initiate treatment or lifestyle changes. Examples of well known prediction models include EuroSCORE II for cardiac surgery, the Gail model for breast cancer, the Framingham risk score for cardiovascular disease, IMPACT for traumatic brain injury, and FRAX for osteoporotic and hip fractures.\n\n[Source](https://www.bmj.com/content/385/bmj-2023-078378)"""
 
 STARD = """Diagnostic accuracy studies focus on estimating the ability of the test(s) to correctly identify subjects with a predefined target condition, or the condition of interest (sensitivity) as well as to clearly identify those without the condition (specificity)."""
 
-QUALITATIVE_RESEARCH = """Research that aims to gather and analyse non-numerical (descriptive) data in order to gain an understanding of individuals' social reality, including understanding their attitudes, beliefs, and motivation. This type of research typically involves in-depth interviews, focus groups, or field observations in order to collect data that is rich in detail and context. Qualitative research is often used to explore complex phenomena or to gain insight into people's experiences and perspectives on a particular topic. It is particularly useful when researchers want to understand the meaning that people attach to their experiences or when they want to uncover the underlying reasons for people's behavior. Qualitative methods include ethnography, grounded theory, discourse analysis, and interpretative phenomenological analysis. ([source](https://en.wikipedia.org/wiki/Qualitative_research))"""
+QUALITATIVE_RESEARCH = """Research that aims to gather and analyse non-numerical (descriptive) data in order to gain an understanding of individuals' social reality, including understanding their attitudes, beliefs, and motivation. This type of research typically involves in-depth interviews, focus groups, or field observations in order to collect data that is rich in detail and context. Qualitative research is often used to explore complex phenomena or to gain insight into people's experiences and perspectives on a particular topic. It is particularly useful when researchers want to understand the meaning that people attach to their experiences or when they want to uncover the underlying reasons for people's behavior. Qualitative methods include ethnography, grounded theory, discourse analysis, and interpretative phenomenological analysis.\n\n[Source](https://en.wikipedia.org/wiki/Qualitative_research)"""
 
-SYSTEMATIC_REVIEW = """A systematic review is a rigorous and comprehensive analysis of existing research on a specific topic. It involves identifying, selecting, and appraising multiple studies that meet predetermined inclusion criteria.\n\n[Source](https://casp-uk.net/news/what-is-a-systematic-review/)"""
+SYSTEMATIC_REVIEWS = """A systematic review is a comprehensive approach designed to identify, evaluate, and synthesise all available evidence relevant to a specific research question. In essence, it collects all possible studies related to a given topic and design, and reviews and analyses their results.\n\nThe process involves a highly sensitive search strategy to ensure that as much pertinent information as possible is gathered. Once collected, this evidence is often critically appraised to assess its quality and relevance, ensuring that conclusions drawn are based on robust data. Systematic reviews often involve defining inclusion and exclusion criteria, which help to focus the analysis on the most relevant studies, ultimately synthesising the findings into a coherent narrative or statistical synthesis. Some systematic reviews will include a meta-analysis.
+\n\n[Source](https://casp-uk.net/news/systematic-review-vs-meta-analysis/)"""
+
+META_ANALYSES = """A meta-analysis is a statistical technique that amalgamates data from multiple studies to yield a single estimate of the effect size. This approach enhances precision and offers a more comprehensive understanding by integrating quantitative findings. Central to a meta-analysis is the evaluation of heterogeneity, which examines variations in study outcomes to ensure that differences in populations, interventions, or methodologies do not skew results. Techniques such as meta-regression or subgroup analysis are frequently employed to explore how various factors might influence the outcomes. This method is particularly effective when aiming to quantify the effect size, odds ratio, or risk ratio, providing a clearer numerical estimate that can significantly inform clinical or policy decisions.
+
+## How Meta-analyses and Systematic Reviews Work Together
+
+Systematic reviews and meta-analyses function together, each complementing the other to provide a more robust understanding of research evidence. A systematic review meticulously gathers and evaluates all pertinent studies, establishing a solid foundation of qualitative and quantitative data. Within this framework, if the collected data exhibit sufficient homogeneity, a meta-analysis can be performed. This statistical synthesis allows for the integration of quantitative results from individual studies, producing a unified estimate of effect size. Techniques such as meta-regression or subgroup analysis may further refine these findings, elucidating how different variables impact the overall outcome. By combining these methodologies, researchers can achieve both a comprehensive narrative synthesis and a precise quantitative measure, enhancing the reliability and applicability of their conclusions. This integrated approach ensures that the findings are not only well-rounded but also statistically robust, providing greater confidence in the evidence base.
+
+## Why Don't All Systematic Reviews Use a Meta-Analysis?
+
+Systematic reviews do not always have meta-analyses, due to variations in the data. For a meta-analysis to be viable, the data from different studies must be sufficiently similar, or homogeneous, in terms of design, population, and interventions. When the data shows significant heterogeneity, meaning there are considerable differences among the studies, combining them could lead to skewed or misleading conclusions. Furthermore, the quality of the included studies is critical; if the studies are of low methodological quality, merging their results could obscure true effects rather than explain them.
+"""
+
+RCT = "A randomised controlled trial (RCT) is a trial in which participants are randomly assigned to one of two or more groups: the experimental group or groups receive the intervention or interventions being tested; the comparison group (control group) receive usual care or no treatment or a placebo. The groups are then followed up to see if there are any differences between the results. This helps in assessing the effectiveness of the intervention.\n\n[Source](https://casp-uk.net/glossary/randomised-controlled-trial-rct/)"
+
+PROTOCOL = """A plan or set of steps that defines how something will be done. Before carrying out a research study, for example, the research protocol sets out what question is to be answered and how information will be collected and analysed.\n\n[Source](https://www.nice.org.uk/Glossary?letter=P)"""
+
+QI = """Quality improvement research is about finding out how to improve and make changes in the most effective way. It is about systematically and rigourously exploring "what works" to improve quality in healthcare and the best ways to measure and disseminate this to ensure positive change. Most quality improvement effectiveness research is conducted in hospital settings, is focused on multiple quality improvement interventions, and uses process measures as outcomes. There is a great deal of variation in the research designs used to examine quality improvement effectiveness.\n\n[Source](https://www.health.org.uk/sites/default/files/ImprovementScience.pdf)
+"""
 
 glossary_default = {
     'reporting_guidelines': {
@@ -87,31 +106,31 @@ glossary_default = {
     },
     'systematic_reviews': {
         'title': 'Systematic reviews',
-        'text': 'Ipsum Lorem',
+        'text': SYSTEMATIC_REVIEWS,
         'id': 'systematic_reviews',
-        'pattern': 'systematic reviews',
+        'pattern': 'systematic review(s)?',
     },
     'systematic_review_protocols': {
         'title': 'Systematic review protocols',
-        'text': 'Ipsum Lorem',
+        'text': '#TODO',
         'id': 'systematic_review_protocols',
         'pattern': 'systematic review protocols',
     },
-    'meta_analyses': {
+    'meta_analyses_of_observational_studies': {
         'title': 'Meta analyses of Observational Studies',
-        'text': 'Ipsum Lorem',
-        'id': 'meta_analyses',
-        'pattern': 'meta analyses of observational studies',
+        'text': '#TODO',
+        'id': 'meta_analyses_of_observational_studies',
+        'pattern': 'meta analys(es|is) of observational studies',
     },
     'randomised_trials': {
         'title': 'Randomised Trials',
-        'text': 'Ipsum Lorem',
+        'text': '#TODO',
         'id': 'randomised_trials',
         'pattern': 'randomised trials',
     },
     'randomised_trial_protocols': {
         'title': 'Randomised Trial Protocols',
-        'text': 'Ipsum Lorem',
+        'text': '#TODO',
         'id': 'randomised_trial_protocols',
         'pattern': 'randomised trial protocols',
     },
@@ -123,7 +142,7 @@ glossary_default = {
     },
     'case_reports': {
         'title': 'Case Reports',
-        'text': 'Ipsum Lorem',
+        'text': '#TODO',
         'id': 'case_reports',
         'pattern': 'case reports',
     },
@@ -141,22 +160,34 @@ glossary_default = {
     },
     'animal_research': {
         'title': 'Animal Research',
-        'text': 'Ipsum Lorem',
+        'text': '#TODO',
         'id': 'animal_research',
         'pattern': 'animal research',
     },
     'qi': {
         'title': 'Quality Improvement in Healthcare',
-        'text': 'Ipsum Lorem',
+        'text': QI,
         'id': 'qi',
-        'pattern': 'quality improvement studies',
+        'pattern': 'quality improvement',
     },
     'economic_evaluations': {
         'title': 'Economic Evaluations in Healthcare',
-        'text': 'Ipsum Lorem',
+        'text': '#TODO',
         'id': 'economic_evaluations',
         'pattern': 'economic evaluations',
     },
+    'meta-analysis': {
+        'title': 'Meta Analyses',
+        'text': META_ANALYSES,
+        'id': 'meta_analyses',
+        'pattern': r'meta[\-\s]*analys(e|i)s',
+    },
+    'protocol': {
+        'title': 'Protocol',
+        'text': PROTOCOL,
+        'id': 'protocol',
+        'pattern': 'protocol(s)?',
+    }
 }
 
 md = Markdown()

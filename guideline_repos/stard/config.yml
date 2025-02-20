@@ -1,3 +1,128 @@
-doi: 10.1136/bmj.h5527
+doi-for-citation-count: 10.1136/bmj.h5527
+doi: 10.1234/equator/1010101
 id: stard
 translations: []
+title: The STARD reporting guideline for writing diagnostic accuracy study articles
+acronym: STARD
+acronym-definition: Standards for Reporting Diagnostic Accuracy
+open-e-and-e: true
+journal-endorsement-count: 1000+
+version: 'STARD 2015 v1.1'
+articles:
+  development:  
+      abstract: >-
+        <p>Incomplete reporting has been identified as a major source of avoidable
+        waste in biomedical research. Essential information is often not provided in
+        study reports, impeding the identification, critical appraisal, and
+        replication of studies. To improve the quality of reporting of diagnostic
+        accuracy studies, the Standards for Reporting Diagnostic Accuracy (STARD)
+        statement was developed. Here we present STARD 2015, an updated list of 30
+        essential items that should be included in every report of a diagnostic
+        accuracy study. This update incorporates recent evidence about sources of
+        bias and variability in diagnostic accuracy and is intended to facilitate
+        the use of STARD. As such, STARD 2015 may help to improve completeness and
+        transparency in reporting of diagnostic accuracy studies.</p>
+      accessed:
+        - year: 2025
+          month: 2
+          day: 18
+      author:
+        - family: Bossuyt
+          given: Patrick M.
+        - family: Reitsma
+          given: Johannes B.
+        - family: Bruns
+          given: David E.
+        - family: Gatsonis
+          given: Constantine A.
+        - family: Glasziou
+          given: Paul P.
+        - family: Irwig
+          given: Les
+        - family: Lijmer
+          given: Jeroen G.
+        - family: Moher
+          given: David
+        - family: Rennie
+          given: Drummond
+        - family: Vet
+          given: Henrica C. W.
+          dropping-particle: de
+        - family: Kressel
+          given: Herbert Y.
+        - family: Rifai
+          given: Nader
+        - family: Golub
+          given: Robert M.
+        - family: Altman
+          given: Douglas G.
+        - family: Hooft
+          given: Lotty
+        - family: Korevaar
+          given: Daniël A.
+        - family: Cohen
+          given: Jérémie F.
+      citation-key: bossuytSTARD2015Updated2015a
+      container-title: BMJ
+      container-title-short: BMJ
+      DOI: 10.1136/bmj.h5527
+      ISSN: 1756-1833
+      issued:
+        - year: 2015
+          month: 10
+          day: 28
+      language: en
+      license: >-
+        © Bossuyt et al 2015. This is an Open Access article distributed in
+        accordance with the terms of the Creative Commons Attribution (CC BY 4.0)
+        license, which permits others to distribute, remix, adapt and build upon
+        this work, for commercial use, provided the original work is properly cited.
+        See: http://creativecommons.org/licenses/by/4.0/.
+      page: h5527
+      PMID: '26511519'
+      publisher: British Medical Journal Publishing Group
+      section: Research Methods &amp; Reporting
+      source: www-bmj-com.ezproxy-prd.bodleian.ox.ac.uk
+      title: >-
+        STARD 2015: an updated list of essential items for reporting diagnostic
+        accuracy studies
+      title-short: STARD 2015
+      type: article-journal
+      URL: https://www.bmj.com/content/351/bmj.h5527
+      volume: '351'
+authors: 
+  - family: Bossuyt
+    given: Patrick M.
+  - family: Reitsma
+    given: Johannes B.
+  - family: Bruns
+    given: David E.
+  - family: Gatsonis
+    given: Constantine A.
+  - family: Glasziou
+    given: Paul P.
+  - family: Irwig
+    given: Les
+  - family: Lijmer
+    given: Jeroen G.
+  - family: Moher
+    given: David
+  - family: Rennie
+    given: Drummond
+  - family: Vet
+    given: Henrica C. W.
+    dropping-particle: de
+  - family: Kressel
+    given: Herbert Y.
+  - family: Rifai
+    given: Nader
+  - family: Golub
+    given: Robert M.
+  - family: Altman
+    given: Douglas G.
+  - family: Hooft
+    given: Lotty
+  - family: Korevaar
+    given: Daniël A.
+  - family: Cohen
+    given: Jérémie F.

@@ -76,7 +76,7 @@ def create_index_page(guideline):
     partials = [
         Partial(why_use, None),
         Partial(doi, None),
-        Partial(how_to_use, 'has_how_to_use'),
+        Partial(how_to_use, None),
         Partial(use_for, None),
         Partial(not_use_for, 'has_not_use_for'),
         Partial(related_resources, 'has_related_resources'),

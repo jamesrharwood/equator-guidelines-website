@@ -1,0 +1,1 @@
+The {{< meta acronym >}} reporting guideline helps authors write prognostic or diagnostic prediction model study articles (that may involve AI) that can be understood and used by everyone. This page summarises {{< meta acronym >}} and how it will help you write. Each guideline item links to more information, examples, and relevant training.

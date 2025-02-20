@@ -6,8 +6,14 @@ import logging
 from pathlib import Path
 from build.ids import validate_id
 
+def fix_numerical_ids(id):
+    if type(id) is int:
+        return str(id)
+    return id
+
 class Item:
     def __init__(self, id: str, title: str, text: str, filename: str, meta: dict, guideline):
+        id = fix_numerical_ids(id)
         validate_id(id)
         self.id = id
         self.title = title

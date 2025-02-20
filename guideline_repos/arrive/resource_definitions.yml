@@ -1,8 +1,8 @@
 checklist: &id001
 - Title:
-  - 1_.md
+  - 1_title.md
 - Abstract:
-  - 2_.md
+  - 2_abstract.md
 - Introduction:
   - 3a_background.md
   - 3b_background.md

@@ -14,9 +14,11 @@ TEXT = """\
 :::{.text-small}
 {{< meta acronym >}}: {{< meta acronym-definition >}}
 
-{{< meta translations >}}
+::: {.content-hidden unless-meta="translations"}
+Translations: {{< meta translations >}}
+:::
 
-Version: This is the latest version
+Version: {{< meta version >}}. This is the latest version ✅
 :::
 :::
 :::

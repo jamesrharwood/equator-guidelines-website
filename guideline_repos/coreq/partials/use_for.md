@@ -1,1 +1,0 @@
-This guideline is relevant to qualitative studies, especially those that use interviews, focus groups and surveys

@@ -79,6 +79,8 @@ def match_should_be_wrapped(match):
         return False
     if is_a_title(match):
         return False
+    if is_in_metadata(match):
+        return False
     return True
 
 LINK_START = re.compile(r'\]\([^\)]*$')
@@ -86,9 +88,17 @@ ASIDE_START = re.compile(r'\[[^\[]*$')
 HEADING = re.compile(r'^#+')
 
 def is_a_title(match):
+    if match.start() == 0:
+        return False
     string = match.string[:match.start()]
     string = string.splitlines()[-1]
     return HEADING.search(string)
+
+def is_in_metadata(match):
+    metadata_splitter = '---'
+    if metadata_splitter in match.string[:match.start()]:
+        if metadata_splitter in match.string[match.end():]:
+            return True
 
 def is_a_link(match):
     return LINK_START.search(match.string[:match.start()])

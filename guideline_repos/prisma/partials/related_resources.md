@@ -1,12 +1,15 @@
-There are several extensions to PRISMA including guidance on reporting:
+There are several extensions which can be used _in addition_ to PRISMA , these include:
 
-* [Living systematic reviews](https://www.equator-network.org/reporting-guidelines/prisma-lsr/)
-* [Scoping reviews](https://www.equator-network.org/reporting-guidelines/prisma-scr/)
-* [Systematic literature searches](https://www.equator-network.org/reporting-guidelines/prisma-s/)
-* [Reviews of diagnostic test accuracy studies](https://www.equator-network.org/reporting-guidelines/prisma-dta/)
-* [Reviews including network meta-analysis](https://www.equator-network.org/reporting-guidelines/prisma-extension-network-meta-analyses/)
-* [Reviews using individual participant data](https://www.equator-network.org/reporting-guidelines/prisma-ipd/)
-* [Harms](https://www.equator-network.org/reporting-guidelines/prisma-harms/)
+* [PRISMA Harms](https://www.equator-network.org/reporting-guidelines/prisma-harms/), for writing #TODO
+* [PRISMA Search](https://www.equator-network.org/reporting-guidelines/prisma-s/), for writing up systematic literature searches
+* [PRISMA for Network Meta-analyses](https://www.equator-network.org/reporting-guidelines/prisma-extension-network-meta-analyses)
+
+Other reporting guidelines for different types of systematic review should be used _instead_ of PRISMA, including:
+
+* [PRISMA-Lsr](https://www.equator-network.org/reporting-guidelines/prisma-lsr/) for writing _living_ systematic reviews
+* [PRISMA-Scr](https://www.equator-network.org/reporting-guidelines/prisma-scr/) for writing systematic scoping reviews
+* [PRISMA-Dta](https://www.equator-network.org/reporting-guidelines/prisma-dta/) for writing systematic reviews of diagnostic test accuracy studies
+* [PRISMA-Ipd](https://www.equator-network.org/reporting-guidelines/prisma-ipd/) for writing systematic reviews using individual participant data
 
 Other extensions can be found [here](https://www.equator-network.org/?post_type=eq_guidelines&eq_guidelines_study_design=0&eq_guidelines_clinical_specialty=0&eq_guidelines_report_section=0&s=PRISMA+extension&btn_submit=Search+Reporting+Guidelines)
 

@@ -1,3 +1,178 @@
-doi: 10.1371/journal.pbio.1000412
+doi-for-citation-count: 10.1371/journal.pbio.3000410
+doi: 10.1234/equator/1010101
 id: arrive
 translations: []
+title: The ARRIVE reporting guideline for writing animal research articles
+acronym: ARRIVE
+acronym-definition: "Animal Research: Reporting of In Vivo Experiments"
+open-e-and-e: true
+journal-endorsement-count: 1000+
+version: 'ARRIVE 2.0 2020 v1.1'
+articles:
+  development: 
+    id: sertARRIVEGuidelines202020
+    abstract: >-
+      Reproducible science requires transparent reporting. The ARRIVE guidelines
+      (Animal Research: Reporting of In Vivo Experiments) were originally
+      developed in 2010 to improve the reporting of animal research. They consist
+      of a checklist of information to include in publications describing in vivo
+      experiments to enable others to scrutinise the work adequately, evaluate its
+      methodological rigour, and reproduce the methods and results. Despite
+      considerable levels of endorsement by funders and journals over the years,
+      adherence to the guidelines has been inconsistent, and the anticipated
+      improvements in the quality of reporting in animal research publications
+      have not been achieved. Here, we introduce ARRIVE 2.0. The guidelines have
+      been updated and information reorganised to facilitate their use in
+      practice. We used a Delphi exercise to prioritise and divide the items of
+      the guidelines into 2 sets, the “ARRIVE Essential 10,” which constitutes the
+      minimum requirement, and the “Recommended Set,” which describes the research
+      context. This division facilitates improved reporting of animal research by
+      supporting a stepwise approach to implementation. This helps journal editors
+      and reviewers verify that the most important items are being reported in
+      manuscripts. We have also developed the accompanying Explanation and
+      Elaboration (E&E) document, which serves (1) to explain the rationale behind
+      each item in the guidelines, (2) to clarify key concepts, and (3) to provide
+      illustrative examples. We aim, through these changes, to help ensure that
+      researchers, reviewers, and journal editors are better equipped to improve
+      the rigour and transparency of the scientific process and thus
+      reproducibility.
+    accessed:
+      - year: 2025
+        month: 2
+        day: 18
+    author:
+      - family: Sert
+        given: Nathalie Percie
+        dropping-particle: du
+      - family: Hurst
+        given: Viki
+      - family: Ahluwalia
+        given: Amrita
+      - family: Alam
+        given: Sabina
+      - family: Avey
+        given: Marc T.
+      - family: Baker
+        given: Monya
+      - family: Browne
+        given: William J.
+      - family: Clark
+        given: Alejandra
+      - family: Cuthill
+        given: Innes C.
+      - family: Dirnagl
+        given: Ulrich
+      - family: Emerson
+        given: Michael
+      - family: Garner
+        given: Paul
+      - family: Holgate
+        given: Stephen T.
+      - family: Howells
+        given: David W.
+      - family: Karp
+        given: Natasha A.
+      - family: Lazic
+        given: Stanley E.
+      - family: Lidster
+        given: Katie
+      - family: MacCallum
+        given: Catriona J.
+      - family: Macleod
+        given: Malcolm
+      - family: Pearl
+        given: Esther J.
+      - family: Petersen
+        given: Ole H.
+      - family: Rawle
+        given: Frances
+      - family: Reynolds
+        given: Penny
+      - family: Rooney
+        given: Kieron
+      - family: Sena
+        given: Emily S.
+      - family: Silberberg
+        given: Shai D.
+      - family: Steckler
+        given: Thomas
+      - family: Würbel
+        given: Hanno
+    citation-key: sertARRIVEGuidelines202020
+    container-title: PLOS Biology
+    container-title-short: PLOS Biology
+    DOI: 10.1371/journal.pbio.3000410
+    ISSN: 1545-7885
+    issue: '7'
+    issued:
+      - year: 2020
+        month: 7
+        day: 14
+    language: en
+    page: e3000410
+    publisher: Public Library of Science
+    source: PLoS Journals
+    title: 'The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research'
+    title-short: The ARRIVE guidelines 2.0
+    type: article-journal
+    URL: >-
+      https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000410
+    volume: '18'  
+authors:
+  - family: Sert
+    given: Nathalie Percie
+    dropping-particle: du
+  - family: Hurst
+    given: Viki
+  - family: Ahluwalia
+    given: Amrita
+  - family: Alam
+    given: Sabina
+  - family: Avey
+    given: Marc T.
+  - family: Baker
+    given: Monya
+  - family: Browne
+    given: William J.
+  - family: Clark
+    given: Alejandra
+  - family: Cuthill
+    given: Innes C.
+  - family: Dirnagl
+    given: Ulrich
+  - family: Emerson
+    given: Michael
+  - family: Garner
+    given: Paul
+  - family: Holgate
+    given: Stephen T.
+  - family: Howells
+    given: David W.
+  - family: Karp
+    given: Natasha A.
+  - family: Lazic
+    given: Stanley E.
+  - family: Lidster
+    given: Katie
+  - family: MacCallum
+    given: Catriona J.
+  - family: Macleod
+    given: Malcolm
+  - family: Pearl
+    given: Esther J.
+  - family: Petersen
+    given: Ole H.
+  - family: Rawle
+    given: Frances
+  - family: Reynolds
+    given: Penny
+  - family: Rooney
+    given: Kieron
+  - family: Sena
+    given: Emily S.
+  - family: Silberberg
+    given: Shai D.
+  - family: Steckler
+    given: Thomas
+  - family: Würbel
+    given: Hanno

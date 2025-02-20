@@ -86,6 +86,18 @@ class MetadataCreator():
             })
         self.set('items', items)
 
+    def set_authors(self):
+        authors = []
+        for auth in self.get('authors', []):
+            if type(auth) is str:
+                authors.append(auth)
+            elif type(auth) is dict:
+                if 'literal' in auth.keys():
+                    authors.append(auth['literal'])
+                else:
+                    authors.append(f"{auth['given']} {auth['family']}")
+        self.set('author_list', ',\n'.join(authors))
+
     def create(self):
         self.copy('title')
         self.copy('acronym')
@@ -93,9 +105,11 @@ class MetadataCreator():
         self.copy('acronym-definition')
         self.copy('journal-endorsement-count')
         self.copy('articles')
+        self.copy('version')
         self.set_citation()
         self.set_translation()
         self.set_items()
+        self.set_authors()
         return self.metadata
 
 def create_metadata(guideline):
