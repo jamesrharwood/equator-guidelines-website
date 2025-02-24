@@ -3,196 +3,6 @@ website:
   sidebar:
   - collapse-level: 2
     contents:
-    - href: guidelines/prisma/index.qmd
-      text: Overview of PRISMA
-    - contents:
-      - contents:
-        - href: guidelines/prisma/items/1_title.qmd
-          text: 1. Title
-        section: Title
-      - contents:
-        - href: guidelines/prisma/items/2_structured_summary.qmd
-          text: 2. Structured summary
-        section: Abstract
-      - contents:
-        - href: guidelines/prisma/items/3_rationale.qmd
-          text: 3. Rationale
-        - href: guidelines/prisma/items/4_objectives.qmd
-          text: 4. Objectives
-        section: Introduction
-      - contents:
-        - href: guidelines/prisma/items/5_protocol_and_registration.qmd
-          text: 5. Protocol and registration
-        - href: guidelines/prisma/items/6_eligibility_criteria.qmd
-          text: 6. Eligibility criteria
-        - href: guidelines/prisma/items/7_information_sources.qmd
-          text: 7. Information sources
-        - href: guidelines/prisma/items/8_search.qmd
-          text: 8. Search
-        - href: guidelines/prisma/items/9_study_selection.qmd
-          text: 9. Study selection
-        - href: guidelines/prisma/items/10_data_collection_process.qmd
-          text: 10. Data collection process
-        - href: guidelines/prisma/items/11_data_items.qmd
-          text: 11. Data items
-        - href: guidelines/prisma/items/12_risk_of_bias_in_individual_studies.qmd
-          text: 12. Risk of bias in individual studies
-        - href: guidelines/prisma/items/13_summary_measures.qmd
-          text: 13. Summary measures
-        - href: guidelines/prisma/items/14_planned_methods_of_analyis.qmd
-          text: 14. Planned methods of analyis
-        - href: guidelines/prisma/items/15_risk_of_bias_across_studies.qmd
-          text: 15. Risk of bias across studies
-        - href: guidelines/prisma/items/16_additional_analyses.qmd
-          text: 16. Additional analyses
-        section: Methods
-      - contents:
-        - href: guidelines/prisma/items/17_study_selection.qmd
-          text: 17. Study selection
-        - href: guidelines/prisma/items/18_study_characteristics.qmd
-          text: 18. Study characteristics
-        - href: guidelines/prisma/items/19_risk_of_bias_within_studies.qmd
-          text: 19. Risk of bias within studies
-        - href: guidelines/prisma/items/20_results_of_individual_studies.qmd
-          text: 20. Results of individual studies
-        - href: guidelines/prisma/items/21_synthesis_of_results.qmd
-          text: 21. Synthesis of results
-        - href: guidelines/prisma/items/22_risk_of_bias_across_studies.qmd
-          text: 22. Risk of bias across studies
-        - href: guidelines/prisma/items/23_additional_analysis.qmd
-          text: 23. Additional analysis
-        section: Results
-      - contents:
-        - href: guidelines/prisma/items/24_summary_of_evidence.qmd
-          text: 24. Summary of Evidence
-        - href: guidelines/prisma/items/25_limitations.qmd
-          text: 25. Limitations
-        - href: guidelines/prisma/items/26_conclusions.qmd
-          text: 26. Conclusions
-        section: Discussion
-      - contents:
-        - href: guidelines/prisma/items/27_funding.qmd
-          text: 27. Funding
-        section: Funding
-      section: Full guidance
-    - href: guidelines/prisma/prisma_writing_guide.docx
-      text: Writing guide
-    - href: guidelines/prisma/prisma_checklist.docx
-      text: Checklist
-    - href: guidelines/prisma/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: prisma
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
-    - href: guidelines/strobe-cohort/index.qmd
-      text: Overview of STROBE Cohort
-    - contents:
-      - contents:
-        - href: guidelines/strobe-cohort/items/1a_title.qmd
-          text: 1a. Title
-        - href: guidelines/strobe-cohort/items/1b_abstract.qmd
-          text: 1b. Abstract
-        section: Title and abstract
-      - contents:
-        - href: guidelines/strobe-cohort/items/2_background__rationale.qmd
-          text: 2. Background / rationale
-        - href: guidelines/strobe-cohort/items/3_objectives.qmd
-          text: 3. Objectives
-        section: Introduction
-      - contents:
-        - href: guidelines/strobe-cohort/items/4_study_design.qmd
-          text: 4. Study design
-        - href: guidelines/strobe-cohort/items/5_setting.qmd
-          text: 5. Setting
-        - contents:
-          - href: guidelines/strobe-cohort/items/6a_eligibility_criteria.qmd
-            text: 6a. Eligibility criteria
-          - href: guidelines/strobe-cohort/items/6b_eligibility_criteria.qmd
-            text: '6b. Eligibility criteria: matched studies'
-          section: Eligibility Criteria
-        - href: guidelines/strobe-cohort/items/7_variables.qmd
-          text: 7. Variables
-        - href: guidelines/strobe-cohort/items/8_data_sources__measurement.qmd
-          text: 8. Data sources / measurement
-        - href: guidelines/strobe-cohort/items/9_bias.qmd
-          text: 9. Bias
-        - href: guidelines/strobe-cohort/items/10_study_size.qmd
-          text: 10. Study size
-        - href: guidelines/strobe-cohort/items/11_quantitative_variables.qmd
-          text: 11. Quantitative variables
-        - contents:
-          - href: guidelines/strobe-cohort/items/12a_statistical_methods.qmd
-            text: 12a. Statistical methods
-          - href: guidelines/strobe-cohort/items/12b_statistical_methods.qmd
-            text: '12b. Statistical methods: subgroups and interactions'
-          - href: guidelines/strobe-cohort/items/12c_statistical_methods.qmd
-            text: '12c. Statistical method: missing data'
-          - href: guidelines/strobe-cohort/items/12d_statistical_methods.qmd
-            text: '12d. Statistical methods: loss to follow-up'
-          - href: guidelines/strobe-cohort/items/12e_statistical_methods.qmd
-            text: '12e. Statistical methods: sensitivity analyses'
-          section: Statistical Methods
-        section: Methods
-      - contents:
-        - contents:
-          - href: guidelines/strobe-cohort/items/13a_participants.qmd
-            text: 13a. Participants
-          - href: guidelines/strobe-cohort/items/13b_participants.qmd
-            text: '13b. Participants: non-participation'
-          - href: guidelines/strobe-cohort/items/13c_participants.qmd
-            text: '13c. Participants: flow diagram'
-          section: Participants
-        - contents:
-          - href: guidelines/strobe-cohort/items/14a_descriptive_data.qmd
-            text: 14a. Descriptive data
-          - href: guidelines/strobe-cohort/items/14b_descriptive_data.qmd
-            text: '14b. Descriptive data: missing data'
-          - href: guidelines/strobe-cohort/items/14c_descriptive_data.qmd
-            text: 14c. Descriptive data
-          section: Descriptive Data
-        - href: guidelines/strobe-cohort/items/15_outcome_data.qmd
-          text: 15. Outcome data
-        - contents:
-          - href: guidelines/strobe-cohort/items/16a_main_results.qmd
-            text: 16a. Main results
-          - href: guidelines/strobe-cohort/items/16b_main_results.qmd
-            text: '16b. Main results: category boundaries'
-          - href: guidelines/strobe-cohort/items/16c_main_results.qmd
-            text: '16c. Main results: risk'
-          section: Main results
-        - href: guidelines/strobe-cohort/items/17_other_analyses.qmd
-          text: 17. Other analyses
-        section: Results
-      - contents:
-        - href: guidelines/strobe-cohort/items/18_key_results.qmd
-          text: 18. Key results
-        - href: guidelines/strobe-cohort/items/19_limitations.qmd
-          text: 19. Limitations
-        - href: guidelines/strobe-cohort/items/20_interpretation.qmd
-          text: 20. Interpretation
-        - href: guidelines/strobe-cohort/items/21_generalisability.qmd
-          text: 21. Generalisability
-        section: Discussion
-      - contents:
-        - href: guidelines/strobe-cohort/items/22_funding.qmd
-          text: 22. Funding
-        section: Other Information
-      section: Full guidance
-    - href: guidelines/strobe-cohort/strobe-cohort_writing_guide.docx
-      text: Writing guide
-    - href: guidelines/strobe-cohort/strobe-cohort_checklist.docx
-      text: Checklist
-    - href: guidelines/strobe-cohort/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: strobe-cohort
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/strobe-case-control/index.qmd
       text: Overview of STROBE Case-Control
     - contents:
@@ -1274,5 +1084,235 @@ website:
       text: FAQs
     foreground: secondary
     id: squire
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/strobe-cohort/index.qmd
+      text: Overview of STROBE Cohort
+    - contents:
+      - contents:
+        - href: guidelines/strobe-cohort/items/1a_title.qmd
+          text: 1a. Title
+        - href: guidelines/strobe-cohort/items/1b_abstract.qmd
+          text: 1b. Abstract
+        section: Title and abstract
+      - contents:
+        - href: guidelines/strobe-cohort/items/2_background__rationale.qmd
+          text: 2. Background / rationale
+        - href: guidelines/strobe-cohort/items/3_objectives.qmd
+          text: 3. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/strobe-cohort/items/4_study_design.qmd
+          text: 4. Study design
+        - href: guidelines/strobe-cohort/items/5_setting.qmd
+          text: 5. Setting
+        - contents:
+          - href: guidelines/strobe-cohort/items/6a_eligibility_criteria.qmd
+            text: 6a.
+          - href: guidelines/strobe-cohort/items/6b_eligibility_criteria.qmd
+            text: 6b.
+          section: 6. Eligibility Criteria
+        - href: guidelines/strobe-cohort/items/7_variables.qmd
+          text: 7. Variables
+        - href: guidelines/strobe-cohort/items/8_data_sources__measurement.qmd
+          text: 8. Data sources / measurement
+        - href: guidelines/strobe-cohort/items/9_bias.qmd
+          text: 9. Bias
+        - href: guidelines/strobe-cohort/items/10_study_size.qmd
+          text: 10. Study size
+        - href: guidelines/strobe-cohort/items/11_quantitative_variables.qmd
+          text: 11. Quantitative variables
+        - contents:
+          - href: guidelines/strobe-cohort/items/12a_statistical_methods.qmd
+            text: 12a.
+          - href: guidelines/strobe-cohort/items/12b_statistical_methods.qmd
+            text: 12b.
+          - href: guidelines/strobe-cohort/items/12c_statistical_methods.qmd
+            text: 12c.
+          - href: guidelines/strobe-cohort/items/12d_statistical_methods.qmd
+            text: 12d.
+          - href: guidelines/strobe-cohort/items/12e_statistical_methods.qmd
+            text: 12e.
+          section: 12. Statistical Methods
+        section: Methods
+      - contents:
+        - contents:
+          - href: guidelines/strobe-cohort/items/13a_participants.qmd
+            text: 13a. Participants
+          - href: guidelines/strobe-cohort/items/13b_participants.qmd
+            text: '13b. Participants: non-participation'
+          - href: guidelines/strobe-cohort/items/13c_participants.qmd
+            text: '13c. Participants: flow diagram'
+          section: 13. Participants
+        - contents:
+          - href: guidelines/strobe-cohort/items/14a_descriptive_data.qmd
+            text: 14a. Descriptive data
+          - href: guidelines/strobe-cohort/items/14b_descriptive_data.qmd
+            text: '14b. Descriptive data: missing data'
+          - href: guidelines/strobe-cohort/items/14c_descriptive_data.qmd
+            text: 14c. Descriptive data
+          section: 14. Descriptive Data
+        - href: guidelines/strobe-cohort/items/15_outcome_data.qmd
+          text: 15. Outcome data
+        - contents:
+          - href: guidelines/strobe-cohort/items/16a_main_results.qmd
+            text: 16a. Main results
+          - href: guidelines/strobe-cohort/items/16b_main_results.qmd
+            text: '16b. Main results: category boundaries'
+          - href: guidelines/strobe-cohort/items/16c_main_results.qmd
+            text: '16c. Main results: risk'
+          section: 16. Main results
+        - href: guidelines/strobe-cohort/items/17_other_analyses.qmd
+          text: 17. Other analyses
+        section: Results
+      - contents:
+        - href: guidelines/strobe-cohort/items/18_key_results.qmd
+          text: 18. Key results
+        - href: guidelines/strobe-cohort/items/19_limitations.qmd
+          text: 19. Limitations
+        - href: guidelines/strobe-cohort/items/20_interpretation.qmd
+          text: 20. Interpretation
+        - href: guidelines/strobe-cohort/items/21_generalisability.qmd
+          text: 21. Generalisability
+        section: Discussion
+      - contents:
+        - href: guidelines/strobe-cohort/items/22_funding.qmd
+          text: 22. Funding
+        section: Other Information
+      section: Full guidance
+    - href: guidelines/strobe-cohort/strobe-cohort_writing_guide.docx
+      text: Writing guide
+    - href: guidelines/strobe-cohort/strobe-cohort_checklist.docx
+      text: Checklist
+    - href: guidelines/strobe-cohort/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: strobe-cohort
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/prisma/index.qmd
+      text: Overview of PRISMA
+    - contents:
+      - contents:
+        - href: guidelines/prisma/items/title.qmd
+          text: 1. Title
+        - href: guidelines/prisma/items/abstract.qmd
+          text: 2. Abstract
+        section: Title and Abstract
+      - contents:
+        - href: guidelines/prisma/items/3_rationale.qmd
+          text: 3. Rationale
+        - href: guidelines/prisma/items/objectives.qmd
+          text: 4. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/prisma/items/eligibility_criteria.qmd
+          text: 5. Eligibility criteria
+        - href: guidelines/prisma/items/information_sources.qmd
+          text: 6. Information sources
+        - href: guidelines/prisma/items/search.qmd
+          text: 8. Search
+        - href: guidelines/prisma/items/selection_process.qmd
+          text: 8. Selection Process
+        - href: guidelines/prisma/items/data_collection_process.qmd
+          text: 9. Data collection process
+        - contents:
+          - href: guidelines/prisma/items/data_items_outcomes.qmd
+            text: 10a. Outcomes
+          - href: guidelines/prisma/items/data_items_other_variables.qmd
+            text: 10b. Other Variables
+          section: 10. Data Items
+        - href: guidelines/prisma/items/risk_of_bias_in_individual_studies.qmd
+          text: 11. Risk of bias in individual studies
+        - href: guidelines/prisma/items/effect_measures.qmd
+          text: 12. Effect measures
+        - contents:
+          - href: guidelines/prisma/items/synthesis_methods_a.qmd
+            text: 13a. Deciding which studies were eligible for each synthesis
+          - href: guidelines/prisma/items/synthesis_methods_b.qmd
+            text: 13b. Data preparation methods
+          - href: guidelines/prisma/items/synthesis_methods_c.qmd
+            text: 13c. Methods for tabulating or displaying results
+          - href: guidelines/prisma/items/synthesis_methods_d.qmd
+            text: 13d. Synthesis methods
+          - href: guidelines/prisma/items/synthesis_methods_e.qmd
+            text: 13e. Methods for exploring heterogeneity
+          - href: guidelines/prisma/items/synthesis_methods_f.qmd
+            text: 13f. Sensitivitiy analyses
+          section: 13. Synthesis Methods
+        - href: guidelines/prisma/items/reporting_bias_assessment.qmd
+          text: 14. Reporting bias assessment
+        - href: guidelines/prisma/items/15_certainty_assessment.qmd
+          text: 15. Certainty assessment
+        section: Methods
+      - contents:
+        - contents:
+          - href: guidelines/prisma/items/study_selection_search_results.qmd
+            text: 16a. Results of the search and selection process
+          - href: guidelines/prisma/items/study_selection_excluded_studies.qmd
+            text: 16b. Excluded studies
+          section: 16. Study Selection
+        - href: guidelines/prisma/items/study_characteristics.qmd
+          text: 17. Study characteristics
+        - href: guidelines/prisma/items/risk_of_bias_in_studies.qmd
+          text: 18. Risk of bias in studies
+        - href: guidelines/prisma/items/results_of_individual_studies.qmd
+          text: 19. Results of individual studies
+        - contents:
+          - href: guidelines/prisma/items/results_of_syntheses_summary_of_studies.qmd
+            text: 20a. Summary of studies
+          - href: guidelines/prisma/items/results_of_syntheses_statistical_results.qmd
+            text: 20b. Statistical results
+          - href: guidelines/prisma/items/results_of_syntheses_heterogeneity.qmd
+            text: 20c. Heterogeneity
+          - href: guidelines/prisma/items/results_of_syntheses_sensitivity_analyses.qmd
+            text: 20d. Sensitivity analyses
+          section: 20. Results of Synthesis
+        - href: guidelines/prisma/items/risk_of_reporting_biases_in_syntheses.qmd
+          text: 21. Risk of reporting biases in syntheses
+        - href: guidelines/prisma/items/certainty_of_evidence.qmd
+          text: 22. Certainty of evidence
+        section: Results
+      - contents:
+        - contents:
+          - href: guidelines/prisma/items/discussion_general_interpretation.qmd
+            text: 23a. General interpretation of the results
+          - href: guidelines/prisma/items/discussion_limitations_of_included_evidence.qmd
+            text: 23b. Limitations of included evidence
+          - href: guidelines/prisma/items/discussion_limitations_of_review_process.qmd
+            text: 23c. Limitations of the review processes
+          - href: guidelines/prisma/items/discussion_implications.qmd
+            text: 23d. Implications
+          section: 23. Discussion
+        section: Discussion
+      - contents:
+        - contents:
+          - href: guidelines/prisma/items/registration_and_protocol_registration.qmd
+            text: 24a. Registration
+          - href: guidelines/prisma/items/registration_and_protocol_protocol.qmd
+            text: 24b. Protocol
+          - href: guidelines/prisma/items/registration_and_protocol_amendments.qmd
+            text: 24c. Amendments
+          section: 24. Registration and Protocol
+        - href: guidelines/prisma/items/support.qmd
+          text: 25. Support
+        - href: guidelines/prisma/items/competing_interests.qmd
+          text: 26. Competing Interests
+        - href: guidelines/prisma/items/availability_of_materials.qmd
+          text: 27. Availability of data, code, and other materials
+        section: Other Information
+      section: Full guidance
+    - href: guidelines/prisma/prisma_writing_guide.docx
+      text: Writing guide
+    - href: guidelines/prisma/prisma_checklist.docx
+      text: Checklist
+    - href: guidelines/prisma/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: prisma
     search: true
     style: docked

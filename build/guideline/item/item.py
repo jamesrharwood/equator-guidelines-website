@@ -43,6 +43,16 @@ class Item:
             text += '.'
         return text
     
+    def summary_text(self):
+        text = self.meta.get('summary', {}).get('text', None)
+        text = text or self.checklist_text()
+        return text
+    
+    def summary_title(self):
+        text = self.meta.get('summary', {}).get('title', None)
+        text = text or self.title
+        return text
+    
     @classmethod
     def from_filepath(cls, filepath, guideline):
         try:

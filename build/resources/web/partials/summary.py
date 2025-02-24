@@ -13,17 +13,6 @@ def create_web(guideline):
     text += '----|------------\n'
     for dict_ in guideline.resource_definitions['web']:
         text += ''.join(list(yield_rows(guideline, dict_)))
-    # for dict_ in guideline.resource_definitions['web']:
-    #     for key, filenames in dict_.items():
-    #         text += f'**{key}**|\n'
-    #         for filename in filenames:
-    #             try:
-    #                 item = next(item for item in guideline.items if item.filename == filename)
-    #             except StopIteration:
-    #                 continue
-    #             checklist_text = item.checklist_text()
-    #             checklist_text = add_glossary_to_string_using_spans(checklist_text, guideline.glossary_dict)
-    #             text += f'[{item.title}](items/{item.destination_filename})|{checklist_text}\n'
     text += '\n: {tbl-colwidths="[25,75]"}'
     return text
 
@@ -39,7 +28,7 @@ def yield_rows(guideline, dict_, level=1):
                     yield from yield_rows(guideline, element, level+1)
                 else:
                     item = next(item for item in guideline.items if item.filename == element)
-                    checklist_text = item.checklist_text()
+                    checklist_text = item.summary_text()
                     checklist_text = add_glossary_to_string_using_spans(checklist_text, guideline.glossary_dict)
-                    text = f'[{item.title}](items/{item.destination_filename})|{checklist_text}\n'
+                    text = f'[{item.summary_title()}](items/{item.destination_filename})|{checklist_text}\n'
                     yield text

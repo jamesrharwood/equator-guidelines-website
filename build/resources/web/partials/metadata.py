@@ -23,6 +23,13 @@ DEFAULT = {
             'include-after-body': 'partials/glossary_offcanvas.html',
         },
     },
+    'project': {
+        'render': [
+            '*glossary*',
+            '*.qmd',
+            '*.md',
+        ]
+    }
 }
 
 CONTAINER =   {
@@ -56,14 +63,19 @@ class MetadataCreator():
         return self.guideline.config.get(attr, default)
     
     def set_citation(self):
-        citation = self.guideline.config.get('citation', {})
-        citation.update(CONTAINER)
-        citation.update(CITATION_DEFAULTS)
-        citation.update({'doi': self.get('doi')})
-        citation.update({'version': self.get('version')})
-        citation.update({'title': self.get('title')})
-        citation.update({'author': self.get('authors')})
+        citation = self.get('articles', {}).get('citation', None)
+        if citation:
+            self.guideline.config['articles'].pop('citation')
+        if not citation:
+            citation = self.guideline.config.get('citation', {})
+            citation.update(CONTAINER)
+            citation.update(CITATION_DEFAULTS)
+            citation.update({'doi': self.get('doi')})
+            citation.update({'version': self.get('version')})
+            citation.update({'title': self.get('title')})
+            citation.update({'author': self.get('authors')})
         self.set('citation', citation)
+        self.set('appendix-cite-as', 'display')
 
     def set_translation(self):
         translations = self.get('translations', [])
@@ -98,6 +110,11 @@ class MetadataCreator():
                     authors.append(f"{auth['given']} {auth['family']}")
         self.set('author_list', ',\n'.join(authors))
 
+    def set_bibliographies(self):
+        bibs = self.get('bibliography', [])
+        assert type(bibs) is list
+        self.set('bibliography', bibs)
+
     def create(self):
         self.copy('title')
         self.copy('acronym')
@@ -110,6 +127,7 @@ class MetadataCreator():
         self.set_translation()
         self.set_items()
         self.set_authors()
+        self.set_bibliographies()
         return self.metadata
 
 def create_metadata(guideline):

@@ -4,6 +4,7 @@ project:
   render:
     - "*.qmd"
 smooth-scroll: true
+csl: american-medical-association.csl
 website:
   image: "assets/equator_logo.png"
   favicon: "assets/favicons/equator-network-16x16.png"
@@ -72,6 +73,7 @@ format:
     section-divs: true
     include-in-header:
         - scripts/search-shortcut.html
+        - scripts/font-awesome.html
     include-after-body:
         - scripts/toggle_collapsible.html
         - offcanvas.html

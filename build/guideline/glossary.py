@@ -1,7 +1,7 @@
 import re
 
 from typing import Callable
-
+from markdown import Markdown
 
 def add_glossary_to_string_using_spans(string, glossary_dict):
     return add_glossary_to_string(string, glossary_dict, wrapper_fn=wrap_string_with_span)
@@ -67,6 +67,9 @@ def transform_dict(dct):
         else:
             v.update({'index': idx})
             new_dict.update({k: v})
+    md = Markdown()
+    for k, v in new_dict.items():
+        v.update({'text': md.convert(v['text'])})
     return new_dict
 
 SPAN = """\

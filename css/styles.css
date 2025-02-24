@@ -9,16 +9,34 @@ abbr {
 }
 
 .defined {
-  color: rgb(55, 58, 60);
-  text-decoration-color: rgb(39, 128, 227);
+  /* color: rgb(55, 58, 60); */
+  /* text-decoration-color: rgb(39, 128, 227); */
+  text-decoration-color: rgb(58, 58, 60);
   text-decoration-line: underline;
   text-decoration-skip-ink: none;
   text-decoration-style: dotted; 
   text-underline-position: under;
+  data-bs-toggle: 'nothing'
 }
+
+/* .defined::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: " \f05a";
+  color:#9f9f9f;
+  font-size:12px;
+} */
 
 #quarto-sidebar {
     padding-top: 0px;
+}
+
+.quarto-figure {
+  margin-top: 2rem;
+}
+
+figcaption {
+  margin-top: 1rem;
 }
 
 .navbar-brand-container {

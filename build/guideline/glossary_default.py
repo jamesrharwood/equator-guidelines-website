@@ -1,5 +1,3 @@
-from markdown import Markdown
-
 RG_BODY = """
 <p>Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines list the information you should describe so that <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemresearch_consumers" aria-controls="offcanvasExample" role="button"><em>everyone</em></span> can understand, replicate, and synthesise your work.</p>
 <p>Reporting guidelines do not prescribe how research should be designed or conducted. Rather, they help authors transparently describe what they did, why they did it, and what they found.</p>
@@ -189,7 +187,3 @@ glossary_default = {
         'pattern': 'protocol(s)?',
     }
 }
-
-md = Markdown()
-for k, v in glossary_default.items():
-    v.update({'text': md.convert(v['text'])})

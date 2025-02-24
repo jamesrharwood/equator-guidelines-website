@@ -65,10 +65,9 @@ class Sidebar:
    def guideline_item(self, file_):
       item = next(i for i in self.guideline.items if i.filename==file_)
       return self.item(
-         text = f'{item.title}',
+         text = f'{item.summary_title()}',
          href = item.web_path
       )
-   
 
    def update_yml(self):
       yml = get_yml(sidebars_path)

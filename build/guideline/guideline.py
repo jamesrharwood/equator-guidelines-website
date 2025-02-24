@@ -1,4 +1,5 @@
 import os
+import shutil
 
 from dataclasses import dataclass, field
 
@@ -48,6 +49,9 @@ class Guideline:
         for path in paths:
             if not os.path.exists(path): # type: ignore
                 os.makedirs(path) # type: ignore
+        shutil.copytree(self.repo_paths.bibliographies, self.destination_paths.bibliographies, dirs_exist_ok=True)
+        shutil.copytree(self.repo_paths.uploads, self.destination_paths.uploads, dirs_exist_ok=True)
+
     
     def __post_init__(self):
         self.repo_paths = RepoPaths(self.dirname)
