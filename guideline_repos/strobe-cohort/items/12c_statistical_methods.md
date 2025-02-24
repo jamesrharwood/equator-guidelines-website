@@ -1,6 +1,6 @@
 ---
 id: 12c_statistical_methods
-title: "12c. Statistical method: missing data"
+title: "12c."
 ---
 Explain how missing data were addressed
 

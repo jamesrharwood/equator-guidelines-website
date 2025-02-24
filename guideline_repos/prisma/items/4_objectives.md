@@ -1,15 +1,40 @@
 ---
-id: 4_objectives
+id: objectives
 title: "4. Objectives"
+checklist: Provide an explicit statement of the objective(s) or question(s) the review addresses.
 ---
-Provide an explicit statement of questions being addressed with reference to participants, interventions, comparisons, outcomes, and study design (PICOS).
 
-## Read More
+Provide an explicit statement of the objective(s) or question(s) the review addresses
 
-The questions being addressed, and the rationale for them, are one of the most critical parts of a systematic review. They should be stated precisely and explicitly so that readers can understand quickly the review's scope and the potential applicability of the review to their interests [35]. Framing questions so that they include the following five “PICOS” components may improve the explicitness of review questions: (1) the patient population or disease being addressed (P), (2) the interventions or exposure of interest (I), (3) the comparators (C), (4) the main outcome or endpoint of interest (O), and (5) the study designs chosen (S). For more detail regarding PICOS, see Box 2.
+## Essential elements
 
-Good review questions may be narrowly focused or broad, depending on the overall objectives of the review. Sometimes broad questions might increase the applicability of the results and facilitate detection of bias, exploratory analyses, and sensitivity analyses [35],[36]. Whether narrowly focused or broad, precisely stated review objectives are critical as they help define other components of the review process such as the eligibility criteria (Item 6) and the search for relevant literature (Items 7 and 8)
+-   Provide an explicit statement of all objective(s) or question(s) the
+    review addresses, expressed in terms of a relevant question
+    formulation framework (see Booth et al[@ref33] and Munn et
+    al[@ref34] for various frameworks).
 
-## Examples
+-   If the purpose is to evaluate the effects of interventions, use the
+    Population, Intervention, Comparator, Outcome (PICO) framework or
+    one of its variants to state the comparisons that will be made.
 
-> To examine whether topical or intraluminal antibiotics reduce catheter-related bloodstream infection, we reviewed randomized, controlled trials that assessed the efficacy of these antibiotics for primary prophylaxis against catheter-related bloodstream infection and mortality compared with no antibiotic therapy in adults undergoing hemodialysis
+
+## Explanation
+
+An explicit and concise statement of the review
+objective(s) or question(s) will help readers understand the scope of
+the review and assess whether the methods used in the review (such as
+eligibility criteria, search methods, data items, and the comparisons
+used in the synthesis) adequately address the objective(s). Such
+statements may be written in the form of objectives ("the objectives of
+the review were to examine the effects of...") or as questions ("what
+are the effects of...?").[@ref31]
+
+## Example
+
+"Objectives: To evaluate the benefits and harms of down‐titration (dose
+reduction, discontinuation, or disease activity‐guided dose tapering) of
+anti‐tumour necrosis factor-blocking agents (adalimumab, certolizumab
+pegol, etanercept, golimumab, infliximab) on disease activity,
+functioning, costs, safety, and radiographic damage compared with usual
+care in people with rheumatoid arthritis and low disease
+activity."[@ref170]

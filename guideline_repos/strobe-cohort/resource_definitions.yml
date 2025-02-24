@@ -8,7 +8,7 @@ checklist: &id001
 - Methods:
   - 4_study_design.md
   - 5_setting.md
-  - Eligibility Criteria:
+  - 6. Eligibility Criteria:
     - 6a_eligibility_criteria.md
     - 6b_eligibility_criteria.md
   - 7_variables.md
@@ -16,23 +16,23 @@ checklist: &id001
   - 9_bias.md
   - 10_study_size.md
   - 11_quantitative_variables.md
-  - Statistical Methods:
+  - 12. Statistical Methods:
     - 12a_statistical_methods.md
     - 12b_statistical_methods.md
     - 12c_statistical_methods.md
     - 12d_statistical_methods.md
     - 12e_statistical_methods.md
 - Results:
-  - Participants:
+  - 13. Participants:
     - 13a_participants.md
     - 13b_participants.md
     - 13c_participants.md
-  - Descriptive Data:
+  - 14. Descriptive Data:
     - 14a_descriptive_data.md
     - 14b_descriptive_data.md
     - 14c_descriptive_data.md
   - 15_outcome_data.md
-  - Main results:
+  - 16. Main results:
     - 16a_main_results.md
     - 16b_main_results.md
     - 16c_main_results.md

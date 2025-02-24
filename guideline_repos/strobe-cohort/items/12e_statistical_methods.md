@@ -1,6 +1,6 @@
 ---
 id: 12e_statistical_methods
-title: "12e. Statistical methods: sensitivity analyses"
+title: "12e."
 ---
 Describe any sensitivity analyses
 

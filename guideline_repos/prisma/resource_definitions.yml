@@ -1,36 +1,57 @@
 checklist: &id001
-- Title:
+- Title and Abstract:
   - 1_title.md
-- Abstract:
-  - 2_structured_summary.md
+  - 2_abstract.md
 - Introduction:
   - 3_rationale.md
   - 4_objectives.md
 - Methods:
-  - 5_protocol_and_registration.md
-  - 6_eligibility_criteria.md
-  - 7_information_sources.md
-  - 8_search.md
-  - 9_study_selection.md
-  - 10_data_collection_process.md
-  - 11_data_items.md
-  - 12_risk_of_bias_in_individual_studies.md
-  - 13_summary_measures.md
-  - 14_planned_methods_of_analyis.md
-  - 15_risk_of_bias_across_studies.md
-  - 16_additional_analyses.md
+  - 5_eligibility_criteria.md
+  - 6_information_sources.md
+  - 7_search.md
+  - 8_study_selection.md
+  - 9_data_collection_process.md
+  - 10. Data Items:
+      - 10a_data_items.md
+      - 10b_data_items.md
+  - 11_risk_of_bias_in_individual_studies.md
+  - 12_effect_measures.md
+  - 13. Synthesis Methods:
+      - 13a_synthesis_methods.md
+      - 13b_synthesis_methods.md
+      - 13c_synthesis_methods.md
+      - 13d_synthesis_methods.md
+      - 13e_synthesis_methods.md
+      - 13f_synthesis_methods.md
+  - 14_risk_of_bias_across_studies.md
+  - 15_certainty_assessment.md
 - Results:
-  - 17_study_selection.md
-  - 18_study_characteristics.md
-  - 19_risk_of_bias_within_studies.md
-  - 20_results_of_individual_studies.md
-  - 21_synthesis_of_results.md
-  - 22_risk_of_bias_across_studies.md
-  - 23_additional_analysis.md
+  - 16. Study Selection:
+    - 16a_study_selection.md
+    - 16b_study_selection.md
+  - 17_study_characteristics.md
+  - 18_risk_of_bias_within_studies.md
+  - 19_results_of_individual_studies.md
+  - 20. Results of Synthesis: 
+    - 20a_results_of_syntheses.md
+    - 20b_results_of_syntheses.md
+    - 20c_results_of_syntheses.md
+    - 20d_results_of_syntheses.md
+  - 21_risk_of_reporting_biases_in_syntheses.md
+  - 22_certainty_of_evidence.md
 - Discussion:
-  - 24_summary_of_evidence.md
-  - 25_limitations.md
-  - 26_conclusions.md
-- Funding:
-  - 27_funding.md
+  - 23. Discussion:
+    - 23a_discussion.md
+    - 23b_discussion.md
+    - 23c_discussion.md
+    - 23d_discussion.md
+- Other Information:
+  - 24. Registration and Protocol:
+    - 24a_registration_and_protocol.md
+    - 24b_registration_and_protocol.md
+    - 24c_registration_and_protocol.md
+  - 25_support.md
+  - 26_competing_interests.md
+  - 27_availability_of_data.md
+
 web: *id001

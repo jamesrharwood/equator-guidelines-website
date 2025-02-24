@@ -1,19 +1,45 @@
 ---
-id: 1_title
+id: title
 title: "1. Title"
+checklist: "Identify the report as a systematic review."
 ---
-Identify the report as a systematic review, meta-analysis, or both.
 
-## Read More
+## Essential elements
 
-Authors should identify their report as a systematic review or meta-analysis. Terms such as “review” or “overview” do not describe for readers whether the review was systematic or whether a meta-analysis was performed. A recent survey found that 50% of 300 authors did not mention the terms “systematic review” or “meta-analysis” in the title or abstract of their systematic review [3]. Although sensitive search strategies have been developed to identify systematic reviews [22], inclusion of the terms systematic review or meta-analysis in the title may improve indexing and identification.
+* Identify the report as a systematic review in the title.
 
-We advise authors to use informative titles that make key information easily accessible to readers. Ideally, a title reflecting the PICOS approach (participants, interventions, comparators, outcomes, and study design) (see Item 11 and Box 2) may help readers as it provides key information about the scope of the review. Specifying the design(s) of the studies included, as shown in the examples, may also help some readers and those searching databases.
+* Report an informative title that provides key information about the 
+main objective or question that the review addresses. For reviews of
+interventions, this usually includes the population and the
+intervention(s) that the review addresses.
 
-Some journals recommend “indicative titles” that indicate the topic matter of the review, while others require declarative titles that give the review's main conclusion. Busy practitioners may prefer to see the conclusion of the review in the title, but declarative titles can oversimplify or exaggerate findings. Thus, many journals and methodologists prefer indicative titles as used in the examples above.
+<!-- #ASK - this second 'essential' element is missing from the checklist text -->
 
-## Examples
+## Additional elements
 
-> Recurrence rates of video-assisted thoracoscopic versus open surgery in the prevention of recurrent pneumothoraces: a systematic review of randomised and non-randomised trials
+Consider providing additional information in the title, such as the
+method of analysis used (for example, "a systematic review with
+meta-analysis"), the designs of included studies (for example, "a
+systematic review of randomised trials"), or an indication that the
+review is an update of an existing review or a continually updated
+("living") systematic review.
 
-> Mortality in randomized trials of antioxidant supplements for primary and secondary prevention: systematic review and meta-analysis
+## Explanation
+
+Inclusion of "systematic review" in the title
+facilitates identification by potential users (patients, healthcare
+providers, policy makers, etc) and appropriate indexing in databases.
+Terms such as "review," "literature review," "evidence synthesis," or
+"knowledge synthesis" are not recommended because they do not
+distinguish systematic and non-systematic approaches. We also discourage
+using the terms "systematic review" and "meta-analysis" interchangeably
+because a systematic review refers to the entire set of processes used
+to identify, select, and synthesise evidence, whereas meta-analysis
+refers only to the statistical synthesis. Furthermore, a meta-analysis
+can be done outside the context of a systematic review (for example,
+when researchers meta-analyse results from a limited set of studies that
+they have conducted).
+
+## Example 
+
+> Comparison of the therapeutic effects of rivaroxaban versus warfarin in antiphospholipid syndrome: a systematic review[@ref167]

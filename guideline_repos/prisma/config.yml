@@ -2,14 +2,16 @@ doi-for-citation-count: 10.1371/journal.pmed.1003583
 doi: 10.1234/equator/1010101
 id: prisma
 translations: []
-title: The PRISMA reporting guideline for writing a systematic review and meta-analysis
+title: The PRISMA 2020 reporting guideline for writing a systematic review and meta-analysis
 acronym: PRISMA
 acronym-definition: The Preferred Reporting Items for Systematic reviews and Meta-Analyses
 open-e-and-e: true
 journal-endorsement-count: 1000+
 version: '1.1'
+bibliography:
+  - bibliographies/imported.bib
 articles:
-  development:   
+  development:  
     id: pagePRISMA2020Statement2021a
     abstract: >-
       Matthew Page and co-authors describe PRISMA 2020, an updated reporting
@@ -93,6 +95,185 @@ articles:
     URL: >-
       https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003583
     volume: '18'
+  ene:
+    id: pagePRISMA2020Explanation2021
+    abstract: >-
+      The methods and results of systematic reviews should be reported in
+      sufficient detail to allow users to assess the trustworthiness and
+      applicability of the review findings. The Preferred Reporting Items for
+      Systematic reviews and Meta-Analyses (PRISMA) statement was developed to
+      facilitate transparent and complete reporting of systematic reviews and has
+      been updated (to PRISMA 2020) to reflect recent advances in systematic
+      review methodology and terminology. Here, we present the explanation and
+      elaboration paper for PRISMA 2020, where we explain why reporting of each
+      item is recommended, present bullet points that detail the reporting
+      recommendations, and present examples from published reviews. We hope that
+      changes to the content and structure of PRISMA 2020 will facilitate uptake
+      of the guideline and lead to more transparent, complete, and accurate
+      reporting of systematic reviews.
+    accessed:
+      - year: 2025
+        month: 2
+        day: 22
+    author:
+      - family: Page
+        given: Matthew J
+      - family: Moher
+        given: David
+      - family: Bossuyt
+        given: Patrick M
+      - family: Boutron
+        given: Isabelle
+      - family: Hoffmann
+        given: Tammy C
+      - family: Mulrow
+        given: Cynthia D
+      - family: Shamseer
+        given: Larissa
+      - family: Tetzlaff
+        given: Jennifer M
+      - family: Akl
+        given: Elie A
+      - family: Brennan
+        given: Sue E
+      - family: Chou
+        given: Roger
+      - family: Glanville
+        given: Julie
+      - family: Grimshaw
+        given: Jeremy M
+      - family: Hróbjartsson
+        given: Asbjørn
+      - family: Lalu
+        given: Manoj M
+      - family: Li
+        given: Tianjing
+      - family: Loder
+        given: Elizabeth W
+      - family: Mayo-Wilson
+        given: Evan
+      - family: McDonald
+        given: Steve
+      - family: McGuinness
+        given: Luke A
+      - family: Stewart
+        given: Lesley A
+      - family: Thomas
+        given: James
+      - family: Tricco
+        given: Andrea C
+      - family: Welch
+        given: Vivian A
+      - family: Whiting
+        given: Penny
+      - family: McKenzie
+        given: Joanne E
+    citation-key: pagePRISMA2020Explanation2021
+    container-title: The BMJ
+    container-title-short: BMJ
+    DOI: 10.1136/bmj.n160
+    ISSN: 0959-8138
+    issued:
+      - year: 2021
+        month: 3
+        day: 29
+    page: n160
+    PMCID: PMC8005925
+    PMID: '33781993'
+    source: PubMed Central
+    title: >-
+      PRISMA 2020 explanation and elaboration: updated guidance and exemplars for
+      reporting systematic reviews
+    title-short: PRISMA 2020 explanation and elaboration
+    type: article-journal
+    URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8005925/
+    volume: '372'
+  citation:
+    id: pagePRISMA2020Explanation2021
+    abstract: >-
+      The methods and results of systematic reviews should be reported in
+      sufficient detail to allow users to assess the trustworthiness and
+      applicability of the review findings. The Preferred Reporting Items for
+      Systematic reviews and Meta-Analyses (PRISMA) statement was developed to
+      facilitate transparent and complete reporting of systematic reviews and has
+      been updated (to PRISMA 2020) to reflect recent advances in systematic
+      review methodology and terminology. Here, we present the explanation and
+      elaboration paper for PRISMA 2020, where we explain why reporting of each
+      item is recommended, present bullet points that detail the reporting
+      recommendations, and present examples from published reviews. We hope that
+      changes to the content and structure of PRISMA 2020 will facilitate uptake
+      of the guideline and lead to more transparent, complete, and accurate
+      reporting of systematic reviews.
+    author:
+      - family: Page
+        given: Matthew J
+      - family: Moher
+        given: David
+      - family: Bossuyt
+        given: Patrick M
+      - family: Boutron
+        given: Isabelle
+      - family: Hoffmann
+        given: Tammy C
+      - family: Mulrow
+        given: Cynthia D
+      - family: Shamseer
+        given: Larissa
+      - family: Tetzlaff
+        given: Jennifer M
+      - family: Akl
+        given: Elie A
+      - family: Brennan
+        given: Sue E
+      - family: Chou
+        given: Roger
+      - family: Glanville
+        given: Julie
+      - family: Grimshaw
+        given: Jeremy M
+      - family: Hróbjartsson
+        given: Asbjørn
+      - family: Lalu
+        given: Manoj M
+      - family: Li
+        given: Tianjing
+      - family: Loder
+        given: Elizabeth W
+      - family: Mayo-Wilson
+        given: Evan
+      - family: McDonald
+        given: Steve
+      - family: McGuinness
+        given: Luke A
+      - family: Stewart
+        given: Lesley A
+      - family: Thomas
+        given: James
+      - family: Tricco
+        given: Andrea C
+      - family: Welch
+        given: Vivian A
+      - family: Whiting
+        given: Penny
+      - family: McKenzie
+        given: Joanne E
+    citation-key: pagePRISMA2020Explanation2021
+    container-title: The BMJ
+    container-title-short: BMJ
+    DOI: 10.1136/bmj.n160
+    ISSN: 0959-8138
+    page: n160
+    PMCID: PMC8005925
+    PMID: '33781993'
+    source: PubMed Central
+    title: >-
+      PRISMA 2020 explanation and elaboration: updated guidance and exemplars for
+      reporting systematic reviews
+    title-short: PRISMA 2020 explanation and elaboration
+    type: article-journal
+    URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8005925/
+    volume: '372'
+  
 authors:
   - family: Page
     given: Matthew J.

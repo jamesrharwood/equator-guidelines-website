@@ -1,6 +1,6 @@
 ---
 id: 12a_statistical_methods
-title: "12a. Statistical methods"
+title: "12a."
 ---
 Describe all statistical methods, including those used to control for confounding
 

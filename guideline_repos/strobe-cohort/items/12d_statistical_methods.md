@@ -1,6 +1,6 @@
 ---
 id: 12d_statistical_methods
-title: "12d. Statistical methods: loss to follow-up"
+title: "12d."
 ---
 If applicable, explain how loss to follow-up was addressed
 

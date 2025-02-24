@@ -1,6 +1,6 @@
 ---
 id: 12b_statistical_methods
-title: "12b. Statistical methods: subgroups and interactions"
+title: "12b."
 ---
 Describe any methods used to examine subgroups and interactions
 

@@ -1,0 +1,11 @@
+systematic review: "A review that uses explicit, systematic methods to collate and synthesize findings of studies that address a clearly formulated question.\n\n[Source](https://doi.org/10.1136/bmj.l6890)"
+Statistical synthesis: The combination of quantitative results of two or more studies. This encompasses meta-analysis of effect estimates (described below) and other methods, such as combining P values, calculating the range and distribution of observed effects, and vote counting based on the direction of effect (see [McKenzie and Brennan](https://doi.org/10.1136/bmj.l4898) for a description of each method)
+Meta-analysis of effect estimates: |-
+  A statistical technique used to synthesize results when study effect estimates and their variances are available, yielding a quantitative summary of results.
+
+  [Source](https://doi.org/10.1136/bmj.l4898)
+Outcome: An event or measurement collected for participants in a study (such as quality of life, mortality).
+Result: The combination of a point estimate (such as a mean difference, risk ratio or proportion) and a measure of its precision (such as a confidence/credible interval) for a particular outcome.
+Report: A document (paper or electronic) supplying information about a particular study. It could be a journal article, preprint, conference abstract, study register entry, clinical study report, dissertation, unpublished manuscript, government report, or any other document providing relevant information.
+Record: The title or abstract (or both) of a report indexed in a database or website (such as a title or abstract for an article indexed in Medline). Records that refer to the same report (such as the same journal article) are “duplicates”; however, records that refer to reports that are merely similar (such as a similar abstract submitted to two different conferences) should be considered unique.
+Study: An investigation, such as a clinical trial, that includes a defined group of participants and one or more interventions and outcomes. A “study” might have multiple reports. For example, reports could include the protocol, statistical analysis plan, baseline characteristics, results for the primary outcome, results for harms, results for secondary outcomes, and results for additional mediator and moderator analyses.
