@@ -103,7 +103,6 @@ div.csl-indent {
         }
     })
 </script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
 <link rel="stylesheet" href="../../../css/styles.css">
@@ -462,7 +461,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../guidelines/prisma/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview of PRISMA</span></a>
+ <span class="menu-text">Overview of PRISMA 2020</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -862,13 +861,13 @@ div.csl-indent {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidelines/prisma/prisma_writing_guide.docx" class="sidebar-item-text sidebar-link">
+  <a href="../../../guidelines/prisma/prisma-writing-guide.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Writing guide</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidelines/prisma/prisma_checklist.docx" class="sidebar-item-text sidebar-link">
+  <a href="../../../guidelines/prisma/prisma-checklist.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Checklist</span></a>
   </div>
 </li>
@@ -924,7 +923,7 @@ div.csl-indent {
 <ul>
 <li><p>Specify for each <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem3" aria-controls="offcanvasExample" role="button">outcome</span> or type of <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem3" aria-controls="offcanvasExample" role="button">outcome</span> (such as binary, continuous) the effect measure(s) (such as risk ratio, mean difference) used in the synthesis or presentation of results.</p></li>
 <li><p>State any thresholds or ranges used to interpret the size of effect (such as minimally important difference; ranges for no/trivial, small, moderate, and large effects) and the rationale for these thresholds.</p></li>
-<li><p>If synthesised results were re-expressed to a different effect measure, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">report</span> the methods used to re-express results (such as meta-analysing risk ratios and computing an absolute risk reduction based on an assumed comparator risk).</p></li>
+<li><p>If synthesised results were re-expressed to a different effect measure, report the methods used to re-express results (such as meta-analysing risk ratios and computing an absolute risk reduction based on an assumed comparator risk).</p></li>
 </ul>
 </section>
 <section id="additional-elements" class="level2">
@@ -1265,11 +1264,11 @@ Systematic reviews do not always have meta-analyses, due to variations in the da
 </div>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItem5" aria-labelledby="glossaryItem5Label">
 <div class="offcanvas-header">
-<h3 class="offcanvas-title" id="glossaryItem5Label">Report</h3>
+<h3 class="offcanvas-title" id="glossaryItem5Label">Reports</h3>
 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 </div>
 <div class="offcanvas-body">
-<div><p>A document (paper or electronic) supplying information about a particular study. It could be a journal article, preprint, conference abstract, study register entry, clinical study report, dissertation, unpublished manuscript, government report, or any other document providing relevant information.</p></div>
+<div><p>Documents (paper or electronic) supplying information about a particular study. A report could be a journal article, preprint, conference abstract, study register entry, clinical study report, dissertation, unpublished manuscript, government report, or any other document providing relevant information.</p></div>
 </div>
 </div>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItem6" aria-labelledby="glossaryItem6Label">
@@ -1380,7 +1379,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("%env:SITE_URL%");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

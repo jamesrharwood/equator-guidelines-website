@@ -103,7 +103,6 @@ div.csl-indent {
         }
     })
 </script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
 <link rel="stylesheet" href="../../../css/styles.css">
@@ -462,7 +461,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../guidelines/prisma/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview of PRISMA</span></a>
+ <span class="menu-text">Overview of PRISMA 2020</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -862,13 +861,13 @@ div.csl-indent {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidelines/prisma/prisma_writing_guide.docx" class="sidebar-item-text sidebar-link">
+  <a href="../../../guidelines/prisma/prisma-writing-guide.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Writing guide</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidelines/prisma/prisma_checklist.docx" class="sidebar-item-text sidebar-link">
+  <a href="../../../guidelines/prisma/prisma-checklist.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Checklist</span></a>
   </div>
 </li>
@@ -926,7 +925,7 @@ div.csl-indent {
 </section>
 <section id="explanation" class="level2">
 <h2 class="anchored" data-anchor-id="explanation">Explanation</h2>
-<p>Discussing limitations, avoidable or unavoidable, in the review process should help readers understand the trustworthiness of the review findings. For example, authors might acknowledge the decision to restrict eligibility to studies in English only, search only a small number of databases, have only one reviewer screen records or collect data, or not contact <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem7" aria-controls="offcanvasExample" role="button">study</span> authors to clarify unclear information. They might also acknowledge that they were unable to access all potentially eligible <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem7" aria-controls="offcanvasExample" role="button">study</span> reports or to carry out some of the planned analyses because of insufficient data.<span class="citation" data-cites="ref149"><sup><a href="#ref-ref149" role="doc-biblioref">1</a></sup></span><span class="citation" data-cites="ref150"><sup><a href="#ref-ref150" role="doc-biblioref">2</a></sup></span> While some limitations may affect the validity of the review findings, others may not.</p>
+<p>Discussing limitations, avoidable or unavoidable, in the review process should help readers understand the trustworthiness of the review findings. For example, authors might acknowledge the decision to restrict eligibility to studies in English only, search only a small number of databases, have only one reviewer screen records or collect data, or not contact <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem7" aria-controls="offcanvasExample" role="button">study</span> authors to clarify unclear information. They might also acknowledge that they were unable to access all potentially eligible <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem7" aria-controls="offcanvasExample" role="button">study</span> <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItem5" aria-controls="offcanvasExample" role="button">reports</span> or to carry out some of the planned analyses because of insufficient data.<span class="citation" data-cites="ref149"><sup><a href="#ref-ref149" role="doc-biblioref">1</a></sup></span><span class="citation" data-cites="ref150"><sup><a href="#ref-ref150" role="doc-biblioref">2</a></sup></span> While some limitations may affect the validity of the review findings, others may not.</p>
 </section>
 <section id="example" class="level2">
 <h2 class="anchored" data-anchor-id="example">Example</h2>
@@ -1253,11 +1252,11 @@ Systematic reviews do not always have meta-analyses, due to variations in the da
 </div>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItem5" aria-labelledby="glossaryItem5Label">
 <div class="offcanvas-header">
-<h3 class="offcanvas-title" id="glossaryItem5Label">Report</h3>
+<h3 class="offcanvas-title" id="glossaryItem5Label">Reports</h3>
 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 </div>
 <div class="offcanvas-body">
-<div><p>A document (paper or electronic) supplying information about a particular study. It could be a journal article, preprint, conference abstract, study register entry, clinical study report, dissertation, unpublished manuscript, government report, or any other document providing relevant information.</p></div>
+<div><p>Documents (paper or electronic) supplying information about a particular study. A report could be a journal article, preprint, conference abstract, study register entry, clinical study report, dissertation, unpublished manuscript, government report, or any other document providing relevant information.</p></div>
 </div>
 </div>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="glossaryItem6" aria-labelledby="glossaryItem6Label">
@@ -1368,7 +1367,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("%env:SITE_URL%");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

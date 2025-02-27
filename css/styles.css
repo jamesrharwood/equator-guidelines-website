@@ -16,6 +16,7 @@ abbr {
   text-decoration-skip-ink: none;
   text-decoration-style: dotted; 
   text-underline-position: under;
+  data-bs-toggle: 'nothing'
 }
 
 /* .defined::after {
