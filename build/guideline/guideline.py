@@ -8,7 +8,7 @@ import yaml
 from .item import Item
 from .glossary import transform_dict as transform_glossary
 from .glossary_default import glossary_default
-from build.paths import RepoPaths, DestinationPaths, RelativeDestinationPaths, WebPaths
+from build.paths import RepoPaths, DestinationPaths, RelativeDestinationPaths, WebPaths, HtmlPaths
 from build.resources import create_resources
 from build.ids import validate_id
 
@@ -16,6 +16,7 @@ from build.ids import validate_id
 
 @dataclass
 class Guideline:
+    item_class = Item
     dirname: str
     config: dict
     resource_definitions: dict
@@ -24,6 +25,7 @@ class Guideline:
     glossary_default_dict: dict
     repo_paths: RepoPaths = field(init=False)
     destination_paths: DestinationPaths = field(init=False)
+    html_paths: HtmlPaths = field(init=False)
     has_translations: bool = field(init=False)
     has_not_use_for: bool = field(init=False)
     has_related_resources: bool = field(init=False)
@@ -55,14 +57,15 @@ class Guideline:
     
     def __post_init__(self):
         self.repo_paths = RepoPaths(self.dirname)
-        self.destination_paths = DestinationPaths(self.dirname)
-        self.relative_destination_paths = RelativeDestinationPaths('')
-        self.web_paths = WebPaths(self.dirname)
-        self.doi = self.config['doi']
-        self.translations = self.config.get('translations', [])
         id = self.config['id']
         validate_id(id)
         self.id = id
+        self.destination_paths = DestinationPaths(self.id)
+        self.relative_destination_paths = RelativeDestinationPaths('')
+        self.html_paths = HtmlPaths(self.id)
+        self.web_paths = WebPaths(self.id)
+        self.doi = self.config['doi']
+        self.translations = self.config.get('translations', [])
         self.has_translations = has_translations(self.config)
         self.has_not_use_for = has_text(self.repo_paths.not_use_for)
         self.has_related_resources=has_text(self.repo_paths.related_resources)
@@ -78,7 +81,13 @@ class Guideline:
         item_dir = self.repo_paths.items_dir
         for filename in os.listdir(item_dir):
             path = os.path.join(item_dir, filename)
-            yield Item.from_filepath(path, self)
+            yield self.item_class.from_filepath(path, self)
+
+    def get_item_from_filename(self, filename):
+        try:
+            return next(item for item in self.items if item.filename == filename)
+        except StopIteration:
+            raise Exception(f'Guideline {self.id} has  no item with filename {filename}')
 
     def flatten_resource_definitions(self):
         flat_definitions = {}

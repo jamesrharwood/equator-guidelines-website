@@ -1,7 +1,8 @@
 ---
 id: abstract
 title: "2. Abstract"
-checklist: Include all items from the _PRISMA 2020 for Abstracts_ checklist.
+summary: 
+    text: Include all items from the _PRISMA 2020 for Abstracts_ checklist.
 ---
 
 ## Essential elements

@@ -1,7 +1,8 @@
 ---
 id: objectives
 title: "4. Objectives"
-checklist: Provide an explicit statement of the objective(s) or question(s) the review addresses.
+summary: 
+    text: Provide an explicit statement of the objective(s) or question(s) the review addresses.
 ---
 
 Provide an explicit statement of the objective(s) or question(s) the review addresses

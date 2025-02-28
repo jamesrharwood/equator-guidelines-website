@@ -5,7 +5,11 @@ summary:
     title: "10a. Outcomes"
 ---
 
-List and define all outcomes for which data were sought. Specify whether all results that were compatible with each outcome domain in each study were sought (for example, for all measures, time points, analyses), and, if not, the methods used to decide which results to collect
+List and define all outcomes for which data were sought. Specify whether 
+all results that were compatible with each outcome domain in 
+each study were sought (for example, for all measures, time 
+points, analyses), and, if not, the methods used to decide which 
+results to collect.
 
 ## Essential elements
 

@@ -27,7 +27,7 @@ def yield_rows(guideline, dict_, level=1):
                 if type(element) is dict:
                     yield from yield_rows(guideline, element, level+1)
                 else:
-                    item = next(item for item in guideline.items if item.filename == element)
+                    item = guideline.get_item_from_filename(element)
                     checklist_text = item.summary_text()
                     checklist_text = add_glossary_to_string_using_spans(checklist_text, guideline.glossary_dict)
                     text = f'[{item.summary_title()}](items/{item.destination_filename})|{checklist_text}\n'

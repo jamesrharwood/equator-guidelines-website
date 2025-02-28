@@ -3,9 +3,13 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
+  preview: 
+    port: 3870
+    timeout: 180
 smooth-scroll: true
 csl: american-medical-association.csl
 website:
+  site-url: 'https://jamesrharwood.github.io/equator-guidelines-website/'
   image: "assets/equator_logo.png"
   favicon: "assets/favicons/equator-network-16x16.png"
   search: true
@@ -73,7 +77,7 @@ format:
     section-divs: true
     include-in-header:
         - scripts/search-shortcut.html
-        - scripts/font-awesome.html
+        # - scripts/font-awesome.html
     include-after-body:
         - scripts/toggle_collapsible.html
         - offcanvas.html

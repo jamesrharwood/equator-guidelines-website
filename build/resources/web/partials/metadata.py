@@ -115,6 +115,18 @@ class MetadataCreator():
         assert type(bibs) is list
         self.set('bibliography', bibs)
 
+    def set_paths(self):
+        paths = {
+            'html': {
+                'applicability': self.guideline.html_paths.applicability,
+                'full_guideline': self.guideline.html_paths.index,
+                'writing_guide': self.guideline.html_paths.writing_guide,
+                'checklist': self.guideline.html_paths.checklist,
+                'home_page': self.guideline.html_paths.URL,
+            }
+        }
+        self.set('paths', paths)
+
     def create(self):
         self.copy('title')
         self.copy('acronym')
@@ -123,6 +135,8 @@ class MetadataCreator():
         self.copy('journal-endorsement-count')
         self.copy('articles')
         self.copy('version')
+        self.copy('for-writing')
+        self.set_paths()
         self.set_citation()
         self.set_translation()
         self.set_items()

@@ -1,6 +1,6 @@
 import sys
 
-from .guideline import Guideline
+from .guideline.guideline import Guideline
 
 if __name__ == '__main__':
     dirname = sys.argv[1]

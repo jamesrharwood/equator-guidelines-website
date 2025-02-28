@@ -189,77 +189,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/srqr/index.qmd
-      text: Overview of SRQR
-    - contents:
-      - contents:
-        - href: guidelines/srqr/items/title.qmd
-          text: Title
-        - href: guidelines/srqr/items/abstract.qmd
-          text: Abstract
-        section: Title & Abstract
-      - contents:
-        - href: guidelines/srqr/items/problem-formulation.qmd
-          text: Problem Formulation
-        - href: guidelines/srqr/items/purpose.qmd
-          text: Purpose or research question
-        section: Introduction
-      - contents:
-        - href: guidelines/srqr/items/qualitative-approach.qmd
-          text: Qualitative approach and research paradigm
-        - href: guidelines/srqr/items/researcher-characteristics-and-reflexivity.qmd
-          text: Researcher characteristics and reflexivity
-        - href: guidelines/srqr/items/context.qmd
-          text: Context
-        - href: guidelines/srqr/items/sampling-strategy.qmd
-          text: Sampling strategy
-        - href: guidelines/srqr/items/ethics.qmd
-          text: Ethical issues pertaining to human subjects
-        - href: guidelines/srqr/items/data-collection-methods.qmd
-          text: Data collection methods
-        - href: guidelines/srqr/items/data-collection-instruments.qmd
-          text: Data collection instruments and technologies
-        - href: guidelines/srqr/items/units-of-study.qmd
-          text: Units of study
-        - href: guidelines/srqr/items/data-processing.qmd
-          text: Data processing
-        - href: guidelines/srqr/items/data-analysis.qmd
-          text: Data analysis
-        - href: guidelines/srqr/items/trustworthiness.qmd
-          text: Techniques to enhance trustworthiness
-        section: Methods
-      - contents:
-        - href: guidelines/srqr/items/synthesis-and-interpretation.qmd
-          text: Synthesis and interpretation
-        - href: guidelines/srqr/items/links-to-empirical-data.qmd
-          text: Links to empirical data
-        section: Results
-      - contents:
-        - href: guidelines/srqr/items/integration-with-prior-work.qmd
-          text: Integration with prior work, implications, transferability, and contribution(s)
-            to the field
-        - href: guidelines/srqr/items/limitations.qmd
-          text: Limitations
-        section: Discussion
-      - contents:
-        - href: guidelines/srqr/items/conflicts-of-interest.qmd
-          text: Conflicts of interest
-        - href: guidelines/srqr/items/funding.qmd
-          text: Funding
-        section: Other
-      section: Full guidance
-    - href: guidelines/srqr/srqr_writing_guide.docx
-      text: Writing guide
-    - href: guidelines/srqr/srqr_checklist.docx
-      text: Checklist
-    - href: guidelines/srqr/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: srqr
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/care/index.qmd
       text: Overview of CARE
     - contents:
@@ -1195,7 +1124,7 @@ website:
   - collapse-level: 2
     contents:
     - href: guidelines/prisma/index.qmd
-      text: Overview of PRISMA
+      text: Overview of PRISMA 2020
     - contents:
       - contents:
         - href: guidelines/prisma/items/title.qmd
@@ -1306,13 +1235,84 @@ website:
           text: 27. Availability of data, code, and other materials
         section: Other Information
       section: Full guidance
-    - href: guidelines/prisma/prisma_writing_guide.docx
+    - href: guidelines/prisma/prisma-writing-guide.qmd
       text: Writing guide
-    - href: guidelines/prisma/prisma_checklist.docx
+    - href: guidelines/prisma/prisma-checklist.qmd
       text: Checklist
     - href: guidelines/prisma/faqs.qmd
       text: FAQs
     foreground: secondary
     id: prisma
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/srqr/index.qmd
+      text: Overview of SRQR
+    - contents:
+      - contents:
+        - href: guidelines/srqr/items/title.qmd
+          text: Title
+        - href: guidelines/srqr/items/abstract.qmd
+          text: Abstract
+        section: Title & Abstract
+      - contents:
+        - href: guidelines/srqr/items/problem-formulation.qmd
+          text: Problem Formulation
+        - href: guidelines/srqr/items/purpose.qmd
+          text: Purpose or research question
+        section: Introduction
+      - contents:
+        - href: guidelines/srqr/items/qualitative-approach.qmd
+          text: Qualitative approach and research paradigm
+        - href: guidelines/srqr/items/researcher-characteristics-and-reflexivity.qmd
+          text: Researcher characteristics and reflexivity
+        - href: guidelines/srqr/items/context.qmd
+          text: Context
+        - href: guidelines/srqr/items/sampling-strategy.qmd
+          text: Sampling strategy
+        - href: guidelines/srqr/items/ethics.qmd
+          text: Ethical issues pertaining to human subjects
+        - href: guidelines/srqr/items/data-collection-methods.qmd
+          text: Data collection methods
+        - href: guidelines/srqr/items/data-collection-instruments.qmd
+          text: Data collection instruments and technologies
+        - href: guidelines/srqr/items/units-of-study.qmd
+          text: Units of study
+        - href: guidelines/srqr/items/data-processing.qmd
+          text: Data processing
+        - href: guidelines/srqr/items/data-analysis.qmd
+          text: Data analysis
+        - href: guidelines/srqr/items/trustworthiness.qmd
+          text: Techniques to enhance trustworthiness
+        section: Methods
+      - contents:
+        - href: guidelines/srqr/items/synthesis-and-interpretation.qmd
+          text: Synthesis and interpretation
+        - href: guidelines/srqr/items/links-to-empirical-data.qmd
+          text: Links to empirical data
+        section: Results
+      - contents:
+        - href: guidelines/srqr/items/integration-with-prior-work.qmd
+          text: Integration with prior work, implications, transferability, and contribution(s)
+            to the field
+        - href: guidelines/srqr/items/limitations.qmd
+          text: Limitations
+        section: Discussion
+      - contents:
+        - href: guidelines/srqr/items/conflicts-of-interest.qmd
+          text: Conflicts of interest
+        - href: guidelines/srqr/items/funding.qmd
+          text: Funding
+        section: Other
+      section: Full guidance
+    - href: guidelines/srqr/srqr-writing-guide.qmd
+      text: Writing guide
+    - href: guidelines/srqr/srqr-checklist.qmd
+      text: Checklist
+    - href: guidelines/srqr/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: srqr
     search: true
     style: docked

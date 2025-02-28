@@ -25,6 +25,8 @@ class Item:
         self.giscus_rel_path = os.path.join(guideline.destination_paths.giscus_rel_dir, f'{self.id}.qmd')
         self.destination_filename = self.id + '.qmd'
         self.web_path = os.path.join(self.guideline.web_paths.items_dir, self.destination_filename)
+        self.web_rel_path = os.path.join(self.guideline.web_paths.items_rel_dir, self.destination_filename)
+        self.html_path = self.guideline.html_paths.make_item_path(self.id)
         self.source_path = os.path.join(self.guideline.repo_paths.items_dir, self.filename)
 
     def idx(self, resource):
@@ -33,8 +35,8 @@ class Item:
     def number(self, resource):
         return self.idx(resource) + 1
 
-    def checklist_text(self):
-        text = self.meta.get('checklist', None)
+    def fallback_summary_text(self):
+        text = self.meta.get('checklist', {}).get('text', None)
         text = text or self.text.strip().split('\n')[0].strip()
         if len(text) > 300:
             text = text[:300] + '...'
@@ -45,7 +47,7 @@ class Item:
     
     def summary_text(self):
         text = self.meta.get('summary', {}).get('text', None)
-        text = text or self.checklist_text()
+        text = text or self.fallback_summary_text()
         return text
     
     def summary_title(self):

@@ -1,7 +1,8 @@
 ---
 id: eligibility_criteria
 title: "5. Eligibility criteria"
-checklist: Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses.
+summary: 
+    text: Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses.
 ---
 
 Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses

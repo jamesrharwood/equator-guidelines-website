@@ -1,7 +1,8 @@
 ---
 id: 3_rationale
 title: "3. Rationale"
-checklist: Describe the rationale for the review in the context of existing knowledge.
+summary: 
+    text: Describe the rationale for the review in the context of existing knowledge.
 ---
 
 Describe the rationale for the review in the context of existing knowledge

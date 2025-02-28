@@ -1,7 +1,7 @@
 There are several extensions which can be used _in addition_ to PRISMA , these include:
 
-* [PRISMA Harms](https://www.equator-network.org/reporting-guidelines/prisma-harms/), for writing #TODO
-* [PRISMA Search](https://www.equator-network.org/reporting-guidelines/prisma-s/), for writing up systematic literature searches
+* [PRISMA Harms](https://www.equator-network.org/reporting-guidelines/prisma-harms/), for describing adverse events
+* [PRISMA Search](https://www.equator-network.org/reporting-guidelines/prisma-s/), for describing systematic literature searches
 * [PRISMA for Network Meta-analyses](https://www.equator-network.org/reporting-guidelines/prisma-extension-network-meta-analyses)
 
 Other reporting guidelines for different types of systematic review should be used _instead_ of PRISMA, including:

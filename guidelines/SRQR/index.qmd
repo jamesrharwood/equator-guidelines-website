@@ -52,7 +52,7 @@ However you use {{< meta acronym >}}, please [cite it](faqs.qmd#citation).
 
 
 
-## Applicability criteria
+## Applicability criteria {#sec-applicability}
 
 ::: {.callout-tip icon=false appearance="simple"}
 {{< include partials/use_for.md >}}

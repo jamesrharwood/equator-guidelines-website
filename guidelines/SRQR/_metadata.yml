@@ -1,6 +1,6 @@
 acronym: SRQR
 acronym-definition: Standards for Reporting Qualitative Research
-appendix-cite-as: false
+appendix-cite-as: display
 appendix-style: default
 articles:
   development:
@@ -62,6 +62,7 @@ articles:
     volume: '89'
 author_list: "Bridget C. O\u2019Brien,\nIlene B. Harris,\nThomas J. Beckman,\nDarcy\
   \ A. Reed,\nDavid A. Cook"
+bibliography: []
 citation:
   author:
   - family: "O\u2019Brien"
@@ -92,6 +93,7 @@ css:
 - ../../css/guidelines.css
 - ../../css/styles2.css
 footer: none
+for-writing: qualitative health research articles
 format:
   html:
     include-after-body: partials/glossary_offcanvas.html
@@ -163,6 +165,19 @@ items:
     title: Units of study
     web_path: /guidelines/srqr/items/units-of-study.qmd
 journal-endorsement-count: 500+
+paths:
+  html:
+    applicability: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/index.html?#applicability{{<
+      var sec.applicability >}}
+    checklist: guidelines/srqr/srqr-checklist.docx
+    full_guideline: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/index.html
+    home_page: https://jamesrharwood.github.io/equator-guidelines-website/
+    writing_guide: guidelines/srqr/srqr-writing-guide.docx
+project:
+  render:
+  - '*glossary*'
+  - '*.qmd'
+  - '*.md'
 search: false
 title: SRQR reporting guideline for writing qualitative research articles
 translations: "[\U0001F1EB\U0001F1F7 French](https://doi.org/10.1016/j.kine.2022.05.004)"

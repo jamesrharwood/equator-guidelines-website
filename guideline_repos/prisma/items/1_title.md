@@ -1,7 +1,8 @@
 ---
 id: title
 title: "1. Title"
-checklist: "Identify the report as a systematic review."
+summary: 
+    text: "Identify the report as a systematic review."
 ---
 
 ## Essential elements

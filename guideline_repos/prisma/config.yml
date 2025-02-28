@@ -3,7 +3,7 @@ doi: 10.1234/equator/1010101
 id: prisma
 translations: []
 title: The PRISMA 2020 reporting guideline for writing a systematic review and meta-analysis
-acronym: PRISMA
+acronym: PRISMA 2020
 acronym-definition: The Preferred Reporting Items for Systematic reviews and Meta-Analyses
 open-e-and-e: true
 journal-endorsement-count: 1000+
@@ -273,7 +273,6 @@ articles:
     type: article-journal
     URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8005925/
     volume: '372'
-  
 authors:
   - family: Page
     given: Matthew J.
@@ -327,3 +326,4 @@ authors:
     given: Penny
   - family: Moher
     given: David
+for-writing: systematic review articles

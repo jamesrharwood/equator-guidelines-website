@@ -1,12 +1,24 @@
 import os
 from pathlib import Path
+import yaml
 
 root_path = os.path.dirname(os.path.abspath(__file__))
 root_path = Path(root_path).parent.absolute()
 GUIDELINES_DIR = 'guidelines'
+ITEMS_DIR = 'items'
+
+with open('_quarto.yml', 'r') as file_:
+    metadata = yaml.safe_load(file_)
 
 def join(*args):
     return os.path.join(*args)
+
+class Paths:
+    def __init__(self, dirname):
+        self.repo = RepoPaths(dirname)
+        self.destination = DestinationPaths(dirname)
+        self.web_files = WebPaths(dirname)
+        self.html = HtmlPaths(dirname)
 
 class RepoPaths:
     parent_dir = os.path.join(root_path, 'guideline_repos')
@@ -15,7 +27,8 @@ class RepoPaths:
     def __init__(self, dirname):
         self.dir = join(self.parent_dir, dirname)
         self.config = join(self.dir, 'config.yml')
-        self.items_dir = join(self.dir, 'items')
+        self.items_dir = join(self.dir, ITEMS_DIR)
+        self.items_rel_dir = ITEMS_DIR
         self.partials_dir = join(self.dir, self.partials_dirname)
         self.use_for = join(self.partials_dir, 'use_for.md')
         self.faqs = join(self.partials_dir, 'faqs.md')
@@ -47,6 +60,8 @@ class DestinationPaths(RepoPaths):
         self.index = join(self.dir, 'index.qmd')
         self.giscus_dir = join(self.dir, self.giscus_dirname)
         self.giscus_rel_dir = self.giscus_dir.replace(str(root_path), '')
+        self.checklist = join(self.dir, f'{dirname}-checklist.qmd')
+        self.writing_guide = join(self.dir, f'{dirname}-writing-guide.qmd')
 
 class RelativeDestinationPaths(DestinationPaths):
     parent_dir = ''
@@ -65,6 +80,26 @@ class WebPaths(DestinationPaths):
         self.items_dir = self.items_dir
         self.faqs = join(self.dir, 'faqs.qmd')
         self.faqs_partial = join(self.partials_dir, 'faqs.md')
-        self.checklist = join(self.dir, f'{dirname}_checklist.docx')
-        self.writing_guide = join(self.dir, f'{dirname}_writing_guide.docx')
+
+class HtmlPaths():
+    URL = metadata['website']['site-url']
+    def __init__(self, dirname):
+        self.web_paths = WebPaths(dirname)
+        self.applicability = self.index + '?#applicability{{< var sec.applicability >}}'
+        self.checklist = str(Path(self.web_paths.checklist).with_suffix('.docx'))
+        self.writing_guide = str(Path(self.web_paths.writing_guide).with_suffix('.docx'))
+
+    def make_item_path(self, filename):
+        path = Path(self.URL, self.web_paths.items_dir, filename)
+        return str(path.with_suffix('.html'))
+    
+    def __getattr__(self, attr):
+        val = getattr(self.web_paths, attr)
+        if type(val) is str:
+            path = Path(self.URL, val)
+            if val.endswith('qmd'):
+                path = path.with_suffix('.html')
+            val = str(path)
+        return val
+
 

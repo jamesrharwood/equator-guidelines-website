@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 pyyaml = "==6.0"
 markdown = "==3.7"
+py-markdown-table = "*"
 
 [dev-packages]
 requests = "*"
