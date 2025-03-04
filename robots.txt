@@ -1,1 +1,1 @@
-Sitemap: %env:SITE_URL%/sitemap.xml
+Sitemap: https://jamesrharwood.github.io/equator-guidelines-website/sitemap.xml

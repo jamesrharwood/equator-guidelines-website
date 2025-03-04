@@ -1,3 +1,5 @@
+@import "./index3.css"
+
 /* css styles */
 section {
     padding-bottom: 20px;
@@ -11,7 +13,7 @@ abbr {
 .defined {
   /* color: rgb(55, 58, 60); */
   /* text-decoration-color: rgb(39, 128, 227); */
-  text-decoration-color: rgb(58, 58, 60);
+  text-decoration-color: var(--green-primary);
   text-decoration-line: underline;
   text-decoration-skip-ink: none;
   text-decoration-style: dotted; 
@@ -19,13 +21,13 @@ abbr {
   data-bs-toggle: 'nothing'
 }
 
-/* .defined::after {
+.defined::after {
   font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: " \f05a";
-  color:#9f9f9f;
-  font-size:12px;
-} */
+  /* font-weight: 900; */
+  content: " \f059";
+  color: var(--green-primary);
+  font-size: 14px;
+}
 
 #quarto-sidebar {
     padding-top: 0px;
