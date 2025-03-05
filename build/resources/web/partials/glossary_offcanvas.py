@@ -1,7 +1,7 @@
 import os
 
 from build import file
-from build.guideline.glossary import glossary_id
+from build.guideline.glossary import glossary_id, transform_dict
 from build.guideline.glossary_default import glossary_default
 
 def create_web(guideline):
@@ -27,7 +27,8 @@ TEMPLATE_PATH = os.path.join(os.path.dirname(__file__), 'glossary_offcanvas.html
 TEMPLATE = file.load_string(TEMPLATE_PATH)
 
 def create_default_glossary_html():
-    html = create_html(glossary_default)
+    transformed = transform_dict(glossary_default)
+    html = create_html(transformed)
     file.save_string(html, 'offcanvas.html')
 
 create_default_glossary_html()

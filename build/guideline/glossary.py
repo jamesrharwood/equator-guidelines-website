@@ -10,19 +10,31 @@ def add_glossary_to_string(string: str, glossary_dict: dict, wrapper_fn: Callabl
     if not glossary_dict:
         return string
     matches = find_matches(string, glossary_dict)
+    matches = filter_matches(matches)
     matches.reverse()
     for match in matches:
-        if match_should_be_wrapped(match):
-            start = match.start()
-            end = match.end()
-            id_ = get_match_id(match)
-            tagged_string = wrapper_fn(string[start:end], id_)
-            string = string[:start] + tagged_string + string[end:]
+        id_ = get_match_id(match)
+        start = match.start()
+        end = match.end()
+        tagged_string = wrapper_fn(string[start:end], id_)
+        string = string[:start] + tagged_string + string[end:]
     return string
+
+def filter_matches(matches):
+    matches = [match for match in matches if match_should_be_wrapped(match)]
+    matches_to_return = []
+    match_ids = []
+    for match in matches:
+        id_ = get_match_id(match)
+        if id_ not in match_ids:
+            matches_to_return.append(match)
+            match_ids.append(id_)
+    return matches_to_return
 
 def find_matches(string, glossary_dict):
     pattern = create_regex(glossary_dict)
     matches = list(pattern.finditer(string))
+    matches.sort(key=lambda x: x.start())
     return matches
 
 def create_regex(glossary_dict):

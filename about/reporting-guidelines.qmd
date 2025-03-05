@@ -1,0 +1,56 @@
+---
+title-block-banner: rgb(11, 167, 87)
+title-block-banner-color: white
+title: Reporting guidelines, writing guides, and checklists
+date: last-modified
+description: '{{< lipsum 1 >}}'
+---
+
+## What are reporting guidelines? {#reporting-guidelines}
+
+-   Define what they are
+-   How they help authors
+-   How they help readers/community
+-   Explain constituents:
+    -   On this website, each RG has full guidance (incl. examples, definitions etc), a writing guide, and a checklist.
+    -   Other RGs only have a checklist, and might not have full guidance.
+-   Explain how they are developed and who by.
+-   Explain how the RG versions on this site were made, and why they were made, and hence why not all RGs are included.
+
+## Writing guides {#writing-guides}
+
+-   Explain when to use it
+
+-   Why use it (benefits to user)
+
+    -   Personal - easier writing
+
+    -   Community - adherence to RGs
+
+-   How it was made
+
+-   [Link to writing tutorial page](writing-using-reporting-guidelines.qmd)
+
+## Reporting checklists {#reporting-checklists}
+
+-   When to use
+
+-   Why use (benefits to author and reader)
+
+-   How these checklists were made
+
+-   How to complete.
+    -   How to show where content is (options such as page and paragraph numbers)
+    -   What to do if you didn't do something 
+    -   What to write if you couldn't do something
+-   Getting colleagues to double check your work
+-   Notes to editors about how to enforce reporting checklists at their journal
+-   Notes to peer reviewers about how to use checklists / when to use them / when _not_ to use them
+
+-   Note about order. Link to writing tutorial page - section on ordering and prioritizing
+
+## Writing applications and protocols using reporting guidelines {#writing-applications}
+
+{{< lipsum 1 >}}
+<!-- #TODO -->
+

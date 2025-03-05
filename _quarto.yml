@@ -77,7 +77,7 @@ format:
     section-divs: true
     include-in-header:
         - scripts/search-shortcut.html
-        # - scripts/font-awesome.html
+        - text: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     include-after-body:
         - scripts/toggle_collapsible.html
         - offcanvas.html

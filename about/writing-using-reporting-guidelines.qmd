@@ -1,0 +1,109 @@
+---
+title-block-banner: rgb(11, 167, 87)
+title-block-banner-color: white
+title: "Using Reporting Guidelines to Draft Research Articles: A Step-by-Step Guide"
+date: last-modified
+description: >
+    Writing guides help researchers write quickly and confidently by breaking up the 
+    writing process into manageable pieces, and by detailing the information their 
+    readers will need to fully understand, apply, and appraise research.
+
+---
+
+## The writing process
+
+If you have ever taken a big trip, you will know there is a good way and a bad way to pack a suitcase. 
+
+The bad way is to fling things in, as and when you think of them. Often rushed before leaving, this results in a lot of stress and a bloated bag you can't close. You'll be worried you;'ve forgotten things the entire journey. Once you reach your destination and unpack, your clothes are creased, possessions jumbled, and you'll realise you've forgotten your toothbrush. 
+
+An organised packer has a process. Often this begins with a list, then laying everything out in front of you, double checking your list before careful deciding which items belong in the suitcase, which will go in carry-on, how clothes can be folded to minimise space and creasing. The organised packer feels relaxed and will enjoy their journey in the confidence that they've forgotten nothing. 
+
+Writing academic articles is a lot like packing a suitcase. The author has to cram a lot of information into a small space, without crumpling the message they are trying to convey. Reporting guidelines act as the packing list, and the process we describe below covers the act of collating your stuff (information), laying it out (on the page), deciding what goes where (reorganising), and then finally, packing (writing a first draft).
+
+### Step 1: Get the appropriate reporting guideline writing guide
+
+Download the writing guide for the reporting guideline that matches your study design. For reporting guidelines not featured on this website, you can make your own writing guide based on their available resources by searching [our database](#TODO).
+
+### Step 2: Collate information
+
+* Gather your research materials (e.g., your notes, data, analyses, protocol)
+* For each section in the writing guide:
+    *   Note answers all prompting questions, including methodological decisions and their justifications..
+    *   Include relevant data points, statistics, and information sources.
+    *   Identify results or methods that would benefit from visual presentation.
+    *   Draft tables.
+    *   Collate figures that already exist. If custom figures need to be made, note down what information they should convey. 
+Document any information that cannot be included and why
+
+### Step 3: Content Organization and Prioritization
+
+By now you may already have a target journal or funder in mind. Review their author instructions for word limits, figure/table allowances, and supplementary material policies. 
+
+Begin reorganising your notes into a structure that fits your narrative and priorities. You might prefer to do this in a new document, and to delete the provided writing guide section titles and prompts. Group your bullet points into paragraphs. Some authors like to assign word limits to paragraphs or sections at this stage. Consider adding topic and linking sentences to the start and end of each paragraph. This helps creates flow.
+
+As you do this, consider how important the information will be to most of your readers. Prioritise information you expect most readers will find important. Content you expect only a small section of your audience will seek out can be placed later in your writing, allocated less space, or, if necessary, be placed in supplementary material. Do not delete any information – although _you_ may consider it unimportant, every item in a reporting guideline is important to _somebody_. 
+
+### Step 4: Writing the First Draft
+
+By now, your notes should be grouped into paragraphs, separated into main text and supplementary materials, and be filled with all of the information, data, and sources you'll need to write.
+
+Once you are ready to start drafting, open a new document. Your writing guide is probably very long by now, so writing in a new document means you can focus without deleting notes. 
+
+We suggest you begin by drafting the Methods section as this is generally the easiest to get started with, then the Results before the Introduction, Discussion and, finally, the Abstract and Title. When drafting, try not to use your delete key. The aim is get words on the page, no matter how messy they are. If you get stuck on something, consider using a placeholder (like `#TODO`) and come back to it later. 
+
+### Step 5: Revision and editing
+
+Review the draft for logical flow between sections. Edit your text to make it clear, concise and engaging. Get feedback from colleagues. 
+
+Once the text is ready to submit, complete the reporting checklist for the reporting guideline you used. You may do this yourself, or ask a colleague to do it for you, to check whether your interpretation of the guidance requirements matches theirs, and whether you have presented information clearly.
+
+Add the completed reporting checklist as a supplement, and ensure you have credited the reporting guideline, checklist, and writing guide. 
+
+### Submission 
+
+Include your completed reporting checklist as a supplement when you submit to your chosen journal. If your target journal/funder do not accept supplementary material, you can upload your checklist to a repository like the OSF and cite it.
+
+
+<!-- ## Writing process
+
+* Introduce the concept of writing as a process.
+* Step-by-step
+    1. Note-taking/Brainstorming. Gather notes, information, references, ideas, into one place. All information that you will eventually need to include in your article. Make a general plan with the main points. Writing guides help with this step - a place to collect all of your thoughts. Bullet points are OK.
+    2. Create a structured plan.
+        * Decide which items to prioritize, and which could be placed in supplementary materials. 
+        * Group bullet points into paragraphs.
+        * As you do this, move paragraphs around to create an overall structure.
+    3. Write your first draft. 
+        * Consider starting in a fresh file 
+        * You might prefer to begin turning bullet points into paragraphs by creating [topic and linking sentences](#TODO). If you find that paragraphs don't flow, adjust your structure.
+        * Distinguish between drafting and editing
+    4. Edit, redraft, and proofread.
+        * See our tips for [editing your own work](#TODO)
+        * Consider asking a colleague to proofread your work and check it against the reporting guideline you used
+
+## Writing guides based on reporting guidelines
+
+* The writing guides on this website will help with step 1 above. 
+* They include questions that will prompt you to include all information from the associated reporting guideline. 
+* If the guide asks for something you did not (or could not do), you should instead explain why you did not/could not do it and describe how the omission may have affected your conclusions, or why you believe it won't have done. Normally this would go in your discussion section, but can also go in supplementary material if you are confident that the information will only be of interest to few readers (such as evidence synthesisers, editors, or reviewers). 
+
+## Structuring, ordering, and creating flow 
+
+* Once you've noted down all the information, you'll want to decide how best to organise it (step 2). 
+* It's best to do this whilst your writing is still in note form because otherwise you may waste time polishing sentences that you then have to re-write.
+* Prioritise the items that are most relevant to your readership, and order them so as to make your story clear. 
+* Sometimes information can be concisely presented in a table or figure.
+* If you feel like the guide has asked you for information you don't think is important, don't delete it. Instead, consider putting it into supplementary material. 
+
+
+-->
+
+## Training and resources
+
+The EQUATOR Network provides training on writing research articles and applications. We have training on:
+
+* Writing processes
+* Concise, clear, and compelling writing 
+* Writing using reporting guidelines
+
+

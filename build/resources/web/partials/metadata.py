@@ -123,6 +123,8 @@ class MetadataCreator():
                 'writing_guide': self.guideline.html_paths.writing_guide,
                 'checklist': self.guideline.html_paths.checklist,
                 'home_page': self.guideline.html_paths.URL,
+                'about_writing_guides': self.guideline.html_paths.about_writing_guides,
+                'about_reporting_guidelines': self.guideline.html_paths.about_reporting_guidelines,
             }
         }
         self.set('paths', paths)

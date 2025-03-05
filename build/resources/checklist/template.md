@@ -1,6 +1,6 @@
 ---
 title: The {{< meta acronym >}} reporting checklist
-subtitle: 'For writing impactful {{< meta for-writing >}} that can be understood and used by everyone.'
+subtitle: 'For checking that {{< meta for-writing >}} can be understood and used by everyone'
 bibliography: bibliographies/self.bib
 csl: ../../vancouver.csl
 execute:
@@ -13,27 +13,16 @@ format:
 number-sections: true
 crossref:
     sec-prefix: Note
-citation:
-  type: article-journal
-  container-title: ACM Transactions on Embedded Computing Systems
-  volume: 21
-  issue: 2
-  issued: 2022-03
-  issn: 1539-9087
-  doi: 10.1145/3514174
 ---
 
-To use the {{< meta acronym >}} reporting guideline, writing guide, and this checklist:
+If you have not used a reporting guideline before, read about [how and why to use them]({{< meta paths.html.about_reporting_guidelines >}}) and check whether {{< meta acronym >}} is the [right reporting guideline]({{< meta paths.html.applicability >}}) for your work.
 
-VARIABLES: APPLICABILITY: {{< var sec.applicability >}}
+When writing, consider using the {{< meta acronym >}} [Writing Guide]({{< meta paths.html.writing_guide >}}) or [Full Guidance]({{< meta paths.html.full_guideline >}}).
 
-1. If you have not used a reporting guideline before, read about [how and why to use them]({{< meta paths.html.home_page >}}).
-2. Check whether {{< meta acronym >}} is the [right reporting guideline]({{< meta paths.html.applicability >}}) for your work.
-3. When writing, consider using the {{< meta acronym >}} [Writing Guide]({{< meta paths.html.writing_guide >}}) or [Full Guidance]({{< meta paths.html.full_guideline >}}).
-4. After writing, demonstrate adherence by completing this checklist:
-    a.  Specify where each item is described (see @sec-specify).
-    b.	Cite this checklist (See @sec-cite).
-    c.	Include your completed checklist as a supplement when submitting to a journal.
+After writing, demonstrate adherence by completing this checklist:
+    1.  Specify where each item is described (see @sec-specify).
+    2.	Cite this checklist (See @sec-cite).
+    3.	Include your completed checklist as a supplement when submitting to a journal.
 
 <br>
 
@@ -70,7 +59,7 @@ Tell the reader where they can find information. E.g.,
 
 If you have chosen not to describe an item, explain why.
 
-You can describe items in the body of your article, or in tables, figures, or supplementary materials, and should prioritize items you feel are most important to your intended audience. The order of items in your manuscript does not need to match the order of items in this checklist. You can decide how best to structure your work.
+You can describe items in the article body, or in tables, figures, or supplementary materials, and should prioritize items you feel are most important to your intended audience. The order of items in your manuscript does not need to match the order of items in this checklist. You can decide how best to structure your work.
 
 ## How to cite {#sec-cite .appendix}
 
@@ -79,4 +68,3 @@ Describe how you used {{< meta acronym >}} at the end of your Methods section e.
 > 'We used the {{< meta acronym >}}[@WritingGuide] writing guide to draft this manucript, and the {{< meta acronym >}} reporting checklist[@Checklist] when writing this manuscript, included in supplement A'
 
 Then reference the resources you used.
-

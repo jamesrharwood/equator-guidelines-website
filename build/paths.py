@@ -88,6 +88,8 @@ class HtmlPaths():
         self.applicability = self.index + '?#applicability{{< var sec.applicability >}}'
         self.checklist = str(Path(self.web_paths.checklist).with_suffix('.docx'))
         self.writing_guide = str(Path(self.web_paths.writing_guide).with_suffix('.docx'))
+        self.about_reporting_guidelines = str(Path(self.web_paths.dir, 'about', 'reporting-guidelines', '.html'))
+        self.about_writing_guides = str(Path(self.web_paths.dir, 'about', 'writing-using-reporting-guidelines.html'))
 
     def make_item_path(self, filename):
         path = Path(self.URL, self.web_paths.items_dir, filename)

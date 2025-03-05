@@ -55,7 +55,7 @@ Write [quickly and confidently]{.emphasise} using reporting guidelines: communit
 
 
 ::: {.g-col-lg-4 .g-col-md-3 .g-col-12 .hero-content-right}
-### About EQUATOR
+### About The EQUATOR Network
 
 We are the leading global academic network dedicated to improving research reporting quality.
 
@@ -192,7 +192,7 @@ Your research will be used by people from different disciplines and backgrounds 
 Write confidently using a reporting template to quickly turn a blank page into a thorough and impactful manuscript. 
 
 ::: {.learn-more}
-[Learn more »]()
+[Learn more »](about/writing-using-reporting-guidelines.qmd)
 :::
 :::
 
@@ -204,7 +204,7 @@ Use a reporting checklist to ensure you have included everything. Many journals 
 
 
 ::: {.learn-more} 
-[Learn more »]()
+[Learn more »](about/reporting-guidelines.qmd?#checklist)
 :::
 :::
 
@@ -216,7 +216,7 @@ Reporting guidelines can help you write funding applications, ethics application
 <!--#ASK seems strange to include this when I've just said they dont tell you what to do!-->
 
 ::: {.learn-more}
-[Learn more »]()
+[Learn more »](about/reporting-guidelines.qmd?#writing-applications)
 :::
 :::
 
