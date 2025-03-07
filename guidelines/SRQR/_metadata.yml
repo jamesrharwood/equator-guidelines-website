@@ -167,12 +167,13 @@ items:
 journal-endorsement-count: 500+
 paths:
   html:
-    applicability: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/index.html?#applicability{{<
-      var sec.applicability >}}
+    about_reporting_guidelines: https:/jamesrharwood.github.io/equator-guidelines-website/about/reporting-guidelines.html
+    about_writing_guides: https:/jamesrharwood.github.io/equator-guidelines-website/about/writing-using-reporting-guidelines.html
+    applicability: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/index.html?#applicability
     checklist: guidelines/srqr/srqr-checklist.docx
     full_guideline: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/index.html
     home_page: https://jamesrharwood.github.io/equator-guidelines-website/
-    writing_guide: guidelines/srqr/srqr-writing-guide.docx
+    writing_guide: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/srqr-writing-guide.docx
 project:
   render:
   - '*glossary*'

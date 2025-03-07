@@ -5,6 +5,7 @@ bibliography: bibliographies/self.bib
 csl: ../../vancouver.csl
 execute:
     enabled: true
+    freeze: false
     echo: false
 format:
     docx:
@@ -15,16 +16,19 @@ crossref:
     sec-prefix: Note
 ---
 
-If you have not used a reporting guideline before, read about [how and why to use them]({{< meta paths.html.about_reporting_guidelines >}}) and check whether {{< meta acronym >}} is the [right reporting guideline]({{< meta paths.html.applicability >}}) for your work.
+::: {.callout-note}
+
+If you have not used a reporting guideline before, read about [how and why to use them]({{< meta paths.html.about_reporting_guidelines >}}) and check whether {{< meta acronym >}} is the [most applicable reporting guideline]({{< meta paths.html.applicability >}}) for your work.
 
 When writing, consider using the {{< meta acronym >}} [Writing Guide]({{< meta paths.html.writing_guide >}}) or [Full Guidance]({{< meta paths.html.full_guideline >}}).
 
 After writing, demonstrate adherence by completing this checklist:
-    1.  Specify where each item is described (see @sec-specify).
-    2.	Cite this checklist (See @sec-cite).
-    3.	Include your completed checklist as a supplement when submitting to a journal.
 
-<br>
+1. Specify where each item is described (see @sec-specify).
+2. Cite this checklist (See @sec-cite).
+3. Include your completed checklist as a supplement when submitting to a journal.
+
+:::
 
 ```{python}
 from IPython.display import Markdown

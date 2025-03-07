@@ -1,26 +1,40 @@
 from build.guideline.guideline import Guideline as Base
 
-# from .item import Item
-
-TEMPLATE = """
-
-## [Item number {number}]()
-Here is a longish sentence that will introduce the topic a little bit. And here are some bullet points. 
-
-* Bullet one tells you to do something
-* Bullet two says if you did X, you should write Y
-* Bullet 3 says if you did not or could not do something, explain why, and then discuss how this may have affected your results in the discussion section (or explain why you feel like it won't have affected your results).  
-
-"""
+from .item import Item
 
 class Guideline(Base):
-    # item_class = Item
+    item_class = Item
 
     def create_writing_guide(self):
-        text = ""
-        for i in range(20):
-            text += TEMPLATE.format(number=str(i))
-        return text
+        texts = list(self.yield_texts())
+        texts = [text.replace('\n', '\n\n') for text in texts]
+        return '\n\n'.join(texts)
+
+    def yield_texts(self):
+        for element in self.resource_definitions['writing_guide']:
+            yield from self.yield_resource_element(element, level=1)
+
+    def yield_resource_element(self, element, level):
+        # will choose the yield strategy depending on string or list 
+        if type(element) is dict:
+            yield from self.yield_from_dict(element, level)
+        if type(element) is str:
+            yield from self.yield_from_filename(element, level)
+    
+    def yield_from_dict(self, dict, level):
+        for key in dict.keys():
+            decorator = '#' * level
+            yield f"{decorator} {key}"
+            for value in dict[key]:
+                yield from self.yield_resource_element(value, level+1)
+
+    def yield_from_filename(self, filename, level):
+        item = self.get_item_from_filename(filename)
+        decorator = '#' * level
+        text = f'::: {{.callout-tip title="Things To Consider" icon=false}}\n\n{item.text}\n\n:::'
+        yield f"{decorator} {item.title_hyperlinked}\n\n{text}" # type: ignore
+        yield "<br>\n\n* Make notes here\n* ...\n* ...\n\n<br>"
+
 
 
     

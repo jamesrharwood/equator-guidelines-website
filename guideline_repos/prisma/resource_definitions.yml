@@ -55,3 +55,4 @@ checklist: &id001
   - 27_availability_of_data.md
 
 web: *id001
+writing_guide: *id001

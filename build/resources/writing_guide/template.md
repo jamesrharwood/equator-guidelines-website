@@ -6,23 +6,27 @@ csl: ../../vancouver.csl
 execute:
     enabled: true
     echo: false
+    freeze: false
 format:
     docx:
         appendix-cite-as: display
         reference-doc: ../../custom-reference.docx
-        toc: true
-number-sections: true
+number-sections: false
 crossref:
     sec-prefix: Note
 ---
 
-::: {.callout}
+::: {.callout-note}
 
-If you have not used a writing guide before, read about how to use them with our "[packing for a holiday]({{< meta.paths.html.about_writing_guides >}})" writing process to:
+If you have not used a writing guide before, read about our suggested "[packing for a holiday]({{< meta paths.html.about_writing_guides >}})" writing process.
 
-1. collate information and make notes,
-2. reorganise notes into a narrative structure, and decide which information to prioritize,
-3. draft, revise, and edit your text.
+This guide is not a template. Don't expect to fill it in and end up with a finished article. Instead, think of it as an exercise book.
+
+1. Collate information and make notes in this guide;
+2. Delete the prompts and headings, reorganise your notes into a narrative structure, and decide which information to prioritize;
+3. Draft, revise, and edit your text in a separate file.
+
+Before you begin, double check that {{< meta acronym >}} is the [most applicable reporting guideline]({{< meta paths.html.applicability >}}) for your work. Other reporting guidelines have their own writing guide.
 
 :::
 
@@ -44,6 +48,7 @@ id_ = meta['id']
 gl = Guideline.create(id_)
 
 Markdown(gl.create_writing_guide())
+
 ```
 
 ## How to cite {#sec-cite .appendix}

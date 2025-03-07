@@ -85,11 +85,13 @@ class HtmlPaths():
     URL = metadata['website']['site-url']
     def __init__(self, dirname):
         self.web_paths = WebPaths(dirname)
-        self.applicability = self.index + '?#applicability{{< var sec.applicability >}}'
+        self.applicability = self.index + '?#applicability' #TODO replace with a constant
         self.checklist = str(Path(self.web_paths.checklist).with_suffix('.docx'))
-        self.writing_guide = str(Path(self.web_paths.writing_guide).with_suffix('.docx'))
-        self.about_reporting_guidelines = str(Path(self.web_paths.dir, 'about', 'reporting-guidelines', '.html'))
-        self.about_writing_guides = str(Path(self.web_paths.dir, 'about', 'writing-using-reporting-guidelines.html'))
+        self.writing_guide = str(Path(self.URL, self.web_paths.writing_guide).with_suffix('.docx'))
+        self.about_reporting_guidelines = str(Path(self.URL, 'about', 'reporting-guidelines.html'))
+        self.about_writing_guides = str(Path(self.URL, 'about', 'writing-using-reporting-guidelines.html'))
+        self.full_guideline = self.index
+        self.home_page = self.URL
 
     def make_item_path(self, filename):
         path = Path(self.URL, self.web_paths.items_dir, filename)

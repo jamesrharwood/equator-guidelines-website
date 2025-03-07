@@ -116,17 +116,8 @@ class MetadataCreator():
         self.set('bibliography', bibs)
 
     def set_paths(self):
-        paths = {
-            'html': {
-                'applicability': self.guideline.html_paths.applicability,
-                'full_guideline': self.guideline.html_paths.index,
-                'writing_guide': self.guideline.html_paths.writing_guide,
-                'checklist': self.guideline.html_paths.checklist,
-                'home_page': self.guideline.html_paths.URL,
-                'about_writing_guides': self.guideline.html_paths.about_writing_guides,
-                'about_reporting_guidelines': self.guideline.html_paths.about_reporting_guidelines,
-            }
-        }
+        html_paths = {k: v for k, v in self.guideline.html_paths.__dict__.items() if type(v) is str}
+        paths = {'html': html_paths}
         self.set('paths', paths)
 
     def create(self):
