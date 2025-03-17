@@ -1,6 +1,8 @@
 ---
-id: 12diii_statistical_methods
-title: "12diii. Statistical methods"
+id: statistical-methods-analytical-methods-sampling-strategy
+title: "12diii. Statistical methods – sampling strategy"
+checklist: 
+    text: **Cross-sectional study:** If applicable, describe analytical methods taking account of sampling strategy.
 ---
 **Cross-sectional study:** If applicable, describe analytical methods taking account of sampling strategy.
 

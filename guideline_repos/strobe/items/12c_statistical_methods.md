@@ -1,6 +1,8 @@
 ---
-id: 12c_statistical_methods
-title: "12c. Statistical methods"
+id: statistical-methods-missing-data
+title: "12c. Statistical methods – missing data"
+checklist: 
+    text: Explain how missing data were addressed.
 ---
 Explain how missing data were addressed.
 

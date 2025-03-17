@@ -1,6 +1,8 @@
 ---
-id: 4_study_design
+id: study-design
 title: "4. Study design"
+checklist: 
+    text: Present key elements of study design early in the paper.
 ---
 Present key elements of study design early in the paper.
 

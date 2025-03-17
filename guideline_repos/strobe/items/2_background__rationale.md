@@ -1,10 +1,12 @@
 ---
-id: 2_background__rationale
+id: background-rationale
 title: "2. Background / rationale"
+checklist: 
+    text: Explain the scientific background and rationale for the investigation being reported.
 ---
-Explain the scientific background and rationale for the investigation being reported
+Explain the scientific background and rationale for the investigation being reported.
 
-## Read More
+## Explanation
 
 The scientific background of the study provides important context for readers. It sets the stage for the study and describes its focus. It gives an overview of what is known on a topic and what gaps in current knowledge are addressed by the study. Background material should note recent pertinent studies and any systematic reviews of pertinent studies.
 

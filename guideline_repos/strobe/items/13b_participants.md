@@ -1,8 +1,11 @@
 ---
-id: 13b_participants
-title: "13b. Participants"
+id: participants-non-participation
+title: "13b. Participants – non-participation"
+checklist: 
+    text: Give reasons for non-participation at each stage.
+
 ---
-Give reasons for non-participation at each stage
+Give reasons for non-participation at each stage.
 
 ## Read More
 

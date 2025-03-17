@@ -1,6 +1,11 @@
 ---
-id: 6b_matching_criteria
+id: matching-criteria
 title: "6b. Matching criteria"
+checklist: 
+    text: >
+        **Cohort study:** For matched studies, give matching criteria and number of exposed and unexposed.
+
+        **Case-control study:** For matched studies, give matching criteria and the number of controls per case.
 ---
 **Cohort study:** For matched studies, give matching criteria and number of exposed and unexposed.
 

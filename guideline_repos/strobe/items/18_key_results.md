@@ -1,8 +1,10 @@
 ---
-id: 18_key_results
+id: key-results
 title: "18. Key results"
+checklist: 
+    text: Summarise key results with reference to study objectives.
 ---
-Summarise key results with reference to study objectives
+Summarise key results with reference to study objectives.
 
 ## Read More
 

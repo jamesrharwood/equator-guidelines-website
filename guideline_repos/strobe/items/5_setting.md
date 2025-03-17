@@ -1,6 +1,8 @@
 ---
-id: 5_setting
+id: setting
 title: "5. Setting"
+checklist: 
+    text: Describe the setting, locations, and relevant dates, including periods of recruitment, exposure, follow-up, and data collection.
 ---
 Describe the setting, locations, and relevant dates, including periods of recruitment, exposure, follow-up, and data collection.
 

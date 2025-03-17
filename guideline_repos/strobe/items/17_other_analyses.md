@@ -1,8 +1,10 @@
 ---
-id: 17_other_analyses
+id: other-analyses
 title: "17. Other analyses"
+checklist: 
+    text: Report other analyses done—e.g., analyses of subgroups and interactions, and sensitivity analyses.
 ---
-Report other analyses done—e.g., analyses of subgroups and interactions, and sensitivity analyses
+Report other analyses done—e.g., analyses of subgroups and interactions, and sensitivity analyses.
 
 ## Read More
 

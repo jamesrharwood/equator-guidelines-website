@@ -1,8 +1,10 @@
 ---
-id: 12e_statistical_methods
-title: "12e. Statistical methods"
+id: statistical-methods-sensitivity-analyses
+title: "12e. Statistical methods – sensitivity analyses"
+checklist: 
+    text: Describe any sensitivity analyses.
 ---
-Describe any sensitivity analyses
+Describe any sensitivity analyses.
 
 ## Read More
 

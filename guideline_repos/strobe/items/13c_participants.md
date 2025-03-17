@@ -1,6 +1,8 @@
 ---
-id: 13c_participants
-title: "13c. Participants"
+id: participants-flow-diagram
+title: "13c. Participants – flow diagram"
+checklist: 
+    text: Consider use of a flow diagram.
 ---
 Consider use of a flow diagram.
 

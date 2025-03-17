@@ -1,6 +1,8 @@
 ---
-id: 20_interpretation
+id: interpretation
 title: "20. Interpretation"
+checklist: 
+    text: Give a cautious overall interpretation considering objectives, limitations, multiplicity of analyses, results from similar studies, and other relevant evidence.
 ---
 Give a cautious overall interpretation considering objectives, limitations, multiplicity of analyses, results from similar studies, and other relevant evidence.
 

@@ -1,6 +1,8 @@
 ---
-id: 12a_statistical_methods
+id: statistical-methods-description
 title: "12a. Statistical methods"
+checklist: 
+    text: Describe all statistical methods, including those used to control for confounding.
 ---
 Describe all statistical methods, including those used to control for confounding.
 

@@ -1,6 +1,8 @@
 ---
-id: 19_limitations
+id: limitations
 title: "19. Limitations"
+checklist: 
+    text: Discuss limitations of the study, taking into account sources of potential bias or imprecision. Discuss both direction and magnitude of any potential bias.
 ---
 Discuss limitations of the study, taking into account sources of potential bias or imprecision. Discuss both direction and magnitude of any potential bias.
 

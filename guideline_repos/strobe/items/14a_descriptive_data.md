@@ -1,8 +1,10 @@
 ---
-id: 14a_
-title: "14a. "
+id: descriptive-data-participant-characteristics
+title: "14a. Descriptive data – participant characteristics"
+checklist: 
+    text: Give characteristics of study participants (e.g., demographic, clinical, social) and information on exposures and potential confounders. Present the information in a table.
 ---
-Give characteristics of study participants (e.g., demographic, clinical, social) and information on exposures and potential confounders. Present the information in a table
+Give characteristics of study participants (e.g., demographic, clinical, social) and information on exposures and potential confounders. Present the information in a table.
 
 ## Read More
 

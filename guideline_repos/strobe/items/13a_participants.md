@@ -1,6 +1,8 @@
 ---
-id: 13a_participants
-title: "13a. Participants"
+id: participants-numbers
+title: "13a. Participant numbers"
+checklist: 
+    text: Report the numbers of individuals at each stage of the study—e.g., numbers potentially eligible, examined for eligibility, confirmed eligible, included in the study, completing follow-up, and analysed; Consider use of a flow diagram.
 ---
 Report the numbers of individuals at each stage of the study—e.g., numbers potentially eligible, examined for eligibility, confirmed eligible, included in the study, completing follow-up, and analysed; Consider use of a flow diagram.
 

@@ -1,8 +1,10 @@
 ---
-id: 22_funding
+id: funding
 title: "22. Funding"
+checklist: 
+    text: Give the source of funding and the role of the funders for the present study and, if applicable, for the original study on which the present article is based.
 ---
-Give the source of funding and the role of the funders for the present study and, if applicable, for the original study on which the present article is based
+Give the source of funding and the role of the funders for the present study and, if applicable, for the original study on which the present article is based.
 
 ## Read More
 

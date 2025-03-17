@@ -1,6 +1,8 @@
 ---
-id: 21_generisability
+id: generisability
 title: "21. Generisability"
+checklist: 
+    text: Discuss the generalisability (external validity) of the study results.
 ---
 Discuss the generalisability (external validity) of the study results.
 

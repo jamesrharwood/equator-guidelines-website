@@ -1,8 +1,10 @@
 ---
-id: 14c_
-title: "14c. "
+id: descriptive-data-follow-up-time
+title: "14c. Descriptive data – follow-up time"
+checklist: 
+    text: **Cohort study:** Summarise follow-up time—e.g., average and total amount.
 ---
-**Cohort study:** Summarise follow-up time—e.g., average and total amount
+**Cohort study:** Summarise follow-up time—e.g., average and total amount.
 
 ## Read More
 

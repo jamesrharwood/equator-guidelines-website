@@ -1,8 +1,10 @@
 ---
-id: 9_bias
+id: bias
 title: "9. Bias"
+checklist: 
+    text: Describe any efforts to address potential sources of bias.
 ---
-Describe any efforts to address potential sources of bias
+Describe any efforts to address potential sources of bias.
 
 ## Read More
 

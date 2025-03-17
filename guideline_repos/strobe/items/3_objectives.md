@@ -1,8 +1,10 @@
 ---
-id: 3_objectives
+id: objectives
 title: "3. Objectives"
+checklist: 
+    text: State specific objectives, including any prespecified hypotheses.
 ---
-State specific objectives, including any prespecified hypotheses
+State specific objectives, including any prespecified hypotheses.
 
 ## Read More
 

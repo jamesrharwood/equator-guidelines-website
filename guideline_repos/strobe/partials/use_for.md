@@ -1,1 +1,7 @@
-This advice is relevant to studies where the investigators observe exposures (e.g. smoking status) and outcomes (e.g. cancer) in study participants but do not influence what happens. Observational studies include cohort, case-control, and cross-sectional studies.
+STROBE provides general reporting recommendations for descriptive observational studies and studies that investigate associations between exposures and health outcomes.
+
+STROBE addresses the three main types of observational studies:
+
+* cohort studies (sometimes called ‘follow-up studies' and ‘longitudinal studies'),
+* case-control studies; and
+* cross-sectional studies (sometimes called ‘prevalence studies').

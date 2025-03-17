@@ -1,8 +1,10 @@
 ---
-id: 11_quantitative_variables
+id: quantitative-variables
 title: "11. Quantitative variables"
+checklist: 
+    text: Explain how quantitative variables were handled in the analyses. If applicable, describe which groupings were chosen, and why.
 ---
-Explain how quantitative variables were handled in the analyses. If applicable, describe which groupings were chosen, and why
+Explain how quantitative variables were handled in the analyses. If applicable, describe which groupings were chosen, and why.
 
 ## Read More
 

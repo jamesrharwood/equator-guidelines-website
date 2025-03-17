@@ -1,5 +1,5 @@
 ---
-id: 8_data_sources__measurement
+id: data-sources-measurement
 title: "8. Data sources / measurement"
 ---
 For each variable of interest give sources of data and details of methods of assessment (measurement). Describe comparability of assessment methods if there is more than one group

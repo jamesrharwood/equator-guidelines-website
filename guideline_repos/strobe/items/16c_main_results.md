@@ -1,6 +1,6 @@
 ---
-id: 16c_main_results
-title: "16c. Main results"
+id: main-results-
+title: "16c. Main results – risk"
 ---
 If relevant, consider translating estimates of relative risk into absolute risk for a meaningful time period
 

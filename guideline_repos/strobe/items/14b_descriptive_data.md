@@ -1,6 +1,8 @@
 ---
-id: 14b_
-title: "14b. "
+id: descriptive-data-missing-data
+title: "14b. Descriptive data – missing data"
+checklist: 
+    text: Indicate the number of participants with missing data for each variable of interest.
 ---
 Indicate the number of participants with missing data for each variable of interest.
 

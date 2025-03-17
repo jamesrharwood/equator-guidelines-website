@@ -1,6 +1,8 @@
 ---
-id: 12dii_statistical_methods
-title: "12dii. Statistical methods"
+id: statistical-methods-matching-cases-controls
+title: "12dii. Statistical methods – matching cases and controls"
+checklist: 
+    text: **Case-control study:** If applicable, explain how matching of cases and controls was addressed.
 ---
 **Case-control study:** If applicable, explain how matching of cases and controls was addressed.
 

@@ -1,8 +1,10 @@
 ---
 id: 7_variables
 title: "7. Variables"
+checklist: 
+    text: Clearly define all outcomes, exposures, predictors, potential confounders, and effect modifiers. Give diagnostic criteria, if applicable.
 ---
-Clearly define all outcomes, exposures, predictors, potential confounders, and effect modifiers. Give diagnostic criteria, if applicable
+Clearly define all outcomes, exposures, predictors, potential confounders, and effect modifiers. Give diagnostic criteria, if applicable.
 
 ## Read More
 
