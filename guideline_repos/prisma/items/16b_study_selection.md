@@ -1,5 +1,5 @@
 ---
-id: study_selection_excluded_studies
+id: study-selection-excluded-studies
 title: "16b. Study selection – Excluded studies"
 summary: 
     title: 16b. Excluded studies

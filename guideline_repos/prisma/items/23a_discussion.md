@@ -1,5 +1,5 @@
 ---
-id: discussion_general_interpretation
+id: discussion-general-interpretation
 title: "23a. Discussion – General interpretation of the results"
 summary:
     title: 23a. General interpretation of the results

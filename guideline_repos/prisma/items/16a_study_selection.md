@@ -1,5 +1,5 @@
 ---
-id: study_selection_search_results
+id: study-selection-search-results
 title: "16a. Study selection – Results of the search and selection process"
 summary:
     title: 16a. Results of the search and selection process

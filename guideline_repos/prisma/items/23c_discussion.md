@@ -1,5 +1,5 @@
 ---
-id: discussion_limitations_of_review_process
+id: discussion-limitations-of-review-process
 title: "23c. Discussion – Limitations of the review processes"
 summary:
     title: 23c. Limitations of the review processes

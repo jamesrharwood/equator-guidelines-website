@@ -1,5 +1,5 @@
 ---
-id: results_of_syntheses_heterogeneity
+id: results-of-syntheses-heterogeneity
 title: "20c. Results of syntheses – Heterogeneity"
 summary:
     title: 20c. Heterogeneity

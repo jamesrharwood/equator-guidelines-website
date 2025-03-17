@@ -1,5 +1,5 @@
 ---
-id: synthesis_methods_e
+id: synthesis-methods-exploring-heterogeneity
 title: "13e. Synthesis methods – Methods for exploring heterogeneity"
 summary: 
     title: 13e. Methods for exploring heterogeneity

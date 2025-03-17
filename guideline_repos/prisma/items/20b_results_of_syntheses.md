@@ -1,5 +1,5 @@
 ---
-id: results_of_syntheses_statistical_results
+id: results-of-syntheses-statistical-results
 title: "20b. Results of syntheses – Statistical results"
 summary:
     title: 20b. Statistical results

@@ -1,5 +1,5 @@
 ---
-id: study_characteristics
+id: study-characteristics
 title: "17. Study characteristics"
 ---
 

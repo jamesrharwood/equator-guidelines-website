@@ -1,5 +1,5 @@
 ---
-id: synthesis_methods_a
+id: synthesis-methods-eligibility
 title: "13a. Synthesis methods – Deciding which studies were eligible for each synthesis"
 summary:
     title: 13a. Deciding which studies were eligible for each synthesis

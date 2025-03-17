@@ -1,5 +1,5 @@
 ---
-id: selection_process
+id: selection-process
 title: "8. Selection Process"
 summary: 
     text: Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they worked independently, and, if applicable, details of automation tools used in the process.

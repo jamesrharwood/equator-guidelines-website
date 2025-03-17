@@ -37,7 +37,13 @@ class Item:
 
     def fallback_summary_text(self):
         text = self.meta.get('checklist', {}).get('text', None)
-        text = text or self.text.strip().split('\n')[0].strip()
+        if not text:
+            texts = self.text.strip().split('\n')
+            for t in texts:
+                t = t.strip()
+                if t and not t.startswith('#'):
+                    text = t
+                    break
         if len(text) > 300:
             text = text[:300] + '...'
         text = text or ''

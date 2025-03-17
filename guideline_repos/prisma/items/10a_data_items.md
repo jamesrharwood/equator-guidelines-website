@@ -1,5 +1,5 @@
 ---
-id: data_items_outcomes
+id: data-items-outcomes
 title: "10a. Data items – Outcomes"
 summary:
     title: "10a. Outcomes"

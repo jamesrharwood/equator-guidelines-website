@@ -1,5 +1,5 @@
 ---
-id: availability_of_materials
+id: availability-of-materials
 title: "27. Availability of data, code, and other materials"
 ---
 

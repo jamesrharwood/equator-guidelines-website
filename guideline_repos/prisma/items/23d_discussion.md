@@ -1,5 +1,5 @@
 ---
-id: discussion_implications
+id: discussion-implications
 title: "23d. Discussion – Implications"
 summary:
     title: 23d. Implications

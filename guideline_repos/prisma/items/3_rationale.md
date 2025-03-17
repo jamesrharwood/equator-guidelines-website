@@ -1,5 +1,5 @@
 ---
-id: 3_rationale
+id: rationale
 title: "3. Rationale"
 summary: 
     text: Describe the rationale for the review in the context of existing knowledge.

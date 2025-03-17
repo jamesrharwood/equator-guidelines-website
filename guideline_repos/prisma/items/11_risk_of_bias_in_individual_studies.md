@@ -1,5 +1,5 @@
 ---
-id: risk_of_bias_in_individual_studies
+id: risk-of-bias-in-individual-studies
 title: "11. Risk of bias in individual studies"
 ---
 

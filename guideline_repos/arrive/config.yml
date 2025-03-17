@@ -4,10 +4,13 @@ id: arrive
 translations: []
 title: The ARRIVE reporting guideline for writing animal research articles
 acronym: ARRIVE
+for-writing: articles describing _in vivo_ animal experiments
 acronym-definition: "Animal Research: Reporting of In Vivo Experiments"
 open-e-and-e: true
 journal-endorsement-count: 1000+
 version: 'ARRIVE 2.0 2020 v1.1'
+bibliography:
+  - bibliographies/imported.bib
 articles:
   development: 
     id: sertARRIVEGuidelines202020

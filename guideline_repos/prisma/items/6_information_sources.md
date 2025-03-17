@@ -1,5 +1,5 @@
 ---
-id: information_sources
+id: information-sources
 title: "6. Information sources"
 ---
 

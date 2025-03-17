@@ -1,5 +1,5 @@
 ---
-id: certainty_of_evidence
+id: certainty-of-evidence
 title: "22. Certainty of evidence"
 ---
 

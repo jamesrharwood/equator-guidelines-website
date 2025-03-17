@@ -1,5 +1,5 @@
 ---
-id: synthesis_methods_d
+id: synthesis-methods-synthesis-methods
 title: "13d. Synthesis methods – Synthesis methods"
 summary: 
     title: 13d. Synthesis methods

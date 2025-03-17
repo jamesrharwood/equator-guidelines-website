@@ -1,5 +1,5 @@
 ---
-id: results_of_individual_studies
+id: results-of-individual-studies
 title: "19. Results of individual studies"
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: effect_measures
+id: effect-measures
 title: "12. Effect measures"
 ---
 

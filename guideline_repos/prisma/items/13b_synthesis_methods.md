@@ -1,5 +1,5 @@
 ---
-id: synthesis_methods_b
+id: synthesis-methods-data-preparation
 title: "13b. Synthesis methods – Data preparation methods"
 summary: 
     title: 13b. Data preparation methods

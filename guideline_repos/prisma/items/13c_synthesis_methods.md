@@ -1,5 +1,5 @@
 ---
-id: synthesis_methods_c
+id: synthesis-methods-tabulating-or-displaying-results
 title: "13c. Synthesis methods – Methods for tabulating or displaying results"
 summary: 
     title: 13c. Methods for tabulating or displaying results

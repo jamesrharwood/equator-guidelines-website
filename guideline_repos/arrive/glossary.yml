@@ -1,1 +1,35 @@
-'animal research': "When ARRIVE refers to animal research it is referring to _in vivo_ animal research. This is the use of non-human animals, sometimes known as model organisms, in experiments that seek to control the variables that affect the behavior or biological system under study. This approach can be contrasted with field studies in which animals are observed in their natural environments or habitats. Animal research varies on a continuum from pure research, focusing on developing fundamental knowledge of an organism, to applied research, which may focus on answering some questions of great practical importance, such as finding a cure for a disease. Examples of applied animal research include testing disease treatments, breeding, defense research, and toxicology.\n\n[Source](https://en.wikipedia.org/wiki/Animal_testing)"
+'animal research': >
+  When ARRIVE refers to animal research it is referring to _in vivo_ animal research. This is the use of non-human animals, sometimes known as model organisms, in experiments that seek to control the variables that affect the behavior or biological system under study. This approach can be contrasted with field studies in which animals are observed in their natural environments or habitats. Animal research varies on a continuum from pure research, focusing on developing fundamental knowledge of an organism, to applied research, which may focus on answering some questions of great practical importance, such as finding a cure for a disease. [Source](https://en.wikipedia.org/wiki/Animal_testing)" 
+
+  The ARRIVE guidelines apply to all areas of bioscience research involving living animals. That includes mammalian species as well as model organisms such as *Drosophila* or *Caenorhabditis elegans*. Each item is equally relevant to manuscripts centred around a single animal study and broader-scope manuscripts describing in vivo observations along with other types of experiments. The exact type of detail to report, however, might vary between species and experimental setup; this is acknowledged in the guidance provided for each item. [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+Bias: The over- or underestimation of the true effect of an intervention. Bias is caused by inadequacies in the design, conduct, or analysis of an experiment, resulting in the introduction of error.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+Descriptive and inferential statistics: >
+  Descriptive statistics are used to summarise the data. They generally include a measure of central tendency (e.g., mean or median) and a measure of spread (e.g., standard deviation or range). Inferential statistics are used to make generalisations about the population from which the samples are drawn.
+
+  Hypothesis tests such as ANOVA, Mann-Whitney, or *t* tests are examples of inferential statistics.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+Effect size: Quantitative measure of differences between groups, or strength of relationships between variables.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+Experimental unit: Biological entity subjected to an intervention independently of all other units, such that it is possible to assign any two experimental units to different treatment groups. Sometimes known as unit of randomisation.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+External validity: Extent to which the results of a given study enable application or generalisation to other studies, study conditions, animal strains/species, or humans.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+False negative: Statistically nonsignificant result obtained when the alternative hypothesis (H~1~) is true. In statistics, it is known as the type II error.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+False positive: Statistically significant result obtained when the null hypothesis (H~0~) is true. In statistics, it is known as the type I error.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+Independent variable: Variable that either the researcher manipulates (treatment, condition, time) or is a property of the sample (sex) or a technical feature (batch, cage, sample collection) that can potentially affect the outcome measure. Independent variables can be scientifically interesting, or nuisance variables. Also known as predictor variable.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+Internal validity: Extent to which the results of a given study can be attributed to the effects of the experimental intervention, rather than some other, unknown factor(s) (e.g., inadequacies in the design, conduct, or analysis of the study introducing bias).\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+Nuisance variable: Variables that are not of primary interest but should be considered in the experimental design or the analysis because they may affect the outcome measure and add variability. They become confounders if, in addition, they are correlated with an independent variable of interest, as this introduces bias. Nuisance variables should be considered in the design of the experiment (to prevent them from becoming confounders) and in the analysis (to account for the variability and sometimes to reduce bias). For example, nuisance variables can be used as blocking factors or covariates.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+Null and alternative hypotheses: The null hypothesis (H~0~) is that there is no effect, such as a difference between groups or an association between variables. The alternative hypothesis (H~1~) postulates that an effect exists.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+Outcome measure: Any variable recorded during a study to assess the effects of a treatment or experimental intervention. Also known as dependent variable, response variable.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+Power: For a predefined, biologically meaningful effect size, the probability that the statistical test will detect the effect if it exists (i.e., the null hypothesis is rejected correctly).\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+
+Sample size: Number of experimental units per group, also referred to as *n*.\n\n[Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)

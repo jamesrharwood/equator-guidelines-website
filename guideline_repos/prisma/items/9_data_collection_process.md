@@ -1,5 +1,5 @@
 ---
-id: data_collection_process
+id: data-collection-process
 title: "9. Data collection process"
 ---
 

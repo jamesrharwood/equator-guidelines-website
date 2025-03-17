@@ -1,5 +1,5 @@
 ---
-id: data_items_other_variables
+id: data-items-other-variables
 title: "10b. Data items – Other variables"
 summary: 
     title: "10b. Other Variables"

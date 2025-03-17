@@ -1,5 +1,5 @@
 ---
-id: discussion_limitations_of_included_evidence
+id: discussion-limitations-of-included-evidence
 title: "23b. Discussion – Limitations of included evidence"
 summary:
     title: 23b. Limitations of included evidence

@@ -1,36 +1,57 @@
 checklist: &id001
-- Title:
-  - 1_title.md
-- Abstract:
-  - 2_abstract.md
-- Introduction:
-  - 3a_background.md
-  - 3b_background.md
-  - 4_objectives.md
-- Methods:
-  - 5_ethical_statement.md
-  - 6a_study_design.md
-  - 6b_study_design.md
-  - 6c_study_design.md
-  - 7_experimental_procedures.md
-  - 8a_experimental_animals.md
-  - 8b_experimental_animals.md
-  - 9a_housing_and_husbandry.md
-  - 9b_housing_and_husbandry.md
-  - 9c_housing_and_husbandry.md
-  - 10_sample_size.md
-  - 11_allocating_animals_to_experimental_groups.md
-  - 12_experimental_outcomes.md
-  - 13_statistical_methods.md
-- Results:
-  - 14_baseline_data.md
-  - 15_numbers_analysed.md
-  - 16_outcomes_and_estimation.md
-  - 17_adverse_events.md
-- Discussion:
-  - 18a_interpretation__scientific_implications.md
-  - 18b_interpretation__scientific_implications.md
-  - 18c_interpretation__scientific_implications.md
-  - 19_generalisability__translation.md
-  - 20_funding.md
+  - Essential 10:
+    - 1. Study Design:
+      - 1a_groups.md
+      - 1b_experimental_unit.md
+    - 2. Sample Size:
+      - 2a_number_of_experimental_units.md
+      - 2b_sample_size_justification.md
+    - 3. Inclusion and Exclusion Criteria:
+      - 3a_criteria.md
+      - 3b_exclusions.md
+      - 3c_numbers_analysed.md
+    - 4. Randomisation:
+      - 4a_randomisation_use.md
+      - 4b_confounders.md
+    - 5_blinding.md
+    - 6. Outcome Measures:
+      - 6a_outcome_measures.md
+      - 6b_primary_outcome_measure.md
+    - 7. Statistical Methods:
+      - 7a_analysis_methods.md
+      - 7b_assumptions.md
+    - 8. Experimental Animals:
+      - 8a_species_appropriate_details.md
+      - 8b_further_information.md
+    - 9. Experimental Procedures:
+      - 9a_what_was_done_how_what_was_used.md
+      - 9b_when_and_how_often.md
+      - 9c_where.md
+      - 9d_why.md
+    - 10. Results:
+      - 10a_summary_per_group.md
+      - 10b_effect_size.md
+  - Recommended Set: 
+    - 11_abstract.md
+    - 12. Background:
+      - 12a_rationale.md
+      - 12b_species_model.md
+    - 13_objectives.md
+    - 14_ethical_statement.md
+    - 15_housing_husbandry.md
+    - 16. Animal Care and Monitoring:
+      - 16a_pain.md
+      - 16b_adverse_events.md
+      - 16c_humane_endpoints.md
+    - 17. Interpretation/ scientific implications:
+      - 17a_interpretation.md
+      - 17b_limitations.md
+    - 18_generalisability.md
+    - 19_protocol_registration.md
+    - 20_data_access.md
+    - 21. Declaration of interests:
+      - 21a_conflicts.md
+      - 21b_funding.md
+    
 web: *id001
+writing_guide: *id001

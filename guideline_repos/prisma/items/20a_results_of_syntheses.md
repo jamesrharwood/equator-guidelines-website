@@ -1,5 +1,5 @@
 ---
-id: results_of_syntheses_summary_of_studies
+id: results-of-syntheses-summary-of-studies
 title: "20a. Results of syntheses – Summary of studies"
 summary:
     title: 20a. Summary of studies

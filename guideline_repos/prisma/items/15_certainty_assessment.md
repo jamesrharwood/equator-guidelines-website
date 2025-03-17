@@ -1,5 +1,5 @@
 ---
-id: 15_certainty_assessment
+id: certainty-assessment
 title: "15. Certainty assessment"
 ---
 

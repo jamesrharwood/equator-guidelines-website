@@ -1,5 +1,5 @@
 ---
-id: eligibility_criteria
+id: eligibility-criteria
 title: "5. Eligibility criteria"
 summary: 
     text: Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses.

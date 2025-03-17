@@ -823,90 +823,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/arrive/index.qmd
-      text: Overview of ARRIVE
-    - contents:
-      - contents:
-        - href: guidelines/arrive/items/title.qmd
-          text: Title
-        section: Title
-      - contents:
-        - href: guidelines/arrive/items/abstract.qmd
-          text: Abstract
-        section: Abstract
-      - contents:
-        - href: guidelines/arrive/items/3a_background.qmd
-          text: 3a. Background
-        - href: guidelines/arrive/items/3b_background.qmd
-          text: 3b. Background
-        - href: guidelines/arrive/items/4_objectives.qmd
-          text: 4. Objectives
-        section: Introduction
-      - contents:
-        - href: guidelines/arrive/items/5_ethical_statement.qmd
-          text: 5. Ethical statement
-        - href: guidelines/arrive/items/6a_study_design.qmd
-          text: 6a. Study design
-        - href: guidelines/arrive/items/6b_study_design.qmd
-          text: 6b. Study design
-        - href: guidelines/arrive/items/6c_study_design.qmd
-          text: 6c. Study design
-        - href: guidelines/arrive/items/7_experimental_procedures.qmd
-          text: 7. Experimental procedures
-        - href: guidelines/arrive/items/8a_experimental_animals.qmd
-          text: 8a. Experimental animals
-        - href: guidelines/arrive/items/8b_experimental_animals.qmd
-          text: 8b. Experimental animals
-        - href: guidelines/arrive/items/9a_housing_and_husbandry.qmd
-          text: 9a. Housing and husbandry
-        - href: guidelines/arrive/items/9b_housing_and_husbandry.qmd
-          text: 9b. Housing and husbandry
-        - href: guidelines/arrive/items/9c_housing_and_husbandry.qmd
-          text: 9c. Housing and husbandry
-        - href: guidelines/arrive/items/10_sample_size.qmd
-          text: 10. Sample size
-        - href: guidelines/arrive/items/11_allocating_animals_to_experimental_groups.qmd
-          text: 11. Allocating animals to experimental groups
-        - href: guidelines/arrive/items/12_experimental_outcomes.qmd
-          text: 12. Experimental outcomes
-        - href: guidelines/arrive/items/13_statistical_methods.qmd
-          text: 13. Statistical methods
-        section: Methods
-      - contents:
-        - href: guidelines/arrive/items/14_baseline_data.qmd
-          text: 14. Baseline data
-        - href: guidelines/arrive/items/15_numbers_analysed.qmd
-          text: 15. Numbers analysed
-        - href: guidelines/arrive/items/16_outcomes_and_estimation.qmd
-          text: 16. Outcomes and estimation
-        - href: guidelines/arrive/items/17_adverse_events.qmd
-          text: 17. Adverse events
-        section: Results
-      - contents:
-        - href: guidelines/arrive/items/18a_interpretation__scientific_implications.qmd
-          text: 18a. Interpretation / scientific implications
-        - href: guidelines/arrive/items/18b_interpretation__scientific_implications.qmd
-          text: 18b. Interpretation / scientific implications
-        - href: guidelines/arrive/items/18c_interpretation__scientific_implications.qmd
-          text: 18c. Interpretation / scientific implications
-        - href: guidelines/arrive/items/19_generalisability__translation.qmd
-          text: 19. Generalisability / translation
-        - href: guidelines/arrive/items/20_funding.qmd
-          text: 20. Funding
-        section: Discussion
-      section: Full guidance
-    - href: guidelines/arrive/arrive_writing_guide.docx
-      text: Writing guide
-    - href: guidelines/arrive/arrive_checklist.docx
-      text: Checklist
-    - href: guidelines/arrive/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: arrive
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/squire/index.qmd
       text: Overview of SQUIRE
     - contents:
@@ -1314,5 +1230,127 @@ website:
       text: FAQs
     foreground: secondary
     id: srqr
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/arrive/index.qmd
+      text: Overview of ARRIVE
+    - contents:
+      - contents:
+        - contents:
+          - href: guidelines/arrive/items/groups-being-compared.qmd
+            text: 1a. The groups being compared
+          - href: guidelines/arrive/items/experimental-unit.qmd
+            text: 1b. The experimental unit
+          section: 1. Study Design
+        - contents:
+          - href: guidelines/arrive/items/number-of-experimental-units.qmd
+            text: 2a. Number of Experimental Units
+          - href: guidelines/arrive/items/sample-size-justification.qmd
+            text: 2b. Sample Size Justification
+          section: 2. Sample Size
+        - contents:
+          - href: guidelines/arrive/items/inclusion-and-exclusion-criteria.qmd
+            text: 3a. Inclusion and exclusion criteria
+          - href: guidelines/arrive/items/exclusions-and-attritions.qmd
+            text: 3b. Exclusions and Attritions
+          - href: guidelines/arrive/items/numbers-analysed.qmd
+            text: 3c. Numbers analysed
+          section: 3. Inclusion and Exclusion Criteria
+        - contents:
+          - href: guidelines/arrive/items/randomisation.qmd
+            text: 4a. Randomisation Use
+          - href: guidelines/arrive/items/confounders.qmd
+            text: 4b. Confounders
+          section: 4. Randomisation
+        - href: guidelines/arrive/items/blinding.qmd
+          text: 5. Blinding/Masking
+        - contents:
+          - href: guidelines/arrive/items/outcome-measures.qmd
+            text: 6a. Outcome Measures
+          - href: guidelines/arrive/items/primary-outcome-measure.qmd
+            text: 6b. Primary Outcome Measure
+          section: 6. Outcome Measures
+        - contents:
+          - href: guidelines/arrive/items/statistical-methods-analysis-methods.qmd
+            text: 7a. Statistical Methods used for each Analysis
+          - href: guidelines/arrive/items/statistical-methods-assumptions.qmd
+            text: 7b. Statistical Assumptions
+          section: 7. Statistical Methods
+        - contents:
+          - href: guidelines/arrive/items/experimental-animals-species-appropriate-details.qmd
+            text: 8a. Species-appropriate Details
+          - href: guidelines/arrive/items/experimental-animals-further-information.qmd
+            text: 8b. Further Information
+          section: 8. Experimental Animals
+        - contents:
+          - href: guidelines/arrive/items/experimental-procedures-what-was-done.qmd
+            text: 9a. What was done
+          - href: guidelines/arrive/items/experimental-procedures-when-and-how-often.qmd
+            text: 9b. When and how often procedures were conducted
+          - href: guidelines/arrive/items/experimental-procedures-where.qmd
+            text: 9c. Where procedures were conducted
+          - href: guidelines/arrive/items/experimental-procedures-why.qmd
+            text: 9d. Why procedures were done
+          section: 9. Experimental Procedures
+        - contents:
+          - href: guidelines/arrive/items/results-summary-per-group.qmd
+            text: 10a. Summary/Descriptive Statistics per group
+          - href: guidelines/arrive/items/results-effect-sizes.qmd
+            text: 10b. Effect sizes and confidence intervals
+          section: 10. Results
+        section: Essential 10
+      - contents:
+        - href: guidelines/arrive/items/abstract.qmd
+          text: 11. Abstract
+        - contents:
+          - href: guidelines/arrive/items/rationale.qmd
+            text: 12a. Rationale
+          - href: guidelines/arrive/items/species-and-model.qmd
+            text: 12b. Species and model
+          section: 12. Background
+        - href: guidelines/arrive/items/objectives.qmd
+          text: 13. Objectives
+        - href: guidelines/arrive/items/ethical-statement.qmd
+          text: 14. Ethical statement
+        - href: guidelines/arrive/items/housing-husbandry.qmd
+          text: 15. Housing and husbandry
+        - contents:
+          - href: guidelines/arrive/items/reducing-pain-suffering-distress.qmd
+            text: 16a. Reducing pain, suffering, and distress
+          - href: guidelines/arrive/items/adverse-events.qmd
+            text: 16b. Adverse events
+          - href: guidelines/arrive/items/humane-endpoints.qmd
+            text: 16c. Humane endpoints
+          section: 16. Animal Care and Monitoring
+        - contents:
+          - href: guidelines/arrive/items/interpretation-implications.qmd
+            text: 17a. Interpretation/scientific implications
+          - href: guidelines/arrive/items/limitations.qmd
+            text: 17b. Limitations
+          section: 17. Interpretation/ scientific implications
+        - href: guidelines/arrive/items/generalisability.qmd
+          text: 18. Generalisability/translation
+        - href: guidelines/arrive/items/protocol-registration.qmd
+          text: 19. Protocol registration
+        - href: guidelines/arrive/items/data-access.qmd
+          text: 20. Data Access
+        - contents:
+          - href: guidelines/arrive/items/conflicts-of-interests.qmd
+            text: 21a. Conflicts of interests
+          - href: guidelines/arrive/items/funding.qmd
+            text: 21b. Funding
+          section: 21. Declaration of interests
+        section: Recommended Set
+      section: Full guidance
+    - href: guidelines/arrive/arrive-writing-guide.qmd
+      text: Writing guide
+    - href: guidelines/arrive/arrive-checklist.qmd
+      text: Checklist
+    - href: guidelines/arrive/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: arrive
     search: true
     style: docked

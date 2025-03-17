@@ -8,9 +8,6 @@ title: "6a. Eligibility criteria"
 
 **Cross-sectional study:** Give the eligibility criteria, and the sources and methods of selection of participants.
 
-
-
-
 ## Read More
 
 Detailed descriptions of the study participants help readers understand the applicability of the results. Investigators usually restrict a study population by defining clinical, demographic and other characteristics of eligible participants. Typical eligibility criteria relate to age, gender, diagnosis and comorbid conditions. Despite their importance, eligibility criteria often are not reported adequately. In a survey of observational stroke research, 17 of 49 reports (35%) did not specify eligibility criteria [5].

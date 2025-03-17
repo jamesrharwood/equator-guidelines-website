@@ -1,5 +1,5 @@
 ---
-id: registration_and_protocol_amendments
+id: registration-and-protocol-amendments
 title: "24c. Registration and protocol – Amendments"
 summary:
     title: 24c. Amendments

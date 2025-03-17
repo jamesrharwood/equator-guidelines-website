@@ -1,5 +1,5 @@
 ---
-id: reporting_bias_assessment
+id: reporting-bias-assessment
 title: "14. Reporting bias assessment"
 ---
 

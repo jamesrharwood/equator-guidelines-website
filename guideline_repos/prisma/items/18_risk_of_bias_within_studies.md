@@ -1,5 +1,5 @@
 ---
-id: risk_of_bias_in_studies
+id: risk-of-bias-in-studies
 title: "18. Risk of bias in studies"
 ---
 

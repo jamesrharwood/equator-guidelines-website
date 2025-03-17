@@ -1,5 +1,5 @@
 ---
-id: competing_interests
+id: competing-interests
 title: "26. Competing Interests"
 ---
 

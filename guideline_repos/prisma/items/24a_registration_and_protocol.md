@@ -1,5 +1,5 @@
 ---
-id: registration_and_protocol_registration
+id: registration-and-protocol-registration
 title: "24a. Registration and protocol – Registration"
 summary:
     title: 24a. Registration

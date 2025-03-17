@@ -1,5 +1,5 @@
 ---
-id: risk_of_reporting_biases_in_syntheses
+id: risk-of-reporting-biases-in-syntheses
 title: "21. Risk of reporting biases in syntheses"
 ---
 
