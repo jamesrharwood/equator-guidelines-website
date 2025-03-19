@@ -70,6 +70,7 @@ def create_pages(guideline):
     for item in guideline.items:
         pages.append(create_item_page(item))
         pages.append(create_giscus_page(item))
+        # print('HAVE TURNED OFF GISCUS')
     return pages
 
 def create_index_page(guideline):

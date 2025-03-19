@@ -6,8 +6,11 @@ title: The STROBE reporting guideline for writing up observational studies in ep
 acronym: STROBE
 acronym-definition: Strengthening the Reporting of Observational Studies in Epidemiology
 open-e-and-e: true
+for-writing: observational epidemiology research articles
 journal-endorsement-count: 1000+
 version: '1.1'
+bibliography:
+  - bibliographies/imported.bib
 articles:
   development:   
     author:

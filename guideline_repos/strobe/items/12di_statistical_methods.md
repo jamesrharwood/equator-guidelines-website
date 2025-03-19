@@ -2,11 +2,14 @@
 id: statistical-methods-loss-to-follow-up
 title: "12di. Statistical methods – loss to follow-up"
 checklist: 
-    text: If applicable, describe how loss to follow-up was addressed.
+    text: "**Cohort study:** If applicable, describe how loss to follow-up was addressed."
 ---
-If applicable, describe how loss to follow-up was addressed.
 
-## Read More
+## What to write
+
+**Cohort study:** If applicable, describe how loss to follow-up was addressed.
+
+## Explanation
 
 Cohort studies are analysed using life table methods or other approaches that are based on the person-time of follow-up and time to developing the disease of interest. Among individuals who remain free of the disease at the end of their observation period, the amount of follow-up time is assumed to be unrelated to the probability of developing the outcome. This will be the case if follow-up ends on a fixed date or at a particular age. Loss to follow-up occurs when participants withdraw from a study before that date. This may hamper the validity of a study if loss to follow-up occurs selectively in exposed individuals, or in persons at high risk of developing the disease (‘informative censoring'). In the example above, patients lost to follow-up in treatment programmes with no active follow-up had fewer CD4 helper cells than those remaining under observation and were therefore at higher risk of dying [116].
 
@@ -14,4 +17,11 @@ It is important to distinguish persons who reach the end of the study from those
 
 ## Examples
 
-> In treatment programmes with active follow-up, those lost to follow-up and those followed-up at 1 year had similar baseline CD4 cell counts (median 115 cells per μL and 123 cells per μL), whereas patients lost to follow-up in programmes with no active follow-up procedures had considerably lower CD4 cell counts than those followed-up (median 64 cells per μL and 123 cells per μL). (…) Treatment programmes with passive follow-up were excluded from subsequent analyses
+> "In treatment programmes with active follow-up, those lost to follow-up
+and those followed-up at 1 year had similar baseline CD4 cell counts
+(median 115 cells per μL and 123 cells per μL), whereas patients lost to
+follow-up in programmes with no active follow-up procedures had
+considerably lower CD4 cell counts than those followed-up (median 64
+cells per μL and 123 cells per μL). (...) Treatment programmes with
+passive follow-up were excluded from subsequent analyses"
+[@pmed-0040297-b116].

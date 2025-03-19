@@ -80,6 +80,9 @@ class WebPaths(DestinationPaths):
         self.items_dir = self.items_dir
         self.faqs = join(self.dir, 'faqs.qmd')
         self.faqs_partial = join(self.partials_dir, 'faqs.md')
+        self.about_reporting_guidelines = str(Path('/about', 'reporting-guidelines.qmd'))
+        self.about_writing_guides = str(Path('/about', 'writing-using-reporting-guidelines.qmd'))
+        self.applicability = self.index + '?#applicability' #TODO replace with a constant
 
 class HtmlPaths():
     URL = metadata['website']['site-url']

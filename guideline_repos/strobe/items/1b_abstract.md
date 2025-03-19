@@ -4,9 +4,12 @@ title: "1b. Abstract"
 checklist: 
     text: Provide in the abstract an informative and balanced summary of what was done and what was found.
 ---
+
+## What to write
+
 Provide in the abstract an informative and balanced summary of what was done and what was found.
 
-## Read More
+## Explanation
 
 The abstract provides key information that enables readers to understand a study and decide whether to read the article. Typical components include a statement of the research question, a short description of methods and results, and a conclusion [@pmed-0040297-b022]. Abstracts should summarize key details of studies and should only present information that is provided in the article. We advise presenting key results in a numerical form that includes numbers of participants, estimates of associations and appropriate measures of variability and uncertainty (e.g., odds ratios with confidence intervals). We regard it insufficient to state only that an exposure is or is not significantly associated with an outcome.
 

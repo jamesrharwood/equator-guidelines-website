@@ -36,7 +36,7 @@ class Item:
         return self.idx(resource) + 1
 
     def fallback_summary_text(self):
-        text = self.meta.get('checklist', {}).get('text', None)
+        text = self.meta.get('checklist', {}).get('text', '').strip()
         if not text:
             texts = self.text.strip().split('\n')
             for t in texts:
@@ -44,20 +44,20 @@ class Item:
                 if t and not t.startswith('#'):
                     text = t
                     break
-        if len(text) > 300:
-            text = text[:300] + '...'
+            if len(text) > 300:
+                text = text[:300] + '...'
         text = text or ''
         if text and not text.endswith('.'):
             text += '.'
         return text
     
     def summary_text(self):
-        text = self.meta.get('summary', {}).get('text', None)
+        text = self.meta.get('summary', {}).get('text', '').strip()
         text = text or self.fallback_summary_text()
         return text
     
     def summary_title(self):
-        text = self.meta.get('summary', {}).get('title', None)
+        text = self.meta.get('summary', {}).get('title', '').strip()
         text = text or self.title
         return text
     

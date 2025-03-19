@@ -1354,3 +1354,103 @@ website:
     id: arrive
     search: true
     style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/strobe/index.qmd
+      text: Overview of STROBE
+    - contents:
+      - contents:
+        - href: guidelines/strobe/items/title-abstract-indicate-study-design.qmd
+          text: 1a. Indicate the study's design
+        - href: guidelines/strobe/items/abstract.qmd
+          text: 1b. Abstract
+        section: Title and abstract
+      - contents:
+        - href: guidelines/strobe/items/background-rationale.qmd
+          text: 2. Background / rationale
+        - href: guidelines/strobe/items/objectives.qmd
+          text: 3. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/strobe/items/study-design.qmd
+          text: 4. Study design
+        - href: guidelines/strobe/items/setting.qmd
+          text: 5. Setting
+        - href: guidelines/strobe/items/eligibility-criteria.qmd
+          text: 6a. Eligibility criteria
+        - href: guidelines/strobe/items/matching-criteria.qmd
+          text: 6b. Matching criteria
+        - href: guidelines/strobe/items/variables.qmd
+          text: 7. Variables
+        - href: guidelines/strobe/items/data-sources-measurement.qmd
+          text: 8. Data sources / measurement
+        - href: guidelines/strobe/items/bias.qmd
+          text: 9. Bias
+        - href: guidelines/strobe/items/study-size.qmd
+          text: 10. Study size
+        - href: guidelines/strobe/items/quantitative-variables.qmd
+          text: 11. Quantitative variables
+        - href: guidelines/strobe/items/statistical-methods-description.qmd
+          text: 12a. Statistical methods
+        - href: guidelines/strobe/items/statistical-methods-subgroups-interactions.qmd
+          text: "12b. Statistical methods \u2013 subgroups and interactions"
+        - href: guidelines/strobe/items/statistical-methods-missing-data.qmd
+          text: "12c. Statistical methods \u2013 missing data"
+        - href: guidelines/strobe/items/statistical-methods-loss-to-follow-up.qmd
+          text: "12di. Statistical methods \u2013 loss to follow-up"
+        - href: guidelines/strobe/items/statistical-methods-matching-cases-controls.qmd
+          text: "12dii. Statistical methods \u2013 matching cases and controls"
+        - href: guidelines/strobe/items/statistical-methods-analytical-methods-sampling-strategy.qmd
+          text: "12diii. Statistical methods \u2013 sampling strategy"
+        - href: guidelines/strobe/items/statistical-methods-sensitivity-analyses.qmd
+          text: "12e. Statistical methods \u2013 sensitivity analyses"
+        section: Methods
+      - contents:
+        - href: guidelines/strobe/items/participants-numbers.qmd
+          text: 13a. Participant numbers
+        - href: guidelines/strobe/items/participants-non-participation.qmd
+          text: "13b. Participants \u2013 non-participation"
+        - href: guidelines/strobe/items/participants-flow-diagram.qmd
+          text: "13c. Participants \u2013 flow diagram"
+        - href: guidelines/strobe/items/descriptive-data-participant-characteristics.qmd
+          text: "14a. Descriptive data \u2013 participant characteristics"
+        - href: guidelines/strobe/items/descriptive-data-missing-data.qmd
+          text: "14b. Descriptive data \u2013 missing data"
+        - href: guidelines/strobe/items/descriptive-data-follow-up-time.qmd
+          text: "14c. Descriptive data \u2013 follow-up time"
+        - href: guidelines/strobe/items/outcome-data.qmd
+          text: 15. Outcome data
+        - href: guidelines/strobe/items/main-results.qmd
+          text: 16a. Main results
+        - href: guidelines/strobe/items/main-results-category-boundaries.qmd
+          text: "16b. Main results \u2013 category boundaries"
+        - href: guidelines/strobe/items/main-results-risk.qmd
+          text: "16c. Main results \u2013 risk"
+        - href: guidelines/strobe/items/other-analyses.qmd
+          text: 17. Other analyses
+        section: Results
+      - contents:
+        - href: guidelines/strobe/items/key-results.qmd
+          text: 18. Key results
+        - href: guidelines/strobe/items/limitations.qmd
+          text: 19. Limitations
+        - href: guidelines/strobe/items/interpretation.qmd
+          text: 20. Interpretation
+        - href: guidelines/strobe/items/generalisability.qmd
+          text: 21. Generalisability
+        section: Discussion
+      - contents:
+        - href: guidelines/strobe/items/funding.qmd
+          text: 22. Funding
+        section: Other information
+      section: Full guidance
+    - href: guidelines/strobe/strobe-writing-guide.qmd
+      text: Writing guide
+    - href: guidelines/strobe/strobe-checklist.qmd
+      text: Checklist
+    - href: guidelines/strobe/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: strobe
+    search: true
+    style: docked

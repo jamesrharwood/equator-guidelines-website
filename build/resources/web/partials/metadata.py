@@ -117,7 +117,11 @@ class MetadataCreator():
 
     def set_paths(self):
         html_paths = {k: v for k, v in self.guideline.html_paths.__dict__.items() if type(v) is str}
-        paths = {'html': html_paths}
+        qmd_paths = {k: v for k, v in self.guideline.web_paths.__dict__.items() if type(v) is str}
+        paths = {
+            'html': html_paths,
+            'qmd': qmd_paths
+        }
         self.set('paths', paths)
 
     def create(self):

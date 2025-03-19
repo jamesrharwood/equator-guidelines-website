@@ -18,7 +18,7 @@ crossref:
 
 ::: {.callout-note}
 
-If you have not used a writing guide before, read about our suggested "[packing for a holiday]({{< meta paths.html.about_writing_guides >}})" writing process.
+If you have not used a writing guide before, read about our suggested "[packing for a holiday]({{< meta paths.qmd.about_writing_guides >}})" writing process.
 
 This guide is not a template. Don't expect to fill it in and end up with a finished article. Instead, think of it as an exercise book.
 
@@ -26,7 +26,7 @@ This guide is not a template. Don't expect to fill it in and end up with a finis
 2. Delete the prompts and headings, reorganise your notes into a narrative structure, and decide which information to prioritize;
 3. Draft, revise, and edit your text in a separate file.
 
-Before you begin, double check that {{< meta acronym >}} is the [most applicable reporting guideline]({{< meta paths.html.applicability >}}) for your work. Other reporting guidelines have their own writing guide.
+Before you begin, double check that {{< meta acronym >}} is the [most applicable reporting guideline]({{< meta paths.qmd.applicability >}}) for your work. Other reporting guidelines have their own writing guide.
 
 :::
 

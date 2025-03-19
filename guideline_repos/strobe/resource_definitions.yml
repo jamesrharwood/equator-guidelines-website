@@ -26,9 +26,9 @@ checklist: &id001
   - 13a_participants.md
   - 13b_participants.md
   - 13c_participants.md
-  - 14a_.md
-  - 14b_.md
-  - 14c_.md
+  - 14a_descriptive_data.md
+  - 14b_descriptive_data.md
+  - 14c_descriptive_data.md
   - 15_outcome_data.md
   - 16a_main_results.md
   - 16b_main_results.md
@@ -42,3 +42,4 @@ checklist: &id001
 - Other information:
   - 22_funding.md
 web: *id001
+writing_guide: *id001
