@@ -5,25 +5,18 @@ summary:
     title: 20c. Heterogeneity
 writing_guide:
     text: |
-        Did you investigate causes of differences in the results between comparable studies?  
+        Did you investigate causes of variations in the effect size depending on the characteristics of the population (e.g. aged over or under 60) or the intervention (e.g. invasive or non-invasive ventilation), or the quality of the study (e.g. high or low risk of bias)?  
 
-        For the study results being compared, present results regardless of the statistical significance, magnitude, or direction of effect modification. 
+        Was the data suitable for meta-analysis?  If not, you could group the studies a table grouped by dose, or by risk of bias, and describe any observed patterns. Also acknowledge the limitations of the observational nature of your analysis.
 
-        When you report your analysis of the possible causes of differences in study results, explain how you’ve considered the limitations of the observational nature of your analysis 
+        Did you conduct subgroup analyses? If so, report for each analysis the exact p-value for interaction test, as well as, within each subgroup, the summary estimates, their precision (e.g. standard error or 95% confidence/credible interval) and measures of heterogeneity.
 
-        Did you conduct a subgroup analysis for heterogeneity? 
+        You could also calculate an estimate of the difference between subgroups and its precision.
 
-        Report for each analysis the exact P value for a test for interaction, as well as, within each subgroup, the summary estimates, their precision (e.g. standard error or 95% confidence/credible interval) and measures of heterogeneity. 
+        Did you conduct a meta-regression? (not advisable for reviews with a small number of studies)
+        If so, report the exact p-value for each analysis as well as the regression coefficient and its precision.
 
-        Consider presenting the estimate for the difference between subgroups and its precision. 
-
-        If meta-regression was conducted: 
-
-        Report for each analysis the exact P value for the regression coefficient and its precision. 
-
-        Consider presenting a meta-regression scatterplot with the study effect estimates plotted against the potential effect modifier. 
-
-        If informal methods (i.e. those that do not involve a formal statistical test) were used to investigate heterogeneity, describe the results observed. 
+        You could also present a meta-regression as a scatter plot with the study effect estimates plotted against the potential effect modifier.
 ---
 
 Present results of all investigations of possible causes of heterogeneity among study results.

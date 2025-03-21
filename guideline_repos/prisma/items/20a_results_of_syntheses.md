@@ -5,6 +5,8 @@ summary:
     title: 20a. Summary of studies
 writing_guide:
     text: |
+        It’s important to make it clear which syntheses were pre-specified in your protocol, and which were not.
+        
         For each synthesis, list the studies in a forest plot or a table.   
 
         Also summarize key characteristics and risk of bias of the studies in each synthesis. This should focus on the factors which help interpret the results of the synthesis.  For example, some syntheses won’t answer the review question completely or will only indirectly address the review question.  
