@@ -1,4 +1,4 @@
-systematic review: "A review that uses explicit, systematic methods to collate and synthesize findings of studies that address a clearly formulated question.\n\n[Source](https://doi.org/10.1136/bmj.l6890)"
+systematic_review: "A review that uses explicit, systematic methods to collate and synthesize findings of studies that address a clearly formulated question.\n\n[Source](https://doi.org/10.1136/bmj.l6890)"
 Statistical synthesis: The combination of quantitative results of two or more studies. This encompasses meta-analysis of effect estimates (described below) and other methods, such as combining P values, calculating the range and distribution of observed effects, and vote counting based on the direction of effect (see [McKenzie and Brennan](https://doi.org/10.1136/bmj.l4898) for a description of each method)
 Meta-analysis of effect estimates: |-
   A statistical technique used to synthesize results when study effect estimates and their variances are available, yielding a quantitative summary of results.

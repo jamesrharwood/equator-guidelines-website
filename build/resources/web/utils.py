@@ -12,5 +12,8 @@ def combine_dicts(dicts):
     combined_dict = dicts[0]
     for dict in dicts[1:]:
         for key, value in dict.items():
-            combined_dict[key].update({'text': value['text']})
+            if key in combined_dict.keys():
+                combined_dict[key].update({'text': value['text']})
+            else:
+                combined_dict.update({key: value})
     return combined_dict

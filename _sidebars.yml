@@ -1039,201 +1039,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/prisma/index.qmd
-      text: Overview of PRISMA 2020
-    - contents:
-      - contents:
-        - href: guidelines/prisma/items/title.qmd
-          text: 1. Title
-        - href: guidelines/prisma/items/abstract.qmd
-          text: 2. Abstract
-        section: Title and Abstract
-      - contents:
-        - href: guidelines/prisma/items/3_rationale.qmd
-          text: 3. Rationale
-        - href: guidelines/prisma/items/objectives.qmd
-          text: 4. Objectives
-        section: Introduction
-      - contents:
-        - href: guidelines/prisma/items/eligibility_criteria.qmd
-          text: 5. Eligibility criteria
-        - href: guidelines/prisma/items/information_sources.qmd
-          text: 6. Information sources
-        - href: guidelines/prisma/items/search.qmd
-          text: 8. Search
-        - href: guidelines/prisma/items/selection_process.qmd
-          text: 8. Selection Process
-        - href: guidelines/prisma/items/data_collection_process.qmd
-          text: 9. Data collection process
-        - contents:
-          - href: guidelines/prisma/items/data_items_outcomes.qmd
-            text: 10a. Outcomes
-          - href: guidelines/prisma/items/data_items_other_variables.qmd
-            text: 10b. Other Variables
-          section: 10. Data Items
-        - href: guidelines/prisma/items/risk_of_bias_in_individual_studies.qmd
-          text: 11. Risk of bias in individual studies
-        - href: guidelines/prisma/items/effect_measures.qmd
-          text: 12. Effect measures
-        - contents:
-          - href: guidelines/prisma/items/synthesis_methods_a.qmd
-            text: 13a. Deciding which studies were eligible for each synthesis
-          - href: guidelines/prisma/items/synthesis_methods_b.qmd
-            text: 13b. Data preparation methods
-          - href: guidelines/prisma/items/synthesis_methods_c.qmd
-            text: 13c. Methods for tabulating or displaying results
-          - href: guidelines/prisma/items/synthesis_methods_d.qmd
-            text: 13d. Synthesis methods
-          - href: guidelines/prisma/items/synthesis_methods_e.qmd
-            text: 13e. Methods for exploring heterogeneity
-          - href: guidelines/prisma/items/synthesis_methods_f.qmd
-            text: 13f. Sensitivitiy analyses
-          section: 13. Synthesis Methods
-        - href: guidelines/prisma/items/reporting_bias_assessment.qmd
-          text: 14. Reporting bias assessment
-        - href: guidelines/prisma/items/15_certainty_assessment.qmd
-          text: 15. Certainty assessment
-        section: Methods
-      - contents:
-        - contents:
-          - href: guidelines/prisma/items/study_selection_search_results.qmd
-            text: 16a. Results of the search and selection process
-          - href: guidelines/prisma/items/study_selection_excluded_studies.qmd
-            text: 16b. Excluded studies
-          section: 16. Study Selection
-        - href: guidelines/prisma/items/study_characteristics.qmd
-          text: 17. Study characteristics
-        - href: guidelines/prisma/items/risk_of_bias_in_studies.qmd
-          text: 18. Risk of bias in studies
-        - href: guidelines/prisma/items/results_of_individual_studies.qmd
-          text: 19. Results of individual studies
-        - contents:
-          - href: guidelines/prisma/items/results_of_syntheses_summary_of_studies.qmd
-            text: 20a. Summary of studies
-          - href: guidelines/prisma/items/results_of_syntheses_statistical_results.qmd
-            text: 20b. Statistical results
-          - href: guidelines/prisma/items/results_of_syntheses_heterogeneity.qmd
-            text: 20c. Heterogeneity
-          - href: guidelines/prisma/items/results_of_syntheses_sensitivity_analyses.qmd
-            text: 20d. Sensitivity analyses
-          section: 20. Results of Synthesis
-        - href: guidelines/prisma/items/risk_of_reporting_biases_in_syntheses.qmd
-          text: 21. Risk of reporting biases in syntheses
-        - href: guidelines/prisma/items/certainty_of_evidence.qmd
-          text: 22. Certainty of evidence
-        section: Results
-      - contents:
-        - contents:
-          - href: guidelines/prisma/items/discussion_general_interpretation.qmd
-            text: 23a. General interpretation of the results
-          - href: guidelines/prisma/items/discussion_limitations_of_included_evidence.qmd
-            text: 23b. Limitations of included evidence
-          - href: guidelines/prisma/items/discussion_limitations_of_review_process.qmd
-            text: 23c. Limitations of the review processes
-          - href: guidelines/prisma/items/discussion_implications.qmd
-            text: 23d. Implications
-          section: 23. Discussion
-        section: Discussion
-      - contents:
-        - contents:
-          - href: guidelines/prisma/items/registration_and_protocol_registration.qmd
-            text: 24a. Registration
-          - href: guidelines/prisma/items/registration_and_protocol_protocol.qmd
-            text: 24b. Protocol
-          - href: guidelines/prisma/items/registration_and_protocol_amendments.qmd
-            text: 24c. Amendments
-          section: 24. Registration and Protocol
-        - href: guidelines/prisma/items/support.qmd
-          text: 25. Support
-        - href: guidelines/prisma/items/competing_interests.qmd
-          text: 26. Competing Interests
-        - href: guidelines/prisma/items/availability_of_materials.qmd
-          text: 27. Availability of data, code, and other materials
-        section: Other Information
-      section: Full guidance
-    - href: guidelines/prisma/prisma-writing-guide.qmd
-      text: Writing guide
-    - href: guidelines/prisma/prisma-checklist.qmd
-      text: Checklist
-    - href: guidelines/prisma/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: prisma
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
-    - href: guidelines/srqr/index.qmd
-      text: Overview of SRQR
-    - contents:
-      - contents:
-        - href: guidelines/srqr/items/title.qmd
-          text: Title
-        - href: guidelines/srqr/items/abstract.qmd
-          text: Abstract
-        section: Title & Abstract
-      - contents:
-        - href: guidelines/srqr/items/problem-formulation.qmd
-          text: Problem Formulation
-        - href: guidelines/srqr/items/purpose.qmd
-          text: Purpose or research question
-        section: Introduction
-      - contents:
-        - href: guidelines/srqr/items/qualitative-approach.qmd
-          text: Qualitative approach and research paradigm
-        - href: guidelines/srqr/items/researcher-characteristics-and-reflexivity.qmd
-          text: Researcher characteristics and reflexivity
-        - href: guidelines/srqr/items/context.qmd
-          text: Context
-        - href: guidelines/srqr/items/sampling-strategy.qmd
-          text: Sampling strategy
-        - href: guidelines/srqr/items/ethics.qmd
-          text: Ethical issues pertaining to human subjects
-        - href: guidelines/srqr/items/data-collection-methods.qmd
-          text: Data collection methods
-        - href: guidelines/srqr/items/data-collection-instruments.qmd
-          text: Data collection instruments and technologies
-        - href: guidelines/srqr/items/units-of-study.qmd
-          text: Units of study
-        - href: guidelines/srqr/items/data-processing.qmd
-          text: Data processing
-        - href: guidelines/srqr/items/data-analysis.qmd
-          text: Data analysis
-        - href: guidelines/srqr/items/trustworthiness.qmd
-          text: Techniques to enhance trustworthiness
-        section: Methods
-      - contents:
-        - href: guidelines/srqr/items/synthesis-and-interpretation.qmd
-          text: Synthesis and interpretation
-        - href: guidelines/srqr/items/links-to-empirical-data.qmd
-          text: Links to empirical data
-        section: Results
-      - contents:
-        - href: guidelines/srqr/items/integration-with-prior-work.qmd
-          text: Integration with prior work, implications, transferability, and contribution(s)
-            to the field
-        - href: guidelines/srqr/items/limitations.qmd
-          text: Limitations
-        section: Discussion
-      - contents:
-        - href: guidelines/srqr/items/conflicts-of-interest.qmd
-          text: Conflicts of interest
-        - href: guidelines/srqr/items/funding.qmd
-          text: Funding
-        section: Other
-      section: Full guidance
-    - href: guidelines/srqr/srqr-writing-guide.qmd
-      text: Writing guide
-    - href: guidelines/srqr/srqr-checklist.qmd
-      text: Checklist
-    - href: guidelines/srqr/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: srqr
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/arrive/index.qmd
       text: Overview of ARRIVE
     - contents:
@@ -1452,5 +1257,200 @@ website:
       text: FAQs
     foreground: secondary
     id: strobe
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/prisma/index.qmd
+      text: Overview of PRISMA 2020
+    - contents:
+      - contents:
+        - href: guidelines/prisma/items/title.qmd
+          text: 1. Title
+        - href: guidelines/prisma/items/abstract.qmd
+          text: 2. Abstract
+        section: Title and Abstract
+      - contents:
+        - href: guidelines/prisma/items/rationale.qmd
+          text: 3. Rationale
+        - href: guidelines/prisma/items/objectives.qmd
+          text: 4. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/prisma/items/eligibility-criteria.qmd
+          text: 5. Eligibility criteria
+        - href: guidelines/prisma/items/information-sources.qmd
+          text: 6. Information sources
+        - href: guidelines/prisma/items/search.qmd
+          text: 8. Search
+        - href: guidelines/prisma/items/selection-process.qmd
+          text: 8. Selection Process
+        - href: guidelines/prisma/items/data-collection-process.qmd
+          text: 9. Data collection process
+        - contents:
+          - href: guidelines/prisma/items/data-items-outcomes.qmd
+            text: 10a. Outcomes
+          - href: guidelines/prisma/items/data-items-other-variables.qmd
+            text: 10b. Other Variables
+          section: 10. Data Items
+        - href: guidelines/prisma/items/risk-of-bias-in-individual-studies.qmd
+          text: 11. Risk of bias in individual studies
+        - href: guidelines/prisma/items/effect-measures.qmd
+          text: 12. Effect measures
+        - contents:
+          - href: guidelines/prisma/items/synthesis-methods-eligibility.qmd
+            text: 13a. Deciding which studies were eligible for each synthesis
+          - href: guidelines/prisma/items/synthesis-methods-data-preparation.qmd
+            text: 13b. Data preparation methods
+          - href: guidelines/prisma/items/synthesis-methods-tabulating-or-displaying-results.qmd
+            text: 13c. Methods for tabulating or displaying results
+          - href: guidelines/prisma/items/synthesis-methods-synthesis-methods.qmd
+            text: 13d. Synthesis methods
+          - href: guidelines/prisma/items/synthesis-methods-exploring-heterogeneity.qmd
+            text: 13e. Methods for exploring heterogeneity
+          - href: guidelines/prisma/items/synthesis-methods-sensitivity-analyses.qmd
+            text: 13f. Sensitivitiy analyses
+          section: 13. Synthesis Methods
+        - href: guidelines/prisma/items/reporting-bias-assessment.qmd
+          text: 14. Reporting bias assessment
+        - href: guidelines/prisma/items/certainty-assessment.qmd
+          text: 15. Certainty assessment
+        section: Methods
+      - contents:
+        - contents:
+          - href: guidelines/prisma/items/study-selection-search-results.qmd
+            text: 16a. Results of the search and selection process
+          - href: guidelines/prisma/items/study-selection-excluded-studies.qmd
+            text: 16b. Excluded studies
+          section: 16. Study Selection
+        - href: guidelines/prisma/items/study-characteristics.qmd
+          text: 17. Study characteristics
+        - href: guidelines/prisma/items/risk-of-bias-in-studies.qmd
+          text: 18. Risk of bias in studies
+        - href: guidelines/prisma/items/results-of-individual-studies.qmd
+          text: 19. Results of individual studies
+        - contents:
+          - href: guidelines/prisma/items/results-of-syntheses-summary-of-studies.qmd
+            text: 20a. Summary of studies
+          - href: guidelines/prisma/items/results-of-syntheses-statistical-results.qmd
+            text: 20b. Statistical results
+          - href: guidelines/prisma/items/results-of-syntheses-heterogeneity.qmd
+            text: 20c. Heterogeneity
+          - href: guidelines/prisma/items/results-of-syntheses-sensitivity-analyses.qmd
+            text: 20d. Sensitivity analyses
+          section: 20. Results of Synthesis
+        - href: guidelines/prisma/items/risk-of-reporting-biases-in-syntheses.qmd
+          text: 21. Risk of reporting biases in syntheses
+        - href: guidelines/prisma/items/certainty-of-evidence.qmd
+          text: 22. Certainty of evidence
+        section: Results
+      - contents:
+        - contents:
+          - href: guidelines/prisma/items/discussion-general-interpretation.qmd
+            text: 23a. General interpretation of the results
+          - href: guidelines/prisma/items/discussion-limitations-of-included-evidence.qmd
+            text: 23b. Limitations of included evidence
+          - href: guidelines/prisma/items/discussion-limitations-of-review-process.qmd
+            text: 23c. Limitations of the review processes
+          - href: guidelines/prisma/items/discussion-implications.qmd
+            text: 23d. Implications
+          section: 23. Discussion
+        section: Discussion
+      - contents:
+        - contents:
+          - href: guidelines/prisma/items/registration-and-protocol-registration.qmd
+            text: 24a. Registration
+          - href: guidelines/prisma/items/registration-and-protocol-protocol.qmd
+            text: 24b. Protocol
+          - href: guidelines/prisma/items/registration-and-protocol-amendments.qmd
+            text: 24c. Amendments
+          section: 24. Registration and Protocol
+        - href: guidelines/prisma/items/support.qmd
+          text: 25. Support
+        - href: guidelines/prisma/items/competing-interests.qmd
+          text: 26. Competing Interests
+        - href: guidelines/prisma/items/availability-of-materials.qmd
+          text: 27. Availability of data, code, and other materials
+        section: Other Information
+      section: Full guidance
+    - href: guidelines/prisma/prisma-writing-guide.qmd
+      text: Writing guide
+    - href: guidelines/prisma/prisma-checklist.qmd
+      text: Checklist
+    - href: guidelines/prisma/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: prisma
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/srqr/index.qmd
+      text: Overview of SRQR
+    - contents:
+      - contents:
+        - href: guidelines/srqr/items/title.qmd
+          text: Title
+        - href: guidelines/srqr/items/abstract.qmd
+          text: Abstract
+        section: Title & Abstract
+      - contents:
+        - href: guidelines/srqr/items/problem-formulation.qmd
+          text: Problem Formulation
+        - href: guidelines/srqr/items/purpose.qmd
+          text: Purpose or research question
+        section: Introduction
+      - contents:
+        - href: guidelines/srqr/items/qualitative-approach.qmd
+          text: Qualitative approach and research paradigm
+        - href: guidelines/srqr/items/researcher-characteristics-and-reflexivity.qmd
+          text: Researcher characteristics and reflexivity
+        - href: guidelines/srqr/items/context.qmd
+          text: Context
+        - href: guidelines/srqr/items/sampling-strategy.qmd
+          text: Sampling strategy
+        - href: guidelines/srqr/items/ethics.qmd
+          text: Ethical issues pertaining to human subjects
+        - href: guidelines/srqr/items/data-collection-methods.qmd
+          text: Data collection methods
+        - href: guidelines/srqr/items/data-collection-instruments.qmd
+          text: Data collection instruments and technologies
+        - href: guidelines/srqr/items/units-of-study.qmd
+          text: Units of study
+        - href: guidelines/srqr/items/data-processing.qmd
+          text: Data processing
+        - href: guidelines/srqr/items/data-analysis.qmd
+          text: Data analysis
+        - href: guidelines/srqr/items/trustworthiness.qmd
+          text: Techniques to enhance trustworthiness
+        section: Methods
+      - contents:
+        - href: guidelines/srqr/items/synthesis-and-interpretation.qmd
+          text: Synthesis and interpretation
+        - href: guidelines/srqr/items/links-to-empirical-data.qmd
+          text: Links to empirical data
+        section: Results
+      - contents:
+        - href: guidelines/srqr/items/integration-with-prior-work.qmd
+          text: Integration with prior work, implications, transferability, and contribution(s)
+            to the field
+        - href: guidelines/srqr/items/limitations.qmd
+          text: Limitations
+        section: Discussion
+      - contents:
+        - href: guidelines/srqr/items/conflicts-of-interest.qmd
+          text: Conflicts of interest
+        - href: guidelines/srqr/items/funding.qmd
+          text: Funding
+        section: Other
+      section: Full guidance
+    - href: guidelines/srqr/srqr-writing-guide.qmd
+      text: Writing guide
+    - href: guidelines/srqr/srqr-checklist.qmd
+      text: Checklist
+    - href: guidelines/srqr/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: srqr
     search: true
     style: docked

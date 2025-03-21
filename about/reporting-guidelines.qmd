@@ -8,49 +8,48 @@ description: '{{< lipsum 1 >}}'
 
 ## What are reporting guidelines? {#reporting-guidelines}
 
--   Define what they are
--   How they help authors
--   How they help readers/community
--   Explain constituents:
-    -   On this website, each RG has full guidance (incl. examples, definitions etc), a writing guide, and a checklist.
-    -   Other RGs only have a checklist, and might not have full guidance.
--   Explain how they are developed and who by.
--   Explain how the RG versions on this site were made, and why they were made, and hence why not all RGs are included.
+Reporting guidelines are recommendations of information to include when writing up a piece of research, 
+so that your work can be understood and used by everyone, including other researchers, editors, reviewers, 
+clinicians, evidence synthesisers, people who work in a different subject area to you, a different country, 
+have a different background, or who are reading your work decades in the future. 
+
+Reporting guidelines help you _write_. They will help you write academic articles, protocols, and funding applications. 
+Reporting guidelines make writing less daunting by breaking the process up into bite-size chunks, without dictating the final structure. 
+They help authors lay out the key information – the building blocks – of their work. Authors then decide how best to arrange these blocks 
+to build a compelling and clear account. 
+
+However, reporting guidelines are _not_ design standards or appraisal tools. They do not dictate how research must be conducted. Reporting and appraisal are separate but linked: for a reviewer to judge a study's quality, that study must be well reported. Imagine you are looking at second-hand car adverts. Would you trust a seller that omits information like mileage or condition? You need these details before you can make a judgement. The same is true with appraising research. Reporting guidelines help authors include the details their readers will need to fully understand and trust the work.
+
+Reporting guidelines were created because authors frequently omit important information. These omissions prevent other researchers from understanding or replicating research. Omissions prevent clinicians from being able to use a new intervention. Omissions mean patients cannot judge the pros and cons of treatment options. Evidence synthesisers are less likely to find poorly reported work, and less likely to include it in reviews. Hence research has more impact when its fully reported.
+
+Reporting guidelines are made by groups of experts. Most follow a systematic, consensus development method. Most development groups begin by creating a checklist and publishing it in an academic article. Some groups then publish a longer explanation paper, that gives context and examples for each checklist item. 
+
+Because these checklists and explanations can be difficult for authors to find and use, we (the EQUATOR Network) made this website. We have worked with the developers of the most-used, open access reporting guidelines to make their resources more user-friendly. To help authors use reporting guidelines as early as possible in their writing process, we created writing guides.
 
 ## Writing guides {#writing-guides}
 
--   Explain when to use it
+Writing guides help authors develop their writing practice to create articles and applications that are clear, compelling, and complete. 
+Each reporting guideline comes with its own writing guide. They break the writing process into manageable pieces. 
 
--   Why use it (benefits to user)
+After working through the writing guide, authors will have all of their thoughts and information in one place, ready to be rearranged into a logical narrative structure. Its up to the author to decide how best to arrange information, and whether to present it in the article body, in a figure or table, or in a supplement. This structured outline forms the skeleton for drafting. 
 
-    -   Personal - easier writing
-
-    -   Community - adherence to RGs
-
--   How it was made
-
--   [Link to writing tutorial page](writing-using-reporting-guidelines.qmd)
+[Read more about writing guides](writing-using-reporting-guidelines.qmd)
 
 ## Reporting checklists {#reporting-checklists}
 
--   When to use
+Reporting guideline checklists allow authors to demonstrate how their work complies with a reporting guideline. By including a completed checklist as supplementary material, authors can reassure editors and peer reviewers their article is complete. Publishing checklists as supplements also helps readers and evidence synthesisers to find and extract information. 
 
--   Why use (benefits to author and reader)
+Reporting checklists are best used at the end of writing, before journal submission. Specify where readers can find each reporting item by directing them to parts of the manuscript e.g., 
 
--   How these checklists were made
+- Methods, para. 2
+- Table 2
+- Supplement A, para. 4 and Figure S1.
 
--   How to complete.
-    -   How to show where content is (options such as page and paragraph numbers)
-    -   What to do if you didn't do something 
-    -   What to write if you couldn't do something
--   Getting colleagues to double check your work
--   Notes to editors about how to enforce reporting checklists at their journal
--   Notes to peer reviewers about how to use checklists / when to use them / when _not_ to use them
+If you have chosen not to report an item, explain why. Checklists are also used by editors and peer reviewers, who may ask authors to provide missing information. 
 
--   Note about order. Link to writing tutorial page - section on ordering and prioritizing
+As with writing guides, reporting guideline checklists do not dictate how research should be conducted or how manuscripts should be structured. 
 
 ## Writing applications and protocols using reporting guidelines {#writing-applications}
 
-{{< lipsum 1 >}}
-<!-- #TODO -->
+A few reporting guidelines specifically cater to protocols, but most are for writing academic articles. Nevertheless, all reporting guidelines can be used to write protocols or grant applications – just use the methods items. Although reporting guidelines don't dictate how research should be designed or conducted, using them to write a protocol or application helps authors consider decisions they will encounter and to document their thoughts. 
 

@@ -11,6 +11,8 @@ format:
     docx:
         appendix-cite-as: display
         reference-doc: ../../custom-reference.docx
+    html:
+        theme: cosmo
 number-sections: false
 crossref:
     sec-prefix: Note

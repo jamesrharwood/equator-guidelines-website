@@ -2,29 +2,38 @@ h1 {
     font-size: 60px;
     font-weight: normal;
 }
+.hero-content-right {
+    position: relative;
+    z-index: 100;
+}
 .radial1 {
     position: absolute;
     top: 0;
     right: 0;
     opacity: 0.6;
+    pointer-events: none;
+    z-index: 0;
 }
 .radial2 {
     position: absolute;
     left: 0;
     bottom: 0;
     opacity: .6;
+    pointer-events: none;
 }
 .radial3 {
     position: absolute;
     left: 0;
     top: 0;
     opacity: 0.6;
+    pointer-events: none;
 }
 .radial4 {
     position: absolute;
     right: 0;
     bottom: 0;
     opacity: .6;
+    pointer-events: none;
 }
 .radial-background {
     position: relative;

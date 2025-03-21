@@ -30,6 +30,8 @@ After writing, demonstrate adherence by completing this checklist:
 
 :::
 
+<br>
+
 ```{python}
 from IPython.display import Markdown
 

@@ -31,9 +31,15 @@ class Guideline(Base):
     def yield_from_filename(self, filename, level):
         item = self.get_item_from_filename(filename)
         decorator = '#' * level
+        yield(f"::: {{.content-visible when-format='html'}}")
+        yield f"{decorator} {item.title_hyperlinked}" # type: ignore
+        yield(item.text)
+        yield(':::')
+        yield(f"::: {{.content-visible when-format='docx'}}")
         text = f'::: {{.callout-tip title="Things To Consider" icon=false}}\n\n{item.text}\n\n:::'
         yield f"{decorator} {item.title_hyperlinked}\n\n{text}" # type: ignore
-        yield "<br>\n\n* Make notes here\n* ...\n* ...\n\n<br>"
+        yield "<br>\n\n* Make notes here: \n* ...\n* ...\n\n<br>"
+        yield(':::')
 
 
 

@@ -49,8 +49,12 @@ figcaption {
   width: 100%;
 }
 
-.hero-banner p {
+.hero-banner p li {
   font-size: 1.1rem;
+}
+
+table p, table li {
+  font-size: var(--bs-body-font-size)
 }
 
   @media (min-width: 1020px) {

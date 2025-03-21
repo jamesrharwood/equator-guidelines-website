@@ -59,16 +59,7 @@ Write [quickly and confidently]{.emphasise} using reporting guidelines: communit
 
 We are the leading global academic network dedicated to improving research reporting quality.
 
-Learn more about 
-
-* [who we are](#about-equator) 
-* [what we do]()
-
-<!-- and how we support 
-
-* [authors]()
-* [publishers]()
-* [guideline developers]() -->
+Learn more about [who we are and what we do](#about-equator).
 
 ::: {.logos}
 <!-- ![](assets/equator_logo.png) -->
@@ -129,44 +120,11 @@ Learn more about
 
 ### Frequently accessed reporting guidelines
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Observational                                                                                                                                                                                                                      |[STROBE Cohort](guidelines/strobe-cohort) - <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemcohort_studies" aria-controls="offcanvasExample" role="button">Cohort studies</span>                                         |
-|                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                             |
-|                                                                                                                                                                                                                                   |[STROBE Case-control](guidelines/strobe-case-control) - <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemcase_control_studies" aria-controls="offcanvasExample" role="button">Case-control studies</span>                 |
-|                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                             |
-|                                                                                                                                                                                                                                   |[STROBE Cross-sectional](guidelines/strobe-cross-sectional) - <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemcross_sectional_studies" aria-controls="offcanvasExample" role="button">Cross-sectional studies</span>     |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Reviews                                                                                                                                                                                                                            |[PRISMA](guidelines/prisma) - <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemsystematic_reviews" aria-controls="offcanvasExample" role="button">Systematic reviews of trials</span>                                     |
-|                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                             |
-|                                                                                                                                                                                                                                   |[PRISMA-P](guidelines/prisma-p) - <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemsystematic_review_protocols" aria-controls="offcanvasExample" role="button">Systematic review protocols</span>                         |
-|                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                             |
-|                                                                                                                                                                                                                                   |[MOOSE](https://www.equator-network.org/reporting-guidelines/meta-analysis-of-observational-studies-in-epidemiology-a-proposal-for-reporting-meta-analysis-of-observational-studies-in-epidemiology-moose-group/)                            |
-|                                                                                                                                                                                                                                   |- <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemmeta_analyses" aria-controls="offcanvasExample" role="button">Meta-analyses of Observational studies</span>                                                            |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Randomised Trials                                                                                                                                                                                                                  |[CONSORT](guidelines/consort) - <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemrandomised_trials" aria-controls="offcanvasExample" role="button">Randomised trials</span>                                               |
-|                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                             |
-|                                                                                                                                                                                                                                   |[SPIRIT](guidelines/spirit) - <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemrandomised_trial_protocols" aria-controls="offcanvasExample" role="button">Randomised trial protocols</span>                               |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemqualitative_research" aria-controls="offcanvasExample" role="button">Qualitative Research</span>                                                               |[SRQR](guidelines/srqr)                                                                                                                                                                                                                      |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemcase_reports" aria-controls="offcanvasExample" role="button">Case Reports</span>                                                                               |[CARE](guidelines/care)                                                                                                                                                                                                                      |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemdiagnostic_test_accuracy_studies" aria-controls="offcanvasExample" role="button">Diagnostic Test Accuracy Studies</span>                                       |[STARD](guidelines/stard)                                                                                                                                                                                                                    |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemprediction_models" aria-controls="offcanvasExample" role="button">Prediction Models</span>                                                                     |[TRIPOD + AI](guidelines/tripod)                                                                                                                                                                                                             |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemanimal_research" aria-controls="offcanvasExample" role="button">Animal Research</span>                                                                         |[ARRIVE](guidelines/arrive)                                                                                                                                                                                                                  |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemqi" aria-controls="offcanvasExample" role="button">Quality Improvement in Healthcare</span>                                                                    |[SQUIRE](guidelines/squire)                                                                                                                                                                                                                  |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|<span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemeconomic_evaluations" aria-controls="offcanvasExample" role="button">Economic Evaluations</span>                                                               |[CHEERS](https://www.equator-network.org/reporting-guidelines/cheers/)                                                                                                                                                                       |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+{{< include index_table.md >}}
 
 [Search all 500+ reporting guidelines](.){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"} 
 :::
 <!-- card -->
-
-
 
 :::
 <!-- content block -->
@@ -204,7 +162,7 @@ Use a reporting checklist to ensure you have included everything. Many journals 
 
 
 ::: {.learn-more} 
-[Learn more »](about/reporting-guidelines.qmd?#checklist)
+[Learn more »](about/reporting-guidelines.qmd#checklist)
 :::
 :::
 
@@ -213,16 +171,16 @@ Use a reporting checklist to ensure you have included everything. Many journals 
 
 ### Writing applications
 Reporting guidelines can help you write funding applications, ethics applications, and protocols, but they won't make design decisions for you!
-<!--#ASK seems strange to include this when I've just said they dont tell you what to do!-->
 
 ::: {.learn-more}
-[Learn more »](about/reporting-guidelines.qmd?#writing-applications)
+[Learn more »](about/reporting-guidelines.qmd#writing-applications)
 :::
 :::
 
 :::
 :::
 <!--/content-block-->
+
 
 ::: {.radial-background}
 <img src="assets/images/radial1.svg" class="radial1">
@@ -269,7 +227,7 @@ Read why editors from leading medical journals ask authors to use reporting guid
 Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesising evidence for policy recommendations.
 
 ::: {.learn-more}
-[Learn more »]()
+[Learn more »](http://dx.doi.org/10.1136/bmj.d6783)
 :::
 :::
 
