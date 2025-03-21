@@ -1,6 +1,23 @@
 ---
 id: risk-of-reporting-biases-in-syntheses
 title: "21. Risk of reporting biases in syntheses"
+writing_guide:
+    text: |
+        Did you assess the risk of bias caused by unreported results in studies included in the review?   
+
+        If so, did you use a tool, such as a questionnaire to make the assessment? Make sure you present your responses to the questions and the reasons for the judgements reached.   
+
+        Did you test the effect of the inclusion of small studies using a funnel plot? If so, make sure you clearly specify the effect estimate and measure of precision you used 
+
+        Did you generate a contour-enhanced funnel plot?  If so, make sure you clearly present the ‘milestones’ of statistical significance (p = 0.01, 0.05, 0.1, etc.) 
+
+        Did you do a statistical test for funnel plot asymmetry?  If so, report the exact p-value and other relevant statistics, such as the standard normal deviation used to calculate it.  
+
+        Did you carry out any sensitivity analyses to explore the potential impact of missing results?  If so, present the results of each one compared with the results of the primary analysis. 
+
+        Did you check whether the study report included all the results pre-specified in study registers, protocols or statistical analysis plans?  It’s useful to do this to assess the level of selective reporting bias.  You could present a matrix of planned outcomes and analyses compared with the ones reported in published articles.   
+
+        Did you have to exclude some studies from the syntheses because of missing results data?  If so, make sure the details of the studies with missing data are displayed clearly.  
 ---
 
 Present assessments of risk of bias due to missing results (arising from reporting biases) for each synthesis assessed

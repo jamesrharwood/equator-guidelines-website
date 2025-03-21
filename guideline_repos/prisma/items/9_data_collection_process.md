@@ -1,6 +1,21 @@
 ---
 id: data-collection-process
 title: "9. Data collection process"
+writing_guide:
+    text: |
+        Did you have a method to collect data from each report?  
+
+        Did you have more than one reviewer collecting data from each report?  If so, did they work independently or together? If they worked independently, report how they resolved differences.  
+
+        Did you have a process for contacting study investigators to obtain or confirm relevant data?  
+
+        Did you use any automation tools to collect data? If so, report how the tools works, how it was trained, and what steps were taken to avoid and check for incorrect extractions. 
+
+        Did you use software to extract data from figures?  If so, specify which. 
+
+        Did you translate any of the articles to help with data extraction?  If so report how the articles were translated. 
+
+        Did you use any decision rules to select data from multiple reports of the same study, and to resolve inconsistencies between different reports?  If so, report the rules and steps. 
 ---
 
 Specify the methods used to collect data from reports, including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and, if applicable, details of automation tools used in the process

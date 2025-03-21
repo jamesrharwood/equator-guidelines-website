@@ -3,6 +3,9 @@ id: discussion-limitations-of-included-evidence
 title: "23b. Discussion – Limitations of included evidence"
 summary:
     title: 23b. Limitations of included evidence
+writing_guide:
+    text: |
+
 ---
 
 Discuss any limitations of the evidence included in the review
@@ -23,7 +26,7 @@ studies that only partially or indirectly address the review question,
 leading to concerns about their relevance and applicability to
 particular patients, settings, or other target audiences. The
 assessments of certainty (or confidence) in the body of evidence ([item
-22]({{< meta items.certainty_of_evidence >}})) can support the discussion of such limitations.
+22]({{< meta items.certainty-of-evidence >}})) can support the discussion of such limitations.
 
 ## Example
 

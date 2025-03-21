@@ -3,6 +3,11 @@ id: study-selection-excluded-studies
 title: "16b. Study selection – Excluded studies"
 summary: 
     title: 16b. Excluded studies
+writing_guide:
+    text: |
+        Were there any studies that appeared to meet the inclusion criteria, but were excluded? 
+
+        For each of them, explain why they were excluded. 
 ---
 
 Cite studies that might appear to meet the inclusion criteria, but which were excluded, and explain why they were excluded.

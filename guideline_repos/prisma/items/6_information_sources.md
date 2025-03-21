@@ -1,6 +1,15 @@
 ---
 id: information-sources
 title: "6. Information sources"
+writing_guide:
+    text: |
+        Which sources and search methods did you use to look for eligible studies?  
+
+        Sources could include bibliographic databases such as MEDLINE CINAHL EMBASE) and search engines could include Ovid or EBSCOhost.  You could also search study registers, online repositories, or organization or manufacturer websites such as the Health Research Authority or drug company or device manufacturer websites 
+
+        Did you impose date restrictions on your searches? 
+
+        What was the latest date you searched in each information source?
 ---
 
 Specify all databases, registers, websites, organisations, reference lists, and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted

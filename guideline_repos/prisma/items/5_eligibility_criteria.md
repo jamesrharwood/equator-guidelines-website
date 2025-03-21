@@ -3,6 +3,45 @@ id: eligibility-criteria
 title: "5. Eligibility criteria"
 summary: 
     text: Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses.
+writing_guide: 
+    text: >-
+        What are the characteristics of the studies you included in the review?   
+
+        What sort of people were being investigated? Were they healthy, or if not, what condition did they have and how was their condition diagnosed?  
+
+        What treatment or treatments, or other type of intervention was being investigated in the studies? 
+
+        What setting or settings were the studies carried out in? 
+
+        What type of quantitative studies were included, randomised trials?  Any trials?  Observational studies?  A mixture? 
+
+        What was the primary outcome of interest?   
+
+        How did you treat studies where the outcome of interest wasn’t measured? 
+
+        How did you group studies which differed in other ways such as age of participants, or length of follow up?
+
+
+        Did you exclude studies for other reasons, such as when and where the results were published, and in what language? 
+
+        Did you include unpublished studies, or studies reported in conference abstracts or on study registers?  
+
+        Did you exclude studies if the outcomes of interest weren’t reported 
+
+
+        Did you put the included studies into groups for analysis?   
+
+        Did you group studies according to the design? 
+
+        Did you group the studies depending on differences in the participant characteristics such as how they were diagnosed, or age, sex? 
+
+        Did you group the studies according to variations in type of treatment, or how it was delivered?  
+
+        Did you group the studies according to the primary outcome? 
+
+        Did you group the studies according to the length of follow up? 
+
+        How does your choice of groups support the objectives of the review?
 ---
 
 Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses

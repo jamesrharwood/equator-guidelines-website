@@ -3,6 +3,35 @@ id: synthesis-methods-synthesis-methods
 title: "13d. Synthesis methods – Synthesis methods"
 summary: 
     title: 13d. Synthesis methods
+writing_guide:
+    text: |
+        Were you able to conduct a statistical synthesis or meta-analysis?  If not, describe and justify the method you have used to combine and summarize the results of the studies in another way.  
+
+        Were you able to conduct a statistical synthesis or meta-analysis?  If so, report the software packages and version numbers used. 
+
+        If you did a meta-analysis, did you use the fixed-effect, or random-effects model, and why? 
+
+        What statistical techniques did you use - Mantel-Haenszel, inverse-variance or something else? 
+
+        Did you use a formal statistical test for heterogeneity or perform a visual inspection of results?  
+
+        If you did a statistical test, was it to detect the level of heterogeneity, the variance, the level of inconsistency or the difference in prediction intervals?  
+
+        Did you use a random-effects meta-analysis model? 
+
+        If yes, report which between-study (heterogeneity) variance estimator was used (e.g. DerSimonian and Laird, restricted maximum likelihood (REML)). 
+
+        Also, report what method you used to calculate the confidence interval for the summary effect (e.g. Wald-type confidence interval, Hartung-Knapp-Sidik-Jonkman). 
+
+        Report any other details about the methods used, such as the method for calculating confidence limits for the heterogeneity variance. 
+
+        Did you use a Bayesian approach to meta-analysis? If so, report both the prior distribution of the effects being analysed and the amount of heterogeneity across studies.  
+
+        Did you analyse multiple effect estimates from a single study in a meta-analysis?  
+
+        If so, describe how you accounted for the statistical dependency between these estimates.  Did you do a multivariate meta-analysis, use multilevel models or a robust variance estimation? 
+
+        Were you able to conduct the syntheses as planned?  If this was possible or appropriate, report your reasons for that decision 
 ---
 
 Describe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used.

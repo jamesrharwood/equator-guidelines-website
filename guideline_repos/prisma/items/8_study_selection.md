@@ -3,6 +3,27 @@ id: selection-process
 title: "8. Selection Process"
 summary: 
     text: Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they worked independently, and, if applicable, details of automation tools used in the process.
+writing_guide:
+    text: >-
+        Did you use an automatic classifier to eliminate records before screening by humans?  If so, report the number eliminated in the PRISMA flow diagram as ‘Records marked as ineligible by automation tools’  
+
+        How many human reviewers independently screened titles and abstracts to decide whether to retrieve the full text? What process was used to resolve disagreements between screeners? 
+
+        How many human reviewers independently screened each full text article to determine eligibility?  What process was used to resolve disagreements between screeners?  
+
+        How many stages of screening were there, and what rules did you have to guide the people involved in the process? 
+
+        Did you use any other method to eliminate records, such as sets of already screened out records?  
+
+        Were the people involved in the screening and selection process independent from the review authors?  
+
+        Did you use crowd-sourcing or automation techniques in the process of selecting eligible studies? If so, how did you integrate these into the selection process? 
+
+        Did you use a machine learning tool (e.g. Cochrane RCT Classifier) to eliminate records or replace a human screener?  If so, report a reference to the version you used. 
+
+        If you didn’t have enough information to decide if a study was eligible, what process did you use to obtain information from study investigators or other sources? 
+
+        If abstracts or articles required translation into another language to determine their eligibility, what translation process did you use?   
 ---
 
 Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they worked independently, and, if applicable, details of automation tools used in the process.

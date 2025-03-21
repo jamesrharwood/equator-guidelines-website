@@ -3,6 +3,11 @@ id: synthesis-methods-sensitivity-analyses
 title: "13f. Synthesis methods – Sensitivitiy analyses"
 summary: 
     title: 13f. Sensitivitiy analyses
+writing_guide:
+    text: |
+        Did you conduct sensitivity analyses to check the robustness of your results?  For example, did you remove studies at high risk of bias, or use an additional meta-analysis model? 
+
+        Did you pre-specify your sensitivity analyses or decide after you had collected the data?  Report which analyses were pre-specified and which were decided on later. 
 ---
 
 Describe any sensitivity analyses conducted to assess robustness of the synthesised results.
@@ -20,7 +25,7 @@ Describe any sensitivity analyses conducted to assess robustness of the synthesi
 
 If authors performed sensitivity analyses to assess
 robustness of the synthesised results to decisions made during the
-review process (see item [13d, meta-analysis]({{< meta items.synthesis_methods_d.web_path >}}#meta-analysis)), they should
+review process (see item [13d, meta-analysis]({{< meta items.synthesis-methods-synthesis-methods.web_path >}}#meta-analysis)), they should
 provide sufficient details so that readers are able to assess the
 appropriateness of the analyses and could reproduce the reported results
 (with access to the data). Ideally, sensitivity analyses should be

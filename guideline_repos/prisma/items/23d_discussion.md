@@ -3,6 +3,9 @@ id: discussion-implications
 title: "23d. Discussion – Implications"
 summary:
     title: 23d. Implications
+writing_guide:
+    text: |
+
 ---
 
 Discuss implications of the results for practice, policy, and future research

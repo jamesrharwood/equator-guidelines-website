@@ -1,6 +1,13 @@
 ---
 id: risk-of-bias-in-studies
 title: "18. Risk of bias in studies"
+writing_guide:
+    text: |
+        What characteristics of each study were used to assess the risk of bias?   
+
+        Have you explained your judgements, for example by quoting text from the reports of included studies? Present the judgements and explanations for each one clearly in a table or a figure.   
+
+        Did you assess risk of bias for specific outcomes or results? If so, present these judgements in a forest plot alongside the results of each study.  
 ---
 
 Present assessments of risk of bias for each included study

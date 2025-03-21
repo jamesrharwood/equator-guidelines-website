@@ -1,6 +1,11 @@
 ---
 id: study-characteristics
 title: "17. Study characteristics"
+writing_guide:
+    text: |
+        Present all the included studies in a tabular or graphic format which allows users of the review to compare the key characteristics easily.  
+
+        Is the review of the effects of interventions?  If so, present a summary of characteristics of the interventions of each study so they can also be compared easily.   
 ---
 
 Cite each included study and present its characteristics.

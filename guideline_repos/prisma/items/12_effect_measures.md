@@ -1,6 +1,17 @@
 ---
 id: effect-measures
 title: "12. Effect measures"
+writing_guide:
+    text:
+        Which effect measurements did you use for binary outcomes such as dead or alive - odds ratio (OR), risk ratio (RR) or risk difference (RD)? 
+
+        Which effect measurements did you use for continuous outcomes such as body mass index - mean difference (MD), standardized mean difference (SMD) or ratio of means (RoM) 
+
+        Justify all your choices of effect measures 
+
+        What thresholds or ranges did you use to judge whether the size of the effect was large enough to be clinically important?  Give the rationale for choosing them.   
+
+        Were results from different studies re-expressed to a single type of effect measure in the synthesis – for example analyzing risk ratios from several different studies and calculating a single absolute risk reduction based on an assumed comparator risk 
 ---
 
 Specify for each outcome the effect measure(s) (such as risk ratio, mean difference) used in the synthesis or presentation of results.

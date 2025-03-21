@@ -174,6 +174,39 @@ paths:
     full_guideline: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/index.html
     home_page: https://jamesrharwood.github.io/equator-guidelines-website/
     writing_guide: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/srqr-writing-guide.docx
+  qmd:
+    about_reporting_guidelines: /about/reporting-guidelines.qmd
+    about_writing_guides: /about/writing-using-reporting-guidelines.qmd
+    applicability: guidelines/srqr/index.qmd?#applicability
+    author_bios: guidelines/srqr/partials/author_bios.md
+    bibliographies: guidelines/srqr/bibliographies
+    checklist: guidelines/srqr/srqr-checklist.qmd
+    config: guidelines/srqr/config.yml
+    development: guidelines/srqr/partials/development.md
+    dir: guidelines/srqr
+    faqs: guidelines/srqr/faqs.qmd
+    faqs_partial: guidelines/srqr/partials/faqs.md
+    giscus_dir: guidelines/srqr/discussion
+    giscus_rel_dir: guidelines/srqr/discussion
+    glossary: guidelines/srqr/glossary.yml
+    glossary_offcanvas: guidelines/srqr/partials/glossary_offcanvas.html
+    guidance: guidelines/srqr/partials/guidance.md
+    how_to_cite: guidelines/srqr/partials/how_to_cite.md
+    how_to_use: guidelines/srqr/partials/how_to_use.md
+    index: guidelines/srqr/index.qmd
+    item_order: guidelines/srqr/partials/item_order.md
+    items_dir: guidelines/srqr/items
+    items_rel_dir: items
+    metadata: guidelines/srqr/_metadata.yml
+    not_use_for: guidelines/srqr/partials/not_use_for.md
+    partials_dir: guidelines/srqr/partials
+    related_resources: guidelines/srqr/partials/related_resources.md
+    resource_definitions: guidelines/srqr/resource_definitions.yml
+    summary: guidelines/srqr/summary.qmd
+    uploads: guidelines/srqr/uploads
+    use_for: guidelines/srqr/partials/use_for.md
+    why_use: guidelines/srqr/partials/why_use.md
+    writing_guide: guidelines/srqr/srqr-writing-guide.qmd
 project:
   render:
   - '*glossary*'

@@ -3,6 +3,15 @@ id: data-items-outcomes
 title: "10a. Data items – Outcomes"
 summary:
     title: "10a. Outcomes"
+writing_guide:
+    text: |
+        Did you specify the measurement time frames for all the outcomes?   
+
+        Did you extract all the results matching the outcome domains you had specified or did you make a selection?  If you selected, how did you decide which ones to use, and does that match with your review objectives?  
+
+        Did you change the processes used to select results, the definitions of the outcome, or the importance given to the outcomes in the review?  If you did explain what changes you made and how the changes fit with your review rationale. 
+
+        Did you give some outcomes more weight when interpreting the review’s results?  If you did, explain why – for example, it could be because a recent core outcome set labelled it as being of the most importance to patients. 
 ---
 
 List and define all outcomes for which data were sought. Specify whether 

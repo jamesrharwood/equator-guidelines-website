@@ -3,6 +3,9 @@ id: discussion-limitations-of-review-process
 title: "23c. Discussion – Limitations of the review processes"
 summary:
     title: 23c. Limitations of the review processes
+writing_guide:
+    text: |
+
 ---
 Discuss any limitations of the review processes used
 

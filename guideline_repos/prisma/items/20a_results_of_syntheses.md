@@ -3,6 +3,11 @@ id: results-of-syntheses-summary-of-studies
 title: "20a. Results of syntheses – Summary of studies"
 summary:
     title: 20a. Summary of studies
+writing_guide:
+    text: |
+        For each synthesis, list the studies in a forest plot or a table.   
+
+        Also summarize key characteristics and risk of bias of the studies in each synthesis. This should focus on the factors which help interpret the results of the synthesis.  For example, some syntheses won’t answer the review question completely or will only indirectly address the review question.  
 ---
 
 For each synthesis, briefly summarise the characteristics and risk of bias among contributing studies.

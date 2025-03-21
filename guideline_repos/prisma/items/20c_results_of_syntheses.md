@@ -3,6 +3,27 @@ id: results-of-syntheses-heterogeneity
 title: "20c. Results of syntheses – Heterogeneity"
 summary:
     title: 20c. Heterogeneity
+writing_guide:
+    text: |
+        Did you investigate causes of differences in the results between comparable studies?  
+
+        For the study results being compared, present results regardless of the statistical significance, magnitude, or direction of effect modification. 
+
+        When you report your analysis of the possible causes of differences in study results, explain how you’ve considered the limitations of the observational nature of your analysis 
+
+        Did you conduct a subgroup analysis for heterogeneity? 
+
+        Report for each analysis the exact P value for a test for interaction, as well as, within each subgroup, the summary estimates, their precision (e.g. standard error or 95% confidence/credible interval) and measures of heterogeneity. 
+
+        Consider presenting the estimate for the difference between subgroups and its precision. 
+
+        If meta-regression was conducted: 
+
+        Report for each analysis the exact P value for the regression coefficient and its precision. 
+
+        Consider presenting a meta-regression scatterplot with the study effect estimates plotted against the potential effect modifier. 
+
+        If informal methods (i.e. those that do not involve a formal statistical test) were used to investigate heterogeneity, describe the results observed. 
 ---
 
 Present results of all investigations of possible causes of heterogeneity among study results.

@@ -1,6 +1,31 @@
 ---
 id: certainty-assessment
 title: "15. Certainty assessment"
+writing_guide:
+    text: |
+        What tool or system did you use to assess the level of certainty or confidence in the evidence?   
+
+        Which factors did you consider and what criteria did you use to assess the precision of the effect estimate and the consistency of the findings across studies?   
+
+        Did you assess any other factors affecting the certainty of the evidence? 
+
+        What decision rules did use to judge the level of certainty?  
+
+        What is the definition of each level of certainty?  
+
+        Did you use any review-specific thresholds for assessing certainty, such as what range of effect size might be considered trivial, moderate or large for this review question? Make sure you give the rationale for choosing these ranges or thresholds. 
+
+        Did you make any adaptations to an existing tool or system to assess evidence certainty?  If so, report what adaptations you made and why.   
+
+        Describe how you allocated the evidence certainty assessment tasks, whether any were done in parallel independently, and how disagreements were resolved between assessors  
+
+        What processes did you use to obtain or confirm relevant information from investigators? 
+
+        Did you use an automation tool to support certainty assessments?  If so, how did it work, how was it trained, and how did you check the accuracy of its performance?  
+
+        Use a clear method of displaying the results of certainty assessments, such as a Summary of Findings table. 
+
+        Did you use standard words to convey the level of certainty in a particular effect size, such as “may” “probably” or “likely” (e.g. “hip protectors probably reduce the risk of hip fracture slightly”). If so, report the intended interpretation of each phrase or word and the reference for the source guidance 
 ---
 
 Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome
@@ -24,7 +49,7 @@ Describe any methods used to assess certainty (or confidence) in the body of evi
     assessing certainty, such as thresholds used to assess imprecision
     and ranges of magnitude of effect that might be considered trivial,
     moderate or large, and the rationale for these thresholds and ranges
-    ([item 12]({{< meta items.effect_measures.web_path >}})).[@ref129]
+    ([item 12]({{< meta items.effect-measures.web_path >}})).[@ref129]
 
 -   If any adaptations to an existing tool or system to assess certainty
     were made, specify the adaptations in sufficient detail that the
@@ -43,7 +68,7 @@ Describe any methods used to assess certainty (or confidence) in the body of evi
     validation.
 
 -   Describe methods for reporting the results of assessments of
-    certainty, such as the use of Summary of Findings tables (see [item 22]({{< meta items.certainty_of_evidence.web_path >}})).
+    certainty, such as the use of Summary of Findings tables (see [item 22]({{< meta items.certainty-of-evidence.web_path >}})).
 
 -   If standard phrases that incorporate the certainty of evidence were
     used (such as "hip protectors probably reduce the risk of hip

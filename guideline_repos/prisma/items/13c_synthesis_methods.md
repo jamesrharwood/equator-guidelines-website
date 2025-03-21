@@ -3,6 +3,15 @@ id: synthesis-methods-tabulating-or-displaying-results
 title: "13c. Synthesis methods – Methods for tabulating or displaying results"
 summary: 
     title: 13c. Methods for tabulating or displaying results
+writing_guide:
+    text: |
+        What table structure did you use to display the results of individual studies, syntheses and characteristics of the data they presented? 
+
+        What types of graphs did you use to display the results of individual studies and syntheses? 
+
+        Did you group or order studies for tabular or graphical display based on study characteristics, such as size of the effect, or date the results were published?  If so, describe why you chose to group or order them in this way.   
+
+        Did you use any non-standard type of graphs?  If so, justify your choice.  
 ---
 
 Describe any methods used to tabulate or visually display results of individual studies and syntheses

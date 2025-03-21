@@ -3,6 +3,26 @@ id: synthesis-methods-exploring-heterogeneity
 title: "13e. Synthesis methods – Methods for exploring heterogeneity"
 summary: 
     title: 13e. Methods for exploring heterogeneity
+writing_guide:
+    text: |
+        Did you investigate potential causes of statistical heterogeneity?  If so, report whether you used subgroup analysis or meta-regression 
+
+        Which factors did you explore?  
+
+        What were the levels of those factors?  
+
+        Which direction did you expect the effect modification to go in and why?  
+
+        Were you able to conduct these analyses at study level – ie. where each study is included in one subgroup only) 
+
+        Did you conduct within-study contrasts to compare subsets of participants from different studies in more than one subgroup? 
+
+        How did you compare subgroup effects statistically?   
+
+        If the data was not suitable for meta-analysis of effect estimates, did you use another method to investigate statistical heterogeneity? For example, you could use structured tables to view variation in results across study sub-populations.   
+
+        Did you pre-specify the ways you were going to investigate heterogeneity or decide after you had collected the data?  Report which investigations were pre-specified and which were decided on later 
+
 ---
 
 Describe any methods used to explore possible causes of heterogeneity among study results (such as subgroup analysis, meta-regression).
@@ -44,7 +64,7 @@ Describe any methods used to explore possible causes of heterogeneity among stud
 
 If authors used methods to explore possible causes of
 variation of results across studies (that is, statistical heterogeneity)
-such as subgroup analysis or meta-regression (see item [13d, meta-analysis]({{< meta items.synthesis_methods_d.web_path >}}#meta-analysis)), they should provide sufficient
+such as subgroup analysis or meta-regression (see item [13d, meta-analysis]({{< meta items.synthesis-methods-synthesis-methods.web_path >}}#meta-analysis)), they should provide sufficient
 details so that readers are able to assess the appropriateness of the
 selected methods and could reproduce the reported results (with access
 to the data). Such methods might be used to explore whether, for

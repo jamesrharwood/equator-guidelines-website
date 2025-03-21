@@ -3,6 +3,9 @@ id: discussion-general-interpretation
 title: "23a. Discussion – General interpretation of the results"
 summary:
     title: 23a. General interpretation of the results
+writing_guide:
+    text: |
+
 ---
 
 Provide a general interpretation of the results in the context of other evidence

@@ -3,6 +3,9 @@ id: registration-and-protocol-registration
 title: "24a. Registration and protocol – Registration"
 summary:
     title: 24a. Registration
+writing_guide:
+    text: |
+
 ---
 
 Provide registration information for the review, including register name and registration number, or state that the review was not registered

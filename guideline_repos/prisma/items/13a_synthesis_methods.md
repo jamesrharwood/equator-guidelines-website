@@ -5,9 +5,12 @@ summary:
     title: 13a. Deciding which studies were eligible for each synthesis
 checklist:
     text: Describe the processes used to decide which studies were eligible for each synthesis (such as tabulating the study intervention characteristics and comparing against the planned groups for each synthesis described in item 5.
+writing_guide:
+    text: |
+        What process did you follow to decide which studies had suitable data for each synthesis?  
 ---
 
-Describe the processes used to decide which studies were eligible for each synthesis (such as tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item [5]({{< meta items.eligibility_criteria.web_path >}}))).
+Describe the processes used to decide which studies were eligible for each synthesis (such as tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item [5]({{< meta items.eligibility-criteria.web_path >}}))).
 
 ## Essential elements
 
@@ -17,7 +20,7 @@ Describe the processes used to decide which studies were eligible for each synth
 ## Explanation
 
 Before undertaking any statistical synthesis (item
-[13d]({{< meta items.synthesis_methods_d.web_path >}})), decisions must be made about which studies are eligible for each planned synthesis (item [5]({{< meta items.eligibility_criteria.web_path >}})). 
+[13d]({{< meta items.synthesis-methods-synthesis-methods.web_path >}})), decisions must be made about which studies are eligible for each planned synthesis (item [5]({{< meta items.eligibility-criteria.web_path >}})). 
 These decisions will likely involve subjective judgments that could 
 alter the result of a synthesis, yet the
 processes used and information to support the decisions are often absent

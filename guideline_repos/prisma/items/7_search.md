@@ -1,6 +1,21 @@
 ---
 id: search
 title: "8. Search"
+writing_guide:
+    text: |
+        Did you keep a full record of each search strategy for each database?  If not, make sure you re-visit the searches and create a record of it on the latest day it was searched.  You will need to present all these strategies clearly in the supplementary information 
+
+        For your search strategies, are the date or language or other limits justified in your eligibility criteria? 
+
+        Did you use published approaches to limit your results to certain types of study, or did you devise your own method? 
+
+        Did you use any automated strategies to identify search terms or index headings? 
+
+        Did you validate your strategy by testing whether it could retrieve a set of clearly eligible studies? 
+
+        Did you get your strategy peer reviewed or checked by another method or process? 
+
+        Was your search strategy based on PICO (population, intervention, comparator, outcome) terms?  If not, make sure you describe how you arrived at the concepts you did use. 
 ---
 
 Present the full search strategies for all databases, registers, and websites, including any filters and limits used

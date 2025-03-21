@@ -1,6 +1,22 @@
 ---
 id: reporting-bias-assessment
 title: "14. Reporting bias assessment"
+writing_guide:
+    text: |
+        Did you assess the risk of bias due to unreported results?  
+
+        If so, specify the method or existing tool you used and the process you used to reach a judgement of overall risk of bias 
+
+        Did you make any adaptations to the tool?  If so, describe them and why they were needed.  
+
+        Did you develop a new tool to assess risk of bias due to missing results?  If so, describe how it works and make it publicly available.   
+
+        Did more than one reviewer assess the bias due to missing results independently? If so, report how disagreements were resolved.   
+
+        Did you have a process for obtaining missing results from study investigators? 
+
+        Did you use an automation tool?  If so, report how it works, how it was trained, and how you checked its performance.    
+
 ---
 
 Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases)
@@ -42,7 +58,7 @@ The validity of a synthesis may be threatened when
 the available results differ systematically from the missing results.
 This is known as "bias due to missing results" and arises from
 "reporting biases" such as selective non-publication and selective
-non-reporting of results (see [item 11 – risk of bias assessment]({{< meta items.risk_of_bias_in_individual_studies.web_path >}})#risk-of-bias).[@ref81] Direct methods for assessing
+non-reporting of results (see [item 11 – risk of bias assessment]({{< meta items.risk-of-bias-in-individual-studies.web_path >}})#risk-of-bias).[@ref81] Direct methods for assessing
 the risk of bias due to missing results include comparing outcomes and
 analyses pre-specified in study registers, protocols, and statistical
 analysis plans with results that were available in study reports.

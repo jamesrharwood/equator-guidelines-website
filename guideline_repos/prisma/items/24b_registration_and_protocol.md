@@ -3,6 +3,9 @@ id: registration-and-protocol-protocol
 title: "24b. Registration and protocol – Protocol"
 summary:
     title: 24b. Protocol
+writing_guide:
+    text: |
+
 ---
 
 Indicate where the review protocol can be accessed, or state that a protocol was not prepared

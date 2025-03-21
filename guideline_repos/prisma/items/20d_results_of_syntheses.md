@@ -3,6 +3,11 @@ id: results-of-syntheses-sensitivity-analyses
 title: "20d. Results of syntheses – Sensitivity analyses"
 summary:
     title: 20d. Sensitivity analyses
+writing_guide:
+    text: |
+        Did you conduct any sensitivity analyses? If so, make sure you report the results of all of them and comment on how robust you think the main analysis is, depending on the results of the corresponding sensitivity analyses. 
+
+        It’s useful to present the results and assumptions made for the original and sensitivity analyses side by side in tables and/or forest plots.  
 ---
 
 Present results of all sensitivity analyses conducted to assess the robustness of the synthesised results

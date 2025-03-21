@@ -1,6 +1,21 @@
 ---
 id: results-of-individual-studies
 title: "19. Results of individual studies"
+writing_guide:
+    text: |
+        For all review outcomes, present each included study’s summary statistic for that outcome, even if it’s not included in your synthesis.  
+
+        For dichotomous outcomes, report the number of participants with and without the events for each group; or the number with the event and the total for each group (e.g. 12/45).  
+
+        For continuous outcomes, report the mean, standard deviation and sample size of each group. 
+
+        For all review outcomes, present for each included study’s effect estimate and its precision (e.g. standard error or 95% confidence/credible interval). For time-to-event outcomes, present a hazard ratio and its confidence interval. 
+
+        If you present this study-level data in a graph or described in the text, make sure you also include it in a table.  
+
+        Did you use more than one source to obtain results data?  If so, report where it came from (e.g. journal article, study register entry, clinical study report, or correspondence with authors),  
+
+        Did you have to compute or estimate any results by using indirect information about the study?  If so, give details of your methods. 
 ---
 
 For all outcomes, present for each study (*a*) summary statistics for each group (where appropriate) and (*b*) an effect estimate and its precision (such as confidence/credible interval), ideally using structured tables or plots

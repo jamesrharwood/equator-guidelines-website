@@ -1,6 +1,23 @@
 ---
 id: risk-of-bias-in-individual-studies
 title: "11. Risk of bias in individual studies"
+writing_guide:
+    text:
+        What tools did you use to assess the potential bias in the included studies?  
+
+        Which characteristics of the studies did you examine to reach your assessment of the level of bias? 
+
+        Did you break down the bias assessments into different components, or present an overall judgement of the whole study?   
+
+        Did you make any adaptations to an existing bias assessment tool?  If so, specify those adaptations 
+
+        Did you develop your own tool to assess potential bias?  If so, describe it and make it publicly available. 
+
+        Did independent people carry out bias assessments on the same studies in parallel?  If so, describe how disagreements between the assessors were resolved.  
+
+        Did you need to contact study investigators to obtain or clarify information?  If so, what was your process for doing this?  
+
+        Did you use AI tools to assess risk of bias? If so, report how the tool was used, trained, and give details of the tool’s performance and internal validation. 
 ---
 
 Specify the methods used to assess risk of bias in the included studies, including details of the tool(s) used, how many reviewers assessed each study and whether they worked independently, and, if applicable, details of automation tools used in the process.
@@ -54,8 +71,8 @@ Reporting details of how studies were assessed (such as by one or two
 authors) allows readers to assess the potential for errors in the
 assessments.[@ref58] Reporting how risk of bias assessments were
 incorporated into the analysis is addressed in Items 
-[13e]({{< meta items.synthesis_methods_e.web_path >}}) and 
-[13f]({{< meta items.synthesis_methods_f.web_path >}}).
+[13e]({{< meta items.synthesis-methods-exploring-heterogeneity.web_path >}}) and 
+[13f]({{< meta items.synthesis-methods-sensitivity-analyses.web_path >}}).
 
 ## Assessment of risk of bias in studies and bias due to missing results {#sec-risk-of-bias}
 
