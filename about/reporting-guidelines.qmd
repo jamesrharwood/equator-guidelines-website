@@ -3,7 +3,6 @@ title-block-banner: rgb(11, 167, 87)
 title-block-banner-color: white
 title: Reporting guidelines, writing guides, and checklists
 date: last-modified
-description: '{{< lipsum 1 >}}'
 ---
 
 ## What are reporting guidelines? {#reporting-guidelines}

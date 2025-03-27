@@ -71,6 +71,17 @@ PROTOCOL = """A plan or set of steps that defines how something will be done. Be
 QI = """Quality improvement research is about finding out how to improve and make changes in the most effective way. It is about systematically and rigourously exploring "what works" to improve quality in healthcare and the best ways to measure and disseminate this to ensure positive change. Most quality improvement effectiveness research is conducted in hospital settings, is focused on multiple quality improvement interventions, and uses process measures as outcomes. There is a great deal of variation in the research designs used to examine quality improvement effectiveness.\n\n[Source](https://www.health.org.uk/sites/default/files/ImprovementScience.pdf)
 """
 
+CARE = """An uncontrolled observational study involving an intervention and an outcome in a single patient.\n\n[Source](https://www.nice.org.uk/Glossary?letter=C#:~:text=have%20a%20disability.-,Case%20report,-An%C2%A0uncontrolled%20observational)"""
+
+ARRIVE = """
+  When ARRIVE refers to animal research it is referring to _in vivo_ animal research. This is the use of non-human animals, sometimes known as model organisms, in experiments that seek to control the variables that affect the behavior or biological system under study. This approach can be contrasted with field studies in which animals are observed in their natural environments or habitats. Animal research varies on a continuum from pure research, focusing on developing fundamental knowledge of an organism, to applied research, which may focus on answering some questions of great practical importance, such as finding a cure for a disease. [Source](https://en.wikipedia.org/wiki/Animal_testing)" 
+
+  The ARRIVE guidelines apply to all areas of bioscience research involving living animals. That includes mammalian species as well as model organisms such as *Drosophila* or *Caenorhabditis elegans*. Each item is equally relevant to manuscripts centred around a single animal study and broader-scope manuscripts describing in vivo observations along with other types of experiments. The exact type of detail to report, however, might vary between species and experimental setup; this is acknowledged in the guidance provided for each item. [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360025/)
+"""
+
+CHEERS = """An economic evaluation is used to assess the cost effectiveness of healthcare interventions (that is, to compare the costs and benefits of a healthcare intervention to assess whether it is worth doing). The aim of an economic evaluation is to help decision makers maximise the level of health benefits relative to the resources available. It should be used to inform and support the decision-making process; it is not supposed to replace the judgement of healthcare professionals.\n\nThere are several types of economic evaluation: cost-benefit analysis, cost-consequence analysis, cost-effectiveness analysis, cost-minimisation analysis and cost-utility analysis. They use similar methods to define and evaluate costs, but differ in the way they estimate the benefits of a particular drug, programme or intervention.\n\n[Source](https://www.nice.org.uk/Glossary?letter=E#:~:text=social%20care%20resources.-,Economic%20evaluation,-An%20economic%20evaluation)
+"""
+
 glossary_default = {
     'reporting_guidelines': {
         'title': 'Reporting Guidelines are recommendations to help describe your work clearly', 
@@ -122,7 +133,7 @@ glossary_default = {
     },
     'randomised_trials': {
         'title': 'Randomised Trials',
-        'text': '#TODO',
+        'text': RCT,
         'id': 'randomised_trials',
         'pattern': 'randomised trials',
     },
