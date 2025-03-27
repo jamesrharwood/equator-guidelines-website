@@ -82,7 +82,7 @@ glossary_default = {
         'title': 'Who reads research?', 
         'text': EVERYONE, 
         'id': 'research_consumers',
-        'pattern': 'by everyone'
+        'pattern': 'by (everyone|a wide audience)'
     },
     'cohort_studies': {
         'title': 'Cohort studies',

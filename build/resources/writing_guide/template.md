@@ -1,6 +1,6 @@
 ---
 title: The {{< meta acronym >}} reporting guideline writing guide
-subtitle: 'For writing impactful {{< meta for-writing >}} that can be understood and used by everyone.'
+subtitle: 'For writing impactful {{< meta for-writing >}} that can be understood and used by a wide audience.'
 bibliography: bibliographies/self.bib
 csl: ../../vancouver.csl
 execute:
@@ -20,7 +20,7 @@ crossref:
 
 ::: {.callout-note}
 
-If you have not used a writing guide before, read about our suggested "[packing for a holiday]({{< meta paths.qmd.about_writing_guides >}})" writing process.
+If you have not used a writing guide before, read about our suggested [writing process]({{< meta paths.html.about_writing_guides >}}).
 
 This guide is not a template. Don't expect to fill it in and end up with a finished article. Instead, think of it as an exercise book.
 
@@ -28,7 +28,7 @@ This guide is not a template. Don't expect to fill it in and end up with a finis
 2. Delete the prompts and headings, reorganise your notes into a narrative structure, and decide which information to prioritize;
 3. Draft, revise, and edit your text in a separate file.
 
-Before you begin, double check that {{< meta acronym >}} is the [most applicable reporting guideline]({{< meta paths.qmd.applicability >}}) for your work. Other reporting guidelines have their own writing guide.
+Before you begin, double check that {{< meta acronym >}} is the [most applicable reporting guideline]({{< meta paths.html.applicability >}}) for your work. Other reporting guidelines have their own writing guide.
 
 :::
 
@@ -55,8 +55,8 @@ Markdown(gl.create_writing_guide())
 
 ## How to cite {#sec-cite .appendix}
 
-Describe how you used {{< meta acronym >}} at the end of your Methods section e.g., 
+Describe how you used {{< meta acronym >}} at the end of your Methods section, referencing the resources you used e.g.,
 
-> 'We used the {{< meta acronym >}}[@WritingGuide] writing guide to draft this manucript, and the {{< meta acronym >}} reporting checklist[@Checklist] when writing this manuscript, included in supplement A'
+> 'We used the {{< meta acronym >}}[@WritingGuide] writing guide to draft this manuscript, and the {{< meta acronym >}} reporting checklist[@Checklist] when editing, included in supplement A'
 
-Then reference the resources you used.
+If you use a reporting checklist, remember to include it as a supplement when publishing so that readers can easily find information and see how you have interpreted the guidance.

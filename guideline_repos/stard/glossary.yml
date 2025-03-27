@@ -1,8 +1,13 @@
-Medical test: Any method for collecting additional information about the current or future health status of a patient
-Index test: The test under evaluation
-Target condition: The disease or condition that the index test is expected to detect
-Clinical reference standard: The best available method for establishing the presence or absence of the target condition; a gold standard would be an error-free reference standard
-Sensitivity: Proportion of those with the target condition who test positive with the index test
-Specificity: Proportion of those without the target condition who test negative with the index test
-Intended use of the test: Whether the index test is used for diagnosis, screening, staging, monitoring, surveillance, prediction, prognosis, or other reasons
-Role of the test: The position of the index test relative to other tests for the same condition (for example, triage, replacement, add-on, new test)
+Medical test: Any method for collecting additional information about the current or future health status of a patient.
+Index test: The test under evaluation.
+Target condition: The disease or condition that the index test is expected to detect.
+clinical_reference_standard: 
+  title: Clinical reference standard
+  text: The best available method for establishing the presence or absence of the target condition; a gold standard would be an error-free reference standard.
+  id: clinical_reference_standard
+  pattern: (clinical)?\s+reference\s+standard
+Sensitivity: Proportion of those with the target condition who test positive with the index test.
+Specificity: Proportion of those without the target condition who test negative with the index test.
+Intended use of the test: Whether the index test is used for diagnosis, screening, staging, monitoring, surveillance, prediction, prognosis, or other reasons.
+Role of the test: The position of the index test relative to other tests for the same condition (for example, triage, replacement, add-on, new test).
+Indeterminate results: Results that are neither positive or negative.

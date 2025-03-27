@@ -611,114 +611,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/stard/index.qmd
-      text: Overview of STARD
-    - contents:
-      - contents:
-        - href: guidelines/stard/items/1_identification.qmd
-          text: 1. Identification as a study of diagnostic accuracy
-        section: Title or abstract
-      - contents:
-        - href: guidelines/stard/items/2_abstract.qmd
-          text: 2. Abstract
-        section: Abstract
-      - contents:
-        - href: guidelines/stard/items/3_background.qmd
-          text: 3. Background
-        - href: guidelines/stard/items/4_objectives.qmd
-          text: 4. Objectives
-        section: Introduction
-      - contents:
-        - href: guidelines/stard/items/5_study_design.qmd
-          text: 5. Study design
-        - contents:
-          - href: guidelines/stard/items/6_participants.qmd
-            text: 6. Participants
-          - href: guidelines/stard/items/7_participants.qmd
-            text: 7. Participants
-          - href: guidelines/stard/items/8_participants.qmd
-            text: 8. Participants
-          - href: guidelines/stard/items/9_participants.qmd
-            text: 9. Participants
-          section: Participants
-        - contents:
-          - href: guidelines/stard/items/10a_test_methods.qmd
-            text: 10a. Test methods
-          - href: guidelines/stard/items/10b_test_methods.qmd
-            text: 10b. Test methods
-          - href: guidelines/stard/items/11_test_methods.qmd
-            text: 11. Test methods
-          - href: guidelines/stard/items/12a_test_methods.qmd
-            text: 12a. Test methods
-          - href: guidelines/stard/items/12b_test_methods.qmd
-            text: 12b. Test methods
-          - href: guidelines/stard/items/13a_test_methods.qmd
-            text: 13a. Test methods
-          - href: guidelines/stard/items/13b_test_methods.qmd
-            text: 13b. Test methods
-          section: Test Methods
-        - contents:
-          - href: guidelines/stard/items/14_analysis.qmd
-            text: 14. Analysis
-          - href: guidelines/stard/items/15_analysis.qmd
-            text: 15. Analysis
-          - href: guidelines/stard/items/16_analysis.qmd
-            text: 16. Analysis
-          - href: guidelines/stard/items/17_analysis.qmd
-            text: 17. Analysis
-          - href: guidelines/stard/items/18_analysis.qmd
-            text: 18. Analysis
-          section: Analysis
-        section: Methods
-      - contents:
-        - contents:
-          - href: guidelines/stard/items/19_participants.qmd
-            text: 19. Participants
-          - href: guidelines/stard/items/20_participants.qmd
-            text: 20. Participants
-          - href: guidelines/stard/items/21a_participants.qmd
-            text: 21a. Participants
-          - href: guidelines/stard/items/21b_participants.qmd
-            text: 21b. Participants
-          - href: guidelines/stard/items/22_participants.qmd
-            text: 22. Participants
-          section: Participants
-        - contents:
-          - href: guidelines/stard/items/23_test_results.qmd
-            text: 23. Test results
-          - href: guidelines/stard/items/24_test_results.qmd
-            text: 24. Test results
-          - href: guidelines/stard/items/25_test_results.qmd
-            text: 25. Test results
-          section: Test Results
-        section: Results
-      - contents:
-        - href: guidelines/stard/items/26.qmd
-          text: 26. Discussion
-        - href: guidelines/stard/items/27.qmd
-          text: 27. Discussion
-        section: Discussion
-      - contents:
-        - href: guidelines/stard/items/28.qmd
-          text: 28. Other information
-        - href: guidelines/stard/items/29.qmd
-          text: 29. Other information
-        - href: guidelines/stard/items/30.qmd
-          text: 30. Other information
-        section: Other information
-      section: Full guidance
-    - href: guidelines/stard/stard_writing_guide.docx
-      text: Writing guide
-    - href: guidelines/stard/stard_checklist.docx
-      text: Checklist
-    - href: guidelines/stard/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: stard
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/tripod/index.qmd
       text: Overview of TRIPOD + AI
     - contents:
@@ -1039,228 +931,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/arrive/index.qmd
-      text: Overview of ARRIVE
-    - contents:
-      - contents:
-        - contents:
-          - href: guidelines/arrive/items/groups-being-compared.qmd
-            text: 1a. The groups being compared
-          - href: guidelines/arrive/items/experimental-unit.qmd
-            text: 1b. The experimental unit
-          section: 1. Study Design
-        - contents:
-          - href: guidelines/arrive/items/number-of-experimental-units.qmd
-            text: 2a. Number of Experimental Units
-          - href: guidelines/arrive/items/sample-size-justification.qmd
-            text: 2b. Sample Size Justification
-          section: 2. Sample Size
-        - contents:
-          - href: guidelines/arrive/items/inclusion-and-exclusion-criteria.qmd
-            text: 3a. Inclusion and exclusion criteria
-          - href: guidelines/arrive/items/exclusions-and-attritions.qmd
-            text: 3b. Exclusions and Attritions
-          - href: guidelines/arrive/items/numbers-analysed.qmd
-            text: 3c. Numbers analysed
-          section: 3. Inclusion and Exclusion Criteria
-        - contents:
-          - href: guidelines/arrive/items/randomisation.qmd
-            text: 4a. Randomisation Use
-          - href: guidelines/arrive/items/confounders.qmd
-            text: 4b. Confounders
-          section: 4. Randomisation
-        - href: guidelines/arrive/items/blinding.qmd
-          text: 5. Blinding/Masking
-        - contents:
-          - href: guidelines/arrive/items/outcome-measures.qmd
-            text: 6a. Outcome Measures
-          - href: guidelines/arrive/items/primary-outcome-measure.qmd
-            text: 6b. Primary Outcome Measure
-          section: 6. Outcome Measures
-        - contents:
-          - href: guidelines/arrive/items/statistical-methods-analysis-methods.qmd
-            text: 7a. Statistical Methods used for each Analysis
-          - href: guidelines/arrive/items/statistical-methods-assumptions.qmd
-            text: 7b. Statistical Assumptions
-          section: 7. Statistical Methods
-        - contents:
-          - href: guidelines/arrive/items/experimental-animals-species-appropriate-details.qmd
-            text: 8a. Species-appropriate Details
-          - href: guidelines/arrive/items/experimental-animals-further-information.qmd
-            text: 8b. Further Information
-          section: 8. Experimental Animals
-        - contents:
-          - href: guidelines/arrive/items/experimental-procedures-what-was-done.qmd
-            text: 9a. What was done
-          - href: guidelines/arrive/items/experimental-procedures-when-and-how-often.qmd
-            text: 9b. When and how often procedures were conducted
-          - href: guidelines/arrive/items/experimental-procedures-where.qmd
-            text: 9c. Where procedures were conducted
-          - href: guidelines/arrive/items/experimental-procedures-why.qmd
-            text: 9d. Why procedures were done
-          section: 9. Experimental Procedures
-        - contents:
-          - href: guidelines/arrive/items/results-summary-per-group.qmd
-            text: 10a. Summary/Descriptive Statistics per group
-          - href: guidelines/arrive/items/results-effect-sizes.qmd
-            text: 10b. Effect sizes and confidence intervals
-          section: 10. Results
-        section: Essential 10
-      - contents:
-        - href: guidelines/arrive/items/abstract.qmd
-          text: 11. Abstract
-        - contents:
-          - href: guidelines/arrive/items/rationale.qmd
-            text: 12a. Rationale
-          - href: guidelines/arrive/items/species-and-model.qmd
-            text: 12b. Species and model
-          section: 12. Background
-        - href: guidelines/arrive/items/objectives.qmd
-          text: 13. Objectives
-        - href: guidelines/arrive/items/ethical-statement.qmd
-          text: 14. Ethical statement
-        - href: guidelines/arrive/items/housing-husbandry.qmd
-          text: 15. Housing and husbandry
-        - contents:
-          - href: guidelines/arrive/items/reducing-pain-suffering-distress.qmd
-            text: 16a. Reducing pain, suffering, and distress
-          - href: guidelines/arrive/items/adverse-events.qmd
-            text: 16b. Adverse events
-          - href: guidelines/arrive/items/humane-endpoints.qmd
-            text: 16c. Humane endpoints
-          section: 16. Animal Care and Monitoring
-        - contents:
-          - href: guidelines/arrive/items/interpretation-implications.qmd
-            text: 17a. Interpretation/scientific implications
-          - href: guidelines/arrive/items/limitations.qmd
-            text: 17b. Limitations
-          section: 17. Interpretation/ scientific implications
-        - href: guidelines/arrive/items/generalisability.qmd
-          text: 18. Generalisability/translation
-        - href: guidelines/arrive/items/protocol-registration.qmd
-          text: 19. Protocol registration
-        - href: guidelines/arrive/items/data-access.qmd
-          text: 20. Data Access
-        - contents:
-          - href: guidelines/arrive/items/conflicts-of-interests.qmd
-            text: 21a. Conflicts of interests
-          - href: guidelines/arrive/items/funding.qmd
-            text: 21b. Funding
-          section: 21. Declaration of interests
-        section: Recommended Set
-      section: Full guidance
-    - href: guidelines/arrive/arrive-writing-guide.qmd
-      text: Writing guide
-    - href: guidelines/arrive/arrive-checklist.qmd
-      text: Checklist
-    - href: guidelines/arrive/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: arrive
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
-    - href: guidelines/strobe/index.qmd
-      text: Overview of STROBE
-    - contents:
-      - contents:
-        - href: guidelines/strobe/items/title-abstract-indicate-study-design.qmd
-          text: 1a. Indicate the study's design
-        - href: guidelines/strobe/items/abstract.qmd
-          text: 1b. Abstract
-        section: Title and abstract
-      - contents:
-        - href: guidelines/strobe/items/background-rationale.qmd
-          text: 2. Background / rationale
-        - href: guidelines/strobe/items/objectives.qmd
-          text: 3. Objectives
-        section: Introduction
-      - contents:
-        - href: guidelines/strobe/items/study-design.qmd
-          text: 4. Study design
-        - href: guidelines/strobe/items/setting.qmd
-          text: 5. Setting
-        - href: guidelines/strobe/items/eligibility-criteria.qmd
-          text: 6a. Eligibility criteria
-        - href: guidelines/strobe/items/matching-criteria.qmd
-          text: 6b. Matching criteria
-        - href: guidelines/strobe/items/variables.qmd
-          text: 7. Variables
-        - href: guidelines/strobe/items/data-sources-measurement.qmd
-          text: 8. Data sources / measurement
-        - href: guidelines/strobe/items/bias.qmd
-          text: 9. Bias
-        - href: guidelines/strobe/items/study-size.qmd
-          text: 10. Study size
-        - href: guidelines/strobe/items/quantitative-variables.qmd
-          text: 11. Quantitative variables
-        - href: guidelines/strobe/items/statistical-methods-description.qmd
-          text: 12a. Statistical methods
-        - href: guidelines/strobe/items/statistical-methods-subgroups-interactions.qmd
-          text: "12b. Statistical methods \u2013 subgroups and interactions"
-        - href: guidelines/strobe/items/statistical-methods-missing-data.qmd
-          text: "12c. Statistical methods \u2013 missing data"
-        - href: guidelines/strobe/items/statistical-methods-loss-to-follow-up.qmd
-          text: "12di. Statistical methods \u2013 loss to follow-up"
-        - href: guidelines/strobe/items/statistical-methods-matching-cases-controls.qmd
-          text: "12dii. Statistical methods \u2013 matching cases and controls"
-        - href: guidelines/strobe/items/statistical-methods-analytical-methods-sampling-strategy.qmd
-          text: "12diii. Statistical methods \u2013 sampling strategy"
-        - href: guidelines/strobe/items/statistical-methods-sensitivity-analyses.qmd
-          text: "12e. Statistical methods \u2013 sensitivity analyses"
-        section: Methods
-      - contents:
-        - href: guidelines/strobe/items/participants-numbers.qmd
-          text: 13a. Participant numbers
-        - href: guidelines/strobe/items/participants-non-participation.qmd
-          text: "13b. Participants \u2013 non-participation"
-        - href: guidelines/strobe/items/participants-flow-diagram.qmd
-          text: "13c. Participants \u2013 flow diagram"
-        - href: guidelines/strobe/items/descriptive-data-participant-characteristics.qmd
-          text: "14a. Descriptive data \u2013 participant characteristics"
-        - href: guidelines/strobe/items/descriptive-data-missing-data.qmd
-          text: "14b. Descriptive data \u2013 missing data"
-        - href: guidelines/strobe/items/descriptive-data-follow-up-time.qmd
-          text: "14c. Descriptive data \u2013 follow-up time"
-        - href: guidelines/strobe/items/outcome-data.qmd
-          text: 15. Outcome data
-        - href: guidelines/strobe/items/main-results.qmd
-          text: 16a. Main results
-        - href: guidelines/strobe/items/main-results-category-boundaries.qmd
-          text: "16b. Main results \u2013 category boundaries"
-        - href: guidelines/strobe/items/main-results-risk.qmd
-          text: "16c. Main results \u2013 risk"
-        - href: guidelines/strobe/items/other-analyses.qmd
-          text: 17. Other analyses
-        section: Results
-      - contents:
-        - href: guidelines/strobe/items/key-results.qmd
-          text: 18. Key results
-        - href: guidelines/strobe/items/limitations.qmd
-          text: 19. Limitations
-        - href: guidelines/strobe/items/interpretation.qmd
-          text: 20. Interpretation
-        - href: guidelines/strobe/items/generalisability.qmd
-          text: 21. Generalisability
-        section: Discussion
-      - contents:
-        - href: guidelines/strobe/items/funding.qmd
-          text: 22. Funding
-        section: Other information
-      section: Full guidance
-    - href: guidelines/strobe/strobe-writing-guide.qmd
-      text: Writing guide
-    - href: guidelines/strobe/strobe-checklist.qmd
-      text: Checklist
-    - href: guidelines/strobe/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: strobe
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/prisma/index.qmd
       text: Overview of PRISMA 2020
     - contents:
@@ -1385,6 +1055,106 @@ website:
     style: docked
   - collapse-level: 2
     contents:
+    - href: guidelines/strobe/index.qmd
+      text: Overview of STROBE
+    - contents:
+      - contents:
+        - href: guidelines/strobe/items/title-abstract-indicate-study-design.qmd
+          text: 1a. Indicate the study's design
+        - href: guidelines/strobe/items/abstract.qmd
+          text: 1b. Abstract
+        section: Title and abstract
+      - contents:
+        - href: guidelines/strobe/items/background-rationale.qmd
+          text: 2. Background / rationale
+        - href: guidelines/strobe/items/objectives.qmd
+          text: 3. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/strobe/items/study-design.qmd
+          text: 4. Study design
+        - href: guidelines/strobe/items/setting.qmd
+          text: 5. Setting
+        - href: guidelines/strobe/items/eligibility-criteria.qmd
+          text: 6a. Eligibility criteria
+        - href: guidelines/strobe/items/matching-criteria.qmd
+          text: 6b. Matching criteria
+        - href: guidelines/strobe/items/variables.qmd
+          text: 7. Variables
+        - href: guidelines/strobe/items/data-sources-measurement.qmd
+          text: 8. Data sources / measurement
+        - href: guidelines/strobe/items/bias.qmd
+          text: 9. Bias
+        - href: guidelines/strobe/items/study-size.qmd
+          text: 10. Study size
+        - href: guidelines/strobe/items/quantitative-variables.qmd
+          text: 11. Quantitative variables
+        - href: guidelines/strobe/items/statistical-methods-description.qmd
+          text: 12a. Statistical methods
+        - href: guidelines/strobe/items/statistical-methods-subgroups-interactions.qmd
+          text: "12b. Statistical methods \u2013 subgroups and interactions"
+        - href: guidelines/strobe/items/statistical-methods-missing-data.qmd
+          text: "12c. Statistical methods \u2013 missing data"
+        - href: guidelines/strobe/items/statistical-methods-loss-to-follow-up.qmd
+          text: "12di. Statistical methods \u2013 loss to follow-up"
+        - href: guidelines/strobe/items/statistical-methods-matching-cases-controls.qmd
+          text: "12dii. Statistical methods \u2013 matching cases and controls"
+        - href: guidelines/strobe/items/statistical-methods-analytical-methods-sampling-strategy.qmd
+          text: "12diii. Statistical methods \u2013 sampling strategy"
+        - href: guidelines/strobe/items/statistical-methods-sensitivity-analyses.qmd
+          text: "12e. Statistical methods \u2013 sensitivity analyses"
+        section: Methods
+      - contents:
+        - href: guidelines/strobe/items/participants-numbers.qmd
+          text: 13a. Participant numbers
+        - href: guidelines/strobe/items/participants-non-participation.qmd
+          text: "13b. Participants \u2013 non-participation"
+        - href: guidelines/strobe/items/participants-flow-diagram.qmd
+          text: "13c. Participants \u2013 flow diagram"
+        - href: guidelines/strobe/items/descriptive-data-participant-characteristics.qmd
+          text: "14a. Descriptive data \u2013 participant characteristics"
+        - href: guidelines/strobe/items/descriptive-data-missing-data.qmd
+          text: "14b. Descriptive data \u2013 missing data"
+        - href: guidelines/strobe/items/descriptive-data-follow-up-time.qmd
+          text: "14c. Descriptive data \u2013 follow-up time"
+        - href: guidelines/strobe/items/outcome-data.qmd
+          text: 15. Outcome data
+        - href: guidelines/strobe/items/main-results.qmd
+          text: 16a. Main results
+        - href: guidelines/strobe/items/main-results-category-boundaries.qmd
+          text: "16b. Main results \u2013 category boundaries"
+        - href: guidelines/strobe/items/main-results-risk.qmd
+          text: "16c. Main results \u2013 risk"
+        - href: guidelines/strobe/items/other-analyses.qmd
+          text: 17. Other analyses
+        section: Results
+      - contents:
+        - href: guidelines/strobe/items/key-results.qmd
+          text: 18. Key results
+        - href: guidelines/strobe/items/limitations.qmd
+          text: 19. Limitations
+        - href: guidelines/strobe/items/interpretation.qmd
+          text: 20. Interpretation
+        - href: guidelines/strobe/items/generalisability.qmd
+          text: 21. Generalisability
+        section: Discussion
+      - contents:
+        - href: guidelines/strobe/items/funding.qmd
+          text: 22. Funding
+        section: Other information
+      section: Full guidance
+    - href: guidelines/strobe/strobe-writing-guide.qmd
+      text: Writing guide
+    - href: guidelines/strobe/strobe-checklist.qmd
+      text: Checklist
+    - href: guidelines/strobe/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: strobe
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
     - href: guidelines/srqr/index.qmd
       text: Overview of SRQR
     - contents:
@@ -1452,5 +1222,236 @@ website:
       text: FAQs
     foreground: secondary
     id: srqr
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/arrive/index.qmd
+      text: Overview of ARRIVE
+    - contents:
+      - contents:
+        - contents:
+          - href: guidelines/arrive/items/groups-being-compared.qmd
+            text: 1a. The groups being compared
+          - href: guidelines/arrive/items/experimental-unit.qmd
+            text: 1b. The experimental unit
+          section: 1. Study Design
+        - contents:
+          - href: guidelines/arrive/items/number-of-experimental-units.qmd
+            text: 2a. Number of Experimental Units
+          - href: guidelines/arrive/items/sample-size-justification.qmd
+            text: 2b. Sample Size Justification
+          section: 2. Sample Size
+        - contents:
+          - href: guidelines/arrive/items/inclusion-and-exclusion-criteria.qmd
+            text: 3a. Inclusion and exclusion criteria
+          - href: guidelines/arrive/items/exclusions-and-attritions.qmd
+            text: 3b. Exclusions and Attritions
+          - href: guidelines/arrive/items/numbers-analysed.qmd
+            text: 3c. Numbers analysed
+          section: 3. Inclusion and Exclusion Criteria
+        - contents:
+          - href: guidelines/arrive/items/randomisation.qmd
+            text: 4a. Randomisation Use
+          - href: guidelines/arrive/items/confounders.qmd
+            text: 4b. Confounders
+          section: 4. Randomisation
+        - href: guidelines/arrive/items/blinding.qmd
+          text: 5. Blinding/Masking
+        - contents:
+          - href: guidelines/arrive/items/outcome-measures.qmd
+            text: 6a. Outcome Measures
+          - href: guidelines/arrive/items/primary-outcome-measure.qmd
+            text: 6b. Primary Outcome Measure
+          section: 6. Outcome Measures
+        - contents:
+          - href: guidelines/arrive/items/statistical-methods-analysis-methods.qmd
+            text: 7a. Statistical Methods used for each Analysis
+          - href: guidelines/arrive/items/statistical-methods-assumptions.qmd
+            text: 7b. Statistical Assumptions
+          section: 7. Statistical Methods
+        - contents:
+          - href: guidelines/arrive/items/experimental-animals-species-appropriate-details.qmd
+            text: 8a. Species-appropriate Details
+          - href: guidelines/arrive/items/experimental-animals-further-information.qmd
+            text: 8b. Further Information
+          section: 8. Experimental Animals
+        - contents:
+          - href: guidelines/arrive/items/experimental-procedures-what-was-done.qmd
+            text: 9a. What was done
+          - href: guidelines/arrive/items/experimental-procedures-when-and-how-often.qmd
+            text: 9b. When and how often procedures were conducted
+          - href: guidelines/arrive/items/experimental-procedures-where.qmd
+            text: 9c. Where procedures were conducted
+          - href: guidelines/arrive/items/experimental-procedures-why.qmd
+            text: 9d. Why procedures were done
+          section: 9. Experimental Procedures
+        - contents:
+          - href: guidelines/arrive/items/results-summary-per-group.qmd
+            text: 10a. Summary/Descriptive Statistics per group
+          - href: guidelines/arrive/items/results-effect-sizes.qmd
+            text: 10b. Effect sizes and confidence intervals
+          section: 10. Results
+        section: Essential 10
+      - contents:
+        - href: guidelines/arrive/items/abstract.qmd
+          text: 11. Abstract
+        - contents:
+          - href: guidelines/arrive/items/rationale.qmd
+            text: 12a. Rationale
+          - href: guidelines/arrive/items/species-and-model.qmd
+            text: 12b. Species and model
+          section: 12. Background
+        - href: guidelines/arrive/items/objectives.qmd
+          text: 13. Objectives
+        - href: guidelines/arrive/items/ethical-statement.qmd
+          text: 14. Ethical statement
+        - href: guidelines/arrive/items/housing-husbandry.qmd
+          text: 15. Housing and husbandry
+        - contents:
+          - href: guidelines/arrive/items/reducing-pain-suffering-distress.qmd
+            text: 16a. Reducing pain, suffering, and distress
+          - href: guidelines/arrive/items/adverse-events.qmd
+            text: 16b. Adverse events
+          - href: guidelines/arrive/items/humane-endpoints.qmd
+            text: 16c. Humane endpoints
+          section: 16. Animal Care and Monitoring
+        - contents:
+          - href: guidelines/arrive/items/interpretation-implications.qmd
+            text: 17a. Interpretation/scientific implications
+          - href: guidelines/arrive/items/limitations.qmd
+            text: 17b. Limitations
+          section: 17. Interpretation/ scientific implications
+        - href: guidelines/arrive/items/generalisability.qmd
+          text: 18. Generalisability/translation
+        - href: guidelines/arrive/items/protocol-registration.qmd
+          text: 19. Protocol registration
+        - href: guidelines/arrive/items/data-access.qmd
+          text: 20. Data Access
+        - contents:
+          - href: guidelines/arrive/items/conflicts-of-interests.qmd
+            text: 21a. Conflicts of interests
+          - href: guidelines/arrive/items/funding.qmd
+            text: 21b. Funding
+          section: 21. Declaration of interests
+        section: Recommended Set
+      section: Full guidance
+    - href: guidelines/arrive/arrive-writing-guide.qmd
+      text: Writing guide
+    - href: guidelines/arrive/arrive-checklist.qmd
+      text: Checklist
+    - href: guidelines/arrive/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: arrive
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/stard/index.qmd
+      text: Overview of STARD
+    - contents:
+      - contents:
+        - href: guidelines/stard/items/identification.qmd
+          text: 1. Identification as a study of diagnostic accuracy
+        section: Title or abstract
+      - contents:
+        - href: guidelines/stard/items/abstract.qmd
+          text: 2. Abstract
+        section: Abstract
+      - contents:
+        - href: guidelines/stard/items/background.qmd
+          text: 3. Background
+        - href: guidelines/stard/items/objectives.qmd
+          text: 4. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/stard/items/study-design.qmd
+          text: 5. Study design
+        - contents:
+          - href: guidelines/stard/items/eligibility-criteria.qmd
+            text: 6. Eligibility criteria
+          - href: guidelines/stard/items/identifying-eligible-participants.qmd
+            text: 7. Identifying eligible participants
+          - href: guidelines/stard/items/setting-location-dates.qmd
+            text: 8. Setting, location, and dates
+          - href: guidelines/stard/items/consecutive-random-convenience-series.qmd
+            text: 9. Consecutive, random or convenience series
+          section: Participants
+        - contents:
+          - href: guidelines/stard/items/index-test.qmd
+            text: 10a. Index test
+          - href: guidelines/stard/items/reference-standard.qmd
+            text: 10b. Reference standard
+          - href: guidelines/stard/items/reference-standard-rationale.qmd
+            text: 11. Reference standard rationale
+          - href: guidelines/stard/items/index-test-cut-offs-categories.qmd
+            text: 12a. Index test cut-offs or categories
+          - href: guidelines/stard/items/reference-standard-cut-offs-categories.qmd
+            text: 12b. Reference standard cut-offs or categories
+          - href: guidelines/stard/items/information-available-index.qmd
+            text: 13a. Information available to performers or readers of the index
+              test
+          - href: guidelines/stard/items/information-available-reference.qmd
+            text: 13b. Information available to reference standard assessors
+          section: Test Methods
+        - contents:
+          - href: guidelines/stard/items/analysis-methods.qmd
+            text: 14. Analysis methods
+          - href: guidelines/stard/items/indeterminate-results.qmd
+            text: 15. Indeterminate results
+          - href: guidelines/stard/items/missing-data.qmd
+            text: 16. Missing data
+          - href: guidelines/stard/items/variability.qmd
+            text: 17. Variability
+          - href: guidelines/stard/items/intended-sample-size.qmd
+            text: 18. Intended sample size
+          section: Analysis
+        section: Methods
+      - contents:
+        - contents:
+          - href: guidelines/stard/items/flow-diagram.qmd
+            text: 19. Participant flow diagram
+          - href: guidelines/stard/items/baseline-characteristics.qmd
+            text: 20. Baseline characteristics
+          - href: guidelines/stard/items/participants-with-target-condition.qmd
+            text: 21a. Participants with the target condition
+          - href: guidelines/stard/items/participants-without-target-condition.qmd
+            text: 21b. Participants without the target condition
+          - href: guidelines/stard/items/time-interval.qmd
+            text: 22. Time interval
+          section: Participants
+        - contents:
+          - href: guidelines/stard/items/index-reference-results.qmd
+            text: 23. Index test and reference standard results
+          - href: guidelines/stard/items/estimates-of-accuracy.qmd
+            text: 24. Estimates of accuracy
+          - href: guidelines/stard/items/adverse-events.qmd
+            text: 25. Adverse events
+          section: Test Results
+        section: Results
+      - contents:
+        - href: guidelines/stard/items/limitations.qmd
+          text: 26. Limitations
+        - href: guidelines/stard/items/implications-for-practice.qmd
+          text: 27. Implications for Practice
+        section: Discussion
+      - contents:
+        - href: guidelines/stard/items/registration.qmd
+          text: 28. Registration
+        - href: guidelines/stard/items/protocol.qmd
+          text: 29. Protocol
+        - href: guidelines/stard/items/funding.qmd
+          text: 30. Funding
+        section: Other information
+      section: Full guidance
+    - href: guidelines/stard/stard-writing-guide.qmd
+      text: Writing guide
+    - href: guidelines/stard/stard-checklist.qmd
+      text: Checklist
+    - href: guidelines/stard/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: stard
     search: true
     style: docked

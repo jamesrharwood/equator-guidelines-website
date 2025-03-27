@@ -69,8 +69,8 @@ You can describe items in the article body, or in tables, figures, or supplement
 
 ## How to cite {#sec-cite .appendix}
 
-Describe how you used {{< meta acronym >}} at the end of your Methods section e.g., 
+Describe how you used {{< meta acronym >}} at the end of your Methods section, referencing the resources you used e.g.,
 
-> 'We used the {{< meta acronym >}}[@WritingGuide] writing guide to draft this manucript, and the {{< meta acronym >}} reporting checklist[@Checklist] when writing this manuscript, included in supplement A'
+> 'We used the {{< meta acronym >}}[@WritingGuide] writing guide to draft this manuscript, and the {{< meta acronym >}} reporting checklist[@Checklist] when editing, included in supplement A'
 
-Then reference the resources you used.
+Remember to include your completed checklist as a supplement when publishing so that readers can easily find information and see how you have interpreted the guidance.

@@ -14,7 +14,7 @@ description: >
 
 If you have ever taken a holiday, you will know there is a good way and a bad way to pack a suitcase. 
 
-The bad way is to fling things in, as and when you think of them. Often rushed, the disorganised packer gets stressed, struggles to close their bloated bag. Upon unpacking, their clothes are creased, possessions jumbled, and their toothbrush is forgotten at home. 
+The bad way is to fling things in, as and when you think of them. Rushed and stressed, the disorganised packer struggles to close their bloated bag and upon unpacking, their clothes are creased, possessions jumbled, and their toothbrush is forgotten at home.
 
 An organised packer has a process. Often this begins with a list, laying everything out in front of you, then carefully deciding which items belong in the suitcase, which will go in carry-on, and how clothes can be folded to minimise space and creasing. The organised packer feels relaxed and enjoys their journey in the confidence that they've forgotten nothing. 
 
@@ -47,7 +47,7 @@ When organising content, consider how important the information will be to most 
 By now, your notes should be grouped into paragraphs, separated into main text and supplementary materials, and be filled with all of the information, data, and sources you'll need to write. You should have drafted your tables and planned your figures. 
 
 ::: {.callout-tip}
-Now is a good moment to get feedback from a colleague. Your notes will be brief and rough, but someone familiar with the work will be able to check your proposed structure and content. 
+Now is a good moment to talk a colleague through your outline. Your notes will be brief and rough, but someone familiar with the work will be able to give feedback on your proposed structure and content. 
 :::
 
 ### Step 4: Writing the First Draft
@@ -57,7 +57,7 @@ Once you are ready to start drafting, open a new document. Your writing guide is
 We suggest you begin by drafting the Methods section as this is generally the easiest to get started with, then the Results before the Introduction, Discussion and, finally, the Abstract and Title. When drafting, try not to use your delete key. The aim is get words on the page, no matter how messy they are. If you get stuck on something, consider using a placeholder (like `#TODO`) and come back to it later. 
 
 ::: {.callout-tip}
-This is another good moment to get feedback from colleagues. Ask whether the structure and flow makes sense. Tell them that it's only a first draft, so you don't need them to edit your spelling, grammar, or clarity.
+This is another good moment to get feedback from colleagues. Give them your manuscript and ask whether the structure and flow make sense. Because it's only a first draft, you may want to ask them to not worry about spelling, grammar, or conciseness.
 :::
 
 ### Step 5: Revision and editing
@@ -69,7 +69,7 @@ Edit your text to make it clear, concise and engaging.
 Once the text is ready to submit, complete the reporting checklist for the reporting guideline you used. 
 
 :::{.callout-tip}
-Consider asking a colleague to complete the reporting checklist for you. This will allow you to check whether your interpretation of the guidance requirements matches theirs, and whether you have presented information clearly. They can do this as part of a final round of feedback, where they do a more detailed edit of your writing. 
+This is an opportunity for a final round of feedback from a colleague. You may want to ask them to do a more through edit of your writing, fixing any errors and reworking sentences for clarity and conciseness. Consider asking a colleague to complete the reporting checklist on their own as part of this review, or to look through the checklist you already completed. This will allow you to check whether your interpretation of the guidance requirements matches theirs, and whether you have presented information clearly. 
 :::
 
 Add the completed reporting checklist as a supplement, and ensure you have credited the reporting guideline, checklist, and writing guide. 

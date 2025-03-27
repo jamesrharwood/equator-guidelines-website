@@ -9,40 +9,41 @@ checklist: &id001
 - Methods:
   - 5_study_design.md
   - Participants:
-    - 6_participants.md
-    - 7_participants.md
-    - 8_participants.md
-    - 9_participants.md
+    - 6_eligibility_criteria.md
+    - 7_identifying_eligible_participants.md
+    - 8_setting_location_dates.md
+    - 9_consecutive_random_convenience_series.md
   - Test Methods: 
-    - 10a_test_methods.md
-    - 10b_test_methods.md
-    - 11_test_methods.md
-    - 12a_test_methods.md
-    - 12b_test_methods.md
-    - 13a_test_methods.md
-    - 13b_test_methods.md
+    - 10a_index_test.md
+    - 10b_reference_standard.md
+    - 11_reference_standard_rationale.md
+    - 12a_index_test_cut_off_categories.md
+    - 12b_reference_standard_cut_off_categories.md
+    - 13a_information_available_index.md
+    - 13b_information_available_reference.md
   - Analysis: 
-    - 14_analysis.md
-    - 15_analysis.md
-    - 16_analysis.md
-    - 17_analysis.md
-    - 18_analysis.md
+    - 14_analysis_methods.md
+    - 15_indeterminate_results.md
+    - 16_missing_data.md
+    - 17_variability.md
+    - 18_intended_sample_size.md
 - Results:
   - Participants:
-    - 19_participants.md
-    - 20_participants.md
-    - 21a_participants.md
-    - 21b_participants.md
-    - 22_participants.md
+    - 19_flow_diagram.md
+    - 20_baseline_characteristics.md
+    - 21a_participants_with_target_condition.md
+    - 21b_participants_without_target_condition.md
+    - 22_time_interval.md
   - Test Results:
-    - 23_test_results.md
-    - 24_test_results.md
-    - 25_test_results.md
+    - 23_index_reference_results.md
+    - 24_estimates_of_accuracy.md
+    - 25_adverse_events.md
 - Discussion:
-  - 26_.md
-  - 27_.md
+  - 26_limitations.md
+  - 27_implications_for_practice.md
 - Other information:
-  - 28_.md
-  - 29_.md
-  - 30_.md
+  - 28_registration.md
+  - 29_protocol.md
+  - 30_funding.md
 web: *id001
+writing_guide: *id001

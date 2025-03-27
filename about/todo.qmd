@@ -1,0 +1,42 @@
+## Done
+
+- Convert html article into markdown
+- Copy items to files
+- Create bibliography files and format citations
+- Ensure figures and tables render properly 
+- URL Ids and titles
+
+## Kinda done 
+
+- Clarify when the RG should be used
+- Clarify when the RG should *not* be used
+- Clarify when the RG can be adjusted for a use case it wasn't designed for 
+- Glossary
+- Summarise design process
+
+## Not done
+
+- Case studies:
+    - researchers (ECR and experienced)
+    - editors (used old ones)
+    - reviewers / synthesisers. 
+- About EQUATOR pages
+    - up to date photo
+- General writing instructions:
+    - introduction
+    - discussion
+- For each RG:
+    - FAQs
+    - For each RG item:
+        - Ensure the checklist text matches the explanation
+            - no new subitems within explanation text 
+            - all checklist subitems explained
+        - Fill missing explanations, ensuring justifications focus on why readers need info, not on study design.
+        - Edit subitems that include assumptions about what an author has done. 
+        - Edit voice to speak directly to authors, removing passive voice 
+        - Split composite items 
+        - Present conditional subitems as "If X, describe Y"
+        - Create writing prompts
+        - Re-order for writing guide
+    - Get quotes from 3+ research users and add these to the items. 
+    - Get/create more examples, adding annotations if possible. 

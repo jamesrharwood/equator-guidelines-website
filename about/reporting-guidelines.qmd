@@ -8,23 +8,26 @@ description: '{{< lipsum 1 >}}'
 
 ## What are reporting guidelines? {#reporting-guidelines}
 
-Reporting guidelines are recommendations of information to include when writing up a piece of research, 
-so that your work can be understood and used by everyone, including other researchers, editors, reviewers, 
-clinicians, evidence synthesisers, people who work in a different subject area to you, a different country, 
-have a different background, or who are reading your work decades in the future. 
+Reporting guidelines are recommendations of information to include when writing up research. They ensure research can be understood and used by a wide audience including other researchers, editors, reviewers, 
+clinicians, evidence synthesisers, and readers from different fields, countries, or background, even decades in the future. 
 
-Reporting guidelines help you _write_. They will help you write academic articles, protocols, and funding applications. 
-Reporting guidelines make writing less daunting by breaking the process up into bite-size chunks, without dictating the final structure. 
-They help authors lay out the key information – the building blocks – of their work. Authors then decide how best to arrange these blocks 
+Reporting guidelines help researchers write academic articles, protocols, and funding applications. 
+They make writing less daunting by breaking the process up into bite-size chunks, without dictating the final structure. 
+They help authors lay out the key information – the building blocks – of their work. Authors then decide how best to arrange this information 
 to build a compelling and clear account. 
 
-However, reporting guidelines are _not_ design standards or appraisal tools. They do not dictate how research must be conducted. Reporting and appraisal are separate but linked: for a reviewer to judge a study's quality, that study must be well reported. Imagine you are looking at second-hand car adverts. Would you trust a seller that omits information like mileage or condition? You need these details before you can make a judgement. The same is true with appraising research. Reporting guidelines help authors include the details their readers will need to fully understand and trust the work.
+However, reporting guidelines are _not_ design standards or tools for quality appraisal. They do not dictate how research must be conducted, but they do ensure research is described clearly enough for readers to understand its strengths and limitations. Just as you would not buy a cook book if the recipe pages were torn out, readers cannot evaluate or replicate research without complete information. 
 
-Reporting guidelines were created because authors frequently omit important information. These omissions prevent other researchers from understanding or replicating research. Omissions prevent clinicians from being able to use a new intervention. Omissions mean patients cannot judge the pros and cons of treatment options. Evidence synthesisers are less likely to find poorly reported work, and less likely to include it in reviews. Hence research has more impact when its fully reported.
+Why do we need them? Because for decades, researchers have missed out important details because of oversight, or because they have not considered their audience's needs. These gaps make it harder for others to replicate, understand, or apply the findings — and may exclude research from reviews or clinical use. This is a massive source of waste that pervades all research areas. Well-reported research has greater 
+impact.
 
-Reporting guidelines are made by groups of experts. Most follow a systematic, consensus development method. Most development groups begin by creating a checklist and publishing it in an academic article. Some groups then publish a longer explanation paper, that gives context and examples for each checklist item. 
+<!-- #TODO add citations -->
 
-Because these checklists and explanations can be difficult for authors to find and use, we (the EQUATOR Network) made this website. We have worked with the developers of the most-used, open access reporting guidelines to make their resources more user-friendly. To help authors use reporting guidelines as early as possible in their writing process, we created writing guides.
+Reporting guidelines are made by expert groups. Most groups follow a systematic, consensus development method to create and publish a checklist, sometimes accompanied by a longer explanation paper that provides context and examples for each checklist item. 
+
+To make these resources easier to use, we at the EQUATOR Network built this website in collaboration with authors, editors, and the developers of the most-used open access reporting guidelines. We also created writing guides to help authors apply reporting guidelines early in their writing process. 
+
+<!-- #TODO add citation -->
 
 ## Writing guides {#writing-guides}
 
