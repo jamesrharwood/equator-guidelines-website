@@ -1,0 +1,87 @@
+---
+title-block-banner: rgb(11, 167, 87)
+title-block-banner-color: white
+title: How reporting guidelines help researchers and the scientific community
+date: last-modified
+description: Researchers, editors, and reviewers discuss how they use reporting guidelines.
+---
+
+## John Doe – Early Career Researcher
+
+As someone who’s new to academic writing, I honestly didn’t know where to start—I didn’t have a writing process, and staring at the blank page felt overwhelming. I wasn’t sure what I was supposed to include or how best to structure it all. My PhD supervisor suggested I use a reporting guideline, and they were a total game-changer. They gave me something concrete to work with—like a to-do list that helped me get past that initial block and start putting information down on the page.
+
+The first time I used one, I found it a bit tricky. It felt like a lot to take in, and although it helped me jot down information, my manuscript felt really long and a bit disjointed. But then I realised I didn’t have to follow it rigidly like a script. It was just a starting point. Once I had the key information written out, I could decide how best to organise it to make the paper flow well. Some things worked better in a table, some in the main text, and I moved a few details into the supplementary materials. That flexibility made it feel much more manageable.
+
+I was also a bit nervous about being too transparent—especially when it came to discussing limitations. But I’ve come to realise that journals and reviewers (and my supervisor and viva assessors!) really value honesty and thoughtful reflection. It shows that you understand your work deeply and are engaging with it critically. Overall, using reporting guidelines has made me feel much more confident and in control of the writing process.
+
+<!-- * New to academic writing, I didn't really have a writing process and found it hard to start writing an article.
+* I found it especially hard to begin, and to tackle the blank page. 
+* Reporting Guidelines helped me get started, acting as a todo list to remind me of what information to put down on the page. 
+* When I first tried to follow a reporting guideline I found it a bit hard, but once I realised it was just the first step, and that I then could decide where to report information and how to organise it to make my writing flow. I decided to put some information in a supplement, some in a table, and some in the article text. 
+* I was nervous about transparency, but came to realise journals valued thoughtful consideration of limitations. -->
+
+![](https://placehold.co/500x500?text=Img+of+Contributor)
+
+## Jane Doe – Experienced Researcher
+
+I first came across reporting guidelines when a journal asked me to complete a checklist at the point of submission. At the time, I found it a bit annoying—after spending weeks refining and polishing the manuscript, the idea of going back to adjust the structure or add missing details felt like frustrating red tape. I completed the checklist, of course, but it felt like a box-ticking exercise rather than something helpful.
+
+The next time I wrote a paper, I decided to use the relevant reporting guideline right from the start—just to see if it made the process smoother. It turned out to be a really practical tool. Having a clear list of what information to include made it easier to draft the paper, and I found myself making fewer revisions later on. Over time, using guidelines has become second nature. I now refer to them not just when writing papers, but also when planning new studies, preparing funding applications, and writing protocols. By the time I get to the journal submission stage, completing the checklist is quick and reassuring—I already know I’ve covered what’s important.
+
+I also use reporting guidelines when teaching my students how to write. For researchers who are still developing their writing habits, these guidelines provide structure and clarity. They help demystify what’s expected and build a strong foundation for clear, transparent research communication. If you’re just starting out, I’d really encourage you to give them a try—not just at the end of your writing, but as a tool to guide you from the beginning. It’s made a big difference to my work
+
+<!-- * I first came across reporting guidelines when asked to complete a reporting checklist by a journal. 
+* Initially I found that a bit annoying. It felt like red tape and I didn't want to edit the article I'd just spent ages polishing. 
+* But next time I decided to use the guideline earlier in my writing, to help me put a draft together. 
+* I've now used the guideline so many times that it has become almost automatic. I refer back to the guideline when I'm planning a new study, writing a funding application, a protocol, when drafting a manuscript. So by the time I submit to a journal, completing the checklist is an easy, reaffirming task. 
+* I use reporting guidelines when teaching my students how to write.  -->
+
+![](https://placehold.co/500x500?text=Img+of+Contributor)
+
+## Julius Doe – Editor of prestigious journal
+
+As a senior managing editor of a medical journal, I care deeply about the quality and usability of the research we publish—and that starts with good reporting. I’ve instructed my editorial and peer review teams to check all submissions against the appropriate reporting guidelines, whether that’s CONSORT, STROBE, PRISMA, or another guideline. They use these guidelines to assess whether key information is present, clear, and transparent—such as how the study was conducted, who was involved, what interventions were used, and how outcomes were measured. We don’t expect every study to be perfect—research is complex, and limitations are inevitable—but we do expect authors to report their work fully and honestly. A clearly reported study, with a thoughtful discussion of its limitations, is far more valuable to the scientific community than one that hides its flaws. Reporting guidelines help ensure that published research can be understood, used, built upon, and cited—and that’s essential for real-world impact, and essential to maintaining our reputation as a leading journal.
+
+<!-- * an important decision maker that values good reporting
+* have instructed their team to check against reporting guidelines as part of evaluation . Describe how they do this. 
+* don't expect perfect study, but do expect perfect reporting, and thoughtful discussion of limitations. -->
+
+![](https://placehold.co/500x500?text=Img+of+Contributor)
+
+## Janet Doe – Possible second editor or technical editor
+
+I work in the editorial office of a well-respected medical publisher, where my team supports dozens of journals and handles over 100 new submissions every week. Our role is to ensure that each manuscript meets a set of minimal standards before it’s passed on to the academic editor for peer review. These initial checks include confirming that ethical declarations are in place, the manuscript is properly structured, and—crucially—that it adheres to the appropriate reporting guidelines.
+
+When a reporting guideline is required, we expect authors to submit a completed checklist alongside their manuscript. To help maintain quality and consistency, our team typically selects a few items at random from the checklist and cross-checks them against the manuscript to ensure the information is actually there. If a checklist is missing or key information hasn’t been reported, we contact the authors and hold the submission until the issues are resolved.
+
+These requirements aren’t meant to be obstacles—they’re in place to help ensure your research is clear, complete, and ready for peer review. Using reporting guidelines from the start will not only improve the quality of your manuscript but also help it move through the editorial process more smoothly.
+
+<!-- 
+* I work in the editorial office of a well respected publisher, taking care of scores of medical journals
+* My team checks over 100 submissions each week. We make sure they meet our minimal standards so that they can be passed on to the academic editor. 
+* These minimal checks include ethical declarations, structure, and adherence to reporting guidelines. 
+* We make sure authors include a completed reporting checklist when necessary. We normally choose a few items at random, and cross-check the author's checklist against their manuscript. 
+* We require authors to provide missing checklists and information before the manuscript can be processed further.  -->
+
+![](https://placehold.co/500x500?text=Img+of+Contributor)
+
+## June Doe – Peer reviewer and evidence synthesiser
+
+When I peer review manuscripts for journals, I always refer to reporting guidelines to check whether the study has been reported clearly and completely. These guidelines help me spot missing details—things like how the sample was selected, exactly what interventions were used, or how outcomes were measured. I also recommend reporting guidelines to junior colleagues who are new to peer reviewing—they’re a great way to structure your review and make sure you’re thorough. Although I always remind my colleagues that checking for adherence to a reporting guideline is only the first step of a good review. Information has to be present before you can consider the strengths and weaknesses of research.
+
+I ask authors to fill in those gaps, not just so I can properly assess the quality and validity of the research, but because I know those details matter to other people down the line. Even if something doesn’t seem essential for the initial peer review, including it helps ensure your work is usable, reproducible, and ultimately more impactful. 
+
+For example, I do a lot of systematic reviews and meta-analyses of health research. To do my job effectively, I need to be able to find relevant studies, understand exactly what was done, extract key information, and compare results across multiple papers. When articles are poorly reported — e.g., the intervention isn’t clearly defined, the patient group isn’t described, or key terms are missing from the title and abstract — it can be incredibly difficult to even locate them through database searches. If important details are vague or missing, I may have to exclude the study altogether because I can’t be confident about what was done or how it fits with the other evidence. That not only weakens the quality of the review, but also means the original study misses out on being cited or informing future research and policy. The research articles that are most useful to me are the ones where all the key information is clearly reported, limitations are acknowledged, and reporting guidelines have been followed. These are the studies I can include, cite, and build on—so they ultimately have more influence and impact. 
+
+<!-- 
+* When peer reviewing, I use reporting guidelines to check for good reporting and asks authors to provide missing info. 
+* I do this partly because it allows me to assess quality, but also because I know that the details are going to be important to other research-users further down the line, so it's worth including the info even if it's not strictly necessary for the review. One such use case is evidence synthesis.
+
+* When synthesising evidence, researchers need to be able to find and understand research articles, extract information, and compare studies. 
+* finding poorly reported articles is hard. Articles may not be found if the intervention is poorly defined, or the patient group not described. If key words are absent from the title and abstract the article might not be indexed properly by search engines. 
+* Poorly reported research articles might be excluded from the review if information is missing or ambiguous. This makes the review poorer quality, and means the research article misses out on being being cited or influencing policy.
+* For me, research articles are best when I can easily find all the information I need. I will include and cite an article that is complete, adheres to a reporting guideline, and discusses its limitations. Research articles that adhere to reporting guidelines will, therefore, have more impact.  -->
+
+![](https://placehold.co/500x500?text=Img+of+Contributor)
+
+<!-- #TODO patient voices - How to include patient voices in this. Could be part of someone else's testimony? Or we get quotes from patients? -->

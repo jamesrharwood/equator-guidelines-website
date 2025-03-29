@@ -80,33 +80,37 @@ class WebPaths(DestinationPaths):
         self.items_dir = self.items_dir
         self.faqs = join(self.dir, 'faqs.qmd')
         self.faqs_partial = join(self.partials_dir, 'faqs.md')
-        self.about_reporting_guidelines = str(Path('/about', 'reporting-guidelines.qmd'))
-        self.about_writing_guides = str(Path('/about', 'writing-using-reporting-guidelines.qmd'))
+        self.about_reporting_guidelines = str(Path('about', 'reporting-guidelines.qmd'))
+        self.about_writing_guides = str(Path('about', 'writing-using-reporting-guidelines.qmd'))
         self.applicability = self.index + '?#applicability' #TODO replace with a constant
+        self.training = 'training.qmd'
 
 class HtmlPaths():
     URL = metadata['website']['site-url']
     def __init__(self, dirname):
         self.web_paths = WebPaths(dirname)
         self.applicability = self.index + '?#applicability' #TODO replace with a constant
-        self.checklist = str(Path(self.web_paths.checklist).with_suffix('.docx'))
-        self.writing_guide = str(Path(self.URL, self.web_paths.writing_guide).with_suffix('.docx'))
-        self.about_reporting_guidelines = str(Path(self.URL, 'about', 'reporting-guidelines.html'))
-        self.about_writing_guides = str(Path(self.URL, 'about', 'writing-using-reporting-guidelines.html'))
+        self.checklist = self.make_path(self.web_paths.checklist, suffix='.docx')
+        self.writing_guide = self.make_path(self.web_paths.writing_guide, suffix='.docx')
+        self.about_reporting_guidelines = self.make_path(self.web_paths.about_reporting_guidelines)
+        self.about_writing_guides = self.make_path(self.web_paths.about_writing_guides)
+        self.training = self.make_path(self.web_paths.training)
         self.full_guideline = self.index
         self.home_page = self.URL
 
     def make_item_path(self, filename):
-        path = Path(self.URL, self.web_paths.items_dir, filename)
-        return str(path.with_suffix('.html'))
+        return self.make_path(self.web_paths.items_dir, filename)
+    
+    def make_path(self, *paths, suffix='.html'):
+        assert suffix.startswith('.')
+        return str(Path(self.URL, *paths).with_suffix(suffix))
     
     def __getattr__(self, attr):
         val = getattr(self.web_paths, attr)
-        if type(val) is str:
-            path = Path(self.URL, val)
-            if val.endswith('qmd'):
-                path = path.with_suffix('.html')
-            val = str(path)
+        if not type(val) is str:
+            raise Exception('Attempting to create a html path from a web_path that is not a string for attribute: ', attr)
+        if val.endswith('qmd'):
+            val = self.make_path(val)
         return val
 
 

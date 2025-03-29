@@ -242,6 +242,30 @@ Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesi
 ::: {.about-equator id=about-equator}
 ::: {.content-block}
 
+## Training
+
+::: {.grid}
+
+::: {.g-col-md-8 .g-col-12}
+
+Want to feel more confident when writing and publishing your research? Want to write quickly, clearly, and concisely? The UK EQUATOR Centre’s Publication School is a hands-on course designed for early-career researchers who want to take control of the writing process and get their work out into the world. 
+
+[Learn more »](training.qmd)
+
+:::
+<!-- .g-col-md-8 -->
+
+::: {.g-col-md-4 .g-col-12}
+
+![](https://placehold.co/600x400?text=Img+online+training)
+
+:::
+<!-- .g-col-md-4 -->
+
+:::
+<!-- .grid -->
+
+
 ## The EQUATOR Network
 
 ::: {.grid}
@@ -251,7 +275,7 @@ EQUATOR stands for Enhancing the QUAlity and Transparency Of health Research.
 
 Our mission is to improve the reliability and value of published health research literature by promoting transparent and accurate reporting and wider use of robust reporting guidelines. We are the first coordinated attempt to tackle the problems of inadequate reporting systematically and on a global scale.
 
-We advance the work done by individual guideline development groups. We maintain a database of reporting guidelines, run [training courses](https://www.equator-network.org/category/events/upcoming-events/) on how to write research articles, have resources for [publishers](https://www.equator-network.org/toolkits/using-guidelines-in-journals/), [peer reviewers](https://www.equator-network.org/toolkits/peer-reviewing-research/), and reporting guideline [developers](https://www.equator-network.org/toolkits/developing-a-reporting-guideline/).  
+We advance the work done by individual guideline development groups. We maintain a database of reporting guidelines, run [training courses](training.qmd) on how to write research articles, have resources for [publishers](https://www.equator-network.org/toolkits/using-guidelines-in-journals/), [peer reviewers](https://www.equator-network.org/toolkits/peer-reviewing-research/), and reporting guideline [developers](https://www.equator-network.org/toolkits/developing-a-reporting-guideline/).  
 
 We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-centre/) (our head office), [Canada](https://www.equator-network.org/about-us/canadian-equator-centre/), [Australia](https://www.equator-network.org/about-us/australasian-equator-centre/), [France](https://www.equator-network.org/about-us/french-equator-centre/), and [China](http://www.equator-chinese.org/pages/en/index/index.html). 
 

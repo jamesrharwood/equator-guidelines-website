@@ -170,13 +170,14 @@ paths:
     about_reporting_guidelines: https:/jamesrharwood.github.io/equator-guidelines-website/about/reporting-guidelines.html
     about_writing_guides: https:/jamesrharwood.github.io/equator-guidelines-website/about/writing-using-reporting-guidelines.html
     applicability: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/index.html?#applicability
-    checklist: guidelines/srqr/srqr-checklist.docx
+    checklist: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/srqr-checklist.docx
     full_guideline: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/index.html
     home_page: https://jamesrharwood.github.io/equator-guidelines-website/
+    training: https:/jamesrharwood.github.io/equator-guidelines-website/training.html
     writing_guide: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/srqr-writing-guide.docx
   qmd:
-    about_reporting_guidelines: /about/reporting-guidelines.qmd
-    about_writing_guides: /about/writing-using-reporting-guidelines.qmd
+    about_reporting_guidelines: about/reporting-guidelines.qmd
+    about_writing_guides: about/writing-using-reporting-guidelines.qmd
     applicability: guidelines/srqr/index.qmd?#applicability
     author_bios: guidelines/srqr/partials/author_bios.md
     bibliographies: guidelines/srqr/bibliographies
@@ -203,6 +204,7 @@ paths:
     related_resources: guidelines/srqr/partials/related_resources.md
     resource_definitions: guidelines/srqr/resource_definitions.yml
     summary: guidelines/srqr/summary.qmd
+    training: training.qmd
     uploads: guidelines/srqr/uploads
     use_for: guidelines/srqr/partials/use_for.md
     why_use: guidelines/srqr/partials/why_use.md

@@ -30,6 +30,7 @@ This guide is not a template. Don't expect to fill it in and end up with a finis
 
 Before you begin, double check that {{< meta acronym >}} is the [most applicable reporting guideline]({{< meta paths.html.applicability >}}) for your work. Other reporting guidelines have their own writing guide.
 
+The [UK EQUATOR Centre training]({{< meta paths.html.training >}}) helps researchers develop writing skills, processes, to use writing guides to create an outline, and to revise that outline into compelling, concise text. It covers many of the items of the {{< meta acronym >}} reporting guideline, including how to prepare effective abstracts, titles, introduction and discussion sections.
 :::
 
 ```{python}

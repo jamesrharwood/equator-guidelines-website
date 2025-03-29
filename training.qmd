@@ -1,0 +1,170 @@
+---
+title: Publication School
+title-block-banner: rgb(11, 167, 87)
+title-block-banner-color: white
+sections: true
+toc: false
+description: Write with confidence. Publish with impact.
+css:
+  - "css/index.css"
+  - "css/index3.css"
+  - "css/index4.css"
+  - "css/index5.css"
+link-external-icon: false
+---
+
+::: {.content-block}
+
+Led by writing and methodology experts from the UK EQUATOR Centre and Centre for Statistics in Medicine, this practical course gives you the tools to plan, write, and polish clear, accurate, and impactful health-related research – faster and with less stress. 
+
+Through practical exercises, group work, and expert feedback, you’ll learn exactly what journals look for and how to deliver it. 
+
+::: {.grid}
+
+::: {.g-col-md-8 .g-col-12}
+
+### What we cover
+
+* Planning your message and audience
+* Negotiating authorship
+* Choosing a journal and avoiding predators
+* Good writing style and habits
+* What to write where: recipes for a successful introduction, methods, results, and discussion
+* Using reporting guidelines
+* Revising your work for simplicity, clarity and completeness
+* Summarising your article in an effective title and abstract
+* Writing effective cover letters
+* Submission and dealing with peer review
+* Disseminating your article after publication
+
+:::
+<!-- .grid-col-8 -->
+
+::: {.g-col-md-4 .g-col-12}
+
+:::{.quote .card}
+
+:::{.quote-text-normal}
+"It broke academic writing for publication down into really manageable and achievable guidance points. Made me less worried about writing my next article!"
+:::
+
+::: {.quote-who}
+<img src="https://placehold.co/40x40?text=Ppt">
+
+::: {.name}
+[June 2019 participant]{.text-small}
+:::
+<!-- .name -->
+
+:::
+<!-- .quote-who -->
+
+:::
+<!-- .quote -->
+
+:::
+<!-- .grid-col-4 -->
+
+:::
+<!-- .grid -->
+
+:::
+<!-- .content-block -->
+
+::: {.gradient-background-1 .hero-banner}
+
+::: {.content-block}
+
+### Online training
+
+::: {.grid}
+
+::: {.g-col-md-8 .g-col-12}
+
+Online courses are held on Zoom over 4 half-days. We teach live using shared slides, webcam, and audio. Courses are highly interactive, with all-group discussion and small-group exercises. 
+
+Participants receive an electronic course workbook with all notes and exercises.
+
+**Fees for 4 half-days:**
+
+* Students / PPI representatives: £160
+* Academia / public sector / non-profit: £260
+* Commercial / private: £500
+
+:::
+<!-- .g-col-md-8 -->
+
+::: {.g-col-md-4 .g-col-12}
+
+![](https://placehold.co/600x400?text=Img+online+training)
+
+:::
+<!-- .g-col-md-4 -->
+
+:::
+<!-- .grid -->
+
+### In-person training
+
+::: {.grid}
+
+::: {.g-col-md-4 .g-col-12}
+
+![](https://placehold.co/600x400?text=Img+person+training)
+
+:::
+<!-- .g-col-md-4 -->
+
+::: {.g-col-md-8 .g-col-12}
+
+The in-person course is held in Oxford over 2 full days. Course fees include a light lunch and refreshments each day. All sessions are interactive, with all-group discussion and small-group exercises and discussion. Participants receive a hard-copy of the course workbook with all notes and exercises.
+
+**Fees for 2 days + lunch & refreshments:**
+
+* Students / PPI representatives: £#TODO
+* Academia / public sector / non-profit: £#TODO
+* Commercial / private: £#TODO
+
+:::
+<!-- .grid-col-8 -->
+
+:::
+<!-- .grid -->
+
+
+
+:::{.quote .card}
+
+:::{.quote-text-normal}
+"Would definitely recommend to those starting out in a research career."
+:::
+
+::: {.quote-who}
+<img src="https://placehold.co/40x40?text=Ppt">
+
+::: {.name}
+[November 2019 participant]{.text-small}
+:::
+<!-- .name -->
+
+:::
+<!-- .quote-who -->
+
+:::
+<!-- .quote -->
+
+:::
+<!-- .content-block -->
+
+:::
+<!-- .gradient-background -->
+
+::: {.content-block .center}
+
+::: {.hero-buttons .center}
+[Sign up for training](https://www.oxforduniversitystores.co.uk/short-courses/nuffield-department-of-orthopaedics-rheumatology-and-musculoskeletal-sciences/botnar-research-centre/equator-publication-school){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button"}
+:::
+
+Want tailored training for your team? Email equator@csm.ox.ac.uk to discuss custom training in person or online.
+
+:::

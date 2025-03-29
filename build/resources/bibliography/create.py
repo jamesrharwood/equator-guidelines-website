@@ -5,7 +5,7 @@ TEMPLATE = """\
     title={{{TITLE}}}, 
     url={{{URL}}}, 
     publisher={{The UK EQUATOR Centre}}, 
-    author={{#TODO}},
+    author={{AUTHOR}},
     editor={{#TODO}},
     booktitle={{The EQUATOR Network Reporting Guideline Platform}},
     year={{2025}},
@@ -20,6 +20,7 @@ def create(guideline):
     checklist = TEMPLATE.format(
         ID='Checklist',
         TITLE=f'The {guideline.config["acronym"]} Reporting Checklist', 
+        AUTHOR=guideline.config['authors'],
         URL=guideline.html_paths.checklist,
     )
     writing_guide = TEMPLATE.format(

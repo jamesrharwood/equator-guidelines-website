@@ -22,30 +22,30 @@ website:
     left:
       - href: index.qmd
         text: Reporting Guidelines
-      - href: https://www.equator-network.org/category/events/upcoming-events/
+      - href: training.qmd
         text: Training
       - text: Other Resources
         menu: 
           - text: Toolkits
-            href: index.qmd
+            href: https://www.equator-network.org/toolkits/
           - text: Library
-            href: index.qmd
+            href: https://www.equator-network.org/library/
           - text: Resources for Publishers
-            href: index.qmd
+            href: https://www.equator-network.org/toolkits/using-guidelines-in-journals/
           - text: Resources for Guideline Developers
-            href: index.qmd
-          - text: Resources for Librarians
-            href: index.qmd
+            href: https://www.equator-network.org/toolkits/developing-a-reporting-guideline/
+          - text: Resources for Peer Reviewers
+            href: https://www.equator-network.org/toolkits/peer-reviewing-research/
       - text: About EQUATOR
         menu: 
           - text: The EQUATOR Network
-            href: index.qmd
+            href: https://www.equator-network.org/about-us/equator-network-what-we-do-and-how-we-are-organised/
           - text: Blog
-            href: index.qmd
+            href: https://www.equator-network.org/category/blog/
           - text: News
-            href: index.qmd
+            href: https://www.equator-network.org/category/news/
           - text: Contact
-            href: index.qmd
+            href: https://www.equator-network.org/contact/
   page-footer:
     left: |
       Created by the
