@@ -38,7 +38,7 @@ img.logo-smaller {
     max-width: 3rem;
 }
 
-.quarto-title-block p, li{
+.quarto-title-block p, .quarto-title-block li{
     font-size: 1.25rem;
 }
 

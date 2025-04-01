@@ -1,9 +1,10 @@
-@import "./index3.css"
+@import "./index3.css";
 
 /* css styles */
+
 section {
-    padding-bottom: 20px;
-    padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 abbr {
@@ -54,7 +55,7 @@ figcaption {
 }
 
 table p, table li {
-  font-size: var(--bs-body-font-size)
+  /* font-size: var(--bs-body-font-size) */
 }
 
   @media (min-width: 1020px) {

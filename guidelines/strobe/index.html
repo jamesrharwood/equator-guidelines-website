@@ -823,7 +823,7 @@ div.csl-indent {
 <div class="hero-banner">
 <div class="content-block">
 <section>
-<p>The STROBE <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemreporting_guideline" aria-controls="offcanvasExample" role="button">reporting guideline</span> helps authors write observational epidemiology research articles that can be understood and used <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemresearch_consumers" aria-controls="offcanvasExample" role="button">by everyone</span>. This page summarises STROBE and how it can be used. Each guideline item links to more information, examples, and relevant training.</p>
+<p>The STROBE <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemreporting_guideline" aria-controls="offcanvasExample" role="button">reporting guideline</span> helps authors write observational epidemiology research articles that can be understood and used <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemresearch_consumers" aria-controls="offcanvasExample" role="button">by a wide audience</span>. This page summarises STROBE and how it can be used. Each guideline item links to more information, examples, and relevant training.</p>
 <div class="citations-counter">
 <span class="__dimensions_badge_embed__ badge-inline" data-doi="10.7326/0003-4819-147-8-200710160-00010" data-legend="never" data-style="large_rectangle"></span> <span class="badge-inline btn btn-sm journal-endorsement" type="button">Journals endorsing STROBE</span> <span class="journal-endorsement journal-endorsement-count">1000+</span>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -1497,6 +1497,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

@@ -16,7 +16,7 @@
 .quarto-title-block .quarto-title-banner {
   background-image: none;
   background-size: cover;
-  background-color: white;
+  /* background-color: white; */
 }
 .hero-image-side {
   margin-top: 50px;
