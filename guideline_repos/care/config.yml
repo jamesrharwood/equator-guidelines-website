@@ -3,10 +3,11 @@ doi: 10.1234/equator/1010101
 id: care
 translations: []
 title: The CARE reporting guideline for writing clinical case report articles
+for-writing: clinical case report articles
 acronym: CARE
 acronym-definition: CAse REport
 open-e-and-e: true
-journal-endorsement-count: 1000+
+journal-endorsement-count: 400+
 version: 'CARE 2013 v1.1'
 bibliography:
   - bibliographies/imported.bib
