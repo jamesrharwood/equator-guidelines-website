@@ -10,14 +10,16 @@ preview:
 publish:
 	cp -a _guidelines_manual/. guidelines/
 	quarto publish gh-pages --no-render
+render: 
+	quarto render
 create_all:
 	make create guideline=prisma
 	make create guideline=strobe
 	make create guideline=srqr
 	make create guideline=arrive
 	make create guideline=stard
+	make create guideline=care
 	
-	# make create guideline=care
 	# make create guideline=prisma-p
 	# make create guideline=consort
 	# make create guideline=spirit

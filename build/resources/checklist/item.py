@@ -7,6 +7,8 @@ NUM_ALPHA = re.compile(r'^\d+([a-z]+\.?)')
 CAPITAL_LETTER = re.compile(r'[A-Z]')
 
 class Item(Base):
+    text_limit = None
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         title = self.meta.get('checklist', {}).get('title', None) or \

@@ -43,6 +43,7 @@ TEMPLATE = """
 ---
 title: "Discussion for {item.guideline.short_name} item: [{item.title}](..)"
 citation: false
+search: false
 ---
 Do you have questions or feedback about this SRQR reporting guideline item? Do you want to ask other researchers for help? Or give feedback to the guideline developers? 
 

@@ -6,7 +6,7 @@ date: last-modified
 description: Researchers, editors, and reviewers discuss how they use reporting guidelines.
 ---
 
-## John Doe – Early Career Researcher
+## John Doe – Early Career Researcher {#researcher}
 
 As someone who’s new to academic writing, I honestly didn’t know where to start—I didn’t have a writing process, and staring at the blank page felt overwhelming. I wasn’t sure what I was supposed to include or how best to structure it all. My PhD supervisor suggested I use a reporting guideline, and they were a total game-changer. They gave me something concrete to work with—like a to-do list that helped me get past that initial block and start putting information down on the page.
 
@@ -38,7 +38,7 @@ I also use reporting guidelines when teaching my students how to write. For rese
 
 ![](https://placehold.co/500x500?text=Img+of+Contributor)
 
-## Julius Doe – Editor of prestigious journal
+## Julius Doe – Editor of prestigious journal {#editor}
 
 As a senior managing editor of a medical journal, I care deeply about the quality and usability of the research we publish—and that starts with good reporting. I’ve instructed my editorial and peer review teams to check all submissions against the appropriate reporting guidelines, whether that’s CONSORT, STROBE, PRISMA, or another guideline. They use these guidelines to assess whether key information is present, clear, and transparent—such as how the study was conducted, who was involved, what interventions were used, and how outcomes were measured. We don’t expect every study to be perfect—research is complex, and limitations are inevitable—but we do expect authors to report their work fully and honestly. A clearly reported study, with a thoughtful discussion of its limitations, is far more valuable to the scientific community than one that hides its flaws. Reporting guidelines help ensure that published research can be understood, used, built upon, and cited—and that’s essential for real-world impact, and essential to maintaining our reputation as a leading journal.
 
@@ -65,7 +65,7 @@ These requirements aren’t meant to be obstacles—they’re in place to help e
 
 ![](https://placehold.co/500x500?text=Img+of+Contributor)
 
-## June Doe – Peer reviewer and evidence synthesiser
+## June Doe – Peer reviewer and evidence synthesiser {#reviewer}
 
 When I peer review manuscripts for journals, I always refer to reporting guidelines to check whether the study has been reported clearly and completely. These guidelines help me spot missing details—things like how the sample was selected, exactly what interventions were used, or how outcomes were measured. I also recommend reporting guidelines to junior colleagues who are new to peer reviewing—they’re a great way to structure your review and make sure you’re thorough. Although I always remind my colleagues that checking for adherence to a reporting guideline is only the first step of a good review. Information has to be present before you can consider the strengths and weaknesses of research.
 

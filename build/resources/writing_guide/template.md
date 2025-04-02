@@ -25,12 +25,15 @@ If you have not used a writing guide before, read about our suggested [writing p
 This guide is not a template. Don't expect to fill it in and end up with a finished article. Instead, think of it as an exercise book.
 
 1. Collate information and make notes in this guide;
-2. Delete the prompts and headings, reorganise your notes into a narrative structure, and decide which information to prioritize;
-3. Draft, revise, and edit your text in a separate file.
+2. Delete the prompts and headings, reorganise your notes into a narrative structure, moving content to tables, figures, or appendices when appropriate, thereby creating a writing outline.
+3. Draft, revise, and edit your text in a separate file, referring to your outline throughout.
 
 Before you begin, double check that {{< meta acronym >}} is the [most applicable reporting guideline]({{< meta paths.html.applicability >}}) for your work. Other reporting guidelines have their own writing guide.
 
-The [UK EQUATOR Centre training]({{< meta paths.html.training >}}) helps researchers develop writing skills, processes, to use writing guides to create an outline, and to revise that outline into compelling, concise text. It covers many of the items of the {{< meta acronym >}} reporting guideline, including how to prepare effective abstracts, titles, introduction and discussion sections.
+The [UK EQUATOR Centre training]({{< meta paths.html.training >}}) helps researchers develop writing skills and to use reporting guidelines (like this one) to write research articles and applications that are complete, concise, and compelling. It covers many of the items of the {{< meta acronym >}} reporting guideline, including how to prepare effective abstracts, titles, introduction and discussion sections, as well as how to use writing guides to create writing outlines, how to turn outlines into drafts, and drafts into polished text.
+
+{{< pagebreak >}}
+
 :::
 
 ```{python}
@@ -54,10 +57,4 @@ Markdown(gl.create_writing_guide())
 
 ```
 
-## How to cite {#sec-cite .appendix}
-
-Describe how you used {{< meta acronym >}} at the end of your Methods section, referencing the resources you used e.g.,
-
-> 'We used the {{< meta acronym >}}[@WritingGuide] writing guide to draft this manuscript, and the {{< meta acronym >}} reporting checklist[@Checklist] when editing, included in supplement A'
-
-If you use a reporting checklist, remember to include it as a supplement when publishing so that readers can easily find information and see how you have interpreted the guidance.
+{{< include ../../build/resources/partials/how_to_cite.md >}}

@@ -14,7 +14,7 @@ DEFAULT = {
         '../../css/styles2.css',
     ],
     'appendix-style': 'default',
-    'search': False,
+    'search': True,
     'footer': 'none',
     'appendix-cite-as': False,
     'google-scholar': True,

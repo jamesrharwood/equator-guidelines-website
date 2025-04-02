@@ -15,7 +15,7 @@ They make writing less daunting by breaking the process up into bite-size chunks
 They help authors lay out the key information – the building blocks – of their work. Authors then decide how best to arrange this information 
 to build a compelling and clear account. 
 
-However, reporting guidelines are _not_ design standards or tools for quality appraisal. They do not dictate how research must be conducted, but they do ensure research is described clearly enough for readers to understand its strengths and limitations. Just as you would not buy a cook book if the recipe pages were torn out, readers cannot evaluate or replicate research without complete information. 
+However, reporting guidelines are _not_ design standards or tools for quality appraisal. They do not dictate how research must be conducted, but they do ensure research is described clearly enough for readers to understand its strengths and limitations.
 
 Why do we need them? Because for decades, researchers have missed out important details because of oversight, or because they have not considered their audience's needs. These gaps make it harder for others to replicate, understand, or apply the findings — and may exclude research from reviews or clinical use. This is a massive source of waste that pervades all research areas. Well-reported research has greater 
 impact.
@@ -31,9 +31,7 @@ To make these resources easier to use, we at the EQUATOR Network built this webs
 ## Writing guides {#writing-guides}
 
 Writing guides help authors develop their writing practice to create articles and applications that are clear, compelling, and complete. 
-Each reporting guideline comes with its own writing guide. They break the writing process into manageable pieces. 
-
-After working through the writing guide, authors will have all of their thoughts and information in one place, ready to be rearranged into a logical narrative structure. Its up to the author to decide how best to arrange information, and whether to present it in the article body, in a figure or table, or in a supplement. This structured outline forms the skeleton for drafting. 
+Each reporting guideline comes with its own writing guide. They break the writing process into manageable pieces. After working through the writing guide, authors will have all of their thoughts and information in one place, ready to be rearranged into a logical narrative structure. Its up to the author to decide how best to arrange information, and whether to present it in the article body, in a figure or table, or in a supplement. This structured outline forms the skeleton for drafting. 
 
 [Read more about writing guides](writing-using-reporting-guidelines.qmd)
 
@@ -47,9 +45,9 @@ Reporting checklists are best used at the end of writing, before journal submiss
 - Table 2
 - Supplement A, para. 4 and Figure S1.
 
-If you have chosen not to report an item, explain why. Checklists are also used by editors and peer reviewers, who may ask authors to provide missing information. 
+If you have chosen not to report an item, explain why. Otherwise editors or peer reviewers may chase you for this information, thereby delaying publication. These explanations will also help future evidence reviewers – who commonly use reporting guidelines when assessing the the quality of reporting and risk of bias – meaning your article may be more likely to be included in their reviews.
 
-As with writing guides, reporting guideline checklists do not dictate how research should be conducted or how manuscripts should be structured. 
+As with writing guides, reporting guideline checklists do not dictate how research should be conducted nor how manuscripts should be structured. 
 
 ## Writing applications and protocols using reporting guidelines {#writing-applications}
 

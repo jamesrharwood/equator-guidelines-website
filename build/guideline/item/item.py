@@ -12,6 +12,8 @@ def fix_numerical_ids(id):
     return id
 
 class Item:
+    text_limit = 300
+
     def __init__(self, id: str, title: str, text: str, filename: str, meta: dict, guideline):
         id = fix_numerical_ids(id)
         validate_id(id)
@@ -35,22 +37,6 @@ class Item:
     def number(self, resource):
         return self.idx(resource) + 1
 
-    def fallback_summary_text(self):
-        text = self.meta.get('checklist', {}).get('text', '').strip()
-        if not text:
-            texts = self.text.strip().split('\n')
-            for t in texts:
-                t = t.strip()
-                if t and not t.startswith('#'):
-                    text = t
-                    break
-            if len(text) > 300:
-                text = text[:300] + '...'
-        text = text or ''
-        if text and not text.endswith('.'):
-            text += '.'
-        return text
-    
     def summary_text(self):
         text = self.meta.get('summary', {}).get('text', '').strip()
         text = text or self.fallback_summary_text()
@@ -59,6 +45,41 @@ class Item:
     def summary_title(self):
         text = self.meta.get('summary', {}).get('title', '').strip()
         text = text or self.title
+        return text
+
+    def fallback_summary_text(self):
+        text = self.meta.get('checklist', {}).get('text', '').strip()
+        if not text:
+            text = self.first_section()
+            text = self.truncate(text, 300)
+            text = self.add_stop(text)
+        return text
+    
+    def first_section(self):
+        text = ''
+        texts = self.text.strip().split('\n')
+        heading_count = 0
+        for t in texts:
+            if t.strip().startswith('#'):
+                heading_count += 1
+            else:
+                text += '\n' + t
+            if heading_count > 1:
+                break
+        text = text.strip()
+        return text
+
+    def truncate(self, text, limit=None):
+        limit = limit or self.text_limit
+        if not limit:
+            return text
+        if len(text) > limit:
+            text = text[:limit] + '...'
+        return text
+    
+    def add_stop(self, text):
+        if text and text[-1] not in ['.', '?']:
+            text += '.'
         return text
     
     @classmethod

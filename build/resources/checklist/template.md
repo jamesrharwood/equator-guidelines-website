@@ -54,9 +54,9 @@ Markdown(gl.get_table_markdown())
 
 {{< pagebreak >}}
 
-## How to specify where content is {#sec-specify}
+## How to specify where content is {#sec-specify .appendix}
 
-Tell the reader where they can find information. E.g., 
+Tell the reader where they can find information. E.g.,
 
 * Results; paragraph 2
 * Methods, Participants; paragraphs 1 & 2.
@@ -67,10 +67,4 @@ If you have chosen not to describe an item, explain why.
 
 You can describe items in the article body, or in tables, figures, or supplementary materials, and should prioritize items you feel are most important to your intended audience. The order of items in your manuscript does not need to match the order of items in this checklist. You can decide how best to structure your work.
 
-## How to cite {#sec-cite .appendix}
-
-Describe how you used {{< meta acronym >}} at the end of your Methods section, referencing the resources you used e.g.,
-
-> 'We used the {{< meta acronym >}}[@WritingGuide] writing guide to draft this manuscript, and the {{< meta acronym >}} reporting checklist[@Checklist] when editing, included in supplement A'
-
-Remember to include your completed checklist as a supplement when publishing so that readers can easily find information and see how you have interpreted the guidance.
+{{< include ../../build/resources/partials/how_to_cite.md >}}

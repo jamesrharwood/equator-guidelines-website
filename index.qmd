@@ -162,7 +162,7 @@ Use a reporting checklist to ensure you have included everything. Many journals 
 
 
 ::: {.learn-more} 
-[Learn more »](about/reporting-guidelines.qmd#checklist)
+[Learn more »](about/reporting-guidelines.qmd#reporting-checklists)
 :::
 :::
 
@@ -204,7 +204,7 @@ People around the world use reporting guidelines in many ways and for many reaso
 Sally is an experienced academic with hundreds of publications. James is a PhD student. Both use reporting guidelines to write, learn, and teach. 
 
 ::: {.learn-more}
-[Learn more »]()
+[Learn more »](about/why-reporting-matters.qmd#researcher)
 :::
 :::
 
@@ -215,7 +215,7 @@ Sally is an experienced academic with hundreds of publications. James is a PhD s
 Read why editors from leading medical journals ask authors to use reporting guidelines and how they check adherence.
 
 ::: {.learn-more}
-[Learn more »]()
+[Learn more »](about/why-reporting-matters.qmd#editor)
 :::
 :::
 
@@ -227,7 +227,7 @@ Read why editors from leading medical journals ask authors to use reporting guid
 Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesising evidence for policy recommendations.
 
 ::: {.learn-more}
-[Learn more »](http://dx.doi.org/10.1136/bmj.d6783)
+[Learn more »](about/why-reporting-matters.qmd#reviewer)
 :::
 :::
 

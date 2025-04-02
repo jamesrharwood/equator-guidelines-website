@@ -4,7 +4,7 @@ title-block-banner: rgb(11, 167, 87)
 title-block-banner-color: white
 sections: true
 toc: false
-description: Write with confidence. Publish with impact.
+description: Online and in-person training to help you write with confidence and publish with impact.
 css:
   - "css/index.css"
   - "css/index3.css"

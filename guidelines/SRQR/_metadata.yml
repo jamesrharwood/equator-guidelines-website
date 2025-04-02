@@ -164,7 +164,7 @@ items:
   units-of-study:
     title: Units of study
     web_path: /guidelines/srqr/items/units-of-study.qmd
-journal-endorsement-count: 500+
+journal-endorsement-count: 150+
 paths:
   html:
     about_reporting_guidelines: https:/jamesrharwood.github.io/equator-guidelines-website/about/reporting-guidelines.html
@@ -181,7 +181,7 @@ paths:
     applicability: guidelines/srqr/index.qmd?#applicability
     author_bios: guidelines/srqr/partials/author_bios.md
     bibliographies: guidelines/srqr/bibliographies
-    checklist: guidelines/srqr/srqr-checklist.qmd
+    checklist: guidelines/srqr/srqr-checklist.docx
     config: guidelines/srqr/config.yml
     development: guidelines/srqr/partials/development.md
     dir: guidelines/srqr
@@ -208,13 +208,13 @@ paths:
     uploads: guidelines/srqr/uploads
     use_for: guidelines/srqr/partials/use_for.md
     why_use: guidelines/srqr/partials/why_use.md
-    writing_guide: guidelines/srqr/srqr-writing-guide.qmd
+    writing_guide: guidelines/srqr/srqr-writing-guide.docx
 project:
   render:
   - '*glossary*'
   - '*.qmd'
   - '*.md'
-search: false
+search: true
 title: SRQR reporting guideline for writing qualitative research articles
 translations: "[\U0001F1EB\U0001F1F7 French](https://doi.org/10.1016/j.kine.2022.05.004)"
 version: '1.1'

@@ -16,6 +16,7 @@
 
 ## Not done
 
+- Decide how we want authors to cite this website & the resources therein. Currently none of the instructions on how to cite the website are finished (but the reference sections for each RG are)
 - Case studies:
     - researchers (ECR and experienced)
     - editors (used old ones)
@@ -40,3 +41,6 @@
         - Re-order for writing guide
     - Get quotes from 3+ research users and add these to the items. 
     - Get/create more examples, adding annotations if possible. 
+- licence for the site 
+- cookie solution (might be able to do cross domain)
+- Decide on URL for new site and update DNS records 

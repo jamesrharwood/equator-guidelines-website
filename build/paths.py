@@ -84,8 +84,12 @@ class WebPaths(DestinationPaths):
         self.about_writing_guides = str(Path('about', 'writing-using-reporting-guidelines.qmd'))
         self.applicability = self.index + '?#applicability' #TODO replace with a constant
         self.training = 'training.qmd'
+        self.checklist = str(Path(self.checklist).with_suffix('.docx'))
+        self.writing_guide = str(Path(self.writing_guide).with_suffix('.docx'))
 
 class HtmlPaths():
+    # consider refactoring this to make it Document paths: paths to use in Docx files
+    # Because otherwise github pages adds its domain to the paths again
     URL = metadata['website']['site-url']
     def __init__(self, dirname):
         self.web_paths = WebPaths(dirname)
