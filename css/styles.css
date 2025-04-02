@@ -34,6 +34,11 @@ abbr {
     padding-top: 0px;
 }
 
+.downloadable::after {
+  font-family: "Font Awesome 5 Free";
+  content: " \f56d"; 
+}
+
 .quarto-figure {
   margin-top: 2rem;
 }
