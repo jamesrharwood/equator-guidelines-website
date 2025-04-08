@@ -613,116 +613,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/squire/index.qmd
-      text: Overview of SQUIRE
-    - contents:
-      - contents:
-        - href: guidelines/squire/items/1.qmd
-          text: 1. Title
-        section: Title
-      - contents:
-        - href: guidelines/squire/items/02a_.qmd
-          text: 02a. Abstract
-        - href: guidelines/squire/items/02b_.qmd
-          text: 02b. Abstract
-        section: Abstract
-      - contents:
-        - href: guidelines/squire/items/3_problem_description.qmd
-          text: 3. Problem description
-        - href: guidelines/squire/items/4_available_knowledge.qmd
-          text: 4. Available knowledge
-        - href: guidelines/squire/items/5_rationale.qmd
-          text: 5. Rationale
-        - href: guidelines/squire/items/6_specific_aims.qmd
-          text: 6. Specific aims
-        section: Introduction
-      - contents:
-        - href: guidelines/squire/items/7_context.qmd
-          text: 7. Context
-        - href: guidelines/squire/items/08a_interventions.qmd
-          text: 08a. Intervention(s)
-        - href: guidelines/squire/items/08b_interventions.qmd
-          text: 08b. Intervention(s)
-        - href: guidelines/squire/items/09a_study_of_the_interventions.qmd
-          text: 09a. Study of the Intervention(s)
-        - href: guidelines/squire/items/09b_study_of_the_interventions.qmd
-          text: 09b. Study of the Intervention(s)
-        - href: guidelines/squire/items/10a_measures.qmd
-          text: 10a. Measures
-        - href: guidelines/squire/items/10b_measures.qmd
-          text: 10b. Measures
-        - href: guidelines/squire/items/10c_measures.qmd
-          text: 10c. Measures
-        - href: guidelines/squire/items/11a_analysis.qmd
-          text: 11a. Analysis
-        - href: guidelines/squire/items/11b_analysis.qmd
-          text: 11b. Analysis
-        - href: guidelines/squire/items/12_ethical_considerations.qmd
-          text: 12. Ethical considerations
-        section: Methods
-      - contents:
-        - href: guidelines/squire/items/13a_.qmd
-          text: 13a. Results
-        - href: guidelines/squire/items/13b_.qmd
-          text: 13b. Results
-        - href: guidelines/squire/items/13c_.qmd
-          text: 13c. Results
-        - href: guidelines/squire/items/13d_.qmd
-          text: 13d. Results
-        - href: guidelines/squire/items/13e_.qmd
-          text: 13e. Results
-        - href: guidelines/squire/items/13f_.qmd
-          text: 13f. Results
-        section: Results
-      - contents:
-        - href: guidelines/squire/items/14a_summary.qmd
-          text: 14a. Summary
-        - href: guidelines/squire/items/14b_summary.qmd
-          text: 14b. Summary
-        - href: guidelines/squire/items/15a_interpretation.qmd
-          text: 15a. Interpretation
-        - href: guidelines/squire/items/15b_interpretation.qmd
-          text: 15b. Interpretation
-        - href: guidelines/squire/items/15c_interpretation.qmd
-          text: 15c. Interpretation
-        - href: guidelines/squire/items/15d_interpretation.qmd
-          text: 15d. Interpretation
-        - href: guidelines/squire/items/15e_interpretation.qmd
-          text: 15e. Interpretation
-        - href: guidelines/squire/items/16a_limitations.qmd
-          text: 16a. Limitations
-        - href: guidelines/squire/items/16b_limitations.qmd
-          text: 16b. Limitations
-        - href: guidelines/squire/items/16c_limitations.qmd
-          text: 16c. Limitations
-        - href: guidelines/squire/items/17a_conclusion.qmd
-          text: 17a. Conclusion
-        - href: guidelines/squire/items/17b_conclusion.qmd
-          text: 17b. Conclusion
-        - href: guidelines/squire/items/17c_conclusion.qmd
-          text: 17c. Conclusion
-        - href: guidelines/squire/items/17d_conclusion.qmd
-          text: 17d. Conclusion
-        - href: guidelines/squire/items/17e_conclusion.qmd
-          text: 17e. Conclusion
-        section: Discussion
-      - contents:
-        - href: guidelines/squire/items/18_funding.qmd
-          text: 18. Funding
-        section: Other information
-      section: Full guidance
-    - href: guidelines/squire/squire_writing_guide.docx
-      text: Writing guide
-    - href: guidelines/squire/squire_checklist.docx
-      text: Checklist
-    - href: guidelines/squire/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: squire
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/strobe-cohort/index.qmd
       text: Overview of STROBE Cohort
     - contents:
@@ -1395,5 +1285,71 @@ website:
       text: FAQs
     foreground: secondary
     id: care
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/squire/index.qmd
+      text: Overview of SQUIRE
+    - contents:
+      - contents:
+        - href: guidelines/squire/items/title.qmd
+          text: 1. Title
+        - href: guidelines/squire/items/abstract.qmd
+          text: 2. Abstract
+        section: Title and Abstract
+      - contents:
+        - href: guidelines/squire/items/problem-description-available-knowledge.qmd
+          text: 3 & 4. Problem description & Available Knowledge
+        - href: guidelines/squire/items/rationale.qmd
+          text: 5. Rationale
+        - href: guidelines/squire/items/specific-aims.qmd
+          text: 6. Specific aims
+        section: Introduction
+      - contents:
+        - href: guidelines/squire/items/context.qmd
+          text: 7. Context
+        - href: guidelines/squire/items/interventions.qmd
+          text: 8. Intervention(s)
+        - href: guidelines/squire/items/study-of-the-interventions.qmd
+          text: 9. Study of the Intervention(s)
+        - href: guidelines/squire/items/measures.qmd
+          text: 10. Measures
+        - href: guidelines/squire/items/analysis.qmd
+          text: 11. Analysis
+        - href: guidelines/squire/items/ethical-considerations.qmd
+          text: 12. Ethical considerations
+        section: Methods
+      - contents:
+        - href: guidelines/squire/items/intervention-evolution-process-measures.qmd
+          text: 13 a & b. Evolution of the intervention and details of process measures
+        - href: guidelines/squire/items/context-unexpected-consequences.qmd
+          text: 13 c, d & e Contextual elements and unexpected consequences
+        - href: guidelines/squire/items/missing-data.qmd
+          text: 13 e. Missing data
+        section: Results
+      - contents:
+        - href: guidelines/squire/items/summary.qmd
+          text: 14. Summary
+        - href: guidelines/squire/items/interpretation.qmd
+          text: 15. Interpretation
+        - href: guidelines/squire/items/limitations.qmd
+          text: 16. Limitations
+        - href: guidelines/squire/items/conclusion.qmd
+          text: 17. Conclusion
+        section: Discussion
+      - contents:
+        - href: guidelines/squire/items/funding.qmd
+          text: 18. Funding
+        section: Other information
+      section: Full guidance
+    - href: guidelines/squire/squire-writing-guide.docx
+      text: '[Writing guide]{.downloadable}'
+    - href: guidelines/squire/squire-checklist.docx
+      text: '[Checklist]{.downloadable}'
+    - href: guidelines/squire/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: squire
     search: true
     style: docked

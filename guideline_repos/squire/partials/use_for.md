@@ -1,4 +1,4 @@
-**Use {{< meta acronym >}} for writing an article describing system level work to improve the quality, safety, and value of healthcare, and uses methods to establish that observed outcomes were due to the intervention(s).**
+**Use {{< meta acronym >}} for writing an article describing system level work to improve the quality, safety, and value of healthcare, and uses methods to establish that observed outcomes were due to the intervention(s).** {{< meta acronym >}} applies to the reporting of qualitative and quantitative evaluations of the nature and impact of interventions intended to improve healthcare, with the understanding that the guidelines may be adapted as needed for specific situations.
 
 You can also use {{< meta acronym >}} for:
 

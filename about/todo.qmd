@@ -27,15 +27,18 @@
     - introduction
     - discussion
 - For each RG:
+    - Ensure applicability criteria is explicit
     - FAQs
+    - Create glossary
     - For each RG item:
         - Ensure the checklist text matches the explanation
             - no new subitems within explanation text 
             - all checklist subitems explained
+        - Use terms consistently
         - Fill missing explanations, ensuring justifications focus on why readers need info, not on study design.
-        - Edit subitems that include assumptions about what an author has done. 
+        - Edit subitems that include assumptions about what an author has done. Consider putting design advice in separate section.
         - Edit voice to speak directly to authors, removing passive voice 
-        - Split composite items 
+        - Split composite items
         - Present conditional subitems as "If X, describe Y"
         - Create writing prompts
         - Re-order for writing guide
@@ -43,4 +46,4 @@
     - Get/create more examples, adding annotations if possible. 
 - licence for the site 
 - cookie solution (might be able to do cross domain)
-- Decide on URL for new site and update DNS records 
+- Decide on URL for new site and update DNS records

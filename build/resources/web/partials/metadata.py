@@ -112,7 +112,7 @@ class MetadataCreator():
 
     def set_bibliographies(self):
         bibs = self.get('bibliography', [])
-        assert type(bibs) is list
+        assert type(bibs) is list, f'Bibliography is loaded as a {type(bibs)}'
         self.set('bibliography', bibs)
 
     def set_paths(self):

@@ -1,0 +1,35 @@
+assumptions: Reasons for choosing the activities and tools used to bring about changes in healthcare services at the system level. [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+context: Physical and sociocultural makeup of the local environment (for example, external environmental factors, organizational dynamics, collaboration, resources, leadership, and the like), and the interpretation of these factors (“sense-making”) by the healthcare delivery professionals, patients, and caregivers that can affect the effectiveness and generalizability of intervention(s). [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+ethical aspects: The value of system-level initiatives relative to their potential for harm, burden, and cost to the stakeholders.  Potential harms particularly associated with efforts to improve the quality, safety, and value of healthcare services include opportunity costs, invasion of privacy, and staff distress resulting from disclosure of poor performance.
+generalizability: The likelihood that the intervention(s) in a particular report would produce similar results in other settings, situations, or environments (also referred to as external validity). [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+Healthcare improvement: Any systematic effort intended to raise the quality, safety, and value of healthcare services, usually done at the system level.  We encourage the use of this phrase rather than “quality improvement,” which often refers to more narrowly defined approaches. [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+Inferences: The meaning of findings or data, as interpreted by the stakeholders in healthcare services - improvers, healthcare delivery professionals, and/or patients and families. [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+Initiative: A broad term that can refer to organization-wide programs, narrowly focused projects, or the details of specific interventions (for example, planning, execution, and assessment). [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+Internal validity: Demonstrable, credible evidence for efficacy (meaningful impact or change) resulting from introduction of a specific intervention into a particular healthcare system. [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+Intervention: 
+  pattern: interventions?
+  id: interventions
+  title: Interventions
+  text: |
+    The specific activities and tools introduced into a healthcare system with the aim of changing its performance for the better.  Complete description of an intervention includes its inputs, internal activities, and outputs (in the form of a logic model, for example), and the mechanism(s) by which these components are expected to produce changes in a system's performance. [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485) #TODO check matches
+Opportunity costs: Loss of the ability to perform other tasks or meet other responsibilities resulting from the diversion of resources needed to introduce, test, or sustain a particular improvement initiative. [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+Problem: Meaningful disruption, failure, inadequacy, distress, confusion or other dysfunction in a healthcare service delivery system that adversely affects patients, staff, or the system as a whole, or that prevents care from reaching its full potential. [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+Process: 
+  pattern: "(?!=research )process"
+  id: process
+  title: process 
+  text: 
+    The routines and other activities through which healthcare services are delivered. [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+Rationale: Explanation of why particular intervention(s) were chosen and why it was expected to work, be sustainable, and be replicable elsewhere. [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+system: 
+  pattern: systems?
+  id: systems
+  title: Systems
+  text: |
+    The interrelated structures, people, processes, and activities that together create healthcare services for and with individual patients and populations.  For example, systems exist from the personal self-care system of a patient, to the individual provider-patient dyad system, to the microsystem, to the macrosystem, and all the way to the market/social/insurance system.  These levels are nested within each other. [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)
+theory: 
+  pattern: "theor(y|ies)"
+  title: Theory
+  id: theory
+  text: |
+    Any “reason-giving” account that asserts causal relationships between variables (causal theory) or that makes sense of an otherwise obscure process or situation (explanatory theory).  Theories come in many forms, and serve different purposes in the phases of improvement work.  It is important to be explicit and well-founded about any informal and formal theory (or theories) that are used. [Source](https://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=485)

@@ -5,6 +5,10 @@ translations: []
 title: The SQUIRE reporting guideline for writing health services quality improvement research articles
 acronym: SQUIRE
 acronym-definition: Standards for QUality Improvement Reporting Excellence
+bibliography:
+  - bibliographies/imported.bib
+for-writing: |
+  reports that describe systematic work to improve the quality, safety and value of healthcare, using a range of methods to establish the association between observed outcomes and interventions.
 open-e-and-e: true
 journal-endorsement-count: 1000+
 version: 'SQUIRE 2.0 2016 v1.1'
