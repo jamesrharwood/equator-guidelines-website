@@ -19,12 +19,12 @@ create_all:
 	make create guideline=arrive
 	make create guideline=stard
 	make create guideline=care
-	
+	make create guideline=squire
+
 	# make create guideline=prisma-p
 	# make create guideline=consort
 	# make create guideline=spirit
 	# make create guideline=tripod
-	# make create guideline=squire
 
 
 
