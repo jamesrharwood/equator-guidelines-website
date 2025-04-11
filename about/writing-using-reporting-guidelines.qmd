@@ -22,7 +22,7 @@ Writing academic articles is a lot like packing a suitcase. The author has to cr
 
 ### Step 1: Get the appropriate writing guide
 
-Download the writing guide for the reporting guideline that matches your study design. For reporting guidelines not featured on this website, you can make your own writing guide based on their available resources by searching [our database](#TODO).
+Download the writing guide for the reporting guideline that matches your study design. For reporting guidelines not featured on this website, you can find their available resources by searching [our database](#TODO).
 
 ### Step 2: Collate information
 
@@ -30,7 +30,7 @@ Gather your research materials (e.g., your notes, data, analyses, protocol)
 
 For each section in the writing guide:
 
-* Note answers to all prompting questions
+* Answers the prompting questions
 * Document any information that cannot be included and why
 * Identify information that would benefit from visual presentation.
     * Draft tables.
