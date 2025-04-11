@@ -29,7 +29,8 @@ DEFAULT = {
             '*.qmd',
             '*.md',
         ]
-    }
+    },
+    'license': 'Most of the reporting guidelines and reporting checklists on this website were originally published under permissive licenses that allowed their reuse. Some were published with propriety licenses, where copyright is held by the publisher and/or original authors. The original content of the reporting checklists and explanation pages on this website were drawn from these publications without permission from the publisher but with knowledge and permission from the reporting guideline authors, and subsequently revised in response to feedback and evidence from research as part of an ongoing scholarly dialogue about how best to disseminate reporting guidance. The UK EQUATOR Centre makes no copyright claims over reporting guideline content. Our use of copyrighted content on this website falls under <a href="https://www.copyright.gov/title17/92chap1.html#107">fair use guidelines</a>.'
 }
 
 CONTAINER =   {
@@ -63,9 +64,15 @@ class MetadataCreator():
         return self.guideline.config.get(attr, default)
     
     def set_citation(self):
-        citation = self.get('articles', {}).get('citation', None)
+        article_key = 'development'
+        citation = self.get('articles', {}).get(article_key, None) 
+        #TODO switching to development so all RGs have valid citation info
         if citation:
-            self.guideline.config['articles'].pop('citation')
+            self.guideline.config['articles'].pop(article_key)
+            for field in ['issued', 'accessed']:
+                data = adjust_date_field(citation.get(field, None))
+                citation.update({field: data})
+
         if not citation:
             citation = self.guideline.config.get('citation', {})
             citation.update(CONTAINER)
@@ -145,4 +152,8 @@ def create_metadata(guideline):
     metadata = MetadataCreator(guideline)
     return metadata.create()
 
-
+def adjust_date_field(date_list):
+    if not date_list:
+        return ''
+    data = date_list[0]
+    return f"{data['month']}/{data.get('day', '')}/{data['year']}"

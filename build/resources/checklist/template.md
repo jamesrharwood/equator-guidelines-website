@@ -26,7 +26,7 @@ After writing, demonstrate adherence by completing this checklist:
 
 1. Specify where each item is described (see @sec-specify).
 2. Cite this checklist (See @sec-cite).
-3. Include your completed checklist as a supplement when submitting to a journal.
+3. Include your completed checklist as a supplement when submitting to a journal so that future readers can use it to find information.
 
 :::
 
@@ -63,7 +63,7 @@ Tell the reader where they can find information. E.g.,
 * Table 3
 * Supplement B, para. 4
 
-If you have chosen not to describe an item, explain why.
+If you have chosen not to describe an item, explain why. You can do this in the checklist, or as a note below it.
 
 You can describe items in the article body, or in tables, figures, or supplementary materials, and should prioritize items you feel are most important to your intended audience. The order of items in your manuscript does not need to match the order of items in this checklist. You can decide how best to structure your work.
 
