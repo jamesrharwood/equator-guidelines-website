@@ -2,20 +2,20 @@
 
 You can use reporting guidelines throughout your research process. 
 
-* When writing: Consider using a [writing guide](#downloads) to draft your manuscript or protocol.
-* After writing: Complete a [checklist](#downloads) and include it with your journal submission.
-* To learn: Consult the [guidance](#summary) whenever you need it.
+* When writing: consult the full guidance when writing manuscripts, protocols, and applications. The summary below provides a useful overview, and each item links to fuller guidance with explanations and examples.
+* After writing: Complete a checklist and include it with your journal submission.
+* To learn: Use {{< meta acronym >}} and our [training](/training.qmd) to develop as an academic and build writing skills.
 
 However you use {{< meta acronym >}}, please [cite it](faqs.qmd#citation).
 
 ::: {.grid #downloads}
 ::: { .g-col-12 .g-col-md-4}
-<a href="#summary"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Full Guidance</button></a>
+<a href="#summary"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Summary of Guidance</button></a>
 :::
-
+<!-- 
 ::: { .g-col-12 .g-col-md-4}
 <a href="./ID_writing_guide.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Writing Guide</button></a>
-:::
+::: -->
 
 ::: { .g-col-12 .g-col-md-4}
 <a href="./ID_checklist.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Checklist</button></a>

@@ -30,20 +30,20 @@ Version: {{< meta version >}}. This is the latest version ✅
 
 You can use <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemreporting_guideline" aria-controls="offcanvasExample" role="button">reporting guidelines</span> throughout your research process. 
 
-* When writing: Consider using a [writing guide](#downloads) to draft your manuscript or protocol.
+* When writing: consult the full guidance when writing manuscripts, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemprotocol" aria-controls="offcanvasExample" role="button">protocols</span>, and applications. The [summary](#summary) below provides a useful overview, and each item links to fuller guidance with explanations and examples.
 * After writing: Complete a [checklist](#downloads) and include it with your journal submission.
-* To learn: Consult the [guidance](#summary) whenever you need it.
+* To learn: Use {{< meta acronym >}} and our [training](/training.qmd) to develop as an academic and build writing skills.
 
 However you use {{< meta acronym >}}, please [cite it](faqs.qmd#citation).
 
 ::: {.grid #downloads}
 ::: { .g-col-12 .g-col-md-4}
-<a href="#summary"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Full Guidance</button></a>
+<a href="#summary"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Summary of Guidance</button></a>
 :::
-
+<!-- 
 ::: { .g-col-12 .g-col-md-4}
 <a href="./srqr_writing_guide.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Writing Guide</button></a>
-:::
+::: -->
 
 ::: { .g-col-12 .g-col-md-4}
 <a href="./srqr_checklist.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Checklist</button></a>

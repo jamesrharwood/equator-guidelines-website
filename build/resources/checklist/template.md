@@ -20,7 +20,7 @@ crossref:
 
 If you have not used a reporting guideline before, read about [how and why to use them]({{< meta paths.html.about_reporting_guidelines >}}) and check whether {{< meta acronym >}} is the [most applicable reporting guideline]({{< meta paths.html.applicability >}}) for your work.
 
-When writing, consider using the {{< meta acronym >}} [Writing Guide]({{< meta paths.html.writing_guide >}}) or [Full Guidance]({{< meta paths.html.full_guideline >}}).
+Reporting guidelines are most useful when used early in research. When writing a manuscript or application, consider using the [Full Guidance]({{< meta paths.html.full_guideline >}}) where you'll see explanations and examples for each item.
 
 After writing, demonstrate adherence by completing this checklist:
 

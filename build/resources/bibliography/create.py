@@ -50,7 +50,7 @@ def create(guideline):
         URL=guideline.html_paths.writing_guide,
     )
     article = (
-        "@article{@citation, "
+        "@article{Citation, "
         f"title={{{citation['title']}}}, "
         f"volume={{{citation['volume']}}}, " 
         f"ISSN={{{citation['ISSN']}}}, "

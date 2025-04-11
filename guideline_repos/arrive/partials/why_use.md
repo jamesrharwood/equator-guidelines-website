@@ -1,1 +1,1 @@
-The {{< meta acronym >}} reporting guideline helps authors write research articles involving animals that can be understood and used by a wide audience. This page summarises {{< meta acronym >}} and how it will help you write. Each guideline item links to more information, examples, and relevant training.
+The {{< meta acronym >}} reporting guideline helps authors write research articles involving animals that can be understood and used by a wide audience. This page summarises {{< meta acronym >}} and how to use it.

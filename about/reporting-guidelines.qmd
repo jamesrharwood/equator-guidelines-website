@@ -24,16 +24,25 @@ impact.
 
 Reporting guidelines are made by expert groups. Most groups follow a systematic, consensus development method to create and publish a checklist, sometimes accompanied by a longer explanation paper that provides context and examples for each checklist item. 
 
-To make these resources easier to use, we at the EQUATOR Network built this website in collaboration with authors, editors, and the developers of the most-used open access reporting guidelines. We also created writing guides to help authors apply reporting guidelines early in their writing process. 
+To make these resources easier to use, we at the EQUATOR Network built this website in collaboration with authors, editors, and the developers of the most-used open access reporting guidelines. 
+
+<!-- We also created writing guides to help authors apply reporting guidelines early in their writing process.  -->
 
 <!-- #TODO add citation -->
 
-## Writing guides {#writing-guides}
+## Writing using reporting guidelines {#writing}
 
-Writing guides help authors develop their writing practice to create articles and applications that are clear, compelling, and complete. 
-Each reporting guideline comes with its own writing guide. They break the writing process into manageable pieces. After working through the writing guide, authors will have all of their thoughts and information in one place, ready to be rearranged into a logical narrative structure. It's up to the author to decide how best to arrange information, and whether to present it in the article body, in a figure or table, or in a supplement. This structured outline forms the skeleton for drafting. 
+Reporting guidelines help authors develop their writing practice to create articles and applications that are clear, compelling, and complete. They can be used alongside any writing process – whether you jump straight in with full paragraphs, or prefer to plan, outline, draft, and revise your text. Whether you write from introduction to discussion, or prefer to start by writing your methods or results. 
 
-[Read more about writing guides](writing-using-reporting-guidelines.qmd)
+They are especially useful to researchers with less writing experience, who haven't found an approach to writing that works for them. 
+
+They break the writing process into manageable pieces. Read the guidance before you begin writing. If you like to plan your writing, consider working though items and collating notes into a document, then organise your notes into coherent structure with logical narrative structure. 
+
+You decide how best to arrange information, and whether to present it in the article body, in a figure or table, or in a supplement. 
+
+To learn more about writing skills, develop good writing habits, and how to use reporting guidelines, see our [training](/training.qmd). 
+
+<!-- [Read more about writing guides](writing-using-reporting-guidelines.qmd) -->
 
 ## Reporting checklists {#reporting-checklists}
 
@@ -55,7 +64,7 @@ Conversely, if you specify which section, paragraph, table, figure, or supplemen
 
 If you have chosen not to report an item, explain why. You can do this in the checklist, or as a note below it. Otherwise editors or peer reviewers may chase you for this information, thereby delaying publication. These explanations will also help future evidence reviewers – who commonly use reporting guidelines when assessing the the quality of reporting and risk of bias – meaning your article may be more likely to be included in their reviews.
 
-As with writing guides, reporting guideline checklists do not dictate how research should be conducted nor how manuscripts should be structured. 
+As with reporting guidelines, checklists do not dictate how research should be conducted nor how manuscripts should be structured. 
 
 ## Writing applications and protocols using reporting guidelines {#writing-applications}
 
