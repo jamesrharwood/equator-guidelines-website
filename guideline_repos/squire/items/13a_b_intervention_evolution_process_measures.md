@@ -52,9 +52,7 @@ hold. The charts are annotated to show the phases of evolution of the
 project, to enable readers to see where each intervention fits in
 relationship to project results over time.
 
-![Statistical process control chart showing time to
-administration of antibiotics, with annotation (adapted from Jobson
-et al [@R46] (n.d.ak))](../uploads/bmjqs-2015-004480f04.jpg) {#fig-4}
+![Statistical process control chart showing time to administration of antibiotics, with annotation (adapted from Jobson et al [@R46] (n.d.ak))](../uploads/bmjqs-2015-004480f04.jpg){#fig-4}
 
 ## Example
 
@@ -96,9 +94,6 @@ et al [@R46] (n.d.ak))](../uploads/bmjqs-2015-004480f04.jpg) {#fig-4}
 > reported to monitor ongoing performance and detect any performance
 > declines should they occur...[@R18]
 
-![Evolution of the interventions (adapted from Jobson et
-al [@R18](n.d.j))](../uploads/bmjqs-2015-004480f02.jpg) {#fig-2}
+![Evolution of the interventions (adapted from Jobson et al [@R18](n.d.j))](../uploads/bmjqs-2015-004480f02.jpg){#fig-2}
 
-![Statistical process control chart showing antibiotic
-delivery within 60 min of arrival, with annotation (from Jobson et
-al [@R46](n.d.ak))](../uploads/bmjqs-2015-004480f03.jpg) {#fig-3}
+![Statistical process control chart showing antibiotic delivery within 60 min of arrival, with annotation (from Jobson et al [@R46](n.d.ak))](../uploads/bmjqs-2015-004480f03.jpg){#fig-3}

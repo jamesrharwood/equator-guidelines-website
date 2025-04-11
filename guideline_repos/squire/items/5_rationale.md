@@ -114,4 +114,4 @@ for, and examples of, the utility of the framework in other contexts.
 > intervention by mapping the individual components of the COM-B
 > behavioural analysis onto the published BCW linkage matrices...[@R24]
 
-![Behaviour change wheel (adapted from Sinnott et al (n.d.p) [@R24] and Mitchie et al.[@R25] (n.d.q)](../uploads/bmjqs-2015-004480f01.jpg) {#fig-bcw}
+![Behaviour change wheel (adapted from Sinnott et al (n.d.p) [@R24] and Mitchie et al.[@R25] (n.d.q)](../uploads/bmjqs-2015-004480f01.jpg){#fig-bcw}
