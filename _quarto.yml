@@ -9,7 +9,7 @@ project:
 smooth-scroll: true
 csl: american-medical-association.csl
 website:
-  site-url: 'https://jamesrharwood.github.io/equator-guidelines-website/'
+  site-url: 'https://resources.equator-network.org/'
   image: "assets/equator_logo.png"
   favicon: "assets/favicons/equator-network-16x16.png"
   search: true
@@ -75,11 +75,14 @@ format:
     toc-depth: 3
     section-divs: true
     include-in-header:
-        - scripts/search-shortcut.html
-        - text: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+      - scripts/gtm-head.html
+      - scripts/search-shortcut.html
+      - text: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    include-before-body: 
+      - scripts/gtm-body.html
     include-after-body:
-        - scripts/toggle_collapsible.html
-        - offcanvas.html
+      - scripts/toggle_collapsible.html
+      - offcanvas.html
     grid:
       sidebar-width: 250px
       body-width: 900px

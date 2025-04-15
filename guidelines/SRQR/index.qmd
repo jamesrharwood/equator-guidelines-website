@@ -30,8 +30,8 @@ Version: {{< meta version >}}. This is the latest version ✅
 
 You can use <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemreporting_guideline" aria-controls="offcanvasExample" role="button">reporting guidelines</span> throughout your research process. 
 
-* When writing: consult the full guidance when writing manuscripts, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemprotocol" aria-controls="offcanvasExample" role="button">protocols</span>, and applications. The [summary](#summary) below provides a useful overview, and each item links to fuller guidance with explanations and examples.
-* After writing: Complete a [checklist](#downloads) and include it with your journal submission.
+* When writing: consult the full guidance when writing manuscripts, <span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemprotocol" aria-controls="offcanvasExample" role="button">protocols</span>, and applications. The summary below provides a useful overview, and each item links to fuller guidance with explanations and examples.
+* After writing: Complete a checklist and include it with your journal submission.
 * To learn: Use {{< meta acronym >}} and our [training](/training.qmd) to develop as an academic and build writing skills.
 
 However you use {{< meta acronym >}}, please [cite it](faqs.qmd#citation).
