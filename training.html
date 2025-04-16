@@ -83,9 +83,10 @@ ul.task-list li input[type="checkbox"] {
 
       .quarto-title-block .quarto-title-banner {
         color: white;
-background: rgb(11, 167, 87);
+background: rgb(0, 133, 63);
       }
 </style>
+<meta http-equiv="x-content-type-options" content="nosniff">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -93,20 +94,6 @@ background: rgb(11, 167, 87);
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-KDQ69XFM');</script>
     <!-- End Google Tag Manager -->
-<script>
-    console.log('In search func!')
-    window.document.addEventListener("DOMContentLoaded", function (_event) {
-        var searchShortcuts = document.getElementsByClassName("search-shortcut");
-        var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
-        for (let i = 0; i < searchShortcuts.length; i++) {
-            searchShortcuts[i].addEventListener('click', function() {
-                searchElement.click()
-                return false;
-            })
-            searchShortcuts[i].removeAttribute('href')
-        }
-    })
-</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
 
 
@@ -125,7 +112,7 @@ background: rgb(11, 167, 87);
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/equator_logo.png" alt="" class="navbar-logo">
+    <img src="./assets/equator_logo.png" alt="EQUATOR Network Home Page" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -143,51 +130,20 @@ background: rgb(11, 167, 87);
 <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Other Resources</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-the-equator-network" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About The EQUATOR Network</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-the-equator-network">    
         <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/toolkits/">
- <span class="dropdown-text">Toolkits</span></a>
+    <a class="dropdown-item" href="//about/uk-equator-centre.html">
+ <span class="dropdown-text">The UK EQUATOR Centre</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/library/">
- <span class="dropdown-text">Library</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/toolkits/using-guidelines-in-journals/">
- <span class="dropdown-text">Resources for Publishers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/toolkits/developing-a-reporting-guideline/">
- <span class="dropdown-text">Resources for Guideline Developers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/toolkits/peer-reviewing-research/">
- <span class="dropdown-text">Resources for Peer Reviewers</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About EQUATOR</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
         <li>
     <a class="dropdown-item" href="https://www.equator-network.org/about-us/equator-network-what-we-do-and-how-we-are-organised/">
  <span class="dropdown-text">The EQUATOR Network</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/category/blog/">
- <span class="dropdown-text">Blog</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/category/news/">
- <span class="dropdown-text">News</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/contact/">
+    <a class="dropdown-item" href="//about/contact.html">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
@@ -230,6 +186,37 @@ background: rgb(11, 167, 87);
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDQ69XFM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<script>
+    // console.log('In search func!')
+    // window.document.addEventListener("DOMContentLoaded", function (_event) {
+    //     var searchShortcuts = document.getElementsByClassName("search-shortcut");
+    //     var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
+    //     for (let i = 0; i < searchShortcuts.length; i++) {
+    //         searchShortcuts[i].addEventListener('click', function() {
+    //             searchElement.click()
+    //             return false;
+    //         })
+    //         searchShortcuts[i].removeAttribute('href')
+    //     }
+    // })
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+        var search = document.getElementById('quarto-search')
+        var searchElement = search.getElementsByClassName("aa-DetachedSearchButton")[0];
+        searchElement.setAttribute('aria-label', 'Search button');
+        var searchElementSvg = searchElement.getElementsByTagName('svg')[0];
+        searchElementSvg.setAttribute('alt', "Search icon");
+        var searchElementDiv = search.getElementsByClassName("aa-Autocomplete")[0];
+        searchElementDiv.setAttribute('aria-label', "Search field");
+        // var cookieButton = document.getElementById("ccc-icon");
+        // var cookieSvg = cookieButton.getElementsByTagName('svg')[0];
+        // cookieDescendants = cookieSvg.getElementsByTagName('*');
+        // var i, e;
+        // for (i = 0; i < cookieDescendants.length; ++i) {
+        //     e = cookieDescendants[i];
+        //     e.setAttribute('aria-hidden', true);
+        // }
+    })
+</script>
 
 
 
@@ -239,8 +226,8 @@ background: rgb(11, 167, 87);
 <p>Led by writing and methodology experts from the UK EQUATOR Centre and <a href="https://www.ndorms.ox.ac.uk/csm">Centre for Statistics in Medicine</a>, this practical course gives you the tools to plan, write, and polish clear, accurate, and impactful health-related research – faster and with less stress.</p>
 <p>Through practical exercises, group work, and expert feedback, you’ll learn exactly what journals look for and how to deliver it.</p>
 <div class="grid">
-<section id="what-we-cover" class="level3 g-col-md-8 g-col-12">
-<h3 class="anchored" data-anchor-id="what-we-cover">What we cover</h3>
+<section id="what-we-cover" class="level2 g-col-md-8 g-col-12">
+<h2 class="anchored" data-anchor-id="what-we-cover">What we cover</h2>
 <ul>
 <li>Planning your message and audience</li>
 <li>Negotiating authorship</li>
@@ -262,7 +249,7 @@ background: rgb(11, 167, 87);
 <p>“It broke academic writing for publication down into really manageable and achievable guidance points. Made me less worried about writing my next article!”</p>
 </div>
 <div class="quote-who">
-<p><img src="https://placehold.co/40x40?text=Ppt"></p>
+<p><img src="https://placehold.co/40x40?text=Ppt" alt="Participant"></p>
 <div class="name">
 <p><span class="text-small">June 2019 participant</span></p>
 </div>
@@ -295,7 +282,8 @@ background: rgb(11, 167, 87);
 </div>
 <!-- .g-col-md-8 -->
 <div class="g-col-md-4 g-col-12">
-<p><img src="https://placehold.co/600x400?text=Img+online+training.png" class="img-fluid"></p>
+<p><img src="https://placehold.co/600x400?text=Img+online+training.png" class="img-fluid" alt="Online training"><br>
+</p>
 </div>
 <!-- hero-buttons -->
 <!-- .g-col-md-4 -->
@@ -306,7 +294,8 @@ background: rgb(11, 167, 87);
 <h3 class="anchored" data-anchor-id="in-person-training">In-person training</h3>
 <div class="grid">
 <div class="g-col-md-4 g-col-12">
-<p><img src="https://placehold.co/600x400?text=Img+person+training.png" class="img-fluid"></p>
+<p><img src="https://placehold.co/600x400?text=Img+person+training.png" class="img-fluid" alt="In-person training"><br>
+</p>
 </div>
 <!-- .g-col-md-4 -->
 <div class="g-col-md-8 g-col-12">
@@ -327,7 +316,7 @@ background: rgb(11, 167, 87);
 <p>“Would definitely recommend to those starting out in a research career.”</p>
 </div>
 <div class="quote-who">
-<p><img src="https://placehold.co/40x40?text=Ppt"></p>
+<p><img src="https://placehold.co/40x40?text=Ppt" alt="Participant"></p>
 <div class="name">
 <p><span class="text-small">November 2019 participant</span></p>
 </div>

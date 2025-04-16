@@ -272,7 +272,7 @@ table p, table li {
   
   .btn-action-primary {
     color: white;
-    background-color: rgb(11, 167, 87);
+    background-color: var(--green-primary-background);
   }
   
   .btn-action-primary:hover {
@@ -387,8 +387,8 @@ table p, table li {
   border-radius: 15px;
 }
 .btn-primary {
-  background-color: var(--green-primary);
-  border-color: var(--green-primary);
+  background-color: var(--green-primary-background);
+  border-color: var(--green-primary-background);
 }
 .btn-primary:focus, .btn-primary:hover{
   background-color: var(--green);
@@ -396,7 +396,8 @@ table p, table li {
 }
 .btn-secondary {
   background-color: white;
-  border-color: var(--green-primary);
+  color: var(--green-primary-background);
+  border-color: var(--green-primary-background);
   border-style: solid;
 }
 .btn-secondary:focus, .btn-secondary:hover{

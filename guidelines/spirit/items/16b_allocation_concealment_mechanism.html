@@ -70,6 +70,24 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: white;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: white;
+background: rgb(0, 133, 63);
+      }
+</style>
+<meta http-equiv="x-content-type-options" content="nosniff">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -77,20 +95,6 @@ ul.task-list li input[type="checkbox"] {
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-KDQ69XFM');</script>
     <!-- End Google Tag Manager -->
-<script>
-    console.log('In search func!')
-    window.document.addEventListener("DOMContentLoaded", function (_event) {
-        var searchShortcuts = document.getElementsByClassName("search-shortcut");
-        var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
-        for (let i = 0; i < searchShortcuts.length; i++) {
-            searchShortcuts[i].addEventListener('click', function() {
-                searchElement.click()
-                return false;
-            })
-            searchShortcuts[i].removeAttribute('href')
-        }
-    })
-</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
 
 
@@ -127,12 +131,12 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../assets/equator_logo.png" alt="" class="navbar-logo">
+    <img src="../../../assets/equator_logo.png" alt="EQUATOR Network Home Page" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -150,51 +154,20 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Other Resources</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-the-equator-network" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About The EQUATOR Network</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-other-resources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-the-equator-network">    
         <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/toolkits/">
- <span class="dropdown-text">Toolkits</span></a>
+    <a class="dropdown-item" href="//about/uk-equator-centre.html">
+ <span class="dropdown-text">The UK EQUATOR Centre</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/library/">
- <span class="dropdown-text">Library</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/toolkits/using-guidelines-in-journals/">
- <span class="dropdown-text">Resources for Publishers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/toolkits/developing-a-reporting-guideline/">
- <span class="dropdown-text">Resources for Guideline Developers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/toolkits/peer-reviewing-research/">
- <span class="dropdown-text">Resources for Peer Reviewers</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-equator" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About EQUATOR</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-equator">    
         <li>
     <a class="dropdown-item" href="https://www.equator-network.org/about-us/equator-network-what-we-do-and-how-we-are-organised/">
  <span class="dropdown-text">The EQUATOR Network</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/category/blog/">
- <span class="dropdown-text">Blog</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/category/news/">
- <span class="dropdown-text">News</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://www.equator-network.org/contact/">
+    <a class="dropdown-item" href="//about/contact.html">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
@@ -220,7 +193,23 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title d-none d-lg-block">16b. Allocation concealment mechanism</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -676,28 +665,44 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDQ69XFM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<script>
+    // console.log('In search func!')
+    // window.document.addEventListener("DOMContentLoaded", function (_event) {
+    //     var searchShortcuts = document.getElementsByClassName("search-shortcut");
+    //     var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
+    //     for (let i = 0; i < searchShortcuts.length; i++) {
+    //         searchShortcuts[i].addEventListener('click', function() {
+    //             searchElement.click()
+    //             return false;
+    //         })
+    //         searchShortcuts[i].removeAttribute('href')
+    //     }
+    // })
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+        var search = document.getElementById('quarto-search')
+        var searchElement = search.getElementsByClassName("aa-DetachedSearchButton")[0];
+        searchElement.setAttribute('aria-label', 'Search button');
+        var searchElementSvg = searchElement.getElementsByTagName('svg')[0];
+        searchElementSvg.setAttribute('alt', "Search icon");
+        var searchElementDiv = search.getElementsByClassName("aa-Autocomplete")[0];
+        searchElementDiv.setAttribute('aria-label', "Search field");
+        // var cookieButton = document.getElementById("ccc-icon");
+        // var cookieSvg = cookieButton.getElementsByTagName('svg')[0];
+        // cookieDescendants = cookieSvg.getElementsByTagName('*');
+        // var i, e;
+        // for (i = 0; i < cookieDescendants.length; ++i) {
+        //     e = cookieDescendants[i];
+        //     e.setAttribute('aria-hidden', true);
+        // }
+    })
+</script>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title d-none d-lg-block">16b. Allocation concealment mechanism</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <p>Mechanism of implementing the allocation sequence (eg, central telephone; sequentially numbered, opaque, sealed envelopes), describing any steps to conceal the sequence until interventions are assigned</p>
