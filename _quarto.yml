@@ -16,6 +16,7 @@ website:
   navbar:
     background: light
     logo: "assets/equator_logo.png"
+    logo-alt: EQUATOR Network Home Page
     # right:
     #   - href: https://www.equator-network.org/reporting-guidelines/
     #     icon: search
@@ -24,28 +25,14 @@ website:
         text: Reporting Guidelines
       - href: training.qmd
         text: Training
-      - text: Other Resources
+      - text: About The EQUATOR Network
         menu: 
-          - text: Toolkits
-            href: https://www.equator-network.org/toolkits/
-          - text: Library
-            href: https://www.equator-network.org/library/
-          - text: Resources for Publishers
-            href: https://www.equator-network.org/toolkits/using-guidelines-in-journals/
-          - text: Resources for Guideline Developers
-            href: https://www.equator-network.org/toolkits/developing-a-reporting-guideline/
-          - text: Resources for Peer Reviewers
-            href: https://www.equator-network.org/toolkits/peer-reviewing-research/
-      - text: About EQUATOR
-        menu: 
+          - text: The UK EQUATOR Centre
+            href: /about/uk-equator-centre.qmd
           - text: The EQUATOR Network
             href: https://www.equator-network.org/about-us/equator-network-what-we-do-and-how-we-are-organised/
-          - text: Blog
-            href: https://www.equator-network.org/category/blog/
-          - text: News
-            href: https://www.equator-network.org/category/news/
           - text: Contact
-            href: https://www.equator-network.org/contact/
+            href: /about/contact.qmd
   page-footer:
     left: |
       Created by the
@@ -74,12 +61,14 @@ format:
     toc-location: right
     toc-depth: 3
     section-divs: true
+    title-block-banner: rgb(0, 133, 63)
+    title-block-banner-color: white
     include-in-header:
       - scripts/gtm-head.html
-      - scripts/search-shortcut.html
       - text: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     include-before-body: 
       - scripts/gtm-body.html
+      - scripts/search-shortcut.html
     include-after-body:
       - scripts/toggle_collapsible.html
       - offcanvas.html

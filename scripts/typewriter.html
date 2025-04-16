@@ -18,7 +18,6 @@
       var words = ["editors", "clinicians", "patients", "policy makers", "students", "reviewers", "search engines", "researchers" ],
       i = 0;
       setInterval(function(){ $('#typewriter-words').fadeOut(function(){
-          console.log('in fade out func')
           $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
         }); }, 2500)
     })();

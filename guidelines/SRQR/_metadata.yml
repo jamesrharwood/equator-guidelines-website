@@ -135,27 +135,26 @@ items:
     title: Units of study
     web_path: /guidelines/srqr/items/units-of-study.qmd
 journal-endorsement-count: 150+
-license: Most of the reporting guidelines and reporting checklists on this website
-  were originally published under permissive licenses that allowed their reuse. Some
-  were published with propriety licenses, where copyright is held by the publisher
-  and/or original authors. The original content of the reporting checklists and explanation
-  pages on this website were drawn from these publications without permission from
-  the publisher but with knowledge and permission from the reporting guideline authors,
-  and subsequently revised in response to feedback and evidence from research as part
-  of an ongoing scholarly dialogue about how best to disseminate reporting guidance.
-  The UK EQUATOR Centre makes no copyright claims over reporting guideline content.
-  Our use of copyrighted content on this website falls under <a href="https://www.copyright.gov/title17/92chap1.html#107">fair
-  use guidelines</a>.
+license: Most of the reporting guidelines and checklists on this website were originally
+  published under permissive licenses that allowed their reuse. Some were published
+  with propriety licenses, where copyright is held by the publisher and/or original
+  authors. The original content of the reporting checklists and explanation pages
+  on this website were drawn from these publications with knowledge and permission
+  from the reporting guideline authors, and subsequently revised in response to feedback
+  and evidence from research as part of an ongoing scholarly dialogue about how best
+  to disseminate reporting guidance. The UK EQUATOR Centre makes no copyright claims
+  over reporting guideline content. Our use of copyrighted content on this website
+  falls under fair use guidelines.
 paths:
   html:
-    about_reporting_guidelines: https:/jamesrharwood.github.io/equator-guidelines-website/about/reporting-guidelines.html
-    about_writing_guides: https:/jamesrharwood.github.io/equator-guidelines-website/about/writing-using-reporting-guidelines.html
-    applicability: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/index.html?#applicability
-    checklist: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/srqr-checklist.docx
-    full_guideline: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/index.html
-    home_page: https://jamesrharwood.github.io/equator-guidelines-website/
-    training: https:/jamesrharwood.github.io/equator-guidelines-website/training.html
-    writing_guide: https:/jamesrharwood.github.io/equator-guidelines-website/guidelines/srqr/srqr-writing-guide.docx
+    about_reporting_guidelines: https:/resources.equator-network.org/about/reporting-guidelines.html
+    about_writing_guides: https:/resources.equator-network.org/about/writing-using-reporting-guidelines.html
+    applicability: https:/resources.equator-network.org/guidelines/srqr/index.html?#applicability
+    checklist: https:/resources.equator-network.org/guidelines/srqr/srqr-checklist.docx
+    full_guideline: https:/resources.equator-network.org/guidelines/srqr/index.html
+    home_page: https://resources.equator-network.org/
+    training: https:/resources.equator-network.org/training.html
+    writing_guide: https:/resources.equator-network.org/guidelines/srqr/srqr-writing-guide.docx
   qmd:
     about_reporting_guidelines: about/reporting-guidelines.qmd
     about_writing_guides: about/writing-using-reporting-guidelines.qmd

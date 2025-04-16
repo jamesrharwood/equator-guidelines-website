@@ -1,7 +1,5 @@
 ---
 title: Publication School
-title-block-banner: rgb(11, 167, 87)
-title-block-banner-color: white
 sections: true
 toc: false
 description: Online and in-person training to help you write with confidence and publish with impact.
@@ -23,7 +21,7 @@ Through practical exercises, group work, and expert feedback, you’ll learn exa
 
 ::: {.g-col-md-8 .g-col-12}
 
-### What we cover
+## What we cover
 
 * Planning your message and audience
 * Negotiating authorship
@@ -49,7 +47,7 @@ Through practical exercises, group work, and expert feedback, you’ll learn exa
 :::
 
 ::: {.quote-who}
-<img src="https://placehold.co/40x40?text=Ppt">
+<img src="https://placehold.co/40x40?text=Ppt" alt="Participant">
 
 ::: {.name}
 [June 2019 participant]{.text-small}
@@ -100,7 +98,7 @@ Participants receive an electronic course workbook with all notes and exercises.
 
 ::: {.g-col-md-4 .g-col-12}
 
-![](https://placehold.co/600x400?text=Img+online+training)
+![Online training](https://placehold.co/600x400?text=Img+online+training)\
 
 :::
 
@@ -117,7 +115,7 @@ Participants receive an electronic course workbook with all notes and exercises.
 
 ::: {.g-col-md-4 .g-col-12}
 
-![](https://placehold.co/600x400?text=Img+person+training)
+![In-person training](https://placehold.co/600x400?text=Img+person+training)\
 
 :::
 <!-- .g-col-md-4 -->
@@ -140,8 +138,6 @@ The in-person course is held in Oxford over 2 full days. Course fees include a l
 :::
 <!-- .grid -->
 
-
-
 :::{.quote .card}
 
 :::{.quote-text-normal}
@@ -149,7 +145,7 @@ The in-person course is held in Oxford over 2 full days. Course fees include a l
 :::
 
 ::: {.quote-who}
-<img src="https://placehold.co/40x40?text=Ppt">
+<img src="https://placehold.co/40x40?text=Ppt" alt="Participant">
 
 ::: {.name}
 [November 2019 participant]{.text-small}

@@ -14,11 +14,36 @@ include-after-body:
   - scripts/typewriter.html
 include-before-body: 
   - scripts/jquery.html
+listing: 
+  id: staff-listing
+  grid-columns: 6
+  type: grid
+  contents: 
+    - title: Gary Collins
+      # subtitle: Director
+      image: /assets/images/staff/GaryCollins.webp
+      image-alt: Gary Collins, Director
+      path: about/uk-equator-centre.html#gary-collins
+    - title: Jennifer de Beyer
+      # subtitle: Publication & Dissemination Specialist
+      image: /assets/images/staff/Jen-de-Beyer.webp
+      image-alt: Jen de Beyer
+      path: about/uk-equator-centre.html#jen-de-beyer
+    - title: Paula Dhiman 
+      # subtitle: Medical Statistician
+      image: /assets/images/staff/pdhiman.jpg
+      image-alt: Paula Dhiman
+      path: about/uk-equator-centre.html#paula-dhiman
+    - title: Caroline Struthers
+      # subtitle: Senior EQUATOR Research Fellow
+      image: /assets/images/staff/caroline-struthers.jpg
+      image-alt: Caroline Struthers
+      path: about/uk-equator-centre.html#caroline-struthers
 ---
 
 ::: {.quarto-title-block .radial-background}
-<img src="assets/images/radial1.svg" class="radial1">
-<img src="assets/images/radial2.svg" class="radial2"> 
+<img src="assets/images/radial1.svg" class="radial1" alt="blurred background colours">
+<img src="assets/images/radial2.svg" class="radial2" alt="blurred background colours"> 
 
 ::: {.quarto-title-banner-normal-margin}
 
@@ -27,13 +52,13 @@ include-before-body:
 ::: {.hero-title-block}
 ::: {.grid .no-gutters}
 ::: {.g-col-lg-2 .g-col-md-2 .d-none .d-md-block .hero-content-left}
-[<img src="assets/images/ArticlesImage.png" class="img-fluid">]{.hero-img-wrapper}
+[<img src="assets/images/ArticlesImage.png" class="img-fluid" alt="A selection of journal articles">]{.hero-img-wrapper}
 :::
 <!-- image col -->
 
 ::: {.g-col-lg-6 .g-col-md-7 .g-col-12 .hero-content-center}
 
-::: {.hero-content-box .card .invisible-on-mobile}
+::: {.hero-content-box .card-highlight .invisible-on-mobile}
 # Want help writing up research?
 
 Your research will be read by [researchers]{id=typewriter-words .emphasise}. 
@@ -55,19 +80,14 @@ Write [quickly and confidently]{.emphasise} using reporting guidelines: communit
 
 
 ::: {.g-col-lg-4 .g-col-md-3 .g-col-12 .hero-content-right}
-### About The EQUATOR Network
+## About The EQUATOR Network
 
 We are the leading global academic network dedicated to improving research reporting quality.
 
 Learn more about [who we are and what we do](#about-equator).
 
 ::: {.logos}
-<!-- ![](assets/equator_logo.png) -->
-![](assets/logos/oxford.svg){.logo-bigger}
-<!-- ![](assets/logos/paris.jpeg)
-![](assets/logos/ottawa.png){.logo-bigger}
-![](assets/logos/bond.svg)
-![](assets/logos/hongkongbaptistuniversity.svg){.logo-bigger} -->
+![University of Oxford logo](assets/logos/oxford.svg){.logo-bigger}\
 ::: 
 
 :::
@@ -96,11 +116,11 @@ Learn more about [who we are and what we do](#about-equator).
 
 [Endorsed by leading publishers including]{.small}
 
-![](assets/logos/nature.png)
-![](assets/logos/wiley.png)
-![](assets/logos/elsevier.png)
-![](assets/logos/bmj.png){.logo-smaller}
-![](assets/logos/bmc.svg)
+![Nature logo](assets/logos/nature.png)
+![Wiley logo](assets/logos/wiley.png)
+![Elsevier logo](assets/logos/elsevier.png)
+![BMJ logo](assets/logos/bmj.png){.logo-smaller}
+![BMC logo](assets/logos/bmc.svg)
 
 ::: 
 <!--/logos-->
@@ -116,7 +136,7 @@ Learn more about [who we are and what we do](#about-equator).
 
 ::: {.content-block}
 
-::: {.card .invisible-on-mobile}
+::: {.card-highlight .invisible-on-mobile}
 
 ### Frequently accessed reporting guidelines
 
@@ -129,7 +149,7 @@ Learn more about [who we are and what we do](#about-equator).
 :::
 <!-- content block -->
 :::
-<!-- alt background -->
+<!-- alt background   -->
 
 ::: {.content-block .center}
 
@@ -144,7 +164,7 @@ Your research will be used by people from different disciplines and backgrounds 
 ::: {.features}
 
 ::: {.feature}
-![](assets/images/bubblecons/bubblecons_work_from_home_workspace-40-icon-line-colour.svg){.feature-icon}
+![Workspace](assets/images/bubblecons/bubblecons_work_from_home_workspace-40-icon-line-colour.svg){.feature-icon}\
 
 ### Writing manuscripts
 Write confidently using a reporting guideline to quickly turn a blank page into a thorough and impactful manuscript. 
@@ -155,7 +175,7 @@ Write confidently using a reporting guideline to quickly turn a blank page into 
 :::
 
 ::: {.feature}
-![](assets/images/bubblecons/bubblecons_notes_clip-task-2-icon-line-colour.svg){.feature-icon}
+![Todo list](assets/images/bubblecons/bubblecons_notes_clip-task-2-icon-line-colour.svg){.feature-icon}\
 
 ### Checking manuscripts
 Use a reporting checklist to ensure you have included everything. Many journals require completed checklists at submission.
@@ -167,7 +187,7 @@ Use a reporting checklist to ensure you have included everything. Many journals 
 :::
 
 ::: {.feature}
-![](assets/images/bubblecons/bubblecons_notes_pencil-24-icon-line-colour.svg){.feature-icon}
+![Writing](assets/images/bubblecons/bubblecons_notes_pencil-24-icon-line-colour.svg){.feature-icon}\
 
 ### Writing applications
 Reporting guidelines can help you write funding applications, ethics applications, and protocols, but they won't make design decisions for you!
@@ -183,8 +203,8 @@ Reporting guidelines can help you write funding applications, ethics application
 
 
 ::: {.radial-background}
-<img src="assets/images/radial1.svg" class="radial1">
-<img src="assets/images/radial2.svg" class="radial2"> 
+<img src="assets/images/radial1.svg" class="radial1" alt="Blurred background colours">
+<img src="assets/images/radial2.svg" class="radial2" alt="Blurred background colours"> 
 
 ::: {.content-block .center}
 
@@ -196,8 +216,8 @@ People around the world use reporting guidelines in many ways and for many reaso
 
 ::: {.grid}
 
-::: {.g-col-md-4 .g-col-12 .card}
-![](assets/images/supervision.webp){.feature-photo}
+::: {.g-col-md-4 .g-col-12 .card-highlight}
+![Supervisor and student](assets/images/supervision.webp){.feature-photo}\
 
 ### Researchers
 
@@ -208,8 +228,8 @@ Sally is an experienced academic with hundreds of publications. James is a PhD s
 :::
 :::
 
-::: {.g-col-md-4 .g-col-12 .card}
-![](assets/images/editors.jpg){.feature-photo}
+::: {.g-col-md-4 .g-col-12 .card-highlight}
+![Editors](assets/images/editors.jpg){.feature-photo}\
 
 ### Editors
 Read why editors from leading medical journals ask authors to use reporting guidelines and how they check adherence.
@@ -219,8 +239,8 @@ Read why editors from leading medical journals ask authors to use reporting guid
 :::
 :::
 
-::: {.g-col-md-4 .g-col-12 .card}
-![](assets/images/reviewer.jpeg){.feature-photo}
+::: {.g-col-md-4 .g-col-12 .card-highlight}
+![Peer Reviewer](assets/images/reviewer.jpeg){.feature-photo}\
 
 ### Reviewers
 
@@ -239,16 +259,42 @@ Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesi
 :::
 <!-- /alt-background -->
 
-::: {.about-equator id=about-equator}
+::: {.publisher-logos}
+
+::: {.content-block}
+
+::: {.logos}
+
+[Endorsed by leading publishers including]{.small}
+
+![Nature logo](assets/logos/nature.png)
+![Wiley logo](assets/logos/wiley.png)
+![Elsevier logo](assets/logos/elsevier.png)
+![BMJ logo](assets/logos/bmj.png){.logo-smaller}
+![BMC logo](assets/logos/bmc.svg)
+
+::: 
+<!--/logos-->
+
+:::
+<!-- content-block -->
+
+::: 
+<!-- publisher-logos -->
+
+
+::: {.gradient-background-1 .training id=training}
 ::: {.content-block}
 
 ## Training
 
 ::: {.grid}
 
-::: {.g-col-md-8 .g-col-12}
+::: {.g-col-md-8 .g-col-12 .lead}
 
-Want to feel more confident when writing and publishing your research? Want to write quickly, clearly, and concisely? The UK EQUATOR Centre’s Publication School is a hands-on course designed for early-career researchers who want to take control of the writing process and get their work out into the world. 
+Want to feel more confident when writing and publishing your research? Want to write quickly, clearly, and concisely? 
+
+The UK EQUATOR Centre’s [Publication School]{.emphasise} is a hands-on course designed for early-career researchers who want to take control of the writing process and get their work out into the world. 
 
 [Learn more »](training.qmd)
 
@@ -257,7 +303,7 @@ Want to feel more confident when writing and publishing your research? Want to w
 
 ::: {.g-col-md-4 .g-col-12}
 
-![](https://placehold.co/600x400?text=Img+online+training)
+![Training](https://placehold.co/600x400?text=Img+online+training)\
 
 :::
 <!-- .g-col-md-4 -->
@@ -265,12 +311,14 @@ Want to feel more confident when writing and publishing your research? Want to w
 :::
 <!-- .grid -->
 
+:::
+:::
+
+::: {.about-equator id=about-equator}
+::: {.content-block}
 
 ## The EQUATOR Network
 
-::: {.grid}
-
-::: {.g-col-md-8 .g-col-12}
 EQUATOR stands for Enhancing the QUAlity and Transparency Of health Research. 
 
 Our mission is to improve the reliability and value of published health research literature by promoting transparent and accurate reporting and wider use of robust reporting guidelines. We are the first coordinated attempt to tackle the problems of inadequate reporting systematically and on a global scale.
@@ -279,27 +327,25 @@ We advance the work done by individual guideline development groups. We maintain
 
 We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-centre/) (our head office), [Canada](https://www.equator-network.org/about-us/canadian-equator-centre/), [Australia](https://www.equator-network.org/about-us/australasian-equator-centre/), [France](https://www.equator-network.org/about-us/french-equator-centre/), and [China](http://www.equator-chinese.org/pages/en/index/index.html). 
 
-:::
-
-::: {.g-col-md-4 .g-col-12}
-
-![](assets/EQUATOR-first-international-working-meeting-Oxford-May-2006)
-<!-- Replace with something modern that will make people think EQUATOR is current-->
-:::
-
-<!--/logos-->
-
-:::
-<!-- /grid -->
-
 ::: {.logos}
 
-![](assets/logos/oxford.svg)
-![](assets/logos/paris.jpeg)
-![](assets/logos/ottawa.png){.logo-bigger}
-![](assets/logos/bond.svg)
-![](assets/logos/hongkongbaptistuniversity.svg){.logo-bigger}
+![University of Oxford logo](assets/logos/oxford.svg)
+![Université Paris Cité logo](assets/logos/paris.jpeg)
+![Ottowa Hospital logo](assets/logos/ottawa.png){.logo-bigger}
+![Bond University logo](assets/logos/bond.svg)
+![Hong Kong Baptist University logo](assets/logos/hongkongbaptistuniversity.svg){.logo-bigger}
 ::: 
+
+### UK EQUATOR Centre
+
+The EQUATOR Network headquarters are the UK EQUATOR Centre, based at the Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences (NDORMS), University of Oxford. The UK EQUATOR Centre maintains this website, a database of reporting guidelines, and works with other organisations to promote transparent reporting and other good research practices. Alongside clinical and meta-research, we specialise in training researchers how to write.
+
+#### UK EQUATOR Centre Staff
+
+::: {#staff-listing}
+:::
+
+<!-- /grid -->
 
 :::
 :::

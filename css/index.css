@@ -32,14 +32,6 @@ td p {
   padding-top: 0px;
 }
 
-
-.quarto-title-block .quarto-title-banner {
-  background-image:
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9)),
-    url('../assets/pink-green.jpeg');
-  background-size: cover;
-}
-
 .hero-banner td {
   padding-left: 0px;
 }

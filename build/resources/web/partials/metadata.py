@@ -30,7 +30,7 @@ DEFAULT = {
             '*.md',
         ]
     },
-    'license': 'Most of the reporting guidelines and reporting checklists on this website were originally published under permissive licenses that allowed their reuse. Some were published with propriety licenses, where copyright is held by the publisher and/or original authors. The original content of the reporting checklists and explanation pages on this website were drawn from these publications without permission from the publisher but with knowledge and permission from the reporting guideline authors, and subsequently revised in response to feedback and evidence from research as part of an ongoing scholarly dialogue about how best to disseminate reporting guidance. The UK EQUATOR Centre makes no copyright claims over reporting guideline content. Our use of copyrighted content on this website falls under <a href="https://www.copyright.gov/title17/92chap1.html#107">fair use guidelines</a>.'
+    'license': 'Most of the reporting guidelines and checklists on this website were originally published under permissive licenses that allowed their reuse. Some were published with propriety licenses, where copyright is held by the publisher and/or original authors. The original content of the reporting checklists and explanation pages on this website were drawn from these publications with knowledge and permission from the reporting guideline authors, and subsequently revised in response to feedback and evidence from research as part of an ongoing scholarly dialogue about how best to disseminate reporting guidance. The UK EQUATOR Centre makes no copyright claims over reporting guideline content. Our use of copyrighted content on this website falls under fair use guidelines.'
 }
 
 CONTAINER =   {
