@@ -94,6 +94,7 @@ background: rgb(0, 133, 63);
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-KDQ69XFM');</script>
     <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
 
 
@@ -187,19 +188,16 @@ background: rgb(0, 133, 63);
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDQ69XFM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <script>
-    // console.log('In search func!')
-    // window.document.addEventListener("DOMContentLoaded", function (_event) {
-    //     var searchShortcuts = document.getElementsByClassName("search-shortcut");
-    //     var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
-    //     for (let i = 0; i < searchShortcuts.length; i++) {
-    //         searchShortcuts[i].addEventListener('click', function() {
-    //             searchElement.click()
-    //             return false;
-    //         })
-    //         searchShortcuts[i].removeAttribute('href')
-    //     }
-    // })
     window.document.addEventListener("DOMContentLoaded", function (_event) {
+        var searchShortcuts = document.getElementsByClassName("search-shortcut");
+        var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
+        for (let i = 0; i < searchShortcuts.length; i++) {
+            searchShortcuts[i].addEventListener('click', function() {
+                searchElement.click()
+                return false;
+            })
+            searchShortcuts[i].removeAttribute('href')
+        }
         var search = document.getElementById('quarto-search')
         var searchElement = search.getElementsByClassName("aa-DetachedSearchButton")[0];
         searchElement.setAttribute('aria-label', 'Search button');
@@ -207,14 +205,6 @@ background: rgb(0, 133, 63);
         searchElementSvg.setAttribute('alt', "Search icon");
         var searchElementDiv = search.getElementsByClassName("aa-Autocomplete")[0];
         searchElementDiv.setAttribute('aria-label', "Search field");
-        // var cookieButton = document.getElementById("ccc-icon");
-        // var cookieSvg = cookieButton.getElementsByTagName('svg')[0];
-        // cookieDescendants = cookieSvg.getElementsByTagName('*');
-        // var i, e;
-        // for (i = 0; i < cookieDescendants.length; ++i) {
-        //     e = cookieDescendants[i];
-        //     e.setAttribute('aria-hidden', true);
-        // }
     })
 </script>
 
@@ -223,7 +213,7 @@ background: rgb(0, 133, 63);
 
 
 <div class="content-block">
-<p>Led by writing and methodology experts from the UK EQUATOR Centre and <a href="https://www.ndorms.ox.ac.uk/csm">Centre for Statistics in Medicine</a>, this practical course gives you the tools to plan, write, and polish clear, accurate, and impactful health-related research – faster and with less stress.</p>
+<p>Led by writing and methodology experts from the UK EQUATOR Centre and Centre for Statistics in Medicine, this practical course gives you the tools to plan, write, and polish clear, accurate, and impactful health-related research – faster and with less stress.</p>
 <p>Through practical exercises, group work, and expert feedback, you’ll learn exactly what journals look for and how to deliver it.</p>
 <div class="grid">
 <section id="what-we-cover" class="level2 g-col-md-8 g-col-12">
@@ -302,11 +292,11 @@ background: rgb(0, 133, 63);
 <p>The in-person course is held in Oxford over 2 full days. Course fees include a light lunch and refreshments each day. All sessions are interactive, with all-group discussion and small-group exercises and discussion. Participants receive a hard-copy of the course workbook with all notes and exercises.</p>
 <p><strong>Fees for 2 days + lunch &amp; refreshments:</strong></p>
 <ul>
-<li>Students / PPI representatives: £#TODO</li>
-<li>Academia / public sector / non-profit: £#TODO</li>
-<li>Commercial / private: £#TODO</li>
+<li>Students / PPI representatives: £400</li>
+<li>Academia / public sector / non-profit: £500</li>
+<li>Commercial / private: £750</li>
 </ul>
-<p><a href="#TODO">Enrol for in-person training »</a></p>
+<p><a href="https://www.oxforduniversitystores.co.uk/short-courses/nuffield-department-of-orthopaedics-rheumatology-and-musculoskeletal-sciences/botnar-research-centre/equator-publication-school">Enrol for in-person training »</a></p>
 </div>
 <!-- .grid-col-8 -->
 </div>
@@ -339,8 +329,12 @@ background: rgb(0, 133, 63);
 </div>
 
 
+<div id="quarto-appendix" class="default"><section id="images-on-this-page" class="level5 appendix"><h2 class="anchored quarto-appendix-heading">Images on this page</h2><div class="quarto-appendix-contents">
 
-</main> <!-- /main -->
+<p>Although the quotes come from real participants, the images on this page are stock images that are free to use without attribution. We are still working on this website, and hope to have real photos, of real participants, after our next Publication School later this year.</p>
+
+
+</div></section></div></main> <!-- /main -->
 <script>
     const links = document.querySelectorAll('.link-to-collapsible')
 
