@@ -52,7 +52,7 @@ listing:
 ::: {.hero-title-block}
 ::: {.grid .no-gutters}
 ::: {.g-col-lg-2 .g-col-md-2 .d-none .d-md-block .hero-content-left}
-[<img src="assets/images/ArticlesImage.png" class="img-fluid" alt="A selection of journal articles">]{.hero-img-wrapper}
+[<img src="assets/images/ArticlesImage660x1046.webp" class="img-fluid" alt="A selection of journal articles">]{.hero-img-wrapper}
 :::
 <!-- image col -->
 
@@ -142,7 +142,7 @@ Learn more about [who we are and what we do](#about-equator).
 
 {{< include index_table.md >}}
 
-[Search all 500+ reporting guidelines](.){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"} 
+[Search all 500+ reporting guidelines](https://www.equator-network.org/reporting-guidelines/){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"} 
 :::
 <!-- card -->
 
@@ -221,34 +221,39 @@ People around the world use reporting guidelines in many ways and for many reaso
 
 ### Researchers
 
-Sally is an experienced academic with hundreds of publications. James is a PhD student. Both use reporting guidelines to write, learn, and teach. 
+Both experienced and early career researchers use reporting guidelines to write, learn, and teach.
+
+<!-- Sally is an experienced academic with hundreds of publications. James is a PhD student. Both use reporting guidelines to write, learn, and teach. 
 
 ::: {.learn-more}
 [Learn more »](about/why-reporting-matters.qmd#researcher)
-:::
+::: -->
 :::
 
 ::: {.g-col-md-4 .g-col-12 .card-highlight}
-![Editors](assets/images/editors.jpg){.feature-photo}\
+![Editors](assets/images/editors.webp){.feature-photo}\
 
 ### Editors
-Read why editors from leading medical journals ask authors to use reporting guidelines and how they check adherence.
+
+Editors from leading medical journals ask authors to use reporting guidelines and check for adherence. 
+<!-- Read why editors from leading medical journals ask authors to use reporting guidelines and how they check adherence.
 
 ::: {.learn-more}
 [Learn more »](about/why-reporting-matters.qmd#editor)
-:::
+::: -->
 :::
 
 ::: {.g-col-md-4 .g-col-12 .card-highlight}
-![Peer Reviewer](assets/images/reviewer.jpeg){.feature-photo}\
+![Peer Reviewer](assets/images/reviewer.webp){.feature-photo}\
 
 ### Reviewers
 
-Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesising evidence for policy recommendations.
+Peer reviewers and evidence synthesisers use reporting guidelines to judge the transparency of research and identify missing information.
+<!-- Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesising evidence for policy recommendations.
 
 ::: {.learn-more}
 [Learn more »](about/why-reporting-matters.qmd#reviewer)
-:::
+::: -->
 :::
 
 ::: 
@@ -258,61 +263,6 @@ Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesi
 <!-- /content-block -->
 :::
 <!-- /alt-background -->
-
-::: {.publisher-logos}
-
-::: {.content-block}
-
-::: {.logos}
-
-[Endorsed by leading publishers including]{.small}
-
-![Nature logo](assets/logos/nature.png)
-![Wiley logo](assets/logos/wiley.png)
-![Elsevier logo](assets/logos/elsevier.png)
-![BMJ logo](assets/logos/bmj.png){.logo-smaller}
-![BMC logo](assets/logos/bmc.svg)
-
-::: 
-<!--/logos-->
-
-:::
-<!-- content-block -->
-
-::: 
-<!-- publisher-logos -->
-
-
-::: {.gradient-background-1 .training id=training}
-::: {.content-block}
-
-## Training
-
-::: {.grid}
-
-::: {.g-col-md-8 .g-col-12 .lead}
-
-Want to feel more confident when writing and publishing your research? Want to write quickly, clearly, and concisely? 
-
-The UK EQUATOR Centre’s [Publication School]{.emphasise} is a hands-on course designed for early-career researchers who want to take control of the writing process and get their work out into the world. 
-
-[Learn more »](training.qmd)
-
-:::
-<!-- .g-col-md-8 -->
-
-::: {.g-col-md-4 .g-col-12}
-
-![Training](https://placehold.co/600x400?text=Img+online+training)\
-
-:::
-<!-- .g-col-md-4 -->
-
-:::
-<!-- .grid -->
-
-:::
-:::
 
 ::: {.about-equator id=about-equator}
 ::: {.content-block}
@@ -335,10 +285,53 @@ We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-
 ![Bond University logo](assets/logos/bond.svg)
 ![Hong Kong Baptist University logo](assets/logos/hongkongbaptistuniversity.svg){.logo-bigger}
 ::: 
+<!-- logos -->
 
-### UK EQUATOR Centre
+:::
+<!-- content-block -->
+:::
+<!-- about-equator -->
 
-The EQUATOR Network headquarters are the UK EQUATOR Centre, based at the Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences (NDORMS), University of Oxford. The UK EQUATOR Centre maintains this website, a database of reporting guidelines, and works with other organisations to promote transparent reporting and other good research practices. Alongside clinical and meta-research, we specialise in training researchers how to write.
+
+::: {.gradient-background-1 .training id=training}
+::: {.content-block}
+
+## Training
+
+::: {.grid}
+
+::: {.g-col-md-8 .g-col-12}
+
+::: {.lead}
+Want to feel more confident when writing and publishing your research? Want to write quickly, clearly, and concisely? 
+
+The UK EQUATOR Centre’s [Publication School]{.emphasise} is a hands-on course designed for early-career researchers who want to take control of the writing process and get their work out into the world. 
+
+[Learn more »](training.qmd)
+:::
+
+:::
+<!-- .g-col-md-8 -->
+::: {.g-col-md-4 .g-col-12}
+
+![Training](assets/images/training/woman-at-desk.webp)\
+
+:::
+<!-- .g-col-md-4 -->
+
+:::
+<!-- .grid -->
+
+
+:::
+:::
+
+::: {.about-equator-uk id=about-equator-uk}
+::: {.content-block}
+
+### The UK EQUATOR Centre
+
+The EQUATOR Network is headquartered at the UK EQUATOR Centre, based at the Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences (NDORMS), University of Oxford. The UK EQUATOR Centre maintains this website, a database of reporting guidelines, and works with other organisations to promote transparent reporting and other good research practices. Alongside clinical and meta-research, we specialise in training researchers how to write.
 
 #### UK EQUATOR Centre Staff
 

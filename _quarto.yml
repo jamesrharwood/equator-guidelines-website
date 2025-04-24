@@ -64,8 +64,10 @@ format:
     title-block-banner: rgb(0, 133, 63)
     title-block-banner-color: white
     include-in-header:
+      - scripts/headers.html
       - scripts/gtm-head.html
       - text: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+      - scripts/noindex.html
     include-before-body: 
       - scripts/gtm-body.html
       - scripts/search-shortcut.html

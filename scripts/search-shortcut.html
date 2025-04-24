@@ -1,17 +1,14 @@
 <script>
-    // console.log('In search func!')
-    // window.document.addEventListener("DOMContentLoaded", function (_event) {
-    //     var searchShortcuts = document.getElementsByClassName("search-shortcut");
-    //     var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
-    //     for (let i = 0; i < searchShortcuts.length; i++) {
-    //         searchShortcuts[i].addEventListener('click', function() {
-    //             searchElement.click()
-    //             return false;
-    //         })
-    //         searchShortcuts[i].removeAttribute('href')
-    //     }
-    // })
     window.document.addEventListener("DOMContentLoaded", function (_event) {
+        var searchShortcuts = document.getElementsByClassName("search-shortcut");
+        var searchElement = document.getElementsByClassName("aa-DetachedSearchButton")[0];
+        for (let i = 0; i < searchShortcuts.length; i++) {
+            searchShortcuts[i].addEventListener('click', function() {
+                searchElement.click()
+                return false;
+            })
+            searchShortcuts[i].removeAttribute('href')
+        }
         var search = document.getElementById('quarto-search')
         var searchElement = search.getElementsByClassName("aa-DetachedSearchButton")[0];
         searchElement.setAttribute('aria-label', 'Search button');
@@ -19,13 +16,5 @@
         searchElementSvg.setAttribute('alt', "Search icon");
         var searchElementDiv = search.getElementsByClassName("aa-Autocomplete")[0];
         searchElementDiv.setAttribute('aria-label', "Search field");
-        // var cookieButton = document.getElementById("ccc-icon");
-        // var cookieSvg = cookieButton.getElementsByTagName('svg')[0];
-        // cookieDescendants = cookieSvg.getElementsByTagName('*');
-        // var i, e;
-        // for (i = 0; i < cookieDescendants.length; ++i) {
-        //     e = cookieDescendants[i];
-        //     e.setAttribute('aria-hidden', true);
-        // }
     })
 </script>

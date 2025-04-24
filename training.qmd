@@ -13,7 +13,7 @@ link-external-icon: false
 
 ::: {.content-block}
 
-Led by writing and methodology experts from the UK EQUATOR Centre and [Centre for Statistics in Medicine](https://www.ndorms.ox.ac.uk/csm), this practical course gives you the tools to plan, write, and polish clear, accurate, and impactful health-related research – faster and with less stress. 
+Led by writing and methodology experts from the UK EQUATOR Centre and Centre for Statistics in Medicine, this practical course gives you the tools to plan, write, and polish clear, accurate, and impactful health-related research – faster and with less stress. 
 
 Through practical exercises, group work, and expert feedback, you’ll learn exactly what journals look for and how to deliver it. 
 
@@ -47,7 +47,7 @@ Through practical exercises, group work, and expert feedback, you’ll learn exa
 :::
 
 ::: {.quote-who}
-<img src="https://placehold.co/40x40?text=Ppt" alt="Participant">
+<img src="assets/images/training/headshot3.webp" alt="Participant">
 
 ::: {.name}
 [June 2019 participant]{.text-small}
@@ -91,14 +91,14 @@ Participants receive an electronic course workbook with all notes and exercises.
 * Academia / public sector / non-profit: £260
 * Commercial / private: £500
 
-[Enrol for online training »](https://www.oxforduniversitystores.co.uk/short-courses/nuffield-department-of-orthopaedics-rheumatology-and-musculoskeletal-sciences/botnar-research-centre/equator-publication-school) 
+[Enrol for online training »](https://www.oxforduniversitystores.co.uk/short-courses/nuffield-department-of-orthopaedics-rheumatology-and-musculoskeletal-sciences/botnar-research-centre/equator-publication-school)
 
 :::
 <!-- .g-col-md-8 -->
 
 ::: {.g-col-md-4 .g-col-12}
 
-![Online training](https://placehold.co/600x400?text=Img+online+training)\
+![Online training](assets/images/training/woman-at-desk.webp)\
 
 :::
 
@@ -115,7 +115,7 @@ Participants receive an electronic course workbook with all notes and exercises.
 
 ::: {.g-col-md-4 .g-col-12}
 
-![In-person training](https://placehold.co/600x400?text=Img+person+training)\
+![In-person training](assets/images/training/pexels-bertellifotografia-18999456.webp)\
 
 :::
 <!-- .g-col-md-4 -->
@@ -126,11 +126,11 @@ The in-person course is held in Oxford over 2 full days. Course fees include a l
 
 **Fees for 2 days + lunch & refreshments:**
 
-* Students / PPI representatives: £#TODO
-* Academia / public sector / non-profit: £#TODO
-* Commercial / private: £#TODO
+* Students / PPI representatives: £400
+* Academia / public sector / non-profit: £500
+* Commercial / private: £750
 
-[Enrol for in-person training »](#TODO) 
+[Enrol for in-person training »](https://www.oxforduniversitystores.co.uk/short-courses/nuffield-department-of-orthopaedics-rheumatology-and-musculoskeletal-sciences/botnar-research-centre/equator-publication-school) 
 
 :::
 <!-- .grid-col-8 -->
@@ -145,7 +145,7 @@ The in-person course is held in Oxford over 2 full days. Course fees include a l
 :::
 
 ::: {.quote-who}
-<img src="https://placehold.co/40x40?text=Ppt" alt="Participant">
+<img src="assets/images/training/headshot1.webp" alt="Participant">
 
 ::: {.name}
 [November 2019 participant]{.text-small}
@@ -174,3 +174,7 @@ The in-person course is held in Oxford over 2 full days. Course fees include a l
 Want tailored training for your team? Email equator@csm.ox.ac.uk to discuss custom training in person or online.
 
 :::
+
+##### Images on this page {.appendix}
+
+Although the quotes come from real participants, the images on this page are stock images that are free to use without attribution. We are still working on this website, and hope to have real photos, of real participants, after our next Publication School later this year. 
