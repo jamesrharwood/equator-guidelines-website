@@ -46,7 +46,7 @@ However you use {{< meta acronym >}}, please [cite it](faqs.qmd#citation).
 ::: -->
 
 ::: { .g-col-12 .g-col-md-4}
-<a href="./srqr_checklist.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Checklist</button></a>
+<a href="./srqr-checklist.docx"><button type="button" class="btn btn-primary btn-action btn-lg width-100">Checklist</button></a>
 :::
 :::
 
