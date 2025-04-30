@@ -16,6 +16,8 @@ writing_guide:
         Did you use more than one source to obtain results data?  If so, report where it came from (e.g. journal article, study register entry, clinical study report, or correspondence with authors),  
 
         Did you have to compute or estimate any results by using indirect information about the study?  If so, give details of your methods. 
+summary:
+    text: For all outcomes, present, for each study: (a) summary statistics for each group (where appropriate) and (b) an effect estimate and its precision (e.g. confidence/credible interval), ideally using structured tables or plots.
 ---
 
 For all outcomes, present for each study (*a*) summary statistics for each group (where appropriate) and (*b*) an effect estimate and its precision (such as confidence/credible interval), ideally using structured tables or plots

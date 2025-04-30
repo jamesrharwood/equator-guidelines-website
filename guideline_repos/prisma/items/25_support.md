@@ -1,18 +1,20 @@
 ---
 id: support
 title: "25. Support"
+summary:
+    text: Describe sources of financial or non-financial support for the review, and the role of the funders or sponsors in the review.
 ---
 
 Describe sources of financial or non-financial support for the review, and the role of the funders or sponsors in the review
 
 ## Essential elements
 
--   Describe sources of financial or non-financial support for the
+- Describe sources of financial or non-financial support for the
     review, specifying relevant grant ID numbers for each funder. If no
     specific financial or non-financial support was received, this
     should be stated.
 
--   Describe the role of the funders or sponsors (or both) in the
+- Describe the role of the funders or sponsors (or both) in the
     review. If funders or sponsors had no role in the review, this
     should be declared---for example, by stating, "The funders had no
     role in the design of the review, data collection and analysis,

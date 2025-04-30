@@ -3,6 +3,8 @@ id: synthesis-methods-exploring-heterogeneity
 title: "13e. Synthesis methods – Methods for exploring heterogeneity"
 summary: 
     title: 13e. Methods for exploring heterogeneity
+    text: Describe any methods used to explore possible causes of heterogeneity among study results (e.g. subgroup analysis, meta-regression).
+Elements:
 writing_guide:
     text: |
         Did you investigate potential causes of statistical heterogeneity?  If so, report whether you used subgroup analysis or meta-regression 

@@ -18,6 +18,8 @@ writing_guide:
         Did you need to contact study investigators to obtain or clarify information?  If so, what was your process for doing this?  
 
         Did you use AI tools to assess risk of bias? If so, report how the tool was used, trained, and give details of the tool’s performance and internal validation. 
+summary:
+    text: Specify the methods used to assess risk of bias in the included studies, including details of the tool(s) used, how many reviewers assessed each study and whether they worked independently, and if applicable, details of automation tools used in the process.
 ---
 
 Specify the methods used to assess risk of bias in the included studies, including details of the tool(s) used, how many reviewers assessed each study and whether they worked independently, and, if applicable, details of automation tools used in the process.

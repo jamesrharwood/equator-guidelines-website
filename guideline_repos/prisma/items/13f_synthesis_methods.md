@@ -1,8 +1,9 @@
 ---
 id: synthesis-methods-sensitivity-analyses
-title: "13f. Synthesis methods – Sensitivitiy analyses"
+title: "13f. Synthesis methods – Sensitivity analyses"
 summary: 
-    title: 13f. Sensitivitiy analyses
+    title: 13f. Sensitivity analyses
+    text: Describe any sensitivity analyses conducted to assess robustness of the synthesized results.
 writing_guide:
     text: |
         Did you conduct sensitivity analyses to check the robustness of your results?  For example, did you remove studies at high risk of bias, or use an additional meta-analysis model? 

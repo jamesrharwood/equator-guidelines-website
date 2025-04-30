@@ -26,6 +26,9 @@ writing_guide:
         Use a clear method of displaying the results of certainty assessments, such as a Summary of Findings table. 
 
         Did you use standard words to convey the level of certainty in a particular effect size, such as “may” “probably” or “likely” (e.g. “hip protectors probably reduce the risk of hip fracture slightly”). If so, report the intended interpretation of each phrase or word and the reference for the source guidance 
+summary:
+    text: 
+        Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome.
 ---
 
 Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome

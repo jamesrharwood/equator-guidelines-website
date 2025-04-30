@@ -16,6 +16,9 @@ writing_guide:
         Did you translate any of the articles to help with data extraction?  If so report how the articles were translated. 
 
         Did you use any decision rules to select data from multiple reports of the same study, and to resolve inconsistencies between different reports?  If so, report the rules and steps. 
+summary:
+    text:
+        Specify the methods used to collect data from reports, including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and if applicable, details of automation tools used in the process.
 ---
 
 Specify the methods used to collect data from reports, including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and, if applicable, details of automation tools used in the process

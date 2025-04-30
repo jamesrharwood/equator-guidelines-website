@@ -3,6 +3,7 @@ id: synthesis-methods-eligibility
 title: "13a. Synthesis methods – Deciding which studies were eligible for each synthesis"
 summary:
     title: 13a. Deciding which studies were eligible for each synthesis
+    text: Describe the processes used to decide which studies were eligible for each synthesis (e.g. tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item #5)).
 checklist:
     text: Describe the processes used to decide which studies were eligible for each synthesis (such as tabulating the study intervention characteristics and comparing against the planned groups for each synthesis described in item 5.
 writing_guide:

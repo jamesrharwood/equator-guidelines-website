@@ -6,6 +6,8 @@ writing_guide:
         Use a table to summarize the evidence for each of your primary outcome measures.  Make sure you report the level of certainty you have for each 
 
         Have you made it clear what your reasons were for rating levels of certainty up or down?  Giving explanations in footnotes to evidence summary tables (such as GRADE Summary of Findings tables) is not sufficient. Reasons for your conclusions about the certainty of the evidence should also be given preferably in layman’s terms in a plain language summary, in the abstract and results sections and in the discussion and conclusion sections. 
+summary:
+    text: Present assessments of certainty (or confidence) in the body of evidence for each outcome assessed.
 ---
 
 Present assessments of certainty (or confidence) in the body of evidence for each outcome assessed

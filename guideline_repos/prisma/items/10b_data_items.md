@@ -3,6 +3,7 @@ id: data-items-other-variables
 title: "10b. Data items – Other variables"
 summary: 
     title: "10b. Other Variables"
+    text: List and define all other variables for which data were sought (e.g. participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information.
 writing_guide:
     text: |
         Did you seek data for any other variables and study characteristics, such as participant and intervention characteristics, sources of funding, potential conflicts of interest, or level of patient involvement in the included studies.  

@@ -3,6 +3,7 @@ id: results-of-syntheses-summary-of-studies
 title: "20a. Results of syntheses – Summary of studies"
 summary:
     title: 20a. Summary of studies
+    text: For each synthesis, briefly summarise the characteristics and risk of bias among contributing studies.
 writing_guide:
     text: |
         It’s important to make it clear which syntheses were pre-specified in your protocol, and which were not.

@@ -10,6 +10,8 @@ writing_guide:
         Did you impose date restrictions on your searches? 
 
         What was the latest date you searched in each information source?
+summary:
+    text: Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted.
 ---
 
 Specify all databases, registers, websites, organisations, reference lists, and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted

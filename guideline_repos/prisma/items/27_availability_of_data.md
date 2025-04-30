@@ -1,6 +1,8 @@
 ---
 id: availability-of-materials
 title: "27. Availability of data, code, and other materials"
+summary:
+    text: "Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review."
 ---
 
 Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review

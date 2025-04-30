@@ -3,6 +3,7 @@ id: data-items-outcomes
 title: "10a. Data items – Outcomes"
 summary:
     title: "10a. Outcomes"
+    text: List and define all outcomes for which data were sought. Specify whether all results that were compatible with each outcome domain in each study were sought (e.g. for all measures, time points, analyses), and if not, the methods used to decide which results to collect.
 writing_guide:
     text: |
         Did you specify the measurement time frames for all the outcomes?   

@@ -3,6 +3,7 @@ id: synthesis-methods-data-preparation
 title: "13b. Synthesis methods – Data preparation methods"
 summary: 
     title: 13b. Data preparation methods
+    text: Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions.
 writing_guide:
     text: 
         What did you do to prepare the data collected from studies for presentation or synthesis? 

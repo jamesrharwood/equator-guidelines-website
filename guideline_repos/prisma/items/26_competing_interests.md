@@ -1,6 +1,8 @@
 ---
 id: competing-interests
 title: "26. Competing Interests"
+summary:
+    text: Declare any competing interests of review authors.
 ---
 
 Declare any competing interests of review authors

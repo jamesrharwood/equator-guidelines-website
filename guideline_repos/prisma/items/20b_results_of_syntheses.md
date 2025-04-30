@@ -3,6 +3,7 @@ id: results-of-syntheses-statistical-results
 title: "20b. Results of syntheses – Statistical results"
 summary:
     title: 20b. Statistical results
+    text: Present results of all statistical syntheses conducted. If meta-analysis was done, present for each the summary estimate and its precision (e.g. confidence/credible interval) and measures of statistical heterogeneity. If comparing groups, describe the direction of the effect.
 writing_guide:
     text: |
         If you did meta-analyses, for each one report the number of studies, the number of patients, the summary estimate, the standard error or confidence interval, and a measure of statistical heterogeneity (e.g. 𝜏2, I2, prediction interval).

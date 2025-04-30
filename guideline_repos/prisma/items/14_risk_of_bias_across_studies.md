@@ -16,7 +16,9 @@ writing_guide:
         Did you have a process for obtaining missing results from study investigators? 
 
         Did you use an automation tool?  If so, report how it works, how it was trained, and how you checked its performance.    
-
+summary:
+    text: 
+        Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases).
 ---
 
 Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases)

@@ -11,7 +11,9 @@ writing_guide:
 
         What thresholds or ranges did you use to judge whether the size of the effect was large enough to be clinically important?  Give the rationale for choosing them.   
 
-        Were results from different studies re-expressed to a single type of effect measure in the synthesis – for example analyzing risk ratios from several different studies and calculating a single absolute risk reduction based on an assumed comparator risk 
+        Were results from different studies re-expressed to a single type of effect measure in the synthesis – for example analyzing risk ratios from several different studies and calculating a single absolute risk reduction based on an assumed comparator risk
+summary:
+    text: Specify for each outcome the effect measure(s) (e.g. risk ratio, mean difference) used in the synthesis or presentation of results.
 ---
 
 Specify for each outcome the effect measure(s) (such as risk ratio, mean difference) used in the synthesis or presentation of results.

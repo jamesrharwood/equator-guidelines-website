@@ -3,6 +3,7 @@ id: registration-and-protocol-amendments
 title: "24c. Registration and protocol – Amendments"
 summary:
     title: 24c. Amendments
+    text: Describe and explain any amendments to information provided at registration or in the protocol.
 writing_guide:
     text: |
 

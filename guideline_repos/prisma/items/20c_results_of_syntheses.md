@@ -3,6 +3,7 @@ id: results-of-syntheses-heterogeneity
 title: "20c. Results of syntheses – Heterogeneity"
 summary:
     title: 20c. Heterogeneity
+    text: Present results of all investigations of possible causes of heterogeneity among study results.
 writing_guide:
     text: |
         Did you investigate causes of variations in the effect size depending on the characteristics of the population (e.g. aged over or under 60) or the intervention (e.g. invasive or non-invasive ventilation), or the quality of the study (e.g. high or low risk of bias)?  

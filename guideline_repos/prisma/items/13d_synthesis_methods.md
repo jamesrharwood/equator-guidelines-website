@@ -3,6 +3,8 @@ id: synthesis-methods-synthesis-methods
 title: "13d. Synthesis methods – Synthesis methods"
 summary: 
     title: 13d. Synthesis methods
+    text: Describe any methods used to synthesize results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used.
+Elements:
 writing_guide:
     text: |
         Were you able to conduct a statistical synthesis or meta-analysis?  If not, describe and justify the method you have used to combine and summarize the results of the studies in another way.  

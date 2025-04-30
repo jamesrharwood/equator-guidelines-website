@@ -18,6 +18,8 @@ writing_guide:
         Did you check whether the study report included all the results pre-specified in study registers, protocols or statistical analysis plans?  It’s useful to do this to assess the level of selective reporting bias.  You could present a matrix of planned outcomes and analyses compared with the ones reported in published articles.   
 
         Did you have to exclude some studies from the syntheses because of missing results data?  If so, make sure the details of the studies with missing data are displayed clearly.  
+summary:
+    text: Present assessments of risk of bias due to missing results (arising from reporting biases) for each synthesis assessed.
 ---
 
 Present assessments of risk of bias due to missing results (arising from reporting biases) for each synthesis assessed

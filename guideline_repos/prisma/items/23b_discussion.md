@@ -3,6 +3,7 @@ id: discussion-limitations-of-included-evidence
 title: "23b. Discussion – Limitations of included evidence"
 summary:
     title: 23b. Limitations of included evidence
+    text: Discuss any limitations of the evidence included in the review.
 writing_guide:
     text: |
 

@@ -3,7 +3,7 @@ id: study-selection-search-results
 title: "16a. Study selection – Results of the search and selection process"
 summary:
     title: 16a. Results of the search and selection process
-    text: Describe the results of the search and selection process, from the number of records identified in the search to the number of studies included in the review, ideally using a flow diagram
+    text: Describe the results of the search and selection process, from the number of records identified in the search to the number of studies included in the review, ideally using a flow diagram.
 writing_guide:
     text: |
         Make sure you report the results of the search and study selection process clearly, preferably using a flow diagram.  It should include the number of: records identified; records excluded before screening; records screened; records excluded after screening titles or titles and abstracts; reports retrieved for detailed evaluation; potentially eligible reports that were not retrievable; retrieved reports that did not meet inclusion criteria and the primary reasons for exclusion; and the number of studies and reports included in the review. If applicable, also report the number of ongoing studies and associated reports identified. 
