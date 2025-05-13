@@ -7,55 +7,360 @@ doi-for-citation-count: 10.7326/0003-4819-152-11-201006010-0023
 doi: 10.1234/equator/1010101
 # data-repo: jamesrharwood/consort
 open-e-and-e: true
-version: 'CONSORT 2010 v1.1'
-articles:
-  development:
-    id: schulzCONSORT2010Statement2010b
-    abstract: >-
-      The CONSORT (Consolidated Standards of Reporting Trials) statement is used
-      worldwide to improve the reporting of randomized, controlled trials. Schulz
-      and colleagues describe the latest version, CONSORT 2010, which updates the
-      reporting guideline based on new methodological evidence and accumulating
-      experience.
-    accessed:
-      - year: 2025
-        month: 2
-        day: 18
-    author:
-      - family: Schulz
-        given: Kenneth F.
-      - family: Altman
-        given: Douglas G.
-      - family: Moher
-        given: David
-      - literal: for the CONSORT Group
-    citation-key: schulzCONSORT2010Statement2010b
-    container-title: Annals of Internal Medicine
-    container-title-short: Ann Intern Med
-    DOI: 10.7326/0003-4819-152-11-201006010-00232
-    ISSN: 0003-4819
-    issue: '11'
-    issued:
-      - year: 2010
-        month: 6
-    page: 726-732
-    publisher: American College of Physicians
-    source: acpjournals.org (Atypon)
-    title: >-
-      CONSORT 2010 Statement: Updated Guidelines for Reporting Parallel Group
-      Randomized Trials
-    title-short: CONSORT 2010 Statement
-    type: article-journal
-    URL: >-
-      https://www.acpjournals.org/doi/full/10.7326/0003-4819-152-11-201006010-00232
-    volume: '152'
+version: 'CONSORT 2025 v1.1'
 authors:
-  - family: Schulz
-    given: Kenneth F.
-  - family: Altman
-    given: Douglas G.
+  - family: Hopewell
+    given: Sally
+  - family: Chan
+    given: An-Wen
+  - family: Collins
+    given: Gary S
+  - family: Hróbjartsson
+    given: Asbjørn
   - family: Moher
     given: David
-  - literal: for the CONSORT Group
+  - family: Schulz
+    given: Kenneth F
+  - family: Tunn
+    given: Ruth
+  - family: Aggarwal
+    given: Rakesh
+  - family: Berkwits
+    given: Michael
+  - family: Berlin
+    given: Jesse A
+  - family: Bhandari
+    given: Nita
+  - family: Butcher
+    given: Nancy J
+  - family: Campbell
+    given: Marion K
+  - family: Chidebe
+    given: Runcie C W
+  - family: Elbourne
+    given: Diana
+  - family: Farmer
+    given: Andrew
+  - family: Fergusson
+    given: Dean A
+  - family: Golub
+    given: Robert M
+  - family: Goodman
+    given: Steven N
+  - family: Hoffmann
+    given: Tammy C
+  - family: Ioannidis
+    given: John P A
+  - family: Kahan
+    given: Brennan C
+  - family: Knowles
+    given: Rachel L
+  - family: Lamb
+    given: Sarah E
+  - family: Lewis
+    given: Steff
+  - family: Loder
+    given: Elizabeth
+  - family: Offringa
+    given: Martin
+  - family: Ravaud
+    given: Philippe
+  - family: Richards
+    given: Dawn P
+  - family: Rockhold
+    given: Frank W
+  - family: Schriger
+    given: David L
+  - family: Siegfried
+    given: Nandi L
+  - family: Staniszewska
+    given: Sophie
+  - family: Taylor
+    given: Rod S
+  - family: Thabane
+    given: Lehana
+  - family: Torgerson
+    given: David
+  - family: Vohra
+    given: Sunita
+  - family: White
+    given: Ian R
+  - family: Boutron
+    given: Isabelle
+articles:
+  development:
+    id: hopewellCONSORT2025Statement2025a
+    abstract: >-
+      Background
+
+      Well designed and properly executed randomised trials are considered the
+      most reliable evidence on the benefits of healthcare interventions. However,
+      there is overwhelming evidence that the quality of reporting is not optimal.
+      The CONSORT (Consolidated Standards of Reporting Trials) statement was
+      designed to improve the quality of reporting and provides a minimum set of
+      items to be included in a report of a randomised trial. CONSORT was first
+      published in 1996, then updated in 2001 and 2010. Here, we present the
+      updated CONSORT 2025 statement, which aims to account for recent
+      methodological advancements and feedback from end users.
 
 
+      Methods
+
+      We conducted a scoping review of the literature and developed a
+      project-specific database of empirical and theoretical evidence related to
+      CONSORT, to generate a list of potential changes to the checklist. The list
+      was enriched with recommendations provided by the lead authors of existing
+      CONSORT extensions (Harms, Outcomes, Non-pharmacological Treatment), other
+      related reporting guidelines (TIDieR) and recommendations from other sources
+      (eg, personal communications). The list of potential changes to the
+      checklist was assessed in a large, international, online, three-round Delphi
+      survey involving 317 participants and discussed at a two-day online expert
+      consensus meeting of 30 invited international experts.
+
+
+      Results
+
+      We have made substantive changes to the CONSORT checklist. We added seven
+      new checklist items, revised three items, deleted one item, and integrated
+      several items from key CONSORT extensions. We also restructured the CONSORT
+      checklist, with a new section on open science. The CONSORT 2025 statement
+      consists of a 30-item checklist of essential items that should be included
+      when reporting the results of a randomised trial and a diagram for
+      documenting the flow of participants through the trial. To facilitate
+      implementation of CONSORT 2025, we have also developed an expanded version
+      of the CONSORT 2025 checklist, with bullet points eliciting critical
+      elements of each item.
+
+
+      Conclusion
+
+      Authors, editors, reviewers, and other potential users should use CONSORT
+      2025 when writing and evaluating manuscripts of randomised trials to ensure
+      that trial reports are clear and transparent.
+    accessed:
+      - year: 2025
+        month: 4
+        day: 30
+    author:
+      - family: Hopewell
+        given: Sally
+      - family: Chan
+        given: An-Wen
+      - family: Collins
+        given: Gary S
+      - family: Hróbjartsson
+        given: Asbjørn
+      - family: Moher
+        given: David
+      - family: Schulz
+        given: Kenneth F
+      - family: Tunn
+        given: Ruth
+      - family: Aggarwal
+        given: Rakesh
+      - family: Berkwits
+        given: Michael
+      - family: Berlin
+        given: Jesse A
+      - family: Bhandari
+        given: Nita
+      - family: Butcher
+        given: Nancy J
+      - family: Campbell
+        given: Marion K
+      - family: Chidebe
+        given: Runcie C W
+      - family: Elbourne
+        given: Diana
+      - family: Farmer
+        given: Andrew
+      - family: Fergusson
+        given: Dean A
+      - family: Golub
+        given: Robert M
+      - family: Goodman
+        given: Steven N
+      - family: Hoffmann
+        given: Tammy C
+      - family: Ioannidis
+        given: John P A
+      - family: Kahan
+        given: Brennan C
+      - family: Knowles
+        given: Rachel L
+      - family: Lamb
+        given: Sarah E
+      - family: Lewis
+        given: Steff
+      - family: Loder
+        given: Elizabeth
+      - family: Offringa
+        given: Martin
+      - family: Ravaud
+        given: Philippe
+      - family: Richards
+        given: Dawn P
+      - family: Rockhold
+        given: Frank W
+      - family: Schriger
+        given: David L
+      - family: Siegfried
+        given: Nandi L
+      - family: Staniszewska
+        given: Sophie
+      - family: Taylor
+        given: Rod S
+      - family: Thabane
+        given: Lehana
+      - family: Torgerson
+        given: David
+      - family: Vohra
+        given: Sunita
+      - family: White
+        given: Ian R
+      - family: Boutron
+        given: Isabelle
+    citation-key: hopewellCONSORT2025Statement2025a
+    container-title: The BMJ
+    container-title-short: BMJ
+    DOI: 10.1136/bmj-2024-081123
+    ISSN: 0959-8138
+    issued:
+      - year: 2025
+        month: 4
+        day: 14
+    page: e081123
+    PMCID: PMC11995449
+    PMID: '40228833'
+    source: PubMed Central
+    title: 'CONSORT 2025 statement: updated guideline for reporting randomised trials'
+    title-short: CONSORT 2025 statement
+    type: article-journal
+    URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11995449/
+    volume: '389'
+  ene: 
+    id: hopewellCONSORT2025Explanation2025a
+    abstract: >-
+      Critical appraisal of the quality of randomised trials is possible only if
+      their design, conduct, analysis, and results are completely and accurately
+      reported. Without transparent reporting of the methods and results, readers
+      will not be able to fully evaluate the reliability and validity of trial
+      findings. The CONSORT (Consolidated Standards of Reporting Trials) statement
+      aims to improve the quality of reporting and provides a minimum set of items
+      to be included in a report of a randomised trial. CONSORT was first
+      published in 1996 and was updated in 2001 and 2010. CONSORT comprises a
+      checklist of essential items that should be included in reports of
+      randomised trials and a diagram for documenting the flow of participants
+      through a trial. The CONSORT statement has been updated (CONSORT 2025) to
+      reflect recent methodological advancements and feedback from end users,
+      ensuring that it remains fit for purpose. Here, we present the updated
+      CONSORT explanation and elaboration document, which has been extensively
+      revised and describes the rationale and scientific background for each
+      CONSORT 2025 checklist item and provides published examples of good
+      reporting. The objective is to enhance the use, understanding, and
+      dissemination of CONSORT 2025 and provide guidance to authors about how to
+      improve the reporting of their trials and ensure trial reports are complete,
+      and transparent.
+    accessed:
+      - year: 2025
+        month: 4
+        day: 30
+    author:
+      - family: Hopewell
+        given: Sally
+      - family: Chan
+        given: An-Wen
+      - family: Collins
+        given: Gary S
+      - family: Hróbjartsson
+        given: Asbjørn
+      - family: Moher
+        given: David
+      - family: Schulz
+        given: Kenneth F
+      - family: Tunn
+        given: Ruth
+      - family: Aggarwal
+        given: Rakesh
+      - family: Berkwits
+        given: Michael
+      - family: Berlin
+        given: Jesse A
+      - family: Bhandari
+        given: Nita
+      - family: Butcher
+        given: Nancy J
+      - family: Campbell
+        given: Marion K
+      - family: Chidebe
+        given: Runcie C W
+      - family: Elbourne
+        given: Diana
+      - family: Farmer
+        given: Andrew
+      - family: Fergusson
+        given: Dean A
+      - family: Golub
+        given: Robert M
+      - family: Goodman
+        given: Steven N
+      - family: Hoffmann
+        given: Tammy C
+      - family: Ioannidis
+        given: John P A
+      - family: Kahan
+        given: Brennan C
+      - family: Knowles
+        given: Rachel L
+      - family: Lamb
+        given: Sarah E
+      - family: Lewis
+        given: Steff
+      - family: Loder
+        given: Elizabeth
+      - family: Offringa
+        given: Martin
+      - family: Ravaud
+        given: Philippe
+      - family: Richards
+        given: Dawn P
+      - family: Rockhold
+        given: Frank W
+      - family: Schriger
+        given: David L
+      - family: Siegfried
+        given: Nandi L
+      - family: Staniszewska
+        given: Sophie
+      - family: Taylor
+        given: Rod S
+      - family: Thabane
+        given: Lehana
+      - family: Torgerson
+        given: David
+      - family: Vohra
+        given: Sunita
+      - family: White
+        given: Ian R
+      - family: Boutron
+        given: Isabelle
+    citation-key: hopewellCONSORT2025Explanation2025a
+    container-title: The BMJ
+    container-title-short: BMJ
+    DOI: 10.1136/bmj-2024-081124
+    ISSN: 0959-8138
+    issued:
+      - year: 2025
+        month: 4
+        day: 14
+    page: e081124
+    PMCID: PMC11995452
+    PMID: '40228832'
+    source: PubMed Central
+    title: >-
+      CONSORT 2025 explanation and elaboration: updated guideline for reporting
+      randomised trials
+    title-short: CONSORT 2025 explanation and elaboration
+    type: article-journal
+    URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11995452/
+    volume: '389'

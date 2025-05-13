@@ -1,14 +1,27 @@
 ---
 id: title
-title: "1a. Title"
+title: 1a. Title
+summary:
+    title: 1a. Title
+    text: Identification as a randomised trial.
 ---
 
-Identification as a randomized trial in the title.
+## What to write
 
-## Read More
+Identification as a randomised trial
 
-The ability to identify a report of a randomised trial in an electronic database depends to a large extent on how it was indexed. Indexers may not classify a report as a randomised trial if the authors do not explicitly report this information.64 To help ensure that a study is appropriately indexed and easily identified, authors should use the word “randomised” in the title to indicate that the participants were randomly assigned to their comparison groups
+## Explanation
 
-## Examples
+The ability to identify a report of a randomised trial in a
+bibliographic database depends to a large extent on how it was indexed.
+Indexers might not classify a report as a randomised trial if the
+authors do not explicitly report this information.[@ref26] To help
+ensure that a study is appropriately indexed and easily identified,
+authors should use the word "randomised" in the title to indicate that
+the participants were randomly assigned to their comparison groups.
 
-> Smoking reduction with oral nicotine inhalers: double blind, randomised clinical trial of efficacy and safety
+## Example
+
+"Efficacy and Safety of Early Administration of 4-Factor Prothrombin
+Complex Concentrate in Patients With Trauma at Risk of Massive
+Transfusion: The PROCOAG Randomized Clinical Trial."[@ref25]

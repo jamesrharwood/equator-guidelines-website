@@ -2,45 +2,57 @@ checklist: &id001
 - Title and Abstract:
   - 1a_title.md
   - 1b_abstract.md
+- Open Science:
+  - 2_trial_registration.md
+  - 3_protocol_and_statistical_analysis_plan.md
+  - 4_data_sharing.md
+  - 5. Funding and Conflicts of Interest:
+    - 5a_funding.md
+    - 5b_conflicts_of_interest.md
 - Introduction:
-  - 2a_background_and_objectives.md
-  - 2b_background_and_objectives.md
+  - 6_background_and_rationale.md
+  - 7_objectives.md
 - Methods:
-  - Trial Design:
-    - 3a_trial_design.md
-    - 3b_trial_design.md
-  - 4a_participants_.md
-  - 4b_participants_.md
-  - 5_interventions.md
-  - 6a_outcomes.md
-  - 6b_outcomes.md
-  - 7a_sample_size.md
-  - 7b_sample_size.md
-  - 8a_randomization__sequence_generation.md
-  - 8b_randomization__sequence_generation.md
-  - 9_randomization__allocation_concealment_mechanism.md
-  - 10_randomization__implementation.md
-  - 11a_blinding.md
-  - 11b_blinding.md
-  - 12a_statistical_methods.md
-  - 12b_statistical_methods.md
-- Results:
-  - 13a_participant_flow_diagram_strongly_recommended.md
-  - 13b_participant_flow.md
-  - 14a_recruitment.md
-  - 14b_recruitment.md
-  - 15_baseline_data.md
-  - 16_numbers_analysed.md
-  - 17a_outcomes_and_estimation.md
-  - 17b_outcomes_and_estimation.md
-  - 18_ancillary_analyses.md
-  - 19_harms.md
-- Discussion:
-  - 20_limitations.md
-  - 21_generalisability.md
-  - 22_interpretation.md
-  - 23_registration.md
-- Other Information:
-  - 24_protocol.md
-  - 25_funding.md
+  - 8_patient_and_public_involvement.md
+  - 9_trial_design.md
+  - 10_changes_to_trial_protocol.md
+  - 11_trial_setting.md
+  - 12. Eligibility Criteria:
+    - 12a_eligibility_criteria_for_participants.md
+    - 12b_eligibility_criteria_for_sites_and_individuals.md
+  - 13_intervention_and_comparator.md
+  - 14_outcomes.md
+  - 15_harms.md
+  - 16. Sample Size:
+    - 16a_how_sample_size_was_determined.md
+    - 16b_interim_analyses_and_stopping_criteria.md
+  - 17. Randomisation:
+    - 17a_sequence_generation.md
+    - 17b_type_of_randomisation.md
+  - 18_allocation_concealment_mechanism.md
+  - 19_implementation.md
+  - 20. Blinding:
+    - 20a_who_was_blinded.md
+    - 20b_how_was_blinding_achieved.md
+  - 21. Statistical methods:
+    - 21a.md
+    - 21b.md
+    - 21c.md
+    - 21d.md
+  - 22. Participant flow, including flow diagram:
+    - 22a.md
+    - 22b.md
+  - 23. Recruitment:
+    - 23a.md
+    - 23b.md
+  - 24. Intervention and comparator delivery:
+    - 24a.md
+    - 24b.md
+  - 25_baseline_data.md
+  - 26_numbers_analysed_outcomes_and_estimation.md
+  - 27_harms.md
+  - 28_ancillary_analyses.md
+Discussion:
+  - 29_interpretation.md
+  - 30_limitations.md
 web: *id001
