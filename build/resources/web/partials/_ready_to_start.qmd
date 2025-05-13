@@ -1,15 +1,15 @@
 :::{.quote .card}
 :::{.quote-text-normal}
-We like publishing transparent research because we think it's more likely to be used and cited. That's why we ask authors to use reporting guidelines.
+Including the appropriate EQUATOR checklist as part of your submission goes a long way to help establish trust between authors, editors, and reviewers. That’s why our editorial team ensures that applicable reporting checklists are completed during the peer review process, with a completed checklist at submission greatly helping editors and peer reviewers to assess the work.
 :::
 
 ::: {.quote-who}
-<img src="/assets/images/editor.png">
+<img src="/assets/images/AdrianAldcroft.png">
 
 ::: {.name}
-[Robin Lavery]{.text-small .bold}
+[Adrian Aldcroft]{.text-small .bold}
 
-[Editor, International Journal of World Medicine]{.text-small}
+[Editor in Chief, BMJ Open]{.text-small}
 :::
 :::
 :::
