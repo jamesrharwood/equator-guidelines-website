@@ -14,13 +14,10 @@ checklist: &id001
     - 8_setting_location_dates.md
     - 9_consecutive_random_convenience_series.md
   - Test Methods: 
-    - 10a_index_test.md
-    - 10b_reference_standard.md
+    - 10_index_test_reference_standard.md
     - 11_reference_standard_rationale.md
-    - 12a_index_test_cut_off_categories.md
-    - 12b_reference_standard_cut_off_categories.md
-    - 13a_information_available_index.md
-    - 13b_information_available_reference.md
+    - 12_index_test_reference_standard_cut_off_categories.md
+    - 13_information_available.md
   - Analysis: 
     - 14_analysis_methods.md
     - 15_indeterminate_results.md
@@ -31,8 +28,7 @@ checklist: &id001
   - Participants:
     - 19_flow_diagram.md
     - 20_baseline_characteristics.md
-    - 21a_participants_with_target_condition.md
-    - 21b_participants_without_target_condition.md
+    - 21_participants_with_and_without_target_condition.md
     - 22_time_interval.md
   - Test Results:
     - 23_index_reference_results.md
@@ -46,4 +42,3 @@ checklist: &id001
   - 29_protocol.md
   - 30_funding.md
 web: *id001
-writing_guide: *id001

@@ -1,10 +1,17 @@
 ---
 id: information-available-index
-title: "13a. Information available to performers or readers of the index test"
+title: "13. Information available to performers or readers of the index test and reference standard assessors"
+checklist: 
+    text: |
+        13a. Whether clinical information and reference standard results were available to the performers or readers of the index test.
+
+        13b. Whether clinical information and index test results were available to the assessors of the reference standard.
 ---
 ## What to write
 
-Whether clinical information and reference standard results were available to the performers or readers of the index test.
+13a. Whether clinical information and reference standard results were available to the performers or readers of the index test.
+
+13b. Whether clinical information and index test results were available to the assessors of the reference standard.
 
 ## Example
 
@@ -14,8 +21,6 @@ experience, respectively, who were blinded to all patient information,
 including the final histopathologic diagnosis'.[@R52]
 
 ## Explanation
-
-(NB the explanation and example for items 13a and 13b are the same.)
 
 Some medical tests, such as most forms of imaging,
 require human handling, interpretation and judgement. These actions may

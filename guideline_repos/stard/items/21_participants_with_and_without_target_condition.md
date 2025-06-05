@@ -1,14 +1,19 @@
 ---
 id: participants-with-target-condition
-title: "21a. Participants with the target condition"
+title: "21a. Participants with and without the target condition"
+checklist: 
+    text: |
+        21a. Distribution of severity of disease in those with the target condition.
+
+        21b. Distribution of alternative diagnoses in those without the target condition
 ---
 ## What to write
 
-Distribution of severity of disease in those with the target condition.
+21a. Distribution of severity of disease in those with the target condition.
+
+21b. Distribution of alternative diagnoses in those without the target condition
 
 ## Explanation
-
-(NB The explanation and example for items 21a and 21b are the same.)
 
 Most target conditions are not fixed states, either
 present or absent; many diseases cover a continuum, ranging from minute

@@ -1,14 +1,20 @@
 ---
 id: index-test-cut-offs-categories
-title: "12a. Index test cut-offs or categories"
+title: "12. Index test and reference standard cut-offs or categories"
+checklist: 
+    text: |
+        12a. Definition of and rationale for test positivity cut-offs or result categories of the index test, distinguishing prespecified from exploratory.
+
+        12b. Definition of and rationale for test positivity cut-offs or result categories of the reference standard, distinguishing prespecified from exploratory.
+
 ---
 ## What to write
 
-Definition of and rationale for test positivity cut-offs or result categories of the index test, distinguishing prespecified from exploratory.
+12a. Definition of and rationale for test positivity cut-offs or result categories of the index test, distinguishing prespecified from exploratory.
+
+12b. Definition of and rationale for test positivity cut-offs or result categories of the reference standard, distinguishing prespecified from exploratory.
 
 ## Explanation
-
-(NB the explanation and example for items 12a and 12b are the same.)
 
 Test results in their original form can be dichotomous
 (positive vs negative), have multiple categories (as in high,

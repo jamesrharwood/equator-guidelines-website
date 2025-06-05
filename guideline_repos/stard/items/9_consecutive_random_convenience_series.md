@@ -1,7 +1,6 @@
 ---
 id: consecutive-random-convenience-series
-title: "9. Consecutive, random or convenience
-series"
+title: "9. Consecutive, random or convenience series"
 ---
 ## What to write
 

@@ -1,14 +1,19 @@
 ---
 id: index-test
-title: "10a. Index test"
+title: "10. Index test & Reference standard"
+checklist:
+    text: |
+        10a. Index test
+
+        10b. Reference standard
 ---
 ## What to write
 
-Index test, in sufficient detail to allow replication.
+10a. Index test, in sufficient detail to allow replication.
+
+10b. Reference standard, in sufficient detail to allow replication
 
 ## Explanation
-
-(NB the explanation and example for items 10a and 10b are the same.)
 
 Differences in the execution of the index test or
 reference standard are a potential source of variation in diagnostic
