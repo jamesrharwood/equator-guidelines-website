@@ -42,7 +42,7 @@ website:
         href: https://www.equator-network.org/terms-of-use/
       - text: "Privacy Policy"
         href: https://www.equator-network.org/privacy-policy/
-        #TODO license?
+        # #TODO license?
     right:
       - icon: twitter
         href: https://twitter.com/equatornetwork

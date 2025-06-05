@@ -271,110 +271,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/consort/index.qmd
-      text: Overview of CONSORT
-    - contents:
-      - contents:
-        - href: guidelines/consort/items/title.qmd
-          text: 1a. Title
-        - href: guidelines/consort/items/1b_abstract.qmd
-          text: 1b. Abstract
-        section: Title and Abstract
-      - contents:
-        - href: guidelines/consort/items/2a_background_and_objectives.qmd
-          text: 2a. Background and objectives
-        - href: guidelines/consort/items/2b_background_and_objectives.qmd
-          text: 2b. Background and objectives
-        section: Introduction
-      - contents:
-        - contents:
-          - href: guidelines/consort/items/3a_trial_design.qmd
-            text: 3a. Trial design
-          - href: guidelines/consort/items/3b_trial_design.qmd
-            text: 3b. Trial design
-          section: Trial Design
-        - href: guidelines/consort/items/4a_participants_.qmd
-          text: '4a. Participants '
-        - href: guidelines/consort/items/4b_participants_.qmd
-          text: '4b. Participants '
-        - href: guidelines/consort/items/5_interventions.qmd
-          text: 5. Interventions
-        - href: guidelines/consort/items/6a_outcomes.qmd
-          text: 6a. Outcomes
-        - href: guidelines/consort/items/6b_outcomes.qmd
-          text: 6b. Outcomes
-        - href: guidelines/consort/items/7a_sample_size.qmd
-          text: 7a. Sample size
-        - href: guidelines/consort/items/7b_sample_size.qmd
-          text: 7b. Sample size
-        - href: guidelines/consort/items/8a_randomization__sequence_generation.qmd
-          text: 8a. Randomization - Sequence generation
-        - href: guidelines/consort/items/8b_randomization__sequence_generation.qmd
-          text: 8b. Randomization - Sequence generation
-        - href: guidelines/consort/items/9_randomization__allocation_concealment_mechanism.qmd
-          text: 9. Randomization - Allocation concealment mechanism
-        - href: guidelines/consort/items/10_randomization__implementation.qmd
-          text: 10. Randomization - Implementation
-        - href: guidelines/consort/items/11a_blinding.qmd
-          text: 11a. Blinding
-        - href: guidelines/consort/items/11b_blinding.qmd
-          text: 11b. Blinding
-        - href: guidelines/consort/items/12a_statistical_methods.qmd
-          text: 12a. Statistical methods
-        - href: guidelines/consort/items/12b_statistical_methods.qmd
-          text: 12b. Statistical methods
-        section: Methods
-      - contents:
-        - href: guidelines/consort/items/13a_participant_flow_diagram_strongly_recommended.qmd
-          text: 13a. Participant flow diagram (strongly recommended)
-        - href: guidelines/consort/items/13b_participant_flow.qmd
-          text: 13b. Participant flow
-        - href: guidelines/consort/items/14a_recruitment.qmd
-          text: 14a. Recruitment
-        - href: guidelines/consort/items/14b_recruitment.qmd
-          text: 14b. Recruitment
-        - href: guidelines/consort/items/15_baseline_data.qmd
-          text: 15. Baseline data
-        - href: guidelines/consort/items/16_numbers_analysed.qmd
-          text: 16. Numbers analysed
-        - href: guidelines/consort/items/17a_outcomes_and_estimation.qmd
-          text: 17a. Outcomes and estimation
-        - href: guidelines/consort/items/17b_outcomes_and_estimation.qmd
-          text: 17b. Outcomes and estimation
-        - href: guidelines/consort/items/18_ancillary_analyses.qmd
-          text: 18. Ancillary analyses
-        - href: guidelines/consort/items/19_harms.qmd
-          text: 19. Harms
-        section: Results
-      - contents:
-        - href: guidelines/consort/items/20_limitations.qmd
-          text: 20. Limitations
-        - href: guidelines/consort/items/21_generalisability.qmd
-          text: 21. Generalisability
-        - href: guidelines/consort/items/22_interpretation.qmd
-          text: 22. Interpretation
-        - href: guidelines/consort/items/23_registration.qmd
-          text: 23. Registration
-        section: Discussion
-      - contents:
-        - href: guidelines/consort/items/24_protocol.qmd
-          text: 24. Protocol
-        - href: guidelines/consort/items/25_funding.qmd
-          text: 25. Funding
-        section: Other Information
-      section: Full guidance
-    - href: guidelines/consort/consort_writing_guide.docx
-      text: Writing guide
-    - href: guidelines/consort/consort_checklist.docx
-      text: Checklist
-    - href: guidelines/consort/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: consort
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/spirit/index.qmd
       text: Overview of SPIRIT
     - contents:
@@ -939,75 +835,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/srqr/index.qmd
-      text: Overview of SRQR
-    - contents:
-      - contents:
-        - href: guidelines/srqr/items/title.qmd
-          text: Title
-        - href: guidelines/srqr/items/abstract.qmd
-          text: Abstract
-        section: Title & Abstract
-      - contents:
-        - href: guidelines/srqr/items/problem-formulation.qmd
-          text: Problem Formulation
-        - href: guidelines/srqr/items/purpose.qmd
-          text: Purpose or research question
-        section: Introduction
-      - contents:
-        - href: guidelines/srqr/items/qualitative-approach.qmd
-          text: Qualitative approach and research paradigm
-        - href: guidelines/srqr/items/researcher-characteristics-and-reflexivity.qmd
-          text: Researcher characteristics and reflexivity
-        - href: guidelines/srqr/items/context.qmd
-          text: Context
-        - href: guidelines/srqr/items/sampling-strategy.qmd
-          text: Sampling strategy
-        - href: guidelines/srqr/items/ethics.qmd
-          text: Ethical issues pertaining to human subjects
-        - href: guidelines/srqr/items/data-collection-methods.qmd
-          text: Data collection methods
-        - href: guidelines/srqr/items/data-collection-instruments.qmd
-          text: Data collection instruments and technologies
-        - href: guidelines/srqr/items/units-of-study.qmd
-          text: Units of study
-        - href: guidelines/srqr/items/data-processing.qmd
-          text: Data processing
-        - href: guidelines/srqr/items/data-analysis.qmd
-          text: Data analysis
-        - href: guidelines/srqr/items/trustworthiness.qmd
-          text: Techniques to enhance trustworthiness
-        section: Methods
-      - contents:
-        - href: guidelines/srqr/items/synthesis-and-interpretation.qmd
-          text: Synthesis and interpretation
-        - href: guidelines/srqr/items/links-to-empirical-data.qmd
-          text: Links to empirical data
-        section: Results
-      - contents:
-        - href: guidelines/srqr/items/integration-with-prior-work.qmd
-          text: Integration with prior work, implications, transferability, and contribution(s)
-            to the field
-        - href: guidelines/srqr/items/limitations.qmd
-          text: Limitations
-        section: Discussion
-      - contents:
-        - href: guidelines/srqr/items/conflicts-of-interest.qmd
-          text: Conflicts of interest
-        - href: guidelines/srqr/items/funding.qmd
-          text: Funding
-        section: Other
-      section: Full guidance
-    - href: guidelines/srqr/srqr-checklist.docx
-      text: '[Checklist]{.downloadable}'
-    - href: guidelines/srqr/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: srqr
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/arrive/index.qmd
       text: Overview of ARRIVE
     - contents:
@@ -1128,113 +955,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/stard/index.qmd
-      text: Overview of STARD
-    - contents:
-      - contents:
-        - href: guidelines/stard/items/identification.qmd
-          text: 1. Identification as a study of diagnostic accuracy
-        section: Title or abstract
-      - contents:
-        - href: guidelines/stard/items/abstract.qmd
-          text: 2. Abstract
-        section: Abstract
-      - contents:
-        - href: guidelines/stard/items/background.qmd
-          text: 3. Background
-        - href: guidelines/stard/items/objectives.qmd
-          text: 4. Objectives
-        section: Introduction
-      - contents:
-        - href: guidelines/stard/items/study-design.qmd
-          text: 5. Study design
-        - contents:
-          - href: guidelines/stard/items/eligibility-criteria.qmd
-            text: 6. Eligibility criteria
-          - href: guidelines/stard/items/identifying-eligible-participants.qmd
-            text: 7. Identifying eligible participants
-          - href: guidelines/stard/items/setting-location-dates.qmd
-            text: 8. Setting, location, and dates
-          - href: guidelines/stard/items/consecutive-random-convenience-series.qmd
-            text: 9. Consecutive, random or convenience series
-          section: Participants
-        - contents:
-          - href: guidelines/stard/items/index-test.qmd
-            text: 10a. Index test
-          - href: guidelines/stard/items/reference-standard.qmd
-            text: 10b. Reference standard
-          - href: guidelines/stard/items/reference-standard-rationale.qmd
-            text: 11. Reference standard rationale
-          - href: guidelines/stard/items/index-test-cut-offs-categories.qmd
-            text: 12a. Index test cut-offs or categories
-          - href: guidelines/stard/items/reference-standard-cut-offs-categories.qmd
-            text: 12b. Reference standard cut-offs or categories
-          - href: guidelines/stard/items/information-available-index.qmd
-            text: 13a. Information available to performers or readers of the index
-              test
-          - href: guidelines/stard/items/information-available-reference.qmd
-            text: 13b. Information available to reference standard assessors
-          section: Test Methods
-        - contents:
-          - href: guidelines/stard/items/analysis-methods.qmd
-            text: 14. Analysis methods
-          - href: guidelines/stard/items/indeterminate-results.qmd
-            text: 15. Indeterminate results
-          - href: guidelines/stard/items/missing-data.qmd
-            text: 16. Missing data
-          - href: guidelines/stard/items/variability.qmd
-            text: 17. Variability
-          - href: guidelines/stard/items/intended-sample-size.qmd
-            text: 18. Intended sample size
-          section: Analysis
-        section: Methods
-      - contents:
-        - contents:
-          - href: guidelines/stard/items/flow-diagram.qmd
-            text: 19. Participant flow diagram
-          - href: guidelines/stard/items/baseline-characteristics.qmd
-            text: 20. Baseline characteristics
-          - href: guidelines/stard/items/participants-with-target-condition.qmd
-            text: 21a. Participants with the target condition
-          - href: guidelines/stard/items/participants-without-target-condition.qmd
-            text: 21b. Participants without the target condition
-          - href: guidelines/stard/items/time-interval.qmd
-            text: 22. Time interval
-          section: Participants
-        - contents:
-          - href: guidelines/stard/items/index-reference-results.qmd
-            text: 23. Index test and reference standard results
-          - href: guidelines/stard/items/estimates-of-accuracy.qmd
-            text: 24. Estimates of accuracy
-          - href: guidelines/stard/items/adverse-events.qmd
-            text: 25. Adverse events
-          section: Test Results
-        section: Results
-      - contents:
-        - href: guidelines/stard/items/limitations.qmd
-          text: 26. Limitations
-        - href: guidelines/stard/items/implications-for-practice.qmd
-          text: 27. Implications for Practice
-        section: Discussion
-      - contents:
-        - href: guidelines/stard/items/registration.qmd
-          text: 28. Registration
-        - href: guidelines/stard/items/protocol.qmd
-          text: 29. Protocol
-        - href: guidelines/stard/items/funding.qmd
-          text: 30. Funding
-        section: Other information
-      section: Full guidance
-    - href: guidelines/stard/stard-checklist.docx
-      text: '[Checklist]{.downloadable}'
-    - href: guidelines/stard/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: stard
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/care/index.qmd
       text: Overview of CARE
     - contents:
@@ -1273,6 +993,201 @@ website:
       text: FAQs
     foreground: secondary
     id: care
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/srqr/index.qmd
+      text: Overview of SRQR
+    - contents:
+      - contents:
+        - href: guidelines/srqr/items/title.qmd
+          text: Title
+        - href: guidelines/srqr/items/abstract.qmd
+          text: Abstract
+        section: Title & Abstract
+      - contents:
+        - href: guidelines/srqr/items/problem-formulation.qmd
+          text: Problem Formulation
+        - href: guidelines/srqr/items/purpose.qmd
+          text: Purpose or research question
+        section: Introduction
+      - contents:
+        - href: guidelines/srqr/items/qualitative-approach.qmd
+          text: Qualitative approach and research paradigm
+        - href: guidelines/srqr/items/researcher-characteristics-and-reflexivity.qmd
+          text: Researcher characteristics and reflexivity
+        - href: guidelines/srqr/items/context.qmd
+          text: Context
+        - href: guidelines/srqr/items/sampling-strategy.qmd
+          text: Sampling strategy
+        - href: guidelines/srqr/items/ethics.qmd
+          text: Ethical issues pertaining to human subjects
+        - href: guidelines/srqr/items/data-collection-methods.qmd
+          text: Data collection methods
+        - href: guidelines/srqr/items/data-collection-instruments.qmd
+          text: Data collection instruments and technologies
+        - href: guidelines/srqr/items/units-of-study.qmd
+          text: Units of study
+        - href: guidelines/srqr/items/data-processing.qmd
+          text: Data processing
+        - href: guidelines/srqr/items/data-analysis.qmd
+          text: Data analysis
+        - href: guidelines/srqr/items/trustworthiness.qmd
+          text: Techniques to enhance trustworthiness
+        section: Methods
+      - contents:
+        - href: guidelines/srqr/items/synthesis-and-interpretation.qmd
+          text: Synthesis and interpretation
+        - href: guidelines/srqr/items/links-to-empirical-data.qmd
+          text: Links to empirical data
+        section: Results
+      - contents:
+        - href: guidelines/srqr/items/integration-with-prior-work.qmd
+          text: Integration with prior work, implications, transferability, and contribution(s)
+            to the field
+        - href: guidelines/srqr/items/limitations.qmd
+          text: Limitations
+        section: Discussion
+      - contents:
+        - href: guidelines/srqr/items/conflicts-of-interest.qmd
+          text: Conflicts of interest
+        - href: guidelines/srqr/items/funding.qmd
+          text: Funding
+        section: Other
+      section: Full guidance
+    - href: guidelines/srqr/srqr-checklist.docx
+      text: '[Checklist]{.downloadable}'
+    - href: guidelines/srqr/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: srqr
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/consort/index.qmd
+      text: Overview of CONSORT
+    - contents:
+      - contents:
+        - href: guidelines/consort/items/title.qmd
+          text: 1a. Title
+        - href: guidelines/consort/items/structured-abstract.qmd
+          text: 1b. Structured Abstract
+        section: Title and Abstract
+      - contents:
+        - href: guidelines/consort/items/trial-registration.qmd
+          text: 2. Trial Registration
+        - href: guidelines/consort/items/protocol-and-statistical-analysis-plan.qmd
+          text: Protocol and statistical analysis plan
+        - href: guidelines/consort/items/data-sharing.qmd
+          text: 4. Data sharing
+        - contents:
+          - href: guidelines/consort/items/funding.qmd
+            text: 5a. Funding
+          - href: guidelines/consort/items/conflicts-of-interest.qmd
+            text: 5b. Conflicts of interest
+          section: 5. Funding and Conflicts of Interest
+        section: Open Science
+      - contents:
+        - href: guidelines/consort/items/background-and-rationale.qmd
+          text: 6. Background and rationale
+        - href: guidelines/consort/items/objectives.qmd
+          text: 7. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/consort/items/patient-and-public-involvement.qmd
+          text: 8. Patient and public involvement
+        - href: guidelines/consort/items/trial-design.qmd
+          text: 9. Trial Design
+        - href: guidelines/consort/items/changes-to-trial-protocol.qmd
+          text: 10. Changes to trial protocol
+        - href: guidelines/consort/items/trial-setting.qmd
+          text: 11. Trial Setting
+        - contents:
+          - href: guidelines/consort/items/eligibility-criteria-participants.qmd
+            text: 12a. Participants
+          - href: guidelines/consort/items/eligibility-criteria-sites-individuals.qmd
+            text: 12b. Other
+          section: 12. Eligibility Criteria
+        - href: guidelines/consort/items/intervention-and-comparator.qmd
+          text: 13. Intervention and comparator
+        - href: guidelines/consort/items/outcomes.qmd
+          text: 14. Outcomes
+        - href: guidelines/consort/items/harms.qmd
+          text: 15. Harms
+        - contents:
+          - href: guidelines/consort/items/sample-size-determination.qmd
+            text: 16a. How sample size was determined
+          - href: guidelines/consort/items/sample-size-interim-analyses-and-stopping-guidelines.qmd
+            text: 16b. Interim analyses and stopping criteria
+          section: 16. Sample Size
+        - contents:
+          - href: guidelines/consort/items/randomisation-sequence-generation.qmd
+            text: 17a. Sequence Generation
+          - href: guidelines/consort/items/randomisation-type-of-randomisation.qmd
+            text: 17b. Type of Randomisation
+          section: 17. Randomisation
+        - href: guidelines/consort/items/allocation-concealment-mechanism.qmd
+          text: 18. Allocation concealment mechanism
+        - href: guidelines/consort/items/implementation.qmd
+          text: 19. Implementation
+        - contents:
+          - href: guidelines/consort/items/blinding-who.qmd
+            text: 20a. Who was blinded
+          - href: guidelines/consort/items/blinding-how.qmd
+            text: 20b. How blinding was achieved
+          section: 20. Blinding
+        - contents:
+          - href: guidelines/consort/items/statistical-methods-comparing-groups-primary-secondary-outcomes-harms.qmd
+            text: 21a. Comparing groups
+          - href: guidelines/consort/items/statistical-methods-definition-of-who-is-included-in-each-analysis.qmd
+            text: 21b. Definition of who is included in each analysis
+          - href: guidelines/consort/items/statistical-methods-missing-data.qmd
+            text: 21c. Missing Data
+          - href: guidelines/consort/items/statistical-methods-additional-analyses.qmd
+            text: 21d. Additional Analyses
+          section: 21. Statistical methods
+        - contents:
+          - href: guidelines/consort/items/participant-flow-numbers.qmd
+            text: 22a. Participant Numbers
+          - href: guidelines/consort/items/participant-flow-losses-and-exclusions.qmd
+            text: 22b. Losses and exclusions
+          section: 22. Participant flow, including flow diagram
+        - contents:
+          - href: guidelines/consort/items/recruitment-dates.qmd
+            text: 23a. Dates
+          - href: guidelines/consort/items/recruitment-why-stopped.qmd
+            text: 23b. Reasons for stopping recruitment
+          section: 23. Recruitment
+        - contents:
+          - href: guidelines/consort/items/intervention-comparator-delivery-as-administered.qmd
+            text: 24a. As Administered
+          - href: guidelines/consort/items/intervention-comparator-delivery-concomitant-care.qmd
+            text: 24b. Concomitant Care
+          section: 24. Intervention and comparator delivery
+        - href: guidelines/consort/items/baseline-data.qmd
+          text: 25. Baseline Data
+        - href: guidelines/consort/items/numbers-analysed-outcomes-estimation.qmd
+          text: 26. Numbers analysed, outcomes, and estimation
+        - href: guidelines/consort/items/harms.qmd
+          text: 27. Harms
+        - href: guidelines/consort/items/ancillary-analyses.qmd
+          text: 28. Ancillary Analyses
+        section: Methods
+      - contents:
+        - href: guidelines/consort/items/interpretation.qmd
+          text: 29. Interpretation
+        - href: guidelines/consort/items/limitations.qmd
+          text: 30. Limitations
+        section: Discussion
+      section: Full guidance
+    - href: guidelines/consort/consort-checklist.docx
+      text: '[Checklist]{.downloadable}'
+    - href: guidelines/consort/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: consort
     search: true
     style: docked
   - collapse-level: 2
@@ -1337,5 +1252,104 @@ website:
       text: FAQs
     foreground: secondary
     id: squire
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/stard/index.qmd
+      text: Overview of STARD
+    - contents:
+      - contents:
+        - href: guidelines/stard/items/identification.qmd
+          text: 1. Identification as a study of diagnostic accuracy
+        section: Title or abstract
+      - contents:
+        - href: guidelines/stard/items/abstract.qmd
+          text: 2. Abstract
+        section: Abstract
+      - contents:
+        - href: guidelines/stard/items/background.qmd
+          text: 3. Background
+        - href: guidelines/stard/items/objectives.qmd
+          text: 4. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/stard/items/study-design.qmd
+          text: 5. Study design
+        - contents:
+          - href: guidelines/stard/items/eligibility-criteria.qmd
+            text: 6. Eligibility criteria
+          - href: guidelines/stard/items/identifying-eligible-participants.qmd
+            text: 7. Identifying eligible participants
+          - href: guidelines/stard/items/setting-location-dates.qmd
+            text: 8. Setting, location, and dates
+          - href: guidelines/stard/items/consecutive-random-convenience-series.qmd
+            text: 9. Consecutive, random or convenience series
+          section: Participants
+        - contents:
+          - href: guidelines/stard/items/index-test.qmd
+            text: 10. Index test & Reference standard
+          - href: guidelines/stard/items/reference-standard-rationale.qmd
+            text: 11. Reference standard rationale
+          - href: guidelines/stard/items/index-test-cut-offs-categories.qmd
+            text: 12. Index test and reference standard cut-offs or categories
+          - href: guidelines/stard/items/information-available-index.qmd
+            text: 13. Information available to performers or readers of the index
+              test and reference standard assessors
+          section: Test Methods
+        - contents:
+          - href: guidelines/stard/items/analysis-methods.qmd
+            text: 14. Analysis methods
+          - href: guidelines/stard/items/indeterminate-results.qmd
+            text: 15. Indeterminate results
+          - href: guidelines/stard/items/missing-data.qmd
+            text: 16. Missing data
+          - href: guidelines/stard/items/variability.qmd
+            text: 17. Variability
+          - href: guidelines/stard/items/intended-sample-size.qmd
+            text: 18. Intended sample size
+          section: Analysis
+        section: Methods
+      - contents:
+        - contents:
+          - href: guidelines/stard/items/flow-diagram.qmd
+            text: 19. Participant flow diagram
+          - href: guidelines/stard/items/baseline-characteristics.qmd
+            text: 20. Baseline characteristics
+          - href: guidelines/stard/items/participants-with-target-condition.qmd
+            text: 21a. Participants with and without the target condition
+          - href: guidelines/stard/items/time-interval.qmd
+            text: 22. Time interval
+          section: Participants
+        - contents:
+          - href: guidelines/stard/items/index-reference-results.qmd
+            text: 23. Index test and reference standard results
+          - href: guidelines/stard/items/estimates-of-accuracy.qmd
+            text: 24. Estimates of accuracy
+          - href: guidelines/stard/items/adverse-events.qmd
+            text: 25. Adverse events
+          section: Test Results
+        section: Results
+      - contents:
+        - href: guidelines/stard/items/limitations.qmd
+          text: 26. Limitations
+        - href: guidelines/stard/items/implications-for-practice.qmd
+          text: 27. Implications for Practice
+        section: Discussion
+      - contents:
+        - href: guidelines/stard/items/registration.qmd
+          text: 28. Registration
+        - href: guidelines/stard/items/protocol.qmd
+          text: 29. Protocol
+        - href: guidelines/stard/items/funding.qmd
+          text: 30. Funding
+        section: Other information
+      section: Full guidance
+    - href: guidelines/stard/stard-checklist.docx
+      text: '[Checklist]{.downloadable}'
+    - href: guidelines/stard/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: stard
     search: true
     style: docked

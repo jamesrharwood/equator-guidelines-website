@@ -1,5 +1,5 @@
 from build.file import save_yml
-from copy import copy
+from copy import copy, deepcopy
 
 def create_web(guideline):
     metadata = create_metadata(guideline)
@@ -65,10 +65,11 @@ class MetadataCreator():
     
     def set_citation(self):
         article_key = 'development'
-        citation = self.get('articles', {}).get(article_key, None) 
+        citation = self.get('articles', {}).get(article_key, None)
+        if citation:
+            citation = deepcopy(citation)
         #TODO switching to development so all RGs have valid citation info
         if citation:
-            self.guideline.config['articles'].pop(article_key)
             for field in ['issued', 'accessed']:
                 data = adjust_date_field(citation.get(field, None))
                 citation.update({field: data})
