@@ -3,10 +3,9 @@ id: summary
 title: "14. Summary"
 checklist:
     text: |
-        A.  Key findings, including relevance to the rationale and specific aims
+        14a.  Key findings, including relevance to the rationale and specific aims
 
-        B.  Particular strengths of the project
-
+        14b.  Particular strengths of the project
 ---
 
 ## What to write

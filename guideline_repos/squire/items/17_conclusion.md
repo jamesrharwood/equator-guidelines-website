@@ -3,15 +3,15 @@ id: conclusion
 title: "17. Conclusion"
 checklist: 
     text: |
-        A.  Usefulness of the work
+        17a.  Usefulness of the work
 
-        B.  Sustainability
+        17b.  Sustainability
 
-        C.  Potential for spread to other contexts
+        17c.  Potential for spread to other contexts
 
-        D.  Implications for practice and for further study in the field
+        17d.  Implications for practice and for further study in the field
 
-        E.  Suggested next steps
+        17e.  Suggested next steps
 ---
 
 ## What to write

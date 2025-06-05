@@ -3,18 +3,17 @@ id: interpretation
 title: "15. Interpretation"
 checklist:
     text: |
-        A.  Nature of the association between the intervention(s) and the
+        15a.  Nature of the association between the intervention(s) and the
             outcomes
 
-        B.  Comparison of results with findings from other publications
+        15b.  Comparison of results with findings from other publications
 
-        C.  Impact of the project on people and systems
+        15c.  Impact of the project on people and systems
 
-        D.  Reasons for any differences between observed and anticipated
+        15d.  Reasons for any differences between observed and anticipated
             outcomes, including the influence of context
 
-        E.  Costs and strategic trade-offs, including opportunity costs
-
+        15e.  Costs and strategic trade-offs, including opportunity costs
 ---
 
 ## What to write

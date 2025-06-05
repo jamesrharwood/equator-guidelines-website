@@ -3,14 +3,13 @@ id: context-unexpected-consequences
 title: "13 c, d & e Contextual elements and unexpected consequences"
 checklist: 
     text: |
-        A.  Contextual elements that interacted with the interventions
+        13c.  Contextual elements that interacted with the interventions
 
-        B.  Observed associations between outcomes, interventions and relevant
+        13d.  Observed associations between outcomes, interventions and relevant
             contextual factors
 
-        C.  Unintended consequences such as benefits, harms, unexpected results,
+        13e.  Unintended consequences such as benefits, harms, unexpected results,
             problems or failures associated with the intervention(s)
-
 ---
 
 ## What to write

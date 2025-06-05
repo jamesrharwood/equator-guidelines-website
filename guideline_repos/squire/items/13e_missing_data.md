@@ -3,8 +3,7 @@ id: missing-data
 title: "13 e. Missing data"
 checklist: 
     text: |
-        Details about missing data.
-
+        13e. Details about missing data.
 ---
 
 ## What to write

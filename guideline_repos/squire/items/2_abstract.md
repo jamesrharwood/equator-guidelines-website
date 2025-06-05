@@ -3,9 +3,9 @@ id: abstract
 title: "2. Abstract"
 checklist:
     text: |
-        a. Provide adequate information to aid in searching and indexing. 
+        2a. Provide adequate information to aid in searching and indexing. 
         
-        b. Summarise all key information from various sections of the text using the abstract format of the intended publication or a structured summary such as: background, local problem, methods, interventions, results, conclusions.
+        2b. Summarise all key information from various sections of the text using the abstract format of the intended publication or a structured summary such as: background, local problem, methods, interventions, results, conclusions.
 ---
 
 ## What to write

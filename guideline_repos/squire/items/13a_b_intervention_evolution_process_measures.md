@@ -3,9 +3,9 @@ id: intervention-evolution-process-measures
 title: "13 a & b. Evolution of the intervention and details of process measures"
 checklist: 
     text: |
-        A. Initial steps of the intervention(s) and their evolution over time (e.g., time-line diagram, flow chart, or table), including modifications made to the intervention during the project.
+        13a. Initial steps of the intervention(s) and their evolution over time (e.g., time-line diagram, flow chart, or table), including modifications made to the intervention during the project.
         
-        B. Details of the process measures and outcome.
+        13b. Details of the process measures and outcome.
 ---
 
 ## What to write

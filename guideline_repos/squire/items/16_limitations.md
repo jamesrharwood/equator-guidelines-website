@@ -3,11 +3,11 @@ id: limitations
 title: "16. Limitations"
 checklist:
     text: |
-        A.  Limits to the generalisability of the work.
+        16a.  Limits to the generalisability of the work.
 
-        B.  Factors that might have limited internal validity such as confounding, bias, or imprecision in the design, methods, measurement, or analysis.
+        16b.  Factors that might have limited internal validity such as confounding, bias, or imprecision in the design, methods, measurement, or analysis.
 
-        C.  Efforts made to minimise and adjust for limitations.
+        16c.  Efforts made to minimise and adjust for limitations.
 
 ---
 
