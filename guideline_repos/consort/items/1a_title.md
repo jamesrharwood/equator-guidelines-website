@@ -10,6 +10,12 @@ summary:
 
 Identification as a randomised trial
 
+## Example
+
+"Efficacy and Safety of Early Administration of 4-Factor Prothrombin
+Complex Concentrate in Patients With Trauma at Risk of Massive
+Transfusion: The PROCOAG Randomized Clinical Trial."[@ref25]
+
 ## Explanation
 
 The ability to identify a report of a randomised trial in a
@@ -19,9 +25,3 @@ authors do not explicitly report this information.[@ref26] To help
 ensure that a study is appropriately indexed and easily identified,
 authors should use the word "randomised" in the title to indicate that
 the participants were randomly assigned to their comparison groups.
-
-## Example
-
-"Efficacy and Safety of Early Administration of 4-Factor Prothrombin
-Complex Concentrate in Patients With Trauma at Risk of Massive
-Transfusion: The PROCOAG Randomized Clinical Trial."[@ref25]

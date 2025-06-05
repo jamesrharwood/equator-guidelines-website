@@ -9,6 +9,20 @@ summary:
 
 Where and how the individual de-identified participant data (including data dictionary), statistical code, and any other materials can be accessed
 
+## Examples
+
+"All data requests should be submitted to the corresponding author (AR)
+for consideration as agreed in our publication plan. Access to
+anonymised data may be granted following review with the Trial
+Management Group and agreement of the chief investigator (AR)."[@ref80]
+
+"Deidentified data collected and presented in this study, including
+individual participant data and a data dictionary defining each field in
+the set, will be made available upon reasonable request after
+publication of this Article, following approval by regulatory
+authorities. Data can be requested by contacting the corresponding
+author."[@ref81]
+
 ## Explanation
 
 Data and code sharing can take the transparency of trial reporting to a
@@ -83,16 +97,3 @@ additional materials to share might include a handbook and/or video to
 detail the intervention.[@ref93] Often these can be shared much more
 freely than the data, as there are fewer issues with confidentiality.
 
-## Examples
-
-"All data requests should be submitted to the corresponding author (AR)
-for consideration as agreed in our publication plan. Access to
-anonymised data may be granted following review with the Trial
-Management Group and agreement of the chief investigator (AR)."[@ref80]
-
-"Deidentified data collected and presented in this study, including
-individual participant data and a data dictionary defining each field in
-the set, will be made available upon reasonable request after
-publication of this Article, following approval by regulatory
-authorities. Data can be requested by contacting the corresponding
-author."[@ref81]

@@ -65,9 +65,7 @@ is expected that the use of this framework will become more widespread.
 [Box 1](#box1){ref-type="boxed-text"} provides more information about
 the estimands framework and how it is being used.
 
-::: caption
-###### Estimands
-:::
+### Estimands
 
 Concerns have been raised that the precise research questions that
 randomised trials set out to answer are often unclear.[@ref134] In
@@ -90,48 +88,34 @@ in specifying the research question, which can be used to guide the
 study design, data collection, and statistical analysis methods. In
 brief, an estimand comprises five key attributes: population, treatment
 groups, endpoint, summary measure, and handling of intercurrent events
-([table 3](#tbl3){ref-type="table"}). A separate estimand should be
+(see @tbl-3). A separate estimand should be
 defined for each study outcome, and for some outcomes, more than one
 estimand may be defined.
 
-:::: {#tbl3 .table-wrap}
-::: caption
-Five key attributes of the estimand framework[@ref135]
-:::
+Attribute | Definition
+---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Population|Patients for whom researchers want to estimate the treatment effect
+Treatment groups|Different intervention strategies being compared in the treatment effect definition
+Endpoint|Outcome for each participant that is used in the treatment effect definition
+Summary measure|Method used to summarise and compare the endpoint between treatment conditions (eg, risk ratio, odds ratio)
+Handling of intercurrent events|Strategies used to handle each intercurrent event (see below) in the treatment effect definition; different strategies could be used for different types of intercurrent events
 
-  Attribute                         Definition
-  --------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Population                        Patients for whom researchers want to estimate the treatment effect
-  Treatment groups                  Different intervention strategies being compared in the treatment effect definition
-  Endpoint                          Outcome for each participant that is used in the treatment effect definition
-  Summary measure                   Method used to summarise and compare the endpoint between treatment conditions (eg, risk ratio, odds ratio)
-  Handling of intercurrent events   Strategies used to handle each intercurrent event\* in the treatment effect definition; different strategies could be used for different types of intercurrent events
+: Five key attributes of the estimand framework[@ref135]. {#tbl-3}
 
-Intercurrent events are post-baseline events (or post-randomisation
-events in randomised trials) that affect the interpretation or existence
-of outcome data. These events frequently affect receipt of treatment
-(eg, treatment switching or treatment discontinuation) or preclude
-existence of the outcome (eg, death, if it is not defined as part of the
-outcome).
-::::
+Intercurrent events are post-baseline events (or post-randomisation events in randomised trials) that affect the interpretation or existence of outcome data. These events frequently affect receipt of treatment (eg, treatment switching or treatment discontinuation) or preclude existence of the outcome (eg, death, if it is not defined as part of the outcome).
 
 The ICH E9(R1) outlines five strategies for handling intercurrent
-events, which are at the core of the estimand framework ([table
-4](#tbl4){ref-type="table"}).
+events, which are at the core of the estimand framework (see @tbl-4).
 
-:::: {#tbl4 .table-wrap}
-::: caption
-Strategies for handling intercurrent events
-:::
+Strategy|Description
+--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Treatment policy|The occurrence of the intercurrent event is considered irrelevant in defining the treatment effect of interest: the value for the outcome of interest is used regardless of whether the intercurrent event occurs
+Hypothetical|The treatment effect in a scenario where the intercurrent event did not occur is of interest
+Composite|The intercurrent event is incorporated into the outcome definition
+While on treatment|The outcome before the occurrence of the intercurrent event is of interest
+Principal stratum|The outcome in a subpopulation of patients who would not (or would) experience the intercurrent event is of interest.
 
-  Strategy             Description
-  -------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Treatment policy     The occurrence of the intercurrent event is considered irrelevant in defining the treatment effect of interest: the value for the outcome of interest is used regardless of whether the intercurrent event occurs
-  Hypothetical         The treatment effect in a scenario where the intercurrent event did not occur is of interest
-  Composite            The intercurrent event is incorporated into the outcome definition
-  While on treatment   The outcome before the occurrence of the intercurrent event is of interest
-  Principal stratum    The outcome in a subpopulation of patients who would not (or would) experience the intercurrent event is of interest.
-::::
+: Strategies for handling intercurrent events {#tbl-4}
 
 Although the terminology surrounding estimands may be new to some
 investigators, it is expected that defining research questions using the
@@ -142,3 +126,4 @@ has been used to design the trial or the data collection or to inform
 the statistical analysis (by guiding choice of appropriate methods),
 then this should be made clear in the manuscript and the methods and
 results should be reported within the framework.
+

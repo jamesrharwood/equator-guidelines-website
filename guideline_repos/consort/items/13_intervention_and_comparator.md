@@ -77,12 +77,10 @@ individual participants, and how fidelity[@ref209] (ie, the extent to
 which the intervention/comparator were implemented as planned in the
 protocol by care providers) or adherence[@ref209] (ie, the extent to
 which trial participants implement the intervention/comparator as
-planned in the protocol) were assessed or enhanced ([box
-2](#box2){ref-type="boxed-text"}).
+planned in the protocol) were assessed or enhanced (see below for more examples).
 
-::: caption
-###### Examples of essential information to be reported for various types of interventions in randomised trials\*[@ref22; @ref23]
-:::
+::: {.callout-note collapse=true}
+### Examples of essential information to be reported for various types of interventions in randomised trials [@ref22; @ref23]
 
 #### Drug[@ref23]
 
@@ -184,6 +182,7 @@ planned in the protocol) were assessed or enhanced ([box
 
 -   Any physical or informational materials used in the intervention and
     where the materials can be accessed.
+:::
 
 Assessing fidelity and adherence can be complex and vary according to
 the intervention/comparator (eg, one-off, short term repeated, long term

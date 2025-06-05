@@ -110,14 +110,13 @@ including the grouping system used (eg, grading system to define
 severity), who did the grouping, and whether they were blinded to the
 treatment allocated.[@ref237; @ref238]
 
-[Box 3](#box3){ref-type="boxed-text"} summarises the essential
+The box below summarises the essential
 information to be reported related to harms. More detailed information
 can be found in the CONSORT extension for harms, which was updated in
 2022.[@ref20]
 
-::: caption
-###### Reporting harms in randomised controlled trials
-:::
+::: {.callout-note collapsed=false}
+### Reporting harms in randomised controlled trials
 
 #### Systematically assessed harms
 
@@ -164,3 +163,5 @@ For grouping of harms by body system, seriousness, severity, withdrawals
 
 -   Who did the grouping, and whether they were blinded to the allocated
     trial group.
+
+:::

@@ -10,6 +10,12 @@ summary:
 
 Name of trial registry, identifying number (with URL) and date of registration
 
+## Example
+
+"This study was registered in the Iranian Registry of Clinical Trials
+under the code IRCT20150531022498N30: <https://en.irct.ir/trial/41031>.
+Registered on July 26, 2019."[@ref47]
+
 ## Explanation
 
 The consequences of non-publication of entire trials (ie, publication
@@ -78,9 +84,3 @@ after study completion.[@ref71; @ref72; @ref73]
 Authors should indicate whether the trial results are publicly posted to
 the trial registry, as a preprint (with URL citation) or as published
 articles (with citations).
-
-## Example
-
-"This study was registered in the Iranian Registry of Clinical Trials
-under the code IRCT20150531022498N30: <https://en.irct.ir/trial/41031>.
-Registered on July 26, 2019."[@ref47]

@@ -62,3 +62,4 @@ by level of complication when performing the intervention, and specific
 training before trial initiation. Exclusion criteria should be justified
 because they will influence the applicability of the trial
 results.[@ref188]
+

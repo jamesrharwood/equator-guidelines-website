@@ -70,3 +70,4 @@ their absence.[@ref121] The percentage of published trial reports that
 cite a systematic review of pre-existing evidence where one is available
 has increased over time, but over a quarter still fail to do
 so.[@ref122]
+

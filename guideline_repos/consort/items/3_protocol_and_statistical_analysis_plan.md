@@ -10,6 +10,12 @@ summary:
 
 Where the trial protocol and statistical analysis plan can be accessed
 
+## Example
+
+"The full trial protocol and the Statistical Analysis Plan can be
+accessed in the Supplementary Material".[@ref74] This article and
+supplementary material are open access.
+
 ## Explanation
 
 A protocol for the complete trial (rather than a protocol of a specific
@@ -70,9 +76,3 @@ When submitting a completed trial report, trial authors can include
 their protocol as a supplemental document or provide a URL to its
 location. Such documentation can facilitate peer review and help
 identify reporting biases.
-
-## Example
-
-"The full trial protocol and the Statistical Analysis Plan can be
-accessed in the Supplementary Material".[@ref74] This article and
-supplementary material are open access.

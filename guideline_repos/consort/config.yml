@@ -1,6 +1,8 @@
 title: "CONSORT reporting guideline for writing clinical trial research articles"
 acronym: CONSORT
 acronym-definition: 'Consolidated Standards of Reporting Trials'
+bibliography:
+  - bibliographies/imported.bib
 journal-endorsement-count: 600+
 id: consort
 doi-for-citation-count: 10.7326/0003-4819-152-11-201006010-0023
@@ -8,6 +10,7 @@ doi: 10.1234/equator/1010101
 # data-repo: jamesrharwood/consort
 open-e-and-e: true
 version: 'CONSORT 2025 v1.1'
+for-writing: reports of randomised trials
 authors:
   - family: Hopewell
     given: Sally
