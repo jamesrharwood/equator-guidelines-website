@@ -29,8 +29,7 @@ the research question. PICO is sometimes styled as PICOTS, to include T
 
 Treatment decisions require an evaluation of the balance between benefit
 and harm; however, information about harms is frequently omitted or
-incompletely reported in published reports of trial results.[@ref125]
-[@ref126; @ref127; @ref128] Trials whose primary objective is to
+incompletely reported in published reports of trial results.[@ref125; @ref126; @ref127; @ref128] Trials whose primary objective is to
 evaluate benefits of an intervention may not be powered to detect harms,
 but authors should still report whether they considered harms outcomes
 when planning the trial.[@ref20]

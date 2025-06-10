@@ -113,8 +113,7 @@ reported that PPI activities had been conducted.[@ref157] Few other
 journals have followed suit in mandating reporting of PPI
 activities.[@ref158; @ref159; @ref160] In the absence of an explicit
 requirement, reporting of PPI activities remains infrequent, appearing
-in an estimated 0-5% of published trial reports.[@ref161; @ref162]
-[@ref163] There is limited evidence to indicate the extent to which this
+in an estimated 0-5% of published trial reports.[@ref161; @ref162; @ref163] There is limited evidence to indicate the extent to which this
 reflects a lack of PPI activity versus PPI activity being conducted but
 not reported. In a small survey of authors of trials published in high
 impact factor journals, only one of 29 respondents reported PPI

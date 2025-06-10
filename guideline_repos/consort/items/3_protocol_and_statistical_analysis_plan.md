@@ -25,8 +25,7 @@ example, the primary outcome (item 14). Having a protocol provides
 important context to interpret a trial, implement its findings, and
 facilitate replication and appraisal of risk of bias. It can also help
 to restrict the likelihood of undeclared post hoc changes to the trial
-methods and selective outcome reporting (item 10).[@ref75; @ref76]
-[@ref77] Elements that are important to address in the protocol for a
+methods and selective outcome reporting (item 10).[@ref75; @ref76; @ref77] Elements that are important to address in the protocol for a
 randomised trial are described in the SPIRIT 2025 statement.[@ref78]
 
 A protocol may either include the full statistical analysis plan or may

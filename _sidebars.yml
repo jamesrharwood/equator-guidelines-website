@@ -1066,132 +1066,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/consort/index.qmd
-      text: Overview of CONSORT
-    - contents:
-      - contents:
-        - href: guidelines/consort/items/title.qmd
-          text: 1a. Title
-        - href: guidelines/consort/items/structured-abstract.qmd
-          text: 1b. Structured Abstract
-        section: Title and Abstract
-      - contents:
-        - href: guidelines/consort/items/trial-registration.qmd
-          text: 2. Trial Registration
-        - href: guidelines/consort/items/protocol-and-statistical-analysis-plan.qmd
-          text: Protocol and statistical analysis plan
-        - href: guidelines/consort/items/data-sharing.qmd
-          text: 4. Data sharing
-        - contents:
-          - href: guidelines/consort/items/funding.qmd
-            text: 5a. Funding
-          - href: guidelines/consort/items/conflicts-of-interest.qmd
-            text: 5b. Conflicts of interest
-          section: 5. Funding and Conflicts of Interest
-        section: Open Science
-      - contents:
-        - href: guidelines/consort/items/background-and-rationale.qmd
-          text: 6. Background and rationale
-        - href: guidelines/consort/items/objectives.qmd
-          text: 7. Objectives
-        section: Introduction
-      - contents:
-        - href: guidelines/consort/items/patient-and-public-involvement.qmd
-          text: 8. Patient and public involvement
-        - href: guidelines/consort/items/trial-design.qmd
-          text: 9. Trial Design
-        - href: guidelines/consort/items/changes-to-trial-protocol.qmd
-          text: 10. Changes to trial protocol
-        - href: guidelines/consort/items/trial-setting.qmd
-          text: 11. Trial Setting
-        - contents:
-          - href: guidelines/consort/items/eligibility-criteria-participants.qmd
-            text: 12a. Participants
-          - href: guidelines/consort/items/eligibility-criteria-sites-individuals.qmd
-            text: 12b. Other
-          section: 12. Eligibility Criteria
-        - href: guidelines/consort/items/intervention-and-comparator.qmd
-          text: 13. Intervention and comparator
-        - href: guidelines/consort/items/outcomes.qmd
-          text: 14. Outcomes
-        - href: guidelines/consort/items/harms.qmd
-          text: 15. Harms
-        - contents:
-          - href: guidelines/consort/items/sample-size-determination.qmd
-            text: 16a. How sample size was determined
-          - href: guidelines/consort/items/sample-size-interim-analyses-and-stopping-guidelines.qmd
-            text: 16b. Interim analyses and stopping criteria
-          section: 16. Sample Size
-        - contents:
-          - href: guidelines/consort/items/randomisation-sequence-generation.qmd
-            text: 17a. Sequence Generation
-          - href: guidelines/consort/items/randomisation-type-of-randomisation.qmd
-            text: 17b. Type of Randomisation
-          section: 17. Randomisation
-        - href: guidelines/consort/items/allocation-concealment-mechanism.qmd
-          text: 18. Allocation concealment mechanism
-        - href: guidelines/consort/items/implementation.qmd
-          text: 19. Implementation
-        - contents:
-          - href: guidelines/consort/items/blinding-who.qmd
-            text: 20a. Who was blinded
-          - href: guidelines/consort/items/blinding-how.qmd
-            text: 20b. How blinding was achieved
-          section: 20. Blinding
-        - contents:
-          - href: guidelines/consort/items/statistical-methods-comparing-groups-primary-secondary-outcomes-harms.qmd
-            text: 21a. Comparing groups
-          - href: guidelines/consort/items/statistical-methods-definition-of-who-is-included-in-each-analysis.qmd
-            text: 21b. Definition of who is included in each analysis
-          - href: guidelines/consort/items/statistical-methods-missing-data.qmd
-            text: 21c. Missing Data
-          - href: guidelines/consort/items/statistical-methods-additional-analyses.qmd
-            text: 21d. Additional Analyses
-          section: 21. Statistical methods
-        - contents:
-          - href: guidelines/consort/items/participant-flow-numbers.qmd
-            text: 22a. Participant Numbers
-          - href: guidelines/consort/items/participant-flow-losses-and-exclusions.qmd
-            text: 22b. Losses and exclusions
-          section: 22. Participant flow, including flow diagram
-        - contents:
-          - href: guidelines/consort/items/recruitment-dates.qmd
-            text: 23a. Dates
-          - href: guidelines/consort/items/recruitment-why-stopped.qmd
-            text: 23b. Reasons for stopping recruitment
-          section: 23. Recruitment
-        - contents:
-          - href: guidelines/consort/items/intervention-comparator-delivery-as-administered.qmd
-            text: 24a. As Administered
-          - href: guidelines/consort/items/intervention-comparator-delivery-concomitant-care.qmd
-            text: 24b. Concomitant Care
-          section: 24. Intervention and comparator delivery
-        - href: guidelines/consort/items/baseline-data.qmd
-          text: 25. Baseline Data
-        - href: guidelines/consort/items/numbers-analysed-outcomes-estimation.qmd
-          text: 26. Numbers analysed, outcomes, and estimation
-        - href: guidelines/consort/items/harms.qmd
-          text: 27. Harms
-        - href: guidelines/consort/items/ancillary-analyses.qmd
-          text: 28. Ancillary Analyses
-        section: Methods
-      - contents:
-        - href: guidelines/consort/items/interpretation.qmd
-          text: 29. Interpretation
-        - href: guidelines/consort/items/limitations.qmd
-          text: 30. Limitations
-        section: Discussion
-      section: Full guidance
-    - href: guidelines/consort/consort-checklist.docx
-      text: '[Checklist]{.downloadable}'
-    - href: guidelines/consort/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: consort
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: guidelines/squire/index.qmd
       text: Overview of SQUIRE
     - contents:
@@ -1351,5 +1225,131 @@ website:
       text: FAQs
     foreground: secondary
     id: stard
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: guidelines/consort/index.qmd
+      text: Overview of CONSORT
+    - contents:
+      - contents:
+        - href: guidelines/consort/items/title.qmd
+          text: 1a. Title
+        - href: guidelines/consort/items/structured-abstract.qmd
+          text: 1b. Structured Abstract
+        section: Title and Abstract
+      - contents:
+        - href: guidelines/consort/items/trial-registration.qmd
+          text: 2. Trial Registration
+        - href: guidelines/consort/items/protocol-and-statistical-analysis-plan.qmd
+          text: Protocol and statistical analysis plan
+        - href: guidelines/consort/items/data-sharing.qmd
+          text: 4. Data sharing
+        - contents:
+          - href: guidelines/consort/items/funding.qmd
+            text: 5a. Funding
+          - href: guidelines/consort/items/conflicts-of-interest.qmd
+            text: 5b. Conflicts of interest
+          section: 5. Funding and Conflicts of Interest
+        section: Open Science
+      - contents:
+        - href: guidelines/consort/items/background-and-rationale.qmd
+          text: 6. Background and rationale
+        - href: guidelines/consort/items/objectives.qmd
+          text: 7. Objectives
+        section: Introduction
+      - contents:
+        - href: guidelines/consort/items/patient-and-public-involvement.qmd
+          text: 8. Patient and public involvement
+        - href: guidelines/consort/items/trial-design.qmd
+          text: 9. Trial Design
+        - href: guidelines/consort/items/changes-to-trial-protocol.qmd
+          text: 10. Changes to trial protocol
+        - href: guidelines/consort/items/trial-setting.qmd
+          text: 11. Trial Setting
+        - contents:
+          - href: guidelines/consort/items/eligibility-criteria-participants.qmd
+            text: 12a. Participants
+          - href: guidelines/consort/items/eligibility-criteria-sites-individuals.qmd
+            text: 12b. Other
+          section: 12. Eligibility Criteria
+        - href: guidelines/consort/items/intervention-and-comparator.qmd
+          text: 13. Intervention and comparator
+        - href: guidelines/consort/items/outcomes.qmd
+          text: 14. Outcomes
+        - href: guidelines/consort/items/harms.qmd
+          text: 15. Harms
+        - contents:
+          - href: guidelines/consort/items/sample-size-determination.qmd
+            text: 16a. How sample size was determined
+          - href: guidelines/consort/items/sample-size-interim-analyses-and-stopping-guidelines.qmd
+            text: 16b. Interim analyses and stopping criteria
+          section: 16. Sample Size
+        - contents:
+          - href: guidelines/consort/items/randomisation-sequence-generation.qmd
+            text: 17a. Sequence Generation
+          - href: guidelines/consort/items/randomisation-type-of-randomisation.qmd
+            text: 17b. Type of Randomisation
+          section: 17. Randomisation
+        - href: guidelines/consort/items/allocation-concealment-mechanism.qmd
+          text: 18. Allocation concealment mechanism
+        - href: guidelines/consort/items/implementation.qmd
+          text: 19. Implementation
+        - contents:
+          - href: guidelines/consort/items/blinding-who.qmd
+            text: 20a. Who was blinded
+          - href: guidelines/consort/items/blinding-how.qmd
+            text: 20b. How blinding was achieved
+          section: 20. Blinding
+        - contents:
+          - href: guidelines/consort/items/statistical-methods-comparing-groups-primary-secondary-outcomes-harms.qmd
+            text: 21a. Comparing groups
+          - href: guidelines/consort/items/statistical-methods-definition-of-who-is-included-in-each-analysis.qmd
+            text: 21b. Definition of who is included in each analysis
+          - href: guidelines/consort/items/statistical-methods-missing-data.qmd
+            text: 21c. Missing Data
+          - href: guidelines/consort/items/statistical-methods-additional-analyses.qmd
+            text: 21d. Additional Analyses
+          section: 21. Statistical methods
+        - contents:
+          - href: guidelines/consort/items/participant-flow-numbers.qmd
+            text: 22a. Participant Numbers
+          - href: guidelines/consort/items/participant-flow-losses-and-exclusions.qmd
+            text: 22b. Losses and exclusions
+          section: 22. Participant flow, including flow diagram
+        - contents:
+          - href: guidelines/consort/items/recruitment-dates.qmd
+            text: 23a. Dates
+          - href: guidelines/consort/items/recruitment-why-stopped.qmd
+            text: 23b. Reasons for stopping recruitment
+          section: 23. Recruitment
+        - contents:
+          - href: guidelines/consort/items/intervention-comparator-delivery-as-administered.qmd
+            text: 24a. As Administered
+          - href: guidelines/consort/items/intervention-comparator-delivery-concomitant-care.qmd
+            text: 24b. Concomitant Care
+          section: 24. Intervention and comparator delivery
+        - href: guidelines/consort/items/baseline-data.qmd
+          text: 25. Baseline Data
+        - href: guidelines/consort/items/numbers-analysed-outcomes-estimation.qmd
+          text: 26. Numbers analysed, outcomes, and estimation
+        - href: guidelines/consort/items/harms.qmd
+          text: 27. Harms
+        - href: guidelines/consort/items/ancillary-analyses.qmd
+          text: 28. Ancillary Analyses
+        section: Methods
+      - contents:
+        - href: guidelines/consort/items/interpretation.qmd
+          text: 29. Interpretation
+        - href: guidelines/consort/items/limitations.qmd
+          text: 30. Limitations
+        section: Discussion
+      section: Full guidance
+    - href: guidelines/consort/consort-checklist.docx
+      text: '[Checklist]{.downloadable}'
+    - href: guidelines/consort/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: consort
     search: true
     style: docked
