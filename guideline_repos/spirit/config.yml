@@ -1,4 +1,4 @@
-doi-for-citation-count: 10.7326/0003-4819-158-3-201302050-00583
+doi-for-citation-count: 10.1136/bmj-2024-081660
 doi: 10.1234/equator/1010101
 id: spirit
 translations: []
@@ -7,124 +7,261 @@ acronym: SPIRIT
 acronym-definition: "Standard Protocol Items: Recommendations for Interventional Trials"
 open-e-and-e: true
 journal-endorsement-count: 1000+
-version: 'SPIRIT 2013 v1.1'
+version: 2.0
 articles:
-  development:
-    id: chanSPIRIT2013Statement2013a
+  development: 
     abstract: >-
-      The protocol of a clinical trial serves as the foundation for study
-      planning, conduct, reporting, and appraisal. However, trial protocols and
-      existing protocol guidelines vary greatly in content and quality. This
-      article describes the systematic development and scope of SPIRIT (Standard
-      Protocol Items: Recommendations for Interventional Trials) 2013, a guideline
-      for the minimum content of a clinical trial protocol.The 33-item SPIRIT
-      checklist applies to protocols for all clinical trials and focuses on
-      content rather than format. The checklist recommends a full description of
-      what is planned; it does not prescribe how to design or conduct a trial. By
-      providing guidance for key content, the SPIRIT recommendations aim to
-      facilitate the drafting of high-quality protocols. Adherence to SPIRIT would
-      also enhance the transparency and completeness of trial protocols for the
-      benefit of investigators, trial participants, patients, sponsors, funders,
-      research ethics committees or institutional review boards, peer reviewers,
-      journals, trial registries, policymakers, regulators, and other key
-      stakeholders.
-    accessed:
-      - year: 2025
-        month: 2
-        day: 18
+      IMPORTANCE: The protocol of a randomised trial is the foundation for study
+      planning, conduct, reporting, and external review. However, trial protocols
+      vary in their completeness and often do not address key elements of design
+      and conduct. The SPIRIT (Standard Protocol Items: Recommendations for
+      Interventional Trials) statement was first published in 2013 as guidance to
+      improve the completeness of trial protocols. Periodic updates incorporating
+      the latest evidence and best practices are needed to ensure that the
+      guidance remains relevant to users.
+
+      OBJECTIVE: To systematically update the SPIRIT recommendations for minimum
+      items to address in the protocol of a randomised trial.
+
+      DESIGN: We completed a scoping review and developed a project specific
+      database of empirical and theoretical evidence to generate a list of
+      potential changes to the SPIRIT 2013 checklist. The list was enriched with
+      recommendations provided by lead authors of existing SPIRIT/CONSORT
+      (Consolidated Standards of Reporting Trials) extensions (Harms, Outcomes,
+      Non-pharmacological Treatment) and other reporting guidelines (TIDieR). The
+      potential modifications were rated in a three-round Delphi survey followed
+      by a consensus meeting.
+
+      FINDINGS: Overall, 317 individuals participated in the Delphi consensus
+      process and 30 experts attended the consensus meeting. The process led to
+      the addition of two new protocol items, revision to five items,
+      deletion/merger of five items, and integration of key items from other
+      relevant reporting guidelines. Notable changes include a new open science
+      section, additional emphasis on the assessment of harms and description of
+      interventions and comparators, and a new item on how patients and the public
+      will be involved in trial design, conduct, and reporting. The updated SPIRIT
+      2025 statement consists of an evidence based checklist of 34 minimum items
+      to address in a trial protocol, along with a diagram illustrating the
+      schedule of enrolment, interventions, and assessments for trial
+      participants. To facilitate implementation, we also developed an expanded
+      version of the SPIRIT 2025 checklist and an accompanying explanation and
+      elaboration document.
+
+      CONCLUSIONS AND RELEVANCE: Widespread endorsement and adherence to the
+      updated SPIRIT 2025 statement have the potential to enhance the transparency
+      and completeness of trial protocols for the benefit of investigators, trial
+      participants, patients, funders, research ethics committees, journals, trial
+      registries, policymakers, regulators, and other reviewers.
     author:
       - family: Chan
         given: An-Wen
-      - family: Tetzlaff
-        given: Jennifer M.
-      - family: Altman
-        given: Douglas G.
-      - family: Laupacis
-        given: Andreas
-      - family: Gøtzsche
-        given: Peter C.
-      - family: Krleža-Jerić
-        given: Karmela
-      - family: Hróbjartsson
-        given: Asbjørn
-      - family: Mann
-        given: Howard
-      - family: Dickersin
-        given: Kay
-      - family: Berlin
-        given: Jesse A.
-      - family: Doré
-        given: Caroline J.
-      - family: Parulekar
-        given: Wendy R.
-      - family: Summerskill
-        given: William S.M.
-      - family: Groves
-        given: Trish
-      - family: Schulz
-        given: Kenneth F.
-      - family: Sox
-        given: Harold C.
-      - family: Rockhold
-        given: Frank W.
-      - family: Rennie
-        given: Drummond
+      - family: Boutron
+        given: Isabelle
+      - family: Hopewell
+        given: Sally
       - family: Moher
         given: David
-    citation-key: chanSPIRIT2013Statement2013a
-    container-title: Annals of Internal Medicine
-    container-title-short: Ann Intern Med
-    DOI: 10.7326/0003-4819-158-3-201302050-00583
-    ISSN: 0003-4819
-    issue: '3'
+      - family: Schulz
+        given: Kenneth F.
+      - family: Collins
+        given: Gary S.
+      - family: Tunn
+        given: Ruth
+      - family: Aggarwal
+        given: Rakesh
+      - family: Berkwits
+        given: Michael
+      - family: Berlin
+        given: Jesse A.
+      - family: Bhandari
+        given: Nita
+      - family: Butcher
+        given: Nancy J.
+      - family: Campbell
+        given: Marion K.
+      - family: Chidebe
+        given: Runcie C. W.
+      - family: Elbourne
+        given: Diana R.
+      - family: Farmer
+        given: Andrew J.
+      - family: Fergusson
+        given: Dean A.
+      - family: Golub
+        given: Robert M.
+      - family: Goodman
+        given: Steven N.
+      - family: Hoffmann
+        given: Tammy C.
+      - family: Ioannidis
+        given: John P. A.
+      - family: Kahan
+        given: Brennan C.
+      - family: Knowles
+        given: Rachel L.
+      - family: Lamb
+        given: Sarah E.
+      - family: Lewis
+        given: Steff
+      - family: Loder
+        given: Elizabeth
+      - family: Offringa
+        given: Martin
+      - family: Ravaud
+        given: Philippe
+      - family: Richards
+        given: Dawn P.
+      - family: Rockhold
+        given: Frank W.
+      - family: Schriger
+        given: David L.
+      - family: Siegfried
+        given: Nandi L.
+      - family: Staniszewska
+        given: Sophie
+      - family: Taylor
+        given: Rod S.
+      - family: Thabane
+        given: Lehana
+      - family: Torgerson
+        given: David J.
+      - family: Vohra
+        given: Sunita
+      - family: White
+        given: Ian R.
+      - family: Hróbjartsson
+        given: Asbjørn
+    citation-key: chanSPIRIT2025Statement2025a
+    container-title: BMJ (Clinical research ed.)
+    container-title-short: BMJ
+    DOI: 10.1136/bmj-2024-081477
+    ISSN: 1756-1833
     issued:
-      - year: 2013
-        month: 2
-        day: 5
-    page: 200-207
-    publisher: American College of Physicians
-    source: acpjournals.org (Atypon)
-    title: 'SPIRIT 2013 Statement: Defining Standard Protocol Items for Clinical Trials'
-    title-short: SPIRIT 2013 Statement
+      - year: 2025
+        month: 4
+        day: 28
+    language: eng
+    page: e081477
+    PMCID: PMC12035670
+    PMID: '40294953'
+    source: PubMed
+    title: 'SPIRIT 2025 statement: updated guideline for protocols of randomised trials'
+    title-short: SPIRIT 2025 statement
     type: article-journal
-    URL: https://www.acpjournals.org/doi/full/10.7326/0003-4819-158-3-201302050-00583
-    volume: '158'
-authors:
-  - family: Chan
-    given: An-Wen
-  - family: Tetzlaff
-    given: Jennifer M.
-  - family: Altman
-    given: Douglas G.
-  - family: Laupacis
-    given: Andreas
-  - family: Gøtzsche
-    given: Peter C.
-  - family: Krleža-Jerić
-    given: Karmela
-  - family: Hróbjartsson
-    given: Asbjørn
-  - family: Mann
-    given: Howard
-  - family: Dickersin
-    given: Kay
-  - family: Berlin
-    given: Jesse A.
-  - family: Doré
-    given: Caroline J.
-  - family: Parulekar
-    given: Wendy R.
-  - family: Summerskill
-    given: William S.M.
-  - family: Groves
-    given: Trish
-  - family: Schulz
-    given: Kenneth F.
-  - family: Sox
-    given: Harold C.
-  - family: Rockhold
-    given: Frank W.
-  - family: Rennie
-    given: Drummond
-  - family: Moher
-    given: David
+    volume: '389'
+  ene: 
+    abstract: >-
+      High quality protocols facilitate proper planning, conduct, reporting, and
+      external review of randomised trials, yet their completeness varies and key
+      elements are often not considered. To strengthen good reporting of trial
+      protocols, the SPIRIT (Standard Protocol Items: Recommendations for
+      Interventional Trials) 2013 statement has been updated to incorporate new
+      evidence and emerging perspectives. This SPIRIT 2025 explanation and
+      elaboration document provides users with exemplars of reporting in
+      contemporary trial protocols, contextual elaboration, more detailed guidance
+      on reporting, references to key empirical studies, an expanded checklist,
+      and a link to a website for further information. The document is intended to
+      be used in conjunction with the SPIRIT 2025 statement and serves as a
+      resource for researchers planning a trial and for others interested in trial
+      protocols.
+    author:
+      - family: Hróbjartsson
+        given: Asbjørn
+      - family: Boutron
+        given: Isabelle
+      - family: Hopewell
+        given: Sally
+      - family: Moher
+        given: David
+      - family: Schulz
+        given: Kenneth F.
+      - family: Collins
+        given: Gary S.
+      - family: Tunn
+        given: Ruth
+      - family: Aggarwal
+        given: Rakesh
+      - family: Berkwits
+        given: Michael
+      - family: Berlin
+        given: Jesse A.
+      - family: Bhandari
+        given: Nita
+      - family: Butcher
+        given: Nancy J.
+      - family: Campbell
+        given: Marion K.
+      - family: Chidebe
+        given: Runcie C. W.
+      - family: Elbourne
+        given: Diana R.
+      - family: Farmer
+        given: Andrew J.
+      - family: Fergusson
+        given: Dean A.
+      - family: Golub
+        given: Robert M.
+      - family: Goodman
+        given: Steven N.
+      - family: Hoffmann
+        given: Tammy C.
+      - family: Ioannidis
+        given: John P. A.
+      - family: Kahan
+        given: Brennan C.
+      - family: Knowles
+        given: Rachel L.
+      - family: Lamb
+        given: Sarah E.
+      - family: Lewis
+        given: Steff
+      - family: Loder
+        given: Elizabeth
+      - family: Offringa
+        given: Martin
+      - family: Ravaud
+        given: Philippe
+      - family: Richards
+        given: Dawn P.
+      - family: Rockhold
+        given: Frank W.
+      - family: Schriger
+        given: David L.
+      - family: Siegfried
+        given: Nandi L.
+      - family: Staniszewska
+        given: Sophie
+      - family: Taylor
+        given: Rod S.
+      - family: Thabane
+        given: Lehana
+      - family: Torgerson
+        given: David J.
+      - family: Vohra
+        given: Sunita
+      - family: White
+        given: Ian R.
+      - family: Chan
+        given: An-Wen
+    citation-key: hrobjartssonSPIRIT2025Explanation2025
+    container-title: BMJ (Clinical research ed.)
+    container-title-short: BMJ
+    DOI: 10.1136/bmj-2024-081660
+    ISSN: 1756-1833
+    issued:
+      - year: 2025
+        month: 4
+        day: 28
+    language: eng
+    page: e081660
+    PMCID: PMC12128891
+    PMID: '40294956'
+    source: PubMed
+    title: >-
+      SPIRIT 2025 explanation and elaboration: updated guideline for protocols of
+      randomised trials
+    title-short: SPIRIT 2025 explanation and elaboration
+    type: article-journal
+    volume: '389'
+...
+
