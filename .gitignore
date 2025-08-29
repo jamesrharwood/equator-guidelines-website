@@ -7,6 +7,7 @@
 venv/*
 */_SRQR/*
 guidelines/*
+reporting-guidelines/*
 papers
 papers/*
 *.sqlite

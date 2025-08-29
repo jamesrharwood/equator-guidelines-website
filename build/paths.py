@@ -4,7 +4,7 @@ import yaml
 
 root_path = os.path.dirname(os.path.abspath(__file__))
 root_path = Path(root_path).parent.absolute()
-GUIDELINES_DIR = 'guidelines'
+GUIDELINES_DIR = 'reporting-guidelines'
 ITEMS_DIR = 'items'
 
 with open('_quarto.yml', 'r') as file_:

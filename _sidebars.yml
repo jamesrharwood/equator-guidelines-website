@@ -615,121 +615,121 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/prisma/index.qmd
+    - href: reporting-guidelines/prisma/index.qmd
       text: Overview of PRISMA 2020
     - contents:
       - contents:
-        - href: guidelines/prisma/items/title.qmd
+        - href: reporting-guidelines/prisma/items/title.qmd
           text: 1. Title
-        - href: guidelines/prisma/items/abstract.qmd
+        - href: reporting-guidelines/prisma/items/abstract.qmd
           text: 2. Abstract
         section: Title and Abstract
       - contents:
-        - href: guidelines/prisma/items/rationale.qmd
+        - href: reporting-guidelines/prisma/items/rationale.qmd
           text: 3. Rationale
-        - href: guidelines/prisma/items/objectives.qmd
+        - href: reporting-guidelines/prisma/items/objectives.qmd
           text: 4. Objectives
         section: Introduction
       - contents:
-        - href: guidelines/prisma/items/eligibility-criteria.qmd
+        - href: reporting-guidelines/prisma/items/eligibility-criteria.qmd
           text: 5. Eligibility criteria
-        - href: guidelines/prisma/items/information-sources.qmd
+        - href: reporting-guidelines/prisma/items/information-sources.qmd
           text: 6. Information sources
-        - href: guidelines/prisma/items/search.qmd
-          text: 8. Search
-        - href: guidelines/prisma/items/selection-process.qmd
+        - href: reporting-guidelines/prisma/items/search.qmd
+          text: 7. Search
+        - href: reporting-guidelines/prisma/items/selection-process.qmd
           text: 8. Selection Process
-        - href: guidelines/prisma/items/data-collection-process.qmd
+        - href: reporting-guidelines/prisma/items/data-collection-process.qmd
           text: 9. Data collection process
         - contents:
-          - href: guidelines/prisma/items/data-items-outcomes.qmd
+          - href: reporting-guidelines/prisma/items/data-items-outcomes.qmd
             text: 10a. Outcomes
-          - href: guidelines/prisma/items/data-items-other-variables.qmd
+          - href: reporting-guidelines/prisma/items/data-items-other-variables.qmd
             text: 10b. Other Variables
           section: 10. Data Items
-        - href: guidelines/prisma/items/risk-of-bias-in-individual-studies.qmd
+        - href: reporting-guidelines/prisma/items/risk-of-bias-in-individual-studies.qmd
           text: 11. Risk of bias in individual studies
-        - href: guidelines/prisma/items/effect-measures.qmd
+        - href: reporting-guidelines/prisma/items/effect-measures.qmd
           text: 12. Effect measures
         - contents:
-          - href: guidelines/prisma/items/synthesis-methods-eligibility.qmd
+          - href: reporting-guidelines/prisma/items/synthesis-methods-eligibility.qmd
             text: 13a. Deciding which studies were eligible for each synthesis
-          - href: guidelines/prisma/items/synthesis-methods-data-preparation.qmd
+          - href: reporting-guidelines/prisma/items/synthesis-methods-data-preparation.qmd
             text: 13b. Data preparation methods
-          - href: guidelines/prisma/items/synthesis-methods-tabulating-or-displaying-results.qmd
+          - href: reporting-guidelines/prisma/items/synthesis-methods-tabulating-or-displaying-results.qmd
             text: 13c. Methods for tabulating or displaying results
-          - href: guidelines/prisma/items/synthesis-methods-synthesis-methods.qmd
+          - href: reporting-guidelines/prisma/items/synthesis-methods-synthesis-methods.qmd
             text: 13d. Synthesis methods
-          - href: guidelines/prisma/items/synthesis-methods-exploring-heterogeneity.qmd
+          - href: reporting-guidelines/prisma/items/synthesis-methods-exploring-heterogeneity.qmd
             text: 13e. Methods for exploring heterogeneity
-          - href: guidelines/prisma/items/synthesis-methods-sensitivity-analyses.qmd
-            text: 13f. Sensitivitiy analyses
+          - href: reporting-guidelines/prisma/items/synthesis-methods-sensitivity-analyses.qmd
+            text: 13f. Sensitivity analyses
           section: 13. Synthesis Methods
-        - href: guidelines/prisma/items/reporting-bias-assessment.qmd
+        - href: reporting-guidelines/prisma/items/reporting-bias-assessment.qmd
           text: 14. Reporting bias assessment
-        - href: guidelines/prisma/items/certainty-assessment.qmd
+        - href: reporting-guidelines/prisma/items/certainty-assessment.qmd
           text: 15. Certainty assessment
         section: Methods
       - contents:
         - contents:
-          - href: guidelines/prisma/items/study-selection-search-results.qmd
+          - href: reporting-guidelines/prisma/items/study-selection-search-results.qmd
             text: 16a. Results of the search and selection process
-          - href: guidelines/prisma/items/study-selection-excluded-studies.qmd
+          - href: reporting-guidelines/prisma/items/study-selection-excluded-studies.qmd
             text: 16b. Excluded studies
           section: 16. Study Selection
-        - href: guidelines/prisma/items/study-characteristics.qmd
+        - href: reporting-guidelines/prisma/items/study-characteristics.qmd
           text: 17. Study characteristics
-        - href: guidelines/prisma/items/risk-of-bias-in-studies.qmd
+        - href: reporting-guidelines/prisma/items/risk-of-bias-in-studies.qmd
           text: 18. Risk of bias in studies
-        - href: guidelines/prisma/items/results-of-individual-studies.qmd
+        - href: reporting-guidelines/prisma/items/results-of-individual-studies.qmd
           text: 19. Results of individual studies
         - contents:
-          - href: guidelines/prisma/items/results-of-syntheses-summary-of-studies.qmd
+          - href: reporting-guidelines/prisma/items/results-of-syntheses-summary-of-studies.qmd
             text: 20a. Summary of studies
-          - href: guidelines/prisma/items/results-of-syntheses-statistical-results.qmd
+          - href: reporting-guidelines/prisma/items/results-of-syntheses-statistical-results.qmd
             text: 20b. Statistical results
-          - href: guidelines/prisma/items/results-of-syntheses-heterogeneity.qmd
+          - href: reporting-guidelines/prisma/items/results-of-syntheses-heterogeneity.qmd
             text: 20c. Heterogeneity
-          - href: guidelines/prisma/items/results-of-syntheses-sensitivity-analyses.qmd
+          - href: reporting-guidelines/prisma/items/results-of-syntheses-sensitivity-analyses.qmd
             text: 20d. Sensitivity analyses
           section: 20. Results of Synthesis
-        - href: guidelines/prisma/items/risk-of-reporting-biases-in-syntheses.qmd
+        - href: reporting-guidelines/prisma/items/risk-of-reporting-biases-in-syntheses.qmd
           text: 21. Risk of reporting biases in syntheses
-        - href: guidelines/prisma/items/certainty-of-evidence.qmd
+        - href: reporting-guidelines/prisma/items/certainty-of-evidence.qmd
           text: 22. Certainty of evidence
         section: Results
       - contents:
         - contents:
-          - href: guidelines/prisma/items/discussion-general-interpretation.qmd
+          - href: reporting-guidelines/prisma/items/discussion-general-interpretation.qmd
             text: 23a. General interpretation of the results
-          - href: guidelines/prisma/items/discussion-limitations-of-included-evidence.qmd
+          - href: reporting-guidelines/prisma/items/discussion-limitations-of-included-evidence.qmd
             text: 23b. Limitations of included evidence
-          - href: guidelines/prisma/items/discussion-limitations-of-review-process.qmd
+          - href: reporting-guidelines/prisma/items/discussion-limitations-of-review-process.qmd
             text: 23c. Limitations of the review processes
-          - href: guidelines/prisma/items/discussion-implications.qmd
+          - href: reporting-guidelines/prisma/items/discussion-implications.qmd
             text: 23d. Implications
           section: 23. Discussion
         section: Discussion
       - contents:
         - contents:
-          - href: guidelines/prisma/items/registration-and-protocol-registration.qmd
+          - href: reporting-guidelines/prisma/items/registration-and-protocol-registration.qmd
             text: 24a. Registration
-          - href: guidelines/prisma/items/registration-and-protocol-protocol.qmd
+          - href: reporting-guidelines/prisma/items/registration-and-protocol-protocol.qmd
             text: 24b. Protocol
-          - href: guidelines/prisma/items/registration-and-protocol-amendments.qmd
+          - href: reporting-guidelines/prisma/items/registration-and-protocol-amendments.qmd
             text: 24c. Amendments
           section: 24. Registration and Protocol
-        - href: guidelines/prisma/items/support.qmd
+        - href: reporting-guidelines/prisma/items/support.qmd
           text: 25. Support
-        - href: guidelines/prisma/items/competing-interests.qmd
+        - href: reporting-guidelines/prisma/items/competing-interests.qmd
           text: 26. Competing Interests
-        - href: guidelines/prisma/items/availability-of-materials.qmd
+        - href: reporting-guidelines/prisma/items/availability-of-materials.qmd
           text: 27. Availability of data, code, and other materials
         section: Other Information
       section: Full guidance
-    - href: guidelines/prisma/prisma-checklist.docx
+    - href: reporting-guidelines/prisma/prisma-checklist.docx
       text: '[Checklist]{.downloadable}'
-    - href: guidelines/prisma/faqs.qmd
+    - href: reporting-guidelines/prisma/faqs.qmd
       text: FAQs
     foreground: secondary
     id: prisma
@@ -737,97 +737,97 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/strobe/index.qmd
+    - href: reporting-guidelines/strobe/index.qmd
       text: Overview of STROBE
     - contents:
       - contents:
-        - href: guidelines/strobe/items/title-abstract-indicate-study-design.qmd
+        - href: reporting-guidelines/strobe/items/title-abstract-indicate-study-design.qmd
           text: 1a. Indicate the study's design
-        - href: guidelines/strobe/items/abstract.qmd
+        - href: reporting-guidelines/strobe/items/abstract.qmd
           text: 1b. Abstract
         section: Title and abstract
       - contents:
-        - href: guidelines/strobe/items/background-rationale.qmd
+        - href: reporting-guidelines/strobe/items/background-rationale.qmd
           text: 2. Background / rationale
-        - href: guidelines/strobe/items/objectives.qmd
+        - href: reporting-guidelines/strobe/items/objectives.qmd
           text: 3. Objectives
         section: Introduction
       - contents:
-        - href: guidelines/strobe/items/study-design.qmd
+        - href: reporting-guidelines/strobe/items/study-design.qmd
           text: 4. Study design
-        - href: guidelines/strobe/items/setting.qmd
+        - href: reporting-guidelines/strobe/items/setting.qmd
           text: 5. Setting
-        - href: guidelines/strobe/items/eligibility-criteria.qmd
+        - href: reporting-guidelines/strobe/items/eligibility-criteria.qmd
           text: 6a. Eligibility criteria
-        - href: guidelines/strobe/items/matching-criteria.qmd
+        - href: reporting-guidelines/strobe/items/matching-criteria.qmd
           text: 6b. Matching criteria
-        - href: guidelines/strobe/items/variables.qmd
+        - href: reporting-guidelines/strobe/items/variables.qmd
           text: 7. Variables
-        - href: guidelines/strobe/items/data-sources-measurement.qmd
+        - href: reporting-guidelines/strobe/items/data-sources-measurement.qmd
           text: 8. Data sources / measurement
-        - href: guidelines/strobe/items/bias.qmd
+        - href: reporting-guidelines/strobe/items/bias.qmd
           text: 9. Bias
-        - href: guidelines/strobe/items/study-size.qmd
+        - href: reporting-guidelines/strobe/items/study-size.qmd
           text: 10. Study size
-        - href: guidelines/strobe/items/quantitative-variables.qmd
+        - href: reporting-guidelines/strobe/items/quantitative-variables.qmd
           text: 11. Quantitative variables
-        - href: guidelines/strobe/items/statistical-methods-description.qmd
+        - href: reporting-guidelines/strobe/items/statistical-methods-description.qmd
           text: 12a. Statistical methods
-        - href: guidelines/strobe/items/statistical-methods-subgroups-interactions.qmd
+        - href: reporting-guidelines/strobe/items/statistical-methods-subgroups-interactions.qmd
           text: "12b. Statistical methods \u2013 subgroups and interactions"
-        - href: guidelines/strobe/items/statistical-methods-missing-data.qmd
+        - href: reporting-guidelines/strobe/items/statistical-methods-missing-data.qmd
           text: "12c. Statistical methods \u2013 missing data"
-        - href: guidelines/strobe/items/statistical-methods-loss-to-follow-up.qmd
+        - href: reporting-guidelines/strobe/items/statistical-methods-loss-to-follow-up.qmd
           text: "12di. Statistical methods \u2013 loss to follow-up"
-        - href: guidelines/strobe/items/statistical-methods-matching-cases-controls.qmd
+        - href: reporting-guidelines/strobe/items/statistical-methods-matching-cases-controls.qmd
           text: "12dii. Statistical methods \u2013 matching cases and controls"
-        - href: guidelines/strobe/items/statistical-methods-analytical-methods-sampling-strategy.qmd
+        - href: reporting-guidelines/strobe/items/statistical-methods-analytical-methods-sampling-strategy.qmd
           text: "12diii. Statistical methods \u2013 sampling strategy"
-        - href: guidelines/strobe/items/statistical-methods-sensitivity-analyses.qmd
+        - href: reporting-guidelines/strobe/items/statistical-methods-sensitivity-analyses.qmd
           text: "12e. Statistical methods \u2013 sensitivity analyses"
         section: Methods
       - contents:
-        - href: guidelines/strobe/items/participants-numbers.qmd
+        - href: reporting-guidelines/strobe/items/participants-numbers.qmd
           text: 13a. Participant numbers
-        - href: guidelines/strobe/items/participants-non-participation.qmd
+        - href: reporting-guidelines/strobe/items/participants-non-participation.qmd
           text: "13b. Participants \u2013 non-participation"
-        - href: guidelines/strobe/items/participants-flow-diagram.qmd
+        - href: reporting-guidelines/strobe/items/participants-flow-diagram.qmd
           text: "13c. Participants \u2013 flow diagram"
-        - href: guidelines/strobe/items/descriptive-data-participant-characteristics.qmd
+        - href: reporting-guidelines/strobe/items/descriptive-data-participant-characteristics.qmd
           text: "14a. Descriptive data \u2013 participant characteristics"
-        - href: guidelines/strobe/items/descriptive-data-missing-data.qmd
+        - href: reporting-guidelines/strobe/items/descriptive-data-missing-data.qmd
           text: "14b. Descriptive data \u2013 missing data"
-        - href: guidelines/strobe/items/descriptive-data-follow-up-time.qmd
+        - href: reporting-guidelines/strobe/items/descriptive-data-follow-up-time.qmd
           text: "14c. Descriptive data \u2013 follow-up time"
-        - href: guidelines/strobe/items/outcome-data.qmd
+        - href: reporting-guidelines/strobe/items/outcome-data.qmd
           text: 15. Outcome data
-        - href: guidelines/strobe/items/main-results.qmd
+        - href: reporting-guidelines/strobe/items/main-results.qmd
           text: 16a. Main results
-        - href: guidelines/strobe/items/main-results-category-boundaries.qmd
+        - href: reporting-guidelines/strobe/items/main-results-category-boundaries.qmd
           text: "16b. Main results \u2013 category boundaries"
-        - href: guidelines/strobe/items/main-results-risk.qmd
+        - href: reporting-guidelines/strobe/items/main-results-risk.qmd
           text: "16c. Main results \u2013 risk"
-        - href: guidelines/strobe/items/other-analyses.qmd
+        - href: reporting-guidelines/strobe/items/other-analyses.qmd
           text: 17. Other analyses
         section: Results
       - contents:
-        - href: guidelines/strobe/items/key-results.qmd
+        - href: reporting-guidelines/strobe/items/key-results.qmd
           text: 18. Key results
-        - href: guidelines/strobe/items/limitations.qmd
+        - href: reporting-guidelines/strobe/items/limitations.qmd
           text: 19. Limitations
-        - href: guidelines/strobe/items/interpretation.qmd
+        - href: reporting-guidelines/strobe/items/interpretation.qmd
           text: 20. Interpretation
-        - href: guidelines/strobe/items/generalisability.qmd
+        - href: reporting-guidelines/strobe/items/generalisability.qmd
           text: 21. Generalisability
         section: Discussion
       - contents:
-        - href: guidelines/strobe/items/funding.qmd
+        - href: reporting-guidelines/strobe/items/funding.qmd
           text: 22. Funding
         section: Other information
       section: Full guidance
-    - href: guidelines/strobe/strobe-checklist.docx
+    - href: reporting-guidelines/strobe/strobe-checklist.docx
       text: '[Checklist]{.downloadable}'
-    - href: guidelines/strobe/faqs.qmd
+    - href: reporting-guidelines/strobe/faqs.qmd
       text: FAQs
     foreground: secondary
     id: strobe
@@ -835,230 +835,68 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/arrive/index.qmd
-      text: Overview of ARRIVE
-    - contents:
-      - contents:
-        - contents:
-          - href: guidelines/arrive/items/groups-being-compared.qmd
-            text: 1a. The groups being compared
-          - href: guidelines/arrive/items/experimental-unit.qmd
-            text: 1b. The experimental unit
-          section: 1. Study Design
-        - contents:
-          - href: guidelines/arrive/items/number-of-experimental-units.qmd
-            text: 2a. Number of Experimental Units
-          - href: guidelines/arrive/items/sample-size-justification.qmd
-            text: 2b. Sample Size Justification
-          section: 2. Sample Size
-        - contents:
-          - href: guidelines/arrive/items/inclusion-and-exclusion-criteria.qmd
-            text: 3a. Inclusion and exclusion criteria
-          - href: guidelines/arrive/items/exclusions-and-attritions.qmd
-            text: 3b. Exclusions and Attritions
-          - href: guidelines/arrive/items/numbers-analysed.qmd
-            text: 3c. Numbers analysed
-          section: 3. Inclusion and Exclusion Criteria
-        - contents:
-          - href: guidelines/arrive/items/randomisation.qmd
-            text: 4a. Randomisation Use
-          - href: guidelines/arrive/items/confounders.qmd
-            text: 4b. Confounders
-          section: 4. Randomisation
-        - href: guidelines/arrive/items/blinding.qmd
-          text: 5. Blinding/Masking
-        - contents:
-          - href: guidelines/arrive/items/outcome-measures.qmd
-            text: 6a. Outcome Measures
-          - href: guidelines/arrive/items/primary-outcome-measure.qmd
-            text: 6b. Primary Outcome Measure
-          section: 6. Outcome Measures
-        - contents:
-          - href: guidelines/arrive/items/statistical-methods-analysis-methods.qmd
-            text: 7a. Statistical Methods used for each Analysis
-          - href: guidelines/arrive/items/statistical-methods-assumptions.qmd
-            text: 7b. Statistical Assumptions
-          section: 7. Statistical Methods
-        - contents:
-          - href: guidelines/arrive/items/experimental-animals-species-appropriate-details.qmd
-            text: 8a. Species-appropriate Details
-          - href: guidelines/arrive/items/experimental-animals-further-information.qmd
-            text: 8b. Further Information
-          section: 8. Experimental Animals
-        - contents:
-          - href: guidelines/arrive/items/experimental-procedures-what-was-done.qmd
-            text: 9a. What was done
-          - href: guidelines/arrive/items/experimental-procedures-when-and-how-often.qmd
-            text: 9b. When and how often procedures were conducted
-          - href: guidelines/arrive/items/experimental-procedures-where.qmd
-            text: 9c. Where procedures were conducted
-          - href: guidelines/arrive/items/experimental-procedures-why.qmd
-            text: 9d. Why procedures were done
-          section: 9. Experimental Procedures
-        - contents:
-          - href: guidelines/arrive/items/results-summary-per-group.qmd
-            text: 10a. Summary/Descriptive Statistics per group
-          - href: guidelines/arrive/items/results-effect-sizes.qmd
-            text: 10b. Effect sizes and confidence intervals
-          section: 10. Results
-        section: Essential 10
-      - contents:
-        - href: guidelines/arrive/items/abstract.qmd
-          text: 11. Abstract
-        - contents:
-          - href: guidelines/arrive/items/rationale.qmd
-            text: 12a. Rationale
-          - href: guidelines/arrive/items/species-and-model.qmd
-            text: 12b. Species and model
-          section: 12. Background
-        - href: guidelines/arrive/items/objectives.qmd
-          text: 13. Objectives
-        - href: guidelines/arrive/items/ethical-statement.qmd
-          text: 14. Ethical statement
-        - href: guidelines/arrive/items/housing-husbandry.qmd
-          text: 15. Housing and husbandry
-        - contents:
-          - href: guidelines/arrive/items/reducing-pain-suffering-distress.qmd
-            text: 16a. Reducing pain, suffering, and distress
-          - href: guidelines/arrive/items/adverse-events.qmd
-            text: 16b. Adverse events
-          - href: guidelines/arrive/items/humane-endpoints.qmd
-            text: 16c. Humane endpoints
-          section: 16. Animal Care and Monitoring
-        - contents:
-          - href: guidelines/arrive/items/interpretation-implications.qmd
-            text: 17a. Interpretation/scientific implications
-          - href: guidelines/arrive/items/limitations.qmd
-            text: 17b. Limitations
-          section: 17. Interpretation/ scientific implications
-        - href: guidelines/arrive/items/generalisability.qmd
-          text: 18. Generalisability/translation
-        - href: guidelines/arrive/items/protocol-registration.qmd
-          text: 19. Protocol registration
-        - href: guidelines/arrive/items/data-access.qmd
-          text: 20. Data Access
-        - contents:
-          - href: guidelines/arrive/items/conflicts-of-interests.qmd
-            text: 21a. Conflicts of interests
-          - href: guidelines/arrive/items/funding.qmd
-            text: 21b. Funding
-          section: 21. Declaration of interests
-        section: Recommended Set
-      section: Full guidance
-    - href: guidelines/arrive/arrive-checklist.docx
-      text: '[Checklist]{.downloadable}'
-    - href: guidelines/arrive/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: arrive
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
-    - href: guidelines/care/index.qmd
-      text: Overview of CARE
-    - contents:
-      - contents:
-        - href: guidelines/care/items/title.qmd
-          text: 1. Title
-        - href: guidelines/care/items/keywords.qmd
-          text: 2. Keywords
-        - href: guidelines/care/items/abstract.qmd
-          text: 3. Abstract
-        - href: guidelines/care/items/introduction.qmd
-          text: 4. Introduction
-        - href: guidelines/care/items/patient-information.qmd
-          text: 5a. Patient information
-        - href: guidelines/care/items/clinical-findings.qmd
-          text: 6. Clinical findings
-        - href: guidelines/care/items/timeline.qmd
-          text: 7. Timeline
-        - href: guidelines/care/items/diagnostic-assessment-and-diagnosis.qmd
-          text: 8. Diagnostic assessment
-        - href: guidelines/care/items/therapeutic-interventions.qmd
-          text: 9. Therapeutic Intervention
-        - href: guidelines/care/items/follow-up-and-outcomes.qmd
-          text: 10. Follow up and outcomes
-        - href: guidelines/care/items/discussion.qmd
-          text: 11. Discussion
-        - href: guidelines/care/items/patient-perspective.qmd
-          text: 12. Patient perspective
-        - href: guidelines/care/items/informed-consent.qmd
-          text: 13. Informed consent
-        section: Sections
-      section: Full guidance
-    - href: guidelines/care/care-checklist.docx
-      text: '[Checklist]{.downloadable}'
-    - href: guidelines/care/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: care
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
-    - href: guidelines/srqr/index.qmd
+    - href: reporting-guidelines/srqr/index.qmd
       text: Overview of SRQR
     - contents:
       - contents:
-        - href: guidelines/srqr/items/title.qmd
+        - href: reporting-guidelines/srqr/items/title.qmd
           text: Title
-        - href: guidelines/srqr/items/abstract.qmd
+        - href: reporting-guidelines/srqr/items/abstract.qmd
           text: Abstract
         section: Title & Abstract
       - contents:
-        - href: guidelines/srqr/items/problem-formulation.qmd
+        - href: reporting-guidelines/srqr/items/problem-formulation.qmd
           text: Problem Formulation
-        - href: guidelines/srqr/items/purpose.qmd
+        - href: reporting-guidelines/srqr/items/purpose.qmd
           text: Purpose or research question
         section: Introduction
       - contents:
-        - href: guidelines/srqr/items/qualitative-approach.qmd
+        - href: reporting-guidelines/srqr/items/qualitative-approach.qmd
           text: Qualitative approach and research paradigm
-        - href: guidelines/srqr/items/researcher-characteristics-and-reflexivity.qmd
+        - href: reporting-guidelines/srqr/items/researcher-characteristics-and-reflexivity.qmd
           text: Researcher characteristics and reflexivity
-        - href: guidelines/srqr/items/context.qmd
+        - href: reporting-guidelines/srqr/items/context.qmd
           text: Context
-        - href: guidelines/srqr/items/sampling-strategy.qmd
+        - href: reporting-guidelines/srqr/items/sampling-strategy.qmd
           text: Sampling strategy
-        - href: guidelines/srqr/items/ethics.qmd
+        - href: reporting-guidelines/srqr/items/ethics.qmd
           text: Ethical issues pertaining to human subjects
-        - href: guidelines/srqr/items/data-collection-methods.qmd
+        - href: reporting-guidelines/srqr/items/data-collection-methods.qmd
           text: Data collection methods
-        - href: guidelines/srqr/items/data-collection-instruments.qmd
+        - href: reporting-guidelines/srqr/items/data-collection-instruments.qmd
           text: Data collection instruments and technologies
-        - href: guidelines/srqr/items/units-of-study.qmd
+        - href: reporting-guidelines/srqr/items/units-of-study.qmd
           text: Units of study
-        - href: guidelines/srqr/items/data-processing.qmd
+        - href: reporting-guidelines/srqr/items/data-processing.qmd
           text: Data processing
-        - href: guidelines/srqr/items/data-analysis.qmd
+        - href: reporting-guidelines/srqr/items/data-analysis.qmd
           text: Data analysis
-        - href: guidelines/srqr/items/trustworthiness.qmd
+        - href: reporting-guidelines/srqr/items/trustworthiness.qmd
           text: Techniques to enhance trustworthiness
         section: Methods
       - contents:
-        - href: guidelines/srqr/items/synthesis-and-interpretation.qmd
+        - href: reporting-guidelines/srqr/items/synthesis-and-interpretation.qmd
           text: Synthesis and interpretation
-        - href: guidelines/srqr/items/links-to-empirical-data.qmd
+        - href: reporting-guidelines/srqr/items/links-to-empirical-data.qmd
           text: Links to empirical data
         section: Results
       - contents:
-        - href: guidelines/srqr/items/integration-with-prior-work.qmd
+        - href: reporting-guidelines/srqr/items/integration-with-prior-work.qmd
           text: Integration with prior work, implications, transferability, and contribution(s)
             to the field
-        - href: guidelines/srqr/items/limitations.qmd
+        - href: reporting-guidelines/srqr/items/limitations.qmd
           text: Limitations
         section: Discussion
       - contents:
-        - href: guidelines/srqr/items/conflicts-of-interest.qmd
+        - href: reporting-guidelines/srqr/items/conflicts-of-interest.qmd
           text: Conflicts of interest
-        - href: guidelines/srqr/items/funding.qmd
+        - href: reporting-guidelines/srqr/items/funding.qmd
           text: Funding
         section: Other
       section: Full guidance
-    - href: guidelines/srqr/srqr-checklist.docx
+    - href: reporting-guidelines/srqr/srqr-checklist.docx
       text: '[Checklist]{.downloadable}'
-    - href: guidelines/srqr/faqs.qmd
+    - href: reporting-guidelines/srqr/faqs.qmd
       text: FAQs
     foreground: secondary
     id: srqr
@@ -1066,162 +904,218 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/squire/index.qmd
-      text: Overview of SQUIRE
+    - href: reporting-guidelines/arrive/index.qmd
+      text: Overview of ARRIVE
     - contents:
       - contents:
-        - href: guidelines/squire/items/title.qmd
-          text: 1. Title
-        - href: guidelines/squire/items/abstract.qmd
-          text: 2. Abstract
-        section: Title and Abstract
+        - contents:
+          - href: reporting-guidelines/arrive/items/groups-being-compared.qmd
+            text: 1a. The groups being compared
+          - href: reporting-guidelines/arrive/items/experimental-unit.qmd
+            text: 1b. The experimental unit
+          section: 1. Study Design
+        - contents:
+          - href: reporting-guidelines/arrive/items/number-of-experimental-units.qmd
+            text: 2a. Number of Experimental Units
+          - href: reporting-guidelines/arrive/items/sample-size-justification.qmd
+            text: 2b. Sample Size Justification
+          section: 2. Sample Size
+        - contents:
+          - href: reporting-guidelines/arrive/items/inclusion-and-exclusion-criteria.qmd
+            text: 3a. Inclusion and exclusion criteria
+          - href: reporting-guidelines/arrive/items/exclusions-and-attritions.qmd
+            text: 3b. Exclusions and Attritions
+          - href: reporting-guidelines/arrive/items/numbers-analysed.qmd
+            text: 3c. Numbers analysed
+          section: 3. Inclusion and Exclusion Criteria
+        - contents:
+          - href: reporting-guidelines/arrive/items/randomisation.qmd
+            text: 4a. Randomisation Use
+          - href: reporting-guidelines/arrive/items/confounders.qmd
+            text: 4b. Confounders
+          section: 4. Randomisation
+        - href: reporting-guidelines/arrive/items/blinding.qmd
+          text: 5. Blinding/Masking
+        - contents:
+          - href: reporting-guidelines/arrive/items/outcome-measures.qmd
+            text: 6a. Outcome Measures
+          - href: reporting-guidelines/arrive/items/primary-outcome-measure.qmd
+            text: 6b. Primary Outcome Measure
+          section: 6. Outcome Measures
+        - contents:
+          - href: reporting-guidelines/arrive/items/statistical-methods-analysis-methods.qmd
+            text: 7a. Statistical Methods used for each Analysis
+          - href: reporting-guidelines/arrive/items/statistical-methods-assumptions.qmd
+            text: 7b. Statistical Assumptions
+          section: 7. Statistical Methods
+        - contents:
+          - href: reporting-guidelines/arrive/items/experimental-animals-species-appropriate-details.qmd
+            text: 8a. Species-appropriate Details
+          - href: reporting-guidelines/arrive/items/experimental-animals-further-information.qmd
+            text: 8b. Further Information
+          section: 8. Experimental Animals
+        - contents:
+          - href: reporting-guidelines/arrive/items/experimental-procedures-what-was-done.qmd
+            text: 9a. What was done
+          - href: reporting-guidelines/arrive/items/experimental-procedures-when-and-how-often.qmd
+            text: 9b. When and how often procedures were conducted
+          - href: reporting-guidelines/arrive/items/experimental-procedures-where.qmd
+            text: 9c. Where procedures were conducted
+          - href: reporting-guidelines/arrive/items/experimental-procedures-why.qmd
+            text: 9d. Why procedures were done
+          section: 9. Experimental Procedures
+        - contents:
+          - href: reporting-guidelines/arrive/items/results-summary-per-group.qmd
+            text: 10a. Summary/Descriptive Statistics per group
+          - href: reporting-guidelines/arrive/items/results-effect-sizes.qmd
+            text: 10b. Effect sizes and confidence intervals
+          section: 10. Results
+        section: Essential 10
       - contents:
-        - href: guidelines/squire/items/problem-description-available-knowledge.qmd
-          text: 3 & 4. Problem description & Available Knowledge
-        - href: guidelines/squire/items/rationale.qmd
-          text: 5. Rationale
-        - href: guidelines/squire/items/specific-aims.qmd
-          text: 6. Specific aims
-        section: Introduction
-      - contents:
-        - href: guidelines/squire/items/context.qmd
-          text: 7. Context
-        - href: guidelines/squire/items/interventions.qmd
-          text: 8. Intervention(s)
-        - href: guidelines/squire/items/study-of-the-interventions.qmd
-          text: 9. Study of the Intervention(s)
-        - href: guidelines/squire/items/measures.qmd
-          text: 10. Measures
-        - href: guidelines/squire/items/analysis.qmd
-          text: 11. Analysis
-        - href: guidelines/squire/items/ethical-considerations.qmd
-          text: 12. Ethical considerations
-        section: Methods
-      - contents:
-        - href: guidelines/squire/items/intervention-evolution-process-measures.qmd
-          text: 13 a & b. Evolution of the intervention and details of process measures
-        - href: guidelines/squire/items/context-unexpected-consequences.qmd
-          text: 13 c, d & e Contextual elements and unexpected consequences
-        - href: guidelines/squire/items/missing-data.qmd
-          text: 13 e. Missing data
-        section: Results
-      - contents:
-        - href: guidelines/squire/items/summary.qmd
-          text: 14. Summary
-        - href: guidelines/squire/items/interpretation.qmd
-          text: 15. Interpretation
-        - href: guidelines/squire/items/limitations.qmd
-          text: 16. Limitations
-        - href: guidelines/squire/items/conclusion.qmd
-          text: 17. Conclusion
-        section: Discussion
-      - contents:
-        - href: guidelines/squire/items/funding.qmd
-          text: 18. Funding
-        section: Other information
+        - href: reporting-guidelines/arrive/items/abstract.qmd
+          text: 11. Abstract
+        - contents:
+          - href: reporting-guidelines/arrive/items/rationale.qmd
+            text: 12a. Rationale
+          - href: reporting-guidelines/arrive/items/species-and-model.qmd
+            text: 12b. Species and model
+          section: 12. Background
+        - href: reporting-guidelines/arrive/items/objectives.qmd
+          text: 13. Objectives
+        - href: reporting-guidelines/arrive/items/ethical-statement.qmd
+          text: 14. Ethical statement
+        - href: reporting-guidelines/arrive/items/housing-husbandry.qmd
+          text: 15. Housing and husbandry
+        - contents:
+          - href: reporting-guidelines/arrive/items/reducing-pain-suffering-distress.qmd
+            text: 16a. Reducing pain, suffering, and distress
+          - href: reporting-guidelines/arrive/items/adverse-events.qmd
+            text: 16b. Adverse events
+          - href: reporting-guidelines/arrive/items/humane-endpoints.qmd
+            text: 16c. Humane endpoints
+          section: 16. Animal Care and Monitoring
+        - contents:
+          - href: reporting-guidelines/arrive/items/interpretation-implications.qmd
+            text: 17a. Interpretation/scientific implications
+          - href: reporting-guidelines/arrive/items/limitations.qmd
+            text: 17b. Limitations
+          section: 17. Interpretation/ scientific implications
+        - href: reporting-guidelines/arrive/items/generalisability.qmd
+          text: 18. Generalisability/translation
+        - href: reporting-guidelines/arrive/items/protocol-registration.qmd
+          text: 19. Protocol registration
+        - href: reporting-guidelines/arrive/items/data-access.qmd
+          text: 20. Data Access
+        - contents:
+          - href: reporting-guidelines/arrive/items/conflicts-of-interests.qmd
+            text: 21a. Conflicts of interests
+          - href: reporting-guidelines/arrive/items/funding.qmd
+            text: 21b. Funding
+          section: 21. Declaration of interests
+        section: Recommended Set
       section: Full guidance
-    - href: guidelines/squire/squire-checklist.docx
+    - href: reporting-guidelines/arrive/arrive-checklist.docx
       text: '[Checklist]{.downloadable}'
-    - href: guidelines/squire/faqs.qmd
+    - href: reporting-guidelines/arrive/faqs.qmd
       text: FAQs
     foreground: secondary
-    id: squire
+    id: arrive
     search: true
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/stard/index.qmd
+    - href: reporting-guidelines/stard/index.qmd
       text: Overview of STARD
     - contents:
       - contents:
-        - href: guidelines/stard/items/identification.qmd
+        - href: reporting-guidelines/stard/items/identification.qmd
           text: 1. Identification as a study of diagnostic accuracy
         section: Title or abstract
       - contents:
-        - href: guidelines/stard/items/abstract.qmd
+        - href: reporting-guidelines/stard/items/abstract.qmd
           text: 2. Abstract
         section: Abstract
       - contents:
-        - href: guidelines/stard/items/background.qmd
+        - href: reporting-guidelines/stard/items/background.qmd
           text: 3. Background
-        - href: guidelines/stard/items/objectives.qmd
+        - href: reporting-guidelines/stard/items/objectives.qmd
           text: 4. Objectives
         section: Introduction
       - contents:
-        - href: guidelines/stard/items/study-design.qmd
+        - href: reporting-guidelines/stard/items/study-design.qmd
           text: 5. Study design
         - contents:
-          - href: guidelines/stard/items/eligibility-criteria.qmd
+          - href: reporting-guidelines/stard/items/eligibility-criteria.qmd
             text: 6. Eligibility criteria
-          - href: guidelines/stard/items/identifying-eligible-participants.qmd
+          - href: reporting-guidelines/stard/items/identifying-eligible-participants.qmd
             text: 7. Identifying eligible participants
-          - href: guidelines/stard/items/setting-location-dates.qmd
+          - href: reporting-guidelines/stard/items/setting-location-dates.qmd
             text: 8. Setting, location, and dates
-          - href: guidelines/stard/items/consecutive-random-convenience-series.qmd
+          - href: reporting-guidelines/stard/items/consecutive-random-convenience-series.qmd
             text: 9. Consecutive, random or convenience series
           section: Participants
         - contents:
-          - href: guidelines/stard/items/index-test.qmd
+          - href: reporting-guidelines/stard/items/index-test.qmd
             text: 10. Index test & Reference standard
-          - href: guidelines/stard/items/reference-standard-rationale.qmd
+          - href: reporting-guidelines/stard/items/reference-standard-rationale.qmd
             text: 11. Reference standard rationale
-          - href: guidelines/stard/items/index-test-cut-offs-categories.qmd
+          - href: reporting-guidelines/stard/items/index-test-cut-offs-categories.qmd
             text: 12. Index test and reference standard cut-offs or categories
-          - href: guidelines/stard/items/information-available-index.qmd
+          - href: reporting-guidelines/stard/items/information-available-index.qmd
             text: 13. Information available to performers or readers of the index
               test and reference standard assessors
           section: Test Methods
         - contents:
-          - href: guidelines/stard/items/analysis-methods.qmd
+          - href: reporting-guidelines/stard/items/analysis-methods.qmd
             text: 14. Analysis methods
-          - href: guidelines/stard/items/indeterminate-results.qmd
+          - href: reporting-guidelines/stard/items/indeterminate-results.qmd
             text: 15. Indeterminate results
-          - href: guidelines/stard/items/missing-data.qmd
+          - href: reporting-guidelines/stard/items/missing-data.qmd
             text: 16. Missing data
-          - href: guidelines/stard/items/variability.qmd
+          - href: reporting-guidelines/stard/items/variability.qmd
             text: 17. Variability
-          - href: guidelines/stard/items/intended-sample-size.qmd
+          - href: reporting-guidelines/stard/items/intended-sample-size.qmd
             text: 18. Intended sample size
           section: Analysis
         section: Methods
       - contents:
         - contents:
-          - href: guidelines/stard/items/flow-diagram.qmd
+          - href: reporting-guidelines/stard/items/flow-diagram.qmd
             text: 19. Participant flow diagram
-          - href: guidelines/stard/items/baseline-characteristics.qmd
+          - href: reporting-guidelines/stard/items/baseline-characteristics.qmd
             text: 20. Baseline characteristics
-          - href: guidelines/stard/items/participants-with-target-condition.qmd
+          - href: reporting-guidelines/stard/items/participants-with-target-condition.qmd
             text: 21a. Participants with and without the target condition
-          - href: guidelines/stard/items/time-interval.qmd
+          - href: reporting-guidelines/stard/items/time-interval.qmd
             text: 22. Time interval
           section: Participants
         - contents:
-          - href: guidelines/stard/items/index-reference-results.qmd
+          - href: reporting-guidelines/stard/items/index-reference-results.qmd
             text: 23. Index test and reference standard results
-          - href: guidelines/stard/items/estimates-of-accuracy.qmd
+          - href: reporting-guidelines/stard/items/estimates-of-accuracy.qmd
             text: 24. Estimates of accuracy
-          - href: guidelines/stard/items/adverse-events.qmd
+          - href: reporting-guidelines/stard/items/adverse-events.qmd
             text: 25. Adverse events
           section: Test Results
         section: Results
       - contents:
-        - href: guidelines/stard/items/limitations.qmd
+        - href: reporting-guidelines/stard/items/limitations.qmd
           text: 26. Limitations
-        - href: guidelines/stard/items/implications-for-practice.qmd
+        - href: reporting-guidelines/stard/items/implications-for-practice.qmd
           text: 27. Implications for Practice
         section: Discussion
       - contents:
-        - href: guidelines/stard/items/registration.qmd
+        - href: reporting-guidelines/stard/items/registration.qmd
           text: 28. Registration
-        - href: guidelines/stard/items/protocol.qmd
+        - href: reporting-guidelines/stard/items/protocol.qmd
           text: 29. Protocol
-        - href: guidelines/stard/items/funding.qmd
+        - href: reporting-guidelines/stard/items/funding.qmd
           text: 30. Funding
         section: Other information
       section: Full guidance
-    - href: guidelines/stard/stard-checklist.docx
+    - href: reporting-guidelines/stard/stard-checklist.docx
       text: '[Checklist]{.downloadable}'
-    - href: guidelines/stard/faqs.qmd
+    - href: reporting-guidelines/stard/faqs.qmd
       text: FAQs
     foreground: secondary
     id: stard
@@ -1229,125 +1123,231 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: guidelines/consort/index.qmd
+    - href: reporting-guidelines/care/index.qmd
+      text: Overview of CARE
+    - contents:
+      - contents:
+        - href: reporting-guidelines/care/items/title.qmd
+          text: 1. Title
+        - href: reporting-guidelines/care/items/keywords.qmd
+          text: 2. Keywords
+        - href: reporting-guidelines/care/items/abstract.qmd
+          text: 3. Abstract
+        - href: reporting-guidelines/care/items/introduction.qmd
+          text: 4. Introduction
+        - href: reporting-guidelines/care/items/patient-information.qmd
+          text: 5a. Patient information
+        - href: reporting-guidelines/care/items/clinical-findings.qmd
+          text: 6. Clinical findings
+        - href: reporting-guidelines/care/items/timeline.qmd
+          text: 7. Timeline
+        - href: reporting-guidelines/care/items/diagnostic-assessment-and-diagnosis.qmd
+          text: 8. Diagnostic assessment
+        - href: reporting-guidelines/care/items/therapeutic-interventions.qmd
+          text: 9. Therapeutic Intervention
+        - href: reporting-guidelines/care/items/follow-up-and-outcomes.qmd
+          text: 10. Follow up and outcomes
+        - href: reporting-guidelines/care/items/discussion.qmd
+          text: 11. Discussion
+        - href: reporting-guidelines/care/items/patient-perspective.qmd
+          text: 12. Patient perspective
+        - href: reporting-guidelines/care/items/informed-consent.qmd
+          text: 13. Informed consent
+        section: Sections
+      section: Full guidance
+    - href: reporting-guidelines/care/care-checklist.docx
+      text: '[Checklist]{.downloadable}'
+    - href: reporting-guidelines/care/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: care
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: reporting-guidelines/squire/index.qmd
+      text: Overview of SQUIRE
+    - contents:
+      - contents:
+        - href: reporting-guidelines/squire/items/title.qmd
+          text: 1. Title
+        - href: reporting-guidelines/squire/items/abstract.qmd
+          text: 2. Abstract
+        section: Title and Abstract
+      - contents:
+        - href: reporting-guidelines/squire/items/problem-description-available-knowledge.qmd
+          text: 3 & 4. Problem description & Available Knowledge
+        - href: reporting-guidelines/squire/items/rationale.qmd
+          text: 5. Rationale
+        - href: reporting-guidelines/squire/items/specific-aims.qmd
+          text: 6. Specific aims
+        section: Introduction
+      - contents:
+        - href: reporting-guidelines/squire/items/context.qmd
+          text: 7. Context
+        - href: reporting-guidelines/squire/items/interventions.qmd
+          text: 8. Intervention(s)
+        - href: reporting-guidelines/squire/items/study-of-the-interventions.qmd
+          text: 9. Study of the Intervention(s)
+        - href: reporting-guidelines/squire/items/measures.qmd
+          text: 10. Measures
+        - href: reporting-guidelines/squire/items/analysis.qmd
+          text: 11. Analysis
+        - href: reporting-guidelines/squire/items/ethical-considerations.qmd
+          text: 12. Ethical considerations
+        section: Methods
+      - contents:
+        - href: reporting-guidelines/squire/items/intervention-evolution-process-measures.qmd
+          text: 13 a & b. Evolution of the intervention and details of process measures
+        - href: reporting-guidelines/squire/items/context-unexpected-consequences.qmd
+          text: 13 c, d & e Contextual elements and unexpected consequences
+        - href: reporting-guidelines/squire/items/missing-data.qmd
+          text: 13 e. Missing data
+        section: Results
+      - contents:
+        - href: reporting-guidelines/squire/items/summary.qmd
+          text: 14. Summary
+        - href: reporting-guidelines/squire/items/interpretation.qmd
+          text: 15. Interpretation
+        - href: reporting-guidelines/squire/items/limitations.qmd
+          text: 16. Limitations
+        - href: reporting-guidelines/squire/items/conclusion.qmd
+          text: 17. Conclusion
+        section: Discussion
+      - contents:
+        - href: reporting-guidelines/squire/items/funding.qmd
+          text: 18. Funding
+        section: Other information
+      section: Full guidance
+    - href: reporting-guidelines/squire/squire-checklist.docx
+      text: '[Checklist]{.downloadable}'
+    - href: reporting-guidelines/squire/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: squire
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: reporting-guidelines/consort/index.qmd
       text: Overview of CONSORT
     - contents:
       - contents:
-        - href: guidelines/consort/items/title.qmd
+        - href: reporting-guidelines/consort/items/title.qmd
           text: 1a. Title
-        - href: guidelines/consort/items/structured-abstract.qmd
+        - href: reporting-guidelines/consort/items/structured-abstract.qmd
           text: 1b. Structured Abstract
         section: Title and Abstract
       - contents:
-        - href: guidelines/consort/items/trial-registration.qmd
+        - href: reporting-guidelines/consort/items/trial-registration.qmd
           text: 2. Trial Registration
-        - href: guidelines/consort/items/protocol-and-statistical-analysis-plan.qmd
+        - href: reporting-guidelines/consort/items/protocol-and-statistical-analysis-plan.qmd
           text: Protocol and statistical analysis plan
-        - href: guidelines/consort/items/data-sharing.qmd
+        - href: reporting-guidelines/consort/items/data-sharing.qmd
           text: 4. Data sharing
         - contents:
-          - href: guidelines/consort/items/funding.qmd
+          - href: reporting-guidelines/consort/items/funding.qmd
             text: 5a. Funding
-          - href: guidelines/consort/items/conflicts-of-interest.qmd
+          - href: reporting-guidelines/consort/items/conflicts-of-interest.qmd
             text: 5b. Conflicts of interest
           section: 5. Funding and Conflicts of Interest
         section: Open Science
       - contents:
-        - href: guidelines/consort/items/background-and-rationale.qmd
+        - href: reporting-guidelines/consort/items/background-and-rationale.qmd
           text: 6. Background and rationale
-        - href: guidelines/consort/items/objectives.qmd
+        - href: reporting-guidelines/consort/items/objectives.qmd
           text: 7. Objectives
         section: Introduction
       - contents:
-        - href: guidelines/consort/items/patient-and-public-involvement.qmd
+        - href: reporting-guidelines/consort/items/patient-and-public-involvement.qmd
           text: 8. Patient and public involvement
-        - href: guidelines/consort/items/trial-design.qmd
+        - href: reporting-guidelines/consort/items/trial-design.qmd
           text: 9. Trial Design
-        - href: guidelines/consort/items/changes-to-trial-protocol.qmd
+        - href: reporting-guidelines/consort/items/changes-to-trial-protocol.qmd
           text: 10. Changes to trial protocol
-        - href: guidelines/consort/items/trial-setting.qmd
+        - href: reporting-guidelines/consort/items/trial-setting.qmd
           text: 11. Trial Setting
         - contents:
-          - href: guidelines/consort/items/eligibility-criteria-participants.qmd
+          - href: reporting-guidelines/consort/items/eligibility-criteria-participants.qmd
             text: 12a. Participants
-          - href: guidelines/consort/items/eligibility-criteria-sites-individuals.qmd
+          - href: reporting-guidelines/consort/items/eligibility-criteria-sites-individuals.qmd
             text: 12b. Other
           section: 12. Eligibility Criteria
-        - href: guidelines/consort/items/intervention-and-comparator.qmd
+        - href: reporting-guidelines/consort/items/intervention-and-comparator.qmd
           text: 13. Intervention and comparator
-        - href: guidelines/consort/items/outcomes.qmd
+        - href: reporting-guidelines/consort/items/outcomes.qmd
           text: 14. Outcomes
-        - href: guidelines/consort/items/harms.qmd
+        - href: reporting-guidelines/consort/items/harms.qmd
           text: 15. Harms
         - contents:
-          - href: guidelines/consort/items/sample-size-determination.qmd
+          - href: reporting-guidelines/consort/items/sample-size-determination.qmd
             text: 16a. How sample size was determined
-          - href: guidelines/consort/items/sample-size-interim-analyses-and-stopping-guidelines.qmd
+          - href: reporting-guidelines/consort/items/sample-size-interim-analyses-and-stopping-guidelines.qmd
             text: 16b. Interim analyses and stopping criteria
           section: 16. Sample Size
         - contents:
-          - href: guidelines/consort/items/randomisation-sequence-generation.qmd
+          - href: reporting-guidelines/consort/items/randomisation-sequence-generation.qmd
             text: 17a. Sequence Generation
-          - href: guidelines/consort/items/randomisation-type-of-randomisation.qmd
+          - href: reporting-guidelines/consort/items/randomisation-type-of-randomisation.qmd
             text: 17b. Type of Randomisation
           section: 17. Randomisation
-        - href: guidelines/consort/items/allocation-concealment-mechanism.qmd
+        - href: reporting-guidelines/consort/items/allocation-concealment-mechanism.qmd
           text: 18. Allocation concealment mechanism
-        - href: guidelines/consort/items/implementation.qmd
+        - href: reporting-guidelines/consort/items/implementation.qmd
           text: 19. Implementation
         - contents:
-          - href: guidelines/consort/items/blinding-who.qmd
+          - href: reporting-guidelines/consort/items/blinding-who.qmd
             text: 20a. Who was blinded
-          - href: guidelines/consort/items/blinding-how.qmd
+          - href: reporting-guidelines/consort/items/blinding-how.qmd
             text: 20b. How blinding was achieved
           section: 20. Blinding
         - contents:
-          - href: guidelines/consort/items/statistical-methods-comparing-groups-primary-secondary-outcomes-harms.qmd
+          - href: reporting-guidelines/consort/items/statistical-methods-comparing-groups-primary-secondary-outcomes-harms.qmd
             text: 21a. Comparing groups
-          - href: guidelines/consort/items/statistical-methods-definition-of-who-is-included-in-each-analysis.qmd
+          - href: reporting-guidelines/consort/items/statistical-methods-definition-of-who-is-included-in-each-analysis.qmd
             text: 21b. Definition of who is included in each analysis
-          - href: guidelines/consort/items/statistical-methods-missing-data.qmd
+          - href: reporting-guidelines/consort/items/statistical-methods-missing-data.qmd
             text: 21c. Missing Data
-          - href: guidelines/consort/items/statistical-methods-additional-analyses.qmd
+          - href: reporting-guidelines/consort/items/statistical-methods-additional-analyses.qmd
             text: 21d. Additional Analyses
           section: 21. Statistical methods
         - contents:
-          - href: guidelines/consort/items/participant-flow-numbers.qmd
+          - href: reporting-guidelines/consort/items/participant-flow-numbers.qmd
             text: 22a. Participant Numbers
-          - href: guidelines/consort/items/participant-flow-losses-and-exclusions.qmd
+          - href: reporting-guidelines/consort/items/participant-flow-losses-and-exclusions.qmd
             text: 22b. Losses and exclusions
           section: 22. Participant flow, including flow diagram
         - contents:
-          - href: guidelines/consort/items/recruitment-dates.qmd
+          - href: reporting-guidelines/consort/items/recruitment-dates.qmd
             text: 23a. Dates
-          - href: guidelines/consort/items/recruitment-why-stopped.qmd
+          - href: reporting-guidelines/consort/items/recruitment-why-stopped.qmd
             text: 23b. Reasons for stopping recruitment
           section: 23. Recruitment
         - contents:
-          - href: guidelines/consort/items/intervention-comparator-delivery-as-administered.qmd
+          - href: reporting-guidelines/consort/items/intervention-comparator-delivery-as-administered.qmd
             text: 24a. As Administered
-          - href: guidelines/consort/items/intervention-comparator-delivery-concomitant-care.qmd
+          - href: reporting-guidelines/consort/items/intervention-comparator-delivery-concomitant-care.qmd
             text: 24b. Concomitant Care
           section: 24. Intervention and comparator delivery
-        - href: guidelines/consort/items/baseline-data.qmd
+        - href: reporting-guidelines/consort/items/baseline-data.qmd
           text: 25. Baseline Data
-        - href: guidelines/consort/items/numbers-analysed-outcomes-estimation.qmd
+        - href: reporting-guidelines/consort/items/numbers-analysed-outcomes-estimation.qmd
           text: 26. Numbers analysed, outcomes, and estimation
-        - href: guidelines/consort/items/harms.qmd
+        - href: reporting-guidelines/consort/items/harms.qmd
           text: 27. Harms
-        - href: guidelines/consort/items/ancillary-analyses.qmd
+        - href: reporting-guidelines/consort/items/ancillary-analyses.qmd
           text: 28. Ancillary Analyses
         section: Methods
       - contents:
-        - href: guidelines/consort/items/interpretation.qmd
+        - href: reporting-guidelines/consort/items/interpretation.qmd
           text: 29. Interpretation
-        - href: guidelines/consort/items/limitations.qmd
+        - href: reporting-guidelines/consort/items/limitations.qmd
           text: 30. Limitations
         section: Discussion
       section: Full guidance
-    - href: guidelines/consort/consort-checklist.docx
+    - href: reporting-guidelines/consort/consort-checklist.docx
       text: '[Checklist]{.downloadable}'
-    - href: guidelines/consort/faqs.qmd
+    - href: reporting-guidelines/consort/faqs.qmd
       text: FAQs
     foreground: secondary
     id: consort

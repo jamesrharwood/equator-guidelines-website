@@ -2,6 +2,7 @@
 id: faqs
 title: Frequently Asked Questions
 appendix-cite-as: true
+search: false
 ---
 
 # Frequently Asked Questions

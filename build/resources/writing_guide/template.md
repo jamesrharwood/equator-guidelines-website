@@ -16,6 +16,7 @@ format:
 number-sections: false
 crossref:
     sec-prefix: Note
+search: false
 ---
 
 ::: {.callout-note}
@@ -46,7 +47,7 @@ with open('_metadata.yml', 'r') as file_:
 
 import os
 path = os.getcwd()
-path = path.split('/guidelines')[0]
+path = path.split('/reporting-guidelines')[0]
 os.chdir(path)
 from build.resources.writing_guide.guideline import Guideline
 
