@@ -60,6 +60,11 @@ class MetadataCreator():
         value = self.guideline.config[attr]
         self.set(attr, value)
     
+    def copy_if(self, attr):
+        value = self.guideline.config.get(attr, None)
+        if value:
+            self.copy(attr)
+    
     def get(self, attr, default=None):
         return self.guideline.config.get(attr, default)
     
@@ -141,6 +146,8 @@ class MetadataCreator():
         self.copy('articles')
         self.copy('version')
         self.copy('for-writing')
+        self.copy_if('aliases')
+        print('REMEMBER TO CHANGE ALIASES TO GO TO INDEX INSTEAD OF METADATA')
         self.set_paths()
         self.set_citation()
         self.set_translation()

@@ -12,6 +12,8 @@ publish:
 	quarto publish gh-pages --no-render
 render: 
 	quarto render
+create-from-import:
+	python -m build.resources.web.import_from_old_website
 create_all:
 	make create guideline=prisma
 	make create guideline=strobe

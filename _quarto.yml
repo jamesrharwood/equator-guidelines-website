@@ -10,17 +10,19 @@ smooth-scroll: true
 csl: american-medical-association.csl
 website:
   site-url: 'https://resources.equator-network.org/'
-  image: "assets/equator_logo.png"
+  image: "assets/logos/equator_logo.png"
   favicon: "assets/favicons/equator-network-16x16.png"
-  search: true
+  search: 
+    copy-button: true
+    show-item-context: true
   navbar:
     background: light
-    logo: "assets/equator_logo.png"
+    logo: "assets/logos/equator_oxford_65px.png"
     logo-alt: EQUATOR Network Home Page
     # right:
     #   - href: https://www.equator-network.org/reporting-guidelines/
     #     icon: search
-    left:
+    right:
       - href: index.qmd
         text: Reporting Guidelines
       - href: training.qmd
@@ -28,11 +30,11 @@ website:
       - text: About The EQUATOR Network
         menu: 
           - text: The UK EQUATOR Centre
-            href: /about/uk-equator-centre.qmd
+            href: about/uk-equator-centre.qmd
           - text: The EQUATOR Network
             href: https://www.equator-network.org/about-us/equator-network-what-we-do-and-how-we-are-organised/
           - text: Contact
-            href: /about/contact.qmd
+            href: about/contact.qmd
   page-footer:
     left: |
       Created by the
@@ -80,6 +82,7 @@ format:
       margin-width: 300px
     link-external-icon: true
     link-external-newwindow: true
+
 
 metadata-files: 
   -  _sidebars.yml

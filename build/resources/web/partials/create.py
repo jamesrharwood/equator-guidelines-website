@@ -3,7 +3,7 @@ from typing import List
 from build.file import save_string
 from . import giscus, metadata, doi, use_for, not_use_for, related_resources,\
     glossary_offcanvas, glossary_offcanvas_include, how_to_use, why_use, \
-    ready_to_start, faqs, summary, item_pages, author_bios, development
+    ready_to_start, faqs, summary, item_pages, author_bios, development, metadata_index
 from build.guideline.glossary import add_glossary_to_string, wrap_string_with_span
 
 class Partial:
@@ -75,6 +75,7 @@ def create_pages(guideline):
 
 def create_index_page(guideline):
     partials = [
+        Partial(metadata_index, None),
         Partial(why_use, None),
         Partial(doi, None),
         Partial(how_to_use, None),

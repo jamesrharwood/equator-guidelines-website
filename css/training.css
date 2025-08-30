@@ -3,9 +3,9 @@
     background-position: right;
 }
 .quarto-title-banner{
-    background: linear-gradient(90deg,rgba(2, 45, 115, 1) 0%, rgba(2, 45, 115, 1) 65%, rgba(2, 45, 115, 0) 80%);
+    background: linear-gradient(90deg,rgba(0, 133, 63, 1) 0%, rgba(0, 133, 63, 1) 65%, rgba(0, 133, 63, 0) 80%);
     margin-bottom: 0px;
 }
 .quarto-title-block .quarto-title-banner{
-    background-image: linear-gradient(90deg,rgba(2, 45, 115, 1) 0%, rgba(2, 45, 115, 1) 65%, rgba(2, 45, 115, 0) 80%);
+    background-image: linear-gradient(90deg,rgba(0, 133, 63, 1) 0%, rgba(0, 133, 63, 1) 65%, rgba(0, 133, 63, 0) 80%);
 }

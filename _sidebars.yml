@@ -904,126 +904,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: reporting-guidelines/arrive/index.qmd
-      text: Overview of ARRIVE
-    - contents:
-      - contents:
-        - contents:
-          - href: reporting-guidelines/arrive/items/groups-being-compared.qmd
-            text: 1a. The groups being compared
-          - href: reporting-guidelines/arrive/items/experimental-unit.qmd
-            text: 1b. The experimental unit
-          section: 1. Study Design
-        - contents:
-          - href: reporting-guidelines/arrive/items/number-of-experimental-units.qmd
-            text: 2a. Number of Experimental Units
-          - href: reporting-guidelines/arrive/items/sample-size-justification.qmd
-            text: 2b. Sample Size Justification
-          section: 2. Sample Size
-        - contents:
-          - href: reporting-guidelines/arrive/items/inclusion-and-exclusion-criteria.qmd
-            text: 3a. Inclusion and exclusion criteria
-          - href: reporting-guidelines/arrive/items/exclusions-and-attritions.qmd
-            text: 3b. Exclusions and Attritions
-          - href: reporting-guidelines/arrive/items/numbers-analysed.qmd
-            text: 3c. Numbers analysed
-          section: 3. Inclusion and Exclusion Criteria
-        - contents:
-          - href: reporting-guidelines/arrive/items/randomisation.qmd
-            text: 4a. Randomisation Use
-          - href: reporting-guidelines/arrive/items/confounders.qmd
-            text: 4b. Confounders
-          section: 4. Randomisation
-        - href: reporting-guidelines/arrive/items/blinding.qmd
-          text: 5. Blinding/Masking
-        - contents:
-          - href: reporting-guidelines/arrive/items/outcome-measures.qmd
-            text: 6a. Outcome Measures
-          - href: reporting-guidelines/arrive/items/primary-outcome-measure.qmd
-            text: 6b. Primary Outcome Measure
-          section: 6. Outcome Measures
-        - contents:
-          - href: reporting-guidelines/arrive/items/statistical-methods-analysis-methods.qmd
-            text: 7a. Statistical Methods used for each Analysis
-          - href: reporting-guidelines/arrive/items/statistical-methods-assumptions.qmd
-            text: 7b. Statistical Assumptions
-          section: 7. Statistical Methods
-        - contents:
-          - href: reporting-guidelines/arrive/items/experimental-animals-species-appropriate-details.qmd
-            text: 8a. Species-appropriate Details
-          - href: reporting-guidelines/arrive/items/experimental-animals-further-information.qmd
-            text: 8b. Further Information
-          section: 8. Experimental Animals
-        - contents:
-          - href: reporting-guidelines/arrive/items/experimental-procedures-what-was-done.qmd
-            text: 9a. What was done
-          - href: reporting-guidelines/arrive/items/experimental-procedures-when-and-how-often.qmd
-            text: 9b. When and how often procedures were conducted
-          - href: reporting-guidelines/arrive/items/experimental-procedures-where.qmd
-            text: 9c. Where procedures were conducted
-          - href: reporting-guidelines/arrive/items/experimental-procedures-why.qmd
-            text: 9d. Why procedures were done
-          section: 9. Experimental Procedures
-        - contents:
-          - href: reporting-guidelines/arrive/items/results-summary-per-group.qmd
-            text: 10a. Summary/Descriptive Statistics per group
-          - href: reporting-guidelines/arrive/items/results-effect-sizes.qmd
-            text: 10b. Effect sizes and confidence intervals
-          section: 10. Results
-        section: Essential 10
-      - contents:
-        - href: reporting-guidelines/arrive/items/abstract.qmd
-          text: 11. Abstract
-        - contents:
-          - href: reporting-guidelines/arrive/items/rationale.qmd
-            text: 12a. Rationale
-          - href: reporting-guidelines/arrive/items/species-and-model.qmd
-            text: 12b. Species and model
-          section: 12. Background
-        - href: reporting-guidelines/arrive/items/objectives.qmd
-          text: 13. Objectives
-        - href: reporting-guidelines/arrive/items/ethical-statement.qmd
-          text: 14. Ethical statement
-        - href: reporting-guidelines/arrive/items/housing-husbandry.qmd
-          text: 15. Housing and husbandry
-        - contents:
-          - href: reporting-guidelines/arrive/items/reducing-pain-suffering-distress.qmd
-            text: 16a. Reducing pain, suffering, and distress
-          - href: reporting-guidelines/arrive/items/adverse-events.qmd
-            text: 16b. Adverse events
-          - href: reporting-guidelines/arrive/items/humane-endpoints.qmd
-            text: 16c. Humane endpoints
-          section: 16. Animal Care and Monitoring
-        - contents:
-          - href: reporting-guidelines/arrive/items/interpretation-implications.qmd
-            text: 17a. Interpretation/scientific implications
-          - href: reporting-guidelines/arrive/items/limitations.qmd
-            text: 17b. Limitations
-          section: 17. Interpretation/ scientific implications
-        - href: reporting-guidelines/arrive/items/generalisability.qmd
-          text: 18. Generalisability/translation
-        - href: reporting-guidelines/arrive/items/protocol-registration.qmd
-          text: 19. Protocol registration
-        - href: reporting-guidelines/arrive/items/data-access.qmd
-          text: 20. Data Access
-        - contents:
-          - href: reporting-guidelines/arrive/items/conflicts-of-interests.qmd
-            text: 21a. Conflicts of interests
-          - href: reporting-guidelines/arrive/items/funding.qmd
-            text: 21b. Funding
-          section: 21. Declaration of interests
-        section: Recommended Set
-      section: Full guidance
-    - href: reporting-guidelines/arrive/arrive-checklist.docx
-      text: '[Checklist]{.downloadable}'
-    - href: reporting-guidelines/arrive/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: arrive
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: reporting-guidelines/stard/index.qmd
       text: Overview of STARD
     - contents:
@@ -1351,5 +1231,125 @@ website:
       text: FAQs
     foreground: secondary
     id: consort
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: reporting-guidelines/arrive/index.qmd
+      text: Overview of ARRIVE
+    - contents:
+      - contents:
+        - contents:
+          - href: reporting-guidelines/arrive/items/groups-being-compared.qmd
+            text: 1a. The groups being compared
+          - href: reporting-guidelines/arrive/items/experimental-unit.qmd
+            text: 1b. The experimental unit
+          section: 1. Study Design
+        - contents:
+          - href: reporting-guidelines/arrive/items/number-of-experimental-units.qmd
+            text: 2a. Number of Experimental Units
+          - href: reporting-guidelines/arrive/items/sample-size-justification.qmd
+            text: 2b. Sample Size Justification
+          section: 2. Sample Size
+        - contents:
+          - href: reporting-guidelines/arrive/items/inclusion-and-exclusion-criteria.qmd
+            text: 3a. Inclusion and exclusion criteria
+          - href: reporting-guidelines/arrive/items/exclusions-and-attritions.qmd
+            text: 3b. Exclusions and Attritions
+          - href: reporting-guidelines/arrive/items/numbers-analysed.qmd
+            text: 3c. Numbers analysed
+          section: 3. Inclusion and Exclusion Criteria
+        - contents:
+          - href: reporting-guidelines/arrive/items/randomisation.qmd
+            text: 4a. Randomisation Use
+          - href: reporting-guidelines/arrive/items/confounders.qmd
+            text: 4b. Confounders
+          section: 4. Randomisation
+        - href: reporting-guidelines/arrive/items/blinding.qmd
+          text: 5. Blinding/Masking
+        - contents:
+          - href: reporting-guidelines/arrive/items/outcome-measures.qmd
+            text: 6a. Outcome Measures
+          - href: reporting-guidelines/arrive/items/primary-outcome-measure.qmd
+            text: 6b. Primary Outcome Measure
+          section: 6. Outcome Measures
+        - contents:
+          - href: reporting-guidelines/arrive/items/statistical-methods-analysis-methods.qmd
+            text: 7a. Statistical Methods used for each Analysis
+          - href: reporting-guidelines/arrive/items/statistical-methods-assumptions.qmd
+            text: 7b. Statistical Assumptions
+          section: 7. Statistical Methods
+        - contents:
+          - href: reporting-guidelines/arrive/items/experimental-animals-species-appropriate-details.qmd
+            text: 8a. Species-appropriate Details
+          - href: reporting-guidelines/arrive/items/experimental-animals-further-information.qmd
+            text: 8b. Further Information
+          section: 8. Experimental Animals
+        - contents:
+          - href: reporting-guidelines/arrive/items/experimental-procedures-what-was-done.qmd
+            text: 9a. What was done
+          - href: reporting-guidelines/arrive/items/experimental-procedures-when-and-how-often.qmd
+            text: 9b. When and how often procedures were conducted
+          - href: reporting-guidelines/arrive/items/experimental-procedures-where.qmd
+            text: 9c. Where procedures were conducted
+          - href: reporting-guidelines/arrive/items/experimental-procedures-why.qmd
+            text: 9d. Why procedures were done
+          section: 9. Experimental Procedures
+        - contents:
+          - href: reporting-guidelines/arrive/items/results-summary-per-group.qmd
+            text: 10a. Summary/Descriptive Statistics per group
+          - href: reporting-guidelines/arrive/items/results-effect-sizes.qmd
+            text: 10b. Effect sizes and confidence intervals
+          section: 10. Results
+        section: Essential 10
+      - contents:
+        - href: reporting-guidelines/arrive/items/abstract.qmd
+          text: 11. Abstract
+        - contents:
+          - href: reporting-guidelines/arrive/items/rationale.qmd
+            text: 12a. Rationale
+          - href: reporting-guidelines/arrive/items/species-and-model.qmd
+            text: 12b. Species and model
+          section: 12. Background
+        - href: reporting-guidelines/arrive/items/objectives.qmd
+          text: 13. Objectives
+        - href: reporting-guidelines/arrive/items/ethical-statement.qmd
+          text: 14. Ethical statement
+        - href: reporting-guidelines/arrive/items/housing-husbandry.qmd
+          text: 15. Housing and husbandry
+        - contents:
+          - href: reporting-guidelines/arrive/items/reducing-pain-suffering-distress.qmd
+            text: 16a. Reducing pain, suffering, and distress
+          - href: reporting-guidelines/arrive/items/adverse-events.qmd
+            text: 16b. Adverse events
+          - href: reporting-guidelines/arrive/items/humane-endpoints.qmd
+            text: 16c. Humane endpoints
+          section: 16. Animal Care and Monitoring
+        - contents:
+          - href: reporting-guidelines/arrive/items/interpretation-implications.qmd
+            text: 17a. Interpretation/scientific implications
+          - href: reporting-guidelines/arrive/items/limitations.qmd
+            text: 17b. Limitations
+          section: 17. Interpretation/ scientific implications
+        - href: reporting-guidelines/arrive/items/generalisability.qmd
+          text: 18. Generalisability/translation
+        - href: reporting-guidelines/arrive/items/protocol-registration.qmd
+          text: 19. Protocol registration
+        - href: reporting-guidelines/arrive/items/data-access.qmd
+          text: 20. Data Access
+        - contents:
+          - href: reporting-guidelines/arrive/items/conflicts-of-interests.qmd
+            text: 21a. Conflicts of interests
+          - href: reporting-guidelines/arrive/items/funding.qmd
+            text: 21b. Funding
+          section: 21. Declaration of interests
+        section: Recommended Set
+      section: Full guidance
+    - href: reporting-guidelines/arrive/arrive-checklist.docx
+      text: '[Checklist]{.downloadable}'
+    - href: reporting-guidelines/arrive/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: arrive
     search: true
     style: docked

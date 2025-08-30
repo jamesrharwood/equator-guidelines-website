@@ -142,7 +142,7 @@ Learn more about [who we are and what we do](#about-equator).
 
 {{< include index_table.md >}}
 
-[Search all 500+ reporting guidelines](https://www.equator-network.org/reporting-guidelines/){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"} 
+[Search all reporting guidelines](https://www.equator-network.org/reporting-guidelines/){.btn-action-secondary .btn-action .btn-secondary .btn .btn-lg role="button" .search-shortcut} 
 :::
 <!-- card -->
 
