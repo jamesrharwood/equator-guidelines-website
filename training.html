@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Online and in-person training to help you write with confidence and publish with impact.">
 
 <title>Publication School</title>
 <style>
@@ -32,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/favicons/equator-network-16x16.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -43,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-a399256dfab7e52281ee9593702f5c48.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
-  "copy-button": false,
+  "copy-button": true,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
@@ -53,7 +54,7 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
+  "show-item-context": true,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -68,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-staff-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-image-alt',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-subtitle","listing-image","listing-image-alt"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-staff-listing'] = new List('listing-staff-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 <style>
 
@@ -83,7 +113,6 @@ ul.task-list li input[type="checkbox"] {
 
       .quarto-title-block .quarto-title-banner {
         color: white;
-background: rgb(0, 133, 63);
       }
 </style>
 <meta http-equiv="x-content-type-options" content="nosniff">
@@ -97,12 +126,42 @@ background: rgb(0, 133, 63);
 <meta name="robots" content="noindex">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/index3.css">
 <link rel="stylesheet" href="css/index4.css">
 <link rel="stylesheet" href="css/index5.css">
+<link rel="stylesheet" href="css/training.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -113,7 +172,7 @@ background: rgb(0, 133, 63);
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/equator_logo.png" alt="EQUATOR Network Home Page" class="navbar-logo">
+    <img src="./assets/logos/equator_oxford_65px.png" alt="EQUATOR Network Home Page" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -121,7 +180,7 @@ background: rgb(0, 133, 63);
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Reporting Guidelines</span></a>
@@ -134,9 +193,9 @@ background: rgb(0, 133, 63);
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-the-equator-network" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About The EQUATOR Network</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about-the-equator-network">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about-the-equator-network">    
         <li>
-    <a class="dropdown-item" href="//about/uk-equator-centre.html">
+    <a class="dropdown-item" href="./about/uk-equator-centre.html">
  <span class="dropdown-text">The UK EQUATOR Centre</span></a>
   </li>  
         <li>
@@ -144,7 +203,7 @@ background: rgb(0, 133, 63);
  <span class="dropdown-text">The EQUATOR Network</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="//about/contact.html">
+    <a class="dropdown-item" href="./about/contact.html">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
@@ -161,12 +220,9 @@ background: rgb(0, 133, 63);
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Publication School</h1>
-                  <div>
-        <div class="description">
-          Online and in-person training to help you write with confidence and publish with impact.
-        </div>
-      </div>
-                </div>
+            <p class="subtitle lead"></p><p>Online and in-person training to help you</p>
+<p>write with confidence and publish with impact.</p><p></p>
+                      </div>
   </div>
     
   
@@ -213,11 +269,18 @@ background: rgb(0, 133, 63);
 
 
 <div class="content-block">
+<div class="lead">
+<p>Early-career researcher?</p>
+<p>Planning a journal article?</p>
+<p>We’re here to help!</p>
+</div>
 <p>Led by writing and methodology experts from the UK EQUATOR Centre and Centre for Statistics in Medicine, this practical course gives you the tools to plan, write, and polish clear, accurate, and impactful health-related research – faster and with less stress.</p>
 <p>Through practical exercises, group work, and expert feedback, you’ll learn exactly what journals look for and how to deliver it.</p>
-<div class="grid">
-<section id="what-we-cover" class="level2 g-col-md-8 g-col-12">
+<p>This course is designed for early-career researchers and students. If you would like to discuss whether this course will meet your needs, you are welcome to contact us at equator@csm.ox.ac.uk</p>
+<section id="what-we-cover" class="level2">
 <h2 class="anchored" data-anchor-id="what-we-cover">What we cover</h2>
+<div class="grid">
+<div class="g-col-md-8 g-col-12">
 <ul>
 <li>Planning your message and audience</li>
 <li>Negotiating authorship</li>
@@ -231,10 +294,10 @@ background: rgb(0, 133, 63);
 <li>Submission and dealing with peer review</li>
 <li>Disseminating your article after publication</li>
 </ul>
-</section>
+</div>
 <!-- .grid-col-8 -->
 <div class="g-col-md-4 g-col-12">
-<div class="quote card">
+<div class="quote card" style="margin-top: 0px;">
 <div class="quote-text-normal">
 <p>“It broke academic writing for publication down into really manageable and achievable guidance points. Made me less worried about writing my next article!”</p>
 </div>
@@ -252,6 +315,7 @@ background: rgb(0, 133, 63);
 <!-- .grid-col-4 -->
 </div>
 <!-- .grid -->
+</section>
 </div>
 <!-- .content-block -->
 <div class="gradient-background-1 hero-banner">
@@ -260,15 +324,21 @@ background: rgb(0, 133, 63);
 <h3 class="anchored" data-anchor-id="online-training">Online training</h3>
 <div class="grid">
 <div class="g-col-md-8 g-col-12">
-<p>Online courses are held on Zoom over 4 half-days. We teach live using shared slides, webcam, and audio. Courses are highly interactive, with all-group discussion and small-group exercises.</p>
-<p>Participants receive an electronic course workbook with all notes and exercises.</p>
+<p>Our online Publication School is highly interactive, with all-group discussion and small-group exercises and discussion. It is held live over Zoom over 4 half-days.</p>
+<p>Participants are welcome to use text chat, mic, and/or webcam in the main room, but need at least a mic for small-group work in breakout rooms. We teach using shared slides, webcam, and audio. Participants receive an electronic course workbook with all notes and exercises.</p>
+<p>We do not record the sessions and are unable to offer live captions. Participants need to have Zoom downloaded, rather than using the browser version, as we use registrations.</p>
 <p><strong>Fees for 4 half-days:</strong></p>
 <ul>
 <li>Students / PPI representatives: £160</li>
 <li>Academia / public sector / non-profit: £260</li>
 <li>Commercial / private: £500</li>
 </ul>
-<p><a href="https://www.oxforduniversitystores.co.uk/short-courses/nuffield-department-of-orthopaedics-rheumatology-and-musculoskeletal-sciences/botnar-research-centre/equator-publication-school">Enrol for online training »</a></p>
+<p>Upcoming start dates:</p>
+<ul>
+<li>1 December – 4 December; 9:30–13:30 GMT</li>
+<li>19 January – 9 February; Mondays 9:30-13:30 GMT</li>
+</ul>
+<p><a href="https://www.oxforduniversitystores.co.uk/short-courses/nuffield-department-of-orthopaedics-rheumatology-and-musculoskeletal-sciences/botnar-research-centre/equator-publication-school">Enrol for training »</a></p>
 </div>
 <!-- .g-col-md-8 -->
 <div class="g-col-md-4 g-col-12">
@@ -320,18 +390,81 @@ background: rgb(0, 133, 63);
 <!-- .content-block -->
 </div>
 <!-- .gradient-background -->
+<section id="course-faculty" class="level3">
+<h3 class="anchored" data-anchor-id="course-faculty">Course Faculty</h3>
+<div id="listing-staff-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0">
+<a href="about/uk-equator-centre.html#jen-de-beyer" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/images/staff/Jen-de-Beyer.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Jen de Beyer">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jennifer de Beyer
+</h5>
+<div class="card-subtitle listing-subtitle">
+Research, Training, and Publication Manager
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="about/uk-equator-centre.html#paula-dhiman" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/images/staff/pdhiman.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Paula Dhiman">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Paula Dhiman
+</h5>
+<div class="card-subtitle listing-subtitle">
+Senior Researcher in Medical Statistics
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="about/uk-equator-centre.html#gary-collins" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./assets/images/staff/GaryCollins.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Gary Collins, Director">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gary Collins
+</h5>
+<div class="card-subtitle listing-subtitle">
+Professor of Medical Statistics
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 <div class="content-block center">
 <div class="hero-buttons center">
 <p><a href="https://www.oxforduniversitystores.co.uk/short-courses/nuffield-department-of-orthopaedics-rheumatology-and-musculoskeletal-sciences/botnar-research-centre/equator-publication-school" class="btn-action-primary btn-action btn-primary btn btn-lg margin-right-1" role="button">Enrol for training</a></p>
 </div>
 <!-- #TODO update this link (and one above once we have an NDORMS storefront) -->
 <p>Want tailored training for your team? Email equator@csm.ox.ac.uk to discuss custom training in person or online.</p>
+<p>To join our mailing list to hear about this and other UK EQUATOR Centre courses, send a blank email to equator-oxford-subscribe@maillist.ox.ac.uk</p>
 </div>
 
+</section>
 
 <div id="quarto-appendix" class="default"><section id="images-on-this-page" class="level5 appendix"><h2 class="anchored quarto-appendix-heading">Images on this page</h2><div class="quarto-appendix-contents">
 
 <p>Although the quotes come from real participants, the images on this page are stock images that are free to use without attribution. We are still working on this website, and hope to have real photos, of real participants, after our next Publication School later this year.</p>
+
 
 
 </div></section></div></main> <!-- /main -->

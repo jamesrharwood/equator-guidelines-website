@@ -1,10 +1,14 @@
 [
   {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
     "listing": "/about/uk-equator-centre.html",
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/training.html",
     "items": []
   }
 ]
