@@ -140,9 +140,9 @@ Learn more about [who we are and what we do](#about-equator).
 
 ### Frequently accessed reporting guidelines
 
-{{< include index_table.md >}}
+{{< include _index_table.qmd >}}
 
-[Search all reporting guidelines](https://www.equator-network.org/reporting-guidelines/){.btn-action-secondary .btn-action .btn-secondary .btn .btn-lg role="button" .search-shortcut} 
+[Search all reporting guidelines](){.btn-action-secondary .btn-action .btn-secondary .btn .btn-lg role="button" .search-shortcut} 
 :::
 <!-- card -->
 

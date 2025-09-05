@@ -12,7 +12,7 @@ class ChecklistTable:
         quote=False,
         multiline_strategy='rows_and_header',
         multiline_delimiter=' ',
-        multiline={TITLE: 200, TEXT: 500, LOCATION: 300}
+        multiline={TITLE: 2000, TEXT: 5000, LOCATION: 3000}
     )
     def __init__(self, guideline):
         self.guideline = guideline

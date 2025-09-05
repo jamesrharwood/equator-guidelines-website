@@ -19,8 +19,6 @@ slugs_to_ignore = [
     'squire',    
 ]
 
-
-
 def load_data():
     with open(FILE, 'r') as file_:
         data = csv.DictReader(file_)
@@ -28,6 +26,7 @@ def load_data():
     return data
 
 def create():
+    print('Warning: Remember to import static files too, e.g. everything saved under wp-data')
     data = load_data()
     for row in data:
         if row['slug'] in slugs_to_ignore:
@@ -48,6 +47,11 @@ def get_filename(row):
     slug = row['slug']
     return f'reporting-guidelines/{slug}/index.qmd'
 
+def replace_urls_without_domains(text):
+    text = text.replace('(/wp-', '(https://www.equator-network.org/wp-')
+    text = text.replace('(/library', '(https://www.equator-network.org/library')
+    return text
+
 def create_contents(row):
     data = row['scraped_data']
     data = ast.literal_eval(data)
@@ -58,6 +62,7 @@ def create_contents(row):
         label = x[0]
         label = re.sub(r'\s*\n+\s*', '**\n**', label)
         value = x[1]
+        value = replace_urls_without_domains(value)
         rows.append(ROW.format(label=label, value=value))
     rows.append(ROW.format(label='Training', value=TRAINING_TEXT))
     contents = "\n\n".join(rows)
@@ -65,11 +70,11 @@ def create_contents(row):
 
 ROW = """
 
-::: {{.g-col-md-4}}
+::: {{.g-col-12 .g-col-md-4}}
 **{label}**
 :::
 
-::: {{.g-col-md-8}}
+::: {{.g-col-12 .g-col-md-8}}
 {value}
 :::
 

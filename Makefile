@@ -14,7 +14,7 @@ render:
 	quarto render
 create-from-import:
 	python -m build.resources.web.import_from_old_website
-create_all:
+create-all:
 	make create guideline=prisma
 	make create guideline=strobe
 	make create guideline=srqr

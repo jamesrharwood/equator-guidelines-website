@@ -36,6 +36,8 @@ class Guideline:
     data_repo: str = field(init=False)
     has_data_repo: bool = field(init=False)
     has_open_e_and_e: bool = field(init=False)
+    version: str = field(init=False)
+    utm_campaign: str = field(init=False)
 
     def create_resources(self):
         self.create_folder()
@@ -69,6 +71,7 @@ class Guideline:
         self.has_translations = has_translations(self.config)
         self.has_not_use_for = has_text(self.repo_paths.not_use_for)
         self.has_related_resources=has_text(self.repo_paths.related_resources)
+        self.version = str(self.config.get('version', 'unversioned'))
         self.items = list(self.load_items())
         self.has_why_use=has_text(self.repo_paths.why_use)
         self.data_repo = self.config.get('data-repo', None)

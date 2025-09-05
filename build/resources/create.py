@@ -1,7 +1,7 @@
 from .web.create import create as create_web
 from .bibliography import create as create_bibliography
 from .checklist import create as create_checklist
-from .writing_guide import create as create_writing_guide
+# from .writing_guide import create as create_writing_guide
 
 import logging 
 

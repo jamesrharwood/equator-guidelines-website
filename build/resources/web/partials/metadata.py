@@ -136,6 +136,11 @@ class MetadataCreator():
             'qmd': qmd_paths
         }
         self.set('paths', paths)
+    
+    def set_utm_campaign(self):
+        version = self.get('version', default='unversioned')
+        utm_campaign = version.replace(' ', '_').replace('-', '_')
+        self.set('utm_campaign', utm_campaign)
 
     def create(self):
         self.copy('title')
@@ -146,14 +151,13 @@ class MetadataCreator():
         self.copy('articles')
         self.copy('version')
         self.copy('for-writing')
-        self.copy_if('aliases')
-        print('REMEMBER TO CHANGE ALIASES TO GO TO INDEX INSTEAD OF METADATA')
         self.set_paths()
         self.set_citation()
         self.set_translation()
         self.set_items()
         self.set_authors()
         self.set_bibliographies()
+        self.set_utm_campaign()
         return self.metadata
 
 def create_metadata(guideline):

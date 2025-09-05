@@ -17,7 +17,8 @@ class Item(Base):
         self.num_ids = self.get_num_ids(title)
         self.text = self.meta.get('checklist', {}).get('text', None) or \
             self.summary_text()
-        self.title_hyperlinked = f'[{title}]({self.html_path})'
+        params = self.utm_parameters
+        self.title_hyperlinked = f'[{title}]({self.html_path}{params})'
 
     def get_num_ids(self, title):
         num_ids = ''
@@ -34,6 +35,14 @@ class Item(Base):
                 f'. {alpha_ids}'
             )
         return num_ids
+
+    @property
+    def utm_parameters(self):
+        id_ = self.guideline.id
+        utm_campaign = str(self.guideline.utm_campaign) #calling str in case it's dynamic
+        params = "?utm_source="+id_+"&utm_medium=checklist&utm_campaign="+utm_campaign
+        return params
+
 
 
 

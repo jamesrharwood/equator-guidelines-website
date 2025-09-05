@@ -31,29 +31,11 @@ After writing, demonstrate adherence by completing this checklist:
 
 :::
 
-<br>
+<br/>
 
-```{python}
-from IPython.display import Markdown
+{TABLE}
 
-import yaml
-
-with open('_metadata.yml', 'r') as file_:
-    meta = yaml.safe_load(file_)
-
-import os
-path = os.getcwd()
-path = path.split('/reporting-guidelines')[0]
-os.chdir(path)
-from build.resources.checklist.guideline import Guideline
-
-id_ = meta['id']
-gl = Guideline.create(id_)
-
-Markdown(gl.get_table_markdown())
-```
-
-{{< pagebreak >}}
+<br/>
 
 ## How to specify where content is {#sec-specify .appendix}
 

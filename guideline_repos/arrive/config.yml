@@ -8,7 +8,7 @@ for-writing: articles describing _in vivo_ animal experiments
 acronym-definition: "Animal Research: Reporting of In Vivo Experiments"
 open-e-and-e: true
 journal-endorsement-count: 500+
-version: 'ARRIVE 2.0 2020 v1.1'
+version: '2020 v1.1'
 bibliography:
   - bibliographies/imported.bib
 articles:
@@ -180,4 +180,5 @@ authors:
   - family: Würbel
     given: Hanno
 aliases:
-  - improving-bioscience-research-reporting-the-arrive-guidelines-for-reporting-animal-research.html
+  - /reporting-guidelines/improving-bioscience-research-reporting-the-arrive-guidelines-for-reporting-animal-research.html
+  - /reporting-guidelines/improving-bioscience-research-reporting-the-arrive-guidelines-for-reporting-animal-research
