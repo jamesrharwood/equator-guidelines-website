@@ -14,6 +14,7 @@ css:
   - "css/index5.css"
   - "css/training.css"
 link-external-icon: false
+email-obfuscation: javascript
 listing: 
   id: staff-listing
   grid-columns: 4
@@ -46,11 +47,11 @@ Planning a journal article?
 We're here to help!
 :::
 
-Led by writing and methodology experts from the UK EQUATOR Centre and Centre for Statistics in Medicine, this practical course gives you the tools to plan, write, and polish clear, accurate, and impactful health-related research – faster and with less stress. 
+Led by writing and methodology experts from the UK EQUATOR Centre and [Centre for Statistics in Medicine](https://www.ndorms.ox.ac.uk/csm), this practical course gives you the tools to plan, write, and polish clear, accurate, and impactful health-related research – faster and with less stress. 
 
 Through practical exercises, group work, and expert feedback, you’ll learn exactly what journals look for and how to deliver it. 
 
-This course is designed for early-career researchers and students. If you would like to discuss whether this course will meet your needs, you are welcome to contact us at equator@csm.ox.ac.uk
+Publication School is designed for early-career researchers and students with limited experience leading the writing for academic manuscripts. If you would like to discuss whether this course will meet your needs, you are welcome to contact us at [equator@csm.ox.ac.uk](mailto:equator@csm.ox.ac.uk)
 
 ## What we cover
 
@@ -126,10 +127,12 @@ We do not record the sessions and are unable to offer live captions. Participant
 * Academia / public sector / non-profit: £260
 * Commercial / private: £500
 
-Upcoming start dates:
+**Upcoming start dates:**
 
-* 1 December – 4 December; 9:30–13:30 GMT
-* 19 January – 9 February; Mondays 9:30-13:30 GMT
+You can choose to complete the course in a one-week block or as a weekly session over four weeks.  
+
+* 1 December – 4 December 2025; 9:30–13:30 GMT
+* 19 January – 9 February 2026; Mondays 9:30-13:30 GMT
 
 [Enrol for training »](https://www.oxforduniversitystores.co.uk/short-courses/nuffield-department-of-orthopaedics-rheumatology-and-musculoskeletal-sciences/botnar-research-centre/equator-publication-school)
 
@@ -170,7 +173,11 @@ The in-person course is held in Oxford over 2 full days. Course fees include a l
 * Academia / public sector / non-profit: £500
 * Commercial / private: £750
 
-[Enrol for in-person training »](https://www.oxforduniversitystores.co.uk/short-courses/nuffield-department-of-orthopaedics-rheumatology-and-musculoskeletal-sciences/botnar-research-centre/equator-publication-school) 
+**Upcoming start dates**
+
+No dates currently available.
+
+[Join our waiting list for in-person training »](mailto:equator@csm.ox.ac.uk?subject=Join%20waiting%20list%20for%20in-person%20Publication%20School) 
 
 :::
 <!-- .grid-col-8 -->
@@ -216,9 +223,9 @@ The in-person course is held in Oxford over 2 full days. Course fees include a l
 :::
 <!-- #TODO update this link (and one above once we have an NDORMS storefront) -->
 
-Want tailored training for your team? Email equator@csm.ox.ac.uk to discuss custom training in person or online.
+Want tailored training for your team? Email [equator@csm.ox.ac.uk](mailto:equator@csm.ox.ac.uk) to discuss custom training in person or online.
 
-To join our mailing list to hear about this and other UK EQUATOR Centre courses, send a blank email to equator-oxford-subscribe@maillist.ox.ac.uk
+To join our mailing list to hear about this and other UK EQUATOR Centre courses, send a blank email to [equator-oxford-subscribe@maillist.ox.ac.uk](mailto:equator-oxford-subscribe@maillist.ox.ac.uk)
 
 :::
 
