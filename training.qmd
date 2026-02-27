@@ -1,11 +1,13 @@
 ---
-title: Publication School
+title: UK EQUATOR Centre Publication School
+description: Online and in-person training to help you write with confidence and publish with impact.
 subtitle: |
   Online and in-person training to help you 
 
   write with confidence and publish with impact.
 sections: true
 title-block-banner: true
+image: /assets/images/botnar.webp
 toc: false
 css:
   - "css/index.css"
@@ -15,6 +17,9 @@ css:
   - "css/training.css"
 link-external-icon: false
 email-obfuscation: javascript
+website:
+  twitter-card: true
+  open-graph: true
 listing: 
   id: staff-listing
   grid-columns: 4
