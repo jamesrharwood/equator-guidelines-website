@@ -17,11 +17,15 @@ crossref:
 search: false
 ---
 
-::: {.callout-note}
+::: {.callout-note icon=false}
+
+## How to use this reporting checklist
+
+This reporting checklist allows authors to demonstrate that their manuscripts adhere to the [{{< meta acronym >}} reporting guideline]({{< meta paths.html.full_guideline >}}).
 
 If you have not used a reporting guideline before, read about [how and why to use them]({{< meta paths.html.about_reporting_guidelines >}}) and check whether {{< meta acronym >}} is the [most applicable reporting guideline]({{< meta paths.html.applicability >}}) for your work.
 
-Reporting guidelines are most useful when used early in research. When writing a manuscript or application, consider using the [Full Guidance]({{< meta paths.html.full_guideline >}}) where you'll see explanations and examples for each item.
+Reporting guidelines are most useful when used early in research. When writing a manuscript or application, consider using the [full guidance]({{< meta paths.html.full_guideline >}}) where you'll find explanations and examples for each item.
 
 After writing, demonstrate adherence by completing this checklist:
 
