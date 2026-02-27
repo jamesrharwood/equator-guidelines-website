@@ -12,29 +12,28 @@ website:
   site-url: 'https://resources.equator-network.org/'
   image: "assets/logos/equator_logo.png"
   favicon: "assets/favicons/equator-network-16x16.png"
-  search: 
-    copy-button: true
-    show-item-context: true
+  search: false 
+    # copy-button: true
+    # show-item-context: false
   navbar:
     background: light
     logo: "assets/logos/equator_oxford_65px.png"
     logo-alt: EQUATOR Network Home Page
-    # right:
-    #   - href: https://www.equator-network.org/reporting-guidelines/
-    #     icon: search
     right:
-      - href: index.qmd
-        text: Reporting Guidelines
       - href: training.qmd
         text: Training
-      - text: About The EQUATOR Network
+      - text: About
         menu: 
           - text: The UK EQUATOR Centre
             href: about/uk-equator-centre.qmd
           - text: The EQUATOR Network
             href: https://www.equator-network.org/about-us/equator-network-what-we-do-and-how-we-are-organised/
+          - text: About this platform
+            href: about-this-platform.qmd
           - text: Contact
             href: about/contact.qmd
+      - href: reporting-guidelines/index.qmd
+        icon: search
   page-footer:
     left: |
       Created by the
@@ -72,7 +71,7 @@ format:
       - scripts/noindex.html
     include-before-body: 
       - scripts/gtm-body.html
-      - scripts/search-shortcut.html
+      # - scripts/search-shortcut.html
     include-after-body:
       - scripts/toggle_collapsible.html
       - offcanvas.html

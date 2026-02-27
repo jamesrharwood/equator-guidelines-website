@@ -66,7 +66,8 @@ Your research will be read by [researchers]{id=typewriter-words .emphasise}.
 Write [quickly and confidently]{.emphasise} using reporting guidelines: community-created recommendations that ensure [everyone]{.emphasise} can understand and use your work. 
 
 ::: {.hero-buttons}
-[Search reporting guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
+[Search all reporting guidelines](reporting-guidelines/index.qmd){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button"}
+[View popular reporting guidelines](#general-reporting-guidelines){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"}
 [What are reporting guidelines?](#sec-what-are-rgs){.btn-action-secondary .btn-secondary .btn-action .btn .btn-lg role="button"}
 ::: 
 
@@ -138,7 +139,7 @@ Learn more about [who we are and what we do](#about-equator).
 
 ::: {.card-highlight .invisible-on-mobile}
 
-### Frequently accessed reporting guidelines
+### General reporting guidelines {#general-reporting-guidelines}
 
 {{< include _index_table.qmd >}}
 
