@@ -18,8 +18,15 @@ class Item:
 
     def make_text(self):
         text = load_string(self.item.source_path)
+        text = self.prepend_search(text)
         text = self.append_training(text)
-        text = self.append_discussion(text)
+        if self.item.guideline.has_data_repo:
+            text = self.append_discussion(text)
+        return text
+
+    def prepend_search(self, text):
+        assert text[:3]=='---'
+        text = '---\nsearch: false' + text[3:]
         return text
 
     def append_training(self, text):

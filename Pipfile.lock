@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b86579d2ea504f212a9353e467761a045536b0ee7a95a46cf34bc75e0b9df36c"
+            "sha256": "d93b5050f2d21d1aa865d7c716a0feef9e66d3e50fe74a9661558a30f3c365c0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,15 @@
         ]
     },
     "default": {
+        "itables": {
+            "hashes": [
+                "sha256:68910282840c0770da2f336a207e64c75e052b31949ac97faa15a1f621727a4c",
+                "sha256:fd9e541973a654f79dcebbd7c0d875a08db7b99a3fc467a91de260c78f6643ea"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.9'",
+            "version": "==2.7.0"
+        },
         "markdown": {
             "hashes": [
                 "sha256:2ae2471477cfd02dbbf038d5d9bc226d40def84b4fe2986e49b59b6b472bbed2",
@@ -24,6 +33,30 @@
             "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==3.7"
+        },
+        "polars": {
+            "hashes": [
+                "sha256:803a2be5344ef880ad625addfb8f641995cfd777413b08a10de0897345778239",
+                "sha256:a29479c48fed4984d88b656486d221f638cba45d3e961631a50ee5fdde38cb2c"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.10'",
+            "version": "==1.38.1"
+        },
+        "polars-runtime-32": {
+            "hashes": [
+                "sha256:04f20ed1f5c58771f34296a27029dc755a9e4b1390caeaef8f317e06fdfce2ec",
+                "sha256:08c2b3b93509c1141ac97891294ff5c5b0c548a373f583eaaea873a4bf506437",
+                "sha256:10d19cd9863e129273b18b7fcaab625b5c8143c2d22b3e549067b78efa32e4fa",
+                "sha256:18154e96044724a0ac38ce155cf63aa03c02dd70500efbbf1a61b08cadd269ef",
+                "sha256:61e8d73c614b46a00d2f853625a7569a2e4a0999333e876354ac81d1bf1bb5e2",
+                "sha256:6d07d0cc832bfe4fb54b6e04218c2c27afcfa6b9498f9f6bbf262a00d58cc7c4",
+                "sha256:c49acac34cc4049ed188f1eb67d6ff3971a39b4af7f7b734b367119970f313ac",
+                "sha256:e8a5f7a8125e2d50e2e060296551c929aec09be23a9edcb2b12ca923f555a5ba",
+                "sha256:fef2ef2626a954e010e006cc8e4de467ecf32d08008f130cea1c78911f545323"
+            ],
+            "markers": "python_version >= '3.10'",
+            "version": "==1.38.1"
         },
         "py-markdown-table": {
             "hashes": [

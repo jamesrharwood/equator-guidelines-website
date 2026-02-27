@@ -8,33 +8,8 @@ class Giscus:
         self.item = item
     
     def create_web(self, _):
+        print("CREATING WEB PAGE FOR GISCUS ITEM")
         return make_html(self.item)
-
-
-
-
-
-
-# def create_web(guideline):
-#     create_html(guideline.items)
-#     return ''
-
-# def create_html(items):
-#     print('creating html for giscus') 
-#     skipped = 0      
-#     for idx, item in enumerate(items):
-#         if not os.path.exists(item.giscus_path):
-#             print('Creating giscus HTML for item ', item.giscus_path)
-#             web_item = Item(item, idx, item.guideline)
-#             qmd = _make_html(item, web_item)
-#             file.save_string(qmd, item.giscus_path)
-#         else:
-#             skipped += 1
-#     if skipped:
-#         print(f'Giscus HTML files already exist for {skipped} items')
-
-# def _make_html(item, web_item):
-#     return f"""\
 
 def make_html(item):
     return TEMPLATE.format(item=item)
