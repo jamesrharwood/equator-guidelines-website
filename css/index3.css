@@ -133,3 +133,10 @@ h2 {
   text-align: center;
 }
 
+/* Hyperlinks in title blocks */
+#title-block-header a {
+  text-decoration: underline;
+}
+.quarto-title-banner a {
+  color: white;
+}

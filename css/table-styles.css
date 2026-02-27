@@ -1,0 +1,7 @@
+table {
+    table-layout: fixed;
+}
+
+table.dataTable.nowrap th, table.dataTable.nowrap td {
+    white-space: break-spaces !important;
+}
