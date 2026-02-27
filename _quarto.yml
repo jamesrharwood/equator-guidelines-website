@@ -40,9 +40,9 @@ website:
       [UK EQUATOR Centre](https://www.equator-network.org/about-us/uk-equator-centre/)
     center:
       - text: "Terms of Use"
-        href: https://www.equator-network.org/terms-of-use/
+        href: terms-of-use.qmd
       - text: "Privacy Policy"
-        href: https://www.equator-network.org/privacy-policy/
+        href: privacy-policy.qmd
         # #TODO license?
     right:
       - icon: twitter
