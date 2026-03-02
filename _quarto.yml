@@ -3,10 +3,14 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
+  pre-render:
+    - filters/create_list_for_notranslate.py
   preview: 
     port: 3870
     timeout: 180
 smooth-scroll: true
+filters:
+  - filters/wrap_notranslate.lua
 csl: american-medical-association.csl
 website:
   site-url: 'https://resources.equator-network.org/'

@@ -9,6 +9,8 @@ from build.file import load_string
 DIR = "reporting-guidelines"
 FILE = "guideline_repos/data.csv"
 TRAINING_TEXT = load_string('build/resources/partials/training/default.md')
+NOTRANSLATE_MD = "[{content}]{{class='notranslate'}}"
+NOTRANSLATE_HTML = '<span class="notranslate">{content}</span>'
 
 slugs_to_ignore = [
     'consort',
@@ -59,9 +61,6 @@ def create():
         contents = create_contents(row)
         with open(fn, 'w') as file_:
             file_.write(contents)
-        print(row)
-        print('ONLY DOING ONE!')
-        break
 
 def get_dir(row):
     slug = row['slug']
@@ -80,6 +79,7 @@ def replace_urls_without_domains(text):
 def create_contents(row):
     data = row['scraped_data']
     data = ast.literal_eval(data)
+    data = [(x[0], NOTRANSLATE_MD.format(content=x[1])) for x in data]
     title = next((x for x in data if x[0]=='title'))[1]
     data = [x for x in data if x[0] != 'title']
     priority_data = []
@@ -120,8 +120,8 @@ def create_df():
         ('title', 'Title'),
         ('study_design', 'Study Design'),
         ('clinical_specialty', 'Clinical Speciality'),
-        ('report_section', 'Report Section'),
-        ('date_last_updated', 'Date Last Updated'),
+        # ('report_section', 'Report Section'),
+        # ('date_last_updated', 'Date Last Updated'),
         ('slug', 'slug'),
     ]
     title_template = '<a href="/'+DIR+'/{slug}">{title}</a>'
@@ -131,8 +131,14 @@ def create_df():
         row.update({'Priority': priority})
         if row['slug'] in slugs_to_adapt.keys():
             row.update({'slug': slugs_to_adapt[row['slug']]})
-        row.update({'Title': title_template.format(title = row['Title'], slug = row['slug'])})
+        acronym  = row['Acronym']
+        acronym_notranslate = NOTRANSLATE_HTML.format(content=acronym)
+        title = row['Title']
+        title = title.replace(acronym, acronym_notranslate)
+        title = title_template.format(title = title, slug = row['slug'])
+        row.update({'Title': title, 'Acronym': acronym_notranslate})
         row.pop('slug')
+
     df = polars.from_dicts(data)
     return df
 

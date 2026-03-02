@@ -11,3 +11,4 @@ reporting-guidelines/*
 papers
 papers/*
 *.sqlite
+/.luarc.json
