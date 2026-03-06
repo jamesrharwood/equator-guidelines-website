@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 1294" xmlns="http://www.w3.org/2000/svg" style="background-color: #7000FF;">
+    <defs>
+        <!-- Vibrant Purple/Magenta gradient for a bright, energetic background -->
+        <linearGradient id="vibrantGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#7000FF;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#FF00CC;stop-opacity:1" />
+        </linearGradient>
+        
+        <!-- Subtle grid overlay -->
+        <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.5" opacity="0.2"/>
+        </pattern>
+    </defs>
+
+    <!-- Background -->
+    <rect width="400" height="1294" fill="url(#vibrantGrad)" />
+    <rect width="400" height="1294" fill="url(#gridPattern)" />
+    
+    <!-- Isometric Shapes / Parallelograms -->
+    <g transform="skewY(-15) translate(0, 50)">
+        <!-- Gold / Yellow Section -->
+        <rect x="-20" y="40" width="180" height="291" fill="#FFD700" opacity="0.8" />
+        <rect x="220" y="150" width="200" height="323" fill="#FFE135" opacity="0.7" />
+        
+        <!-- Hot Pink / Neon Magenta Section -->
+        <rect x="40" y="450" width="240" height="388" fill="#FF007F" opacity="0.7" stroke="white" stroke-width="1"/>
+        <rect x="50" y="460" width="220" height="4" fill="white" opacity="0.4" />
+        
+        <!-- Cyan / Electric Blue Section -->
+        <rect x="180" y="750" width="160" height="258" fill="#00F2FF" opacity="0.7" />
+        
+        <!-- Bright Purple Pop -->
+        <rect x="-50" y="950" width="220" height="355" fill="#BC13FE" opacity="0.6" />
+        
+        <!-- Bright White Contrast -->
+        <rect x="200" y="1100" width="140" height="226" fill="white" opacity="0.3" stroke="white" stroke-width="2"/>
+    </g>
+
+    <!-- Glowing Decorative Elements -->
+    <!-- Cyan Glow -->
+    <circle cx="350" cy="200" r="80" fill="none" stroke="#00F2FF" stroke-width="4" opacity="0.6" />
+    <circle cx="350" cy="200" r="30" fill="#00F2FF" opacity="0.5" />
+    
+    <!-- Hot Pink Glow -->
+    <circle cx="50" cy="800" r="120" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.4" />
+    <circle cx="50" cy="800" r="20" fill="#FF007F" opacity="0.8" />
+    
+    <!-- Gold Glow -->
+    <circle cx="340" cy="1150" r="60" fill="none" stroke="#FFD700" stroke-width="4" opacity="0.7" />
+</svg>

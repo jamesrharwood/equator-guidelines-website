@@ -281,7 +281,7 @@ table p, table li {
   
   .btn-action {
     min-width: 165px;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     border: none;
   }
   
@@ -384,7 +384,7 @@ table p, table li {
 }
 
 .btn-action {
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 .btn-primary {
   background-color: var(--green-primary-background);

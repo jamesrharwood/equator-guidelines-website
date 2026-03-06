@@ -1,0 +1,348 @@
+---
+pagetitle: "Reporting Guidelines by the UK EQUATOR Centre"
+page-layout: custom
+section-divs: false
+toc: false
+css:
+  - "css/index.css"
+  - "css/index3.css"
+  - "css/index4.css"
+  # - "css/index5.css"
+  - "css/index6.css"
+description: | 
+  Search our website for reporting guidelines: community-created recommendations that ensure everyone can understand and use your research. Reporting guidelines make writing up research easier, and transparent research leads to better patient outcomes. 
+include-after-body:
+  - scripts/typewriter.html
+include-before-body: 
+  - scripts/jquery.html
+listing: 
+  id: staff-listing
+  grid-columns: 6
+  type: grid
+  contents: 
+    - title: Gary Collins
+      # subtitle: Director
+      image: /assets/images/staff/GaryCollins.webp
+      image-alt: Gary Collins, Director
+      path: about/uk-equator-centre.html#gary-collins
+    - title: Jennifer de Beyer
+      # subtitle: Publication & Dissemination Specialist
+      image: /assets/images/staff/Jen-de-Beyer.webp
+      image-alt: Jen de Beyer
+      path: about/uk-equator-centre.html#jen-de-beyer
+    - title: Paula Dhiman 
+      # subtitle: Medical Statistician
+      image: /assets/images/staff/pdhiman.jpg
+      image-alt: Paula Dhiman
+      path: about/uk-equator-centre.html#paula-dhiman
+    - title: Caroline Struthers
+      # subtitle: Senior EQUATOR Research Fellow
+      image: /assets/images/staff/caroline-struthers.jpg
+      image-alt: Caroline Struthers
+      path: about/uk-equator-centre.html#caroline-struthers
+---
+
+::: {.quarto-title-block}
+
+::: {.quarto-title-banner-normal-margin}
+
+::: {.content-block}
+
+::: {.hero-title-block}
+
+::: {.grid}
+
+
+
+::: {id=cursor .g-col-lg-4 .g-col-md-3 .d-none .d-md-block }
+::: {.top-banner-portrait}
+<img src="assets/images/ArticlesImage660x1046.webp" class="img-fluid" alt="A selection of journal articles">
+:::
+:::
+
+::: {.g-col-lg-8 .g-col-md-9 .hero-content-center}
+
+# Write research with clarity and confidence using **reporting guidelines**:
+
+[community-created recommendations that ensure [everyone]{id=typewriter-words .emphasise} 
+<br>
+can understand and use your work.]{.subtitle}  
+
+::: {.hero-buttons}
+[Search all reporting guidelines](reporting-guidelines/index.qmd){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button"}
+
+[[›]{.chevron} View popular reporting guidelines](#general-reporting-guidelines){.modern-link}
+
+[[›]{.chevron} What are reporting guidelines?](#sec-what-are-rgs){.modern-link}
+
+[[›]{.chevron} About The EQUATOR Network](#about-equator){.modern-link}
+::: 
+<!-- hero buttons -->
+
+:::
+<!-- g-col-lg-6-->
+
+:::
+<!-- grid -->
+
+:::
+<!-- / hero-title-block -->
+
+:::
+<!-- .content-block -->
+
+:::
+<!-- .quarto-title-banner-normal-margin -->
+
+:::
+
+<!-- Table of commonly used Reporting Guidelines -->
+
+
+::: {.gradient-background-1 .hero-banner .table-block}
+
+::: {.content-block}
+
+::: {.card-highlight .invisible-on-mobile}
+
+### General reporting guidelines {#general-reporting-guidelines}
+
+{{< include _index_table.qmd >}}
+
+[Search all reporting guidelines](){.btn-action-secondary .btn-action .btn-secondary .btn .btn-lg role="button" .search-shortcut} 
+:::
+<!-- card -->
+
+:::
+<!-- content block -->
+:::
+<!-- alt background   -->
+
+<!-- quarto-title-block -->
+
+::: {.publisher-logos}
+
+::: {.content-block}
+
+::: {.logos}
+
+[Endorsed by leading publishers including]{.small}
+
+![Nature logo](assets/logos/nature.png)
+![Wiley logo](assets/logos/wiley.png)
+![Elsevier logo](assets/logos/elsevier.png)
+![BMJ logo](assets/logos/bmj.png){.logo-smaller}
+![BMC logo](assets/logos/bmc.svg)
+
+::: 
+<!--/logos-->
+
+:::
+<!-- content-block -->
+
+::: 
+<!-- publisher-logos -->
+
+::: {.content-block .center}
+
+## Recommendations to help write up research clearly{#sec-what-are-rgs}
+
+:::{.lead}
+Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines are community-created recommendations for describing what you did and what you found so that _everyone_ can understand, repeat, apply, and synthesise your work. Reporting guidelines make writing up research easier, and transparent research leads to better patient outcomes.
+
+<!-- Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone. They can be used throughout your research journey: -->
+::: 
+<!--end lead--> 
+::: {.features}
+
+::: {.feature}
+![Workspace](assets/images/bubblecons/bubblecons_work_from_home_workspace-40-icon-line-colour.svg){.feature-icon}\
+
+### Writing manuscripts
+Write confidently using a reporting guideline to quickly turn a blank page into a thorough and impactful manuscript. 
+
+::: {.learn-more}
+[Learn more »](about/reporting-guidelines.qmd#writing)
+:::
+:::
+
+::: {.feature}
+![Todo list](assets/images/bubblecons/bubblecons_notes_clip-task-2-icon-line-colour.svg){.feature-icon}\
+
+### Checking manuscripts
+Use a reporting checklist to ensure you have included everything. Many journals require completed checklists at submission.
+
+
+::: {.learn-more} 
+[Learn more »](about/reporting-guidelines.qmd#reporting-checklists)
+:::
+:::
+
+::: {.feature}
+![Writing](assets/images/bubblecons/bubblecons_notes_pencil-24-icon-line-colour.svg){.feature-icon}\
+
+### Writing applications
+Reporting guidelines can help you write funding applications, ethics applications, and protocols, but they won't make design decisions for you!
+
+::: {.learn-more}
+[Learn more »](about/reporting-guidelines.qmd#writing-applications)
+:::
+:::
+
+:::
+:::
+<!--/content-block-->
+
+
+::: {.radial-background}
+<img src="assets/images/radial1.svg" class="radial1" alt="Blurred background colours">
+<img src="assets/images/radial2.svg" class="radial2" alt="Blurred background colours"> 
+
+::: {.content-block .center}
+
+## Learn how and why people use reporting guidelines
+
+:::{.lead}
+People around the world use reporting guidelines in many ways and for many reasons.
+:::
+
+::: {.grid}
+
+::: {.g-col-md-4 .g-col-12 .card-highlight}
+![Supervisor and student](assets/images/supervision.webp){.feature-photo}\
+
+### Researchers
+
+Both experienced and early career researchers use reporting guidelines to write, learn, and teach.
+
+<!-- Sally is an experienced academic with hundreds of publications. James is a PhD student. Both use reporting guidelines to write, learn, and teach. 
+
+::: {.learn-more}
+[Learn more »](about/why-reporting-matters.qmd#researcher)
+::: -->
+:::
+
+::: {.g-col-md-4 .g-col-12 .card-highlight}
+![Editors](assets/images/editors.webp){.feature-photo}\
+
+### Editors
+
+Editors from leading medical journals ask authors to use reporting guidelines and check for adherence. 
+<!-- Read why editors from leading medical journals ask authors to use reporting guidelines and how they check adherence.
+
+::: {.learn-more}
+[Learn more »](about/why-reporting-matters.qmd#editor)
+::: -->
+:::
+
+::: {.g-col-md-4 .g-col-12 .card-highlight}
+![Peer Reviewer](assets/images/reviewer.webp){.feature-photo}\
+
+### Reviewers
+
+Peer reviewers and evidence synthesisers use reporting guidelines to judge the transparency of research and identify missing information.
+<!-- Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesising evidence for policy recommendations.
+
+::: {.learn-more}
+[Learn more »](about/why-reporting-matters.qmd#reviewer)
+::: -->
+:::
+
+::: 
+<!--/features -->
+
+:::
+<!-- /content-block -->
+:::
+<!-- /alt-background -->
+
+::: {.about-equator id=about-equator}
+::: {.content-block}
+
+## The EQUATOR Network
+
+We are the leading global academic network dedicated to improving research reporting quality.
+
+EQUATOR stands for Enhancing the QUAlity and Transparency Of health Research. Our mission is to improve the reliability and value of published health research literature by promoting transparent and accurate reporting and wider use of robust reporting guidelines. 
+
+We advance the work done by individual guideline development groups. We maintain a database of reporting guidelines, run [training courses](training.qmd) on how to write research articles, have resources for [publishers](https://www.equator-network.org/toolkits/using-guidelines-in-journals/), [peer reviewers](https://www.equator-network.org/toolkits/peer-reviewing-research/), and reporting guideline [developers](https://www.equator-network.org/toolkits/developing-a-reporting-guideline/).  
+
+We have centers in the [UK](https://www.equator-network.org/about-us/uk-equator-centre/) (our head office), [Canada](https://www.equator-network.org/about-us/canadian-equator-centre/), [Australia](https://www.equator-network.org/about-us/australasian-equator-centre/), [France](https://www.equator-network.org/about-us/french-equator-centre/), and [China](http://www.equator-chinese.org/pages/en/index/index.html). 
+
+::: {.logos}
+
+![University of Oxford logo](assets/logos/oxford.svg)
+![Université Paris Cité logo](assets/logos/paris.jpeg)
+![Ottowa Hospital logo](assets/logos/ottawa.png){.logo-bigger}
+![Bond University logo](assets/logos/bond.svg)
+![Hong Kong Baptist University logo](assets/logos/hongkongbaptistuniversity.svg){.logo-bigger}
+::: 
+<!-- logos -->
+
+:::
+<!-- content-block -->
+:::
+<!-- about-equator -->
+
+
+::: {.gradient-background-1 .training id=training}
+::: {.content-block}
+
+## Training
+
+::: {.grid}
+
+::: {.g-col-md-8 .g-col-12}
+
+::: {.lead}
+Want to feel more confident when writing and publishing your research? Want to write quickly, clearly, and concisely? 
+
+The UK EQUATOR Centre’s [Publication School]{.emphasise} is a hands-on course designed for early-career researchers who want to take control of the writing process and get their work out into the world. 
+
+[Learn more »](training.qmd)
+:::
+
+:::
+<!-- .g-col-md-8 -->
+::: {.g-col-md-4 .g-col-12}
+
+![Training](assets/images/training/woman-at-desk.webp)\
+
+:::
+<!-- .g-col-md-4 -->
+
+:::
+<!-- .grid -->
+
+
+:::
+:::
+
+::: {.about-equator-uk id=about-equator-uk}
+::: {.content-block}
+
+### The UK EQUATOR Centre
+
+The EQUATOR Network is headquartered at the UK EQUATOR Centre, based at the Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences (NDORMS), University of Oxford. The UK EQUATOR Centre maintains this website, a database of reporting guidelines, and works with other organisations to promote transparent reporting and other good research practices. Alongside clinical and meta-research, we specialise in training researchers how to write.
+
+#### UK EQUATOR Centre Staff
+
+::: {#staff-listing}
+:::
+
+<!-- /grid -->
+
+:::
+:::
+
+::: {.alt-background}
+::: {.get-started}
+::: {.content-block}
+
+### Ready to use a reporting guideline?
+
+[Search reporting guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button" .search-shortcut}
+
+:::
+:::
+:::
