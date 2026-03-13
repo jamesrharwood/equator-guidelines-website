@@ -36,16 +36,6 @@ listing:
                 At the Centre for Statistics in Medicine, Dr Paula Dhiman investigates how medical research is done, focusing on the methodological conduct and reporting of non-randomised research, with a view to helping improve the quality and integrity of future research. This is known as meta-research or “research on research”. Paula is passionate about statistical methodology and observational research and is particularly interested in prognostic/risk modelling.
 
                 Much of her work experience has been as a medical statistician within Primary Care at the University of Nottingham, where she was awarded a PhD in Medical Statistics (Primary Care) in 2015. More recently, she worked as an advisor for the Research Design Service (East Midlands), helping researchers and clinicians apply for funding for their research through study design, and grant writing.
-        -   title: Caroline Struthers
-            subtitle: Senior EQUATOR Research Fellow
-            image: /assets/images/staff/caroline-struthers.jpg
-            path: https://www.ndorms.ox.ac.uk/team/caroline-struthers
-            description: |
-                Caroline returned to the UK EQUATOR Centre team in October 2019 to lead a MRC-funded Methodology research project.  The project involves developing and testing an online tool called “GoodReports” to help authors identify and use the most appropriate reporting guidelines when writing an article for a medical journal.  The prototype of the GoodReports tool is freely available here: https://www.goodreports.org/.  GoodReports won an international prize in 2018 for its potential to reduce the waste in research caused by poor reporting.  https://www.ndorms.ox.ac.uk/news/equator-network-awarded-for-reducing-waste-in-research
-
-                From May 2014- March 2019 Caroline worked at the UK EQUATOR Centre as Education and Training Manager. She focussed on developing tools and training courses to help embed the use of reporting guidelines in the research process at every stage.
-
-                She is committed to patient and public involvement in health research. She is particularly interested in promoting the use of plain language when writing up research for publication in journals, and when making research publicly accessible through other channels.
         -   title: James Harwood
             subtitle: Postdoctoral Research Fellow
             path: https://www.ndorms.ox.ac.uk/team/james-harwood
