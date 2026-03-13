@@ -12,3 +12,4 @@ papers
 papers/*
 *.sqlite
 /.luarc.json
+/filters/patterns.txt
