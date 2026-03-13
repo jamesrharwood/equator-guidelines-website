@@ -54,10 +54,6 @@ img.logo-smaller {
     margin-right: 1rem;
 }
 
-.radial-background {
-    background-color: var(--greenvvl)
-}
-
 #typewriter-wrapper {
     min-width: 4rem;
     display: inline-block;

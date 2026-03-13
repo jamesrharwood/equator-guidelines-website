@@ -1,0 +1,15 @@
+:root {
+  --greenl: rgb(11, 167, 87);
+  /* --green-primary: rgb(11, 167, 87); */
+  --green-primary: rgb(0, 133, 63);
+  /* --green-primary-background: rgb(9, 134, 67); */
+  --green-primary-background: rgb(0, 133, 63);
+  --green: rgb(0, 71, 33);
+  --oxford-blue: rgb(0, 33, 71);
+  --oxford-blue-light: rgb(234, 243, 253);
+  --green-light:rgba(11, 167, 86, 0.6);
+  --greenvl: #c0edd6;
+  /* --greenvvl: #e9fff3; */
+  --greenvvl: #e8f7ef;
+  --warning: #ff7518;
+}

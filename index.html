@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Helping researchers write up medical research.">
+<meta name="description" content="Search our website for reporting guidelines: community-created recommendations that ensure everyone can understand and use your research. Reporting guidelines make writing up research easier, and transparent research leads to better patient outcomes.">
 
 <title>Reporting Guidelines by the UK EQUATOR Centre</title>
 <style>
@@ -64,9 +64,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-image','listing-image-alt',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-image-alt',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-image","listing-image-alt"],
+      searchColumns: ["listing-title","listing-subtitle","listing-image","listing-image-alt"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -146,7 +146,7 @@ window.Quarto = {
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/index3.css">
 <link rel="stylesheet" href="css/index4.css">
-<link rel="stylesheet" href="css/index5.css">
+<link rel="stylesheet" href="css/index6.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -217,39 +217,30 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-block radial-background">
-<p><img src="assets/images/radial1.svg" class="radial1" alt="blurred background colours"> <img src="assets/images/radial2.svg" class="radial2" alt="blurred background colours"></p>
+<div class="quarto-title-block">
 <div class="quarto-title-banner-normal-margin">
 <div class="content-block">
 <div class="hero-title-block">
-<div class="grid no-gutters">
-<div class="g-col-lg-2 g-col-md-2 d-none d-md-block hero-content-left">
-<p><span class="hero-img-wrapper"><img src="assets/images/ArticlesImage660x1046.webp" class="img-fluid" alt="A selection of journal articles"></span></p>
+<div class="grid">
+<div id="cursor" class="g-col-lg-4 g-col-md-3 d-none d-md-block">
+<div class="top-banner-portrait">
+<p><img src="assets/images/ArticlesImage660x1046.webp" alt="A selection of journal articles" class="img-fluid"></p>
 </div>
-<!-- image col -->
-<div class="g-col-lg-6 g-col-md-7 g-col-12 hero-content-center">
-<section id="want-help-writing-up-research" class="hero-content-box card-highlight invisible-on-mobile">
-<h1>Want help writing up research?</h1>
-<p>Your research will be read by <span id="typewriter-words" class="emphasise">researchers</span>.</p>
-<p>Write <span class="emphasise">quickly and confidently</span> using reporting guidelines: community-created recommendations that ensure <span class="emphasise">everyone</span> can understand and use your work.</p>
+</div>
+<section id="write-research-with-clarity-and-confidence-using-reporting-guidelines" class="g-col-lg-8 g-col-md-9 hero-content-center">
+<h1>Write research with clarity and confidence using <strong>reporting guidelines</strong>:</h1>
+<div class="subtitle">
+<p>community-created recommendations that ensure <span id="typewriter-words" class="emphasise">everyone</span> <br> can understand and use your work.</p>
+</div>
 <div class="hero-buttons">
-<p><a href="./reporting-guidelines/index.html" class="btn-action-primary btn-action btn-primary btn btn-lg margin-right-1" role="button">Search all reporting guidelines</a> <a href="#general-reporting-guidelines" class="btn-action-secondary btn-secondary btn-action btn btn-lg" role="button">View popular reporting guidelines</a> <a href="#sec-what-are-rgs" class="btn-action-secondary btn-secondary btn-action btn btn-lg" role="button">What are reporting guidelines?</a></p>
+<p><a href="./reporting-guidelines/index.html" class="btn-action-primary btn-action btn-primary btn btn-lg margin-right-1" role="button">Search 700+ reporting guidelines</a></p>
+<p><a href="#general-reporting-guidelines" class="modern-link"><span class="chevron modern-link">›</span> View popular reporting guidelines</a></p>
+<p><a href="#sec-what-are-rgs" class="modern-link"><span class="chevron">›</span> What are reporting guidelines?</a></p>
+<p><a href="#about-equator" class="modern-link"><span class="chevron">›</span> About The EQUATOR Network</a></p>
 </div>
 <!-- hero buttons -->
 </section>
-<!-- hero-content-box-->
-</div>
-<!-- hero-content-left -->
-<section id="about-the-equator-network" class="g-col-lg-4 g-col-md-3 g-col-12 hero-content-right">
-<h2>About The EQUATOR Network</h2>
-<p>We are the leading global academic network dedicated to improving research reporting quality.</p>
-<p>Learn more about <a href="#about-equator">who we are and what we do</a>.</p>
-<div class="logos">
-<p><img src="assets/logos/oxford.svg" class="logo-bigger img-fluid" alt="University of Oxford logo"><br>
-</p>
-</div>
-</section>
-<!-- content-right -->
+<!-- g-col-lg-6-->
 </div>
 <!-- grid -->
 </div>
@@ -259,22 +250,15 @@ window.Quarto = {
 </div>
 <!-- .quarto-title-banner-normal-margin -->
 </div>
-<!-- quarto-title-block -->
-<div class="publisher-logos">
-<div class="content-block">
-<div class="logos">
-<p><span class="small">Endorsed by leading publishers including</span></p>
-<p><img src="assets/logos/nature.png" class="img-fluid" alt="Nature logo"> <img src="assets/logos/wiley.png" class="img-fluid" alt="Wiley logo"> <img src="assets/logos/elsevier.png" class="img-fluid" alt="Elsevier logo"> <img src="assets/logos/bmj.png" class="logo-smaller img-fluid" alt="BMJ logo"> <img src="assets/logos/bmc.svg" class="img-fluid" alt="BMC logo"></p>
-</div>
-<!--/logos-->
-</div>
-<!-- content-block -->
-</div>
-<!-- publisher-logos -->
-<div class="gradient-background-1 hero-banner table-block">
-<div class="content-block">
-<section id="general-reporting-guidelines" class="card-highlight invisible-on-mobile">
+<!-- Table of commonly used Reporting Guidelines -->
+<div class="radial-background">
+<p><img src="assets/images/radial1.svg" alt="Blurred background colours" class="radial1"> <img src="assets/images/radial2.svg" alt="Blurred background colours" class="radial2"></p>
+<div class="content-block center">
+<section id="general-reporting-guidelines" class="card-highlight" style="margin-top: 2rem;">
 <h3>General reporting guidelines</h3>
+<p><span class="lead">These reporting guidelines apply to general, common types of healthcare research. Search our full database for more specific reporting guidelines that may better fit your research.</span></p>
+<div class="table-block">
+<div style="text-align: left; margin: 3rem 0 2rem 0;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -322,7 +306,7 @@ window.Quarto = {
 <td><span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemdiagnostic_test_accuracy_studies" aria-controls="glossaryItemdiagnostic_test_accuracy_studies" role="button">Diagnostic Test Accuracy Studies</span></td>
 </tr>
 <tr class="odd">
-<td><a href="reporting-guidelines/tripod-statement/">TRIPOD + AI</a></td>
+<td><a href="reporting-guidelines/tripod-statement/">TRIPOD+AI</a></td>
 <td><span class="defined" data-bs-toggle="offcanvas" href="#glossaryItemprediction_models" aria-controls="glossaryItemprediction_models" role="button">Prediction Models</span></td>
 </tr>
 <tr class="even">
@@ -339,18 +323,27 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
-<p><a href="" class="btn-action-secondary btn-action btn-secondary btn btn-lg search-shortcut" role="button">Search all reporting guidelines</a></p>
+</div>
+<p><a href="./reporting-guidelines" class="btn-action-primary btn-action btn-primary btn btn-lg search-shortcut" role="button" style="margin: 1rem 0 1rem 0;">Search 700+ reporting guidelines</a></p>
+<div class="publisher-logos">
+<p>Reporting guidelines are widely endorsed by leading medical journals, including:</p>
+<div class="logos">
+<p><img src="assets/logos/nature.png" class="img-fluid" alt="Nature logo"> <img src="assets/logos/wiley.png" class="img-fluid" alt="Wiley logo"> <img src="assets/logos/elsevier.png" class="img-fluid" alt="Elsevier logo"> <img src="assets/logos/bmj.png" class="logo-smaller img-fluid" alt="BMJ logo"> <img src="assets/logos/bmc.svg" class="img-fluid" alt="BMC logo"></p>
+</div>
+<!--/logos-->
+</div>
+<!-- publisher-logos -->
+</div>
+<!-- card-highlight -->
 </section>
-<!-- card -->
+<!-- table-block -->
 </div>
-<!-- content block -->
 </div>
-<!-- alt background   -->
+<!-- isometric background -->
 <section id="sec-what-are-rgs" class="content-block center">
 <h2>Recommendations to help write up research clearly</h2>
 <div class="lead">
 <p>Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines are community-created recommendations for describing what you did and what you found so that <em>everyone</em> can understand, repeat, apply, and synthesise your work. Reporting guidelines make writing up research easier, and transparent research leads to better patient outcomes.</p>
-<!-- Reporting guidelines don't advise how to _do_ research, but how to describe it completely so it can be used by everyone. They can be used throughout your research journey: -->
 </div>
 <!--end lead-->
 <div class="features">
@@ -385,7 +378,7 @@ window.Quarto = {
 </section>
 <!--/content-block-->
 <div class="radial-background">
-<p><img src="assets/images/radial1.svg" class="radial1" alt="Blurred background colours"> <img src="assets/images/radial2.svg" class="radial2" alt="Blurred background colours"></p>
+<p><img src="assets/images/radial1.svg" alt="Blurred background colours" class="radial1"> <img src="assets/images/radial2.svg" alt="Blurred background colours" class="radial2"></p>
 <section id="learn-how-and-why-people-use-reporting-guidelines" class="content-block center">
 <h2>Learn how and why people use reporting guidelines</h2>
 <div class="lead">
@@ -397,34 +390,22 @@ window.Quarto = {
 </p>
 <h3 id="researchers">Researchers</h3>
 <p>Both experienced and early career researchers use reporting guidelines to write, learn, and teach.</p>
-<!-- Sally is an experienced academic with hundreds of publications. James is a PhD student. Both use reporting guidelines to write, learn, and teach. 
-
-::: {.learn-more}
-[Learn more »](about/why-reporting-matters.qmd#researcher)
-::: -->
 </div>
 <div class="g-col-md-4 g-col-12 card-highlight">
 <p><img src="assets/images/editors.webp" class="feature-photo img-fluid" alt="Editors"><br>
 </p>
 <h3 id="editors">Editors</h3>
-<p>Editors from leading medical journals ask authors to use reporting guidelines and check for adherence. <!-- Read why editors from leading medical journals ask authors to use reporting guidelines and how they check adherence.
-
-::: {.learn-more}
-[Learn more »](about/why-reporting-matters.qmd#editor)
-::: --></p>
+<p>Editors from leading medical journals ask authors to use reporting guidelines and check for adherence.</p>
 </div>
 <div class="g-col-md-4 g-col-12 card-highlight">
 <p><img src="assets/images/reviewer.webp" class="feature-photo img-fluid" alt="Peer Reviewer"><br>
 </p>
 <h3 id="reviewers">Reviewers</h3>
-<p>Peer reviewers and evidence synthesisers use reporting guidelines to judge the transparency of research and identify missing information. <!-- Dr Siaw Shi Boon uses reporting guidelines when peer reviewing and when synthesising evidence for policy recommendations.
-
-::: {.learn-more}
-[Learn more »](about/why-reporting-matters.qmd#reviewer)
-::: --></p>
+<p>Peer reviewers and evidence synthesisers use reporting guidelines to judge the transparency of research and identify missing information.</p>
 </div>
+<!-- {.g-col-md-4 .g-col-12 .card-highlight} -->
 </div>
-<!--/features -->
+<!--/grid -->
 </section>
 <!-- /content-block -->
 </div>
@@ -432,8 +413,8 @@ window.Quarto = {
 <div id="about-equator" class="about-equator">
 <section id="the-equator-network" class="content-block">
 <h2>The EQUATOR Network</h2>
-<p>EQUATOR stands for Enhancing the QUAlity and Transparency Of health Research.</p>
-<p>Our mission is to improve the reliability and value of published health research literature by promoting transparent and accurate reporting and wider use of robust reporting guidelines. We are the first coordinated attempt to tackle the problems of inadequate reporting systematically and on a global scale.</p>
+<p>We are the leading global academic network dedicated to improving research reporting quality.</p>
+<p>EQUATOR stands for Enhancing the QUAlity and Transparency Of health Research. Our mission is to improve the reliability and value of published health research literature by promoting transparent and accurate reporting and wider use of robust reporting guidelines.</p>
 <p>We advance the work done by individual guideline development groups. We maintain a database of reporting guidelines, run <a href="./training.html">training courses</a> on how to write research articles, have resources for <a href="https://www.equator-network.org/toolkits/using-guidelines-in-journals/">publishers</a>, <a href="https://www.equator-network.org/toolkits/peer-reviewing-research/">peer reviewers</a>, and reporting guideline <a href="https://www.equator-network.org/toolkits/developing-a-reporting-guideline/">developers</a>.</p>
 <p>We have centers in the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK</a> (our head office), <a href="https://www.equator-network.org/about-us/canadian-equator-centre/">Canada</a>, <a href="https://www.equator-network.org/about-us/australasian-equator-centre/">Australia</a>, <a href="https://www.equator-network.org/about-us/french-equator-centre/">France</a>, and <a href="http://www.equator-chinese.org/pages/en/index/index.html">China</a>.</p>
 <div class="logos">
@@ -444,31 +425,38 @@ window.Quarto = {
 <!-- content-block -->
 </div>
 <!-- about-equator -->
-<div id="training" class="gradient-background-1 training">
+<div id="training" class="radial-background training">
+<p><img src="assets/images/radial1.svg" alt="Blurred background colours" class="radial1"> <img src="assets/images/radial2.svg" alt="Blurred background colours" class="radial2"></p>
 <section id="training" class="content-block">
 <h2>Training</h2>
 <div class="grid">
 <div class="g-col-md-8 g-col-12">
 <div class="lead">
 <p>Want to feel more confident when writing and publishing your research? Want to write quickly, clearly, and concisely?</p>
+</div>
 <p>The UK EQUATOR Centre’s <span class="emphasise">Publication School</span> is a hands-on course designed for early-career researchers who want to take control of the writing process and get their work out into the world.</p>
 <p><a href="./training.html">Learn more »</a></p>
-</div>
+<!-- lead -->
 </div>
 <!-- .g-col-md-8 -->
 <div class="g-col-md-4 g-col-12">
-<p><img src="assets/images/training/woman-at-desk.webp" class="img-fluid" alt="Training"><br>
+<p><img src="assets/images/training/woman-at-desk.webp" class="img-fluid" style="z-index: 1; position: relative;" alt="Training"><br>
 </p>
 </div>
 <!-- .g-col-md-4 -->
 </div>
 <!-- .grid -->
 </section>
+<!-- {.gradient-background-1 .training id=training} -->
 </div>
+<!-- {.content-block} -->
 <div id="about-equator-uk" class="about-equator-uk">
 <section id="the-uk-equator-centre" class="content-block">
 <h3>The UK EQUATOR Centre</h3>
-<p>The EQUATOR Network is headquartered at the UK EQUATOR Centre, based at the Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences (NDORMS), University of Oxford. The UK EQUATOR Centre maintains this website, a database of reporting guidelines, and works with other organisations to promote transparent reporting and other good research practices. Alongside clinical and meta-research, we specialise in training researchers how to write.</p>
+<div class="lead">
+<p>The UK EQUATOR Centre is the headquarters of the EQUATOR Network.</p>
+</div>
+<p>The UK Centre is run by Professor Gary Collins, based at Birmingham University, with collaboration from colleagues at the Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences (NDORMS), University of Oxford. The UK EQUATOR Centre maintains this website, a database of reporting guidelines, and works with other organisations to promote transparent reporting and other good research practices. Alongside clinical and meta-research, we specialise in training researchers how to write.</p>
 <h4 id="uk-equator-centre-staff">UK EQUATOR Centre Staff</h4>
 <div id="listing-staff-listing" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-6">
@@ -482,6 +470,9 @@ window.Quarto = {
 <h5 class="no-anchor card-title listing-title">
 Gary Collins
 </h5>
+<div class="card-subtitle listing-subtitle">
+Director
+</div>
 </div>
 </div>
 </a>
@@ -496,6 +487,9 @@ Gary Collins
 <h5 class="no-anchor card-title listing-title">
 Jennifer de Beyer
 </h5>
+<div class="card-subtitle listing-subtitle">
+Publication &amp; Dissemination Specialist
+</div>
 </div>
 </div>
 </a>
@@ -510,20 +504,9 @@ Jennifer de Beyer
 <h5 class="no-anchor card-title listing-title">
 Paula Dhiman
 </h5>
+<div class="card-subtitle listing-subtitle">
+Medical Statistician
 </div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3">
-<a href="about/uk-equator-centre.html#caroline-struthers" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./assets/images/staff/caroline-struthers.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="Caroline Struthers">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Caroline Struthers
-</h5>
 </div>
 </div>
 </a>
@@ -533,9 +516,11 @@ Caroline Struthers
 No matching items
 </div>
 </div>
-<!-- /grid -->
+<!-- /staff listing -->
 </section>
+<!-- {.about-equator-uk id=about-equator-uk} -->
 </div>
+<!-- {.content-block} -->
 <div class="alt-background">
 <div class="get-started">
 <section id="ready-to-use-a-reporting-guideline" class="content-block">
@@ -793,7 +778,7 @@ No matching items
 
   <script type="text/javascript">
     (function () {
-      var words = ["editors", "clinicians", "patients", "policy makers", "students", "reviewers", "search engines", "researchers" ],
+      var words = ["editors", "clinicians", "patients", "policy makers", "students", "reviewers", "search engines", "researchers", "everyone"],
       i = 0;
       setInterval(function(){ $('#typewriter-words').fadeOut(function(){
           $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();

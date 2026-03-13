@@ -5,3 +5,15 @@ table {
 table.dataTable.nowrap th, table.dataTable.nowrap td {
     white-space: break-spaces !important;
 }
+
+.dt-layout-start {
+    width: 100%
+}
+
+.dt-search {
+    width: 100%;
+}
+
+input {
+    width: 60%;
+}

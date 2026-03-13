@@ -37,8 +37,7 @@ h1 {
 }
 .radial-background {
     position: relative;
-    background-color: rgba(226 232 240 0.2);
-    background-color: rgba(54, 113, 62, 0.2);
+    background-color: var(--oxford-blue-light);
 }
 .logos {
     text-align: center;
