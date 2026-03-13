@@ -25,7 +25,7 @@ local function load_patterns_or_fail()
   fh:close()
 
   if #patterns == 0 then
-    error("ERROR: patterns.txt file is empty or contains no valid patterns: " .. fname)
+    error("ERROR: patterns.txt file is empty or contains no valid patterns: ")
   end
 end
 

@@ -1,20 +1,19 @@
 DIRECTORY = $(dir $(wildcard ./guideline_repos/))
 
-test:
-	python -m unittest discover
-create:
-	python -m build.create_resources $(guideline)
-preview:
-	cp -a _guidelines_manual/. guidelines/
+preview: 
 	quarto preview
-publish:
-	cp -a _guidelines_manual/. guidelines/
+publish: render
 	quarto publish gh-pages --no-render
-render: 
-	quarto render
+render: create-from-import create-hosted-rgs
+	PRODUCTION=1 quarto render
+test:
+	echo "Running unit tests"
+	python -m unittest discover
 create-from-import:
+	echo "Creating database pages"
 	python -m build.resources.web.import_from_old_website
-create-all:
+create-hosted-rgs:
+	echo "Creating resources for hosted RGs"
 	make create guideline=prisma
 	make create guideline=strobe
 	make create guideline=srqr
@@ -23,11 +22,8 @@ create-all:
 	make create guideline=care
 	make create guideline=squire
 	make create guideline=consort
-
-	# make create guideline=prisma-p
-	# make create guideline=spirit
-	# make create guideline=tripod
-
+create:
+	python -m build.create_resources $(guideline)
 
 
 

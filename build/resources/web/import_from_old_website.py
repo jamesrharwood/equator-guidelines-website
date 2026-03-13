@@ -10,7 +10,6 @@ DIR = "reporting-guidelines"
 FILE = "guideline_repos/data.csv"
 TRAINING_TEXT = load_string('build/resources/partials/training/default.md')
 NOTRANSLATE_MD = "[{content}]{{class='notranslate'}}"
-NOTRANSLATE_HTML = '<span class="notranslate">{content}</span>'
 
 slugs_to_ignore = [
     'consort',
@@ -34,9 +33,7 @@ PRIORITY_FIELDS = [
     'PubMed ID',
     'Primary guideline publication',
     'Explanation and elaboration papers',
-    'Full bibliographic reference',
 ]
-PRIORITY_FIELDS.reverse()
 
 def load_data():
     with open(FILE, 'r') as file_:
@@ -73,21 +70,21 @@ def get_filename(row):
 def replace_urls_without_domains(text):
     text = text.replace('(/wp-', '(https://www.equator-network.org/wp-')
     text = text.replace('(/library', '(https://www.equator-network.org/library')
+    text = text.replace('](/', '](https://resources.equator-network.org/')
+    print('remember to switch URL root to www when importing')
     assert '(/' not in text, f'Imported guideline still has naked path: \n\n{text}'
     return text
 
 def create_contents(row):
     data = row['scraped_data']
     data = ast.literal_eval(data)
-    data = [(x[0], NOTRANSLATE_MD.format(content=x[1])) for x in data]
     title = next((x for x in data if x[0]=='title'))[1]
     data = [x for x in data if x[0] != 'title']
     priority_data = []
     for field in PRIORITY_FIELDS:
         row = next((x for x in data if x[0]==field), None)
-        if not row:
-            continue
-        priority_data.insert(0, data.pop(data.index(row)))
+        if row:
+            priority_data.append(data.pop(data.index(row)))
     priority_rows = [create_markdown_row(x) for x in priority_data]
     rows = [create_markdown_row(x) for x in data]
     priority_content = "\n\n".join(priority_rows)
@@ -112,7 +109,6 @@ def clean_value(value):
     value = replace_urls_without_domains(value)
     return value
 
-
 def create_df():
     data = load_data()
     attrs = [
@@ -120,8 +116,6 @@ def create_df():
         ('title', 'Title'),
         ('study_design', 'Study Design'),
         ('clinical_specialty', 'Clinical Speciality'),
-        # ('report_section', 'Report Section'),
-        # ('date_last_updated', 'Date Last Updated'),
         ('slug', 'slug'),
     ]
     title_template = '<a href="/'+DIR+'/{slug}">{title}</a>'
@@ -132,7 +126,7 @@ def create_df():
         if row['slug'] in slugs_to_adapt.keys():
             row.update({'slug': slugs_to_adapt[row['slug']]})
         acronym  = row['Acronym']
-        acronym_notranslate = NOTRANSLATE_HTML.format(content=acronym)
+        acronym_notranslate = NOTRANSLATE_MD.format(content=acronym)
         title = row['Title']
         title = title.replace(acronym, acronym_notranslate)
         title = title_template.format(title = title, slug = row['slug'])
@@ -148,7 +142,7 @@ ROW = """
 **{label}**
 :::
 
-::: {{.g-col-12 .g-col-md-8}}
+::: {{.g-col-12 .g-col-md-8 .notranslate}}
 {value}
 :::
 
@@ -157,13 +151,30 @@ ROW = """
 TEMPLATE = """\
 ---
 title: "{title}"
+css: 
+    - ../../css/guidelines.css
 ---
+
+::: {{.hero-banner}}
+::: {{.content-block}}
+::: {{.section}}
 
 ::: {{.grid}}
 
 {priority_content}
+
+:::
+
+:::
+:::
+:::
+
+::: {{.section}}
+::: {{.grid}}
+
 {content}
 
+:::
 :::
 
 """
