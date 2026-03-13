@@ -1,0 +1,30 @@
+<svg version="1.1" preserveAspectRatio="true" viewBox="0 0 1920 2160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract geometric background">
+    <g>
+        <rect x="120" y="360" width="720" height="1152" fill="rgb(0, 133, 63)" opacity="1" transform="skewY(-11)"/>
+        <rect x="200" y="420" width="560" height="12" fill="white" opacity="0.6" transform="skewY(-11)"/>
+        <rect x="200" y="460" width="560" height="12" fill="white" opacity="0.6" transform="skewY(-11)"/>
+        <rect x="200" y="500" width="560" height="12" fill="white" opacity="0.6" transform="skewY(-11)"/>
+        <rect x="200" y="540" width="360" height="12" fill="white" opacity="0.6" transform="skewY(-11)"/>
+        <rect x="1160" y="450" width="620" height="932" fill="rgb(6, 31, 59)" opacity="1" transform="skewY(-11)"/>
+        <rect x="1220" y="510" width="500" height="12" fill="white" opacity="0.6" transform="skewY(-11)"/>
+        <rect x="520" y="520" width="680" height="1088" fill="rgb(141, 189, 245)" opacity="0.6" stroke="white" stroke-width="1.2" transform="skewY(-11)"/>
+        <rect x="1020" y="760" width="600" height="960" fill="rgb(28, 167, 93)" opacity="0.8" transform="skewY(-11)"/>
+
+        <rect x="50" y="880" width="600" height="960" fill="rgb(6, 31, 59)" opacity="1" transform="skewY(-11)"/>
+        <rect x="760" y="1260" width="520" height="832" fill="white" opacity="0.8" stroke="white" stroke-width="1.2" transform="skewY(-11)"/>
+        <rect x="1180" y="980" width="640" height="1024" fill="rgb(67, 130, 202)" opacity="0.8" transform="skewY(-11)"/>
+    </g>
+
+    <circle cx="1660" cy="120" r="110" fill="none" stroke="#c0edd6" stroke-width="5" opacity="0.8"/>
+    <circle cx="1660" cy="120" r="38" fill="#c0edd6" opacity="0.8"/>
+
+    <circle cx="280" cy="540" r="150" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <circle cx="280" cy="540" r="24" fill="#c0edd6" opacity="0.8"/>
+    <circle cx="1500" cy="1080" r="138" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <circle cx="1500" cy="1080" r="26" fill="#c0edd6" opacity="0.8"/>
+    <circle cx="340" cy="1660" r="160" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <circle cx="340" cy="1660" r="28" fill="#c0edd6" opacity="0.8"/>
+
+    <circle cx="1480" cy="640" r="92" fill="none" stroke="#c0edd6" stroke-width="5" opacity="0.8"/>
+    <circle cx="1280" cy="1970" r="110" fill="none" stroke="#c0edd6" stroke-width="5" opacity="0.8"/>
+</svg>
