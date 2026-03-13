@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: _site
   render:
-    - "index*.qmd"
+    - "*.qmd"
   pre-render:
     - filters/create_list_for_notranslate.py
   preview: 

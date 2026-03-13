@@ -1,4 +1,4 @@
-@import "./index3.css";
+@import "./colours.css";
 
 .hero-banner {
     background-color: var(--greenvvl);
@@ -75,4 +75,13 @@ h4 {
 }
 .feature-callout p {
     margin-bottom: 0px;
+}
+.callout.callout-style-simple>div.callout-header {
+    font-size: --var(--bs-body-font-size);
+}
+.callout.callout-style-simple .callout-body {
+    font-size: var(--bs-body-font-size);
+}
+.impact-box {
+    background: var(--greenvvl);
 }
