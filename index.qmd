@@ -92,7 +92,7 @@ guidelines that may better fit your research.]{.lead}
 {{< include _index_table.qmd >}}
 :::
 
-[Search 700+ reporting guidelines](){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .search-shortcut role="button" style="margin: 1rem 0 1rem 0;"}
+[Search 700+ reporting guidelines](/reporting-guidelines){.btn-action-primary .btn-action .btn-primary .btn .btn-lg .search-shortcut role="button" style="margin: 1rem 0 1rem 0;"}
 
 :::: publisher-logos
 Reporting guidelines are widely endorsed by leading medical journals,
@@ -211,9 +211,7 @@ to write, learn, and teach.
 ### Editors
 
 Editors from leading medical journals ask authors to use reporting
-guidelines and check for adherence. \<!-- Read why editors from leading
-medical journals ask authors to use reporting guidelines and how they
-check adherence.
+guidelines and check for adherence.
 :::
 
 ::: {.g-col-md-4 .g-col-12 .card-highlight}
@@ -353,7 +351,7 @@ specialise in training researchers how to write.
 ::: content-block
 ### Ready to use a reporting guideline?
 
-[Search reporting guidelines](){.btn-action-primary .btn-action
+[Search reporting guidelines](/reporting-guidelines){.btn-action-primary .btn-action
 .btn-primary .btn .btn-lg .margin-right-1 .search-shortcut
 role="button"}
 :::
