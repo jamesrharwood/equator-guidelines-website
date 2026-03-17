@@ -10,6 +10,7 @@ DIR = "reporting-guidelines"
 FILE = "guideline_repos/data.csv"
 TRAINING_TEXT = load_string('build/resources/partials/training/default.md')
 NOTRANSLATE_MD = "[{content}]{{class='notranslate'}}"
+NOTRANSLATE_HTML = "<span class='notranslate'>{content}</span>"
 
 slugs_to_ignore = [
     'consort',
@@ -126,7 +127,7 @@ def create_df():
         if row['slug'] in slugs_to_adapt.keys():
             row.update({'slug': slugs_to_adapt[row['slug']]})
         acronym  = row['Acronym']
-        acronym_notranslate = NOTRANSLATE_MD.format(content=acronym)
+        acronym_notranslate = NOTRANSLATE_HTML.format(content=acronym)
         title = row['Title']
         title = title.replace(acronym, acronym_notranslate)
         title = title_template.format(title = title, slug = row['slug'])
