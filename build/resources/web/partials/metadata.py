@@ -97,7 +97,8 @@ class MetadataCreator():
             translations = '\n\n' + '\n* '.join(translations) + '\n\n'
         else:
             translations = translations[0] if translations else ''
-        self.set('translations', translations)  
+        self.set('translations', translations)
+        self.set('translations-bool', bool(translations)) 
 
     def set_items(self):
         items = {}
@@ -142,12 +143,34 @@ class MetadataCreator():
         utm_campaign = version.replace(' ', '_').replace('-', '_')
         self.set('utm_campaign', utm_campaign)
 
+    def set_description(self):
+        acronym = self.get('acronym')
+        definition = self.get('acronym-definition')
+        self.set('description', f"{acronym}: {definition}")
+
+    def set_journal_endorsement_count(self):
+        count = self.get('journal-endorsement-count', None)
+        if count is not None:
+            self.set('journal-endorsement-count', count)
+            self.set('journal-endorsement-count-bool', True)
+
+    def set_citation_count(self):
+        count = self.get('citation-count', None)
+        if count is not None:
+            self.set('citation-count', count)
+            self.set('citation-count-bool', True)
+
+    def set_doi(self):
+        citation = self.metadata.get('citation', {})
+        doi = citation.get('doi', '')
+        self.set('doi', doi)
+        self.set('doi-bool', bool(doi))
+
     def create(self):
         self.copy('title')
         self.copy('acronym')
         self.copy('id')
         self.copy('acronym-definition')
-        self.copy('journal-endorsement-count')
         self.copy('articles')
         self.copy('version')
         self.copy('for-writing')
@@ -158,6 +181,11 @@ class MetadataCreator():
         self.set_authors()
         self.set_bibliographies()
         self.set_utm_campaign()
+        self.set_description()
+        self.set_journal_endorsement_count()
+        self.set_citation_count()
+        self.set_description()
+        self.set_doi()
         return self.metadata
 
 def create_metadata(guideline):
