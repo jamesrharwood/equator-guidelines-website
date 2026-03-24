@@ -281,7 +281,7 @@ table p, table li {
   
   .btn-action {
     min-width: 165px;
-    /* border-radius: 30px; */
+    border-radius: .25rem;
     border: none;
   }
   

@@ -156,6 +156,8 @@ css:
     - ../../css/guidelines.css
 ---
 
+{{{{< include /_index_table_margin.qmd >}}}}
+
 ::: {{.hero-banner}}
 ::: {{.content-block}}
 ::: {{.section}}

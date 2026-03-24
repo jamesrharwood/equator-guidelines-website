@@ -3,10 +3,6 @@
 .hero-banner {
     background-color: var(--greenvvl);
 }
-
-.citations-counter {
-    padding-bottom: 1rem;
-}
 .text-small p {
     font-size: 0.875rem;
     margin-bottom: 5px;
@@ -84,4 +80,27 @@ h4 {
 }
 .impact-box {
     background: var(--greenvvl);
+    border-radius: 0.25rem;;
+}
+.column-margin .rg-table {
+    margin-bottom: 1.25rem;
+    padding: .4em .7em;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+}
+
+.column-margin .rg-table {
+        margin-top: 1rem;
+}
+
+#sec-applicability .column-margin .rg-table {
+        margin-top: 4.7rem;
+}
+
+.column-margin .rg-table table tbody tr td {
+    border: none;
+}
+
+.column-margin .rg-table table {
+    border-style: none;
 }
