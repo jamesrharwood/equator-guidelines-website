@@ -66,7 +66,6 @@ class Guideline:
         self.relative_destination_paths = RelativeDestinationPaths('')
         self.html_paths = HtmlPaths(self.id)
         self.web_paths = WebPaths(self.id)
-        self.doi = self.config['doi']
         self.translations = self.config.get('translations', [])
         self.has_translations = has_translations(self.config)
         self.has_not_use_for = has_text(self.repo_paths.not_use_for)

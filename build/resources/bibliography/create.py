@@ -60,8 +60,8 @@ def create(guideline):
         f"journal={{{citation['container-title']}}}, "
         f"publisher={{{citation.get('publisher', '')}}}, "
         f"author={{{authors}}}, "
-        f"year={{{citation['issued'][0]['year']}}}, "
-        f"month={{{citation['issued'][0]['month']}}}, "
+        f"year={{{citation['issued']['year']}}}, "
+        f"month={{{citation['issued']['month']}}}, "
         f"pages={{{citation['page']}}} "
         "}"
     )

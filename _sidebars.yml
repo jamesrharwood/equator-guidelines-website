@@ -1,5 +1,4 @@
 website:
-  bread-crumbs: false
   sidebar:
   - collapse-level: 2
     contents:
@@ -835,75 +834,6 @@ website:
     style: docked
   - collapse-level: 2
     contents:
-    - href: reporting-guidelines/srqr/index.qmd
-      text: Overview of SRQR
-    - contents:
-      - contents:
-        - href: reporting-guidelines/srqr/items/title.qmd
-          text: Title
-        - href: reporting-guidelines/srqr/items/abstract.qmd
-          text: Abstract
-        section: Title & Abstract
-      - contents:
-        - href: reporting-guidelines/srqr/items/problem-formulation.qmd
-          text: Problem Formulation
-        - href: reporting-guidelines/srqr/items/purpose.qmd
-          text: Purpose or research question
-        section: Introduction
-      - contents:
-        - href: reporting-guidelines/srqr/items/qualitative-approach.qmd
-          text: Qualitative approach and research paradigm
-        - href: reporting-guidelines/srqr/items/researcher-characteristics-and-reflexivity.qmd
-          text: Researcher characteristics and reflexivity
-        - href: reporting-guidelines/srqr/items/context.qmd
-          text: Context
-        - href: reporting-guidelines/srqr/items/sampling-strategy.qmd
-          text: Sampling strategy
-        - href: reporting-guidelines/srqr/items/ethics.qmd
-          text: Ethical issues pertaining to human subjects
-        - href: reporting-guidelines/srqr/items/data-collection-methods.qmd
-          text: Data collection methods
-        - href: reporting-guidelines/srqr/items/data-collection-instruments.qmd
-          text: Data collection instruments and technologies
-        - href: reporting-guidelines/srqr/items/units-of-study.qmd
-          text: Units of study
-        - href: reporting-guidelines/srqr/items/data-processing.qmd
-          text: Data processing
-        - href: reporting-guidelines/srqr/items/data-analysis.qmd
-          text: Data analysis
-        - href: reporting-guidelines/srqr/items/trustworthiness.qmd
-          text: Techniques to enhance trustworthiness
-        section: Methods
-      - contents:
-        - href: reporting-guidelines/srqr/items/synthesis-and-interpretation.qmd
-          text: Synthesis and interpretation
-        - href: reporting-guidelines/srqr/items/links-to-empirical-data.qmd
-          text: Links to empirical data
-        section: Results
-      - contents:
-        - href: reporting-guidelines/srqr/items/integration-with-prior-work.qmd
-          text: Integration with prior work, implications, transferability, and contribution(s)
-            to the field
-        - href: reporting-guidelines/srqr/items/limitations.qmd
-          text: Limitations
-        section: Discussion
-      - contents:
-        - href: reporting-guidelines/srqr/items/conflicts-of-interest.qmd
-          text: Conflicts of interest
-        - href: reporting-guidelines/srqr/items/funding.qmd
-          text: Funding
-        section: Other
-      section: Full guidance
-    - href: reporting-guidelines/srqr/srqr-checklist.docx
-      text: '[Checklist]{.downloadable}'
-    - href: reporting-guidelines/srqr/faqs.qmd
-      text: FAQs
-    foreground: secondary
-    id: srqr
-    search: true
-    style: docked
-  - collapse-level: 2
-    contents:
     - href: reporting-guidelines/arrive/index.qmd
       text: Overview of ARRIVE
     - contents:
@@ -1351,5 +1281,74 @@ website:
       text: FAQs
     foreground: secondary
     id: consort
+    search: true
+    style: docked
+  - collapse-level: 2
+    contents:
+    - href: reporting-guidelines/srqr/index.qmd
+      text: Overview of SRQR
+    - contents:
+      - contents:
+        - href: reporting-guidelines/srqr/items/title.qmd
+          text: Title
+        - href: reporting-guidelines/srqr/items/abstract.qmd
+          text: Abstract
+        section: Title & Abstract
+      - contents:
+        - href: reporting-guidelines/srqr/items/problem-formulation.qmd
+          text: Problem Formulation
+        - href: reporting-guidelines/srqr/items/purpose.qmd
+          text: Purpose or research question
+        section: Introduction
+      - contents:
+        - href: reporting-guidelines/srqr/items/qualitative-approach.qmd
+          text: Qualitative approach and research paradigm
+        - href: reporting-guidelines/srqr/items/researcher-characteristics-and-reflexivity.qmd
+          text: Researcher characteristics and reflexivity
+        - href: reporting-guidelines/srqr/items/context.qmd
+          text: Context
+        - href: reporting-guidelines/srqr/items/sampling-strategy.qmd
+          text: Sampling strategy
+        - href: reporting-guidelines/srqr/items/ethics.qmd
+          text: Ethical issues pertaining to human subjects
+        - href: reporting-guidelines/srqr/items/data-collection-methods.qmd
+          text: Data collection methods
+        - href: reporting-guidelines/srqr/items/data-collection-instruments.qmd
+          text: Data collection instruments and technologies
+        - href: reporting-guidelines/srqr/items/units-of-study.qmd
+          text: Units of study
+        - href: reporting-guidelines/srqr/items/data-processing.qmd
+          text: Data processing
+        - href: reporting-guidelines/srqr/items/data-analysis.qmd
+          text: Data analysis
+        - href: reporting-guidelines/srqr/items/trustworthiness.qmd
+          text: Techniques to enhance trustworthiness
+        section: Methods
+      - contents:
+        - href: reporting-guidelines/srqr/items/synthesis-and-interpretation.qmd
+          text: Synthesis and interpretation
+        - href: reporting-guidelines/srqr/items/links-to-empirical-data.qmd
+          text: Links to empirical data
+        section: Results
+      - contents:
+        - href: reporting-guidelines/srqr/items/integration-with-prior-work.qmd
+          text: Integration with prior work, implications, transferability, and contribution(s)
+            to the field
+        - href: reporting-guidelines/srqr/items/limitations.qmd
+          text: Limitations
+        section: Discussion
+      - contents:
+        - href: reporting-guidelines/srqr/items/conflicts-of-interest.qmd
+          text: Conflicts of interest
+        - href: reporting-guidelines/srqr/items/funding.qmd
+          text: Funding
+        section: Other
+      section: Full guidance
+    - href: reporting-guidelines/srqr/srqr-checklist.docx
+      text: '[Checklist]{.downloadable}'
+    - href: reporting-guidelines/srqr/faqs.qmd
+      text: FAQs
+    foreground: secondary
+    id: srqr
     search: true
     style: docked

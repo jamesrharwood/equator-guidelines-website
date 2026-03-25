@@ -1,5 +1,3 @@
-## Applicability criteria {#sec-applicability}
-
 ::: {.callout-tip icon=false appearance="simple"}
 {{< include partials/use_for.md >}}
 :::

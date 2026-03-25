@@ -17,8 +17,7 @@ website:
   image: "assets/logos/equator_logo.png"
   favicon: "assets/favicons/equator-network-16x16.png"
   search: false 
-    # copy-button: true
-    # show-item-context: false
+  bread-crumbs: false
   navbar:
     background: light
     logo: "assets/logos/equator_oxford_65px.png"
@@ -55,7 +54,6 @@ website:
       - icon: github
         aria-label: EQUATOR GitHub
         href: github
-  bread-crumbs: true
   page-navigation: true
 
 format:
@@ -81,8 +79,8 @@ format:
       - offcanvas.html
     grid:
       sidebar-width: 250px
-      body-width: 900px
-      margin-width: 300px
+      body-width: 800px
+      margin-width: 250px
     link-external-icon: true
     link-external-newwindow: true
 

@@ -1,8 +1,8 @@
 from typing import List
 
 from build.file import save_string
-from . import giscus, metadata, doi, use_for, not_use_for, related_resources,\
-    glossary_offcanvas, glossary_offcanvas_include, how_to_use, why_use, \
+from . import giscus, hero, metadata, use_for, not_use_for, related_resources,\
+    glossary_offcanvas, glossary_offcanvas_include, \
     faqs, summary, item_pages, author_bios, development, metadata_index, training
 from build.guideline.glossary import add_glossary_to_string, wrap_string_with_span
 
@@ -76,9 +76,7 @@ def create_pages(guideline):
 def create_index_page(guideline):
     partials = [
         Partial(metadata_index, None),
-        Partial(why_use, None),
-        Partial(doi, None),
-        Partial(how_to_use, None),
+        Partial(hero, None),
         Partial(use_for, None),
         Partial(not_use_for, 'has_not_use_for'),
         Partial(related_resources, 'has_related_resources'),

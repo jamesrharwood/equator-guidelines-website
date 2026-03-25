@@ -76,7 +76,8 @@ class MetadataCreator():
         #TODO switching to development so all RGs have valid citation info
         if citation:
             for field in ['issued', 'accessed']:
-                data = adjust_date_field(citation.get(field, None))
+                data = citation.get(field, None)
+                # data = adjust_date_field(data)
                 citation.update({field: data})
 
         if not citation:
@@ -162,9 +163,15 @@ class MetadataCreator():
 
     def set_doi(self):
         citation = self.metadata.get('citation', {})
-        doi = citation.get('doi', '')
-        self.set('doi', doi)
+        doi = citation.get('DOI', '')
         self.set('doi-bool', bool(doi))
+
+    def set_citation_year_string(self):
+        citation = self.metadata.get('citation', {})
+        issued = citation.get('issued', {})
+        year = issued.get('year')
+        year = str(year)
+        self.set('citation-year-string', year)
 
     def create(self):
         self.copy('title')
@@ -186,6 +193,7 @@ class MetadataCreator():
         self.set_citation_count()
         self.set_description()
         self.set_doi()
+        self.set_citation_year_string()
         return self.metadata
 
 def create_metadata(guideline):
