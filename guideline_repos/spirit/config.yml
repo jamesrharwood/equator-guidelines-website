@@ -137,7 +137,7 @@ articles:
     DOI: 10.1136/bmj-2024-081477
     ISSN: 1756-1833
     issued:
-      - year: 2025
+        year: 2025
         month: 4
         day: 28
     language: eng
@@ -249,7 +249,7 @@ articles:
     DOI: 10.1136/bmj-2024-081660
     ISSN: 1756-1833
     issued:
-      - year: 2025
+        year: 2025
         month: 4
         day: 28
     language: eng

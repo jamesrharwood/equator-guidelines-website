@@ -37,7 +37,7 @@ articles:
       of information from case reports will inform clinical study design, provide
       early signals of effectiveness and harms, and improve healthcare delivery.
     accessed:
-      - year: 2025
+        year: 2025
         month: 2
         day: 18
     author:
@@ -60,7 +60,7 @@ articles:
     DOI: 10.1136/bcr-2013-201554
     ISSN: 1757-790X
     issued:
-      - year: 2013
+        year: 2013
         month: 10
         day: 23
     language: en

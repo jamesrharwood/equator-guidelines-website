@@ -40,7 +40,7 @@ articles:
       the rigour and transparency of the scientific process and thus
       reproducibility.
     accessed:
-      - year: 2025
+        year: 2025
         month: 2
         day: 18
     author:
@@ -108,7 +108,7 @@ articles:
     ISSN: 1545-7885
     issue: '7'
     issued:
-      - year: 2020
+        year: 2020
         month: 7
         day: 14
     language: en

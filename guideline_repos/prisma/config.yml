@@ -17,7 +17,7 @@ articles:
       Matthew Page and co-authors describe PRISMA 2020, an updated reporting
       guideline for systematic reviews and meta-analyses.
     accessed:
-      - year: 2025
+        year: 2025
         month: 2
         day: 14
     author:
@@ -80,7 +80,7 @@ articles:
     ISSN: 1549-1676
     issue: '3'
     issued:
-      - year: 2021
+        year: 2021
         month: 3
         day: 29
     language: en
@@ -112,7 +112,7 @@ articles:
       of the guideline and lead to more transparent, complete, and accurate
       reporting of systematic reviews.
     accessed:
-      - year: 2025
+        year: 2025
         month: 2
         day: 22
     author:
@@ -174,7 +174,7 @@ articles:
     DOI: 10.1136/bmj.n160
     ISSN: 0959-8138
     issued:
-      - year: 2021
+        year: 2021
         month: 3
         day: 29
     page: n160

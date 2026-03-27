@@ -30,7 +30,7 @@ articles:
       Complete reporting will facilitate study appraisal, model evaluation, and
       model implementation.</p>
     accessed:
-      - year: 2025
+        year: 2025
         month: 2
         day: 18
     author:
@@ -109,7 +109,7 @@ articles:
     DOI: 10.1136/bmj-2023-078378
     ISSN: 1756-1833
     issued:
-      - year: 2024
+        year: 2024
         month: 4
         day: 16
     language: en

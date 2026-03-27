@@ -26,7 +26,7 @@ articles:
       guidance to gauge the completeness and transparency of a systematic review
       protocol submitted for publication in a journal or other medium.
     accessed:
-      - year: 2025
+        year: 2025
         month: 2
         day: 18
     author:
@@ -54,7 +54,7 @@ articles:
     ISSN: 2046-4053
     issue: '1'
     issued:
-      - year: 2015
+        year: 2015
         month: 1
         day: 1
     page: '1'

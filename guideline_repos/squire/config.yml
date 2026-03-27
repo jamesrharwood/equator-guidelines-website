@@ -33,7 +33,7 @@ articles:
       provides common ground to share these discoveries in the scholarly
       literature (http://www.squire-statement.org).
     accessed:
-      - year: 2020
+        year: 2020
         month: 11
         day: 5
     author:
@@ -56,7 +56,7 @@ articles:
     ISSN: 2044-5415, 2044-5423
     issue: '12'
     issued:
-      - year: 2016
+        year: 2016
         month: 12
         day: 1
     language: en

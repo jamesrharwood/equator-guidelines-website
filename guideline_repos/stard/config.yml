@@ -26,7 +26,7 @@ articles:
         the use of STARD. As such, STARD 2015 may help to improve completeness and
         transparency in reporting of diagnostic accuracy studies.</p>
       accessed:
-        - year: 2025
+          year: 2025
           month: 2
           day: 18
       author:
@@ -71,7 +71,7 @@ articles:
       DOI: 10.1136/bmj.h5527
       ISSN: 1756-1833
       issued:
-        - year: 2015
+          year: 2015
           month: 10
           day: 28
       language: en

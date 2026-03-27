@@ -141,7 +141,7 @@ articles:
       2025 when writing and evaluating manuscripts of randomised trials to ensure
       that trial reports are clear and transparent.
     accessed:
-      - year: 2025
+        year: 2025
         month: 4
         day: 30
     author:
@@ -229,7 +229,7 @@ articles:
     DOI: 10.1136/bmj-2024-081123
     ISSN: 0959-8138
     issued:
-      - year: 2025
+        year: 2025
         month: 4
         day: 14
     page: e081123
@@ -265,7 +265,7 @@ articles:
       improve the reporting of their trials and ensure trial reports are complete,
       and transparent.
     accessed:
-      - year: 2025
+        year: 2025
         month: 4
         day: 30
     author:
@@ -353,7 +353,7 @@ articles:
     DOI: 10.1136/bmj-2024-081124
     ISSN: 0959-8138
     issued:
-      - year: 2025
+        year: 2025
         month: 4
         day: 14
     page: e081124

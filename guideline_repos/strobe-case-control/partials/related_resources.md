@@ -1,6 +1,6 @@
 Related reporting guidelines:
 
-There are other versions of STROBE for writing [cohort](/guidelines/strobe-cohort/index.qmd) and [cross-sectional](/guidelines/strobe-cross-sectional/index.qmd) study articles.
+There are other versions of STROBE for writing [cohort](/reporting-guidelines/strobe-cohort/index.qmd) and [cross-sectional](/reporting-guidelines/strobe-cross-sectional/index.qmd) study articles.
 
 For appraising research consider:
 
