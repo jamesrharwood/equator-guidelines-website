@@ -39,52 +39,60 @@ local function is_exact_match(text, start_pos, end_pos)
   return true
 end
 
-if (FORMAT:match("html") and os.getenv("PRODUCTION") == "1") then
+IS_RENDER = os.getenv("IS_RENDER")
+RUN_FILTER = (IS_RENDER == "1")
+print("Run NoTranlate Filter? ", RUN_FILTER, IS_RENDER)
 
-  -- Load patterns immediately and fail if not present
-  load_patterns_or_fail()
+if (RUN_FILTER) then
+  
+  if (FORMAT:match("html")) then
 
-  function Str(el)
-    local text = el.text
-    local inlines = {}
-    local pos = 1
-    local len = #text
+    -- Load patterns immediately and fail if not present
+    load_patterns_or_fail()
 
-    while pos <= len do
-      local best_s, best_e, best_match = nil, nil, nil
+    function Str(el)
+      local text = el.text
+      local inlines = {}
+      local pos = 1
+      local len = #text
 
-      for _, pat in ipairs(patterns) do
-        local s, e = text:find(pat, pos, true) -- plain literal match
-        if s and is_exact_match(text, s, e) then
-          if (not best_s) or s < best_s then
-            best_s = s
-            best_e = e
-            best_match = text:sub(s, e)
+      while pos <= len do
+        local best_s, best_e, best_match = nil, nil, nil
+
+        for _, pat in ipairs(patterns) do
+          local s, e = text:find(pat, pos, true) -- plain literal match
+          if s and is_exact_match(text, s, e) then
+            if (not best_s) or s < best_s then
+              best_s = s
+              best_e = e
+              best_match = text:sub(s, e)
+            end
           end
         end
+
+        if not best_s then
+          table.insert(inlines, pandoc.Str(text:sub(pos)))
+          break
+        end
+
+        if best_s > pos then
+          table.insert(inlines, pandoc.Str(text:sub(pos, best_s - 1)))
+        end
+
+        -- Insert Pandoc Span with class "notranslate"
+        local span = pandoc.Span(
+          { pandoc.Str(best_match) },
+          pandoc.Attr("", { "notranslate" }, {})
+        )
+
+        table.insert(inlines, span)
+
+        pos = best_e + 1
       end
 
-      if not best_s then
-        table.insert(inlines, pandoc.Str(text:sub(pos)))
-        break
-      end
-
-      if best_s > pos then
-        table.insert(inlines, pandoc.Str(text:sub(pos, best_s - 1)))
-      end
-
-      -- Insert Pandoc Span with class "notranslate"
-      local span = pandoc.Span(
-        { pandoc.Str(best_match) },
-        pandoc.Attr("", { "notranslate" }, {})
-      )
-
-      table.insert(inlines, span)
-
-      pos = best_e + 1
+      return inlines
     end
 
-    return inlines
   end
 
 end
