@@ -311,8 +311,8 @@
     ]
   },
   {
-    "objectID": "reporting-guidelines/strobe/index.html#sec-applicability",
-    "href": "reporting-guidelines/strobe/index.html#sec-applicability",
+    "objectID": "reporting-guidelines/strobe/index.html#applicability",
+    "href": "reporting-guidelines/strobe/index.html#applicability",
     "title": "The STROBE reporting guideline for writing up observational studies in epidemiology",
     "section": "Applicability criteria",
     "text": "Applicability criteria\n\n\nCommonly used reporting guidelines\n\n\n\n\n\n\n\nSTROBE\nObservational Studies\n\n\nPRISMA\nSystematic reviews of trials\n\n\nPRISMA-P\nSystematic review protocols\n\n\nCONSORT\nRandomised trials\n\n\nSPIRIT\nRandomised trial protocols\n\n\nSRQR\nQualitative Research\n\n\nCARE\nCase Reports\n\n\nSTARD\nDiagnostic studies\n\n\nTRIPOD+AI\nPrediction Models\n\n\nARRIVE\nAnimal Research\n\n\nSQUIRE\nQuality Improvement\n\n\nCHEERS\nEconomic Evaluations\n\n\n\nSearch all\n\n\n\n\n\n\n\n\n\nSTROBE provides general reporting recommendations for writing up observational studies in epidemiology, including descriptive observational studies and studies that investigate associations between exposures and health outcomes.\nSTROBE addresses the three main types of observational studies:\n\ncohort studies (sometimes called ‘follow-up studies’ and ‘longitudinal studies’),\ncase-control studies; and\ncross-sectional studies (sometimes called ‘prevalence studies’).",
@@ -505,8 +505,8 @@
     ]
   },
   {
-    "objectID": "reporting-guidelines/srqr/index.html#sec-applicability",
-    "href": "reporting-guidelines/srqr/index.html#sec-applicability",
+    "objectID": "reporting-guidelines/srqr/index.html#applicability",
+    "href": "reporting-guidelines/srqr/index.html#applicability",
     "title": "SRQR reporting guideline for writing qualitative research articles",
     "section": "Applicability criteria",
     "text": "Applicability criteria\n\n\nCommonly used reporting guidelines\n\n\n\n\n\n\n\nSTROBE\nObservational Studies\n\n\nPRISMA\nSystematic reviews of trials\n\n\nPRISMA-P\nSystematic review protocols\n\n\nCONSORT\nRandomised trials\n\n\nSPIRIT\nRandomised trial protocols\n\n\nSRQR\nQualitative Research\n\n\nCARE\nCase Reports\n\n\nSTARD\nDiagnostic studies\n\n\nTRIPOD+AI\nPrediction Models\n\n\nARRIVE\nAnimal Research\n\n\nSQUIRE\nQuality Improvement\n\n\nCHEERS\nEconomic Evaluations\n\n\n\nSearch all\n\n\n\n\n\n\n\n\n\nUse SRQR for writing qualitative research articles. You can use it when describing all kinds of qualitative approaches, methods, and designs.\n\n\nYou can also use this guideline for:\n\nwriting proposals or protocols (use the items within the Introduction and Method sections).\nreviewing the reporting of an article, but not for appraising its quality.\n\n\n\n\n\n\n\n\n\n\n\nDo not use SRQR for:\n\nwriting a qualitative evidence synthesis, use ENTREQ instead.\nappraising the quality of qualitative research, use an appraisal tool like CASP-Qual instead. \n\n\n\n\n\n\n\n\n\n\nRelated reporting guidelines:\n\nJARS Qual for writing qualitative, psychology manuscripts\nENTREQ for writing qualitative evidence syntheses\nFor writing studies involving interviews or focus groups, you can use this guideline or COREQ. \n\nFor appraising research consider:\n\nCASP-Qual",
@@ -2904,8 +2904,8 @@
     ]
   },
   {
-    "objectID": "reporting-guidelines/arrive/index.html#sec-applicability",
-    "href": "reporting-guidelines/arrive/index.html#sec-applicability",
+    "objectID": "reporting-guidelines/arrive/index.html#applicability",
+    "href": "reporting-guidelines/arrive/index.html#applicability",
     "title": "The ARRIVE reporting guideline for writing animal research articles",
     "section": "Applicability criteria",
     "text": "Applicability criteria\n\n\nCommonly used reporting guidelines\n\n\n\n\n\n\n\nSTROBE\nObservational Studies\n\n\nPRISMA\nSystematic reviews of trials\n\n\nPRISMA-P\nSystematic review protocols\n\n\nCONSORT\nRandomised trials\n\n\nSPIRIT\nRandomised trial protocols\n\n\nSRQR\nQualitative Research\n\n\nCARE\nCase Reports\n\n\nSTARD\nDiagnostic studies\n\n\nTRIPOD+AI\nPrediction Models\n\n\nARRIVE\nAnimal Research\n\n\nSQUIRE\nQuality Improvement\n\n\nCHEERS\nEconomic Evaluations\n\n\n\nSearch all\n\n\n\n\n\n\n\n\n\nUse ARRIVE for writing an article describing an experimental animal research study conducted in a laboratory\nYou can also use ARRIVE for:\n\ndescribing in vivo animal research that wasn’t experimental (i.e. animals were not randomly assigned to groups) but you will need to adapt items #TODO \nwriting an experimental animal research study protocol (use the items in the Introduction and Methods sections)\nto apply for funding, or register the protocol or to apply for ethics approval (use the items in the Introduction and Methods sections)\nreviewing the reporting of an animal research study, but not for appraising the quality of its design.\n\n\n\n\n\n\n\n\n\n\nDo not use ARRIVE for:\n\nwriting up studies in livestock and food research, or research on wildlife or pets. Use guidelines found on the Meridian website instead\nappraising the quality of an animal research article, use the Critical Appraisal of Studies Using Laboratory Animal Models instead.",
@@ -3021,8 +3021,8 @@
     ]
   },
   {
-    "objectID": "reporting-guidelines/care/index.html#sec-applicability",
-    "href": "reporting-guidelines/care/index.html#sec-applicability",
+    "objectID": "reporting-guidelines/care/index.html#applicability",
+    "href": "reporting-guidelines/care/index.html#applicability",
     "title": "The CARE reporting guideline for writing clinical case report articles",
     "section": "Applicability criteria",
     "text": "Applicability criteria\n\n\nCommonly used reporting guidelines\n\n\n\n\n\n\n\nSTROBE\nObservational Studies\n\n\nPRISMA\nSystematic reviews of trials\n\n\nPRISMA-P\nSystematic review protocols\n\n\nCONSORT\nRandomised trials\n\n\nSPIRIT\nRandomised trial protocols\n\n\nSRQR\nQualitative Research\n\n\nCARE\nCase Reports\n\n\nSTARD\nDiagnostic studies\n\n\nTRIPOD+AI\nPrediction Models\n\n\nARRIVE\nAnimal Research\n\n\nSQUIRE\nQuality Improvement\n\n\nCHEERS\nEconomic Evaluations\n\n\n\nSearch all\n\n\n\n\n\n\n\n\n\nUse CARE for writing case reports, i.e., for describing a medical problem experienced by one or more patients for medical, scientific or educational purposes.\nYou can also use CARE for:\n\nwriting a fictional clinical case study for educational purposes,\nreviewing the reporting of a case report, but not for appraising its quality\n\n\n\n\n\n\n\n\n\n\nDo not use CARE for:\n\nwriting an article about surgical cases, use SCARE instead.",
@@ -3299,8 +3299,8 @@
     ]
   },
   {
-    "objectID": "reporting-guidelines/consort/index.html#sec-applicability",
-    "href": "reporting-guidelines/consort/index.html#sec-applicability",
+    "objectID": "reporting-guidelines/consort/index.html#applicability",
+    "href": "reporting-guidelines/consort/index.html#applicability",
     "title": "CONSORT reporting guideline for writing clinical trial research articles",
     "section": "Applicability criteria",
     "text": "Applicability criteria\n\n\nCommonly used reporting guidelines\n\n\n\n\n\n\n\nSTROBE\nObservational Studies\n\n\nPRISMA\nSystematic reviews of trials\n\n\nPRISMA-P\nSystematic review protocols\n\n\nCONSORT\nRandomised trials\n\n\nSPIRIT\nRandomised trial protocols\n\n\nSRQR\nQualitative Research\n\n\nCARE\nCase Reports\n\n\nSTARD\nDiagnostic studies\n\n\nTRIPOD+AI\nPrediction Models\n\n\nARRIVE\nAnimal Research\n\n\nSQUIRE\nQuality Improvement\n\n\nCHEERS\nEconomic Evaluations\n\n\n\nSearch all\n\n\n\n\n\n\n\n\n\nYou can use this reporting guideline if you are writing a report of a trial where participants have been randomly assigned to one or more groups receiving a healthcare treatment or treatments being tested, or to a comparison group (control group) receiving usual care, a placebo, or no treatment. \nYou can also use this reporting guideline to:\n\nwrite up trials of other types of (non healthcare) interventions if group allocation is randomised. \nreview the reporting of a randomized, controlled trial article, but not for appraising the quality of its design or conduct.\n\n\n\n\n\n\n\n\n\n\nDo not use CONSORT if you are:\n\nwriting an observational research article, use STROBE instead.\nwriting a proposal or protocol for a trial, use SPIRIT instead.\nappraising the quality of a randomised trial, use an appraisal tool like the CASP Randomised Controlled Trial Checklist\n\n\n\n\n\n\n\n\n\n\nUse TREND if you are writing a report of a nonrandomized evaluation of behavioral and public health interventions.\nThere are several extensions to CONSORT which should be used in addition to the generic guideline, these include:\n\nCONSORT for abstracts,\nCONSORT harms,\nCONSORT outcomes,\nTIDieR for intervention description,\nCONSORT for social and psychological interventions,\nCONSORT for non pharmocological interventions,\nCONSORT for pragmatic trials.\n\nFor appraising the quality of a study’s design or conduct, consider an appraisal tool like the CASP Randomised Controlled Trial Checklist",
@@ -4200,8 +4200,8 @@
     ]
   },
   {
-    "objectID": "reporting-guidelines/prisma/index.html#sec-applicability",
-    "href": "reporting-guidelines/prisma/index.html#sec-applicability",
+    "objectID": "reporting-guidelines/prisma/index.html#applicability",
+    "href": "reporting-guidelines/prisma/index.html#applicability",
     "title": "The PRISMA 2020 reporting guideline for writing a systematic review and meta-analysis",
     "section": "Applicability criteria",
     "text": "Applicability criteria\n\n\nCommonly used reporting guidelines\n\n\n\n\n\n\n\nSTROBE\nObservational Studies\n\n\nPRISMA\nSystematic reviews of trials\n\n\nPRISMA-P\nSystematic review protocols\n\n\nCONSORT\nRandomised trials\n\n\nSPIRIT\nRandomised trial protocols\n\n\nSRQR\nQualitative Research\n\n\nCARE\nCase Reports\n\n\nSTARD\nDiagnostic studies\n\n\nTRIPOD+AI\nPrediction Models\n\n\nARRIVE\nAnimal Research\n\n\nSQUIRE\nQuality Improvement\n\n\nCHEERS\nEconomic Evaluations\n\n\n\nSearch all\n\n\n\n\n\n\n\n\n\nYou can use PRISMA 2020 if you are writing a systematic review of studies that evaluate the effects of health interventions, irrespective of the design of the included studies.\nYou can use this reporting guideline regardless of whether your systematic review included a synthesis (such as pairwise meta-analysis or other statistical synthesis methods) or not (for example, because only one eligible study is identified).\nMany of the items are also applicable to:\n\nwriting systematic reviews evaluating other kinds of interventions (such as social or educational interventions)\nsystematic reviews with objectives other than evaluating interventions (such as evaluating aetiology, prevalence, or prognosis).\n\nYou can also use this reporting guideline to review the reporting of a systematic review, but not for appraising the quality of its design or conduct.\n\n\n\n\n\n\n\n\n\nDo not use PRISMA 2020 for:\n\nwriting a synthesis of observational research, use MOOSE instead.\nwhen writing a synthesis of purely qualitative studies, use ENTREQ instead.\nwriting a meta-ethnography study, use eMERGe instead\nwriting a proposal or protocol for a systematic review, use PRISMA-P instead.\nappraising the quality of a systematic review, use an appraisal tool like the CASP Checklist: Systematic Reviews with Meta-Analysis of Randomised Controlled Trials (RCTs)\n\n\n\n\n\n\n\n\n\n\nThere are several extensions which can be used in addition to PRISMA , these include:\n\nPRISMA Harms, for describing adverse events\nPRISMA Search, for describing systematic literature searches\nPRISMA for Network Meta-analyses\n\nOther reporting guidelines for different types of systematic review should be used instead of PRISMA, including:\n\nPRISMA-Lsr for writing living systematic reviews\nPRISMA-Scr for writing systematic scoping reviews\nPRISMA-Dta for writing systematic reviews of diagnostic test accuracy studies\nPRISMA-Ipd for writing systematic reviews using individual participant data\n\nFor appraising research, consider using the CASP Systematic Reviews with Meta-Analysis of RCTs Checklist",
@@ -4772,8 +4772,8 @@
     ]
   },
   {
-    "objectID": "reporting-guidelines/squire/index.html#sec-applicability",
-    "href": "reporting-guidelines/squire/index.html#sec-applicability",
+    "objectID": "reporting-guidelines/squire/index.html#applicability",
+    "href": "reporting-guidelines/squire/index.html#applicability",
     "title": "The SQUIRE reporting guideline for writing health services quality improvement research articles",
     "section": "Applicability criteria",
     "text": "Applicability criteria\n\n\nCommonly used reporting guidelines\n\n\n\n\n\n\n\nSTROBE\nObservational Studies\n\n\nPRISMA\nSystematic reviews of trials\n\n\nPRISMA-P\nSystematic review protocols\n\n\nCONSORT\nRandomised trials\n\n\nSPIRIT\nRandomised trial protocols\n\n\nSRQR\nQualitative Research\n\n\nCARE\nCase Reports\n\n\nSTARD\nDiagnostic studies\n\n\nTRIPOD+AI\nPrediction Models\n\n\nARRIVE\nAnimal Research\n\n\nSQUIRE\nQuality Improvement\n\n\nCHEERS\nEconomic Evaluations\n\n\n\nSearch all\n\n\n\n\n\n\n\n\n\nUse SQUIRE for writing an article describing system level work to improve the quality, safety, and value of healthcare, and uses methods to establish that observed outcomes were due to the intervention(s). SQUIRE applies to the reporting of qualitative and quantitative evaluations of the nature and impact of interventions intended to improve healthcare, with the understanding that the guidelines may be adapted as needed for specific situations.\nYou can also use SQUIRE for:\n\nwriting a protocol to test interventions to improve quality, safety and value of healthcare (use the items in the Introduction and Methods sections)\nyou’re reviewing the reporting of a study of quality improvement research, but not for appraising its design or conduct\n\n\n\n\n\n\n\n\n\n\nDo not use SQUIRE for:\n\nwriting an article about quality improvement in medical education, use SQUIRE-EDU instead.\nwriting an article about studies of implementation of healthcare improvement interventions, use STARI instead.",
@@ -4924,8 +4924,8 @@
     ]
   },
   {
-    "objectID": "reporting-guidelines/stard/index.html#sec-applicability",
-    "href": "reporting-guidelines/stard/index.html#sec-applicability",
+    "objectID": "reporting-guidelines/stard/index.html#applicability",
+    "href": "reporting-guidelines/stard/index.html#applicability",
     "title": "The STARD reporting guideline for writing diagnostic accuracy study articles",
     "section": "Applicability criteria",
     "text": "Applicability criteria\n\n\nCommonly used reporting guidelines\n\n\n\n\n\n\n\nSTROBE\nObservational Studies\n\n\nPRISMA\nSystematic reviews of trials\n\n\nPRISMA-P\nSystematic review protocols\n\n\nCONSORT\nRandomised trials\n\n\nSPIRIT\nRandomised trial protocols\n\n\nSRQR\nQualitative Research\n\n\nCARE\nCase Reports\n\n\nSTARD\nDiagnostic studies\n\n\nTRIPOD+AI\nPrediction Models\n\n\nARRIVE\nAnimal Research\n\n\nSQUIRE\nQuality Improvement\n\n\nCHEERS\nEconomic Evaluations\n\n\n\nSearch all\n\n\n\n\n\n\n\n\n\nYou can use STARD if you are writing up a study which evaluates a diagnostic test against a clinical reference standard, or a gold standard.\n\nYou can also it to:\n\nwrite a proposal or protocol for a diagnostic accuracy study (use the items within the Introduction and Method sections).\nreview the reporting of a diagnostic accuracy study article, but not to appraise the quality of its design or conduct.\n\n\n\n\n\n\n\n\n\n\nDo not use STARD for appraising the quality of a diagnostic accuracy study. Use an appraisal tool like CASP Diagnostic Study Checklist or QUADAS2 instead.\n\n\n\n\n\n\n\n\n\n\nSTARD for abstracts\nSTARDdem for reporting diagnostic accuracy studies in dementia",
