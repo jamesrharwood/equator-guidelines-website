@@ -2,19 +2,18 @@
 {{< include /build/resources/web/partials/_how_to_use_accordian.qmd >}}
 
 ::: {.grid #resources}
-::: { .g-col-12 .g-col-md-8}
-[Full Guidance](#summary){#citation .btn .btn-primary .btn-action .btn-lg .width-100 type="button"}
+::: { .g-col-12 .g-col-md-7}
+[Full Guidance](#summary){.btn .btn-primary .btn-action .btn-lg .width-100 type="button"}
 
-[Applicability Criteria](#applicability-criteria){#citation .btn .btn-secondary .btn-action .btn-lg .width-100 type="button"}
+[Applicability Criteria](#applicability){.btn .btn-secondary .btn-action .btn-lg .width-100 type="button"}
 
-[Checklist ⤓]({{< meta paths.qmd.checklist >}}){#checklist .btn .btn-secondary .btn-action .btn-lg .width-100 type="button"}
+[Checklist ⤓](/{{< meta paths.qmd.checklist >}}){#checklist .btn .btn-secondary .btn-action .btn-lg .width-100 type="button"}
 
-[Citation](#citation){#citation .btn .btn-secondary .btn-action .btn-lg .width-100 type="button"}
-
+[Citation](#citation){#citation-button .btn .btn-secondary .btn-action .btn-lg .width-100 type="button"}
 
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-5}
  
 ::: {.impact-box}
 ::: {.content-block}
@@ -27,7 +26,7 @@ Translations: {{< meta translations >}}
 :::
 
 
-::: {.content-hidden unless-meta="citation-count-bool doi-bool"}
+::: {.content-hidden unless-meta="citation-count-bool"}
 Articles citing {{< meta acronym >}}: [{{< meta citation-count >}}](https://dimensions.ai/details/publication/doi/{{< meta citation.DOI >}})
 :::
 
@@ -42,6 +41,6 @@ Journals endorsing {{< meta acronym >}}: [{{< meta journal-endorsement-count >}}
 
 :::
 
-## Applicability criteria {#sec-applicability}
+## Applicability criteria {#applicability}
 
 {{< include /_index_table_margin.qmd >}}

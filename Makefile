@@ -4,7 +4,11 @@ preview:
 	quarto preview
 publish: render
 	quarto publish gh-pages --no-render
+publish-only:
+	quarto publish gh-pages --no-render
 render: create-list-for-notranslate create-from-import create-hosted-rgs
+	IS_RENDER="1" quarto render
+render-only:
 	IS_RENDER="1" quarto render
 test:
 	echo "Running unit tests"
@@ -26,8 +30,3 @@ create-hosted-rgs:
 	make create guideline=consort
 create:
 	python -m build.create_resources $(guideline)
-
-
-
-Move pre render script to a make command 
-Make sure notranslates are wrapping properly

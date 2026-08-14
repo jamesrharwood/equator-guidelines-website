@@ -74,11 +74,6 @@ class MetadataCreator():
         if citation:
             citation = deepcopy(citation)
         #TODO switching to development so all RGs have valid citation info
-        if citation:
-            for field in ['issued', 'accessed']:
-                data = citation.get(field, None)
-                # data = adjust_date_field(data)
-                citation.update({field: data})
 
         if not citation:
             citation = self.guideline.config.get('citation', {})

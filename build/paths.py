@@ -75,6 +75,7 @@ class WebPaths(DestinationPaths):
 
     def __init__(self, dirname):
         super().__init__(dirname)
+        # self.dir = '/'+self.dir
         self.index = join(self.dir, 'index.qmd')
         self.summary = join(self.dir, 'summary.qmd')
         self.items_dir = self.items_dir

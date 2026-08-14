@@ -22,6 +22,11 @@ listing:
                 Professor Doug Altman was Professor of Statistics in Medicine at the University of Oxford, UK and founder of the Centre for Statistics in Medicine. He was a co-founder of the EQUATOR Network, chair of the EQUATOR Steering Group, and Founding Director of the UK EQUATOR Centre.
 
                 Doug published over 800 articles in peer-reviewed journals, including many aimed at clarifying statistical methods and ideas for medical researchers. He was the author of Practical Statistics for Medical Research (1991) and co-editor of Statistics with Confidence (1989 and 2000) and Systematic Reviews in Health Care (1995 and 2001). He was a statistical advisor to the Cochrane Collaboration and the BMJ. Doug had a long-standing interest in the reporting of medical research and was an executive member of several groups working on reporting guidelines, including CONSORT for randomised trials, QUOROM / PRISMA for systematic reviews, STROBE for epidemiological studies, and REMARK for tumour marker prognostic studies.
+        -   title: James Harwood
+            subtitle: Postdoctoral Research Fellow
+            image: /assets/images/staff/JHarwood-300.webp
+            path: https://www.ndorms.ox.ac.uk/team/james-harwood
+            description: James an implementation scientist at Oxford University working to improve the uptake of meta–science interventions that promote quality and transparency in healthcare research. As a member of UK EQUATOR he is developing this website as a platform for disseminating reporting guidelines. This work builds upon his previous research which used behaviour change theory to understand why researchers do not adhere to reporting guidelines, and to identify ways to increase adherence. He often uses mixed-methods and draws upon his pre-DPhil experience as a software developer.
         -   title: Jennifer de Beyer
             subtitle: Publication & Dissemination Specialist
             image: /assets/images/staff/Jen-de-Beyer.webp
@@ -35,22 +40,19 @@ listing:
             description: |
                 At the Centre for Statistics in Medicine, Dr Paula Dhiman investigates how medical research is done, focusing on the methodological conduct and reporting of non-randomised research, with a view to helping improve the quality and integrity of future research. This is known as meta-research or “research on research”. Paula is passionate about statistical methodology and observational research and is particularly interested in prognostic/risk modelling.
 
-                Much of her work experience has been as a medical statistician within Primary Care at the University of Nottingham, where she was awarded a PhD in Medical Statistics (Primary Care) in 2015. More recently, she worked as an advisor for the Research Design Service (East Midlands), helping researchers and clinicians apply for funding for their research through study design, and grant writing.
-        -   title: James Harwood
-            subtitle: Postdoctoral Research Fellow
-            path: https://www.ndorms.ox.ac.uk/team/james-harwood
-            description: Before joining EQUATOR in 2020 James was a software developer, making tools to help researchers prepare journal submissions. His research uses behaviour change theory to help researchers use reporting guidelines.
-
 ---
 
-The UK EQUATOR Centre, based at the Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences (NDORMS), University of Oxford, focuses on national activities aimed at raising awareness and supporting the adoption of good research reporting practices. The Centre works with partner organisations and initiatives and contributes to the work of the EQUATOR Network as a whole. The UK EQUATOR Centre is also the head office of the EQUATOR Network.
+The UK EQUATOR Centre is run by Professor Gary Collins and has members at the University of Birmingham and the University of Oxford. The UK Centre is the head office of the EQUATOR Network. The Centre works with partner organisations and initiatives and contributes to the work of the EQUATOR Network as a whole. 
 
-Our work focuses on:
+The UK EQUATOR Centre's work includes:
 
-* Development and maintenance of online resources.
+* Development and maintenance of the EQUATOR Network website and resources.
+* Maintaining the world's only comprehensive database of reporting guidelines.
 * [Education and training](../training.qmd). Organising workshops, courses, seminars, conferences for researchers, research students, editors and peer reviewers.
 * Collaborative activities to raise reporting standards.
-* Research into oncology research: Assessment of methodology issues and development of resources for researchers, editors and reviewers.
+* Developing new reporting guidelines.
+* Implementation research to increase adherence to reporting guidelines.
+
 
 ## Staff
 

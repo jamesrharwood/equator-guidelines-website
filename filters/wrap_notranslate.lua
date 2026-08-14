@@ -41,7 +41,7 @@ end
 
 IS_RENDER = os.getenv("IS_RENDER")
 RUN_FILTER = (IS_RENDER == "1")
-print("Run NoTranlate Filter? ", RUN_FILTER, IS_RENDER)
+print("Run NoTranslate Filter? ", RUN_FILTER, IS_RENDER)
 
 if (RUN_FILTER) then
   
